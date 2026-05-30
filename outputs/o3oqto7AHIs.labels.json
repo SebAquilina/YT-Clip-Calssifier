@@ -195,432 +195,432 @@
   "window": 24,
   "start": 191.08,
   "end": 199.04,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'up yt hy 4 yy Sie Ten wi put on te stop wks'."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 25,
   "start": 199.04,
   "end": 207.0,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in trays."
  },
  {
   "window": 26,
   "start": 207.0,
   "end": 214.96,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax / mixer in the workshop."
  },
  {
   "window": 27,
   "start": 214.96,
   "end": 222.92,
   "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "confidence": 0.45,
+  "description": "Molten wax / mixer in the workshop."
  },
  {
   "window": 28,
   "start": 222.92,
   "end": 230.88,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 29,
   "start": 230.88,
   "end": 238.85,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the moulds."
  },
  {
   "window": 30,
   "start": 238.85,
   "end": 246.81,
   "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "confidence": 0.45,
+  "description": "Molten wax / mixer in the workshop."
  },
  {
   "window": 31,
   "start": 246.81,
   "end": 254.77,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in trays."
  },
  {
   "window": 32,
   "start": 254.77,
   "end": 262.73,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 oe ae mat tocomtarthewek asbestos possbie'."
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the moulds."
  },
  {
   "window": 33,
   "start": 262.73,
   "end": 270.69,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in trays."
  },
  {
   "window": 34,
   "start": 270.69,
   "end": 278.65,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 35,
   "start": 278.65,
   "end": 286.62,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ah hae vi. 6 ie icdd os Because itis straight andeentedID, Itwillpumithe entiriwax No skte will Ph mete fie other.'."
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in trays."
  },
  {
   "window": 36,
   "start": 286.62,
   "end": 294.58,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in trays."
  },
  {
   "window": 37,
   "start": 294.58,
   "end": 302.54,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 38,
   "start": 302.54,
   "end": 310.5,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 39,
   "start": 310.5,
   "end": 318.46,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 40,
   "start": 318.46,
   "end": 326.42,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Brand-history / b-roll insert."
  },
  {
   "window": 41,
   "start": 326.42,
   "end": 334.38,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 42,
   "start": 334.38,
   "end": 342.35,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sey, Dee ae 4 aa NY 7. Neyerthels they remain fili-sealeraproductions of busts'."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 43,
   "start": 342.35,
   "end": 350.31,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Brand-history / b-roll insert."
  },
  {
   "window": 44,
   "start": 350.31,
   "end": 358.27,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 45,
   "start": 358.27,
   "end": 366.23,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 46,
   "start": 366.23,
   "end": 374.19,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 47,
   "start": 374.19,
   "end": 382.15,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 48,
   "start": 382.15,
   "end": 390.12,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee et ae ie pom were ghd hing'."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 49,
   "start": 390.12,
   "end": 398.08,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 50,
   "start": 398.08,
   "end": 406.04,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ot ieee all oo ae aly as OE 2 ae Sane et Ss ms SS Magi od es oa'."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 51,
   "start": 406.04,
   "end": 414.0,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 52,
   "start": 414.0,
   "end": 421.96,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 53,
   "start": 421.96,
   "end": 429.92,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 54,
   "start": 429.92,
   "end": 437.88,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished luxury candle / sculpted bust shown."
  },
  {
   "window": 55,
   "start": 437.88,
   "end": 445.85,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'kes: par mi. er 7 4 iret wor es stn sone'."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 56,
   "start": 445.85,
   "end": 453.81,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 57,
   "start": 453.81,
   "end": 461.77,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 58,
   "start": 461.77,
   "end": 469.73,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Pouring wax into the luxury candle vessels."
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished luxury candle / sculpted bust shown."
  },
  {
   "window": 59,
   "start": 469.73,
   "end": 477.69,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 60,
   "start": 477.69,
   "end": 485.65,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished luxury candle / sculpted bust shown."
  },
  {
   "window": 61,
   "start": 485.65,
   "end": 493.62,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 4 7 2 Vi 4 At det 7 We have to evaluate the candies every four hours. ew'."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 62,
   "start": 493.62,
   "end": 501.58,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 63,
   "start": 501.58,
   "end": 509.54,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Maite Som fe, we are going televalua'."
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished luxury candle / sculpted bust shown."
  },
  {
   "window": 64,
   "start": 509.54,
   "end": 517.5,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 65,
   "start": 517.5,
   "end": 525.46,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 66,
   "start": 525.46,
   "end": 533.42,
-  "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tT tal can ae Dm rercora snanecprosee chides olfactory aicelisationattnmnsine ws'."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 67,
   "start": 533.42,
   "end": 541.38,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 68,
   "start": 541.38,
   "end": 549.35,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles / glasswork shown."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 69,
   "start": 549.35,
   "end": 557.31,
-  "label": "melt_wax",
-  "confidence": 0.4,
-  "description": "Factory: molten wax processed."
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished luxury candle / sculpted bust shown."
  },
  {
   "window": 70,
   "start": 557.31,
   "end": 565.27,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles shown."
+  "confidence": 0.45,
+  "description": "Finished luxury candle / sculpted bust shown."
  },
  {
   "window": 71,
   "start": 565.27,
   "end": 573.23,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles shown."
+  "confidence": 0.45,
+  "description": "Finished luxury candle / sculpted bust shown."
  },
  {
   "window": 72,
   "start": 573.23,
   "end": 581.19,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 73,
   "start": 581.19,
   "end": 589.15,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles shown."
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/expert interview segment."
  },
  {
   "window": 74,
   "start": 589.15,
   "end": 597.12,
-  "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mm SES ww 0 for has been done to bring it to fife'."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 75,
   "start": 597.12,
   "end": 605.08,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Workshop: sculpting/finishing the wax candles & busts."
  },
  {
   "window": 76,
   "start": 605.08,
   "end": 613.04,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles shown."
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "End credits."
  },
  {
   "window": 77,
   "start": 613.04,
   "end": 621.0,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished luxury candles shown."
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "End credits."
  }
 ]

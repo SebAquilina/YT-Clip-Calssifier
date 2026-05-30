@@ -2,7 +2,7 @@
 
 - **Video:** [T5dzL3dyfeU](https://www.youtube.com/watch?v=T5dzL3dyfeU)
 - **Duration:** 10:43  (643s)
-- **Source:** storyboard  |  **Windows:** 80  |  **Segments:** 16
+- **Source:** storyboard  |  **Windows:** 80  |  **Segments:** 21
 
 ## Action segments (merged)
 
@@ -22,8 +22,13 @@
 | 12 | 1:44–1:53 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
 | 13 | 1:53–2:01 | 8s | `decorate_finish` | finish | ✓ | 0.45 |
 | 14 | 2:01–2:09 | 8s | `measure_wax` | prep | ✓ | 0.40 |
-| 15 | 2:09–9:07 | 418s | `transition` | aux |  | 0.41 |
-| 16 | 9:07–10:43 | 96s | `outro_cta` | aux |  | 0.50 |
+| 15 | 2:09–3:13 | 64s | `transition` | aux |  | 0.40 |
+| 16 | 3:13–3:37 | 24s | `prepare_container` | prep | ✓ | 0.50 |
+| 17 | 3:37–3:53 | 16s | `gather_materials` | prep | ✓ | 0.50 |
+| 18 | 3:53–5:05 | 72s | `transition` | aux |  | 0.60 |
+| 19 | 5:05–5:22 | 16s | `pour_wax` | assemble | ✓ | 0.50 |
+| 20 | 5:22–9:39 | 257s | `transition` | aux |  | 0.60 |
+| 21 | 9:39–10:43 | 64s | `outro_cta` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -53,59 +58,59 @@
 | W21 | 2:49–2:57 | `transition` | 0.40 |  |
 | W22 | 2:57–3:05 | `transition` | 0.40 |  |
 | W23 | 3:05–3:13 | `transition` | 0.40 |  |
-| W24 | 3:13–3:21 | `transition` | 0.40 |  |
-| W25 | 3:21–3:29 | `transition` | 0.40 |  |
-| W26 | 3:29–3:37 | `transition` | 0.40 |  |
-| W27 | 3:37–3:45 | `transition` | 0.40 |  |
-| W28 | 3:45–3:53 | `transition` | 0.40 |  |
-| W29 | 3:53–4:01 | `transition` | 0.40 |  |
-| W30 | 4:01–4:09 | `transition` | 0.40 |  |
-| W31 | 4:09–4:17 | `transition` | 0.40 |  |
-| W32 | 4:17–4:25 | `transition` | 0.40 |  |
-| W33 | 4:25–4:33 | `transition` | 0.40 |  |
-| W34 | 4:33–4:41 | `transition` | 0.40 |  |
-| W35 | 4:41–4:49 | `transition` | 0.40 |  |
-| W36 | 4:49–4:57 | `transition` | 0.40 |  |
-| W37 | 4:57–5:05 | `transition` | 0.40 |  |
-| W38 | 5:05–5:13 | `transition` | 0.40 |  |
-| W39 | 5:13–5:22 | `transition` | 0.40 |  |
-| W40 | 5:22–5:30 | `transition` | 0.40 |  |
-| W41 | 5:30–5:38 | `transition` | 0.40 |  |
-| W42 | 5:38–5:46 | `transition` | 0.40 |  |
-| W43 | 5:46–5:54 | `transition` | 0.40 |  |
-| W44 | 5:54–6:02 | `transition` | 0.40 |  |
-| W45 | 6:02–6:10 | `transition` | 0.40 |  |
-| W46 | 6:10–6:18 | `transition` | 0.40 |  |
-| W47 | 6:18–6:26 | `transition` | 0.40 |  |
-| W48 | 6:26–6:34 | `transition` | 0.40 |  |
-| W49 | 6:34–6:42 | `transition` *(smoothed)* | 0.70 | despiked to match neighbours |
-| W50 | 6:42–6:50 | `transition` | 0.40 |  |
-| W51 | 6:50–6:58 | `transition` | 0.40 |  |
-| W52 | 6:58–7:06 | `transition` | 0.40 |  |
-| W53 | 7:06–7:14 | `transition` | 0.40 |  |
-| W54 | 7:14–7:22 | `transition` | 0.40 |  |
-| W55 | 7:22–7:30 | `transition` | 0.40 |  |
-| W56 | 7:30–7:38 | `transition` | 0.40 |  |
-| W57 | 7:38–7:46 | `transition` | 0.40 |  |
-| W58 | 7:46–7:54 | `transition` | 0.40 |  |
-| W59 | 7:54–8:02 | `transition` | 0.40 |  |
-| W60 | 8:02–8:10 | `transition` | 0.40 |  |
-| W61 | 8:10–8:18 | `transition` | 0.40 |  |
-| W62 | 8:18–8:26 | `transition` | 0.40 |  |
-| W63 | 8:26–8:34 | `transition` | 0.40 |  |
-| W64 | 8:34–8:42 | `transition` | 0.40 |  |
-| W65 | 8:42–8:50 | `transition` | 0.40 |  |
-| W66 | 8:50–8:59 | `transition` | 0.40 |  |
-| W67 | 8:59–9:07 | `transition` | 0.40 |  |
-| W68 | 9:07–9:15 | `outro_cta` | 0.50 |  |
-| W69 | 9:15–9:23 | `outro_cta` | 0.50 |  |
-| W70 | 9:23–9:31 | `outro_cta` | 0.50 |  |
-| W71 | 9:31–9:39 | `outro_cta` | 0.50 |  |
-| W72 | 9:39–9:47 | `outro_cta` | 0.50 |  |
-| W73 | 9:47–9:55 | `outro_cta` | 0.50 |  |
-| W74 | 9:55–10:03 | `outro_cta` | 0.50 |  |
-| W75 | 10:03–10:11 | `outro_cta` | 0.50 |  |
-| W76 | 10:11–10:19 | `outro_cta` | 0.50 |  |
-| W77 | 10:19–10:27 | `outro_cta` | 0.50 |  |
-| W78 | 10:27–10:35 | `outro_cta` | 0.50 |  |
-| W79 | 10:35–10:43 | `outro_cta` | 0.50 |  |
+| W24 | 3:13–3:21 | `prepare_container` | 0.50 | backward step vs canonical order (decorate_finish->prepare_container) |
+| W25 | 3:21–3:29 | `prepare_container` | 0.50 | backward step vs canonical order (decorate_finish->prepare_container) |
+| W26 | 3:29–3:37 | `prepare_container` | 0.50 | backward step vs canonical order (decorate_finish->prepare_container) |
+| W27 | 3:37–3:45 | `gather_materials` | 0.50 | backward step vs canonical order (decorate_finish->gather_materials) |
+| W28 | 3:45–3:53 | `gather_materials` | 0.50 | backward step vs canonical order (decorate_finish->gather_materials) |
+| W29 | 3:53–4:01 | `transition` | 0.60 |  |
+| W30 | 4:01–4:09 | `transition` | 0.60 |  |
+| W31 | 4:09–4:17 | `transition` | 0.60 |  |
+| W32 | 4:17–4:25 | `transition` | 0.60 |  |
+| W33 | 4:25–4:33 | `transition` | 0.60 |  |
+| W34 | 4:33–4:41 | `transition` | 0.60 |  |
+| W35 | 4:41–4:49 | `transition` | 0.60 |  |
+| W36 | 4:49–4:57 | `transition` | 0.60 |  |
+| W37 | 4:57–5:05 | `transition` | 0.60 |  |
+| W38 | 5:05–5:13 | `pour_wax` | 0.50 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W39 | 5:13–5:22 | `pour_wax` | 0.50 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W40 | 5:22–5:30 | `transition` | 0.60 |  |
+| W41 | 5:30–5:38 | `transition` | 0.60 |  |
+| W42 | 5:38–5:46 | `transition` | 0.60 |  |
+| W43 | 5:46–5:54 | `transition` | 0.60 |  |
+| W44 | 5:54–6:02 | `transition` | 0.60 |  |
+| W45 | 6:02–6:10 | `transition` | 0.60 |  |
+| W46 | 6:10–6:18 | `transition` | 0.60 |  |
+| W47 | 6:18–6:26 | `transition` | 0.60 |  |
+| W48 | 6:26–6:34 | `transition` | 0.60 |  |
+| W49 | 6:34–6:42 | `transition` | 0.60 |  |
+| W50 | 6:42–6:50 | `transition` | 0.60 |  |
+| W51 | 6:50–6:58 | `transition` | 0.60 |  |
+| W52 | 6:58–7:06 | `transition` | 0.60 |  |
+| W53 | 7:06–7:14 | `transition` | 0.60 |  |
+| W54 | 7:14–7:22 | `transition` | 0.60 |  |
+| W55 | 7:22–7:30 | `transition` | 0.60 |  |
+| W56 | 7:30–7:38 | `transition` | 0.60 |  |
+| W57 | 7:38–7:46 | `transition` | 0.60 |  |
+| W58 | 7:46–7:54 | `transition` | 0.60 |  |
+| W59 | 7:54–8:02 | `transition` | 0.60 |  |
+| W60 | 8:02–8:10 | `transition` | 0.60 |  |
+| W61 | 8:10–8:18 | `transition` | 0.60 |  |
+| W62 | 8:18–8:26 | `transition` | 0.60 |  |
+| W63 | 8:26–8:34 | `transition` | 0.60 |  |
+| W64 | 8:34–8:42 | `transition` | 0.60 |  |
+| W65 | 8:42–8:50 | `transition` | 0.60 |  |
+| W66 | 8:50–8:59 | `transition` | 0.60 |  |
+| W67 | 8:59–9:07 | `transition` | 0.60 |  |
+| W68 | 9:07–9:15 | `transition` | 0.60 |  |
+| W69 | 9:15–9:23 | `transition` | 0.60 |  |
+| W70 | 9:23–9:31 | `transition` | 0.60 |  |
+| W71 | 9:31–9:39 | `transition` | 0.60 |  |
+| W72 | 9:39–9:47 | `outro_cta` | 0.60 |  |
+| W73 | 9:47–9:55 | `outro_cta` | 0.60 |  |
+| W74 | 9:55–10:03 | `outro_cta` | 0.60 |  |
+| W75 | 10:03–10:11 | `outro_cta` | 0.60 |  |
+| W76 | 10:11–10:19 | `outro_cta` | 0.60 |  |
+| W77 | 10:19–10:27 | `outro_cta` | 0.60 |  |
+| W78 | 10:27–10:35 | `outro_cta` | 0.60 |  |
+| W79 | 10:35–10:43 | `outro_cta` | 0.60 |  |

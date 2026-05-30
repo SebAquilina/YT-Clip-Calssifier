@@ -362,13 +362,13 @@
       "window": 24,
       "start": 191.67,
       "end": 199.66,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Setting/centring wicks in the mini tins.",
       "smoothed": false,
       "notes": []
     },
@@ -376,29 +376,27 @@
       "window": 25,
       "start": 199.66,
       "end": 207.64,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Setting/centring wicks in the mini tins.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 26,
       "start": 207.64,
       "end": 215.63,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Setting/centring wicks in the mini tins.",
       "smoothed": false,
       "notes": []
     },
@@ -406,59 +404,57 @@
       "window": 27,
       "start": 215.63,
       "end": 223.62,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Setting/centring wicks in the mini tins.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 28,
       "start": 223.62,
       "end": 231.6,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into the mini tins.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 29,
-      "start": 231.6,
-      "end": 239.59,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "prepare_container",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
+      "description": "Prepping the mini tins.",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
       ]
     },
     {
-      "window": 30,
-      "start": 239.59,
-      "end": 247.58,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "window": 29,
+      "start": 231.6,
+      "end": 239.59,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Setting/centring wicks in the mini tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 239.59,
+      "end": 247.58,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/centring wicks in the mini tins.",
       "smoothed": false,
       "notes": []
     },
@@ -466,29 +462,27 @@
       "window": 31,
       "start": 247.58,
       "end": 255.56,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Setting/centring wicks in the mini tins.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 32,
       "start": 255.56,
       "end": 263.55,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Setting/centring wicks in the mini tins.",
       "smoothed": false,
       "notes": []
     },
@@ -496,29 +490,27 @@
       "window": 33,
       "start": 263.55,
       "end": 271.53,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Setting/centring wicks in the mini tins.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 34,
       "start": 271.53,
       "end": 279.52,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Setting/centring wicks in the mini tins.",
       "smoothed": false,
       "notes": []
     },
@@ -526,136 +518,145 @@
       "window": 35,
       "start": 279.52,
       "end": 287.51,
-      "label": "pour_wax",
+      "label": "measure_wax",
       "original_label": "measure_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Weighing wax/fragrance on the scale.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (set_wick->measure_wax)"
       ]
     },
     {
       "window": 36,
       "start": 287.51,
       "end": 295.49,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Weighing wax/fragrance on the scale.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (set_wick->measure_wax)"
+      ]
     },
     {
       "window": 37,
       "start": 295.49,
       "end": 303.48,
-      "label": "pour_wax",
+      "label": "measure_wax",
       "original_label": "measure_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Weighing wax/fragrance on the scale.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (set_wick->measure_wax)"
       ]
     },
     {
       "window": 38,
       "start": 303.48,
       "end": 311.47,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Melting wax in the metal melter.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (set_wick->melt_wax)"
+      ]
     },
     {
       "window": 39,
       "start": 311.47,
       "end": 319.45,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Melting wax in the metal melter.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (set_wick->melt_wax)"
       ]
     },
     {
       "window": 40,
       "start": 319.45,
       "end": 327.44,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Melting wax in the metal melter.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (set_wick->melt_wax)"
+      ]
     },
     {
       "window": 41,
       "start": 327.44,
       "end": 335.42,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Melting wax in the metal melter.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (set_wick->melt_wax)"
       ]
     },
     {
       "window": 42,
       "start": 335.42,
       "end": 343.41,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring wax into the rows of mini tins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (set_wick->melt_wax)"
+      ]
     },
     {
       "window": 43,
       "start": 343.41,
       "end": 351.4,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Melting wax in the metal melter.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (set_wick->melt_wax)"
       ]
     },
     {
@@ -664,11 +665,11 @@
       "end": 359.38,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Pouring wax into the rows of mini tins.",
       "smoothed": false,
       "notes": []
     },
@@ -677,28 +678,26 @@
       "start": 359.38,
       "end": 367.37,
       "label": "pour_wax",
-      "original_label": "measure_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Pouring wax into the rows of mini tins.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 46,
       "start": 367.37,
       "end": 375.36,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Rows of mini candles setting.",
       "smoothed": false,
       "notes": []
     },
@@ -706,29 +705,27 @@
       "window": 47,
       "start": 375.36,
       "end": 383.34,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Rows of mini candles setting.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 48,
       "start": 383.34,
       "end": 391.33,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Rows of mini candles setting.",
       "smoothed": false,
       "notes": []
     },
@@ -736,46 +733,48 @@
       "window": 49,
       "start": 391.33,
       "end": 399.32,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "gather_materials",
+      "original_label": "gather_materials",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Wick-sticker product shown.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (cure_cool->gather_materials)"
       ]
     },
     {
       "window": 50,
       "start": 399.32,
       "end": 407.3,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Wick-sticker product shown.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (cure_cool->gather_materials)"
+      ]
     },
     {
       "window": 51,
       "start": 407.3,
       "end": 415.29,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "gather_materials",
+      "original_label": "gather_materials",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Wick-sticker product shown.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (cure_cool->gather_materials)"
       ]
     },
     {
@@ -784,41 +783,41 @@
       "end": 423.27,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Pouring wax into the rows of mini tins.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
     },
     {
       "window": 53,
       "start": 423.27,
       "end": 431.26,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Rows of mini candles setting.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 54,
       "start": 431.26,
       "end": 439.25,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Rows of mini candles setting.",
       "smoothed": false,
       "notes": []
     },
@@ -827,15 +826,15 @@
       "start": 439.25,
       "end": 447.23,
       "label": "pour_wax",
-      "original_label": "measure_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Pouring wax into the rows of mini tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (cure_cool->pour_wax)"
       ]
     },
     {
@@ -844,71 +843,76 @@
       "end": 455.22,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Pouring wax into the rows of mini tins.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
     },
     {
       "window": 57,
       "start": 455.22,
       "end": 463.21,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Setting/centring wicks in the mini tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (cure_cool->set_wick)"
       ]
     },
     {
       "window": 58,
       "start": 463.21,
       "end": 471.19,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "set_wick",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
-      "smoothed": false,
-      "notes": []
+      "description": "Rows of mini candles setting.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
     },
     {
       "window": 59,
       "start": 471.19,
       "end": 479.18,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
+      "description": "Setting/centring wicks in the mini tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (cure_cool->set_wick)"
       ]
     },
     {
       "window": 60,
       "start": 479.18,
       "end": 487.16,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Rows of mini candles setting.",
       "smoothed": false,
       "notes": []
     },
@@ -916,29 +920,27 @@
       "window": 61,
       "start": 487.16,
       "end": 495.15,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Rows of mini candles setting.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 62,
       "start": 495.15,
       "end": 503.14,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Rows of mini candles setting.",
       "smoothed": false,
       "notes": []
     },
@@ -946,29 +948,27 @@
       "window": 63,
       "start": 503.14,
       "end": 511.12,
-      "label": "pour_wax",
-      "original_label": "measure_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing a mini 1oz tin on a scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Rows of mini candles setting.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 64,
       "start": 511.12,
       "end": 519.11,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the mini tins.",
+      "description": "Rows of mini candles setting.",
       "smoothed": false,
       "notes": []
     },
@@ -976,13 +976,13 @@
       "window": 65,
       "start": 519.11,
       "end": 527.1,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished mini candles shown.",
+      "description": "'Thank you / channel members' end card.",
       "smoothed": false,
       "notes": []
     },
@@ -992,11 +992,11 @@
       "end": 535.08,
       "label": "outro_cta",
       "original_label": "outro_cta",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe THANKYOU gh of FOR WATCHING! lite est re'.",
+      "description": "'Thank you / channel members' end card.",
       "smoothed": false,
       "notes": []
     },
@@ -1006,11 +1006,11 @@
       "end": 543.07,
       "label": "outro_cta",
       "original_label": "outro_cta",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'my THANKYOU hf FOR WATCHING!'.",
+      "description": "'Thank you / channel members' end card.",
       "smoothed": false,
       "notes": []
     },
@@ -1018,13 +1018,13 @@
       "window": 68,
       "start": 543.07,
       "end": 551.05,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished mini candles shown.",
+      "description": "'Thank you / channel members' end card.",
       "smoothed": false,
       "notes": []
     },
@@ -1032,13 +1032,13 @@
       "window": 69,
       "start": 551.05,
       "end": 559.04,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1046,13 +1046,13 @@
       "window": 70,
       "start": 559.04,
       "end": 567.03,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1060,13 +1060,13 @@
       "window": 71,
       "start": 567.03,
       "end": 575.01,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1074,13 +1074,13 @@
       "window": 72,
       "start": 575.01,
       "end": 583.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     }
@@ -1141,12 +1141,12 @@
       ]
     },
     {
-      "label": "pour_wax",
+      "label": "set_wick",
       "phase": "assemble",
       "is_step": true,
       "start": 191.67,
-      "end": 519.11,
-      "confidence": 0.47,
+      "end": 279.52,
+      "confidence": 0.5,
       "windows": [
         24,
         25,
@@ -1158,32 +1158,132 @@
         31,
         32,
         33,
-        34,
+        34
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 279.52,
+      "end": 303.48,
+      "confidence": 0.5,
+      "windows": [
         35,
         36,
-        37,
+        37
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 303.48,
+      "end": 351.4,
+      "confidence": 0.5,
+      "windows": [
         38,
         39,
         40,
         41,
         42,
-        43,
+        43
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 351.4,
+      "end": 367.37,
+      "confidence": 0.5,
+      "windows": [
         44,
-        45,
+        45
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 367.37,
+      "end": 391.33,
+      "confidence": 0.5,
+      "windows": [
         46,
         47,
-        48,
+        48
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 391.33,
+      "end": 415.29,
+      "confidence": 0.5,
+      "windows": [
         49,
         50,
-        51,
-        52,
+        51
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 415.29,
+      "end": 423.27,
+      "confidence": 0.5,
+      "windows": [
+        52
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 423.27,
+      "end": 439.25,
+      "confidence": 0.5,
+      "windows": [
         53,
-        54,
+        54
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 439.25,
+      "end": 455.22,
+      "confidence": 0.5,
+      "windows": [
         55,
-        56,
+        56
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 455.22,
+      "end": 479.18,
+      "confidence": 0.5,
+      "windows": [
         57,
         58,
-        59,
+        59
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 479.18,
+      "end": 519.11,
+      "confidence": 0.5,
+      "windows": [
         60,
         61,
         62,
@@ -1192,46 +1292,26 @@
       ]
     },
     {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 519.11,
-      "end": 527.1,
-      "confidence": 0.45,
-      "windows": [
-        65
-      ]
-    },
-    {
       "label": "outro_cta",
       "phase": "aux",
       "is_step": false,
-      "start": 527.1,
-      "end": 543.07,
-      "confidence": 0.5,
-      "windows": [
-        66,
-        67
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 543.07,
+      "start": 519.11,
       "end": 551.05,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "windows": [
+        65,
+        66,
+        67,
         68
       ]
     },
     {
-      "label": "transition",
+      "label": "blank",
       "phase": "aux",
       "is_step": false,
       "start": 551.05,
       "end": 583.0,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "windows": [
         69,
         70,

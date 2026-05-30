@@ -387,7 +387,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Melting wax in the double boiler on the stove.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->melt_wax)"
@@ -398,15 +398,14 @@
       "start": 200.9,
       "end": 208.94,
       "label": "melt_wax",
-      "original_label": "measure_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Melting wax in the double boiler on the stove.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
         "backward step vs canonical order (reveal_result->melt_wax)"
       ]
     },
@@ -414,32 +413,32 @@
       "window": 26,
       "start": 208.94,
       "end": 216.98,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Weighing wax/additives on the scale.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->measure_wax)"
       ]
     },
     {
       "window": 27,
       "start": 216.98,
       "end": 225.01,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "measure_wax",
+      "original_label": "measure_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Weighing wax/additives on the scale.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->measure_wax)"
       ]
     },
     {
@@ -447,15 +446,14 @@
       "start": 225.01,
       "end": 233.05,
       "label": "melt_wax",
-      "original_label": "measure_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Melting wax in the double boiler on the stove.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
         "backward step vs canonical order (reveal_result->melt_wax)"
       ]
     },
@@ -465,11 +463,11 @@
       "end": 241.08,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Melting wax in the double boiler on the stove.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->melt_wax)"
@@ -485,7 +483,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Melting wax in the double boiler on the stove.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->melt_wax)"
@@ -501,7 +499,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
+      "description": "Weighing wax/additives on the scale.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->measure_wax)"
@@ -511,145 +509,145 @@
       "window": 32,
       "start": 257.16,
       "end": 265.19,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Weighing wax/additives on the scale.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->measure_wax)"
+      ]
     },
     {
       "window": 33,
       "start": 265.19,
       "end": 273.23,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Setting/centring wicks in the black tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
       "window": 34,
       "start": 273.23,
       "end": 281.27,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Setting/centring wicks in the black tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
       "window": 35,
       "start": 281.27,
       "end": 289.3,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Setting/centring wicks in the black tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
       "window": 36,
       "start": 289.3,
       "end": 297.34,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Setting/centring wicks in the black tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
       "window": 37,
       "start": 297.34,
       "end": 305.37,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Setting/centring wicks in the black tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
       "window": 38,
       "start": 305.37,
       "end": 313.41,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Setting/centring wicks in the black tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
       "window": 39,
       "start": 313.41,
       "end": 321.45,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "set_wick",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
-      "smoothed": false,
+      "description": "Pouring wax into the tins.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
       "window": 40,
       "start": 321.45,
       "end": 329.48,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "set_wick",
+      "original_label": "set_wick",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Setting/centring wicks in the black tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->set_wick)"
       ]
     },
     {
@@ -658,11 +656,11 @@
       "end": 337.52,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Melting wax in the double boiler on the stove.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->melt_wax)"
@@ -672,98 +670,97 @@
       "window": 42,
       "start": 337.52,
       "end": 345.55,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "monitor_temperature",
+      "original_label": "monitor_temperature",
       "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Checking wax temperature (phone app).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->monitor_temperature)"
       ]
     },
     {
       "window": 43,
       "start": 345.55,
       "end": 353.59,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Pouring wax into the tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 44,
       "start": 353.59,
       "end": 361.63,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 45,
       "start": 361.63,
       "end": 369.66,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 46,
       "start": 369.66,
       "end": 377.7,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "pour_wax",
+      "original_label": "monitor_temperature",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
+      "description": "Checking wax temperature (phone app).",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 47,
       "start": 377.7,
       "end": 385.73,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
@@ -776,7 +773,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Melting wax in the double boiler on the stove.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->melt_wax)"
@@ -787,15 +784,14 @@
       "start": 393.77,
       "end": 401.81,
       "label": "melt_wax",
-      "original_label": "measure_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Melting wax in the double boiler on the stove.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
         "backward step vs canonical order (reveal_result->melt_wax)"
       ]
     },
@@ -803,418 +799,410 @@
       "window": 50,
       "start": 401.81,
       "end": 409.84,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 51,
       "start": 409.84,
       "end": 417.88,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 52,
       "start": 417.88,
       "end": 425.92,
-      "label": "melt_wax",
-      "original_label": "transition",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ke ory es ta San ors ie Po'.",
-      "smoothed": true,
+      "description": "Pouring wax into the tins.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 53,
       "start": 425.92,
       "end": 433.95,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 54,
       "start": 433.95,
       "end": 441.99,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 55,
       "start": 441.99,
       "end": 450.02,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Setting/centring wicks in the black tins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
     },
     {
       "window": 56,
       "start": 450.02,
       "end": 458.06,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
     },
     {
       "window": 57,
       "start": 458.06,
       "end": 466.1,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Rows of candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 58,
       "start": 466.1,
       "end": 474.13,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "description": "Finished/lit candle shown.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 59,
       "start": 474.13,
       "end": 482.17,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Pouring wax into the tins.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 60,
       "start": 482.17,
       "end": 490.2,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Heat-gun smoothing tops / applying labels.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 61,
       "start": 490.2,
       "end": 498.24,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Heat-gun smoothing tops / applying labels.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 62,
       "start": 498.24,
       "end": 506.28,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Rows of candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 63,
       "start": 506.28,
       "end": 514.31,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Rows of candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 64,
       "start": 514.31,
       "end": 522.35,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Rows of candles setting.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 65,
       "start": 522.35,
       "end": 530.39,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Trimming the wicks.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->trim_wick)"
       ]
     },
     {
       "window": 66,
       "start": 530.39,
       "end": 538.42,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "trim_wick",
+      "original_label": "trim_wick",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Trimming the wicks.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->trim_wick)"
       ]
     },
     {
       "window": 67,
       "start": 538.42,
       "end": 546.46,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "trim_wick",
+      "original_label": "trim_wick",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Trimming the wicks.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->trim_wick)"
       ]
     },
     {
       "window": 68,
       "start": 546.46,
       "end": 554.49,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 69,
       "start": 554.49,
       "end": 562.53,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "reveal_result",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
-      "smoothed": false,
+      "description": "Rows of candles setting.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 70,
       "start": 562.53,
       "end": 570.57,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "description": "Finished/lit candle shown.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 71,
       "start": 570.57,
       "end": 578.6,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 72,
       "start": 578.6,
       "end": 586.64,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a double boiler on the stove.",
+      "description": "Heat-gun smoothing tops / applying labels.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 73,
       "start": 586.64,
       "end": 594.67,
-      "label": "melt_wax",
-      "original_label": "measure_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Weighing wax in a metal cup on the scale.",
-      "smoothed": true,
+      "description": "Heat-gun smoothing tops / applying labels.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 74,
       "start": 594.67,
       "end": 602.71,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tending the melting wax.",
+      "description": "Heat-gun smoothing tops / applying labels.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 75,
       "start": 602.71,
       "end": 610.75,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished scented soy candles shown.",
+      "description": "Heat-gun smoothing tops / applying labels.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 76,
@@ -1222,11 +1210,11 @@
       "end": 618.78,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished scented soy candles shown.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1236,11 +1224,11 @@
       "end": 626.82,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished scented soy candles shown.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1250,11 +1238,11 @@
       "end": 634.86,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished scented soy candles shown.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1264,11 +1252,11 @@
       "end": 642.89,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished scented soy candles shown.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1278,11 +1266,11 @@
       "end": 650.93,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished scented soy candles shown.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1292,11 +1280,11 @@
       "end": 658.96,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished scented soy candles shown.",
+      "description": "Finished/lit candle shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1304,13 +1292,13 @@
       "window": 82,
       "start": 658.96,
       "end": 667.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "'Purchase Reviews' end card.",
       "smoothed": false,
       "notes": []
     }
@@ -1425,13 +1413,33 @@
       "phase": "process",
       "is_step": true,
       "start": 192.87,
-      "end": 249.12,
-      "confidence": 0.48,
+      "end": 208.94,
+      "confidence": 0.5,
       "windows": [
         24,
-        25,
+        25
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 208.94,
+      "end": 225.01,
+      "confidence": 0.5,
+      "windows": [
         26,
-        27,
+        27
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 225.01,
+      "end": 249.12,
+      "confidence": 0.5,
+      "windows": [
         28,
         29,
         30
@@ -1442,30 +1450,20 @@
       "phase": "prep",
       "is_step": true,
       "start": 249.12,
-      "end": 257.16,
+      "end": 265.19,
       "confidence": 0.5,
       "windows": [
-        31
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 257.16,
-      "end": 265.19,
-      "confidence": 0.7,
-      "windows": [
+        31,
         32
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "set_wick",
+      "phase": "assemble",
       "is_step": true,
       "start": 265.19,
-      "end": 441.99,
-      "confidence": 0.48,
+      "end": 329.48,
+      "confidence": 0.5,
       "windows": [
         33,
         34,
@@ -1474,72 +1472,182 @@
         37,
         38,
         39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 441.99,
-      "end": 458.06,
-      "confidence": 0.7,
-      "windows": [
-        55,
-        56
+        40
       ]
     },
     {
       "label": "melt_wax",
       "phase": "process",
       "is_step": true,
-      "start": 458.06,
-      "end": 602.71,
-      "confidence": 0.48,
+      "start": 329.48,
+      "end": 337.52,
+      "confidence": 0.5,
       "windows": [
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74
+        41
+      ]
+    },
+    {
+      "label": "monitor_temperature",
+      "phase": "process",
+      "is_step": true,
+      "start": 337.52,
+      "end": 345.55,
+      "confidence": 0.5,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 345.55,
+      "end": 385.73,
+      "confidence": 0.5,
+      "windows": [
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 385.73,
+      "end": 401.81,
+      "confidence": 0.5,
+      "windows": [
+        48,
+        49
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 401.81,
+      "end": 458.06,
+      "confidence": 0.5,
+      "windows": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 458.06,
+      "end": 466.1,
+      "confidence": 0.5,
+      "windows": [
+        57
       ]
     },
     {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 602.71,
-      "end": 658.96,
-      "confidence": 0.45,
+      "start": 466.1,
+      "end": 474.13,
+      "confidence": 0.5,
       "windows": [
-        75,
+        58
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 474.13,
+      "end": 482.17,
+      "confidence": 0.5,
+      "windows": [
+        59
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 482.17,
+      "end": 498.24,
+      "confidence": 0.5,
+      "windows": [
+        60,
+        61
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 498.24,
+      "end": 522.35,
+      "confidence": 0.5,
+      "windows": [
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 522.35,
+      "end": 546.46,
+      "confidence": 0.5,
+      "windows": [
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 546.46,
+      "end": 578.6,
+      "confidence": 0.5,
+      "windows": [
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 578.6,
+      "end": 610.75,
+      "confidence": 0.5,
+      "windows": [
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 610.75,
+      "end": 658.96,
+      "confidence": 0.5,
+      "windows": [
         76,
         77,
         78,
@@ -1549,12 +1657,12 @@
       ]
     },
     {
-      "label": "transition",
+      "label": "outro_cta",
       "phase": "aux",
       "is_step": false,
       "start": 658.96,
       "end": 667.0,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "windows": [
         82
       ]

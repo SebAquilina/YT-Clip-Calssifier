@@ -2,7 +2,7 @@
 
 - **Video:** [40mkiCY8uMM](https://www.youtube.com/watch?v=40mkiCY8uMM)
 - **Duration:** 9:43  (583s)
-- **Source:** storyboard  |  **Windows:** 73  |  **Segments:** 8
+- **Source:** storyboard  |  **Windows:** 73  |  **Segments:** 16
 
 ## Action segments (merged)
 
@@ -11,11 +11,19 @@
 | 1 | 0:00–2:00 | 120s | `pour_wax` | assemble | ✓ | 0.47 |
 | 2 | 2:00–3:04 | 64s | `transition` | aux |  | 0.41 |
 | 3 | 3:04–3:12 | 8s | `talking_head` | aux |  | 0.70 |
-| 4 | 3:12–8:39 | 327s | `pour_wax` | assemble | ✓ | 0.47 |
-| 5 | 8:39–8:47 | 8s | `reveal_result` | finish | ✓ | 0.45 |
-| 6 | 8:47–9:03 | 16s | `outro_cta` | aux |  | 0.50 |
-| 7 | 9:03–9:11 | 8s | `reveal_result` | finish | ✓ | 0.45 |
-| 8 | 9:11–9:43 | 32s | `transition` | aux |  | 0.50 |
+| 4 | 3:12–4:40 | 88s | `set_wick` | assemble | ✓ | 0.50 |
+| 5 | 4:40–5:03 | 24s | `measure_wax` | prep | ✓ | 0.50 |
+| 6 | 5:03–5:51 | 48s | `melt_wax` | process | ✓ | 0.50 |
+| 7 | 5:51–6:07 | 16s | `pour_wax` | assemble | ✓ | 0.50 |
+| 8 | 6:07–6:31 | 24s | `cure_cool` | assemble | ✓ | 0.50 |
+| 9 | 6:31–6:55 | 24s | `gather_materials` | prep | ✓ | 0.50 |
+| 10 | 6:55–7:03 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
+| 11 | 7:03–7:19 | 16s | `cure_cool` | assemble | ✓ | 0.50 |
+| 12 | 7:19–7:35 | 16s | `pour_wax` | assemble | ✓ | 0.50 |
+| 13 | 7:35–7:59 | 24s | `set_wick` | assemble | ✓ | 0.50 |
+| 14 | 7:59–8:39 | 40s | `cure_cool` | assemble | ✓ | 0.50 |
+| 15 | 8:39–9:11 | 32s | `outro_cta` | aux |  | 0.60 |
+| 16 | 9:11–9:43 | 32s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -45,52 +53,52 @@
 | W21 | 2:48–2:56 | `transition` | 0.40 |  |
 | W22 | 2:56–3:04 | `transition` | 0.50 |  |
 | W23 | 3:04–3:12 | `talking_head` | 0.70 |  |
-| W24 | 3:12–3:20 | `pour_wax` | 0.45 |  |
-| W25 | 3:20–3:28 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W26 | 3:28–3:36 | `pour_wax` | 0.45 |  |
-| W27 | 3:36–3:44 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W28 | 3:44–3:52 | `pour_wax` | 0.45 |  |
-| W29 | 3:52–4:00 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W30 | 4:00–4:08 | `pour_wax` | 0.45 |  |
-| W31 | 4:08–4:16 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W32 | 4:16–4:24 | `pour_wax` | 0.45 |  |
-| W33 | 4:24–4:32 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W34 | 4:32–4:40 | `pour_wax` | 0.45 |  |
-| W35 | 4:40–4:48 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W36 | 4:48–4:55 | `pour_wax` | 0.45 |  |
-| W37 | 4:55–5:03 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W38 | 5:03–5:11 | `pour_wax` | 0.45 |  |
-| W39 | 5:11–5:19 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W40 | 5:19–5:27 | `pour_wax` | 0.45 |  |
-| W41 | 5:27–5:35 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W42 | 5:35–5:43 | `pour_wax` | 0.45 |  |
-| W43 | 5:43–5:51 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W44 | 5:51–5:59 | `pour_wax` | 0.45 |  |
-| W45 | 5:59–6:07 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W46 | 6:07–6:15 | `pour_wax` | 0.45 |  |
-| W47 | 6:15–6:23 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W48 | 6:23–6:31 | `pour_wax` | 0.45 |  |
-| W49 | 6:31–6:39 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W50 | 6:39–6:47 | `pour_wax` | 0.45 |  |
-| W51 | 6:47–6:55 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W52 | 6:55–7:03 | `pour_wax` | 0.45 |  |
-| W53 | 7:03–7:11 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W54 | 7:11–7:19 | `pour_wax` | 0.45 |  |
-| W55 | 7:19–7:27 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W56 | 7:27–7:35 | `pour_wax` | 0.45 |  |
-| W57 | 7:35–7:43 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W58 | 7:43–7:51 | `pour_wax` | 0.45 |  |
-| W59 | 7:51–7:59 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W60 | 7:59–8:07 | `pour_wax` | 0.45 |  |
-| W61 | 8:07–8:15 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W62 | 8:15–8:23 | `pour_wax` | 0.45 |  |
-| W63 | 8:23–8:31 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W64 | 8:31–8:39 | `pour_wax` | 0.45 |  |
-| W65 | 8:39–8:47 | `reveal_result` | 0.45 |  |
-| W66 | 8:47–8:55 | `outro_cta` | 0.50 |  |
-| W67 | 8:55–9:03 | `outro_cta` | 0.50 |  |
-| W68 | 9:03–9:11 | `reveal_result` | 0.45 |  |
-| W69 | 9:11–9:19 | `transition` | 0.50 |  |
-| W70 | 9:19–9:27 | `transition` | 0.50 |  |
-| W71 | 9:27–9:35 | `transition` | 0.50 |  |
-| W72 | 9:35–9:43 | `transition` | 0.50 |  |
+| W24 | 3:12–3:20 | `set_wick` | 0.50 |  |
+| W25 | 3:20–3:28 | `set_wick` | 0.50 |  |
+| W26 | 3:28–3:36 | `set_wick` | 0.50 |  |
+| W27 | 3:36–3:44 | `set_wick` | 0.50 |  |
+| W28 | 3:44–3:52 | `set_wick` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W29 | 3:52–4:00 | `set_wick` | 0.50 |  |
+| W30 | 4:00–4:08 | `set_wick` | 0.50 |  |
+| W31 | 4:08–4:16 | `set_wick` | 0.50 |  |
+| W32 | 4:16–4:24 | `set_wick` | 0.50 |  |
+| W33 | 4:24–4:32 | `set_wick` | 0.50 |  |
+| W34 | 4:32–4:40 | `set_wick` | 0.50 |  |
+| W35 | 4:40–4:48 | `measure_wax` | 0.50 | backward step vs canonical order (set_wick->measure_wax) |
+| W36 | 4:48–4:55 | `measure_wax` | 0.50 | backward step vs canonical order (set_wick->measure_wax) |
+| W37 | 4:55–5:03 | `measure_wax` | 0.50 | backward step vs canonical order (set_wick->measure_wax) |
+| W38 | 5:03–5:11 | `melt_wax` | 0.50 | backward step vs canonical order (set_wick->melt_wax) |
+| W39 | 5:11–5:19 | `melt_wax` | 0.50 | backward step vs canonical order (set_wick->melt_wax) |
+| W40 | 5:19–5:27 | `melt_wax` | 0.50 | backward step vs canonical order (set_wick->melt_wax) |
+| W41 | 5:27–5:35 | `melt_wax` | 0.50 | backward step vs canonical order (set_wick->melt_wax) |
+| W42 | 5:35–5:43 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (set_wick->melt_wax) |
+| W43 | 5:43–5:51 | `melt_wax` | 0.50 | backward step vs canonical order (set_wick->melt_wax) |
+| W44 | 5:51–5:59 | `pour_wax` | 0.50 |  |
+| W45 | 5:59–6:07 | `pour_wax` | 0.50 |  |
+| W46 | 6:07–6:15 | `cure_cool` | 0.50 |  |
+| W47 | 6:15–6:23 | `cure_cool` | 0.50 |  |
+| W48 | 6:23–6:31 | `cure_cool` | 0.50 |  |
+| W49 | 6:31–6:39 | `gather_materials` | 0.50 | backward step vs canonical order (cure_cool->gather_materials) |
+| W50 | 6:39–6:47 | `gather_materials` | 0.50 | backward step vs canonical order (cure_cool->gather_materials) |
+| W51 | 6:47–6:55 | `gather_materials` | 0.50 | backward step vs canonical order (cure_cool->gather_materials) |
+| W52 | 6:55–7:03 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
+| W53 | 7:03–7:11 | `cure_cool` | 0.50 |  |
+| W54 | 7:11–7:19 | `cure_cool` | 0.50 |  |
+| W55 | 7:19–7:27 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
+| W56 | 7:27–7:35 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
+| W57 | 7:35–7:43 | `set_wick` | 0.50 | backward step vs canonical order (cure_cool->set_wick) |
+| W58 | 7:43–7:51 | `set_wick` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (cure_cool->set_wick) |
+| W59 | 7:51–7:59 | `set_wick` | 0.50 | backward step vs canonical order (cure_cool->set_wick) |
+| W60 | 7:59–8:07 | `cure_cool` | 0.50 |  |
+| W61 | 8:07–8:15 | `cure_cool` | 0.50 |  |
+| W62 | 8:15–8:23 | `cure_cool` | 0.50 |  |
+| W63 | 8:23–8:31 | `cure_cool` | 0.50 |  |
+| W64 | 8:31–8:39 | `cure_cool` | 0.50 |  |
+| W65 | 8:39–8:47 | `outro_cta` | 0.60 |  |
+| W66 | 8:47–8:55 | `outro_cta` | 0.60 |  |
+| W67 | 8:55–9:03 | `outro_cta` | 0.60 |  |
+| W68 | 9:03–9:11 | `outro_cta` | 0.60 |  |
+| W69 | 9:11–9:19 | `blank` | 0.60 |  |
+| W70 | 9:19–9:27 | `blank` | 0.60 |  |
+| W71 | 9:27–9:35 | `blank` | 0.60 |  |
+| W72 | 9:35–9:43 | `blank` | 0.60 |  |

@@ -2,7 +2,7 @@
 
 - **Video:** [o3oqto7AHIs](https://www.youtube.com/watch?v=o3oqto7AHIs)
 - **Duration:** 10:21  (621s)
-- **Source:** storyboard  |  **Windows:** 78  |  **Segments:** 56
+- **Source:** storyboard  |  **Windows:** 78  |  **Segments:** 37
 
 ## Action segments (merged)
 
@@ -25,45 +25,26 @@
 | 15 | 2:07–2:39 | 32s | `transition` | aux |  | 0.46 |
 | 16 | 2:39–2:47 | 8s | `reveal_result` | finish | ✓ | 0.40 |
 | 17 | 2:47–2:55 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 18 | 2:55–3:19 | 24s | `transition` | aux |  | 0.47 |
-| 19 | 3:19–3:27 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 20 | 3:27–3:51 | 24s | `talking_head` | aux |  | 0.60 |
-| 21 | 3:51–3:59 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 22 | 3:59–4:07 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 23 | 4:07–4:15 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 24 | 4:15–4:23 | 8s | `transition` | aux |  | 0.50 |
-| 25 | 4:23–4:31 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 26 | 4:31–4:39 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 27 | 4:39–4:47 | 8s | `transition` | aux |  | 0.50 |
-| 28 | 4:47–4:55 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 29 | 4:55–5:03 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 30 | 5:03–5:10 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 31 | 5:10–5:18 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 32 | 5:18–5:26 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 33 | 5:26–5:34 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 34 | 5:34–5:42 | 8s | `transition` | aux |  | 0.50 |
-| 35 | 5:42–5:50 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 36 | 5:50–5:58 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 37 | 5:58–6:06 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 38 | 6:06–6:14 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 39 | 6:14–6:22 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 40 | 6:22–6:46 | 24s | `transition` | aux |  | 0.47 |
-| 41 | 6:46–6:54 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 42 | 6:54–7:02 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 43 | 7:02–7:10 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 44 | 7:10–7:18 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 45 | 7:18–7:26 | 8s | `transition` | aux |  | 0.50 |
-| 46 | 7:26–7:34 | 8s | `talking_head` | aux |  | 0.70 |
-| 47 | 7:34–7:42 | 8s | `melt_wax` | process | ✓ | 0.40 |
-| 48 | 7:42–7:50 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 49 | 7:50–7:58 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 50 | 7:58–8:06 | 8s | `talking_head` | aux |  | 0.70 |
-| 51 | 8:06–8:30 | 24s | `transition` | aux |  | 0.47 |
-| 52 | 8:30–8:38 | 8s | `talking_head` | aux |  | 0.70 |
-| 53 | 8:38–8:45 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 54 | 8:45–8:53 | 8s | `outro_cta` | aux |  | 0.50 |
-| 55 | 8:53–9:01 | 8s | `talking_head` | aux |  | 0.70 |
-| 56 | 9:01–10:21 | 80s | `reveal_result` | finish | ✓ | 0.41 |
+| 18 | 2:55–3:03 | 8s | `transition` | aux |  | 0.50 |
+| 19 | 3:03–3:11 | 8s | `reveal_result` | finish | ✓ | 0.40 |
+| 20 | 3:11–3:19 | 8s | `decorate_finish` | finish | ✓ | 0.45 |
+| 21 | 3:19–3:27 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
+| 22 | 3:27–3:43 | 16s | `melt_wax` | process | ✓ | 0.45 |
+| 23 | 3:43–3:51 | 8s | `decorate_finish` | finish | ✓ | 0.45 |
+| 24 | 3:51–3:59 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
+| 25 | 3:59–4:07 | 8s | `melt_wax` | process | ✓ | 0.45 |
+| 26 | 4:07–4:55 | 48s | `cure_cool` | assemble | ✓ | 0.45 |
+| 27 | 4:55–5:03 | 8s | `decorate_finish` | finish | ✓ | 0.45 |
+| 28 | 5:03–5:42 | 40s | `talking_head` | aux |  | 0.45 |
+| 29 | 5:42–5:50 | 8s | `transition` | aux |  | 0.45 |
+| 30 | 5:50–7:42 | 111s | `decorate_finish` | finish | ✓ | 0.45 |
+| 31 | 7:42–8:06 | 24s | `reveal_result` | finish | ✓ | 0.45 |
+| 32 | 8:06–8:45 | 40s | `talking_head` | aux |  | 0.45 |
+| 33 | 8:45–9:01 | 16s | `decorate_finish` | finish | ✓ | 0.45 |
+| 34 | 9:01–9:09 | 8s | `talking_head` | aux |  | 0.45 |
+| 35 | 9:09–9:33 | 24s | `reveal_result` | finish | ✓ | 0.45 |
+| 36 | 9:33–10:05 | 32s | `decorate_finish` | finish | ✓ | 0.45 |
+| 37 | 10:05–10:21 | 16s | `outro_cta` | aux |  | 0.45 |
 
 ## Per-window detail
 
@@ -92,58 +73,58 @@
 | W20 | 2:39–2:47 | `reveal_result` | 0.40 |  |
 | W21 | 2:47–2:55 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
 | W22 | 2:55–3:03 | `transition` | 0.50 |  |
-| W23 | 3:03–3:11 | `transition` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W24 | 3:11–3:19 | `transition` | 0.50 |  |
-| W25 | 3:19–3:27 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W26 | 3:27–3:35 | `talking_head` | 0.70 |  |
-| W27 | 3:35–3:43 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W28 | 3:43–3:51 | `talking_head` | 0.70 |  |
-| W29 | 3:51–3:59 | `reveal_result` | 0.40 |  |
-| W30 | 3:59–4:07 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W31 | 4:07–4:15 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W32 | 4:15–4:23 | `transition` | 0.50 |  |
-| W33 | 4:23–4:31 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W34 | 4:31–4:39 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W35 | 4:39–4:47 | `transition` | 0.50 |  |
-| W36 | 4:47–4:55 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W37 | 4:55–5:03 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W38 | 5:03–5:10 | `reveal_result` | 0.40 |  |
-| W39 | 5:10–5:18 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W40 | 5:18–5:26 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W41 | 5:26–5:34 | `reveal_result` | 0.40 |  |
-| W42 | 5:34–5:42 | `transition` | 0.50 |  |
-| W43 | 5:42–5:50 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W44 | 5:50–5:58 | `reveal_result` | 0.40 |  |
-| W45 | 5:58–6:06 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W46 | 6:06–6:14 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W47 | 6:14–6:22 | `reveal_result` | 0.40 |  |
-| W48 | 6:22–6:30 | `transition` | 0.50 |  |
-| W49 | 6:30–6:38 | `transition` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W50 | 6:38–6:46 | `transition` | 0.50 |  |
-| W51 | 6:46–6:54 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W52 | 6:54–7:02 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W53 | 7:02–7:10 | `reveal_result` | 0.40 |  |
-| W54 | 7:10–7:18 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W55 | 7:18–7:26 | `transition` | 0.50 |  |
-| W56 | 7:26–7:34 | `talking_head` | 0.70 |  |
-| W57 | 7:34–7:42 | `melt_wax` | 0.40 | backward step vs canonical order (reveal_result->melt_wax) |
-| W58 | 7:42–7:50 | `pour_wax` | 0.40 | backward step vs canonical order (reveal_result->pour_wax) |
-| W59 | 7:50–7:58 | `reveal_result` | 0.40 |  |
-| W60 | 7:58–8:06 | `talking_head` | 0.70 |  |
-| W61 | 8:06–8:14 | `transition` | 0.50 |  |
-| W62 | 8:14–8:22 | `transition` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W63 | 8:22–8:30 | `transition` | 0.50 |  |
-| W64 | 8:30–8:38 | `talking_head` | 0.70 |  |
-| W65 | 8:38–8:45 | `reveal_result` | 0.40 |  |
-| W66 | 8:45–8:53 | `outro_cta` | 0.50 |  |
-| W67 | 8:53–9:01 | `talking_head` | 0.70 |  |
-| W68 | 9:01–9:09 | `reveal_result` | 0.40 |  |
-| W69 | 9:09–9:17 | `reveal_result` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W70 | 9:17–9:25 | `reveal_result` | 0.40 |  |
-| W71 | 9:25–9:33 | `reveal_result` | 0.40 |  |
-| W72 | 9:33–9:41 | `reveal_result` | 0.40 |  |
-| W73 | 9:41–9:49 | `reveal_result` | 0.40 |  |
-| W74 | 9:49–9:57 | `reveal_result` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W75 | 9:57–10:05 | `reveal_result` | 0.40 |  |
-| W76 | 10:05–10:13 | `reveal_result` | 0.40 |  |
-| W77 | 10:13–10:21 | `reveal_result` | 0.40 |  |
+| W23 | 3:03–3:11 | `reveal_result` | 0.40 |  |
+| W24 | 3:11–3:19 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W25 | 3:19–3:27 | `cure_cool` | 0.45 | backward step vs canonical order (reveal_result->cure_cool) |
+| W26 | 3:27–3:35 | `melt_wax` | 0.45 | backward step vs canonical order (reveal_result->melt_wax) |
+| W27 | 3:35–3:43 | `melt_wax` | 0.45 | backward step vs canonical order (reveal_result->melt_wax) |
+| W28 | 3:43–3:51 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W29 | 3:51–3:59 | `pour_wax` | 0.45 | backward step vs canonical order (reveal_result->pour_wax) |
+| W30 | 3:59–4:07 | `melt_wax` | 0.45 | backward step vs canonical order (reveal_result->melt_wax) |
+| W31 | 4:07–4:15 | `cure_cool` | 0.45 | backward step vs canonical order (reveal_result->cure_cool) |
+| W32 | 4:15–4:23 | `cure_cool` *(smoothed)* | 0.45 | despiked to match neighbours; backward step vs canonical order (reveal_result->cure_cool) |
+| W33 | 4:23–4:31 | `cure_cool` | 0.45 | backward step vs canonical order (reveal_result->cure_cool) |
+| W34 | 4:31–4:39 | `cure_cool` *(smoothed)* | 0.45 | despiked to match neighbours; backward step vs canonical order (reveal_result->cure_cool) |
+| W35 | 4:39–4:47 | `cure_cool` | 0.45 | backward step vs canonical order (reveal_result->cure_cool) |
+| W36 | 4:47–4:55 | `cure_cool` | 0.45 | backward step vs canonical order (reveal_result->cure_cool) |
+| W37 | 4:55–5:03 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W38 | 5:03–5:10 | `talking_head` | 0.45 |  |
+| W39 | 5:10–5:18 | `talking_head` | 0.45 |  |
+| W40 | 5:18–5:26 | `talking_head` *(smoothed)* | 0.45 | despiked to match neighbours |
+| W41 | 5:26–5:34 | `talking_head` | 0.45 |  |
+| W42 | 5:34–5:42 | `talking_head` | 0.45 |  |
+| W43 | 5:42–5:50 | `transition` | 0.45 |  |
+| W44 | 5:50–5:58 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W45 | 5:58–6:06 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W46 | 6:06–6:14 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W47 | 6:14–6:22 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W48 | 6:22–6:30 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W49 | 6:30–6:38 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W50 | 6:38–6:46 | `decorate_finish` *(smoothed)* | 0.45 | despiked to match neighbours; backward step vs canonical order (reveal_result->decorate_finish) |
+| W51 | 6:46–6:54 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W52 | 6:54–7:02 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W53 | 7:02–7:10 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W54 | 7:10–7:18 | `decorate_finish` *(smoothed)* | 0.45 | despiked to match neighbours; backward step vs canonical order (reveal_result->decorate_finish) |
+| W55 | 7:18–7:26 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W56 | 7:26–7:34 | `decorate_finish` *(smoothed)* | 0.45 | despiked to match neighbours; backward step vs canonical order (reveal_result->decorate_finish) |
+| W57 | 7:34–7:42 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W58 | 7:42–7:50 | `reveal_result` | 0.45 |  |
+| W59 | 7:50–7:58 | `reveal_result` *(smoothed)* | 0.45 | despiked to match neighbours |
+| W60 | 7:58–8:06 | `reveal_result` | 0.45 |  |
+| W61 | 8:06–8:14 | `talking_head` | 0.45 |  |
+| W62 | 8:14–8:22 | `talking_head` | 0.45 |  |
+| W63 | 8:22–8:30 | `talking_head` *(smoothed)* | 0.45 | despiked to match neighbours |
+| W64 | 8:30–8:38 | `talking_head` | 0.45 |  |
+| W65 | 8:38–8:45 | `talking_head` | 0.45 |  |
+| W66 | 8:45–8:53 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W67 | 8:53–9:01 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W68 | 9:01–9:09 | `talking_head` | 0.45 |  |
+| W69 | 9:09–9:17 | `reveal_result` | 0.45 |  |
+| W70 | 9:17–9:25 | `reveal_result` | 0.45 |  |
+| W71 | 9:25–9:33 | `reveal_result` | 0.45 |  |
+| W72 | 9:33–9:41 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W73 | 9:41–9:49 | `decorate_finish` *(smoothed)* | 0.45 | despiked to match neighbours; backward step vs canonical order (reveal_result->decorate_finish) |
+| W74 | 9:49–9:57 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W75 | 9:57–10:05 | `decorate_finish` | 0.45 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W76 | 10:05–10:13 | `outro_cta` | 0.45 |  |
+| W77 | 10:13–10:21 | `outro_cta` | 0.45 |  |

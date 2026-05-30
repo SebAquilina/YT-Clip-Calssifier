@@ -346,96 +346,6 @@
       "window": 23,
       "start": 183.12,
       "end": 191.08,
-      "label": "transition",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
-    },
-    {
-      "window": 24,
-      "start": 191.08,
-      "end": 199.04,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'up yt hy 4 yy Sie Ten wi put on te stop wks'.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 25,
-      "start": 199.04,
-      "end": 207.0,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
-      ]
-    },
-    {
-      "window": 26,
-      "start": 207.0,
-      "end": 214.96,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 27,
-      "start": 214.96,
-      "end": 222.92,
-      "label": "talking_head",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Factory: molten wax processed.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
-    },
-    {
-      "window": 28,
-      "start": 222.92,
-      "end": 230.88,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 29,
-      "start": 230.88,
-      "end": 238.85,
       "label": "reveal_result",
       "original_label": "reveal_result",
       "confidence": 0.4,
@@ -447,16 +357,112 @@
       "notes": []
     },
     {
+      "window": 24,
+      "start": 191.08,
+      "end": 199.04,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 199.04,
+      "end": 207.0,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of candles in trays.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 207.0,
+      "end": 214.96,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax / mixer in the workshop.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 214.96,
+      "end": 222.92,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax / mixer in the workshop.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 222.92,
+      "end": 230.88,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 230.88,
+      "end": 238.85,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
       "window": 30,
       "start": 238.85,
       "end": 246.81,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
+      "description": "Molten wax / mixer in the workshop.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->melt_wax)"
@@ -466,121 +472,127 @@
       "window": 31,
       "start": 246.81,
       "end": 254.77,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
+      "description": "Rows of candles in trays.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 32,
       "start": 254.77,
       "end": 262.73,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 oe ae mat tocomtarthewek asbestos possbie'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring wax into the moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 33,
       "start": 262.73,
       "end": 270.69,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
+      "description": "Rows of candles in trays.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 34,
       "start": 270.69,
       "end": 278.65,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
-      "smoothed": false,
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 35,
       "start": 278.65,
       "end": 286.62,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ah hae vi. 6 ie icdd os Because itis straight andeentedID, Itwillpumithe entiriwax No skte will Ph mete fie other.'.",
+      "description": "Rows of candles in trays.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 36,
       "start": 286.62,
       "end": 294.58,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
+      "description": "Rows of candles in trays.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 37,
       "start": 294.58,
       "end": 302.54,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 38,
       "start": 302.54,
       "end": 310.5,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
       "notes": []
     },
@@ -588,45 +600,43 @@
       "window": 39,
       "start": 310.5,
       "end": 318.46,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 40,
       "start": 318.46,
       "end": 326.42,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "transition",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
-      "smoothed": false,
+      "description": "Brand-history / b-roll insert.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 41,
       "start": 326.42,
       "end": 334.38,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
       "notes": []
     },
@@ -634,13 +644,13 @@
       "window": 42,
       "start": 334.38,
       "end": 342.35,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sey, Dee ae 4 aa NY 7. Neyerthels they remain fili-sealeraproductions of busts'.",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
       "notes": []
     },
@@ -648,269 +658,284 @@
       "window": 43,
       "start": 342.35,
       "end": 350.31,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
+      "description": "Brand-history / b-roll insert.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 44,
       "start": 350.31,
       "end": 358.27,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 45,
       "start": 358.27,
       "end": 366.23,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 46,
       "start": 366.23,
       "end": 374.19,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 47,
       "start": 374.19,
       "end": 382.15,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 48,
       "start": 382.15,
       "end": 390.12,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee et ae ie pom were ghd hing'.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 49,
       "start": 390.12,
       "end": 398.08,
-      "label": "transition",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
-      "smoothed": true,
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 50,
       "start": 398.08,
       "end": 406.04,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "talking_head",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ot ieee all oo ae aly as OE 2 ae Sane et Ss ms SS Magi od es oa'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Worker/expert interview segment.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 51,
       "start": 406.04,
       "end": 414.0,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 52,
       "start": 414.0,
       "end": 421.96,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 53,
       "start": 421.96,
       "end": 429.92,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 54,
       "start": 429.92,
       "end": 437.88,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
-      "smoothed": false,
+      "description": "Finished luxury candle / sculpted bust shown.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 55,
       "start": 437.88,
       "end": 445.85,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'kes: par mi. er 7 4 iret wor es stn sone'.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 56,
       "start": 445.85,
       "end": 453.81,
-      "label": "talking_head",
+      "label": "decorate_finish",
       "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Worker/expert interview segment.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 57,
       "start": 453.81,
       "end": 461.77,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 58,
       "start": 461.77,
       "end": 469.73,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the luxury candle vessels.",
+      "description": "Finished luxury candle / sculpted bust shown.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 59,
       "start": 469.73,
       "end": 477.69,
       "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "original_label": "talking_head",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
-      "smoothed": false,
-      "notes": []
+      "description": "Worker/expert interview segment.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 60,
       "start": 477.69,
       "end": 485.65,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Finished luxury candle / sculpted bust shown.",
       "smoothed": false,
       "notes": []
     },
@@ -918,13 +943,13 @@
       "window": 61,
       "start": 485.65,
       "end": 493.62,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 4 7 2 Vi 4 At det 7 We have to evaluate the candies every four hours. ew'.",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
       "notes": []
     },
@@ -932,31 +957,31 @@
       "window": 62,
       "start": 493.62,
       "end": 501.58,
-      "label": "transition",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Worker/expert interview segment.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 63,
       "start": 501.58,
       "end": 509.54,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Maite Som fe, we are going televalua'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Finished luxury candle / sculpted bust shown.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 64,
@@ -964,11 +989,11 @@
       "end": 517.5,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.7,
+      "confidence": 0.45,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
       "notes": []
     },
@@ -976,13 +1001,13 @@
       "window": 65,
       "start": 517.5,
       "end": 525.46,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
       "notes": []
     },
@@ -990,41 +1015,45 @@
       "window": 66,
       "start": 525.46,
       "end": 533.42,
-      "label": "outro_cta",
-      "original_label": "outro_cta",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tT tal can ae Dm rercora snanecprosee chides olfactory aicelisationattnmnsine ws'.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 67,
       "start": 533.42,
       "end": 541.38,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 68,
       "start": 541.38,
       "end": 549.35,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished luxury candles / glasswork shown.",
+      "description": "Worker/expert interview segment.",
       "smoothed": false,
       "notes": []
     },
@@ -1033,16 +1062,14 @@
       "start": 549.35,
       "end": 557.31,
       "label": "reveal_result",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
+      "original_label": "reveal_result",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Factory: molten wax processed.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Finished luxury candle / sculpted bust shown.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 70,
@@ -1050,11 +1077,11 @@
       "end": 565.27,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles shown.",
+      "description": "Finished luxury candle / sculpted bust shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1064,11 +1091,11 @@
       "end": 573.23,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles shown.",
+      "description": "Finished luxury candle / sculpted bust shown.",
       "smoothed": false,
       "notes": []
     },
@@ -1076,71 +1103,78 @@
       "window": 72,
       "start": 573.23,
       "end": 581.19,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles shown.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 73,
       "start": 581.19,
       "end": 589.15,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "talking_head",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles shown.",
-      "smoothed": false,
-      "notes": []
+      "description": "Worker/expert interview segment.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 74,
       "start": 589.15,
       "end": 597.12,
-      "label": "reveal_result",
-      "original_label": "outro_cta",
-      "confidence": 0.5,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mm SES ww 0 for has been done to bring it to fife'.",
-      "smoothed": true,
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 75,
       "start": 597.12,
       "end": 605.08,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished luxury candles shown.",
+      "description": "Workshop: sculpting/finishing the wax candles & busts.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 76,
       "start": 605.08,
       "end": 613.04,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished luxury candles shown.",
+      "description": "End credits.",
       "smoothed": false,
       "notes": []
     },
@@ -1148,13 +1182,13 @@
       "window": 77,
       "start": 613.04,
       "end": 621.0,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished luxury candles shown.",
+      "description": "End credits.",
       "smoothed": false,
       "notes": []
     }
@@ -1357,45 +1391,75 @@
       "phase": "aux",
       "is_step": false,
       "start": 175.15,
-      "end": 199.04,
-      "confidence": 0.47,
+      "end": 183.12,
+      "confidence": 0.5,
       "windows": [
-        22,
-        23,
-        24
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 199.04,
-      "end": 207.0,
-      "confidence": 0.4,
-      "windows": [
-        25
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 207.0,
-      "end": 230.88,
-      "confidence": 0.6,
-      "windows": [
-        26,
-        27,
-        28
+        22
       ]
     },
     {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
+      "start": 183.12,
+      "end": 191.08,
+      "confidence": 0.4,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 191.08,
+      "end": 199.04,
+      "confidence": 0.45,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 199.04,
+      "end": 207.0,
+      "confidence": 0.45,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 207.0,
+      "end": 222.92,
+      "confidence": 0.45,
+      "windows": [
+        26,
+        27
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 222.92,
+      "end": 230.88,
+      "confidence": 0.45,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
       "start": 230.88,
       "end": 238.85,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         29
       ]
@@ -1406,394 +1470,174 @@
       "is_step": true,
       "start": 238.85,
       "end": 246.81,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         30
       ]
     },
     {
-      "label": "pour_wax",
+      "label": "cure_cool",
       "phase": "assemble",
       "is_step": true,
       "start": 246.81,
-      "end": 254.77,
-      "confidence": 0.4,
-      "windows": [
-        31
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 254.77,
-      "end": 262.73,
-      "confidence": 0.5,
-      "windows": [
-        32
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 262.73,
-      "end": 270.69,
-      "confidence": 0.4,
-      "windows": [
-        33
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 270.69,
-      "end": 278.65,
-      "confidence": 0.4,
-      "windows": [
-        34
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 278.65,
-      "end": 286.62,
-      "confidence": 0.5,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 286.62,
       "end": 294.58,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
+        31,
+        32,
+        33,
+        34,
+        35,
         36
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "phase": "finish",
       "is_step": true,
       "start": 294.58,
       "end": 302.54,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         37
       ]
     },
     {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
       "start": 302.54,
-      "end": 310.5,
-      "confidence": 0.4,
+      "end": 342.35,
+      "confidence": 0.45,
       "windows": [
-        38
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 310.5,
-      "end": 318.46,
-      "confidence": 0.4,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 318.46,
-      "end": 326.42,
-      "confidence": 0.4,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 326.42,
-      "end": 334.38,
-      "confidence": 0.4,
-      "windows": [
-        41
+        38,
+        39,
+        40,
+        41,
+        42
       ]
     },
     {
       "label": "transition",
       "phase": "aux",
       "is_step": false,
-      "start": 334.38,
-      "end": 342.35,
-      "confidence": 0.5,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
       "start": 342.35,
       "end": 350.31,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         43
       ]
     },
     {
-      "label": "reveal_result",
+      "label": "decorate_finish",
       "phase": "finish",
       "is_step": true,
       "start": 350.31,
-      "end": 358.27,
-      "confidence": 0.4,
+      "end": 461.77,
+      "confidence": 0.45,
       "windows": [
-        44
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 358.27,
-      "end": 366.23,
-      "confidence": 0.4,
-      "windows": [
-        45
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 366.23,
-      "end": 374.19,
-      "confidence": 0.4,
-      "windows": [
-        46
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 374.19,
-      "end": 382.15,
-      "confidence": 0.4,
-      "windows": [
-        47
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 382.15,
-      "end": 406.04,
-      "confidence": 0.47,
-      "windows": [
+        44,
+        45,
+        46,
+        47,
         48,
         49,
-        50
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 406.04,
-      "end": 414.0,
-      "confidence": 0.4,
-      "windows": [
-        51
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 414.0,
-      "end": 421.96,
-      "confidence": 0.4,
-      "windows": [
-        52
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 421.96,
-      "end": 429.92,
-      "confidence": 0.4,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 429.92,
-      "end": 437.88,
-      "confidence": 0.4,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 437.88,
-      "end": 445.85,
-      "confidence": 0.5,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 445.85,
-      "end": 453.81,
-      "confidence": 0.7,
-      "windows": [
-        56
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 453.81,
-      "end": 461.77,
-      "confidence": 0.4,
-      "windows": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
         57
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 461.77,
-      "end": 469.73,
-      "confidence": 0.4,
-      "windows": [
-        58
-      ]
-    },
-    {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 469.73,
-      "end": 477.69,
-      "confidence": 0.4,
-      "windows": [
-        59
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 477.69,
+      "start": 461.77,
       "end": 485.65,
-      "confidence": 0.7,
+      "confidence": 0.45,
       "windows": [
+        58,
+        59,
         60
       ]
     },
     {
-      "label": "transition",
+      "label": "talking_head",
       "phase": "aux",
       "is_step": false,
       "start": 485.65,
-      "end": 509.54,
-      "confidence": 0.47,
+      "end": 525.46,
+      "confidence": 0.45,
       "windows": [
         61,
         62,
-        63
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 525.46,
+      "end": 541.38,
+      "confidence": 0.45,
+      "windows": [
+        66,
+        67
       ]
     },
     {
       "label": "talking_head",
       "phase": "aux",
       "is_step": false,
-      "start": 509.54,
-      "end": 517.5,
-      "confidence": 0.7,
+      "start": 541.38,
+      "end": 549.35,
+      "confidence": 0.45,
       "windows": [
-        64
+        68
       ]
     },
     {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 517.5,
-      "end": 525.46,
-      "confidence": 0.4,
+      "start": 549.35,
+      "end": 573.23,
+      "confidence": 0.45,
       "windows": [
-        65
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 573.23,
+      "end": 605.08,
+      "confidence": 0.45,
+      "windows": [
+        72,
+        73,
+        74,
+        75
       ]
     },
     {
       "label": "outro_cta",
       "phase": "aux",
       "is_step": false,
-      "start": 525.46,
-      "end": 533.42,
-      "confidence": 0.5,
-      "windows": [
-        66
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 533.42,
-      "end": 541.38,
-      "confidence": 0.7,
-      "windows": [
-        67
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 541.38,
+      "start": 605.08,
       "end": 621.0,
-      "confidence": 0.41,
+      "confidence": 0.45,
       "windows": [
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
         76,
         77
       ]

@@ -195,9 +195,9 @@
   "window": 24,
   "start": 192.29,
   "end": 200.3,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the vessel."
  },
  {
   "window": 25,
@@ -205,15 +205,15 @@
   "end": 208.31,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 26,
   "start": 208.31,
   "end": 216.33,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 27,
@@ -221,55 +221,55 @@
   "end": 224.34,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 28,
   "start": 224.34,
   "end": 232.35,
-  "label": "transition",
+  "label": "gather_materials",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'yt fa Gey. aye aN soe 9 gi'."
+  "description": "Dollar Tree supplies/clamshells shown."
  },
  {
   "window": 29,
   "start": 232.35,
   "end": 240.36,
-  "label": "decorate_finish",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Colouring the glass / wax (red/orange)."
  },
  {
   "window": 30,
   "start": 240.36,
   "end": 248.37,
-  "label": "transition",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'sr Fe 5 yy, ey eo te 4 we 7'."
+  "description": "Colouring the glass / wax (red/orange)."
  },
  {
   "window": 31,
   "start": 248.37,
   "end": 256.39,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 32,
   "start": 256.39,
   "end": 264.4,
-  "label": "decorate_finish",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Colouring the glass / wax (red/orange)."
  },
  {
   "window": 33,
   "start": 264.4,
   "end": 272.41,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 34,
@@ -277,7 +277,7 @@
   "end": 280.42,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 35,
@@ -285,7 +285,7 @@
   "end": 288.43,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 36,
@@ -293,87 +293,87 @@
   "end": 296.45,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 37,
   "start": 296.45,
   "end": 304.46,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 38,
   "start": 304.46,
   "end": 312.47,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 39,
   "start": 312.47,
   "end": 320.48,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 40,
   "start": 320.48,
   "end": 328.49,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Flameless LED candle demo / b-roll."
  },
  {
   "window": 41,
   "start": 328.49,
   "end": 336.51,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Flameless LED candle demo / b-roll."
  },
  {
   "window": 42,
   "start": 336.51,
   "end": 344.52,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 43,
   "start": 344.52,
   "end": 352.53,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 44,
   "start": 352.53,
   "end": 360.54,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 45,
   "start": 360.54,
   "end": 368.55,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Flameless LED candle demo / b-roll."
  },
  {
   "window": 46,
   "start": 368.55,
   "end": 376.57,
-  "label": "decorate_finish",
+  "label": "gather_materials",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Dollar Tree supplies/clamshells shown."
  },
  {
   "window": 47,
@@ -381,31 +381,31 @@
   "end": 384.58,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 48,
   "start": 384.58,
   "end": 392.59,
-  "label": "decorate_finish",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Colouring the glass / wax (red/orange)."
  },
  {
   "window": 49,
   "start": 392.59,
   "end": 400.6,
-  "label": "decorate_finish",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Melting the wax."
  },
  {
   "window": 50,
   "start": 400.6,
   "end": 408.61,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Pouring wax into the vessel."
  },
  {
   "window": 51,
@@ -413,7 +413,7 @@
   "end": 416.63,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 52,
@@ -421,23 +421,23 @@
   "end": 424.64,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 53,
   "start": 424.64,
   "end": 432.65,
-  "label": "decorate_finish",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Colouring the glass / wax (red/orange)."
  },
  {
   "window": 54,
   "start": 432.65,
   "end": 440.66,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Pouring wax into the vessel."
  },
  {
   "window": 55,
@@ -445,7 +445,7 @@
   "end": 448.67,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 56,
@@ -453,23 +453,23 @@
   "end": 456.69,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 57,
   "start": 456.69,
   "end": 464.7,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Pouring wax into the vessel."
  },
  {
   "window": 58,
   "start": 464.7,
   "end": 472.71,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 59,
@@ -477,7 +477,7 @@
   "end": 480.72,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 60,
@@ -485,7 +485,7 @@
   "end": 488.73,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 61,
@@ -493,7 +493,7 @@
   "end": 496.75,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 62,
@@ -501,7 +501,7 @@
   "end": 504.76,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 63,
@@ -509,7 +509,7 @@
   "end": 512.77,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 64,
@@ -517,7 +517,7 @@
   "end": 520.78,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 65,
@@ -525,7 +525,7 @@
   "end": 528.8,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 66,
@@ -533,7 +533,7 @@
   "end": 536.81,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 67,
@@ -541,7 +541,7 @@
   "end": 544.82,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 68,
@@ -549,7 +549,7 @@
   "end": 552.83,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 69,
@@ -557,7 +557,7 @@
   "end": 560.84,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 70,
@@ -565,7 +565,7 @@
   "end": 568.86,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 71,
@@ -573,7 +573,7 @@
   "end": 576.87,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 72,
@@ -581,7 +581,7 @@
   "end": 584.88,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 73,
@@ -589,15 +589,15 @@
   "end": 592.89,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 74,
   "start": 592.89,
   "end": 600.9,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 75,
@@ -605,62 +605,62 @@
   "end": 608.92,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Decorating/assembling the fall candle (glue, shaping, arranging)."
  },
  {
   "window": 76,
   "start": 608.92,
   "end": 616.93,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating LED pillar candles with printed napkins (heat-sealed)."
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 77,
   "start": 616.93,
   "end": 624.94,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished/lit decorated candle shown."
  },
  {
   "window": 78,
   "start": 624.94,
   "end": 632.95,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (fall decor)."
  },
  {
   "window": 79,
   "start": 632.95,
   "end": 640.96,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (fall decor)."
  },
  {
   "window": 80,
   "start": 640.96,
   "end": 648.98,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (fall decor)."
  },
  {
   "window": 81,
   "start": 648.98,
   "end": 656.99,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (fall decor)."
  },
  {
   "window": 82,
   "start": 656.99,
   "end": 665.0,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (fall decor)."
  }
 ]
