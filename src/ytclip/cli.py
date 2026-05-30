@@ -56,6 +56,7 @@ def main(argv=None):
     an.add_argument("video_id", nargs="?", help="one video, or omit for all finalized videos")
     an.add_argument("--no-ocr", action="store_true")
     sub.add_parser("build-db")
+    sub.add_parser("enrich-db", help="add a fuller description_detailed column to the built db (grounded signals)")
     sub.add_parser("split-db", help="fan the database out into one small file per label (outputs/db/by_label/)")
     sub.add_parser("prompt")
 
@@ -98,6 +99,13 @@ def main(argv=None):
         print(f"database: {res['videos']} videos, {res['windows']} windows "
               f"(clean/action-only: {res['clean_windows']}); "
               f"filtered={res['filtered']}; validation_flags={res['flagged']} -> {res['dir']}")
+    elif a.cmd == "enrich-db":
+        from .enrich import enrich_db
+        res = enrich_db()
+        print(f"enriched description_detailed for {res['rows']} windows: "
+              f"mean {res['mean_len']} chars, min {res['min_len']}, "
+              f"{res['over_50']} over 50 -> {res['dir']} "
+              f"(run split-db to refresh per-label shards)")
     elif a.cmd == "split-db":
         from .database import split_by_label
         res = split_by_label()

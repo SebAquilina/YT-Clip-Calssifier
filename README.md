@@ -20,15 +20,27 @@ For each video:
 - `outputs/<id>.md` — a readable timeline table ([example](outputs/GAh9lQmaEvI.md))
 
 For the whole corpus:
-- **`outputs/db/classifications.{sqlite,csv,jsonl}`** — the full database: **one row per 5–10s window**, each with the video link, a timestamped deep-link (`youtu.be/<id>?t=<start>s`), action label, phase, confidence, a **detailed description**, the **objective features** (`face_score`, `text_score`, `ocr_text`, `motion`, `brightness`, `colorfulness`, `dominant_colors`), and the filter result (`keep`, `filter_reason`, `validation_flags`).
+- **`outputs/db/classifications.{sqlite,csv,jsonl}`** — the full database: **one row per 5–10s window**, each with the video link, a timestamped deep-link (`youtu.be/<id>?t=<start>s`), action label, phase, confidence, the model's **`description`**, a longer **`description_detailed`** (the observation plus the step's canonical meaning, a `captioned` flag, qualitative visual signals — motion / brightness / named+hex colour palette — and the window's phase, % position and `mm:ss` span; see below), the **objective features** (`face_score`, `text_score`, `ocr_text`, `motion`, `brightness`, `colorfulness`, `dominant_colors`), and the filter result (`keep`, `filter_reason`, `validation_flags`).
 - **`outputs/db/classifications_clean.{csv,jsonl}`** — the **action-only subset**: talking-head and text/title/card windows removed (also the `windows_clean` view in SQLite). This is the "no talking-head, no text-overlay" corpus.
 - **`outputs/db/by_label/<label>.{csv,jsonl}`** — the same rows **fanned out one file per action label** (`talking_head.jsonl`, `pour_wax.jsonl`, …), with the action-only subset under `by_label/clean/` and a `by_label/index.json` manifest of per-label counts and sizes. The monolithic `classifications.jsonl` is ~9 MB; each per-label shard is small (the largest, `talking_head`, is ~3 MB; most are well under 1 MB), so you can load just the label you're working on. Regenerate with `python -m ytclip.cli split-db`.
 - `outputs/learned_rules.yaml` / `outputs/SUMMARY.md` — empirically observed step order, durations, transitions.
 
 **Anti-hallucination:** every window's description is paired with code-computed signals (face/OCR/motion/…) that corroborate or contradict it, and a validator records `validation_flags` for genuine label↔evidence conflicts. See `docs/METHODOLOGY.md` §6–7. Refresh signals with `python -m ytclip.cli analyze` and rebuild with `build-db`.
 
-Build/refresh the database any time with `python -m ytclip.cli build-db`, then
-optionally `python -m ytclip.cli split-db` to fan it out into per-label files.
+Build/refresh the database any time with `python -m ytclip.cli build-db`
+(which fills `description_detailed`), then optionally
+`python -m ytclip.cli enrich-db` to (re)compute the longer descriptions on an
+existing db and `python -m ytclip.cli split-db` to fan it out into per-label files.
+
+**On `description_detailed` (honest by design):** storyboard mode only samples
+~1 frame / 1.8 s, so there is no genuine *per-second* visual signal to describe.
+Rather than invent per-second detail, `description_detailed` *enriches* each
+window's existing observation with context that is **derived deterministically
+from data we already have** — the label's canonical meaning, a `captioned` flag,
+qualitative renderings of the computed motion/brightness/colour signals (the hex
+values are included so the naming is verifiable), and the window's position in
+the video. The raw (often garbled) `ocr_text` is **never** quoted; it stays a
+validation-only signal.
 
 ### The 250-video database
 

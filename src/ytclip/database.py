@@ -30,6 +30,7 @@ WINDOW_FIELDS = [
     "video_id", "video_url", "video_title", "video_duration_s", "source",
     "window_index", "start_s", "end_s", "duration_s", "window_url",
     "action_label", "phase", "is_step", "confidence", "description",
+    "description_detailed",
     # objective features (computed by code, not the model):
     "ocr_text", "has_caption", "face_score", "text_score", "motion",
     "brightness", "colorfulness", "dominant_colors",
@@ -52,6 +53,8 @@ def _timelines():
 
 
 def _rows():
+    from .enrich import enrich_description, _load_glosses
+    glosses = _load_glosses()
     for d in _timelines():
         vid, url = d["video_id"], d["url"]
         feats = _features(vid)
@@ -61,7 +64,7 @@ def _rows():
             start = int(round(wdw["start"]))
             keep, reason = (filter_window(ft) if ft else (True, ""))
             flags = validate_window(wdw["label"], wdw.get("description", ""), ft) if ft else []
-            yield {
+            row = {
                 "video_id": vid,
                 "video_url": url,
                 "video_title": d["title"],
@@ -77,6 +80,7 @@ def _rows():
                 "is_step": int(bool(wdw.get("is_step"))),
                 "confidence": wdw.get("confidence", 0.0),
                 "description": wdw.get("description") or wdw.get("evidence", ""),
+                "description_detailed": "",
                 "ocr_text": ft.get("ocr_text", ""),
                 "has_caption": int(has_caption(ft)) if ft else 0,
                 "face_score": ft.get("face_score", ""),
@@ -89,6 +93,8 @@ def _rows():
                 "filter_reason": reason,
                 "validation_flags": "; ".join(flags),
             }
+            row["description_detailed"] = enrich_description(row, glosses)
+            yield row
 
 
 def _is_action(r: dict) -> bool:
