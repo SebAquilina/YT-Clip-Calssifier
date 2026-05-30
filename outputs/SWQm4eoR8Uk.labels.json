@@ -1,226 +1,226 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.96,
-    "end": 15.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.93,
-    "end": 23.89,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.89,
-    "end": 31.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.86,
-    "end": 39.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.82,
-    "end": 47.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.79,
-    "end": 55.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.75,
-    "end": 63.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.71,
-    "end": 71.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.68,
-    "end": 79.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.64,
-    "end": 87.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.61,
-    "end": 95.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.57,
-    "end": 103.54,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.54,
-    "end": 111.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.5,
-    "end": 119.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.46,
-    "end": 127.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.43,
-    "end": 135.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.39,
-    "end": 143.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.36,
-    "end": 151.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.32,
-    "end": 159.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.29,
-    "end": 167.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.25,
-    "end": 175.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.21,
-    "end": 183.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 183.18,
-    "end": 191.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.14,
-    "end": 199.11,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 199.11,
-    "end": 207.07,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 26,
-    "start": 207.07,
-    "end": 215.04,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 27,
-    "start": 215.04,
-    "end": 223.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.96,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'AU Wax Melters' title card."
+ },
+ {
+  "window": 1,
+  "start": 7.96,
+  "end": 15.93,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 2,
+  "start": 15.93,
+  "end": 23.89,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 3,
+  "start": 23.89,
+  "end": 31.86,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 4,
+  "start": 31.86,
+  "end": 39.82,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 5,
+  "start": 39.82,
+  "end": 47.79,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 6,
+  "start": 47.79,
+  "end": 55.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 7,
+  "start": 55.75,
+  "end": 63.71,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 8,
+  "start": 63.71,
+  "end": 71.68,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 9,
+  "start": 71.68,
+  "end": 79.64,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 10,
+  "start": 79.64,
+  "end": 87.61,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 11,
+  "start": 87.61,
+  "end": 95.57,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 12,
+  "start": 95.57,
+  "end": 103.54,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 13,
+  "start": 103.54,
+  "end": 111.5,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 14,
+  "start": 111.5,
+  "end": 119.46,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 15,
+  "start": 119.46,
+  "end": 127.43,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 16,
+  "start": 127.43,
+  "end": 135.39,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 17,
+  "start": 135.39,
+  "end": 143.36,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 18,
+  "start": 143.36,
+  "end": 151.32,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 19,
+  "start": 151.32,
+  "end": 159.29,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Close-up of an electric melter pot of wax; pouring."
+ },
+ {
+  "window": 20,
+  "start": 159.29,
+  "end": 167.25,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Close-up of an electric melter pot of wax; pouring."
+ },
+ {
+  "window": 21,
+  "start": 167.25,
+  "end": 175.21,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Close-up of an electric melter pot of wax; pouring."
+ },
+ {
+  "window": 22,
+  "start": 175.21,
+  "end": 183.18,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 23,
+  "start": 183.18,
+  "end": 191.14,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 24,
+  "start": 191.14,
+  "end": 199.11,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host demonstrates the AU electric wax melters (rack of melters behind)."
+ },
+ {
+  "window": 25,
+  "start": 199.11,
+  "end": 207.07,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 26,
+  "start": 207.07,
+  "end": 215.04,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 27,
+  "start": 215.04,
+  "end": 223.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
