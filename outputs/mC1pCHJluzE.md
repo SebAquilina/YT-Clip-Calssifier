@@ -2,17 +2,16 @@
 
 - **Video:** [mC1pCHJluzE](https://www.youtube.com/watch?v=mC1pCHJluzE)
 - **Duration:** 6:58  (418s)
-- **Source:** storyboard  |  **Windows:** 52  |  **Segments:** 5
+- **Source:** storyboard  |  **Windows:** 52  |  **Segments:** 4
 
 ## Action segments (merged)
 
 | # | Time | Duration | Action | Phase | Step | Conf |
 |--:|------|---------:|--------|-------|:----:|-----:|
 | 1 | 0:00–0:32 | 32s | `talking_head` | aux |  | 0.75 |
-| 2 | 0:32–5:22 | 289s | `decorate_finish` | finish | ✓ | 0.51 |
-| 3 | 5:22–6:26 | 64s | `reveal_result` | finish | ✓ | 0.45 |
-| 4 | 6:26–6:34 | 8s | `talking_head` | aux |  | 0.70 |
-| 5 | 6:34–6:58 | 24s | `transition` | aux |  | 0.50 |
+| 2 | 0:32–5:14 | 281s | `decorate_finish` | finish | ✓ | 0.50 |
+| 3 | 5:14–6:34 | 80s | `reveal_result` | finish | ✓ | 0.50 |
+| 4 | 6:34–6:58 | 24s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -46,7 +45,7 @@
 | W25 | 3:21–3:29 | `decorate_finish` | 0.50 |  |
 | W26 | 3:29–3:37 | `decorate_finish` | 0.50 |  |
 | W27 | 3:37–3:45 | `decorate_finish` | 0.50 |  |
-| W28 | 3:45–3:53 | `decorate_finish` *(smoothed)* | 0.70 | despiked to match neighbours |
+| W28 | 3:45–3:53 | `decorate_finish` | 0.50 |  |
 | W29 | 3:53–4:01 | `decorate_finish` | 0.50 |  |
 | W30 | 4:01–4:09 | `decorate_finish` | 0.50 |  |
 | W31 | 4:09–4:17 | `decorate_finish` | 0.50 |  |
@@ -57,16 +56,16 @@
 | W36 | 4:49–4:57 | `decorate_finish` | 0.50 |  |
 | W37 | 4:57–5:05 | `decorate_finish` | 0.50 |  |
 | W38 | 5:05–5:14 | `decorate_finish` | 0.50 |  |
-| W39 | 5:14–5:22 | `decorate_finish` | 0.50 |  |
-| W40 | 5:22–5:30 | `reveal_result` | 0.45 |  |
-| W41 | 5:30–5:38 | `reveal_result` | 0.45 |  |
-| W42 | 5:38–5:46 | `reveal_result` | 0.45 |  |
-| W43 | 5:46–5:54 | `reveal_result` | 0.45 |  |
-| W44 | 5:54–6:02 | `reveal_result` | 0.45 |  |
-| W45 | 6:02–6:10 | `reveal_result` | 0.45 |  |
-| W46 | 6:10–6:18 | `reveal_result` | 0.45 |  |
-| W47 | 6:18–6:26 | `reveal_result` | 0.45 |  |
-| W48 | 6:26–6:34 | `talking_head` | 0.70 |  |
-| W49 | 6:34–6:42 | `transition` | 0.50 |  |
-| W50 | 6:42–6:50 | `transition` | 0.50 |  |
-| W51 | 6:50–6:58 | `transition` | 0.50 |  |
+| W39 | 5:14–5:22 | `reveal_result` | 0.50 |  |
+| W40 | 5:22–5:30 | `reveal_result` | 0.50 |  |
+| W41 | 5:30–5:38 | `reveal_result` | 0.50 |  |
+| W42 | 5:38–5:46 | `reveal_result` | 0.50 |  |
+| W43 | 5:46–5:54 | `reveal_result` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W44 | 5:54–6:02 | `reveal_result` | 0.50 |  |
+| W45 | 6:02–6:10 | `reveal_result` | 0.50 |  |
+| W46 | 6:10–6:18 | `reveal_result` | 0.50 |  |
+| W47 | 6:18–6:26 | `reveal_result` | 0.50 |  |
+| W48 | 6:26–6:34 | `reveal_result` | 0.50 |  |
+| W49 | 6:34–6:42 | `blank` | 0.60 |  |
+| W50 | 6:42–6:50 | `blank` | 0.60 |  |
+| W51 | 6:50–6:58 | `blank` | 0.60 |  |

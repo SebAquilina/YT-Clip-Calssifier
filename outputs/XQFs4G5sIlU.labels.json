@@ -195,17 +195,17 @@
   "window": 24,
   "start": 191.53,
   "end": 199.51,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Pouring the green matcha wax layer into the glass."
  },
  {
   "window": 25,
   "start": 199.51,
   "end": 207.49,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Pouring the green matcha wax layer into the glass."
  },
  {
   "window": 26,
@@ -213,15 +213,15 @@
   "end": 215.47,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 27,
   "start": 215.47,
   "end": 223.45,
-  "label": "decorate_finish",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Adding red strawberry-coloured wax."
  },
  {
   "window": 28,
@@ -229,7 +229,7 @@
   "end": 231.43,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 29,
@@ -237,15 +237,15 @@
   "end": 239.41,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 30,
   "start": 239.41,
   "end": 247.39,
-  "label": "decorate_finish",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Adding red strawberry-coloured wax."
  },
  {
   "window": 31,
@@ -253,7 +253,7 @@
   "end": 255.37,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 32,
@@ -261,7 +261,7 @@
   "end": 263.35,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 33,
@@ -269,7 +269,7 @@
   "end": 271.33,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 34,
@@ -277,23 +277,23 @@
   "end": 279.31,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 35,
   "start": 279.31,
   "end": 287.29,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Pouring the green matcha wax layer into the glass."
  },
  {
   "window": 36,
   "start": 287.29,
   "end": 295.27,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 4 fw Sounds onsfomunboxinghe.'."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 37,
@@ -301,110 +301,110 @@
   "end": 303.25,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Shaping/layering the dessert drink candle (whipped wax, decorations)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 38,
   "start": 303.25,
   "end": 311.24,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 39,
   "start": 311.24,
   "end": 319.22,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 40,
   "start": 319.22,
   "end": 327.2,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 41,
   "start": 327.2,
   "end": 335.18,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 42,
   "start": 335.18,
   "end": 343.16,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 43,
   "start": 343.16,
   "end": 351.14,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 44,
   "start": 351.14,
   "end": 359.12,
-  "label": "outro_cta",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Hy vag tl ee. Lj Mhanksyou fall.for. watchin'."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 45,
   "start": 359.12,
   "end": 367.1,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 46,
   "start": 367.1,
   "end": 375.08,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished strawberry-matcha drink candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 47,
   "start": 375.08,
   "end": 383.06,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "description": "Assembling/layering the drink candle (embeds, whipped cream top)."
  },
  {
   "window": 48,
   "start": 383.06,
   "end": 391.04,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "description": "Finished strawberry-matcha candle shown."
  },
  {
   "window": 49,
   "start": 391.04,
   "end": 399.02,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "description": "Finished strawberry-matcha candle shown."
  },
  {
   "window": 50,
   "start": 399.02,
   "end": 407.0,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "description": "Finished strawberry-matcha candle shown."
  }
 ]

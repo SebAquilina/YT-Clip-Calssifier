@@ -195,376 +195,376 @@
   "window": 24,
   "start": 192.34,
   "end": 200.35,
-  "label": "transition",
+  "label": "prepare_container",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'my sre us ry 7 Ji wf neh oi S-7y mage: rey Fon te ie yy 4 7 fu ay me! Sie Ss ae ej'."
+  "description": "Rows of glass cups prepped."
  },
  {
   "window": 25,
   "start": 200.35,
   "end": 208.37,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Rows of glass cups prepped."
  },
  {
   "window": 26,
   "start": 208.37,
   "end": 216.38,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Pouring wax into the cups."
  },
  {
   "window": 27,
   "start": 216.38,
   "end": 224.39,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Rows of glass cups prepped."
  },
  {
   "window": 28,
   "start": 224.39,
   "end": 232.41,
-  "label": "talking_head",
+  "label": "prepare_container",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Rows of glass cups prepped."
  },
  {
   "window": 29,
   "start": 232.41,
   "end": 240.42,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Pouring wax into the cups."
  },
  {
   "window": 30,
   "start": 240.42,
   "end": 248.44,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax."
  },
  {
   "window": 31,
   "start": 248.44,
   "end": 256.45,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 32,
   "start": 256.45,
   "end": 264.46,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 33,
   "start": 264.46,
   "end": 272.48,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 34,
   "start": 272.48,
   "end": 280.49,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 35,
   "start": 280.49,
   "end": 288.51,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 36,
   "start": 288.51,
   "end": 296.52,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 37,
   "start": 296.52,
   "end": 304.54,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 38,
   "start": 304.54,
   "end": 312.55,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 39,
   "start": 312.55,
   "end": 320.56,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 40,
   "start": 320.56,
   "end": 328.58,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 41,
   "start": 328.58,
   "end": 336.59,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 42,
   "start": 336.59,
   "end": 344.61,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Mixing blue dye."
  },
  {
   "window": 43,
   "start": 344.61,
   "end": 352.62,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Pouring wax into the cups."
  },
  {
   "window": 44,
   "start": 352.62,
   "end": 360.63,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'rv et ie se qi Ny ey ar Te 5 ail eS 3 PARE ate toa os Ss Sara ov ee Sets ee hc Pee 7 Sew eae'."
+  "description": "Pouring wax into the cups."
  },
  {
   "window": 45,
   "start": 360.63,
   "end": 368.65,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Making/placing white cloud embeds & labelling."
  },
  {
   "window": 46,
   "start": 368.65,
   "end": 376.66,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'va ay 2 2 vs os an Saat te Sy 7 aise aa ys'."
+  "description": "Pouring wax into the cups."
  },
  {
   "window": 47,
   "start": 376.66,
   "end": 384.68,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Pouring wax into the cups."
  },
  {
   "window": 48,
   "start": 384.68,
   "end": 392.69,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 49,
   "start": 392.69,
   "end": 400.7,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'iL va bie at Deed fi 4 et. ir 3 ee ee 5 Cae mF ae 4 4 or lS tee ay Pie lene Komen th Ne he. iia AmB He vat Pee fe ie!'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 50,
   "start": 400.7,
   "end": 408.72,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Melting wax."
  },
  {
   "window": 51,
   "start": 408.72,
   "end": 416.73,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Making/placing white cloud embeds & labelling."
  },
  {
   "window": 52,
   "start": 416.73,
   "end": 424.75,
-  "label": "talking_head",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Making/placing white cloud embeds & labelling."
  },
  {
   "window": 53,
   "start": 424.75,
   "end": 432.76,
-  "label": "talking_head",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Making/placing white cloud embeds & labelling."
  },
  {
   "window": 54,
   "start": 432.76,
   "end": 440.77,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Making/placing white cloud embeds & labelling."
  },
  {
   "window": 55,
   "start": 440.77,
   "end": 448.79,
-  "label": "talking_head",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Making/placing white cloud embeds & labelling."
  },
  {
   "window": 56,
   "start": 448.79,
   "end": 456.8,
-  "label": "talking_head",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Host talks to camera (the viral candle)."
+  "description": "Making/placing white cloud embeds & labelling."
  },
  {
   "window": 57,
   "start": 456.8,
   "end": 464.82,
-  "label": "pour_wax",
-  "confidence": 0.4,
-  "description": "Overhead candle-making insert (mould/pour)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished blue cloud candles shown."
  },
  {
   "window": 58,
   "start": 464.82,
   "end": 472.83,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 59,
   "start": 472.83,
   "end": 480.85,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 60,
   "start": 480.85,
   "end": 488.86,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished blue cloud candles shown."
  },
  {
   "window": 61,
   "start": 488.86,
   "end": 496.87,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 62,
   "start": 496.87,
   "end": 504.89,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 63,
   "start": 504.89,
   "end": 512.9,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished blue cloud candles shown."
  },
  {
   "window": 64,
   "start": 512.9,
   "end": 520.92,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 65,
   "start": 520.92,
   "end": 528.93,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 66,
   "start": 528.93,
   "end": 536.94,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 67,
   "start": 536.94,
   "end": 544.96,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished blue cloud candles shown."
  },
  {
   "window": 68,
   "start": 544.96,
   "end": 552.97,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished viral candle shown."
+  "confidence": 0.5,
+  "description": "Finished blue cloud candles shown."
  },
  {
   "window": 69,
   "start": 552.97,
   "end": 560.99,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished viral candle shown."
+  "confidence": 0.5,
+  "description": "Finished blue cloud candles shown."
  },
  {
   "window": 70,
   "start": 560.99,
   "end": 569.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

@@ -195,200 +195,200 @@
   "window": 24,
   "start": 191.51,
   "end": 199.49,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 25,
   "start": 199.49,
   "end": 207.47,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 26,
   "start": 207.47,
   "end": 215.45,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melted beeswax in the jug."
  },
  {
   "window": 27,
   "start": 215.45,
   "end": 223.43,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 28,
   "start": 223.43,
   "end": 231.41,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wicks."
  },
  {
   "window": 29,
   "start": 231.41,
   "end": 239.39,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 30,
   "start": 239.39,
   "end": 247.37,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 31,
   "start": 247.37,
   "end": 255.35,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 32,
   "start": 255.35,
   "end": 263.33,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 33,
   "start": 263.33,
   "end": 271.31,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wicks."
  },
  {
   "window": 34,
   "start": 271.31,
   "end": 279.29,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax into the glasses."
  },
  {
   "window": 35,
   "start": 279.29,
   "end": 287.27,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wicks."
  },
  {
   "window": 36,
   "start": 287.27,
   "end": 295.24,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wicks."
  },
  {
   "window": 37,
   "start": 295.24,
   "end": 303.22,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished beeswax candles."
  },
  {
   "window": 38,
   "start": 303.22,
   "end": 311.2,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 39,
   "start": 311.2,
   "end": 319.18,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Shaping/rolling beeswax on the white surface."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 40,
   "start": 319.18,
   "end": 327.16,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 41,
   "start": 327.16,
   "end": 335.14,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 42,
   "start": 335.14,
   "end": 343.12,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 43,
   "start": 343.12,
   "end": 351.1,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 44,
   "start": 351.1,
   "end": 359.08,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 45,
   "start": 359.08,
   "end": 367.06,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 46,
   "start": 367.06,
   "end": 375.04,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 47,
   "start": 375.04,
   "end": 383.02,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  },
  {
   "window": 48,
   "start": 383.02,
   "end": 391.0,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished beeswax candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Cosy Owl' logo end card."
  }
 ]

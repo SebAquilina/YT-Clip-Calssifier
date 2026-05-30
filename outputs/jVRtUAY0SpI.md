@@ -2,7 +2,7 @@
 
 - **Video:** [jVRtUAY0SpI](https://www.youtube.com/watch?v=jVRtUAY0SpI)
 - **Duration:** 9:29  (569s)
-- **Source:** storyboard  |  **Windows:** 71  |  **Segments:** 11
+- **Source:** storyboard  |  **Windows:** 71  |  **Segments:** 17
 
 ## Action segments (merged)
 
@@ -11,14 +11,20 @@
 | 1 | 0:00–2:24 | 144s | `talking_head` | aux |  | 0.69 |
 | 2 | 2:24–2:32 | 8s | `transition` | aux |  | 0.50 |
 | 3 | 2:32–3:04 | 32s | `pour_wax` | assemble | ✓ | 0.42 |
-| 4 | 3:04–5:53 | 168s | `talking_head` | aux |  | 0.49 |
-| 5 | 5:53–6:17 | 24s | `transition` | aux |  | 0.47 |
-| 6 | 6:17–6:25 | 8s | `talking_head` | aux |  | 0.50 |
-| 7 | 6:25–6:33 | 8s | `pour_wax` | assemble | ✓ | 0.40 |
-| 8 | 6:33–6:41 | 8s | `transition` | aux |  | 0.50 |
-| 9 | 6:41–9:05 | 144s | `talking_head` | aux |  | 0.69 |
-| 10 | 9:05–9:21 | 16s | `reveal_result` | finish | ✓ | 0.40 |
-| 11 | 9:21–9:29 | 8s | `transition` | aux |  | 0.50 |
+| 4 | 3:04–3:12 | 8s | `talking_head` | aux |  | 0.50 |
+| 5 | 3:12–3:52 | 40s | `prepare_container` | prep | ✓ | 0.50 |
+| 6 | 3:52–4:00 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
+| 7 | 4:00–4:08 | 8s | `melt_wax` | process | ✓ | 0.50 |
+| 8 | 4:08–5:37 | 88s | `talking_head` | aux |  | 0.60 |
+| 9 | 5:37–5:45 | 8s | `add_dye_color` | process | ✓ | 0.50 |
+| 10 | 5:45–6:25 | 40s | `pour_wax` | assemble | ✓ | 0.50 |
+| 11 | 6:25–6:41 | 16s | `talking_head` | aux |  | 0.60 |
+| 12 | 6:41–6:49 | 8s | `melt_wax` | process | ✓ | 0.50 |
+| 13 | 6:49–7:37 | 48s | `decorate_finish` | finish | ✓ | 0.50 |
+| 14 | 7:37–7:45 | 8s | `reveal_result` | finish | ✓ | 0.50 |
+| 15 | 7:45–8:57 | 72s | `talking_head` | aux |  | 0.57 |
+| 16 | 8:57–9:21 | 24s | `reveal_result` | finish | ✓ | 0.50 |
+| 17 | 9:21–9:29 | 8s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -48,50 +54,50 @@
 | W21 | 2:48–2:56 | `pour_wax` | 0.40 |  |
 | W22 | 2:56–3:04 | `pour_wax` | 0.40 |  |
 | W23 | 3:04–3:12 | `talking_head` | 0.50 |  |
-| W24 | 3:12–3:20 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W25 | 3:20–3:28 | `talking_head` | 0.90 |  |
-| W26 | 3:28–3:36 | `talking_head` | 0.50 |  |
-| W27 | 3:36–3:44 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W28 | 3:44–3:52 | `talking_head` | 0.50 |  |
-| W29 | 3:52–4:00 | `talking_head` | 0.50 |  |
-| W30 | 4:00–4:08 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W31 | 4:08–4:16 | `talking_head` | 0.50 |  |
-| W32 | 4:16–4:24 | `talking_head` | 0.50 |  |
-| W33 | 4:24–4:32 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W34 | 4:32–4:40 | `talking_head` | 0.50 |  |
-| W35 | 4:40–4:49 | `talking_head` | 0.50 |  |
-| W36 | 4:49–4:57 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W37 | 4:57–5:05 | `talking_head` | 0.50 |  |
-| W38 | 5:05–5:13 | `talking_head` | 0.50 |  |
-| W39 | 5:13–5:21 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W40 | 5:21–5:29 | `talking_head` | 0.50 |  |
-| W41 | 5:29–5:37 | `talking_head` | 0.50 |  |
-| W42 | 5:37–5:45 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W43 | 5:45–5:53 | `talking_head` | 0.50 |  |
-| W44 | 5:53–6:01 | `transition` | 0.50 |  |
-| W45 | 6:01–6:09 | `transition` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W46 | 6:09–6:17 | `transition` | 0.50 |  |
-| W47 | 6:17–6:25 | `talking_head` | 0.50 |  |
-| W48 | 6:25–6:33 | `pour_wax` | 0.40 |  |
-| W49 | 6:33–6:41 | `transition` | 0.50 |  |
-| W50 | 6:41–6:49 | `talking_head` | 0.50 |  |
-| W51 | 6:49–6:57 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W52 | 6:57–7:05 | `talking_head` | 0.50 |  |
-| W53 | 7:05–7:13 | `talking_head` | 0.50 |  |
-| W54 | 7:13–7:21 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W55 | 7:21–7:29 | `talking_head` | 0.50 |  |
-| W56 | 7:29–7:37 | `talking_head` | 0.50 |  |
-| W57 | 7:37–7:45 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
-| W58 | 7:45–7:53 | `talking_head` | 0.90 |  |
-| W59 | 7:53–8:01 | `talking_head` | 0.90 |  |
-| W60 | 8:01–8:09 | `talking_head` | 0.90 |  |
-| W61 | 8:09–8:17 | `talking_head` | 0.90 |  |
-| W62 | 8:17–8:25 | `talking_head` | 0.70 |  |
-| W63 | 8:25–8:33 | `talking_head` | 0.90 |  |
-| W64 | 8:33–8:41 | `talking_head` | 0.90 |  |
-| W65 | 8:41–8:49 | `talking_head` | 0.90 |  |
-| W66 | 8:49–8:57 | `talking_head` | 0.90 |  |
-| W67 | 8:57–9:05 | `talking_head` | 0.70 |  |
-| W68 | 9:05–9:13 | `reveal_result` | 0.40 |  |
-| W69 | 9:13–9:21 | `reveal_result` | 0.40 |  |
-| W70 | 9:21–9:29 | `transition` | 0.50 |  |
+| W24 | 3:12–3:20 | `prepare_container` | 0.50 | backward step vs canonical order (pour_wax->prepare_container) |
+| W25 | 3:20–3:28 | `prepare_container` | 0.50 | backward step vs canonical order (pour_wax->prepare_container) |
+| W26 | 3:28–3:36 | `prepare_container` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (pour_wax->prepare_container) |
+| W27 | 3:36–3:44 | `prepare_container` | 0.50 | backward step vs canonical order (pour_wax->prepare_container) |
+| W28 | 3:44–3:52 | `prepare_container` | 0.50 | backward step vs canonical order (pour_wax->prepare_container) |
+| W29 | 3:52–4:00 | `pour_wax` | 0.50 |  |
+| W30 | 4:00–4:08 | `melt_wax` | 0.50 |  |
+| W31 | 4:08–4:16 | `talking_head` | 0.60 |  |
+| W32 | 4:16–4:24 | `talking_head` | 0.60 |  |
+| W33 | 4:24–4:32 | `talking_head` | 0.60 |  |
+| W34 | 4:32–4:40 | `talking_head` | 0.60 |  |
+| W35 | 4:40–4:49 | `talking_head` | 0.60 |  |
+| W36 | 4:49–4:57 | `talking_head` | 0.60 |  |
+| W37 | 4:57–5:05 | `talking_head` | 0.60 |  |
+| W38 | 5:05–5:13 | `talking_head` | 0.60 |  |
+| W39 | 5:13–5:21 | `talking_head` | 0.60 |  |
+| W40 | 5:21–5:29 | `talking_head` | 0.60 |  |
+| W41 | 5:29–5:37 | `talking_head` | 0.60 |  |
+| W42 | 5:37–5:45 | `add_dye_color` | 0.50 | backward step vs canonical order (pour_wax->add_dye_color) |
+| W43 | 5:45–5:53 | `pour_wax` | 0.50 |  |
+| W44 | 5:53–6:01 | `pour_wax` | 0.50 |  |
+| W45 | 6:01–6:09 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W46 | 6:09–6:17 | `pour_wax` | 0.50 |  |
+| W47 | 6:17–6:25 | `pour_wax` | 0.50 |  |
+| W48 | 6:25–6:33 | `talking_head` | 0.60 |  |
+| W49 | 6:33–6:41 | `talking_head` | 0.60 |  |
+| W50 | 6:41–6:49 | `melt_wax` | 0.50 |  |
+| W51 | 6:49–6:57 | `decorate_finish` | 0.50 |  |
+| W52 | 6:57–7:05 | `decorate_finish` | 0.50 |  |
+| W53 | 7:05–7:13 | `decorate_finish` | 0.50 |  |
+| W54 | 7:13–7:21 | `decorate_finish` | 0.50 |  |
+| W55 | 7:21–7:29 | `decorate_finish` | 0.50 |  |
+| W56 | 7:29–7:37 | `decorate_finish` | 0.50 |  |
+| W57 | 7:37–7:45 | `reveal_result` | 0.50 |  |
+| W58 | 7:45–7:53 | `talking_head` | 0.60 |  |
+| W59 | 7:53–8:01 | `talking_head` | 0.60 |  |
+| W60 | 8:01–8:09 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W61 | 8:09–8:17 | `talking_head` | 0.60 |  |
+| W62 | 8:17–8:25 | `talking_head` | 0.60 |  |
+| W63 | 8:25–8:33 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W64 | 8:33–8:41 | `talking_head` | 0.60 |  |
+| W65 | 8:41–8:49 | `talking_head` | 0.60 |  |
+| W66 | 8:49–8:57 | `talking_head` | 0.60 |  |
+| W67 | 8:57–9:05 | `reveal_result` | 0.50 |  |
+| W68 | 9:05–9:13 | `reveal_result` | 0.50 |  |
+| W69 | 9:13–9:21 | `reveal_result` | 0.50 |  |
+| W70 | 9:21–9:29 | `blank` | 0.60 |  |

@@ -197,7 +197,7 @@
   "end": 200.96,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 25,
@@ -205,7 +205,7 @@
   "end": 209.0,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 26,
@@ -213,7 +213,7 @@
   "end": 217.04,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 27,
@@ -221,15 +221,15 @@
   "end": 225.08,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 28,
   "start": 225.08,
   "end": 233.12,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 29,
@@ -237,7 +237,7 @@
   "end": 241.15,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 30,
@@ -245,7 +245,7 @@
   "end": 249.19,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 31,
@@ -253,7 +253,7 @@
   "end": 257.23,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 32,
@@ -261,7 +261,7 @@
   "end": 265.27,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 33,
@@ -269,7 +269,7 @@
   "end": 273.31,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 34,
@@ -277,7 +277,7 @@
   "end": 281.35,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 35,
@@ -285,7 +285,7 @@
   "end": 289.38,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 36,
@@ -293,7 +293,7 @@
   "end": 297.42,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 37,
@@ -301,7 +301,7 @@
   "end": 305.46,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 38,
@@ -309,110 +309,110 @@
   "end": 313.5,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 39,
   "start": 313.5,
   "end": 321.54,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Overhead: demoulding/handling pink rose candles from silicone moulds."
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 40,
   "start": 321.54,
   "end": 329.58,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 41,
   "start": 329.58,
   "end": 337.62,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 42,
   "start": 337.62,
   "end": 345.65,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 43,
   "start": 345.65,
   "end": 353.69,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding purple/pink rose & peony candles from the silicone moulds."
  },
  {
   "window": 44,
   "start": 353.69,
   "end": 361.73,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 45,
   "start": 361.73,
   "end": 369.77,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 46,
   "start": 369.77,
   "end": 377.81,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 47,
   "start": 377.81,
   "end": 385.85,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished pink rose candles shown."
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 48,
   "start": 385.85,
   "end": 393.88,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished flower candles arranged on the floral plate (lit at end)."
  },
  {
   "window": 49,
   "start": 393.88,
   "end": 401.92,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 50,
   "start": 401.92,
   "end": 409.96,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 51,
   "start": 409.96,
   "end": 418.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]
