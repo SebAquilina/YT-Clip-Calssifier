@@ -1,186 +1,186 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.96,
-    "end": 15.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.91,
-    "end": 23.87,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.87,
-    "end": 31.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.83,
-    "end": 39.78,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.78,
-    "end": 47.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.74,
-    "end": 55.7,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.7,
-    "end": 63.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.65,
-    "end": 71.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.61,
-    "end": 79.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.57,
-    "end": 87.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.52,
-    "end": 95.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.48,
-    "end": 103.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.43,
-    "end": 111.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.39,
-    "end": 119.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.35,
-    "end": 127.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.3,
-    "end": 135.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.26,
-    "end": 143.22,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.22,
-    "end": 151.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.17,
-    "end": 159.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.13,
-    "end": 167.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.09,
-    "end": 175.04,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 22,
-    "start": 175.04,
-    "end": 183.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.96,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Host (polka-dot top) opens in a kitchen."
+ },
+ {
+  "window": 1,
+  "start": 7.96,
+  "end": 15.91,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "start": 15.91,
+  "end": 23.87,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "'Making a Candle' title; a glass of water for the pour calc."
+ },
+ {
+  "window": 3,
+  "start": 23.87,
+  "end": 31.83,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into a bag on a scale."
+ },
+ {
+  "window": 4,
+  "start": 31.83,
+  "end": 39.78,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Glass of water; measuring."
+ },
+ {
+  "window": 5,
+  "start": 39.78,
+  "end": 47.74,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Black double-boiler pot melting wax."
+ },
+ {
+  "window": 6,
+  "start": 47.74,
+  "end": 55.7,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Glass of water; hand."
+ },
+ {
+  "window": 7,
+  "start": 55.7,
+  "end": 63.65,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands with a wick/stick."
+ },
+ {
+  "window": 8,
+  "start": 63.65,
+  "end": 71.61,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring; glass."
+ },
+ {
+  "window": 9,
+  "start": 71.61,
+  "end": 79.57,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax melting in the pot."
+ },
+ {
+  "window": 10,
+  "start": 79.57,
+  "end": 87.52,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Pot of melted wax."
+ },
+ {
+  "window": 11,
+  "start": 87.52,
+  "end": 95.48,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted wax."
+ },
+ {
+  "window": 12,
+  "start": 95.48,
+  "end": 103.43,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring into the glass."
+ },
+ {
+  "window": 13,
+  "start": 103.43,
+  "end": 111.39,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "start": 111.39,
+  "end": 119.35,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Double-boiler pot."
+ },
+ {
+  "window": 15,
+  "start": 119.35,
+  "end": 127.3,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Glass with white wax; pouring."
+ },
+ {
+  "window": 16,
+  "start": 127.3,
+  "end": 135.26,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 17,
+  "start": 135.26,
+  "end": 143.22,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Glass of wax; wick."
+ },
+ {
+  "window": 18,
+  "start": 143.22,
+  "end": 151.17,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Finishing the pour."
+ },
+ {
+  "window": 19,
+  "start": 151.17,
+  "end": 159.13,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Glass candle with set wax."
+ },
+ {
+  "window": 20,
+  "start": 159.13,
+  "end": 167.09,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 21,
+  "start": 167.09,
+  "end": 175.04,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 22,
+  "start": 175.04,
+  "end": 183.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]

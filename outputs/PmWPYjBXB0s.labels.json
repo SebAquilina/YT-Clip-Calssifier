@@ -1,130 +1,130 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.0,
-    "end": 16.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.0,
-    "end": 24.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.0,
-    "end": 32.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.0,
-    "end": 40.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.0,
-    "end": 48.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.0,
-    "end": 56.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.0,
-    "end": 64.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.0,
-    "end": 72.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.0,
-    "end": 80.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.0,
-    "end": 88.0,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 11,
-    "start": 88.0,
-    "end": 96.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.0,
-    "end": 104.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.0,
-    "end": 112.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.0,
-    "end": 120.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 15,
-    "start": 120.0,
-    "end": 128.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.0,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Fontana branding + lit candle; 'Candle Burning Instructions'."
+ },
+ {
+  "window": 1,
+  "start": 8.0,
+  "end": 16.0,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Hands show the candle jar/box (Fir Needle & Pine, Citrus Peel & Pine)."
+ },
+ {
+  "window": 2,
+  "start": 16.0,
+  "end": 24.0,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lighting the wood-wick candle; tealights tray."
+ },
+ {
+  "window": 3,
+  "start": 24.0,
+  "end": 32.0,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lighting the candle."
+ },
+ {
+  "window": 4,
+  "start": 32.0,
+  "end": 40.0,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit wood-wick flame close-up."
+ },
+ {
+  "window": 5,
+  "start": 40.0,
+  "end": 48.0,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle; phone."
+ },
+ {
+  "window": 6,
+  "start": 48.0,
+  "end": 56.0,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Wood-wick melt-pool close-up (burning-care)."
+ },
+ {
+  "window": 7,
+  "start": 56.0,
+  "end": 64.0,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Amber candle and brand cards."
+ },
+ {
+  "window": 8,
+  "start": 64.0,
+  "end": 72.0,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Hand tending the lit candle (care)."
+ },
+ {
+  "window": 9,
+  "start": 72.0,
+  "end": 80.0,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding a lit red candle jar."
+ },
+ {
+  "window": 10,
+  "start": 80.0,
+  "end": 88.0,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 88.0,
+  "end": 96.0,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Multi-wick candle lit close-up."
+ },
+ {
+  "window": 12,
+  "start": 96.0,
+  "end": 104.0,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle, then a factory candle line."
+ },
+ {
+  "window": 13,
+  "start": 104.0,
+  "end": 112.0,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory line: hands at the candle-filling station."
+ },
+ {
+  "window": 14,
+  "start": 112.0,
+  "end": 120.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 15,
+  "start": 120.0,
+  "end": 128.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]

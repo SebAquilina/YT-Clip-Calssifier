@@ -1,178 +1,178 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.82,
-    "end": 15.64,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 2,
-    "start": 15.64,
-    "end": 23.45,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 3,
-    "start": 23.45,
-    "end": 31.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.27,
-    "end": 39.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.09,
-    "end": 46.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 46.91,
-    "end": 54.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 54.73,
-    "end": 62.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 62.55,
-    "end": 70.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 70.36,
-    "end": 78.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 78.18,
-    "end": 86.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 86.0,
-    "end": 93.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 93.82,
-    "end": 101.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 101.64,
-    "end": 109.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 109.45,
-    "end": 117.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 117.27,
-    "end": 125.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 125.09,
-    "end": 132.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 132.91,
-    "end": 140.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 140.73,
-    "end": 148.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 148.55,
-    "end": 156.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 156.36,
-    "end": 164.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 164.18,
-    "end": 172.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.82,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'Couture Candle Company' card."
+ },
+ {
+  "window": 1,
+  "start": 7.82,
+  "end": 15.64,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 15.64,
+  "end": 23.45,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 23.45,
+  "end": 31.27,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead rows of black tins; setting wicks."
+ },
+ {
+  "window": 4,
+  "start": 31.27,
+  "end": 39.09,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Placing wicks into the black tins."
+ },
+ {
+  "window": 5,
+  "start": 39.09,
+  "end": 46.91,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Centring wicks in the tins."
+ },
+ {
+  "window": 6,
+  "start": 46.91,
+  "end": 54.73,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Hands at the rows of tins."
+ },
+ {
+  "window": 7,
+  "start": 54.73,
+  "end": 62.55,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of black tins with wicks ready."
+ },
+ {
+  "window": 8,
+  "start": 62.55,
+  "end": 70.36,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Adjusting wicks in the tins."
+ },
+ {
+  "window": 9,
+  "start": 70.36,
+  "end": 78.18,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Rows of black tins poured with amber wax."
+ },
+ {
+  "window": 10,
+  "start": 78.18,
+  "end": 86.0,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured tins setting."
+ },
+ {
+  "window": 11,
+  "start": 86.0,
+  "end": 93.82,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Amber wax filling the tins."
+ },
+ {
+  "window": 12,
+  "start": 93.82,
+  "end": 101.64,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of tins cooling."
+ },
+ {
+  "window": 13,
+  "start": 101.64,
+  "end": 109.45,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of black tins setting."
+ },
+ {
+  "window": 14,
+  "start": 109.45,
+  "end": 117.27,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Adjusting wicks on the tins."
+ },
+ {
+  "window": 15,
+  "start": 117.27,
+  "end": 125.09,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of tins cooling."
+ },
+ {
+  "window": 16,
+  "start": 125.09,
+  "end": 132.91,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of tins."
+ },
+ {
+  "window": 17,
+  "start": 132.91,
+  "end": 140.73,
+  "label": "trim_wick",
+  "confidence": 0.5,
+  "description": "Trimming wicks on the set tins."
+ },
+ {
+  "window": 18,
+  "start": 140.73,
+  "end": 148.55,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of tins."
+ },
+ {
+  "window": 19,
+  "start": 148.55,
+  "end": 156.36,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of tins."
+ },
+ {
+  "window": 20,
+  "start": 156.36,
+  "end": 164.18,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "A finished black tin candle."
+ },
+ {
+  "window": 21,
+  "start": 164.18,
+  "end": 172.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]

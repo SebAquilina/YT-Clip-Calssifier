@@ -1,0 +1,328 @@
+{
+  "video_id": "PmWPYjBXB0s",
+  "title": "Wooden Wick Candle Burning Instructions",
+  "url": "https://www.youtube.com/watch?v=PmWPYjBXB0s",
+  "duration": 128.0,
+  "source": "storyboard",
+  "n_windows": 16,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.0,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Fontana branding + lit candle; 'Candle Burning Instructions'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.0,
+      "end": 16.0,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands show the candle jar/box (Fir Needle & Pine, Citrus Peel & Pine).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.0,
+      "end": 24.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lighting the wood-wick candle; tealights tray.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.0,
+      "end": 32.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lighting the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.0,
+      "end": 40.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lit wood-wick flame close-up.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.0,
+      "end": 48.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lit candle; phone.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.0,
+      "end": 56.0,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Wood-wick melt-pool close-up (burning-care).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.0,
+      "end": 64.0,
+      "label": "other_unclear",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Amber candle and brand cards.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.0,
+      "end": 72.0,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hand tending the lit candle (care).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.0,
+      "end": 80.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Holding a lit red candle jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.0,
+      "end": 88.0,
+      "label": "reveal_result",
+      "original_label": "talking_head",
+      "confidence": 0.77,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 88.0,
+      "end": 96.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Multi-wick candle lit close-up.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.0,
+      "end": 104.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lit candle, then a factory candle line.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.0,
+      "end": 112.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Factory line: hands at the candle-filling station.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 112.0,
+      "end": 120.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 120.0,
+      "end": 128.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.0,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.0,
+      "end": 16.0,
+      "confidence": 0.45,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 16.0,
+      "end": 48.0,
+      "confidence": 0.49,
+      "windows": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 48.0,
+      "end": 72.0,
+      "confidence": 0.4,
+      "windows": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 72.0,
+      "end": 104.0,
+      "confidence": 0.56,
+      "windows": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 104.0,
+      "end": 112.0,
+      "confidence": 0.4,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 112.0,
+      "end": 128.0,
+      "confidence": 0.5,
+      "windows": [
+        14,
+        15
+      ]
+    }
+  ]
+}

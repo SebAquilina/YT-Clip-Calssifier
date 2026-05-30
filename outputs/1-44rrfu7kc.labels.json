@@ -1,162 +1,162 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.1,
-    "end": 16.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.2,
-    "end": 24.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.3,
-    "end": 32.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.4,
-    "end": 40.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.5,
-    "end": 48.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.6,
-    "end": 56.7,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.7,
-    "end": 64.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.8,
-    "end": 72.9,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.9,
-    "end": 81.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 81.0,
-    "end": 89.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 89.1,
-    "end": 97.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 97.2,
-    "end": 105.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 105.3,
-    "end": 113.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 113.4,
-    "end": 121.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 121.5,
-    "end": 129.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 129.6,
-    "end": 137.7,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 137.7,
-    "end": 145.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 145.8,
-    "end": 153.9,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae aa ea Pye Pre as rr 4 ae sae er We Ee yrs Ms ee 4 Ls 5 ZA! 4 Aa if Pt hd ay ga bs At Fi Cie ot 7 Ady Pe 4'."
-  },
-  {
-    "window": 19,
-    "start": 153.9,
-    "end": 162.0,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae aa ea Pye Pre as rr 4 ae sae er We Ee yrs Ms ee 4 Ls 5 ZA! 4 Aa if Pt hd ay ga bs At Fi Cie ot 7 Ady Pe 4'."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.1,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Pink 'Welcome to my channel' intro cards."
+ },
+ {
+  "window": 1,
+  "start": 8.1,
+  "end": 16.2,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Overhead gold bowl with white wax; hands."
+ },
+ {
+  "window": 2,
+  "start": 16.2,
+  "end": 24.3,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Painting a Christmas design (a house) onto the white wax surface."
+ },
+ {
+  "window": 3,
+  "start": 24.3,
+  "end": 32.4,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating/painting the white candle surface."
+ },
+ {
+  "window": 4,
+  "start": 32.4,
+  "end": 40.5,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "A painted design on the candle."
+ },
+ {
+  "window": 5,
+  "start": 40.5,
+  "end": 48.6,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Gold bowl and a metal bowl of melted wax."
+ },
+ {
+  "window": 6,
+  "start": 48.6,
+  "end": 56.7,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding coloured-wax designs (house, tree)."
+ },
+ {
+  "window": 7,
+  "start": 56.7,
+  "end": 64.8,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Painting designs onto the candle."
+ },
+ {
+  "window": 8,
+  "start": 64.8,
+  "end": 72.9,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Gold bowl; metal bowl of wax."
+ },
+ {
+  "window": 9,
+  "start": 72.9,
+  "end": 81.0,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating the white wax surface with a tool."
+ },
+ {
+  "window": 10,
+  "start": 81.0,
+  "end": 89.1,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Continuing the decoration."
+ },
+ {
+  "window": 11,
+  "start": 89.1,
+  "end": 97.2,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating the candle."
+ },
+ {
+  "window": 12,
+  "start": 97.2,
+  "end": 105.3,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Gold-bowl candle with the painted design."
+ },
+ {
+  "window": 13,
+  "start": 105.3,
+  "end": 113.4,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding red rose decorations."
+ },
+ {
+  "window": 14,
+  "start": 113.4,
+  "end": 121.5,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Candle with red roses, lit."
+ },
+ {
+  "window": 15,
+  "start": 121.5,
+  "end": 129.6,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Finished candle with roses, lit."
+ },
+ {
+  "window": 16,
+  "start": 129.6,
+  "end": 137.7,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished decorated candle (overhead)."
+ },
+ {
+  "window": 17,
+  "start": 137.7,
+  "end": 145.8,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit candle with roses."
+ },
+ {
+  "window": 18,
+  "start": 145.8,
+  "end": 153.9,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae aa ea Pye Pre as rr 4 ae sae er We Ee yrs Ms ee 4 Ls 5 ZA! 4 Aa if Pt hd ay ga bs At Fi Cie ot 7 Ady Pe 4'."
+ },
+ {
+  "window": 19,
+  "start": 153.9,
+  "end": 162.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae aa ea Pye Pre as rr 4 ae sae er We Ee yrs Ms ee 4 Ls 5 ZA! 4 Aa if Pt hd ay ga bs At Fi Cie ot 7 Ady Pe 4'."
+ }
 ]
