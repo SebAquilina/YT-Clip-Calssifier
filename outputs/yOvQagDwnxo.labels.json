@@ -1,114 +1,114 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.07,
-    "end": 16.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.14,
-    "end": 24.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.21,
-    "end": 32.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.29,
-    "end": 40.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.36,
-    "end": 48.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.43,
-    "end": 56.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.5,
-    "end": 64.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.57,
-    "end": 72.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.64,
-    "end": 80.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.71,
-    "end": 88.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.79,
-    "end": 96.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.86,
-    "end": 104.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.93,
-    "end": 113.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.07,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Candle-factory footage opens; workers and a candle conveyor."
+ },
+ {
+  "window": 1,
+  "start": 8.07,
+  "end": 16.14,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory workers at a machine; pallets."
+ },
+ {
+  "window": 2,
+  "start": 16.14,
+  "end": 24.21,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Beeswax/honeycomb source; workers."
+ },
+ {
+  "window": 3,
+  "start": 24.21,
+  "end": 32.29,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Stacks of wax blocks; a worker."
+ },
+ {
+  "window": 4,
+  "start": 32.29,
+  "end": 40.36,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Rows of finished candles on the line."
+ },
+ {
+  "window": 5,
+  "start": 40.36,
+  "end": 48.43,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "A large vat of molten amber wax (overhead)."
+ },
+ {
+  "window": 6,
+  "start": 48.43,
+  "end": 56.5,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax processed in the vat."
+ },
+ {
+  "window": 7,
+  "start": 56.5,
+  "end": 64.57,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Amber wax vat and machinery."
+ },
+ {
+  "window": 8,
+  "start": 64.57,
+  "end": 72.64,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers finishing/packing coloured candles."
+ },
+ {
+  "window": 9,
+  "start": 72.64,
+  "end": 80.71,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers at a table with coloured candles."
+ },
+ {
+  "window": 10,
+  "start": 80.71,
+  "end": 88.79,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Warehouse aisles of candle stock."
+ },
+ {
+  "window": 11,
+  "start": 88.79,
+  "end": 96.86,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Warehouse stock."
+ },
+ {
+  "window": 12,
+  "start": 96.86,
+  "end": 104.93,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Workers packing boxes."
+ },
+ {
+  "window": 13,
+  "start": 104.93,
+  "end": 113.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Boxing candles; 'Fragile' caption."
+ }
 ]

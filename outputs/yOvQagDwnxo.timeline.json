@@ -1,0 +1,302 @@
+{
+  "video_id": "yOvQagDwnxo",
+  "title": "''How Candles Are Made  Inside a Modern Candle Factory''",
+  "url": "https://www.youtube.com/watch?v=yOvQagDwnxo",
+  "duration": 113.0,
+  "source": "storyboard",
+  "n_windows": 14,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.07,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Candle-factory footage opens; workers and a candle conveyor.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.07,
+      "end": 16.14,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Factory workers at a machine; pallets.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.14,
+      "end": 24.21,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beeswax/honeycomb source; workers.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.21,
+      "end": 32.29,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stacks of wax blocks; a worker.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.29,
+      "end": 40.36,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished candles on the line.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.36,
+      "end": 48.43,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A large vat of molten amber wax (overhead).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 48.43,
+      "end": 56.5,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax processed in the vat.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.5,
+      "end": 64.57,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Amber wax vat and machinery.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.57,
+      "end": 72.64,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Workers finishing/packing coloured candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.64,
+      "end": 80.71,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Workers at a table with coloured candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 80.71,
+      "end": 88.79,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Warehouse aisles of candle stock.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.79,
+      "end": 96.86,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Warehouse stock.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.86,
+      "end": 104.93,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Workers packing boxes.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.93,
+      "end": 113.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Boxing candles; 'Fragile' caption.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.07,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.07,
+      "end": 16.14,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 16.14,
+      "end": 32.29,
+      "confidence": 0.4,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 32.29,
+      "end": 40.36,
+      "confidence": 0.4,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 40.36,
+      "end": 64.57,
+      "confidence": 0.43,
+      "windows": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 64.57,
+      "end": 80.71,
+      "confidence": 0.4,
+      "windows": [
+        8,
+        9
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 80.71,
+      "end": 113.0,
+      "confidence": 0.4,
+      "windows": [
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  ]
+}
