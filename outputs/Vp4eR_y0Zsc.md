@@ -2,7 +2,7 @@
 
 - **Video:** [Vp4eR_y0Zsc](https://www.youtube.com/watch?v=Vp4eR_y0Zsc)
 - **Duration:** 8:29  (509s)
-- **Source:** storyboard  |  **Windows:** 64  |  **Segments:** 53
+- **Source:** storyboard  |  **Windows:** 64  |  **Segments:** 25
 
 ## Action segments (merged)
 
@@ -30,37 +30,9 @@
 | 20 | 2:31–2:39 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
 | 21 | 2:39–2:47 | 8s | `add_dye_color` | process | ✓ | 0.40 |
 | 22 | 2:47–2:55 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 23 | 2:55–3:03 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 24 | 3:03–3:11 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 25 | 3:11–3:19 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 26 | 3:19–3:27 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 27 | 3:27–3:35 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 28 | 3:35–3:43 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 29 | 3:43–3:51 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 30 | 3:51–3:59 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 31 | 3:59–4:07 | 8s | `talking_head` | aux |  | 0.70 |
-| 32 | 4:07–4:14 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 33 | 4:14–4:22 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 34 | 4:22–4:30 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 35 | 4:30–4:38 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 36 | 4:38–4:46 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 37 | 4:46–4:54 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 38 | 4:54–5:02 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 39 | 5:02–5:10 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 40 | 5:10–5:18 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 41 | 5:18–5:26 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 42 | 5:26–5:34 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 43 | 5:34–5:42 | 8s | `talking_head` | aux |  | 0.70 |
-| 44 | 5:42–5:50 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 45 | 5:50–5:58 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 46 | 5:58–6:06 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 47 | 6:06–6:14 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 48 | 6:14–6:22 | 8s | `talking_head` | aux |  | 0.90 |
-| 49 | 6:22–6:30 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 50 | 6:30–6:38 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
-| 51 | 6:38–6:46 | 8s | `add_dye_color` | process | ✓ | 0.40 |
-| 52 | 6:46–6:54 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 53 | 6:54–8:29 | 95s | `transition` | aux |  | 0.50 |
+| 23 | 2:55–6:46 | 231s | `decorate_finish` | finish | ✓ | 0.48 |
+| 24 | 6:46–6:54 | 8s | `reveal_result` | finish | ✓ | 0.50 |
+| 25 | 6:54–8:29 | 95s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -89,44 +61,44 @@
 | W20 | 2:39–2:47 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
 | W21 | 2:47–2:55 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
 | W22 | 2:55–3:03 | `decorate_finish` | 0.50 |  |
-| W23 | 3:03–3:11 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W24 | 3:11–3:19 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W23 | 3:03–3:11 | `decorate_finish` *(smoothed)* | 0.40 | despiked to match neighbours |
+| W24 | 3:11–3:19 | `decorate_finish` | 0.50 |  |
 | W25 | 3:19–3:27 | `decorate_finish` | 0.50 |  |
-| W26 | 3:27–3:35 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W27 | 3:35–3:43 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W26 | 3:27–3:35 | `decorate_finish` | 0.50 |  |
+| W27 | 3:35–3:43 | `decorate_finish` | 0.50 |  |
 | W28 | 3:43–3:51 | `decorate_finish` | 0.50 |  |
-| W29 | 3:51–3:59 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W30 | 3:59–4:07 | `talking_head` | 0.70 |  |
+| W29 | 3:51–3:59 | `decorate_finish` | 0.50 |  |
+| W30 | 3:59–4:07 | `decorate_finish` *(smoothed)* | 0.50 | despiked to match neighbours |
 | W31 | 4:07–4:14 | `decorate_finish` | 0.50 |  |
-| W32 | 4:14–4:22 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W33 | 4:22–4:30 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W32 | 4:14–4:22 | `decorate_finish` | 0.50 |  |
+| W33 | 4:22–4:30 | `decorate_finish` | 0.50 |  |
 | W34 | 4:30–4:38 | `decorate_finish` | 0.50 |  |
-| W35 | 4:38–4:46 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W36 | 4:46–4:54 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W35 | 4:38–4:46 | `decorate_finish` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W36 | 4:46–4:54 | `decorate_finish` | 0.50 |  |
 | W37 | 4:54–5:02 | `decorate_finish` | 0.50 |  |
-| W38 | 5:02–5:10 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W39 | 5:10–5:18 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W40 | 5:18–5:26 | `decorate_finish` | 0.50 |  |
-| W41 | 5:26–5:34 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W42 | 5:34–5:42 | `talking_head` | 0.70 |  |
-| W43 | 5:42–5:50 | `decorate_finish` | 0.50 |  |
-| W44 | 5:50–5:58 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W45 | 5:58–6:06 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W38 | 5:02–5:10 | `decorate_finish` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W39 | 5:10–5:18 | `decorate_finish` | 0.50 |  |
+| W40 | 5:18–5:26 | `decorate_finish` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W41 | 5:26–5:34 | `decorate_finish` | 0.50 |  |
+| W42 | 5:34–5:42 | `decorate_finish` | 0.50 |  |
+| W43 | 5:42–5:50 | `decorate_finish` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W44 | 5:50–5:58 | `decorate_finish` | 0.50 |  |
+| W45 | 5:58–6:06 | `decorate_finish` *(smoothed)* | 0.50 | despiked to match neighbours |
 | W46 | 6:06–6:14 | `decorate_finish` | 0.50 |  |
-| W47 | 6:14–6:22 | `talking_head` | 0.90 |  |
-| W48 | 6:22–6:30 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W49 | 6:30–6:38 | `decorate_finish` | 0.50 |  |
-| W50 | 6:38–6:46 | `add_dye_color` | 0.40 | backward step vs canonical order (decorate_finish->add_dye_color) |
-| W51 | 6:46–6:54 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W52 | 6:54–7:02 | `transition` | 0.50 |  |
-| W53 | 7:02–7:09 | `transition` | 0.50 |  |
-| W54 | 7:09–7:17 | `transition` | 0.50 |  |
-| W55 | 7:17–7:25 | `transition` | 0.50 |  |
-| W56 | 7:25–7:33 | `transition` | 0.50 |  |
-| W57 | 7:33–7:41 | `transition` | 0.50 |  |
-| W58 | 7:41–7:49 | `transition` | 0.50 |  |
-| W59 | 7:49–7:57 | `transition` | 0.50 |  |
-| W60 | 7:57–8:05 | `transition` | 0.50 |  |
-| W61 | 8:05–8:13 | `transition` | 0.50 |  |
-| W62 | 8:13–8:21 | `transition` | 0.50 |  |
-| W63 | 8:21–8:29 | `transition` | 0.50 |  |
+| W47 | 6:14–6:22 | `decorate_finish` | 0.50 |  |
+| W48 | 6:22–6:30 | `decorate_finish` | 0.50 |  |
+| W49 | 6:30–6:38 | `decorate_finish` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W50 | 6:38–6:46 | `decorate_finish` | 0.50 |  |
+| W51 | 6:46–6:54 | `reveal_result` | 0.50 |  |
+| W52 | 6:54–7:02 | `blank` | 0.60 |  |
+| W53 | 7:02–7:09 | `blank` | 0.60 |  |
+| W54 | 7:09–7:17 | `blank` | 0.60 |  |
+| W55 | 7:17–7:25 | `blank` | 0.60 |  |
+| W56 | 7:25–7:33 | `blank` | 0.60 |  |
+| W57 | 7:33–7:41 | `blank` | 0.60 |  |
+| W58 | 7:41–7:49 | `blank` | 0.60 |  |
+| W59 | 7:49–7:57 | `blank` | 0.60 |  |
+| W60 | 7:57–8:05 | `blank` | 0.60 |  |
+| W61 | 8:05–8:13 | `blank` | 0.60 |  |
+| W62 | 8:13–8:21 | `blank` | 0.60 |  |
+| W63 | 8:21–8:29 | `blank` | 0.60 |  |

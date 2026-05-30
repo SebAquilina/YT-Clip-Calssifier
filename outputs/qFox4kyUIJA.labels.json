@@ -195,288 +195,288 @@
   "window": 24,
   "start": 192.4,
   "end": 200.42,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Demoulding the finished wax melts."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into clamshell wax-melt moulds."
  },
  {
   "window": 25,
   "start": 200.42,
   "end": 208.43,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Demoulding the finished wax melts."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into clamshell wax-melt moulds."
  },
  {
   "window": 26,
   "start": 208.43,
   "end": 216.45,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Demoulding the finished wax melts."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into clamshell wax-melt moulds."
  },
  {
   "window": 27,
   "start": 216.45,
   "end": 224.47,
-  "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Demoulding the finished wax melts."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into clamshell wax-melt moulds."
  },
  {
   "window": 28,
   "start": 224.47,
   "end": 232.48,
   "label": "decorate_finish",
-  "confidence": 0.45,
-  "description": "Demoulding the finished wax melts."
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 29,
   "start": 232.48,
   "end": 240.5,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ce LADS OF ae 7 tee S5ar SS al'."
+  "description": "Pouring wax into clamshell wax-melt moulds."
  },
  {
   "window": 30,
   "start": 240.5,
   "end": 248.52,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of wax melts setting."
  },
  {
   "window": 31,
   "start": 248.52,
   "end": 256.53,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Tinting the wax."
  },
  {
   "window": 32,
   "start": 256.53,
   "end": 264.55,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oN 4 tee 4 he 4 ee PP gag'."
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 33,
   "start": 264.55,
   "end": 272.57,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Tinting the wax."
  },
  {
   "window": 34,
   "start": 272.57,
   "end": 280.58,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of wax melts setting."
  },
  {
   "window": 35,
   "start": 280.58,
   "end": 288.6,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'of aon Se ap ny Ze 3 La oe as we tee oe he SS Ms: Shee oH 46 mai 7 se c's 4 aa 4 ae od PZ Zs Fr. xs As 1 4 4 Oy'."
+  "description": "Pouring wax into clamshell wax-melt moulds."
  },
  {
   "window": 36,
   "start": 288.6,
   "end": 296.62,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 37,
   "start": 296.62,
   "end": 304.63,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Tinting the wax."
  },
  {
   "window": 38,
   "start": 304.63,
   "end": 312.65,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Finally got to try these! Gift from friend Ye, oe is as'."
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 39,
   "start": 312.65,
   "end": 320.67,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Tinting the wax."
  },
  {
   "window": 40,
   "start": 320.67,
   "end": 328.68,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 41,
   "start": 328.68,
   "end": 336.7,
-  "label": "transition",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'eS 5 oY Ni 7 el cians AN les be NaN LP ay'."
+  "description": "Rows of wax melts setting."
  },
  {
   "window": 42,
   "start": 336.7,
   "end": 344.72,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Tinting the wax."
  },
  {
   "window": 43,
   "start": 344.72,
   "end": 352.73,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 44,
   "start": 352.73,
   "end": 360.75,
-  "label": "transition",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ill iki: ee el 4 ae ote ee ri Os at he'."
+  "description": "Rows of wax melts setting."
  },
  {
   "window": 45,
   "start": 360.75,
   "end": 368.77,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of wax melts setting."
  },
  {
   "window": 46,
   "start": 368.77,
   "end": 376.78,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 47,
   "start": 376.78,
   "end": 384.8,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of wax melts setting."
  },
  {
   "window": 48,
   "start": 384.8,
   "end": 392.82,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 49,
   "start": 392.82,
   "end": 400.83,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Boxing wax melts / 'coming soon' b-roll."
  },
  {
   "window": 50,
   "start": 400.83,
   "end": 408.85,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Boxing wax melts / 'coming soon' b-roll."
  },
  {
   "window": 51,
   "start": 408.85,
   "end": 416.87,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Boxing wax melts / 'coming soon' b-roll."
  },
  {
   "window": 52,
   "start": 416.87,
   "end": 424.88,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 53,
   "start": 424.88,
   "end": 432.9,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Boxing wax melts / 'coming soon' b-roll."
  },
  {
   "window": 54,
   "start": 432.9,
   "end": 440.92,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Boxing wax melts / 'coming soon' b-roll."
  },
  {
   "window": 55,
   "start": 440.92,
   "end": 448.93,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the wax melts."
  },
  {
   "window": 56,
   "start": 448.93,
   "end": 456.95,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Boxing wax melts / 'coming soon' b-roll."
  },
  {
   "window": 57,
   "start": 456.95,
   "end": 464.97,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished wax melts shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Boxing wax melts / 'coming soon' b-roll."
  },
  {
   "window": 58,
   "start": 464.97,
   "end": 472.98,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! tener'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 59,
   "start": 472.98,
   "end": 481.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

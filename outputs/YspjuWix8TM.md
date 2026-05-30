@@ -2,7 +2,7 @@
 
 - **Video:** [YspjuWix8TM](https://www.youtube.com/watch?v=YspjuWix8TM)
 - **Duration:** 8:03  (483s)
-- **Source:** storyboard  |  **Windows:** 60  |  **Segments:** 24
+- **Source:** storyboard  |  **Windows:** 60  |  **Segments:** 14
 
 ## Action segments (merged)
 
@@ -13,25 +13,15 @@
 | 3 | 1:20–1:29 | 8s | `melt_wax` | process | ✓ | 0.45 |
 | 4 | 1:29–2:17 | 48s | `pour_wax` | assemble | ✓ | 0.45 |
 | 5 | 2:17–2:49 | 32s | `transition` | aux |  | 0.42 |
-| 6 | 2:49–3:29 | 40s | `set_wick` | assemble | ✓ | 0.50 |
-| 7 | 3:29–3:37 | 8s | `decorate_finish` | finish | ✓ | 0.40 |
-| 8 | 3:37–3:45 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 9 | 3:45–3:53 | 8s | `set_wick` | assemble | ✓ | 0.45 |
-| 10 | 3:53–4:02 | 8s | `decorate_finish` | finish | ✓ | 0.40 |
-| 11 | 4:02–4:10 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 12 | 4:10–4:18 | 8s | `set_wick` | assemble | ✓ | 0.45 |
-| 13 | 4:18–4:26 | 8s | `transition` | aux |  | 0.50 |
-| 14 | 4:26–4:34 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 15 | 4:34–4:42 | 8s | `set_wick` | assemble | ✓ | 0.45 |
-| 16 | 4:42–5:14 | 32s | `transition` | aux |  | 0.48 |
-| 17 | 5:14–5:22 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 18 | 5:22–5:30 | 8s | `set_wick` | assemble | ✓ | 0.45 |
-| 19 | 5:30–5:38 | 8s | `transition` | aux |  | 0.50 |
-| 20 | 5:38–5:46 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 21 | 5:46–5:54 | 8s | `set_wick` | assemble | ✓ | 0.45 |
-| 22 | 5:54–6:02 | 8s | `decorate_finish` | finish | ✓ | 0.40 |
-| 23 | 6:02–7:55 | 113s | `reveal_result` | finish | ✓ | 0.46 |
-| 24 | 7:55–8:03 | 8s | `transition` | aux |  | 0.50 |
+| 6 | 2:49–3:13 | 24s | `set_wick` | assemble | ✓ | 0.53 |
+| 7 | 3:13–3:37 | 24s | `trim_wick` | finish | ✓ | 0.50 |
+| 8 | 3:37–3:53 | 16s | `decorate_finish` | finish | ✓ | 0.50 |
+| 9 | 3:53–4:18 | 24s | `reveal_result` | finish | ✓ | 0.50 |
+| 10 | 4:18–5:54 | 97s | `transition` | aux |  | 0.60 |
+| 11 | 5:54–6:34 | 40s | `decorate_finish` | finish | ✓ | 0.50 |
+| 12 | 6:34–7:07 | 32s | `reveal_result` | finish | ✓ | 0.50 |
+| 13 | 7:07–7:15 | 8s | `outro_cta` | aux |  | 0.60 |
+| 14 | 7:15–8:03 | 48s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -61,39 +51,39 @@
 | W21 | 2:49–2:57 | `set_wick` | 0.45 |  |
 | W22 | 2:57–3:05 | `set_wick` *(smoothed)* | 0.70 | despiked to match neighbours |
 | W23 | 3:05–3:13 | `set_wick` | 0.45 |  |
-| W24 | 3:13–3:21 | `set_wick` *(smoothed)* | 0.45 | despiked to match neighbours |
-| W25 | 3:21–3:29 | `set_wick` | 0.45 |  |
-| W26 | 3:29–3:37 | `decorate_finish` | 0.40 |  |
-| W27 | 3:37–3:45 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W28 | 3:45–3:53 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
-| W29 | 3:53–4:02 | `decorate_finish` | 0.40 |  |
-| W30 | 4:02–4:10 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W31 | 4:10–4:18 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
-| W32 | 4:18–4:26 | `transition` | 0.50 |  |
-| W33 | 4:26–4:34 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W34 | 4:34–4:42 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
-| W35 | 4:42–4:50 | `transition` | 0.50 |  |
-| W36 | 4:50–4:58 | `transition` *(smoothed)* | 0.45 | despiked to match neighbours |
-| W37 | 4:58–5:06 | `transition` | 0.50 |  |
-| W38 | 5:06–5:14 | `transition` | 0.50 |  |
-| W39 | 5:14–5:22 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W40 | 5:22–5:30 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
-| W41 | 5:30–5:38 | `transition` | 0.50 |  |
-| W42 | 5:38–5:46 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
-| W43 | 5:46–5:54 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
-| W44 | 5:54–6:02 | `decorate_finish` | 0.40 |  |
-| W45 | 6:02–6:10 | `reveal_result` | 0.45 |  |
-| W46 | 6:10–6:18 | `reveal_result` | 0.45 |  |
-| W47 | 6:18–6:26 | `reveal_result` | 0.45 |  |
-| W48 | 6:26–6:34 | `reveal_result` | 0.45 |  |
-| W49 | 6:34–6:42 | `reveal_result` | 0.45 |  |
-| W50 | 6:42–6:51 | `reveal_result` | 0.45 |  |
-| W51 | 6:51–6:59 | `reveal_result` | 0.45 |  |
-| W52 | 6:59–7:07 | `reveal_result` | 0.45 |  |
-| W53 | 7:07–7:15 | `reveal_result` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W54 | 7:15–7:23 | `reveal_result` | 0.45 |  |
-| W55 | 7:23–7:31 | `reveal_result` | 0.45 |  |
-| W56 | 7:31–7:39 | `reveal_result` | 0.45 |  |
-| W57 | 7:39–7:47 | `reveal_result` | 0.45 |  |
-| W58 | 7:47–7:55 | `reveal_result` | 0.45 |  |
-| W59 | 7:55–8:03 | `transition` | 0.50 |  |
+| W24 | 3:13–3:21 | `trim_wick` | 0.50 |  |
+| W25 | 3:21–3:29 | `trim_wick` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W26 | 3:29–3:37 | `trim_wick` | 0.50 |  |
+| W27 | 3:37–3:45 | `decorate_finish` | 0.50 |  |
+| W28 | 3:45–3:53 | `decorate_finish` | 0.50 |  |
+| W29 | 3:53–4:02 | `reveal_result` | 0.50 |  |
+| W30 | 4:02–4:10 | `reveal_result` | 0.50 |  |
+| W31 | 4:10–4:18 | `reveal_result` | 0.50 |  |
+| W32 | 4:18–4:26 | `transition` | 0.60 |  |
+| W33 | 4:26–4:34 | `transition` | 0.60 |  |
+| W34 | 4:34–4:42 | `transition` | 0.60 |  |
+| W35 | 4:42–4:50 | `transition` | 0.60 |  |
+| W36 | 4:50–4:58 | `transition` | 0.60 |  |
+| W37 | 4:58–5:06 | `transition` | 0.60 |  |
+| W38 | 5:06–5:14 | `transition` | 0.60 |  |
+| W39 | 5:14–5:22 | `transition` | 0.60 |  |
+| W40 | 5:22–5:30 | `transition` | 0.60 |  |
+| W41 | 5:30–5:38 | `transition` | 0.60 |  |
+| W42 | 5:38–5:46 | `transition` | 0.60 |  |
+| W43 | 5:46–5:54 | `transition` | 0.60 |  |
+| W44 | 5:54–6:02 | `decorate_finish` | 0.50 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W45 | 6:02–6:10 | `decorate_finish` | 0.50 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W46 | 6:10–6:18 | `decorate_finish` | 0.50 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W47 | 6:18–6:26 | `decorate_finish` | 0.50 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W48 | 6:26–6:34 | `decorate_finish` | 0.50 | backward step vs canonical order (reveal_result->decorate_finish) |
+| W49 | 6:34–6:42 | `reveal_result` | 0.50 |  |
+| W50 | 6:42–6:51 | `reveal_result` | 0.50 |  |
+| W51 | 6:51–6:59 | `reveal_result` | 0.50 |  |
+| W52 | 6:59–7:07 | `reveal_result` | 0.50 |  |
+| W53 | 7:07–7:15 | `outro_cta` | 0.60 |  |
+| W54 | 7:15–7:23 | `blank` | 0.60 |  |
+| W55 | 7:23–7:31 | `blank` | 0.60 |  |
+| W56 | 7:31–7:39 | `blank` | 0.60 |  |
+| W57 | 7:39–7:47 | `blank` | 0.60 |  |
+| W58 | 7:47–7:55 | `blank` | 0.60 |  |
+| W59 | 7:55–8:03 | `blank` | 0.60 |  |

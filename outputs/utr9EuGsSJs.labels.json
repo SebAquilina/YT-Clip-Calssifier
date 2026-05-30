@@ -195,33 +195,33 @@
   "window": 24,
   "start": 190.88,
   "end": 198.83,
-  "label": "measure_wax",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "description": "Pouring wax into the jar."
  },
  {
   "window": 25,
   "start": 198.83,
   "end": 206.78,
-  "label": "melt_wax",
+  "label": "set_wick",
   "confidence": 0.5,
-  "description": "Melting the soy wax in the double boiler."
+  "description": "Setting the wick."
  },
  {
   "window": 26,
   "start": 206.78,
   "end": 214.73,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "confidence": 0.5,
+  "description": "Pouring wax into the jar."
  },
  {
   "window": 27,
   "start": 214.73,
   "end": 222.69,
-  "label": "measure_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 28,
@@ -229,23 +229,23 @@
   "end": 230.64,
   "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Melting the soy wax in the double boiler."
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 29,
   "start": 230.64,
   "end": 238.59,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 30,
   "start": 238.59,
   "end": 246.55,
-  "label": "measure_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 31,
@@ -253,23 +253,23 @@
   "end": 254.5,
   "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Melting the soy wax in the double boiler."
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 32,
   "start": 254.5,
   "end": 262.45,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 33,
   "start": 262.45,
   "end": 270.41,
-  "label": "measure_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 34,
@@ -277,238 +277,238 @@
   "end": 278.36,
   "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Melting the soy wax in the double boiler."
+  "description": "Melting wax in the microwave."
  },
  {
   "window": 35,
   "start": 278.36,
   "end": 286.31,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing wax/fragrance on the scale."
  },
  {
   "window": 36,
   "start": 286.31,
   "end": 294.27,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sa Sy, pf 4 Bea he oe Pheer'."
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 37,
   "start": 294.27,
   "end": 302.22,
-  "label": "melt_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Melting the soy wax in the double boiler."
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 38,
   "start": 302.22,
   "end": 310.17,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 39,
   "start": 310.17,
   "end": 318.12,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Tinting the embed wax (pink)."
  },
  {
   "window": 40,
   "start": 318.12,
   "end": 326.08,
-  "label": "melt_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Melting the soy wax in the double boiler."
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 41,
   "start": 326.08,
   "end": 334.03,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 42,
   "start": 334.03,
   "end": 341.98,
-  "label": "measure_wax",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "description": "Pouring wax into the jar."
  },
  {
   "window": 43,
   "start": 341.98,
   "end": 349.94,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aa ae tee eee nee BLACK RASPBERRY VANILLA peers fodere'."
+  "confidence": 0.6,
+  "description": "Label-design screen / printer."
  },
  {
   "window": 44,
   "start": 349.94,
   "end": 357.89,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Oo foer, ewe ee Pe neem tet 7 ee Seapets ROBOTO fudore me'."
+  "confidence": 0.6,
+  "description": "Label-design screen / printer."
  },
  {
   "window": 45,
   "start": 357.89,
   "end": 365.84,
-  "label": "measure_wax",
-  "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Label-design screen / printer."
  },
  {
   "window": 46,
   "start": 365.84,
   "end": 373.8,
-  "label": "melt_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Melting the soy wax in the double boiler."
+  "description": "Rows of candles setting."
  },
  {
   "window": 47,
   "start": 373.8,
   "end": 381.75,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 48,
   "start": 381.75,
   "end": 389.7,
-  "label": "measure_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 49,
   "start": 389.7,
   "end": 397.66,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 50,
   "start": 397.66,
   "end": 405.61,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the jars."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 51,
   "start": 405.61,
   "end": 413.56,
-  "label": "measure_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Weighing wax on a scale (metal cup)."
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 52,
   "start": 413.56,
   "end": 421.52,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 53,
   "start": 421.52,
   "end": 429.47,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 54,
   "start": 429.47,
   "end": 437.42,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 55,
   "start": 437.42,
   "end": 445.38,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 56,
   "start": 445.38,
   "end": 453.33,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 57,
   "start": 453.33,
   "end": 461.28,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 58,
   "start": 461.28,
   "end": 469.23,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "confidence": 0.5,
+  "description": "Lit candle burn-test / finished candle."
  },
  {
   "window": 59,
   "start": 469.23,
   "end": 477.19,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding embeds / labelling the candle."
  },
  {
   "window": 60,
   "start": 477.19,
   "end": 485.14,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished soy candles shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 61,
   "start": 485.14,
   "end": 493.09,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 62,
   "start": 493.09,
   "end": 501.05,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 63,
   "start": 501.05,
   "end": 509.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

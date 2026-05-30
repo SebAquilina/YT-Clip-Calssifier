@@ -195,9 +195,9 @@
   "window": 24,
   "start": 190.88,
   "end": 198.83,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 25,
@@ -205,23 +205,23 @@
   "end": 206.78,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 26,
   "start": 206.78,
   "end": 214.73,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 27,
   "start": 214.73,
   "end": 222.69,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 28,
@@ -229,23 +229,23 @@
   "end": 230.64,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 29,
   "start": 230.64,
   "end": 238.59,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 30,
   "start": 238.59,
   "end": 246.55,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of bubble candles on the trays."
  },
  {
   "window": 31,
@@ -253,23 +253,23 @@
   "end": 254.5,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 32,
   "start": 254.5,
   "end": 262.45,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 33,
   "start": 262.45,
   "end": 270.41,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 34,
@@ -277,23 +277,23 @@
   "end": 278.36,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 35,
   "start": 278.36,
   "end": 286.31,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of bubble candles on the trays."
  },
  {
   "window": 36,
   "start": 286.31,
   "end": 294.27,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 37,
@@ -301,71 +301,71 @@
   "end": 302.22,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 38,
   "start": 302.22,
   "end": 310.17,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of bubble candles on the trays."
  },
  {
   "window": 39,
   "start": 310.17,
   "end": 318.12,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 40,
   "start": 318.12,
   "end": 326.08,
-  "label": "decorate_finish",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Rows of bubble candles on the trays."
  },
  {
   "window": 41,
   "start": 326.08,
   "end": 334.03,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 42,
   "start": 334.03,
   "end": 341.98,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 43,
   "start": 341.98,
   "end": 349.94,
-  "label": "decorate_finish",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Rows of bubble candles on the trays."
  },
  {
   "window": 44,
   "start": 349.94,
   "end": 357.89,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 45,
   "start": 357.89,
   "end": 365.84,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of bubble candles on the trays."
  },
  {
   "window": 46,
@@ -373,142 +373,142 @@
   "end": 373.8,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 47,
   "start": 373.8,
   "end": 381.75,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 48,
   "start": 381.75,
   "end": 389.7,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 49,
   "start": 389.7,
   "end": 397.66,
-  "label": "decorate_finish",
+  "label": "set_wick",
   "confidence": 0.5,
-  "description": "Demoulding the bubble candles from the silicone moulds."
+  "description": "Tying wicks/ribbons on the bubble candles."
  },
  {
   "window": 50,
   "start": 397.66,
   "end": 405.61,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax for the bubble candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the white bubble-cube candles from the silicone moulds."
  },
  {
   "window": 51,
   "start": 405.61,
   "end": 413.56,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into bubble/cube silicone moulds."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished bubble candles shown."
  },
  {
   "window": 52,
   "start": 413.56,
   "end": 421.52,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 53,
   "start": 421.52,
   "end": 429.47,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 54,
   "start": 429.47,
   "end": 437.42,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 55,
   "start": 437.42,
   "end": 445.38,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 56,
   "start": 445.38,
   "end": 453.33,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 57,
   "start": 453.33,
   "end": 461.28,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 58,
   "start": 461.28,
   "end": 469.23,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 59,
   "start": 469.23,
   "end": 477.19,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 60,
   "start": 477.19,
   "end": 485.14,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 61,
   "start": 485.14,
   "end": 493.09,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 62,
   "start": 493.09,
   "end": 501.05,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 63,
   "start": 501.05,
   "end": 509.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

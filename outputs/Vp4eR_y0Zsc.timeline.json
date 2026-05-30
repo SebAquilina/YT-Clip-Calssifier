@@ -360,33 +360,31 @@
       "window": 23,
       "start": 182.92,
       "end": 190.88,
-      "label": "add_dye_color",
+      "label": "decorate_finish",
       "original_label": "add_dye_color",
       "confidence": 0.4,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
       "description": "Tinting the wax for the bubble candles.",
-      "smoothed": false,
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 24,
       "start": 190.88,
       "end": 198.83,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 25,
@@ -398,7 +396,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -406,33 +404,29 @@
       "window": 26,
       "start": 206.78,
       "end": 214.73,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
-      ]
+      "notes": []
     },
     {
       "window": 27,
       "start": 214.73,
       "end": 222.69,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 28,
@@ -444,7 +438,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -452,31 +446,31 @@
       "window": 29,
       "start": 230.64,
       "end": 238.59,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
-      ]
+      "notes": []
     },
     {
       "window": 30,
       "start": 238.59,
       "end": 246.55,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Rows of bubble candles on the trays.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 31,
@@ -488,7 +482,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -496,33 +490,29 @@
       "window": 32,
       "start": 254.5,
       "end": 262.45,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
-      ]
+      "notes": []
     },
     {
       "window": 33,
       "start": 262.45,
       "end": 270.41,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 34,
@@ -534,7 +524,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -542,33 +532,31 @@
       "window": 35,
       "start": 278.36,
       "end": 286.31,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
-      "smoothed": false,
+      "description": "Rows of bubble candles on the trays.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 36,
       "start": 286.31,
       "end": 294.27,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 37,
@@ -580,7 +568,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -588,75 +576,73 @@
       "window": 38,
       "start": 302.22,
       "end": 310.17,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
-      "smoothed": false,
+      "description": "Rows of bubble candles on the trays.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 39,
       "start": 310.17,
       "end": 318.12,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 40,
-      "start": 318.12,
-      "end": 326.08,
       "label": "decorate_finish",
       "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
+    },
+    {
+      "window": 40,
+      "start": 318.12,
+      "end": 326.08,
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of bubble candles on the trays.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 41,
       "start": 326.08,
       "end": 334.03,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
-      ]
+      "notes": []
     },
     {
       "window": 42,
       "start": 334.03,
       "end": 341.98,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -665,45 +651,45 @@
       "start": 341.98,
       "end": 349.94,
       "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
-      "smoothed": false,
-      "notes": []
+      "description": "Rows of bubble candles on the trays.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 44,
       "start": 349.94,
       "end": 357.89,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
-      ]
+      "notes": []
     },
     {
       "window": 45,
       "start": 357.89,
       "end": 365.84,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
-      "smoothed": false,
+      "description": "Rows of bubble candles on the trays.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "despiked to match neighbours"
       ]
     },
     {
@@ -716,7 +702,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -724,13 +710,13 @@
       "window": 47,
       "start": 373.8,
       "end": 381.75,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
     },
@@ -738,75 +724,71 @@
       "window": 48,
       "start": 381.75,
       "end": 389.7,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 49,
-      "start": 389.7,
-      "end": 397.66,
       "label": "decorate_finish",
       "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulding the bubble candles from the silicone moulds.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
       "notes": []
+    },
+    {
+      "window": 49,
+      "start": 389.7,
+      "end": 397.66,
+      "label": "decorate_finish",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tying wicks/ribbons on the bubble candles.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 50,
       "start": 397.66,
       "end": 405.61,
-      "label": "add_dye_color",
-      "original_label": "add_dye_color",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Tinting the wax for the bubble candles.",
+      "description": "Demoulding the white bubble-cube candles from the silicone moulds.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->add_dye_color)"
-      ]
+      "notes": []
     },
     {
       "window": 51,
       "start": 405.61,
       "end": 413.56,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into bubble/cube silicone moulds.",
+      "description": "Finished bubble candles shown.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 52,
       "start": 413.56,
       "end": 421.52,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -814,13 +796,13 @@
       "window": 53,
       "start": 421.52,
       "end": 429.47,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -828,13 +810,13 @@
       "window": 54,
       "start": 429.47,
       "end": 437.42,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -842,13 +824,13 @@
       "window": 55,
       "start": 437.42,
       "end": 445.38,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -856,13 +838,13 @@
       "window": 56,
       "start": 445.38,
       "end": 453.33,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -870,13 +852,13 @@
       "window": 57,
       "start": 453.33,
       "end": 461.28,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -884,13 +866,13 @@
       "window": 58,
       "start": 461.28,
       "end": 469.23,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -898,13 +880,13 @@
       "window": 59,
       "start": 469.23,
       "end": 477.19,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -912,13 +894,13 @@
       "window": 60,
       "start": 477.19,
       "end": 485.14,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -926,13 +908,13 @@
       "window": 61,
       "start": 485.14,
       "end": 493.09,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -940,13 +922,13 @@
       "window": 62,
       "start": 493.09,
       "end": 501.05,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -954,13 +936,13 @@
       "window": 63,
       "start": 501.05,
       "end": 509.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     }
@@ -1213,338 +1195,58 @@
       "phase": "finish",
       "is_step": true,
       "start": 174.97,
-      "end": 182.92,
-      "confidence": 0.5,
-      "windows": [
-        22
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 182.92,
-      "end": 190.88,
-      "confidence": 0.4,
-      "windows": [
-        23
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 190.88,
-      "end": 198.83,
-      "confidence": 0.45,
-      "windows": [
-        24
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 198.83,
-      "end": 206.78,
-      "confidence": 0.5,
-      "windows": [
-        25
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 206.78,
-      "end": 214.73,
-      "confidence": 0.4,
-      "windows": [
-        26
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 214.73,
-      "end": 222.69,
-      "confidence": 0.45,
-      "windows": [
-        27
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 222.69,
-      "end": 230.64,
-      "confidence": 0.5,
-      "windows": [
-        28
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 230.64,
-      "end": 238.59,
-      "confidence": 0.4,
-      "windows": [
-        29
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 238.59,
-      "end": 246.55,
-      "confidence": 0.7,
-      "windows": [
-        30
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 246.55,
-      "end": 254.5,
-      "confidence": 0.5,
-      "windows": [
-        31
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 254.5,
-      "end": 262.45,
-      "confidence": 0.4,
-      "windows": [
-        32
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 262.45,
-      "end": 270.41,
-      "confidence": 0.45,
-      "windows": [
-        33
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 270.41,
-      "end": 278.36,
-      "confidence": 0.5,
-      "windows": [
-        34
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 278.36,
-      "end": 286.31,
-      "confidence": 0.4,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 286.31,
-      "end": 294.27,
-      "confidence": 0.45,
-      "windows": [
-        36
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 294.27,
-      "end": 302.22,
-      "confidence": 0.5,
-      "windows": [
-        37
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 302.22,
-      "end": 310.17,
-      "confidence": 0.4,
-      "windows": [
-        38
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 310.17,
-      "end": 318.12,
-      "confidence": 0.45,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 318.12,
-      "end": 326.08,
-      "confidence": 0.5,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 326.08,
-      "end": 334.03,
-      "confidence": 0.4,
-      "windows": [
-        41
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 334.03,
-      "end": 341.98,
-      "confidence": 0.7,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 341.98,
-      "end": 349.94,
-      "confidence": 0.5,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 349.94,
-      "end": 357.89,
-      "confidence": 0.4,
-      "windows": [
-        44
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 357.89,
-      "end": 365.84,
-      "confidence": 0.45,
-      "windows": [
-        45
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 365.84,
-      "end": 373.8,
-      "confidence": 0.5,
-      "windows": [
-        46
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 373.8,
-      "end": 381.75,
-      "confidence": 0.9,
-      "windows": [
-        47
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 381.75,
-      "end": 389.7,
-      "confidence": 0.45,
-      "windows": [
-        48
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 389.7,
-      "end": 397.66,
-      "confidence": 0.5,
-      "windows": [
-        49
-      ]
-    },
-    {
-      "label": "add_dye_color",
-      "phase": "process",
-      "is_step": true,
-      "start": 397.66,
       "end": 405.61,
-      "confidence": 0.4,
+      "confidence": 0.48,
       "windows": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
         50
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "reveal_result",
+      "phase": "finish",
       "is_step": true,
       "start": 405.61,
       "end": 413.56,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
         51
       ]
     },
     {
-      "label": "transition",
+      "label": "blank",
       "phase": "aux",
       "is_step": false,
       "start": 413.56,
       "end": 509.0,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "windows": [
         52,
         53,

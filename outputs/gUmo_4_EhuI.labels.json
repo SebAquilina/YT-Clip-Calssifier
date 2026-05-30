@@ -195,65 +195,65 @@
   "window": 24,
   "start": 192.36,
   "end": 200.38,
-  "label": "pour_wax",
+  "label": "prepare_container",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Prepping the moulds/tray."
  },
  {
   "window": 25,
   "start": 200.38,
   "end": 208.39,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the moulds/tray."
  },
  {
   "window": 26,
   "start": 208.39,
   "end": 216.41,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Checkered-tray b-roll."
  },
  {
   "window": 27,
   "start": 216.41,
   "end": 224.42,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 28,
   "start": 224.42,
   "end": 232.44,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 29,
   "start": 232.44,
   "end": 240.45,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Checkered-tray b-roll."
  },
  {
   "window": 30,
   "start": 240.45,
   "end": 248.47,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 31,
   "start": 248.47,
   "end": 256.48,
   "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "confidence": 0.5,
+  "description": "Tinting the wax."
  },
  {
   "window": 32,
@@ -261,23 +261,23 @@
   "end": 264.5,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 33,
   "start": 264.5,
   "end": 272.52,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 34,
   "start": 272.52,
   "end": 280.53,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 42 ff ay fe Ss 1 Pa ghee ey Nv 7. Ail ern aatin bo pour tne red right to the edge Revapes. Sr aa as'."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 35,
@@ -285,23 +285,23 @@
   "end": 288.55,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 36,
   "start": 288.55,
   "end": 296.56,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 37,
   "start": 296.56,
   "end": 304.58,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SS Wh 2 te ae sy io er dh ee AS po OY'."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 38,
@@ -309,23 +309,23 @@
   "end": 312.59,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 39,
   "start": 312.59,
   "end": 320.61,
-  "label": "pour_wax",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Tinting the wax."
  },
  {
   "window": 40,
   "start": 320.61,
   "end": 328.62,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 41,
@@ -333,23 +333,23 @@
   "end": 336.64,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 42,
   "start": 336.64,
   "end": 344.65,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe ioe aL Ne co ics used Cane BO, Hikawe RADMF ANd HobON for thin!'."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 43,
   "start": 344.65,
   "end": 352.67,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 44,
@@ -357,23 +357,23 @@
   "end": 360.68,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 45,
   "start": 360.68,
   "end": 368.7,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Lyi oye he ribbon ls tp0 cule Need ee acre for packag ing gifts 3'."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 46,
   "start": 368.7,
   "end": 376.71,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 47,
@@ -381,126 +381,126 @@
   "end": 384.73,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 48,
   "start": 384.73,
   "end": 392.74,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 49,
   "start": 392.74,
   "end": 400.76,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 50,
   "start": 400.76,
   "end": 408.77,
-  "label": "transition",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'age SSyk 4 he yy SPA 3 ee ee ead gs sak 4 tie 2'."
+  "description": "Tinting the wax."
  },
  {
   "window": 51,
   "start": 408.77,
   "end": 416.79,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 52,
   "start": 416.79,
   "end": 424.8,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 53,
   "start": 424.8,
   "end": 432.82,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding the aesthetic moulded candles."
+  "description": "Finished aesthetic candles shown."
  },
  {
   "window": 54,
   "start": 432.82,
   "end": 440.83,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring coloured wax into flower/ball silicone moulds."
+  "description": "Demoulding & decorating the aesthetic flower/ball candles."
  },
  {
   "window": 55,
   "start": 440.83,
   "end": 448.85,
-  "label": "add_dye_color",
-  "confidence": 0.4,
-  "description": "Tinting the wax (pink/yellow/green)."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick in the jar."
  },
  {
   "window": 56,
   "start": 448.85,
   "end": 456.86,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished aesthetic candles shown."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick in the jar."
  },
  {
   "window": 57,
   "start": 456.86,
   "end": 464.88,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished aesthetic candles shown."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jar."
  },
  {
   "window": 58,
   "start": 464.88,
   "end": 472.89,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished aesthetic candles shown."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jar."
  },
  {
   "window": 59,
   "start": 472.89,
   "end": 480.91,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jar."
  },
  {
   "window": 60,
   "start": 480.91,
   "end": 488.92,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished aesthetic candles shown."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jar."
  },
  {
   "window": 61,
   "start": 488.92,
   "end": 496.94,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished aesthetic candles shown."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Candle setting."
  },
  {
   "window": 62,
   "start": 496.94,
   "end": 504.95,
   "label": "reveal_result",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Finished aesthetic candles shown."
  },
  {
@@ -508,7 +508,7 @@
   "start": 504.95,
   "end": 512.97,
   "label": "reveal_result",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Finished aesthetic candles shown."
  },
  {
@@ -516,15 +516,15 @@
   "start": 512.97,
   "end": 520.98,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! JOOLIE Etsy'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 65,
   "start": 520.98,
   "end": 529.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

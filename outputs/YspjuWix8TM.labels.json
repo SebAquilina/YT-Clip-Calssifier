@@ -195,288 +195,288 @@
   "window": 24,
   "start": 193.2,
   "end": 201.25,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring amber wax into the glasses (multi-wick)."
+  "label": "trim_wick",
+  "confidence": 0.5,
+  "description": "Trimming the multi-wicks on the candle."
  },
  {
   "window": 25,
   "start": 201.25,
   "end": 209.3,
-  "label": "set_wick",
-  "confidence": 0.45,
-  "description": "Setting/centring the wicks with orange wick bars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 26,
   "start": 209.3,
   "end": 217.35,
-  "label": "decorate_finish",
-  "confidence": 0.4,
-  "description": "Finishing/labelling the luxury candle."
+  "label": "trim_wick",
+  "confidence": 0.5,
+  "description": "Trimming the multi-wicks on the candle."
  },
  {
   "window": 27,
   "start": 217.35,
   "end": 225.4,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring amber wax into the glasses (multi-wick)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 28,
   "start": 225.4,
   "end": 233.45,
-  "label": "set_wick",
-  "confidence": 0.45,
-  "description": "Setting/centring the wicks with orange wick bars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 29,
   "start": 233.45,
   "end": 241.5,
-  "label": "decorate_finish",
-  "confidence": 0.4,
-  "description": "Finishing/labelling the luxury candle."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
  },
  {
   "window": 30,
   "start": 241.5,
   "end": 249.55,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring amber wax into the glasses (multi-wick)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
  },
  {
   "window": 31,
   "start": 249.55,
   "end": 257.6,
-  "label": "set_wick",
-  "confidence": 0.45,
-  "description": "Setting/centring the wicks with orange wick bars."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
  },
  {
   "window": 32,
   "start": 257.6,
   "end": 265.65,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Fe ee oe ne Sw SS Se ees wee ss See eee eet mn mn gee ses erwvevt Geo ye ee tees oo as pews Se 2 Ps mind 2 ee See Ee eee oes ESS ee ee Cee eee eee ee el con oe oe ne on wee ee ee me ocntw YS aT ome om'."
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 33,
   "start": 265.65,
   "end": 273.7,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring amber wax into the glasses (multi-wick)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 34,
   "start": 273.7,
   "end": 281.75,
-  "label": "set_wick",
-  "confidence": 0.45,
-  "description": "Setting/centring the wicks with orange wick bars."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 35,
   "start": 281.75,
   "end": 289.8,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'siete Fs Sa Cee ly eee 6 Cotrer ml FS ee CZ Pee ah fy ie yt Js es bh'."
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 36,
   "start": 289.8,
   "end": 297.85,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring amber wax into the glasses (multi-wick)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 37,
   "start": 297.85,
   "end": 305.9,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ru om 6 Ghee ER Wee hy oe ee werent to yOew Cea eter Pal Wasi Seay. ae he oi ol TS jes ie SY iY aah, St ai oe'."
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 38,
   "start": 305.9,
   "end": 313.95,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'IESE eee Ys 16 4 See EE 28 Cost hy Chew etrerest dy coeiPnieny iS Bes ae we Vv le 1 aay Le'."
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 39,
   "start": 313.95,
   "end": 322.0,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring amber wax into the glasses (multi-wick)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 40,
   "start": 322.0,
   "end": 330.05,
-  "label": "set_wick",
-  "confidence": 0.45,
-  "description": "Setting/centring the wicks with orange wick bars."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 41,
   "start": 330.05,
   "end": 338.1,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ome oF es See tae Cow hy Rae 6 Cobre re Rite OE Anal mE ay rsy eee'."
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 42,
   "start": 338.1,
   "end": 346.15,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring amber wax into the glasses (multi-wick)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 43,
   "start": 346.15,
   "end": 354.2,
-  "label": "set_wick",
-  "confidence": 0.45,
-  "description": "Setting/centring the wicks with orange wick bars."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
  },
  {
   "window": 44,
   "start": 354.2,
   "end": 362.25,
   "label": "decorate_finish",
-  "confidence": 0.4,
-  "description": "Finishing/labelling the luxury candle."
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 45,
   "start": 362.25,
   "end": 370.3,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 46,
   "start": 370.3,
   "end": 378.35,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 47,
   "start": 378.35,
   "end": 386.4,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 48,
   "start": 386.4,
   "end": 394.45,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
  },
  {
   "window": 49,
   "start": 394.45,
   "end": 402.5,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
  },
  {
   "window": 50,
   "start": 402.5,
   "end": 410.55,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
  },
  {
   "window": 51,
   "start": 410.55,
   "end": 418.6,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
  },
  {
   "window": 52,
   "start": 418.6,
   "end": 426.65,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
  },
  {
   "window": 53,
   "start": 426.65,
   "end": 434.7,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'bh Mamet 84 Pa SUBSCRIBE Re Eos: Ps 544 BOSS VISION es Bai PVERY THING YOU NEDD TO KNOW ABUT MAKING CANDLES seritsoMbor.cam Candle zene caridiermalomouuryivelguidea com iccurses 4 Rscentsohvaion irand'."
+  "confidence": 0.6,
+  "description": "Boss Vision subscribe card."
  },
  {
   "window": 54,
   "start": 434.7,
   "end": 442.75,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
  },
  {
   "window": 55,
   "start": 442.75,
   "end": 450.8,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
  },
  {
   "window": 56,
   "start": 450.8,
   "end": 458.85,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
  },
  {
   "window": 57,
   "start": 458.85,
   "end": 466.9,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
  },
  {
   "window": 58,
   "start": 466.9,
   "end": 474.95,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished luxury candles shown."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
  },
  {
   "window": 59,
   "start": 474.95,
   "end": 483.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
  }
 ]
