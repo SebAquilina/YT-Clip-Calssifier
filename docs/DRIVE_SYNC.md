@@ -55,3 +55,16 @@ Two sessions never write the same file unless they processed the same video, and
 in that case the newest record wins on import — no lost data, no torn writes, no
 lock needed. Round-trip verified: a JSON file uploaded via `create_file` and
 fetched via `download_file_content` decodes back byte-for-byte.
+
+## Verified live (2026-05-30)
+
+- Folder tree `yt-clip-shared/` + `records/` created (ids above).
+- `index.json` and a full real record `records/lTMszYRbm84.json` (22 windows)
+  uploaded as `application/json` (conversion disabled) and confirmed to download
+  back intact.
+- The newest-wins design was exercised for real: a same-title record uploaded
+  twice leaves two files on Drive, and import keeps the one with the newer
+  `ingested_at`. (The Drive MCP exposes no delete tool, so redundant older
+  copies are simply ignored on import; remove them in the Drive UI if desired.)
+- Remaining seed records (`BbGnbTIz7_s`, `HPD1k0lhDCU`) live in the git repo and
+  upload on the first `drive-push-plan` run.
