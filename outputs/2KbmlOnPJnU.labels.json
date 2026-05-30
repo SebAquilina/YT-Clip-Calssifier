@@ -1,0 +1,21 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.45, "description": "Dark moody intro; close-up of a small oil/dish setup for an 'infinite wick' build."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.5, "description": "Black-gloved hands lay out the small components for the floating oil wick."},
+  {"window": 2, "label": "prepare_container", "confidence": 0.5, "description": "Gloved hands assemble a cork/metal float for the wick."},
+  {"window": 3, "label": "prepare_container", "confidence": 0.5, "description": "Gloved hands work a metal disc/cork piece of the wick float."},
+  {"window": 4, "label": "prepare_container", "confidence": 0.5, "description": "Gloved hands cut and fit the float-wick parts."},
+  {"window": 5, "label": "prepare_container", "confidence": 0.5, "description": "Gloved hands continue assembling the floating wick."},
+  {"window": 6, "label": "prepare_container", "confidence": 0.5, "description": "Gloved hands handle the small wick components."},
+  {"window": 7, "label": "prepare_container", "confidence": 0.5, "description": "Gloved hands thread the wick through the float."},
+  {"window": 8, "label": "prepare_container", "confidence": 0.45, "description": "Gloved hands work near a small spirit burner."},
+  {"window": 9, "label": "set_wick", "confidence": 0.45, "description": "The float wick is set into a small metal cup/burner."},
+  {"window": 10, "label": "set_wick", "confidence": 0.45, "description": "Hands position the float wick in the oil cup."},
+  {"window": 11, "label": "pour_wax", "confidence": 0.4, "description": "Oil is added to the metal cup to fuel the float wick."},
+  {"window": 12, "label": "reveal_result", "confidence": 0.45, "description": "Close-up of a tealight/float candle."},
+  {"window": 13, "label": "reveal_result", "confidence": 0.55, "description": "The float wick is lit and burns in the cup."},
+  {"window": 14, "label": "reveal_result", "confidence": 0.55, "description": "Tealights/float wicks lit in a row."},
+  {"window": 15, "label": "reveal_result", "confidence": 0.5, "description": "Candles burning."},
+  {"window": 16, "label": "reveal_result", "confidence": 0.5, "description": "Lit candles beauty shot."},
+  {"window": 17, "label": "outro_cta", "confidence": 0.5, "description": "Lit candle with 'THANKS FOR WATCHING'."},
+  {"window": 18, "label": "outro_cta", "confidence": 0.55, "description": "Thanks-for-watching end card."}
+]

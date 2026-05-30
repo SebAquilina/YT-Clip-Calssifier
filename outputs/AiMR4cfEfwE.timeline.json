@@ -1,0 +1,311 @@
+{
+  "video_id": "AiMR4cfEfwE",
+  "title": "How to Get Smooth Candle Tops // Rough Candle Tops and How to Fix Them // Candle Making 101",
+  "url": "https://www.youtube.com/watch?v=AiMR4cfEfwE",
+  "duration": 139.0,
+  "source": "storyboard",
+  "n_windows": 17,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.18,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Black opening frame into the troubleshooting segment.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.18,
+      "end": 16.35,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "CandleScience host to camera; caption panel 'temperature shifts / Air in the wax / Fragrance oil ratio' with a pot of wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.35,
+      "end": 24.53,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host explains; caption 'Adjust the pour temperature'; close-up of a rough candle top.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.53,
+      "end": 32.71,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera about causes of rough tops.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.71,
+      "end": 40.88,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host continues to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.88,
+      "end": 49.06,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host continues to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 49.06,
+      "end": 57.24,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; caption 'Elevate the candles' with a demo cutaway.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 57.24,
+      "end": 65.41,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.41,
+      "end": 73.59,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; caption 'wet your vessels'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 73.59,
+      "end": 81.76,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host continues to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 81.76,
+      "end": 89.94,
+      "label": "talking_head",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Overhead demo: coloured wax and jars handled to illustrate a tip.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 89.94,
+      "end": 98.12,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; a heat gun smooths a candle top in cutaway.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 98.12,
+      "end": 106.29,
+      "label": "talking_head",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Close-up: a heat gun is used to smooth/finish a rough candle top.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 106.29,
+      "end": 114.47,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 114.47,
+      "end": 122.65,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A now-smooth candle top is shown; host wraps up.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 122.65,
+      "end": 130.82,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'THANKS FOR WATCHING' end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 130.82,
+      "end": 139.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'THANKS FOR WATCHING' end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.18,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.18,
+      "end": 114.47,
+      "confidence": 0.54,
+      "windows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 114.47,
+      "end": 122.65,
+      "confidence": 0.4,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 122.65,
+      "end": 139.0,
+      "confidence": 0.6,
+      "windows": [
+        15,
+        16
+      ]
+    }
+  ]
+}

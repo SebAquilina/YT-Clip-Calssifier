@@ -1,0 +1,18 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Opens from black to a CandleScience host in the studio."},
+  {"window": 1, "label": "talking_head", "confidence": 0.6, "description": "Host talks to camera; caption 'work with the right wax'."},
+  {"window": 2, "label": "talking_head", "confidence": 0.55, "description": "Host talks; overhead cut to wax bags ('BW-920')."},
+  {"window": 3, "label": "measure_wax", "confidence": 0.55, "description": "Overhead BW-920 wax bag and white pellets in a pan beside a metal pillar mould."},
+  {"window": 4, "label": "measure_wax", "confidence": 0.55, "description": "Wax pellets portioned; an 'LX 26' wick shown; host intercut."},
+  {"window": 5, "label": "prepare_container", "confidence": 0.6, "description": "Hands handle the metal pillar mould; caption 'the bottom of the mould becomes the top of the candle'."},
+  {"window": 6, "label": "prepare_container", "confidence": 0.6, "description": "The wick is threaded through the base hole of the pillar mould."},
+  {"window": 7, "label": "prepare_container", "confidence": 0.6, "description": "The mould base is sealed around the wick with putty."},
+  {"window": 8, "label": "prepare_container", "confidence": 0.55, "description": "Hands continue sealing the wick hole and securing the mould."},
+  {"window": 9, "label": "prepare_container", "confidence": 0.55, "description": "Pillar mould stood upright; caption 'tip: use play-doh or putty'."},
+  {"window": 10, "label": "pour_wax", "confidence": 0.65, "description": "Molten wax poured into the metal pillar mould."},
+  {"window": 11, "label": "cure_cool", "confidence": 0.5, "description": "Filled mould left to set; host intercut."},
+  {"window": 12, "label": "decorate_finish", "confidence": 0.45, "description": "Host talks, then the pillar candle is released from the mould."},
+  {"window": 13, "label": "reveal_result", "confidence": 0.6, "description": "Finished pillar candles in several colours lined up; wick trimmed."},
+  {"window": 14, "label": "outro_cta", "confidence": 0.6, "description": "'THANKS FOR WATCHING' end card."},
+  {"window": 15, "label": "outro_cta", "confidence": 0.55, "description": "End card / closing frame."}
+]

@@ -1,0 +1,325 @@
+{
+  "video_id": "ejlyZKwVMU8",
+  "title": "HOW TO MAKE WOODEN WICK SCENTED CANDLE | SOY WAX VANILLA SANDAL CANDLE DIY",
+  "url": "https://www.youtube.com/watch?v=ejlyZKwVMU8",
+  "duration": 117.0,
+  "source": "storyboard",
+  "n_windows": 15,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.8,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead: a small grey handmade clay cup sits ready on a white surface.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.8,
+      "end": 15.6,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A hand holds the clay vessel (caption 'handmade clay cup') beside a pile of white soy wax flakes.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.6,
+      "end": 23.4,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax flakes are scooped toward a black melting cup to be portioned.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.4,
+      "end": 31.2,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax flakes poured into the black melting cup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.2,
+      "end": 39.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'glue'; adhesive is applied to seat the wooden wick base inside the clay cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.0,
+      "end": 46.8,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wooden wick is set upright in the clay cup; melted wax in the black cup nearby.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 46.8,
+      "end": 54.6,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'cut the wick'; the wooden wick is trimmed to height over the cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 54.6,
+      "end": 62.4,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands steady the clay cup with its centred wooden wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 62.4,
+      "end": 70.2,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The melted wax in the black cup is scented before pouring; clay cup ready alongside.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 70.2,
+      "end": 78.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'pour scented wax into cup'; molten wax poured into the clay cup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 78.0,
+      "end": 85.8,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The clay cup fills with scented wax around the wooden wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 85.8,
+      "end": 93.6,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'leave for 1 hour'; the filled cup rests to set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 93.6,
+      "end": 101.4,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'cut unnecessary part of the wick'; the wooden wick is trimmed on the set candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 101.4,
+      "end": 109.2,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimmed candle is lit; red heart decor in frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 109.2,
+      "end": 117.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.65,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the finished wooden-wick clay-cup candles lit.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 15.6,
+      "confidence": 0.53,
+      "windows": [
+        0,
+        1
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.6,
+      "end": 31.2,
+      "confidence": 0.6,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 31.2,
+      "end": 62.4,
+      "confidence": 0.57,
+      "windows": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 62.4,
+      "end": 70.2,
+      "confidence": 0.45,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 70.2,
+      "end": 85.8,
+      "confidence": 0.62,
+      "windows": [
+        9,
+        10
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 85.8,
+      "end": 93.6,
+      "confidence": 0.55,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 93.6,
+      "end": 101.4,
+      "confidence": 0.55,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 101.4,
+      "end": 117.0,
+      "confidence": 0.62,
+      "windows": [
+        13,
+        14
+      ]
+    }
+  ]
+}
