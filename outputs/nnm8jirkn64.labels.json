@@ -1,0 +1,326 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Knight Light Candles host opens a talk on wood-wick pros/cons."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax (b-roll)."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; subscribe overlay."
+ },
+ {
+  "window": 4,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Wood-wick candle b-roll; host."
+ },
+ {
+  "window": 5,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "'MAPLE' candle shown with a price overlay."
+ },
+ {
+  "window": 6,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit wood-wick candle close-up; caption 'CON 1: wood wicks can be trickier to light'."
+ },
+ {
+  "window": 7,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'OPTION: SOAK IN OIL' caption."
+ },
+ {
+  "window": 8,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'MY SOLUTION: POUR HOT WAX DIRECTLY OVER THE WOODWICK' caption."
+ },
+ {
+  "window": 9,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 10,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 11,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; caption 'CON 2: weird heights'."
+ },
+ {
+  "window": 12,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit wood-wick candle close-up."
+ },
+ {
+  "window": 13,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit wood-wick candle close-up."
+ },
+ {
+  "window": 14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 15,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 17,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'JOIN THE KNIGHTS CIRCLE' membership card."
+ },
+ {
+  "window": 18,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; 'exclusive members' caption."
+ },
+ {
+  "window": 19,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; 'exclusive members' caption."
+ },
+ {
+  "window": 20,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 23,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Overhead supplies (fragrance, candle)."
+ },
+ {
+  "window": 24,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Hands work at the table (b-roll)."
+ },
+ {
+  "window": 25,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Overhead supplies."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 28,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; 'MAKESY' caption."
+ },
+ {
+  "window": 29,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 32,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; caption 'CON 5: wood wicks can be inconsistent'."
+ },
+ {
+  "window": 33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 34,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Hands with paper; finished candles (b-roll)."
+ },
+ {
+  "window": 35,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit wood-wick candle close-up."
+ },
+ {
+  "window": 36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 37,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 39,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 40,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 41,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 44,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; caption 'TRIM WICKS PROPERLY: approx. 1/8th in'."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; caption 'TRY BOOSTER WICKS'."
+ },
+ {
+  "window": 47,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; caption 'CONSIDER YOUR JAR SIZE'."
+ },
+ {
+  "window": 48,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 49,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; caption 'ARE YOU USING WOOD WICKS?'."
+ },
+ {
+  "window": 50,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; subscribed overlay."
+ },
+ {
+  "window": 51,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "Host wraps up; subscribed overlay."
+ },
+ {
+  "window": 52,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 53,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

@@ -1,0 +1,320 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Host opens in a kitchen/studio for a 'make candles smell stronger' guide."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead b-roll of wax in a bowl/pot."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle b-roll."
+ },
+ {
+  "window": 5,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Rows of candles on a shelf (b-roll)."
+ },
+ {
+  "window": 6,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead bowl of wax and pot."
+ },
+ {
+  "window": 7,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Candles on a shelf."
+ },
+ {
+  "window": 8,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 9,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; red 'X' myth-busting overlay."
+ },
+ {
+  "window": 10,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead pot melting; hands."
+ },
+ {
+  "window": 11,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Candles on a shelf."
+ },
+ {
+  "window": 12,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'WAX TYPE' caption card."
+ },
+ {
+  "window": 13,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'HOT THROW / COLD THROW' comparison caption."
+ },
+ {
+  "window": 14,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Man at a table with candles (b-roll)."
+ },
+ {
+  "window": 15,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'TYPES OF WAX' comparison table (soy/coconut/paraffin)."
+ },
+ {
+  "window": 16,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'TYPES OF WAX' comparison table."
+ },
+ {
+  "window": 17,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 18,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 19,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Candles on a shelf (b-roll)."
+ },
+ {
+  "window": 20,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 23,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 25,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Wax poured into a jug (b-roll)."
+ },
+ {
+  "window": 26,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Wax scooped from a black tub; jars."
+ },
+ {
+  "window": 27,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'WICKS' caption; host."
+ },
+ {
+  "window": 28,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 29,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle and cup (b-roll)."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Hands label/finish candles."
+ },
+ {
+  "window": 32,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'JARS' caption; host."
+ },
+ {
+  "window": 33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 34,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 35,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Hands with paper; jars of wax (b-roll)."
+ },
+ {
+  "window": 36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 37,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 39,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'CURE TIME' caption."
+ },
+ {
+  "window": 40,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'CURE TIME - ONE WEEK' caption."
+ },
+ {
+  "window": 41,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 42,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'UP TO TWO WEEKS' caption."
+ },
+ {
+  "window": 43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 44,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 47,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; phone/product shown."
+ },
+ {
+  "window": 48,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; subscribe overlay."
+ },
+ {
+  "window": 49,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 50,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 51,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 52,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]
