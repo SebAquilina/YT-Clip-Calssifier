@@ -1,0 +1,188 @@
+{
+  "video_id": "cYCW1wpPtr4",
+  "title": "Big Candle Making | Full Process, Wax Pour & ASMR \ud83d\udd6f\u2728 | Handmade Scented Candle",
+  "url": "https://www.youtube.com/watch?v=cYCW1wpPtr4",
+  "duration": 62.0,
+  "source": "storyboard",
+  "n_windows": 8,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.75,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mauve background; hands lift a white moulded rose/peony candle out of its silicone mould (phone-edited, 'InShot').",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.75,
+      "end": 15.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "White melted wax is poured into a silicone rose mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 15.5,
+      "end": 23.25,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The filled white silicone mould is handled; a tool sets/adjusts the wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 23.25,
+      "end": 31.0,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Peeling a white silicone mould off a textured honeycomb candle; rose candles around.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.0,
+      "end": 38.75,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A demoulded bubble candle and a pink rose candle; the wick is handled.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 38.75,
+      "end": 46.5,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished pink rose, white peony and bubble candles displayed.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 46.5,
+      "end": 54.25,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A teal rose candle is demoulded from a white silicone mould on a plate.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 54.25,
+      "end": 62.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished colourful moulded rose candles shown.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.75,
+      "confidence": 0.55,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 7.75,
+      "end": 15.5,
+      "confidence": 0.6,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 15.5,
+      "end": 23.25,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 23.25,
+      "end": 54.25,
+      "confidence": 0.56,
+      "windows": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 54.25,
+      "end": 62.0,
+      "confidence": 0.6,
+      "windows": [
+        7
+      ]
+    }
+  ]
+}

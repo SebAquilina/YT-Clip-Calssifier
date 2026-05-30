@@ -1,0 +1,211 @@
+{
+  "video_id": "rFGerjaJG40",
+  "title": "DIY Candle #craft #creative #shortvideo #candlemaking #marbleeffect #scentedcandle #handmade",
+  "url": "https://www.youtube.com/watch?v=rFGerjaJG40",
+  "duration": 71.0,
+  "source": "storyboard",
+  "n_windows": 9,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.89,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead on a purple swirl cloth: a metal saucepan holds white wax chunks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.89,
+      "end": 15.78,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The saucepan of white wax sits on a blue induction burner, melting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.78,
+      "end": 23.67,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands lay out a wick/sticker, small glass cups and supply packets.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 23.67,
+      "end": 31.56,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wick is fixed into a small glass cup while the wax pot is stirred.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 31.56,
+      "end": 39.44,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A hand stirs the melting wax in the saucepan with a stick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.44,
+      "end": 47.33,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Continued stirring of the melting wax; a wicked glass cup waits.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.33,
+      "end": 55.22,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Purple-tinted melted wax is poured into a small cup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.22,
+      "end": 63.11,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring purple wax into cups; finished purple candles with pink tulips appear.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.11,
+      "end": 71.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ss Neat 5 rm Re, YY fs Fal'.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.89,
+      "confidence": 0.55,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 7.89,
+      "end": 15.78,
+      "confidence": 0.6,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.78,
+      "end": 31.56,
+      "confidence": 0.55,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 31.56,
+      "end": 47.33,
+      "confidence": 0.55,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 47.33,
+      "end": 63.11,
+      "confidence": 0.57,
+      "windows": [
+        6,
+        7
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 63.11,
+      "end": 71.0,
+      "confidence": 0.5,
+      "windows": [
+        8
+      ]
+    }
+  ]
+}
