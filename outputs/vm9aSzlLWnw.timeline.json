@@ -1,0 +1,2328 @@
+{
+  "video_id": "vm9aSzlLWnw",
+  "title": "How I Pour My Candles In Bulk For My Business (quick & efficient batch making)",
+  "url": "https://www.youtube.com/watch?v=vm9aSzlLWnw",
+  "duration": 755.0,
+  "source": "storyboard",
+  "n_windows": 94,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.03,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.03,
+      "end": 16.06,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.06,
+      "end": 24.1,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 24.1,
+      "end": 32.13,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 32.13,
+      "end": 40.16,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.16,
+      "end": 48.19,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.19,
+      "end": 56.22,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.22,
+      "end": 64.26,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.26,
+      "end": 72.29,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.29,
+      "end": 80.32,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.32,
+      "end": 88.35,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sea ers Bact dewalt Ore hE cil 8 Ss: WEEE. ae'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.35,
+      "end": 96.38,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 96.38,
+      "end": 104.41,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.41,
+      "end": 112.45,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.45,
+      "end": 120.48,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 120.48,
+      "end": 128.51,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 128.51,
+      "end": 136.54,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 136.54,
+      "end": 144.57,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.57,
+      "end": 152.61,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 152.61,
+      "end": 160.64,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 160.64,
+      "end": 168.67,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 168.67,
+      "end": 176.7,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 176.7,
+      "end": 184.73,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 184.73,
+      "end": 192.77,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 192.77,
+      "end": 200.8,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 200.8,
+      "end": 208.83,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 208.83,
+      "end": 216.86,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 216.86,
+      "end": 224.89,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 224.89,
+      "end": 232.93,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 232.93,
+      "end": 240.96,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 240.96,
+      "end": 248.99,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 248.99,
+      "end": 257.02,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 257.02,
+      "end": 265.05,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 265.05,
+      "end": 273.09,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 273.09,
+      "end": 281.12,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 281.12,
+      "end": 289.15,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 289.15,
+      "end": 297.18,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 37,
+      "start": 297.18,
+      "end": 305.21,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 305.21,
+      "end": 313.24,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 39,
+      "start": 313.24,
+      "end": 321.28,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 321.28,
+      "end": 329.31,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 329.31,
+      "end": 337.34,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 337.34,
+      "end": 345.37,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 43,
+      "start": 345.37,
+      "end": 353.4,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 44,
+      "start": 353.4,
+      "end": 361.44,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 45,
+      "start": 361.44,
+      "end": 369.47,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 369.47,
+      "end": 377.5,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 377.5,
+      "end": 385.53,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 48,
+      "start": 385.53,
+      "end": 393.56,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 49,
+      "start": 393.56,
+      "end": 401.6,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 401.6,
+      "end": 409.63,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 51,
+      "start": 409.63,
+      "end": 417.66,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 417.66,
+      "end": 425.69,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 53,
+      "start": 425.69,
+      "end": 433.72,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 54,
+      "start": 433.72,
+      "end": 441.76,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 55,
+      "start": 441.76,
+      "end": 449.79,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 449.79,
+      "end": 457.82,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 57,
+      "start": 457.82,
+      "end": 465.85,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 58,
+      "start": 465.85,
+      "end": 473.88,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 473.88,
+      "end": 481.91,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 60,
+      "start": 481.91,
+      "end": 489.95,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 61,
+      "start": 489.95,
+      "end": 497.98,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 62,
+      "start": 497.98,
+      "end": 506.01,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 63,
+      "start": 506.01,
+      "end": 514.04,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 64,
+      "start": 514.04,
+      "end": 522.07,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 65,
+      "start": 522.07,
+      "end": 530.11,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 66,
+      "start": 530.11,
+      "end": 538.14,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 67,
+      "start": 538.14,
+      "end": 546.17,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 68,
+      "start": 546.17,
+      "end": 554.2,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 69,
+      "start": 554.2,
+      "end": 562.23,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 70,
+      "start": 562.23,
+      "end": 570.27,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 71,
+      "start": 570.27,
+      "end": 578.3,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 72,
+      "start": 578.3,
+      "end": 586.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 73,
+      "start": 586.33,
+      "end": 594.36,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 74,
+      "start": 594.36,
+      "end": 602.39,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 75,
+      "start": 602.39,
+      "end": 610.43,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks across the rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 76,
+      "start": 610.43,
+      "end": 618.46,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 77,
+      "start": 618.46,
+      "end": 626.49,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 78,
+      "start": 626.49,
+      "end": 634.52,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melter of wax for the bulk batch.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 79,
+      "start": 634.52,
+      "end": 642.55,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'my 3 THANKYOU gh ff 7 FOR WATCHING! VW SUSECIUSE'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 80,
+      "start": 642.55,
+      "end": 650.59,
+      "label": "transition",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Pouring wax into rows of jars (bulk pour).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 81,
+      "start": 650.59,
+      "end": 658.62,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 82,
+      "start": 658.62,
+      "end": 666.65,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 83,
+      "start": 666.65,
+      "end": 674.68,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 84,
+      "start": 674.68,
+      "end": 682.71,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 85,
+      "start": 682.71,
+      "end": 690.74,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 86,
+      "start": 690.74,
+      "end": 698.78,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 87,
+      "start": 698.78,
+      "end": 706.81,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 88,
+      "start": 706.81,
+      "end": 714.84,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 89,
+      "start": 714.84,
+      "end": 722.87,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 90,
+      "start": 722.87,
+      "end": 730.9,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 91,
+      "start": 730.9,
+      "end": 738.94,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 92,
+      "start": 738.94,
+      "end": 746.97,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 93,
+      "start": 746.97,
+      "end": 755.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 0.0,
+      "end": 8.03,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 8.03,
+      "end": 16.06,
+      "confidence": 0.45,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 16.06,
+      "end": 24.1,
+      "confidence": 0.45,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 24.1,
+      "end": 32.13,
+      "confidence": 0.4,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 32.13,
+      "end": 40.16,
+      "confidence": 0.5,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 40.16,
+      "end": 48.19,
+      "confidence": 0.45,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 48.19,
+      "end": 56.22,
+      "confidence": 0.45,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 56.22,
+      "end": 64.26,
+      "confidence": 0.4,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 64.26,
+      "end": 72.29,
+      "confidence": 0.5,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 72.29,
+      "end": 80.32,
+      "confidence": 0.45,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 80.32,
+      "end": 88.35,
+      "confidence": 0.5,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 88.35,
+      "end": 96.38,
+      "confidence": 0.4,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 96.38,
+      "end": 104.41,
+      "confidence": 0.5,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 104.41,
+      "end": 112.45,
+      "confidence": 0.45,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 112.45,
+      "end": 120.48,
+      "confidence": 0.45,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 120.48,
+      "end": 128.51,
+      "confidence": 0.7,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 128.51,
+      "end": 136.54,
+      "confidence": 0.5,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 136.54,
+      "end": 144.57,
+      "confidence": 0.45,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 144.57,
+      "end": 152.61,
+      "confidence": 0.45,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 152.61,
+      "end": 160.64,
+      "confidence": 0.4,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 160.64,
+      "end": 168.67,
+      "confidence": 0.7,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 168.67,
+      "end": 176.7,
+      "confidence": 0.45,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 176.7,
+      "end": 184.73,
+      "confidence": 0.45,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 184.73,
+      "end": 192.77,
+      "confidence": 0.4,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 192.77,
+      "end": 200.8,
+      "confidence": 0.5,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 200.8,
+      "end": 208.83,
+      "confidence": 0.45,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 208.83,
+      "end": 216.86,
+      "confidence": 0.45,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 216.86,
+      "end": 224.89,
+      "confidence": 0.4,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 224.89,
+      "end": 232.93,
+      "confidence": 0.5,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 232.93,
+      "end": 240.96,
+      "confidence": 0.45,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 240.96,
+      "end": 248.99,
+      "confidence": 0.45,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 248.99,
+      "end": 257.02,
+      "confidence": 0.4,
+      "windows": [
+        31
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 257.02,
+      "end": 265.05,
+      "confidence": 0.5,
+      "windows": [
+        32
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 265.05,
+      "end": 273.09,
+      "confidence": 0.45,
+      "windows": [
+        33
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 273.09,
+      "end": 281.12,
+      "confidence": 0.45,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 281.12,
+      "end": 289.15,
+      "confidence": 0.4,
+      "windows": [
+        35
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 289.15,
+      "end": 297.18,
+      "confidence": 0.5,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 297.18,
+      "end": 305.21,
+      "confidence": 0.45,
+      "windows": [
+        37
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 305.21,
+      "end": 313.24,
+      "confidence": 0.45,
+      "windows": [
+        38
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 313.24,
+      "end": 321.28,
+      "confidence": 0.4,
+      "windows": [
+        39
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 321.28,
+      "end": 329.31,
+      "confidence": 0.7,
+      "windows": [
+        40
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 329.31,
+      "end": 337.34,
+      "confidence": 0.45,
+      "windows": [
+        41
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 337.34,
+      "end": 345.37,
+      "confidence": 0.45,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 345.37,
+      "end": 353.4,
+      "confidence": 0.4,
+      "windows": [
+        43
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 353.4,
+      "end": 361.44,
+      "confidence": 0.5,
+      "windows": [
+        44
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 361.44,
+      "end": 369.47,
+      "confidence": 0.45,
+      "windows": [
+        45
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 369.47,
+      "end": 377.5,
+      "confidence": 0.5,
+      "windows": [
+        46
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 377.5,
+      "end": 385.53,
+      "confidence": 0.4,
+      "windows": [
+        47
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 385.53,
+      "end": 393.56,
+      "confidence": 0.5,
+      "windows": [
+        48
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 393.56,
+      "end": 401.6,
+      "confidence": 0.45,
+      "windows": [
+        49
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 401.6,
+      "end": 409.63,
+      "confidence": 0.45,
+      "windows": [
+        50
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 409.63,
+      "end": 417.66,
+      "confidence": 0.4,
+      "windows": [
+        51
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 417.66,
+      "end": 425.69,
+      "confidence": 0.5,
+      "windows": [
+        52
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 425.69,
+      "end": 433.72,
+      "confidence": 0.45,
+      "windows": [
+        53
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 433.72,
+      "end": 441.76,
+      "confidence": 0.45,
+      "windows": [
+        54
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 441.76,
+      "end": 449.79,
+      "confidence": 0.4,
+      "windows": [
+        55
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 449.79,
+      "end": 457.82,
+      "confidence": 0.7,
+      "windows": [
+        56
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 457.82,
+      "end": 465.85,
+      "confidence": 0.45,
+      "windows": [
+        57
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 465.85,
+      "end": 473.88,
+      "confidence": 0.45,
+      "windows": [
+        58
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 473.88,
+      "end": 481.91,
+      "confidence": 0.4,
+      "windows": [
+        59
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 481.91,
+      "end": 489.95,
+      "confidence": 0.5,
+      "windows": [
+        60
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 489.95,
+      "end": 497.98,
+      "confidence": 0.45,
+      "windows": [
+        61
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 497.98,
+      "end": 506.01,
+      "confidence": 0.45,
+      "windows": [
+        62
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 506.01,
+      "end": 514.04,
+      "confidence": 0.4,
+      "windows": [
+        63
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 514.04,
+      "end": 522.07,
+      "confidence": 0.5,
+      "windows": [
+        64
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 522.07,
+      "end": 530.11,
+      "confidence": 0.7,
+      "windows": [
+        65
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 530.11,
+      "end": 538.14,
+      "confidence": 0.45,
+      "windows": [
+        66
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 538.14,
+      "end": 546.17,
+      "confidence": 0.4,
+      "windows": [
+        67
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 546.17,
+      "end": 554.2,
+      "confidence": 0.5,
+      "windows": [
+        68
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 554.2,
+      "end": 562.23,
+      "confidence": 0.45,
+      "windows": [
+        69
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 562.23,
+      "end": 570.27,
+      "confidence": 0.45,
+      "windows": [
+        70
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 570.27,
+      "end": 578.3,
+      "confidence": 0.4,
+      "windows": [
+        71
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 578.3,
+      "end": 586.33,
+      "confidence": 0.5,
+      "windows": [
+        72
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 586.33,
+      "end": 594.36,
+      "confidence": 0.45,
+      "windows": [
+        73
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 594.36,
+      "end": 602.39,
+      "confidence": 0.45,
+      "windows": [
+        74
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 602.39,
+      "end": 610.43,
+      "confidence": 0.4,
+      "windows": [
+        75
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 610.43,
+      "end": 618.46,
+      "confidence": 0.5,
+      "windows": [
+        76
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 618.46,
+      "end": 626.49,
+      "confidence": 0.45,
+      "windows": [
+        77
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 626.49,
+      "end": 634.52,
+      "confidence": 0.45,
+      "windows": [
+        78
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 634.52,
+      "end": 755.0,
+      "confidence": 0.5,
+      "windows": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ]
+    }
+  ]
+}

@@ -1,794 +1,794 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.97,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 1,
-    "start": 7.97,
-    "end": 15.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.94,
-    "end": 23.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.91,
-    "end": 31.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.88,
-    "end": 39.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.85,
-    "end": 47.82,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 6,
-    "start": 47.82,
-    "end": 55.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.79,
-    "end": 63.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.76,
-    "end": 71.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.73,
-    "end": 79.7,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.7,
-    "end": 87.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.67,
-    "end": 95.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.64,
-    "end": 103.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.61,
-    "end": 111.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.58,
-    "end": 119.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.55,
-    "end": 127.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.52,
-    "end": 135.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.48,
-    "end": 143.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.45,
-    "end": 151.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.42,
-    "end": 159.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.39,
-    "end": 167.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.36,
-    "end": 175.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.33,
-    "end": 183.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 183.3,
-    "end": 191.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.27,
-    "end": 199.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 199.24,
-    "end": 207.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 207.21,
-    "end": 215.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 215.18,
-    "end": 223.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 223.15,
-    "end": 231.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 231.12,
-    "end": 239.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 239.09,
-    "end": 247.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 247.06,
-    "end": 255.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 255.03,
-    "end": 263.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 263.0,
-    "end": 270.97,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 34,
-    "start": 270.97,
-    "end": 278.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 278.94,
-    "end": 286.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 286.91,
-    "end": 294.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 294.88,
-    "end": 302.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 302.85,
-    "end": 310.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 310.82,
-    "end": 318.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 318.79,
-    "end": 326.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 326.76,
-    "end": 334.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 334.73,
-    "end": 342.7,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 43,
-    "start": 342.7,
-    "end": 350.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 350.67,
-    "end": 358.64,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 45,
-    "start": 358.64,
-    "end": 366.61,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 46,
-    "start": 366.61,
-    "end": 374.58,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 47,
-    "start": 374.58,
-    "end": 382.55,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 48,
-    "start": 382.55,
-    "end": 390.52,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 49,
-    "start": 390.52,
-    "end": 398.48,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 50,
-    "start": 398.48,
-    "end": 406.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 51,
-    "start": 406.45,
-    "end": 414.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 414.42,
-    "end": 422.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 422.39,
-    "end": 430.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 430.36,
-    "end": 438.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 438.33,
-    "end": 446.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 446.3,
-    "end": 454.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 57,
-    "start": 454.27,
-    "end": 462.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 462.24,
-    "end": 470.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 470.21,
-    "end": 478.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 60,
-    "start": 478.18,
-    "end": 486.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 61,
-    "start": 486.15,
-    "end": 494.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 62,
-    "start": 494.12,
-    "end": 502.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 502.09,
-    "end": 510.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 64,
-    "start": 510.06,
-    "end": 518.03,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 65,
-    "start": 518.03,
-    "end": 526.0,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 66,
-    "start": 526.0,
-    "end": 533.97,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 67,
-    "start": 533.97,
-    "end": 541.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 68,
-    "start": 541.94,
-    "end": 549.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 69,
-    "start": 549.91,
-    "end": 557.88,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 70,
-    "start": 557.88,
-    "end": 565.85,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 71,
-    "start": 565.85,
-    "end": 573.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 72,
-    "start": 573.82,
-    "end": 581.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 73,
-    "start": 581.79,
-    "end": 589.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 74,
-    "start": 589.76,
-    "end": 597.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 75,
-    "start": 597.73,
-    "end": 605.7,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 76,
-    "start": 605.7,
-    "end": 613.67,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 77,
-    "start": 613.67,
-    "end": 621.64,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 78,
-    "start": 621.64,
-    "end": 629.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 79,
-    "start": 629.61,
-    "end": 637.58,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 80,
-    "start": 637.58,
-    "end": 645.55,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 81,
-    "start": 645.55,
-    "end": 653.52,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 82,
-    "start": 653.52,
-    "end": 661.48,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 83,
-    "start": 661.48,
-    "end": 669.45,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 84,
-    "start": 669.45,
-    "end": 677.42,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 85,
-    "start": 677.42,
-    "end": 685.39,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 86,
-    "start": 685.39,
-    "end": 693.36,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 87,
-    "start": 693.36,
-    "end": 701.33,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 88,
-    "start": 701.33,
-    "end": 709.3,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 89,
-    "start": 709.3,
-    "end": 717.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 90,
-    "start": 717.27,
-    "end": 725.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 91,
-    "start": 725.24,
-    "end": 733.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 92,
-    "start": 733.21,
-    "end": 741.18,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Patsy Schwantee Tall Peggy William: rad woe Riisnna Sofikitm Ro iMLBastion Robin Moskat Robyn Sugarcane BETO Math Bs 4 SOM hs TRUS See PDEA TVRD ATT TED ERE iy ofr Oct'."
-  },
-  {
-    "window": 93,
-    "start": 741.18,
-    "end": 749.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 94,
-    "start": 749.15,
-    "end": 757.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 95,
-    "start": 757.12,
-    "end": 765.09,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 96,
-    "start": 765.09,
-    "end": 773.06,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
-  },
-  {
-    "window": 97,
-    "start": 773.06,
-    "end": 781.03,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
-  },
-  {
-    "window": 98,
-    "start": 781.03,
-    "end": 789.0,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.97,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.97,
+  "end": 15.94,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 2,
+  "start": 15.94,
+  "end": 23.91,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 3,
+  "start": 23.91,
+  "end": 31.88,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 4,
+  "start": 31.88,
+  "end": 39.85,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 5,
+  "start": 39.85,
+  "end": 47.82,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 47.82,
+  "end": 55.79,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 7,
+  "start": 55.79,
+  "end": 63.76,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 8,
+  "start": 63.76,
+  "end": 71.73,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 9,
+  "start": 71.73,
+  "end": 79.7,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 10,
+  "start": 79.7,
+  "end": 87.67,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 11,
+  "start": 87.67,
+  "end": 95.64,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 12,
+  "start": 95.64,
+  "end": 103.61,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 13,
+  "start": 103.61,
+  "end": 111.58,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 14,
+  "start": 111.58,
+  "end": 119.55,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 15,
+  "start": 119.55,
+  "end": 127.52,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 16,
+  "start": 127.52,
+  "end": 135.48,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 17,
+  "start": 135.48,
+  "end": 143.45,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 18,
+  "start": 143.45,
+  "end": 151.42,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 19,
+  "start": 151.42,
+  "end": 159.39,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 20,
+  "start": 159.39,
+  "end": 167.36,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 21,
+  "start": 167.36,
+  "end": 175.33,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 22,
+  "start": 175.33,
+  "end": 183.3,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 23,
+  "start": 183.3,
+  "end": 191.27,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 24,
+  "start": 191.27,
+  "end": 199.24,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 25,
+  "start": 199.24,
+  "end": 207.21,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 26,
+  "start": 207.21,
+  "end": 215.18,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 27,
+  "start": 215.18,
+  "end": 223.15,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 28,
+  "start": 223.15,
+  "end": 231.12,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 29,
+  "start": 231.12,
+  "end": 239.09,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 30,
+  "start": 239.09,
+  "end": 247.06,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 31,
+  "start": 247.06,
+  "end": 255.03,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 32,
+  "start": 255.03,
+  "end": 263.0,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 33,
+  "start": 263.0,
+  "end": 270.97,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 34,
+  "start": 270.97,
+  "end": 278.94,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 35,
+  "start": 278.94,
+  "end": 286.91,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 36,
+  "start": 286.91,
+  "end": 294.88,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 37,
+  "start": 294.88,
+  "end": 302.85,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 38,
+  "start": 302.85,
+  "end": 310.82,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 39,
+  "start": 310.82,
+  "end": 318.79,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 40,
+  "start": 318.79,
+  "end": 326.76,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 41,
+  "start": 326.76,
+  "end": 334.73,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 42,
+  "start": 334.73,
+  "end": 342.7,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 43,
+  "start": 342.7,
+  "end": 350.67,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 44,
+  "start": 350.67,
+  "end": 358.64,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 45,
+  "start": 358.64,
+  "end": 366.61,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 46,
+  "start": 366.61,
+  "end": 374.58,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 47,
+  "start": 374.58,
+  "end": 382.55,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 48,
+  "start": 382.55,
+  "end": 390.52,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 49,
+  "start": 390.52,
+  "end": 398.48,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 50,
+  "start": 398.48,
+  "end": 406.45,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 51,
+  "start": 406.45,
+  "end": 414.42,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 52,
+  "start": 414.42,
+  "end": 422.39,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 53,
+  "start": 422.39,
+  "end": 430.36,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 54,
+  "start": 430.36,
+  "end": 438.33,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 55,
+  "start": 438.33,
+  "end": 446.3,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 56,
+  "start": 446.3,
+  "end": 454.27,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 57,
+  "start": 454.27,
+  "end": 462.24,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 58,
+  "start": 462.24,
+  "end": 470.21,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 59,
+  "start": 470.21,
+  "end": 478.18,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 60,
+  "start": 478.18,
+  "end": 486.15,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 61,
+  "start": 486.15,
+  "end": 494.12,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 62,
+  "start": 494.12,
+  "end": 502.09,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 63,
+  "start": 502.09,
+  "end": 510.06,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 64,
+  "start": 510.06,
+  "end": 518.03,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 65,
+  "start": 518.03,
+  "end": 526.0,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 66,
+  "start": 526.0,
+  "end": 533.97,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 67,
+  "start": 533.97,
+  "end": 541.94,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 68,
+  "start": 541.94,
+  "end": 549.91,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 69,
+  "start": 549.91,
+  "end": 557.88,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 70,
+  "start": 557.88,
+  "end": 565.85,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 71,
+  "start": 565.85,
+  "end": 573.82,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Setting the wicks."
+ },
+ {
+  "window": 72,
+  "start": 573.82,
+  "end": 581.79,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping cream containers for the candles."
+ },
+ {
+  "window": 73,
+  "start": 581.79,
+  "end": 589.76,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 74,
+  "start": 589.76,
+  "end": 597.73,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 75,
+  "start": 597.73,
+  "end": 605.7,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 76,
+  "start": 605.7,
+  "end": 613.67,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 77,
+  "start": 613.67,
+  "end": 621.64,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 78,
+  "start": 621.64,
+  "end": 629.61,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 79,
+  "start": 629.61,
+  "end": 637.58,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 80,
+  "start": 637.58,
+  "end": 645.55,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 81,
+  "start": 645.55,
+  "end": 653.52,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 82,
+  "start": 653.52,
+  "end": 661.48,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 83,
+  "start": 661.48,
+  "end": 669.45,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 84,
+  "start": 669.45,
+  "end": 677.42,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 85,
+  "start": 677.42,
+  "end": 685.39,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 86,
+  "start": 685.39,
+  "end": 693.36,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 87,
+  "start": 693.36,
+  "end": 701.33,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 88,
+  "start": 701.33,
+  "end": 709.3,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 89,
+  "start": 709.3,
+  "end": 717.27,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the containers."
+ },
+ {
+  "window": 90,
+  "start": 717.27,
+  "end": 725.24,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding the iridescent/pearl finish and decorations."
+ },
+ {
+  "window": 91,
+  "start": 725.24,
+  "end": 733.21,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished iridescent candles shown."
+ },
+ {
+  "window": 92,
+  "start": 733.21,
+  "end": 741.18,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Patsy Schwantee Tall Peggy William: rad woe Riisnna Sofikitm Ro iMLBastion Robin Moskat Robyn Sugarcane BETO Math Bs 4 SOM hs TRUS See PDEA TVRD ATT TED ERE iy ofr Oct'."
+ },
+ {
+  "window": 93,
+  "start": 741.18,
+  "end": 749.15,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished iridescent candles shown."
+ },
+ {
+  "window": 94,
+  "start": 749.15,
+  "end": 757.12,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished iridescent candles shown."
+ },
+ {
+  "window": 95,
+  "start": 757.12,
+  "end": 765.09,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 96,
+  "start": 765.09,
+  "end": 773.06,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
+ },
+ {
+  "window": 97,
+  "start": 773.06,
+  "end": 781.03,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
+ },
+ {
+  "window": 98,
+  "start": 781.03,
+  "end": 789.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
+ }
 ]

@@ -1,754 +1,754 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.03,
-    "end": 16.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.06,
-    "end": 24.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.1,
-    "end": 32.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.13,
-    "end": 40.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.16,
-    "end": 48.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.19,
-    "end": 56.22,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.22,
-    "end": 64.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.26,
-    "end": 72.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.29,
-    "end": 80.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.32,
-    "end": 88.35,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sea ers Bact dewalt Ore hE cil 8 Ss: WEEE. ae'."
-  },
-  {
-    "window": 11,
-    "start": 88.35,
-    "end": 96.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.38,
-    "end": 104.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.41,
-    "end": 112.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.45,
-    "end": 120.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 120.48,
-    "end": 128.51,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 16,
-    "start": 128.51,
-    "end": 136.54,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 136.54,
-    "end": 144.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 144.57,
-    "end": 152.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 152.61,
-    "end": 160.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 160.64,
-    "end": 168.67,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 21,
-    "start": 168.67,
-    "end": 176.7,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 176.7,
-    "end": 184.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 184.73,
-    "end": 192.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 192.77,
-    "end": 200.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 200.8,
-    "end": 208.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 208.83,
-    "end": 216.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 216.86,
-    "end": 224.89,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 224.89,
-    "end": 232.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 232.93,
-    "end": 240.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 240.96,
-    "end": 248.99,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 248.99,
-    "end": 257.02,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 257.02,
-    "end": 265.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 265.05,
-    "end": 273.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 273.09,
-    "end": 281.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 281.12,
-    "end": 289.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 289.15,
-    "end": 297.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 297.18,
-    "end": 305.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 305.21,
-    "end": 313.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 313.24,
-    "end": 321.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 321.28,
-    "end": 329.31,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 41,
-    "start": 329.31,
-    "end": 337.34,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 337.34,
-    "end": 345.37,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 43,
-    "start": 345.37,
-    "end": 353.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 353.4,
-    "end": 361.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 45,
-    "start": 361.44,
-    "end": 369.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 369.47,
-    "end": 377.5,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 47,
-    "start": 377.5,
-    "end": 385.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 385.53,
-    "end": 393.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 49,
-    "start": 393.56,
-    "end": 401.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 50,
-    "start": 401.6,
-    "end": 409.63,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 51,
-    "start": 409.63,
-    "end": 417.66,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 417.66,
-    "end": 425.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 425.69,
-    "end": 433.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 433.72,
-    "end": 441.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 441.76,
-    "end": 449.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 449.79,
-    "end": 457.82,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 57,
-    "start": 457.82,
-    "end": 465.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 465.85,
-    "end": 473.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 473.88,
-    "end": 481.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 60,
-    "start": 481.91,
-    "end": 489.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 61,
-    "start": 489.95,
-    "end": 497.98,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 62,
-    "start": 497.98,
-    "end": 506.01,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 506.01,
-    "end": 514.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 64,
-    "start": 514.04,
-    "end": 522.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 65,
-    "start": 522.07,
-    "end": 530.11,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 66,
-    "start": 530.11,
-    "end": 538.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 67,
-    "start": 538.14,
-    "end": 546.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 68,
-    "start": 546.17,
-    "end": 554.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 69,
-    "start": 554.2,
-    "end": 562.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 70,
-    "start": 562.23,
-    "end": 570.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 71,
-    "start": 570.27,
-    "end": 578.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 72,
-    "start": 578.3,
-    "end": 586.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 73,
-    "start": 586.33,
-    "end": 594.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 74,
-    "start": 594.36,
-    "end": 602.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 75,
-    "start": 602.39,
-    "end": 610.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 76,
-    "start": 610.43,
-    "end": 618.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 77,
-    "start": 618.46,
-    "end": 626.49,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 78,
-    "start": 626.49,
-    "end": 634.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 79,
-    "start": 634.52,
-    "end": 642.55,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'my 3 THANKYOU gh ff 7 FOR WATCHING! VW SUSECIUSE'."
-  },
-  {
-    "window": 80,
-    "start": 642.55,
-    "end": 650.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 81,
-    "start": 650.59,
-    "end": 658.62,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 82,
-    "start": 658.62,
-    "end": 666.65,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 83,
-    "start": 666.65,
-    "end": 674.68,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 84,
-    "start": 674.68,
-    "end": 682.71,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 85,
-    "start": 682.71,
-    "end": 690.74,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 86,
-    "start": 690.74,
-    "end": 698.78,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 87,
-    "start": 698.78,
-    "end": 706.81,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 88,
-    "start": 706.81,
-    "end": 714.84,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 89,
-    "start": 714.84,
-    "end": 722.87,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 90,
-    "start": 722.87,
-    "end": 730.9,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 91,
-    "start": 730.9,
-    "end": 738.94,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 92,
-    "start": 738.94,
-    "end": 746.97,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 93,
-    "start": 746.97,
-    "end": 755.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.03,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 1,
+  "start": 8.03,
+  "end": 16.06,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 2,
+  "start": 16.06,
+  "end": 24.1,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 3,
+  "start": 24.1,
+  "end": 32.13,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 4,
+  "start": 32.13,
+  "end": 40.16,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 5,
+  "start": 40.16,
+  "end": 48.19,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 6,
+  "start": 48.19,
+  "end": 56.22,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 7,
+  "start": 56.22,
+  "end": 64.26,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 8,
+  "start": 64.26,
+  "end": 72.29,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 9,
+  "start": 72.29,
+  "end": 80.32,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 10,
+  "start": 80.32,
+  "end": 88.35,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sea ers Bact dewalt Ore hE cil 8 Ss: WEEE. ae'."
+ },
+ {
+  "window": 11,
+  "start": 88.35,
+  "end": 96.38,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 12,
+  "start": 96.38,
+  "end": 104.41,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 13,
+  "start": 104.41,
+  "end": 112.45,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 14,
+  "start": 112.45,
+  "end": 120.48,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 15,
+  "start": 120.48,
+  "end": 128.51,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 128.51,
+  "end": 136.54,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 17,
+  "start": 136.54,
+  "end": 144.57,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 18,
+  "start": 144.57,
+  "end": 152.61,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 19,
+  "start": 152.61,
+  "end": 160.64,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 20,
+  "start": 160.64,
+  "end": 168.67,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 168.67,
+  "end": 176.7,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 22,
+  "start": 176.7,
+  "end": 184.73,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 23,
+  "start": 184.73,
+  "end": 192.77,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 24,
+  "start": 192.77,
+  "end": 200.8,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 25,
+  "start": 200.8,
+  "end": 208.83,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 26,
+  "start": 208.83,
+  "end": 216.86,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 27,
+  "start": 216.86,
+  "end": 224.89,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 28,
+  "start": 224.89,
+  "end": 232.93,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 29,
+  "start": 232.93,
+  "end": 240.96,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 30,
+  "start": 240.96,
+  "end": 248.99,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 31,
+  "start": 248.99,
+  "end": 257.02,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 32,
+  "start": 257.02,
+  "end": 265.05,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 33,
+  "start": 265.05,
+  "end": 273.09,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 34,
+  "start": 273.09,
+  "end": 281.12,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 35,
+  "start": 281.12,
+  "end": 289.15,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 36,
+  "start": 289.15,
+  "end": 297.18,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 37,
+  "start": 297.18,
+  "end": 305.21,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 38,
+  "start": 305.21,
+  "end": 313.24,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 39,
+  "start": 313.24,
+  "end": 321.28,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 40,
+  "start": 321.28,
+  "end": 329.31,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 41,
+  "start": 329.31,
+  "end": 337.34,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 42,
+  "start": 337.34,
+  "end": 345.37,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 43,
+  "start": 345.37,
+  "end": 353.4,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 44,
+  "start": 353.4,
+  "end": 361.44,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 45,
+  "start": 361.44,
+  "end": 369.47,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 46,
+  "start": 369.47,
+  "end": 377.5,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 47,
+  "start": 377.5,
+  "end": 385.53,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 48,
+  "start": 385.53,
+  "end": 393.56,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 49,
+  "start": 393.56,
+  "end": 401.6,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 50,
+  "start": 401.6,
+  "end": 409.63,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 51,
+  "start": 409.63,
+  "end": 417.66,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 52,
+  "start": 417.66,
+  "end": 425.69,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 53,
+  "start": 425.69,
+  "end": 433.72,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 54,
+  "start": 433.72,
+  "end": 441.76,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 55,
+  "start": 441.76,
+  "end": 449.79,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 56,
+  "start": 449.79,
+  "end": 457.82,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 57,
+  "start": 457.82,
+  "end": 465.85,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 58,
+  "start": 465.85,
+  "end": 473.88,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 59,
+  "start": 473.88,
+  "end": 481.91,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 60,
+  "start": 481.91,
+  "end": 489.95,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 61,
+  "start": 489.95,
+  "end": 497.98,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 62,
+  "start": 497.98,
+  "end": 506.01,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 63,
+  "start": 506.01,
+  "end": 514.04,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 64,
+  "start": 514.04,
+  "end": 522.07,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 65,
+  "start": 522.07,
+  "end": 530.11,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 66,
+  "start": 530.11,
+  "end": 538.14,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 67,
+  "start": 538.14,
+  "end": 546.17,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 68,
+  "start": 546.17,
+  "end": 554.2,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 69,
+  "start": 554.2,
+  "end": 562.23,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 70,
+  "start": 562.23,
+  "end": 570.27,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 71,
+  "start": 570.27,
+  "end": 578.3,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 72,
+  "start": 578.3,
+  "end": 586.33,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 73,
+  "start": 586.33,
+  "end": 594.36,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 74,
+  "start": 594.36,
+  "end": 602.39,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 75,
+  "start": 602.39,
+  "end": 610.43,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 76,
+  "start": 610.43,
+  "end": 618.46,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 77,
+  "start": 618.46,
+  "end": 626.49,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 78,
+  "start": 626.49,
+  "end": 634.52,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 79,
+  "start": 634.52,
+  "end": 642.55,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'my 3 THANKYOU gh ff 7 FOR WATCHING! VW SUSECIUSE'."
+ },
+ {
+  "window": 80,
+  "start": 642.55,
+  "end": 650.59,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 81,
+  "start": 650.59,
+  "end": 658.62,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 82,
+  "start": 658.62,
+  "end": 666.65,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 83,
+  "start": 666.65,
+  "end": 674.68,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 84,
+  "start": 674.68,
+  "end": 682.71,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 85,
+  "start": 682.71,
+  "end": 690.74,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 86,
+  "start": 690.74,
+  "end": 698.78,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 87,
+  "start": 698.78,
+  "end": 706.81,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 88,
+  "start": 706.81,
+  "end": 714.84,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 89,
+  "start": 714.84,
+  "end": 722.87,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 90,
+  "start": 722.87,
+  "end": 730.9,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 91,
+  "start": 730.9,
+  "end": 738.94,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 92,
+  "start": 738.94,
+  "end": 746.97,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 93,
+  "start": 746.97,
+  "end": 755.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
