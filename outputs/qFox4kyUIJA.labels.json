@@ -1,482 +1,482 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.02,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.02,
-    "end": 16.03,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '600 os KOOAK PORTHA 400 7 3 Ly iy Mf wl ed SE eS. aoe 4'."
-  },
-  {
-    "window": 2,
-    "start": 16.03,
-    "end": 24.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.05,
-    "end": 32.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.07,
-    "end": 40.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.08,
-    "end": 48.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.1,
-    "end": 56.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.12,
-    "end": 64.13,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tegwert ween Sess es os Se o-oo SM oo Se ee el 2 te ss ih fo ee Apes, 8. re'."
-  },
-  {
-    "window": 8,
-    "start": 64.13,
-    "end": 72.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.15,
-    "end": 80.17,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ep pas Ls Meee Se SS ay 2 Sie'."
-  },
-  {
-    "window": 10,
-    "start": 80.17,
-    "end": 88.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.18,
-    "end": 96.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.2,
-    "end": 104.22,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.22,
-    "end": 112.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.23,
-    "end": 120.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 120.25,
-    "end": 128.27,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Se ir ee yes Ps ee ae ae Sete Cy Ge ae is Bey as ae Pp Ag Plt 7 3. 7. ff ow ig ie eee Ba 4 7 5 ae gt yi ey 4'."
-  },
-  {
-    "window": 16,
-    "start": 128.27,
-    "end": 136.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 136.28,
-    "end": 144.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 144.3,
-    "end": 152.32,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 Se ge Be at al er SNe re 8 SewW eet. ah Pe ih tie aT ee oe ae aay ae 2 er es es bh ee Oe aS ee oe Sees IW fh BPE Bi. oe Se ae 7 an 7 ilZ rae hy or'."
-  },
-  {
-    "window": 19,
-    "start": 152.32,
-    "end": 160.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 160.33,
-    "end": 168.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 168.35,
-    "end": 176.37,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 22,
-    "start": 176.37,
-    "end": 184.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 184.38,
-    "end": 192.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 192.4,
-    "end": 200.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 200.42,
-    "end": 208.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 208.43,
-    "end": 216.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 216.45,
-    "end": 224.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 224.47,
-    "end": 232.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 232.48,
-    "end": 240.5,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ce LADS OF ae 7 tee S5ar SS al'."
-  },
-  {
-    "window": 30,
-    "start": 240.5,
-    "end": 248.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 248.52,
-    "end": 256.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 256.53,
-    "end": 264.55,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oN 4 tee 4 he 4 ee PP gag'."
-  },
-  {
-    "window": 33,
-    "start": 264.55,
-    "end": 272.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 272.57,
-    "end": 280.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 280.58,
-    "end": 288.6,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'of aon Se ap ny Ze 3 La oe as we tee oe he SS Ms: Shee oH 46 mai 7 se c's 4 aa 4 ae od PZ Zs Fr. xs As 1 4 4 Oy'."
-  },
-  {
-    "window": 36,
-    "start": 288.6,
-    "end": 296.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 296.62,
-    "end": 304.63,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 304.63,
-    "end": 312.65,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Finally got to try these! Gift from friend Ye, oe is as'."
-  },
-  {
-    "window": 39,
-    "start": 312.65,
-    "end": 320.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 320.67,
-    "end": 328.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 328.68,
-    "end": 336.7,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'eS 5 oY Ni 7 el cians AN les be NaN LP ay'."
-  },
-  {
-    "window": 42,
-    "start": 336.7,
-    "end": 344.72,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 43,
-    "start": 344.72,
-    "end": 352.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 352.73,
-    "end": 360.75,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ill iki: ee el 4 ae ote ee ri Os at he'."
-  },
-  {
-    "window": 45,
-    "start": 360.75,
-    "end": 368.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 368.77,
-    "end": 376.78,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 376.78,
-    "end": 384.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 384.8,
-    "end": 392.82,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 49,
-    "start": 392.82,
-    "end": 400.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 50,
-    "start": 400.83,
-    "end": 408.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 51,
-    "start": 408.85,
-    "end": 416.87,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 416.87,
-    "end": 424.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 424.88,
-    "end": 432.9,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 432.9,
-    "end": 440.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 440.92,
-    "end": 448.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 448.93,
-    "end": 456.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 57,
-    "start": 456.95,
-    "end": 464.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 464.97,
-    "end": 472.98,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! tener'."
-  },
-  {
-    "window": 59,
-    "start": 472.98,
-    "end": 481.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.02,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "'Make Wax Melts with me!' intro; clamshell moulds."
+ },
+ {
+  "window": 1,
+  "start": 8.02,
+  "end": 16.03,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '600 os KOOAK PORTHA 400 7 3 Ly iy Mf wl ed SE eS. aoe 4'."
+ },
+ {
+  "window": 2,
+  "start": 16.03,
+  "end": 24.05,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax flakes; melter pot."
+ },
+ {
+  "window": 3,
+  "start": 24.05,
+  "end": 32.07,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax in the melter."
+ },
+ {
+  "window": 4,
+  "start": 32.07,
+  "end": 40.08,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter; dye."
+ },
+ {
+  "window": 5,
+  "start": 40.08,
+  "end": 48.1,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Fragrance-calculation spreadsheet."
+ },
+ {
+  "window": 6,
+  "start": 48.1,
+  "end": 56.12,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Fragrance-calculation spreadsheet."
+ },
+ {
+  "window": 7,
+  "start": 56.12,
+  "end": 64.13,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tegwert ween Sess es os Se o-oo SM oo Se ee el 2 te ss ih fo ee Apes, 8. re'."
+ },
+ {
+  "window": 8,
+  "start": 64.13,
+  "end": 72.15,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Fragrance-calculation spreadsheet."
+ },
+ {
+  "window": 9,
+  "start": 72.15,
+  "end": 80.17,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ep pas Ls Meee Se SS ay 2 Sie'."
+ },
+ {
+  "window": 10,
+  "start": 80.17,
+  "end": 88.18,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax block; box."
+ },
+ {
+  "window": 11,
+  "start": 88.18,
+  "end": 96.2,
+  "label": "monitor_temperature",
+  "confidence": 0.45,
+  "description": "Thermometer '180-190F'; melting yellow wax."
+ },
+ {
+  "window": 12,
+  "start": 96.2,
+  "end": 104.22,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow melted wax in the pot."
+ },
+ {
+  "window": 13,
+  "start": 104.22,
+  "end": 112.23,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow wax into clamshell wax-melt moulds."
+ },
+ {
+  "window": 14,
+  "start": 112.23,
+  "end": 120.25,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow wax into clamshell wax-melt moulds."
+ },
+ {
+  "window": 15,
+  "start": 120.25,
+  "end": 128.27,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Se ir ee yes Ps ee ae ae Sete Cy Ge ae is Bey as ae Pp Ag Plt 7 3. 7. ff ow ig ie eee Ba 4 7 5 ae gt yi ey 4'."
+ },
+ {
+  "window": 16,
+  "start": 128.27,
+  "end": 136.28,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow wax into clamshell wax-melt moulds."
+ },
+ {
+  "window": 17,
+  "start": 136.28,
+  "end": 144.3,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow wax into clamshell wax-melt moulds."
+ },
+ {
+  "window": 18,
+  "start": 144.3,
+  "end": 152.32,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 Se ge Be at al er SNe re 8 SewW eet. ah Pe ih tie aT ee oe ae aay ae 2 er es es bh ee Oe aS ee oe Sees IW fh BPE Bi. oe Se ae 7 an 7 ilZ rae hy or'."
+ },
+ {
+  "window": 19,
+  "start": 152.32,
+  "end": 160.33,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow wax into clamshell wax-melt moulds."
+ },
+ {
+  "window": 20,
+  "start": 160.33,
+  "end": 168.35,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow wax into clamshell wax-melt moulds."
+ },
+ {
+  "window": 21,
+  "start": 168.35,
+  "end": 176.37,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 22,
+  "start": 176.37,
+  "end": 184.38,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Demoulding the finished wax melts."
+ },
+ {
+  "window": 23,
+  "start": 184.38,
+  "end": 192.4,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Demoulding the finished wax melts."
+ },
+ {
+  "window": 24,
+  "start": 192.4,
+  "end": 200.42,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Demoulding the finished wax melts."
+ },
+ {
+  "window": 25,
+  "start": 200.42,
+  "end": 208.43,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Demoulding the finished wax melts."
+ },
+ {
+  "window": 26,
+  "start": 208.43,
+  "end": 216.45,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Demoulding the finished wax melts."
+ },
+ {
+  "window": 27,
+  "start": 216.45,
+  "end": 224.47,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Demoulding the finished wax melts."
+ },
+ {
+  "window": 28,
+  "start": 224.47,
+  "end": 232.48,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Demoulding the finished wax melts."
+ },
+ {
+  "window": 29,
+  "start": 232.48,
+  "end": 240.5,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ce LADS OF ae 7 tee S5ar SS al'."
+ },
+ {
+  "window": 30,
+  "start": 240.5,
+  "end": 248.52,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 31,
+  "start": 248.52,
+  "end": 256.53,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 32,
+  "start": 256.53,
+  "end": 264.55,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oN 4 tee 4 he 4 ee PP gag'."
+ },
+ {
+  "window": 33,
+  "start": 264.55,
+  "end": 272.57,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 34,
+  "start": 272.57,
+  "end": 280.58,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 35,
+  "start": 280.58,
+  "end": 288.6,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'of aon Se ap ny Ze 3 La oe as we tee oe he SS Ms: Shee oH 46 mai 7 se c's 4 aa 4 ae od PZ Zs Fr. xs As 1 4 4 Oy'."
+ },
+ {
+  "window": 36,
+  "start": 288.6,
+  "end": 296.62,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 37,
+  "start": 296.62,
+  "end": 304.63,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 38,
+  "start": 304.63,
+  "end": 312.65,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Finally got to try these! Gift from friend Ye, oe is as'."
+ },
+ {
+  "window": 39,
+  "start": 312.65,
+  "end": 320.67,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 40,
+  "start": 320.67,
+  "end": 328.68,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 41,
+  "start": 328.68,
+  "end": 336.7,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'eS 5 oY Ni 7 el cians AN les be NaN LP ay'."
+ },
+ {
+  "window": 42,
+  "start": 336.7,
+  "end": 344.72,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 43,
+  "start": 344.72,
+  "end": 352.73,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 44,
+  "start": 352.73,
+  "end": 360.75,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ill iki: ee el 4 ae ote ee ri Os at he'."
+ },
+ {
+  "window": 45,
+  "start": 360.75,
+  "end": 368.77,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 46,
+  "start": 368.77,
+  "end": 376.78,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 47,
+  "start": 376.78,
+  "end": 384.8,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 48,
+  "start": 384.8,
+  "end": 392.82,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 49,
+  "start": 392.82,
+  "end": 400.83,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 50,
+  "start": 400.83,
+  "end": 408.85,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 51,
+  "start": 408.85,
+  "end": 416.87,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 52,
+  "start": 416.87,
+  "end": 424.88,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 53,
+  "start": 424.88,
+  "end": 432.9,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 54,
+  "start": 432.9,
+  "end": 440.92,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 55,
+  "start": 440.92,
+  "end": 448.93,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 56,
+  "start": 448.93,
+  "end": 456.95,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 57,
+  "start": 456.95,
+  "end": 464.97,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished wax melts shown."
+ },
+ {
+  "window": 58,
+  "start": 464.97,
+  "end": 472.98,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! tener'."
+ },
+ {
+  "window": 59,
+  "start": 472.98,
+  "end": 481.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
