@@ -1,274 +1,274 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.09,
-    "end": 16.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.18,
-    "end": 24.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.26,
-    "end": 32.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.35,
-    "end": 40.44,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 5,
-    "start": 40.44,
-    "end": 48.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.53,
-    "end": 56.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.62,
-    "end": 64.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.71,
-    "end": 72.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.79,
-    "end": 80.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.88,
-    "end": 88.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.97,
-    "end": 97.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 97.06,
-    "end": 105.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 105.15,
-    "end": 113.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 113.24,
-    "end": 121.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 121.32,
-    "end": 129.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 129.41,
-    "end": 137.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 137.5,
-    "end": 145.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 145.59,
-    "end": 153.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 153.68,
-    "end": 161.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 161.76,
-    "end": 169.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 169.85,
-    "end": 177.94,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Mette. au 5 4 ih AS 4 ul ror CA PUT THE YY oar be sDON Son Med iis, BRS at ROURMTHE: aN IER OOWN: Ff aN THE Wick TO FRAN PRIME IT WR ae ee ee 1 BA ed Sa'."
-  },
-  {
-    "window": 22,
-    "start": 177.94,
-    "end": 186.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 186.03,
-    "end": 194.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 194.12,
-    "end": 202.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 202.21,
-    "end": 210.29,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 26,
-    "start": 210.29,
-    "end": 218.38,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 27,
-    "start": 218.38,
-    "end": 226.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 226.47,
-    "end": 234.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 234.56,
-    "end": 242.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 242.65,
-    "end": 250.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 250.74,
-    "end": 258.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 258.82,
-    "end": 266.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 266.91,
-    "end": 275.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.09,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Host opens the soy pillar candle tutorial."
+ },
+ {
+  "window": 1,
+  "start": 8.09,
+  "end": 16.18,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "start": 16.18,
+  "end": 24.26,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "start": 24.26,
+  "end": 32.35,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "start": 32.35,
+  "end": 40.44,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 40.44,
+  "end": 48.53,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Measuring white wax in the pot."
+ },
+ {
+  "window": 6,
+  "start": 48.53,
+  "end": 56.62,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "'Step 3: Melt your wax to the recommended temp'; melting in the pot."
+ },
+ {
+  "window": 7,
+  "start": 56.62,
+  "end": 64.71,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the pot."
+ },
+ {
+  "window": 8,
+  "start": 64.71,
+  "end": 72.79,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax melting."
+ },
+ {
+  "window": 9,
+  "start": 72.79,
+  "end": 80.88,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax in the pot."
+ },
+ {
+  "window": 10,
+  "start": 80.88,
+  "end": 88.97,
+  "label": "add_fragrance",
+  "confidence": 0.55,
+  "description": "'Step 4: Add your fragrance'; fragrance into the wax."
+ },
+ {
+  "window": 11,
+  "start": 88.97,
+  "end": 97.06,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Stirring fragrance in."
+ },
+ {
+  "window": 12,
+  "start": 97.06,
+  "end": 105.15,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 5: Prep'; pink pillar silicone mould; pour begins."
+ },
+ {
+  "window": 13,
+  "start": 105.15,
+  "end": 113.24,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 14,
+  "start": 113.24,
+  "end": 121.32,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 15,
+  "start": 121.32,
+  "end": 129.41,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 16,
+  "start": 129.41,
+  "end": 137.5,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 17,
+  "start": 137.5,
+  "end": 145.59,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 18,
+  "start": 145.59,
+  "end": 153.68,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 19,
+  "start": 153.68,
+  "end": 161.76,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 20,
+  "start": 161.76,
+  "end": 169.85,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 21,
+  "start": 169.85,
+  "end": 177.94,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Mette. au 5 4 ih AS 4 ul ror CA PUT THE YY oar be sDON Son Med iis, BRS at ROURMTHE: aN IER OOWN: Ff aN THE Wick TO FRAN PRIME IT WR ae ee ee 1 BA ed Sa'."
+ },
+ {
+  "window": 22,
+  "start": 177.94,
+  "end": 186.03,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'Step 6: Pour your candle'; pouring pink wax into the pillar mould."
+ },
+ {
+  "window": 23,
+  "start": 186.03,
+  "end": 194.12,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured pillar candle setting in the mould."
+ },
+ {
+  "window": 24,
+  "start": 194.12,
+  "end": 202.21,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured pillar candle setting in the mould."
+ },
+ {
+  "window": 25,
+  "start": 202.21,
+  "end": 210.29,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 26,
+  "start": 210.29,
+  "end": 218.38,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 27,
+  "start": 218.38,
+  "end": 226.47,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured pillar candle setting in the mould."
+ },
+ {
+  "window": 28,
+  "start": 226.47,
+  "end": 234.56,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured pillar candle setting in the mould."
+ },
+ {
+  "window": 29,
+  "start": 234.56,
+  "end": 242.65,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured pillar candle setting in the mould."
+ },
+ {
+  "window": 30,
+  "start": 242.65,
+  "end": 250.74,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured pillar candle setting in the mould."
+ },
+ {
+  "window": 31,
+  "start": 250.74,
+  "end": 258.82,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured pillar candle setting in the mould."
+ },
+ {
+  "window": 32,
+  "start": 258.82,
+  "end": 266.91,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "The finished soy pillar candle."
+ },
+ {
+  "window": 33,
+  "start": 266.91,
+  "end": 275.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
