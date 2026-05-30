@@ -1,626 +1,626 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.96,
-    "end": 15.92,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Re 5 ae us ll 2 feet on 7'."
-  },
-  {
-    "window": 2,
-    "start": 15.92,
-    "end": 23.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.88,
-    "end": 31.85,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae 7 eu Dae 2. 5 Lai ae yr: TD bh. ES'."
-  },
-  {
-    "window": 4,
-    "start": 31.85,
-    "end": 39.81,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.81,
-    "end": 47.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.77,
-    "end": 55.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.73,
-    "end": 63.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.69,
-    "end": 71.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.65,
-    "end": 79.62,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mn DUSINESS 7 ee lee 3 7 CM. ol ar ae ms at We ta'."
-  },
-  {
-    "window": 10,
-    "start": 79.62,
-    "end": 87.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.58,
-    "end": 95.54,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.54,
-    "end": 103.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.5,
-    "end": 111.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.46,
-    "end": 119.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.42,
-    "end": 127.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.38,
-    "end": 135.35,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Res of See 4 oe 7 1 bas En sy SE ez vi 2 7 iar 4 by ee Fae mee bag 8 rs 55 7 not oo SAF oA swe te em'."
-  },
-  {
-    "window": 17,
-    "start": 135.35,
-    "end": 143.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.31,
-    "end": 151.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.27,
-    "end": 159.23,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'since we have to use supports with fairly high melting points.'."
-  },
-  {
-    "window": 20,
-    "start": 159.23,
-    "end": 167.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.19,
-    "end": 175.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.15,
-    "end": 183.12,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'an ee nm She es: be yet aee carrying the buchats. by'."
-  },
-  {
-    "window": 23,
-    "start": 183.12,
-    "end": 191.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.08,
-    "end": 199.04,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'up yt hy 4 yy Sie Ten wi put on te stop wks'."
-  },
-  {
-    "window": 25,
-    "start": 199.04,
-    "end": 207.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 207.0,
-    "end": 214.96,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 27,
-    "start": 214.96,
-    "end": 222.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 222.92,
-    "end": 230.88,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 29,
-    "start": 230.88,
-    "end": 238.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 238.85,
-    "end": 246.81,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 246.81,
-    "end": 254.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 254.77,
-    "end": 262.73,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 oe ae mat tocomtarthewek asbestos possbie'."
-  },
-  {
-    "window": 33,
-    "start": 262.73,
-    "end": 270.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 270.69,
-    "end": 278.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 278.65,
-    "end": 286.62,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ah hae vi. 6 ie icdd os Because itis straight andeentedID, Itwillpumithe entiriwax No skte will Ph mete fie other.'."
-  },
-  {
-    "window": 36,
-    "start": 286.62,
-    "end": 294.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 294.58,
-    "end": 302.54,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 302.54,
-    "end": 310.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 310.5,
-    "end": 318.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 318.46,
-    "end": 326.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 326.42,
-    "end": 334.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 334.38,
-    "end": 342.35,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sey, Dee ae 4 aa NY 7. Neyerthels they remain fili-sealeraproductions of busts'."
-  },
-  {
-    "window": 43,
-    "start": 342.35,
-    "end": 350.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 350.31,
-    "end": 358.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 45,
-    "start": 358.27,
-    "end": 366.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 366.23,
-    "end": 374.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 374.19,
-    "end": 382.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 382.15,
-    "end": 390.12,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee et ae ie pom were ghd hing'."
-  },
-  {
-    "window": 49,
-    "start": 390.12,
-    "end": 398.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 50,
-    "start": 398.08,
-    "end": 406.04,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ot ieee all oo ae aly as OE 2 ae Sane et Ss ms SS Magi od es oa'."
-  },
-  {
-    "window": 51,
-    "start": 406.04,
-    "end": 414.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 414.0,
-    "end": 421.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 421.96,
-    "end": 429.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 429.92,
-    "end": 437.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 437.88,
-    "end": 445.85,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'kes: par mi. er 7 4 iret wor es stn sone'."
-  },
-  {
-    "window": 56,
-    "start": 445.85,
-    "end": 453.81,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 57,
-    "start": 453.81,
-    "end": 461.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 461.77,
-    "end": 469.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 469.73,
-    "end": 477.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 60,
-    "start": 477.69,
-    "end": 485.65,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 61,
-    "start": 485.65,
-    "end": 493.62,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 4 7 2 Vi 4 At det 7 We have to evaluate the candies every four hours. ew'."
-  },
-  {
-    "window": 62,
-    "start": 493.62,
-    "end": 501.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 501.58,
-    "end": 509.54,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Maite Som fe, we are going televalua'."
-  },
-  {
-    "window": 64,
-    "start": 509.54,
-    "end": 517.5,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 65,
-    "start": 517.5,
-    "end": 525.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 66,
-    "start": 525.46,
-    "end": 533.42,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tT tal can ae Dm rercora snanecprosee chides olfactory aicelisationattnmnsine ws'."
-  },
-  {
-    "window": 67,
-    "start": 533.42,
-    "end": 541.38,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 68,
-    "start": 541.38,
-    "end": 549.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 69,
-    "start": 549.35,
-    "end": 557.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 70,
-    "start": 557.31,
-    "end": 565.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 71,
-    "start": 565.27,
-    "end": 573.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 72,
-    "start": 573.23,
-    "end": 581.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 73,
-    "start": 581.19,
-    "end": 589.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 74,
-    "start": 589.15,
-    "end": 597.12,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mm SES ww 0 for has been done to bring it to fife'."
-  },
-  {
-    "window": 75,
-    "start": 597.12,
-    "end": 605.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 76,
-    "start": 605.08,
-    "end": 613.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 77,
-    "start": 613.04,
-    "end": 621.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.96,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 1,
+  "start": 7.96,
+  "end": 15.92,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Re 5 ae us ll 2 feet on 7'."
+ },
+ {
+  "window": 2,
+  "start": 15.92,
+  "end": 23.88,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 3,
+  "start": 23.88,
+  "end": 31.85,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae 7 eu Dae 2. 5 Lai ae yr: TD bh. ES'."
+ },
+ {
+  "window": 4,
+  "start": 31.85,
+  "end": 39.81,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 5,
+  "start": 39.81,
+  "end": 47.77,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 6,
+  "start": 47.77,
+  "end": 55.73,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Caption / brand stamp (luxury candle doc)."
+ },
+ {
+  "window": 7,
+  "start": 55.73,
+  "end": 63.69,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 8,
+  "start": 63.69,
+  "end": 71.65,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 9,
+  "start": 71.65,
+  "end": 79.62,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mn DUSINESS 7 ee lee 3 7 CM. ol ar ae ms at We ta'."
+ },
+ {
+  "window": 10,
+  "start": 79.62,
+  "end": 87.58,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 11,
+  "start": 87.58,
+  "end": 95.54,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 12,
+  "start": 95.54,
+  "end": 103.5,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Interview/host segment."
+ },
+ {
+  "window": 13,
+  "start": 103.5,
+  "end": 111.46,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 14,
+  "start": 111.46,
+  "end": 119.42,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 15,
+  "start": 119.42,
+  "end": 127.38,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 16,
+  "start": 127.38,
+  "end": 135.35,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Res of See 4 oe 7 1 bas En sy SE ez vi 2 7 iar 4 by ee Fae mee bag 8 rs 55 7 not oo SAF oA swe te em'."
+ },
+ {
+  "window": 17,
+  "start": 135.35,
+  "end": 143.31,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Interview/host segment."
+ },
+ {
+  "window": 18,
+  "start": 143.31,
+  "end": 151.27,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Caption / brand stamp (luxury candle doc)."
+ },
+ {
+  "window": 19,
+  "start": 151.27,
+  "end": 159.23,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'since we have to use supports with fairly high melting points.'."
+ },
+ {
+  "window": 20,
+  "start": 159.23,
+  "end": 167.19,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 21,
+  "start": 167.19,
+  "end": 175.15,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 22,
+  "start": 175.15,
+  "end": 183.12,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'an ee nm She es: be yet aee carrying the buchats. by'."
+ },
+ {
+  "window": 23,
+  "start": 183.12,
+  "end": 191.08,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 24,
+  "start": 191.08,
+  "end": 199.04,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'up yt hy 4 yy Sie Ten wi put on te stop wks'."
+ },
+ {
+  "window": 25,
+  "start": 199.04,
+  "end": 207.0,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 26,
+  "start": 207.0,
+  "end": 214.96,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 27,
+  "start": 214.96,
+  "end": 222.92,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 28,
+  "start": 222.92,
+  "end": 230.88,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 29,
+  "start": 230.88,
+  "end": 238.85,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 30,
+  "start": 238.85,
+  "end": 246.81,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 31,
+  "start": 246.81,
+  "end": 254.77,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 32,
+  "start": 254.77,
+  "end": 262.73,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 oe ae mat tocomtarthewek asbestos possbie'."
+ },
+ {
+  "window": 33,
+  "start": 262.73,
+  "end": 270.69,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 34,
+  "start": 270.69,
+  "end": 278.65,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 35,
+  "start": 278.65,
+  "end": 286.62,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ah hae vi. 6 ie icdd os Because itis straight andeentedID, Itwillpumithe entiriwax No skte will Ph mete fie other.'."
+ },
+ {
+  "window": 36,
+  "start": 286.62,
+  "end": 294.58,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 37,
+  "start": 294.58,
+  "end": 302.54,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 38,
+  "start": 302.54,
+  "end": 310.5,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 39,
+  "start": 310.5,
+  "end": 318.46,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 40,
+  "start": 318.46,
+  "end": 326.42,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 41,
+  "start": 326.42,
+  "end": 334.38,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 42,
+  "start": 334.38,
+  "end": 342.35,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sey, Dee ae 4 aa NY 7. Neyerthels they remain fili-sealeraproductions of busts'."
+ },
+ {
+  "window": 43,
+  "start": 342.35,
+  "end": 350.31,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 44,
+  "start": 350.31,
+  "end": 358.27,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 45,
+  "start": 358.27,
+  "end": 366.23,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 46,
+  "start": 366.23,
+  "end": 374.19,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 47,
+  "start": 374.19,
+  "end": 382.15,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 48,
+  "start": 382.15,
+  "end": 390.12,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee et ae ie pom were ghd hing'."
+ },
+ {
+  "window": 49,
+  "start": 390.12,
+  "end": 398.08,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 50,
+  "start": 398.08,
+  "end": 406.04,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ot ieee all oo ae aly as OE 2 ae Sane et Ss ms SS Magi od es oa'."
+ },
+ {
+  "window": 51,
+  "start": 406.04,
+  "end": 414.0,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 52,
+  "start": 414.0,
+  "end": 421.96,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 53,
+  "start": 421.96,
+  "end": 429.92,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 54,
+  "start": 429.92,
+  "end": 437.88,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 55,
+  "start": 437.88,
+  "end": 445.85,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'kes: par mi. er 7 4 iret wor es stn sone'."
+ },
+ {
+  "window": 56,
+  "start": 445.85,
+  "end": 453.81,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 57,
+  "start": 453.81,
+  "end": 461.77,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 58,
+  "start": 461.77,
+  "end": 469.73,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into the luxury candle vessels."
+ },
+ {
+  "window": 59,
+  "start": 469.73,
+  "end": 477.69,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 60,
+  "start": 477.69,
+  "end": 485.65,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 61,
+  "start": 485.65,
+  "end": 493.62,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 4 7 2 Vi 4 At det 7 We have to evaluate the candies every four hours. ew'."
+ },
+ {
+  "window": 62,
+  "start": 493.62,
+  "end": 501.58,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 63,
+  "start": 501.58,
+  "end": 509.54,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Maite Som fe, we are going televalua'."
+ },
+ {
+  "window": 64,
+  "start": 509.54,
+  "end": 517.5,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 65,
+  "start": 517.5,
+  "end": 525.46,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 66,
+  "start": 525.46,
+  "end": 533.42,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tT tal can ae Dm rercora snanecprosee chides olfactory aicelisationattnmnsine ws'."
+ },
+ {
+  "window": 67,
+  "start": 533.42,
+  "end": 541.38,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 68,
+  "start": 541.38,
+  "end": 549.35,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles / glasswork shown."
+ },
+ {
+  "window": 69,
+  "start": 549.35,
+  "end": 557.31,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Factory: molten wax processed."
+ },
+ {
+  "window": 70,
+  "start": 557.31,
+  "end": 565.27,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles shown."
+ },
+ {
+  "window": 71,
+  "start": 565.27,
+  "end": 573.23,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles shown."
+ },
+ {
+  "window": 72,
+  "start": 573.23,
+  "end": 581.19,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles shown."
+ },
+ {
+  "window": 73,
+  "start": 581.19,
+  "end": 589.15,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles shown."
+ },
+ {
+  "window": 74,
+  "start": 589.15,
+  "end": 597.12,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mm SES ww 0 for has been done to bring it to fife'."
+ },
+ {
+  "window": 75,
+  "start": 597.12,
+  "end": 605.08,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles shown."
+ },
+ {
+  "window": 76,
+  "start": 605.08,
+  "end": 613.04,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles shown."
+ },
+ {
+  "window": 77,
+  "start": 613.04,
+  "end": 621.0,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished luxury candles shown."
+ }
 ]

@@ -1,642 +1,642 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.04,
-    "end": 16.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.07,
-    "end": 24.11,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.11,
-    "end": 32.15,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 4,
-    "start": 32.15,
-    "end": 40.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.19,
-    "end": 48.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.23,
-    "end": 56.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.26,
-    "end": 64.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.3,
-    "end": 72.34,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.34,
-    "end": 80.37,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.37,
-    "end": 88.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.41,
-    "end": 96.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.45,
-    "end": 104.49,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.49,
-    "end": 112.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.52,
-    "end": 120.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 120.56,
-    "end": 128.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 128.6,
-    "end": 136.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 136.64,
-    "end": 144.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 144.67,
-    "end": 152.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 152.71,
-    "end": 160.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 160.75,
-    "end": 168.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 168.79,
-    "end": 176.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 176.82,
-    "end": 184.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 184.86,
-    "end": 192.9,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 192.9,
-    "end": 200.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 200.94,
-    "end": 208.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 208.97,
-    "end": 217.01,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 217.01,
-    "end": 225.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 225.05,
-    "end": 233.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 233.09,
-    "end": 241.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 241.12,
-    "end": 249.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 249.16,
-    "end": 257.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 257.2,
-    "end": 265.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 265.24,
-    "end": 273.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 273.27,
-    "end": 281.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 281.31,
-    "end": 289.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 289.35,
-    "end": 297.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 297.39,
-    "end": 305.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 305.43,
-    "end": 313.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 313.46,
-    "end": 321.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 321.5,
-    "end": 329.54,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 329.54,
-    "end": 337.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 337.58,
-    "end": 345.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 43,
-    "start": 345.61,
-    "end": 353.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 353.65,
-    "end": 361.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 45,
-    "start": 361.69,
-    "end": 369.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 369.73,
-    "end": 377.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 377.76,
-    "end": 385.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 385.8,
-    "end": 393.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 49,
-    "start": 393.84,
-    "end": 401.88,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 50,
-    "start": 401.88,
-    "end": 409.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 51,
-    "start": 409.91,
-    "end": 417.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 417.95,
-    "end": 425.99,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 425.99,
-    "end": 434.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 434.03,
-    "end": 442.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 442.06,
-    "end": 450.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 450.1,
-    "end": 458.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 57,
-    "start": 458.14,
-    "end": 466.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 466.18,
-    "end": 474.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 474.21,
-    "end": 482.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 60,
-    "start": 482.25,
-    "end": 490.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 61,
-    "start": 490.29,
-    "end": 498.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 62,
-    "start": 498.33,
-    "end": 506.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 506.36,
-    "end": 514.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 64,
-    "start": 514.4,
-    "end": 522.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 65,
-    "start": 522.44,
-    "end": 530.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 66,
-    "start": 530.48,
-    "end": 538.51,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 67,
-    "start": 538.51,
-    "end": 546.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 68,
-    "start": 546.55,
-    "end": 554.59,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roa Wittens aot ne wel Pad eae'."
-  },
-  {
-    "window": 69,
-    "start": 554.59,
-    "end": 562.63,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 70,
-    "start": 562.63,
-    "end": 570.66,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 71,
-    "start": 570.66,
-    "end": 578.7,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 72,
-    "start": 578.7,
-    "end": 586.74,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 73,
-    "start": 586.74,
-    "end": 594.78,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 74,
-    "start": 594.78,
-    "end": 602.81,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 75,
-    "start": 602.81,
-    "end": 610.85,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 76,
-    "start": 610.85,
-    "end": 618.89,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 77,
-    "start": 618.89,
-    "end": 626.93,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 78,
-    "start": 626.93,
-    "end": 634.96,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  },
-  {
-    "window": 79,
-    "start": 634.96,
-    "end": 643.0,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.04,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Studio-vlog intro (filming a candle build)."
+ },
+ {
+  "window": 1,
+  "start": 8.04,
+  "end": 16.07,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Studio-vlog intro (filming a candle build)."
+ },
+ {
+  "window": 2,
+  "start": 16.07,
+  "end": 24.11,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Studio-vlog intro (filming a candle build)."
+ },
+ {
+  "window": 3,
+  "start": 24.11,
+  "end": 32.15,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 4,
+  "start": 32.15,
+  "end": 40.19,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the latte layers into a tall glass."
+ },
+ {
+  "window": 5,
+  "start": 40.19,
+  "end": 48.23,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Adding cream foam / ice to the iced-coffee candle."
+ },
+ {
+  "window": 6,
+  "start": 48.23,
+  "end": 56.26,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Measuring/melting wax for the iced-coffee candle."
+ },
+ {
+  "window": 7,
+  "start": 56.26,
+  "end": 64.3,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the latte layers into a tall glass."
+ },
+ {
+  "window": 8,
+  "start": 64.3,
+  "end": 72.34,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Adding cream foam / ice to the iced-coffee candle."
+ },
+ {
+  "window": 9,
+  "start": 72.34,
+  "end": 80.37,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Measuring/melting wax for the iced-coffee candle."
+ },
+ {
+  "window": 10,
+  "start": 80.37,
+  "end": 88.41,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the latte layers into a tall glass."
+ },
+ {
+  "window": 11,
+  "start": 88.41,
+  "end": 96.45,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Adding cream foam / ice to the iced-coffee candle."
+ },
+ {
+  "window": 12,
+  "start": 96.45,
+  "end": 104.49,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Measuring/melting wax for the iced-coffee candle."
+ },
+ {
+  "window": 13,
+  "start": 104.49,
+  "end": 112.52,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the latte layers into a tall glass."
+ },
+ {
+  "window": 14,
+  "start": 112.52,
+  "end": 120.56,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Adding cream foam / ice to the iced-coffee candle."
+ },
+ {
+  "window": 15,
+  "start": 120.56,
+  "end": 128.6,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Measuring/melting wax for the iced-coffee candle."
+ },
+ {
+  "window": 16,
+  "start": 128.6,
+  "end": 136.64,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 17,
+  "start": 136.64,
+  "end": 144.67,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 18,
+  "start": 144.67,
+  "end": 152.71,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 19,
+  "start": 152.71,
+  "end": 160.75,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 20,
+  "start": 160.75,
+  "end": 168.79,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 21,
+  "start": 168.79,
+  "end": 176.82,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 22,
+  "start": 176.82,
+  "end": 184.86,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 23,
+  "start": 184.86,
+  "end": 192.9,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 24,
+  "start": 192.9,
+  "end": 200.94,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 25,
+  "start": 200.94,
+  "end": 208.97,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 26,
+  "start": 208.97,
+  "end": 217.01,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 27,
+  "start": 217.01,
+  "end": 225.05,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 28,
+  "start": 225.05,
+  "end": 233.09,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 29,
+  "start": 233.09,
+  "end": 241.12,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 30,
+  "start": 241.12,
+  "end": 249.16,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 31,
+  "start": 249.16,
+  "end": 257.2,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 32,
+  "start": 257.2,
+  "end": 265.24,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 33,
+  "start": 265.24,
+  "end": 273.27,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 34,
+  "start": 273.27,
+  "end": 281.31,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 35,
+  "start": 281.31,
+  "end": 289.35,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 36,
+  "start": 289.35,
+  "end": 297.39,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 37,
+  "start": 297.39,
+  "end": 305.43,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 38,
+  "start": 305.43,
+  "end": 313.46,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 39,
+  "start": 313.46,
+  "end": 321.5,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 40,
+  "start": 321.5,
+  "end": 329.54,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 41,
+  "start": 329.54,
+  "end": 337.58,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 42,
+  "start": 337.58,
+  "end": 345.61,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 43,
+  "start": 345.61,
+  "end": 353.65,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 44,
+  "start": 353.65,
+  "end": 361.69,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 45,
+  "start": 361.69,
+  "end": 369.73,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 46,
+  "start": 369.73,
+  "end": 377.76,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 47,
+  "start": 377.76,
+  "end": 385.8,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 48,
+  "start": 385.8,
+  "end": 393.84,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 49,
+  "start": 393.84,
+  "end": 401.88,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 50,
+  "start": 401.88,
+  "end": 409.91,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 51,
+  "start": 409.91,
+  "end": 417.95,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 52,
+  "start": 417.95,
+  "end": 425.99,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 53,
+  "start": 425.99,
+  "end": 434.03,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 54,
+  "start": 434.03,
+  "end": 442.06,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 55,
+  "start": 442.06,
+  "end": 450.1,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 56,
+  "start": 450.1,
+  "end": 458.14,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 57,
+  "start": 458.14,
+  "end": 466.18,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 58,
+  "start": 466.18,
+  "end": 474.21,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 59,
+  "start": 474.21,
+  "end": 482.25,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 60,
+  "start": 482.25,
+  "end": 490.29,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 61,
+  "start": 490.29,
+  "end": 498.33,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 62,
+  "start": 498.33,
+  "end": 506.36,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 63,
+  "start": 506.36,
+  "end": 514.4,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 64,
+  "start": 514.4,
+  "end": 522.44,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 65,
+  "start": 522.44,
+  "end": 530.48,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 66,
+  "start": 530.48,
+  "end": 538.51,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 67,
+  "start": 538.51,
+  "end": 546.55,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candles for shipping."
+ },
+ {
+  "window": 68,
+  "start": 546.55,
+  "end": 554.59,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roa Wittens aot ne wel Pad eae'."
+ },
+ {
+  "window": 69,
+  "start": 554.59,
+  "end": 562.63,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 70,
+  "start": 562.63,
+  "end": 570.66,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 71,
+  "start": 570.66,
+  "end": 578.7,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 72,
+  "start": 578.7,
+  "end": 586.74,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 73,
+  "start": 586.74,
+  "end": 594.78,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 74,
+  "start": 594.78,
+  "end": 602.81,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 75,
+  "start": 602.81,
+  "end": 610.85,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 76,
+  "start": 610.85,
+  "end": 618.89,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 77,
+  "start": 618.89,
+  "end": 626.93,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 78,
+  "start": 626.93,
+  "end": 634.96,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ },
+ {
+  "window": 79,
+  "start": 634.96,
+  "end": 643.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TAS Roe PWatehs aot 4 et aL Vike'."
+ }
 ]

@@ -1,0 +1,1644 @@
+{
+  "video_id": "f1l30y3gm84",
+  "title": "all things wax! | asmr, cleaning, candle making\u2026",
+  "url": "https://www.youtube.com/watch?v=f1l30y3gm84",
+  "duration": 525.0,
+  "source": "storyboard",
+  "n_windows": 66,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.95,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rainbow wax build-up in a metal trough; a cactus candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.95,
+      "end": 15.91,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.91,
+      "end": 23.86,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.86,
+      "end": 31.82,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.82,
+      "end": 39.77,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.77,
+      "end": 47.73,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.73,
+      "end": 55.68,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.68,
+      "end": 63.64,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.64,
+      "end": 71.59,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.59,
+      "end": 79.55,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'foie SY Oe pe at aos 7 wee 4 wate ao 7 Pets oy ae'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.55,
+      "end": 87.5,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 87.5,
+      "end": 95.45,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.45,
+      "end": 103.41,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oS he po ae tees ey ie! wv ry ep 5 ae aa eae'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.41,
+      "end": 111.36,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 111.36,
+      "end": 119.32,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.32,
+      "end": 127.27,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'fb AZ. iy Ss, ere nat oS 7 7 al'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.27,
+      "end": 135.23,
+      "label": "transition",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 135.23,
+      "end": 143.18,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'bSod 5 Ss rte ele oS ed Rees 1 7 7 he mM Be Pa wu 1'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 143.18,
+      "end": 151.14,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 151.14,
+      "end": 159.09,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 159.09,
+      "end": 167.05,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 167.05,
+      "end": 175.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 175.0,
+      "end": 182.95,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 182.95,
+      "end": 190.91,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 190.91,
+      "end": 198.86,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 198.86,
+      "end": 206.82,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 206.82,
+      "end": 214.77,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 27,
+      "start": 214.77,
+      "end": 222.73,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 222.73,
+      "end": 230.68,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SP an al fo HF Wr, Spee: SZ'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 230.68,
+      "end": 238.64,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 238.64,
+      "end": 246.59,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 246.59,
+      "end": 254.55,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 254.55,
+      "end": 262.5,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 262.5,
+      "end": 270.45,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 270.45,
+      "end": 278.41,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 278.41,
+      "end": 286.36,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 286.36,
+      "end": 294.32,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 294.32,
+      "end": 302.27,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 302.27,
+      "end": 310.23,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 310.23,
+      "end": 318.18,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 318.18,
+      "end": 326.14,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 41,
+      "start": 326.14,
+      "end": 334.09,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 334.09,
+      "end": 342.05,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 342.05,
+      "end": 350.0,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 44,
+      "start": 350.0,
+      "end": 357.95,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 357.95,
+      "end": 365.91,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 365.91,
+      "end": 373.86,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 47,
+      "start": 373.86,
+      "end": 381.82,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 381.82,
+      "end": 389.77,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 389.77,
+      "end": 397.73,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 50,
+      "start": 397.73,
+      "end": 405.68,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 405.68,
+      "end": 413.64,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 52,
+      "start": 413.64,
+      "end": 421.59,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 53,
+      "start": 421.59,
+      "end": 429.55,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 54,
+      "start": 429.55,
+      "end": 437.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 55,
+      "start": 437.5,
+      "end": 445.45,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 445.45,
+      "end": 453.41,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Scraping/cleaning hardened wax from the container (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 57,
+      "start": 453.41,
+      "end": 461.36,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring colourful wax into the metal trough (ASMR).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 58,
+      "start": 461.36,
+      "end": 469.32,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vivid coloured wax (blue/pink/green) added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 469.32,
+      "end": 477.27,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Eh aay, iG ia? Oe ar pa 5. fe ee iY mo, oh, ag ae oa Se Pn 4 ee wa ba ee 7'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 60,
+      "start": 477.27,
+      "end": 485.23,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished colourful wax shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 61,
+      "start": 485.23,
+      "end": 493.18,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished colourful wax shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 62,
+      "start": 493.18,
+      "end": 501.14,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished colourful wax shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 63,
+      "start": 501.14,
+      "end": 509.09,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished colourful wax shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 64,
+      "start": 509.09,
+      "end": 517.05,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 65,
+      "start": 517.05,
+      "end": 525.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.95,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 7.95,
+      "end": 15.91,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 15.91,
+      "end": 23.86,
+      "confidence": 0.4,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 23.86,
+      "end": 31.82,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 31.82,
+      "end": 39.77,
+      "confidence": 0.9,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 39.77,
+      "end": 47.73,
+      "confidence": 0.4,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 47.73,
+      "end": 55.68,
+      "confidence": 0.45,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 55.68,
+      "end": 63.64,
+      "confidence": 0.4,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 63.64,
+      "end": 71.59,
+      "confidence": 0.4,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 71.59,
+      "end": 79.55,
+      "confidence": 0.5,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 79.55,
+      "end": 87.5,
+      "confidence": 0.4,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 87.5,
+      "end": 95.45,
+      "confidence": 0.7,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 95.45,
+      "end": 103.41,
+      "confidence": 0.5,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 103.41,
+      "end": 111.36,
+      "confidence": 0.4,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 111.36,
+      "end": 119.32,
+      "confidence": 0.4,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 119.32,
+      "end": 143.18,
+      "confidence": 0.47,
+      "windows": [
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 143.18,
+      "end": 151.14,
+      "confidence": 0.45,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 151.14,
+      "end": 159.09,
+      "confidence": 0.4,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 159.09,
+      "end": 167.05,
+      "confidence": 0.4,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 167.05,
+      "end": 175.0,
+      "confidence": 0.45,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 175.0,
+      "end": 182.95,
+      "confidence": 0.4,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 182.95,
+      "end": 190.91,
+      "confidence": 0.4,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 190.91,
+      "end": 198.86,
+      "confidence": 0.45,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 198.86,
+      "end": 206.82,
+      "confidence": 0.4,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 206.82,
+      "end": 214.77,
+      "confidence": 0.4,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 214.77,
+      "end": 222.73,
+      "confidence": 0.45,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 222.73,
+      "end": 230.68,
+      "confidence": 0.5,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 230.68,
+      "end": 238.64,
+      "confidence": 0.4,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 238.64,
+      "end": 246.59,
+      "confidence": 0.45,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 246.59,
+      "end": 254.55,
+      "confidence": 0.4,
+      "windows": [
+        31
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 254.55,
+      "end": 262.5,
+      "confidence": 0.4,
+      "windows": [
+        32
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 262.5,
+      "end": 270.45,
+      "confidence": 0.45,
+      "windows": [
+        33
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 270.45,
+      "end": 278.41,
+      "confidence": 0.4,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 278.41,
+      "end": 286.36,
+      "confidence": 0.4,
+      "windows": [
+        35
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 286.36,
+      "end": 294.32,
+      "confidence": 0.45,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 294.32,
+      "end": 302.27,
+      "confidence": 0.4,
+      "windows": [
+        37
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 302.27,
+      "end": 310.23,
+      "confidence": 0.4,
+      "windows": [
+        38
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 310.23,
+      "end": 318.18,
+      "confidence": 0.45,
+      "windows": [
+        39
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 318.18,
+      "end": 326.14,
+      "confidence": 0.4,
+      "windows": [
+        40
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 326.14,
+      "end": 334.09,
+      "confidence": 0.4,
+      "windows": [
+        41
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 334.09,
+      "end": 342.05,
+      "confidence": 0.9,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 342.05,
+      "end": 350.0,
+      "confidence": 0.4,
+      "windows": [
+        43
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 350.0,
+      "end": 357.95,
+      "confidence": 0.4,
+      "windows": [
+        44
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 357.95,
+      "end": 365.91,
+      "confidence": 0.45,
+      "windows": [
+        45
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 365.91,
+      "end": 373.86,
+      "confidence": 0.4,
+      "windows": [
+        46
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 373.86,
+      "end": 381.82,
+      "confidence": 0.4,
+      "windows": [
+        47
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 381.82,
+      "end": 389.77,
+      "confidence": 0.45,
+      "windows": [
+        48
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 389.77,
+      "end": 397.73,
+      "confidence": 0.4,
+      "windows": [
+        49
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 397.73,
+      "end": 405.68,
+      "confidence": 0.4,
+      "windows": [
+        50
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 405.68,
+      "end": 413.64,
+      "confidence": 0.45,
+      "windows": [
+        51
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 413.64,
+      "end": 421.59,
+      "confidence": 0.7,
+      "windows": [
+        52
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 421.59,
+      "end": 429.55,
+      "confidence": 0.4,
+      "windows": [
+        53
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 429.55,
+      "end": 437.5,
+      "confidence": 0.45,
+      "windows": [
+        54
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 437.5,
+      "end": 445.45,
+      "confidence": 0.4,
+      "windows": [
+        55
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 445.45,
+      "end": 453.41,
+      "confidence": 0.4,
+      "windows": [
+        56
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 453.41,
+      "end": 461.36,
+      "confidence": 0.45,
+      "windows": [
+        57
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 461.36,
+      "end": 469.32,
+      "confidence": 0.4,
+      "windows": [
+        58
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 469.32,
+      "end": 477.27,
+      "confidence": 0.5,
+      "windows": [
+        59
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 477.27,
+      "end": 509.09,
+      "confidence": 0.4,
+      "windows": [
+        60,
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 509.09,
+      "end": 517.05,
+      "confidence": 0.9,
+      "windows": [
+        64
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 517.05,
+      "end": 525.0,
+      "confidence": 0.5,
+      "windows": [
+        65
+      ]
+    }
+  ]
+}
