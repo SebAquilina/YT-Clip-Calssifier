@@ -1,98 +1,98 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.25,
-    "end": 16.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.5,
-    "end": 24.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.75,
-    "end": 33.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 33.0,
-    "end": 41.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 41.25,
-    "end": 49.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 49.5,
-    "end": 57.75,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 7,
-    "start": 57.75,
-    "end": 66.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 66.0,
-    "end": 74.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 74.25,
-    "end": 82.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 82.5,
-    "end": 90.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 90.75,
-    "end": 99.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.25,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Lit candle; caption 'Make custom-scented candle at The Candle Pour in Hyde Park'."
+ },
+ {
+  "window": 1,
+  "start": 8.25,
+  "end": 16.5,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "'it's lit' card over the candle store."
+ },
+ {
+  "window": 2,
+  "start": 16.5,
+  "end": 24.75,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Caption 'Choose from more than 120 scents'; rows of candle jars."
+ },
+ {
+  "window": 3,
+  "start": 24.75,
+  "end": 33.0,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Reporter (orange apron) in the candle store."
+ },
+ {
+  "window": 4,
+  "start": 33.0,
+  "end": 41.25,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Customers browse and sniff scent jars in the store."
+ },
+ {
+  "window": 5,
+  "start": 41.25,
+  "end": 49.5,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "A man sniffs a scent jar to choose a fragrance."
+ },
+ {
+  "window": 6,
+  "start": 49.5,
+  "end": 57.75,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 57.75,
+  "end": 66.0,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Caption 'Narrow it down to 2-4 scents and pour your soy candle'; pouring wax."
+ },
+ {
+  "window": 8,
+  "start": 66.0,
+  "end": 74.25,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring melted soy wax into the vessel."
+ },
+ {
+  "window": 9,
+  "start": 74.25,
+  "end": 82.5,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Caption 'Name your candle and wait up to 2 hours for it to set'."
+ },
+ {
+  "window": 10,
+  "start": 82.5,
+  "end": 90.75,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Caption 'Candles last about 60 burn hours'; lit candle."
+ },
+ {
+  "window": 11,
+  "start": 90.75,
+  "end": 99.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Taste and See Tampa Bay' news end card."
+ }
 ]

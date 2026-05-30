@@ -1,154 +1,154 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.89,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 1,
-    "start": 7.89,
-    "end": 15.79,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 2,
-    "start": 15.79,
-    "end": 23.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.68,
-    "end": 31.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.58,
-    "end": 39.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.47,
-    "end": 47.37,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 6,
-    "start": 47.37,
-    "end": 55.26,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 7,
-    "start": 55.26,
-    "end": 63.16,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 8,
-    "start": 63.16,
-    "end": 71.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.05,
-    "end": 78.95,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 10,
-    "start": 78.95,
-    "end": 86.84,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 11,
-    "start": 86.84,
-    "end": 94.74,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 12,
-    "start": 94.74,
-    "end": 102.63,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 13,
-    "start": 102.63,
-    "end": 110.53,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 14,
-    "start": 110.53,
-    "end": 118.42,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 15,
-    "start": 118.42,
-    "end": 126.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 126.32,
-    "end": 134.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 134.21,
-    "end": 142.11,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 142.11,
-    "end": 150.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.89,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.89,
+  "end": 15.79,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 15.79,
+  "end": 23.68,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Screen recording of dye/colour product pages; a finished red candle insert."
+ },
+ {
+  "window": 3,
+  "start": 23.68,
+  "end": 31.58,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Screen recording of colour options."
+ },
+ {
+  "window": 4,
+  "start": 31.58,
+  "end": 39.47,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Host demonstrates candle dye blocks/colour samples; a red candle."
+ },
+ {
+  "window": 5,
+  "start": 39.47,
+  "end": 47.37,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 47.37,
+  "end": 55.26,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 55.26,
+  "end": 63.16,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 8,
+  "start": 63.16,
+  "end": 71.05,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished coloured candles shown (a red candle on a stand and a purple candle)."
+ },
+ {
+  "window": 9,
+  "start": 71.05,
+  "end": 78.95,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 78.95,
+  "end": 86.84,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 86.84,
+  "end": 94.74,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 94.74,
+  "end": 102.63,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 102.63,
+  "end": 110.53,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 110.53,
+  "end": 118.42,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 118.42,
+  "end": 126.32,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Host talks to camera (auto-kept; face missed by detector)."
+ },
+ {
+  "window": 16,
+  "start": 126.32,
+  "end": 134.21,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 17,
+  "start": 134.21,
+  "end": 142.11,
+  "label": "talking_head",
+  "confidence": 0.4,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 18,
+  "start": 142.11,
+  "end": 150.0,
+  "label": "talking_head",
+  "confidence": 0.4,
+  "description": "Host talks to camera."
+ }
 ]

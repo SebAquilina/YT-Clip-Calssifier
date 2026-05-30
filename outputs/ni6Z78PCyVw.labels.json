@@ -1,234 +1,234 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.1,
-    "end": 16.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.21,
-    "end": 24.31,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 3,
-    "start": 24.31,
-    "end": 32.41,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 4,
-    "start": 32.41,
-    "end": 40.52,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 5,
-    "start": 40.52,
-    "end": 48.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.62,
-    "end": 56.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.72,
-    "end": 64.83,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 8,
-    "start": 64.83,
-    "end": 72.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.93,
-    "end": 81.03,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 10,
-    "start": 81.03,
-    "end": 89.14,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 11,
-    "start": 89.14,
-    "end": 97.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 97.24,
-    "end": 105.34,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 105.34,
-    "end": 113.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 113.45,
-    "end": 121.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 121.55,
-    "end": 129.66,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 16,
-    "start": 129.66,
-    "end": 137.76,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 17,
-    "start": 137.76,
-    "end": 145.86,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 18,
-    "start": 145.86,
-    "end": 153.97,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 19,
-    "start": 153.97,
-    "end": 162.07,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 20,
-    "start": 162.07,
-    "end": 170.17,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 21,
-    "start": 170.17,
-    "end": 178.28,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 22,
-    "start": 178.28,
-    "end": 186.38,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 23,
-    "start": 186.38,
-    "end": 194.48,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 24,
-    "start": 194.48,
-    "end": 202.59,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 25,
-    "start": 202.59,
-    "end": 210.69,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 26,
-    "start": 210.69,
-    "end": 218.79,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 27,
-    "start": 218.79,
-    "end": 226.9,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 28,
-    "start": 226.9,
-    "end": 235.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.1,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'VLOGLY' intro over a lit candle."
+ },
+ {
+  "window": 1,
+  "start": 8.1,
+  "end": 16.21,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "VLOGLY title with a lit candle."
+ },
+ {
+  "window": 2,
+  "start": 16.21,
+  "end": 24.31,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 24.31,
+  "end": 32.41,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 4,
+  "start": 32.41,
+  "end": 40.52,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 40.52,
+  "end": 48.62,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Desert landscape b-roll."
+ },
+ {
+  "window": 6,
+  "start": 48.62,
+  "end": 56.72,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Desert landscape b-roll (paraffin/petroleum reference)."
+ },
+ {
+  "window": 7,
+  "start": 56.72,
+  "end": 64.83,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 8,
+  "start": 64.83,
+  "end": 72.93,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Soybeans / soy wax flakes in a bowl shown."
+ },
+ {
+  "window": 9,
+  "start": 72.93,
+  "end": 81.03,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 81.03,
+  "end": 89.14,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 89.14,
+  "end": 97.24,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "White wax block / candles shown."
+ },
+ {
+  "window": 12,
+  "start": 97.24,
+  "end": 105.34,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "White wax and candles on a surface."
+ },
+ {
+  "window": 13,
+  "start": 105.34,
+  "end": 113.45,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "start": 113.45,
+  "end": 121.55,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Close-up of a white wax block."
+ },
+ {
+  "window": 15,
+  "start": 121.55,
+  "end": 129.66,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 129.66,
+  "end": 137.76,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 137.76,
+  "end": 145.86,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 145.86,
+  "end": 153.97,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 19,
+  "start": 153.97,
+  "end": 162.07,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 20,
+  "start": 162.07,
+  "end": 170.17,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 170.17,
+  "end": 178.28,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 22,
+  "start": 178.28,
+  "end": 186.38,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 23,
+  "start": 186.38,
+  "end": 194.48,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 24,
+  "start": 194.48,
+  "end": 202.59,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 25,
+  "start": 202.59,
+  "end": 210.69,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 26,
+  "start": 210.69,
+  "end": 218.79,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 27,
+  "start": 218.79,
+  "end": 226.9,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 28,
+  "start": 226.9,
+  "end": 235.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
