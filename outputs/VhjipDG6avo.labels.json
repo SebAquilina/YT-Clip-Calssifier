@@ -196,463 +196,463 @@
   "start": 192.29,
   "end": 200.3,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 25,
   "start": 200.3,
   "end": 208.32,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 26,
   "start": 208.32,
   "end": 216.33,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 27,
   "start": 216.33,
   "end": 224.34,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 28,
   "start": 224.34,
   "end": 232.35,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 29,
   "start": 232.35,
   "end": 240.37,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 30,
   "start": 240.37,
   "end": 248.38,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 31,
   "start": 248.38,
   "end": 256.39,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 32,
   "start": 256.39,
   "end": 264.4,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 33,
   "start": 264.4,
   "end": 272.41,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 34,
   "start": 272.41,
   "end": 280.43,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 35,
   "start": 280.43,
   "end": 288.44,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 36,
   "start": 288.44,
   "end": 296.45,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 37,
   "start": 296.45,
   "end": 304.46,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 38,
   "start": 304.46,
   "end": 312.48,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 39,
   "start": 312.48,
   "end": 320.49,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 40,
   "start": 320.49,
   "end": 328.5,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 41,
   "start": 328.5,
   "end": 336.51,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 42,
   "start": 336.51,
   "end": 344.52,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 43,
   "start": 344.52,
   "end": 352.54,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 44,
   "start": 352.54,
   "end": 360.55,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 45,
   "start": 360.55,
   "end": 368.56,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 46,
   "start": 368.56,
   "end": 376.57,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 47,
   "start": 376.57,
   "end": 384.59,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 48,
   "start": 384.59,
   "end": 392.6,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 49,
   "start": 392.6,
   "end": 400.61,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 50,
   "start": 400.61,
   "end": 408.62,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 51,
   "start": 408.62,
   "end": 416.63,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Handwritten wax/fragrance calculations on a notepad."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 52,
   "start": 416.63,
   "end": 424.65,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 53,
   "start": 424.65,
   "end": 432.66,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 54,
   "start": 432.66,
   "end": 440.67,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 55,
   "start": 440.67,
   "end": 448.68,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 56,
   "start": 448.68,
   "end": 456.7,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 57,
   "start": 456.7,
   "end": 464.71,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 58,
   "start": 464.71,
   "end": 472.72,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 59,
   "start": 472.72,
   "end": 480.73,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 60,
   "start": 480.73,
   "end": 488.74,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 61,
   "start": 488.74,
   "end": 496.76,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 62,
   "start": 496.76,
   "end": 504.77,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 63,
   "start": 504.77,
   "end": 512.78,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 64,
   "start": 512.78,
   "end": 520.79,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 65,
   "start": 520.79,
   "end": 528.8,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host teaches the calculation at a flip-chart/notepad."
  },
  {
   "window": 66,
   "start": 528.8,
   "end": 536.82,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 67,
   "start": 536.82,
   "end": 544.83,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 68,
   "start": 544.83,
   "end": 552.84,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 69,
   "start": 552.84,
   "end": 560.85,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 70,
   "start": 560.85,
   "end": 568.87,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 're THANKYOU ah gg FOR WATCHING! PUSSCHIBC'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 71,
   "start": 568.87,
   "end": 576.88,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oi THANKYOU gh gf FOR WATCHING!'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 72,
   "start": 576.88,
   "end": 584.89,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 73,
   "start": 584.89,
   "end": 592.9,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 74,
   "start": 592.9,
   "end": 600.91,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 75,
   "start": 600.91,
   "end": 608.93,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 76,
   "start": 608.93,
   "end": 616.94,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 77,
   "start": 616.94,
   "end": 624.95,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 78,
   "start": 624.95,
   "end": 632.96,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 79,
   "start": 632.96,
   "end": 640.98,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 80,
   "start": 640.98,
   "end": 648.99,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 81,
   "start": 648.99,
   "end": 657.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

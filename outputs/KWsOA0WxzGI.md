@@ -2,7 +2,7 @@
 
 - **Video:** [KWsOA0WxzGI](https://www.youtube.com/watch?v=KWsOA0WxzGI)
 - **Duration:** 10:31  (631s)
-- **Source:** storyboard  |  **Windows:** 79  |  **Segments:** 7
+- **Source:** storyboard  |  **Windows:** 79  |  **Segments:** 6
 
 ## Action segments (merged)
 
@@ -13,8 +13,7 @@
 | 3 | 1:12–2:24 | 72s | `talking_head` | aux |  | 0.59 |
 | 4 | 2:24–2:32 | 8s | `transition` | aux |  | 0.50 |
 | 5 | 2:32–2:40 | 8s | `reveal_result` | finish | ✓ | 0.40 |
-| 6 | 2:40–9:59 | 439s | `talking_head` | aux |  | 0.69 |
-| 7 | 9:59–10:31 | 32s | `outro_cta` | aux |  | 0.50 |
+| 6 | 2:40–10:31 | 471s | `talking_head` | aux |  | 0.61 |
 
 ## Per-window detail
 
@@ -44,58 +43,58 @@
 | W21 | 2:48–2:56 | `talking_head` | 0.70 |  |
 | W22 | 2:56–3:04 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
 | W23 | 3:04–3:12 | `talking_head` | 0.70 |  |
-| W24 | 3:12–3:20 | `talking_head` | 0.55 |  |
-| W25 | 3:20–3:28 | `talking_head` | 0.90 |  |
-| W26 | 3:28–3:36 | `talking_head` | 0.55 |  |
-| W27 | 3:36–3:44 | `talking_head` | 0.55 |  |
-| W28 | 3:44–3:52 | `talking_head` | 0.55 |  |
-| W29 | 3:52–4:00 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W30 | 4:00–4:08 | `talking_head` | 0.70 |  |
-| W31 | 4:08–4:16 | `talking_head` | 0.55 |  |
-| W32 | 4:16–4:24 | `talking_head` | 0.90 |  |
-| W33 | 4:24–4:32 | `talking_head` | 0.55 |  |
-| W34 | 4:32–4:40 | `talking_head` | 0.55 |  |
-| W35 | 4:40–4:48 | `talking_head` | 0.55 |  |
-| W36 | 4:48–4:56 | `talking_head` | 0.90 |  |
-| W37 | 4:56–5:04 | `talking_head` | 0.55 |  |
-| W38 | 5:04–5:12 | `talking_head` | 0.55 |  |
-| W39 | 5:12–5:19 | `talking_head` | 0.90 |  |
-| W40 | 5:19–5:27 | `talking_head` | 0.55 |  |
-| W41 | 5:27–5:35 | `talking_head` | 0.55 |  |
-| W42 | 5:35–5:43 | `talking_head` | 0.90 |  |
-| W43 | 5:43–5:51 | `talking_head` | 0.55 |  |
-| W44 | 5:51–5:59 | `talking_head` | 0.55 |  |
-| W45 | 5:59–6:07 | `talking_head` | 0.55 |  |
-| W46 | 6:07–6:15 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W47 | 6:15–6:23 | `talking_head` | 0.55 |  |
-| W48 | 6:23–6:31 | `talking_head` | 0.55 |  |
-| W49 | 6:31–6:39 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W50 | 6:39–6:47 | `talking_head` | 0.55 |  |
-| W51 | 6:47–6:55 | `talking_head` | 0.55 |  |
-| W52 | 6:55–7:03 | `talking_head` | 0.90 |  |
-| W53 | 7:03–7:11 | `talking_head` | 0.90 |  |
-| W54 | 7:11–7:19 | `talking_head` | 0.70 |  |
-| W55 | 7:19–7:27 | `talking_head` | 0.70 |  |
-| W56 | 7:27–7:35 | `talking_head` | 0.55 |  |
-| W57 | 7:35–7:43 | `talking_head` | 0.70 |  |
-| W58 | 7:43–7:51 | `talking_head` | 0.70 |  |
-| W59 | 7:51–7:59 | `talking_head` | 0.55 |  |
-| W60 | 7:59–8:07 | `talking_head` | 0.90 |  |
-| W61 | 8:07–8:15 | `talking_head` | 0.55 |  |
-| W62 | 8:15–8:23 | `talking_head` | 0.70 |  |
-| W63 | 8:23–8:31 | `talking_head` | 0.90 |  |
-| W64 | 8:31–8:39 | `talking_head` | 0.55 |  |
-| W65 | 8:39–8:47 | `talking_head` | 0.55 |  |
-| W66 | 8:47–8:55 | `talking_head` | 0.90 |  |
-| W67 | 8:55–9:03 | `talking_head` | 0.55 |  |
-| W68 | 9:03–9:11 | `talking_head` | 0.70 |  |
-| W69 | 9:11–9:19 | `talking_head` | 0.55 |  |
-| W70 | 9:19–9:27 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W71 | 9:27–9:35 | `talking_head` | 0.55 |  |
-| W72 | 9:35–9:43 | `talking_head` | 0.55 |  |
-| W73 | 9:43–9:51 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W74 | 9:51–9:59 | `talking_head` | 0.55 |  |
-| W75 | 9:59–10:07 | `outro_cta` | 0.50 |  |
-| W76 | 10:07–10:15 | `outro_cta` | 0.50 |  |
-| W77 | 10:15–10:23 | `outro_cta` | 0.50 |  |
-| W78 | 10:23–10:31 | `outro_cta` | 0.50 |  |
+| W24 | 3:12–3:20 | `talking_head` | 0.60 |  |
+| W25 | 3:20–3:28 | `talking_head` | 0.60 |  |
+| W26 | 3:28–3:36 | `talking_head` | 0.60 |  |
+| W27 | 3:36–3:44 | `talking_head` | 0.60 |  |
+| W28 | 3:44–3:52 | `talking_head` | 0.60 |  |
+| W29 | 3:52–4:00 | `talking_head` | 0.60 |  |
+| W30 | 4:00–4:08 | `talking_head` | 0.60 |  |
+| W31 | 4:08–4:16 | `talking_head` | 0.60 |  |
+| W32 | 4:16–4:24 | `talking_head` | 0.60 |  |
+| W33 | 4:24–4:32 | `talking_head` | 0.60 |  |
+| W34 | 4:32–4:40 | `talking_head` | 0.60 |  |
+| W35 | 4:40–4:48 | `talking_head` | 0.60 |  |
+| W36 | 4:48–4:56 | `talking_head` | 0.60 |  |
+| W37 | 4:56–5:04 | `talking_head` | 0.60 |  |
+| W38 | 5:04–5:12 | `talking_head` | 0.60 |  |
+| W39 | 5:12–5:19 | `talking_head` | 0.60 |  |
+| W40 | 5:19–5:27 | `talking_head` | 0.60 |  |
+| W41 | 5:27–5:35 | `talking_head` | 0.60 |  |
+| W42 | 5:35–5:43 | `talking_head` | 0.60 |  |
+| W43 | 5:43–5:51 | `talking_head` | 0.60 |  |
+| W44 | 5:51–5:59 | `talking_head` | 0.60 |  |
+| W45 | 5:59–6:07 | `talking_head` | 0.60 |  |
+| W46 | 6:07–6:15 | `talking_head` | 0.60 |  |
+| W47 | 6:15–6:23 | `talking_head` | 0.60 |  |
+| W48 | 6:23–6:31 | `talking_head` | 0.60 |  |
+| W49 | 6:31–6:39 | `talking_head` | 0.60 |  |
+| W50 | 6:39–6:47 | `talking_head` | 0.60 |  |
+| W51 | 6:47–6:55 | `talking_head` | 0.60 |  |
+| W52 | 6:55–7:03 | `talking_head` | 0.60 |  |
+| W53 | 7:03–7:11 | `talking_head` | 0.60 |  |
+| W54 | 7:11–7:19 | `talking_head` | 0.60 |  |
+| W55 | 7:19–7:27 | `talking_head` | 0.60 |  |
+| W56 | 7:27–7:35 | `talking_head` | 0.60 |  |
+| W57 | 7:35–7:43 | `talking_head` | 0.60 |  |
+| W58 | 7:43–7:51 | `talking_head` | 0.60 |  |
+| W59 | 7:51–7:59 | `talking_head` | 0.60 |  |
+| W60 | 7:59–8:07 | `talking_head` | 0.60 |  |
+| W61 | 8:07–8:15 | `talking_head` | 0.60 |  |
+| W62 | 8:15–8:23 | `talking_head` | 0.60 |  |
+| W63 | 8:23–8:31 | `talking_head` | 0.60 |  |
+| W64 | 8:31–8:39 | `talking_head` | 0.60 |  |
+| W65 | 8:39–8:47 | `talking_head` | 0.60 |  |
+| W66 | 8:47–8:55 | `talking_head` | 0.60 |  |
+| W67 | 8:55–9:03 | `talking_head` | 0.60 |  |
+| W68 | 9:03–9:11 | `talking_head` | 0.60 |  |
+| W69 | 9:11–9:19 | `talking_head` | 0.60 |  |
+| W70 | 9:19–9:27 | `talking_head` | 0.60 |  |
+| W71 | 9:27–9:35 | `talking_head` | 0.60 |  |
+| W72 | 9:35–9:43 | `talking_head` | 0.60 |  |
+| W73 | 9:43–9:51 | `talking_head` | 0.60 |  |
+| W74 | 9:51–9:59 | `talking_head` | 0.60 |  |
+| W75 | 9:59–10:07 | `talking_head` | 0.60 |  |
+| W76 | 10:07–10:15 | `talking_head` | 0.60 |  |
+| W77 | 10:15–10:23 | `talking_head` | 0.60 |  |
+| W78 | 10:23–10:31 | `talking_head` | 0.60 |  |
