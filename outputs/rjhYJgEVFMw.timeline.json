@@ -1,0 +1,489 @@
+{
+  "video_id": "rjhYJgEVFMw",
+  "title": "How to Make a Container Candle | Hobbycraft",
+  "url": "https://www.youtube.com/watch?v=rjhYJgEVFMw",
+  "duration": 185.0,
+  "source": "storyboard",
+  "n_windows": 23,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.04,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hobbycraft 'How to make a container candle' title.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.04,
+      "end": 16.09,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (blue shirt) talks at a table with a melting pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.09,
+      "end": 24.13,
+      "label": "talking_head",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host presents the supplies; overhead of materials.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 24.13,
+      "end": 32.17,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.17,
+      "end": 40.22,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks beside the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.22,
+      "end": 48.26,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead: wax measured into the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.26,
+      "end": 56.3,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host tends the melting pot of wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.3,
+      "end": 64.35,
+      "label": "melt_wax",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.35,
+      "end": 72.39,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The melting pot on the table; host intercut.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.39,
+      "end": 80.43,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.43,
+      "end": 88.48,
+      "label": "talking_head",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Overhead wax handling/measuring.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 88.48,
+      "end": 96.52,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.52,
+      "end": 104.57,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead hands measure/pour wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.57,
+      "end": 112.61,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead pouring wax into the pot/jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.61,
+      "end": 120.65,
+      "label": "pour_wax",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead hands at the jar on a green cutting mat.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 120.65,
+      "end": 128.7,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead pouring wax into the container.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 128.7,
+      "end": 136.74,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead hands centring the wick in the jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 136.74,
+      "end": 144.78,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead jar with the wick being set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.78,
+      "end": 152.83,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; the jar in frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 152.83,
+      "end": 160.87,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead jar and wax handling.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 160.87,
+      "end": 168.91,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Close-up of the large melting pot.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->melt_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 168.91,
+      "end": 176.96,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "hobbycraft.co.uk end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 176.96,
+      "end": 185.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "hobbycraft.co.uk end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.04,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.04,
+      "end": 40.22,
+      "confidence": 0.56,
+      "windows": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 40.22,
+      "end": 48.26,
+      "confidence": 0.55,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 48.26,
+      "end": 72.39,
+      "confidence": 0.55,
+      "windows": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 72.39,
+      "end": 96.52,
+      "confidence": 0.57,
+      "windows": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 96.52,
+      "end": 104.57,
+      "confidence": 0.5,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 104.57,
+      "end": 128.7,
+      "confidence": 0.5,
+      "windows": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 128.7,
+      "end": 144.78,
+      "confidence": 0.5,
+      "windows": [
+        16,
+        17
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 144.78,
+      "end": 152.83,
+      "confidence": 0.55,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 152.83,
+      "end": 160.87,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 160.87,
+      "end": 168.91,
+      "confidence": 0.45,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 168.91,
+      "end": 185.0,
+      "confidence": 0.6,
+      "windows": [
+        21,
+        22
+      ]
+    }
+  ]
+}

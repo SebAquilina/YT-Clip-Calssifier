@@ -1,0 +1,442 @@
+{
+  "video_id": "lTMszYRbm84",
+  "title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+  "url": "https://www.youtube.com/watch?v=lTMszYRbm84",
+  "duration": 174.0,
+  "source": "storyboard",
+  "n_windows": 22,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.91,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.55,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Black into the 'ADHDIY' branded title card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.91,
+      "end": 15.82,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "ADHDIY title with the host appearing.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.82,
+      "end": 23.73,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host at a table with a scale and a green melting pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.73,
+      "end": 31.64,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host introduces the build beside the green melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.64,
+      "end": 39.55,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.65,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'MEASURE THE WAX'; host pours wax into the pot on the scale.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.55,
+      "end": 47.45,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing the wax (caption 'MEASURE THE WAX').",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.45,
+      "end": 55.36,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'USE STEAM TO MELT'; the wax melts over a steam/double-boiler setup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.36,
+      "end": 63.27,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Continued steam-melting of the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.27,
+      "end": 71.18,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting (caption 'USE STEAM TO MELT').",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.18,
+      "end": 79.09,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melted wax in the green pot; host intercut.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.09,
+      "end": 87.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The green pot of molten wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.0,
+      "end": 94.91,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pot of wax; host talks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.91,
+      "end": 102.82,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host adds fragrance (caption) to the melted wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 102.82,
+      "end": 110.73,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Fragrance added/stirred into the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 110.73,
+      "end": 118.64,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'USING SMALL CUP'; blending fragrance in a small cup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 118.64,
+      "end": 126.55,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'MIXING SMALL CUP'; mixing the scented wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 126.55,
+      "end": 134.45,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'POUR INTO CUP'; wax poured into the container.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 134.45,
+      "end": 142.36,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Continued pour into the cup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.36,
+      "end": 150.27,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'WICK CYCLE'; centring/securing the wick in the poured candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 150.27,
+      "end": 158.18,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Candle left to set; host intercut.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 158.18,
+      "end": 166.09,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host wraps up; ADHDIY end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 166.09,
+      "end": 174.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "ADHDIY end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 15.82,
+      "confidence": 0.53,
+      "windows": [
+        0,
+        1
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.82,
+      "end": 23.73,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 23.73,
+      "end": 31.64,
+      "confidence": 0.5,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 31.64,
+      "end": 47.45,
+      "confidence": 0.62,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 47.45,
+      "end": 94.91,
+      "confidence": 0.59,
+      "windows": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 94.91,
+      "end": 126.55,
+      "confidence": 0.52,
+      "windows": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 126.55,
+      "end": 142.36,
+      "confidence": 0.62,
+      "windows": [
+        16,
+        17
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 142.36,
+      "end": 150.27,
+      "confidence": 0.55,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 150.27,
+      "end": 158.18,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 158.18,
+      "end": 174.0,
+      "confidence": 0.55,
+      "windows": [
+        20,
+        21
+      ]
+    }
+  ]
+}
