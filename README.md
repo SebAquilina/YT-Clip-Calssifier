@@ -7,8 +7,8 @@ container, melt wax, add fragrance, pour, set wick, cure, trim, reveal, …),
 smooths the labels with a procedure-aware rules engine, and emits a per-video
 timeline plus corpus-level *learned* rules that extrapolate to other DIY domains.
 
-This repo ships with a **classified database of 100 real candle-making videos**
-(**4,315** labelled 5–10s windows) — see [`outputs/db/`](outputs/db/) and
+This repo ships with a **classified database of 250 real candle-making videos**
+(**11,782** labelled 5–10s windows) — see [`outputs/db/`](outputs/db/) and
 [`outputs/SUMMARY.md`](outputs/SUMMARY.md).
 
 ---
@@ -30,9 +30,9 @@ For the whole corpus:
 Build/refresh the database any time with `python -m ytclip.cli build-db`, then
 optionally `python -m ytclip.cli split-db` to fan it out into per-label files.
 
-### The 100-video database
+### The 250-video database
 
-`outputs/db/` holds **100 candle videos / 4,315 windows**. Querying it (e.g.
+`outputs/db/` holds **250 candle videos / 11,782 windows**. Querying it (e.g.
 `sqlite3 outputs/db/classifications.sqlite "select action_label,count(*) from windows group by 1 order by 2 desc"`)
 and the `ytclip learn` aggregation independently recover the real candle-making
 procedure from the data:
@@ -82,7 +82,7 @@ Two frame sources, one downstream pipeline:
    (e.g. a bot-gated cloud IP, see [Notes](#notes-on-the-environment)), the tool
    pulls YouTube **storyboard** thumbnails (~1 frame / 1.8s) and builds uniform
    5–10s windows. Lower resolution, but enough for coarse action labels — the
-   10 bundled runs all use this mode.
+   bundled runs all use this mode.
 
 Each window's frames are tiled into a captioned **contact sheet**; a vision model
 (Claude) reads the sheet and returns one label per window. The **rules engine**
@@ -146,7 +146,7 @@ the rest of the pipeline is unchanged.
 
 ## Results in this repo
 
-**100 candle videos, 4,315 windows classified** — a broad spread of soy/beeswax/
+**250 candle videos, 11,782 windows classified** — a broad spread of soy/beeswax/
 coconut/paraffin builds, layered & ombre candles, dipped tapers, rolled & carved
 & flower & dessert candles, plus kit/business/care videos. Every window carries a
 detailed description and a timestamped link in `outputs/db/`. The **canonical step
