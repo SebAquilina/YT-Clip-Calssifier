@@ -1,122 +1,122 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.07,
-    "end": 16.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.13,
-    "end": 24.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.2,
-    "end": 32.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.27,
-    "end": 40.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.33,
-    "end": 48.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.4,
-    "end": 56.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.47,
-    "end": 64.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.53,
-    "end": 72.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.6,
-    "end": 80.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.67,
-    "end": 88.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.73,
-    "end": 96.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.8,
-    "end": 104.87,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 13,
-    "start": 104.87,
-    "end": 112.93,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 14,
-    "start": 112.93,
-    "end": 121.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.07,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'Craftz Talent' channel intro; yellow background."
+ },
+ {
+  "window": 1,
+  "start": 8.07,
+  "end": 16.13,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Overhead yellow bg: a glass bowl of blue water; a plastic bottle is cut."
+ },
+ {
+  "window": 2,
+  "start": 16.13,
+  "end": 24.2,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Decorations placed into the blue water bowl."
+ },
+ {
+  "window": 3,
+  "start": 24.2,
+  "end": 32.27,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Arranging floating decor in the blue water."
+ },
+ {
+  "window": 4,
+  "start": 32.27,
+  "end": 40.33,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "An oil layer added over the blue water candle."
+ },
+ {
+  "window": 5,
+  "start": 40.33,
+  "end": 48.4,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands make a small floating wick."
+ },
+ {
+  "window": 6,
+  "start": 48.4,
+  "end": 56.47,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Assembling the float wick; scissors."
+ },
+ {
+  "window": 7,
+  "start": 56.47,
+  "end": 64.53,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Threading the wick through the float."
+ },
+ {
+  "window": 8,
+  "start": 64.53,
+  "end": 72.6,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "The float wick placed on the blue water candle."
+ },
+ {
+  "window": 9,
+  "start": 72.6,
+  "end": 80.67,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Adjusting the float/wick in the water bowl."
+ },
+ {
+  "window": 10,
+  "start": 80.67,
+  "end": 88.73,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Finishing the floating wick assembly."
+ },
+ {
+  "window": 11,
+  "start": 88.73,
+  "end": 96.8,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "The finished blue water candle with a lit float wick."
+ },
+ {
+  "window": 12,
+  "start": 96.8,
+  "end": 104.87,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 13,
+  "start": 104.87,
+  "end": 112.93,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 14,
+  "start": 112.93,
+  "end": 121.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]

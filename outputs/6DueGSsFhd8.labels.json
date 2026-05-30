@@ -1,130 +1,130 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.81,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.81,
-    "end": 15.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.62,
-    "end": 23.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.44,
-    "end": 31.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.25,
-    "end": 39.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.06,
-    "end": 46.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 46.88,
-    "end": 54.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 54.69,
-    "end": 62.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 62.5,
-    "end": 70.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 70.31,
-    "end": 78.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 78.12,
-    "end": 85.94,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 11,
-    "start": 85.94,
-    "end": 93.75,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 12,
-    "start": 93.75,
-    "end": 101.56,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 13,
-    "start": 101.56,
-    "end": 109.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 109.38,
-    "end": 117.19,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 15,
-    "start": 117.19,
-    "end": 125.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.81,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Black opening into the CandleScience CD-wick explainer."
+ },
+ {
+  "window": 1,
+  "start": 7.81,
+  "end": 15.62,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host holds a finished candle, talking."
+ },
+ {
+  "window": 2,
+  "start": 15.62,
+  "end": 23.44,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Close-up of CD-series candle wicks laid out."
+ },
+ {
+  "window": 3,
+  "start": 23.44,
+  "end": 31.25,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "A lit candle burn-test."
+ },
+ {
+  "window": 4,
+  "start": 31.25,
+  "end": 39.06,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 5,
+  "start": 39.06,
+  "end": 46.88,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Glass vessel with wax shown."
+ },
+ {
+  "window": 6,
+  "start": 46.88,
+  "end": 54.69,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 7,
+  "start": 54.69,
+  "end": 62.5,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 8,
+  "start": 62.5,
+  "end": 70.31,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 9,
+  "start": 70.31,
+  "end": 78.12,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "A lit candle burn-test."
+ },
+ {
+  "window": 10,
+  "start": 78.12,
+  "end": 85.94,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 85.94,
+  "end": 93.75,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 93.75,
+  "end": 101.56,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 101.56,
+  "end": 109.38,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "start": 109.38,
+  "end": 117.19,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 15,
+  "start": 117.19,
+  "end": 125.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
