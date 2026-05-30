@@ -78,7 +78,52 @@ validating the taxonomy. These learned statistics are the artifact you carry to
 **new videos** (better priors) and, by swapping the `process` phase, to **new DIY
 domains**.
 
-## 6. Limitations & next steps
+## 6. Objective features & anti-hallucination (`src/ytclip/features.py`)
+
+Because the model's descriptions are an interpretation of low-res frames, every
+window also gets **code-computed, reproducible measurements** that can corroborate
+or contradict the label — these are stored on every row so nothing is taken on
+trust:
+
+| feature | how | what it grounds |
+|---|---|---|
+| `face_score` | OpenCV Haar frontal-face cascade (frames upscaled 4×) | talking-head |
+| `text_score` | OpenCV MSER text-region coverage | on-screen text |
+| `ocr_text` / `ocr_charcount` | Tesseract on the middle frame (gated on text presence) | **verbatim captions** (so caption claims come from OCR, not the model) |
+| `motion` | mean abs frame-diff across the window | static card vs live action |
+| `brightness`, `colorfulness`, `dominant_colors` | luma / Hasler–Süsstrunk / k-means | blank frames, scene character |
+
+**Validation (`filtering.validate_window`)** cross-checks the model's
+label/description against these features and emits `validation_flags`, e.g.
+*"action label 'pour_wax' but a strong face fills the frame"*, *"active label on a
+near-black frame"*, or *"description references on-screen text but OCR found none"*.
+Flagged rows are surfaced in the DB for review. The description protocol
+(`ytclip prompt`) also requires separating observation from inference and only
+quoting captions that are actually legible.
+
+We validated the face detector against the hand labels: on a talking-head-heavy
+video it agreed with the manual `talking_head` windows **87%** of the time, and
+OCR recovered real burned-in captions (e.g. "Add 0.5 oz fragrance") off the
+hands-on frames.
+
+## 7. Filtering talking-head & text-overlay windows (`src/ytclip/filtering.py`)
+
+Driven by the objective features (thresholds in `config/filter.yaml`), each window
+is tagged `keep` + `filter_reason`:
+- **`talking_head`** — `face_score ≥ 0.40`.
+- **`text_overlay`** — a *static* text card: substantial OCR text **and**
+  `motion < 0.02` **and** no face. The motion gate is the key discriminator that
+  **keeps captioned action** (which always moves) while removing title/end/promo
+  slides — exactly the requested policy.
+- **`blank`** — near-black or flat/empty frames.
+
+Filtering is non-destructive: the full DB keeps every window with its flag, and a
+separate **clean action-only subset** (`classifications_clean.*`, also the
+`windows_clean` SQLite view) = `keep AND is_step`. On new videos
+`pipeline.autolabel_stub` pre-labels the filtered windows from the detectors, so
+the model only writes detailed descriptions for the hands-on windows.
+
+## 8. Limitations & next steps
 
 - **Storyboard resolution (160×90)** makes fine actions (fragrance vs dye, wick
   centering) ambiguous → moderate confidences. Stream mode removes this.

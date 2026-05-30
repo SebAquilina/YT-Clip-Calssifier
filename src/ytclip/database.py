@@ -1,12 +1,15 @@
 """Build the consolidated classification database from finalized timelines.
 
-Reads every outputs/<id>.timeline.json and emits, in outputs/db/:
-  classifications.sqlite   - two tables: videos, windows
-  classifications.csv      - one row per 5-10s window (flat, spreadsheet-friendly)
-  classifications.jsonl    - one JSON object per window
+Each window row carries, alongside the model's label + description:
+  * objective code-computed features (face_score, text_score, ocr_text, motion,
+    brightness, colorfulness, dominant_colors)  -- the anti-hallucination signals
+  * keep / filter_reason   (talking-head / text-overlay / blank filtering)
+  * validation_flags       (label<->evidence contradictions to review)
 
-Each window row includes the video link plus a timestamped deep-link to the
-exact moment (https://youtu.be/<id>?t=<start>s) and the detailed description.
+Outputs in outputs/db/:
+  classifications.{sqlite,csv,jsonl}        ALL windows (with keep flag)
+  classifications_clean.{csv,jsonl}         action-only subset (keep & is_step)
+The SQLite file also exposes a `windows_clean` view.
 """
 from __future__ import annotations
 
@@ -16,14 +19,30 @@ import json
 import os
 import sqlite3
 
-OUT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "outputs"))
+from .filtering import filter_window, has_caption, validate_window
+
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+OUT = os.path.join(ROOT, "outputs")
+WORK = os.path.join(ROOT, "data", "work")
 DB_DIR = os.path.join(OUT, "db")
 
 WINDOW_FIELDS = [
     "video_id", "video_url", "video_title", "video_duration_s", "source",
     "window_index", "start_s", "end_s", "duration_s", "window_url",
     "action_label", "phase", "is_step", "confidence", "description",
+    # objective features (computed by code, not the model):
+    "ocr_text", "has_caption", "face_score", "text_score", "motion",
+    "brightness", "colorfulness", "dominant_colors",
+    # filtering + validation:
+    "keep", "filter_reason", "validation_flags",
 ]
+
+
+def _features(video_id: str) -> dict:
+    p = os.path.join(WORK, video_id, "features.json")
+    if not os.path.exists(p):
+        return {}
+    return {int(k): v for k, v in json.load(open(p)).items()}
 
 
 def _timelines():
@@ -35,50 +54,77 @@ def _timelines():
 def _rows():
     for d in _timelines():
         vid, url = d["video_id"], d["url"]
-        for w in d["windows"]:
-            start = int(round(w["start"]))
+        feats = _features(vid)
+        for wdw in d["windows"]:
+            i = wdw["window"]
+            ft = feats.get(i, {})
+            start = int(round(wdw["start"]))
+            keep, reason = (filter_window(ft) if ft else (True, ""))
+            flags = validate_window(wdw["label"], wdw.get("description", ""), ft) if ft else []
             yield {
                 "video_id": vid,
                 "video_url": url,
                 "video_title": d["title"],
                 "video_duration_s": d["duration"],
                 "source": d.get("source", "storyboard"),
-                "window_index": w["window"],
-                "start_s": w["start"],
-                "end_s": w["end"],
-                "duration_s": round(w["end"] - w["start"], 2),
+                "window_index": i,
+                "start_s": wdw["start"],
+                "end_s": wdw["end"],
+                "duration_s": round(wdw["end"] - wdw["start"], 2),
                 "window_url": f"https://youtu.be/{vid}?t={start}s",
-                "action_label": w["label"],
-                "phase": w.get("phase", ""),
-                "is_step": int(bool(w.get("is_step"))),
-                "confidence": w.get("confidence", 0.0),
-                "description": w.get("description") or w.get("evidence", ""),
+                "action_label": wdw["label"],
+                "phase": wdw.get("phase", ""),
+                "is_step": int(bool(wdw.get("is_step"))),
+                "confidence": wdw.get("confidence", 0.0),
+                "description": wdw.get("description") or wdw.get("evidence", ""),
+                "ocr_text": ft.get("ocr_text", ""),
+                "has_caption": int(has_caption(ft)) if ft else 0,
+                "face_score": ft.get("face_score", ""),
+                "text_score": ft.get("text_score", ""),
+                "motion": ft.get("motion", ""),
+                "brightness": ft.get("brightness", ""),
+                "colorfulness": ft.get("colorfulness", ""),
+                "dominant_colors": ",".join(ft.get("dominant_colors", [])),
+                "keep": int(keep),
+                "filter_reason": reason,
+                "validation_flags": "; ".join(flags),
             }
+
+
+def _is_action(r: dict) -> bool:
+    # the clean subset = passed the objective filter AND is a hands-on action step
+    return bool(r["keep"]) and bool(r["is_step"])
+
+
+def _write_csv(path, rows):
+    with open(path, "w", newline="") as f:
+        wtr = csv.DictWriter(f, fieldnames=WINDOW_FIELDS)
+        wtr.writeheader()
+        wtr.writerows(rows)
+
+
+def _write_jsonl(path, rows):
+    with open(path, "w") as f:
+        for r in rows:
+            f.write(json.dumps(r) + "\n")
 
 
 def build() -> dict:
     os.makedirs(DB_DIR, exist_ok=True)
     rows = list(_rows())
-    videos = {}
-    for d in _timelines():
-        videos[d["video_id"]] = {
-            "video_id": d["video_id"], "video_url": d["url"], "title": d["title"],
-            "duration_s": d["duration"], "source": d.get("source", "storyboard"),
-            "n_windows": len(d["windows"]), "n_segments": len(d["segments"]),
-        }
+    clean = [r for r in rows if _is_action(r)]
 
-    # CSV
-    with open(os.path.join(DB_DIR, "classifications.csv"), "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=WINDOW_FIELDS)
-        w.writeheader()
-        w.writerows(rows)
+    videos = {d["video_id"]: {
+        "video_id": d["video_id"], "video_url": d["url"], "title": d["title"],
+        "duration_s": d["duration"], "source": d.get("source", "storyboard"),
+        "n_windows": len(d["windows"]), "n_segments": len(d["segments"]),
+    } for d in _timelines()}
 
-    # JSONL
-    with open(os.path.join(DB_DIR, "classifications.jsonl"), "w") as f:
-        for r in rows:
-            f.write(json.dumps(r) + "\n")
+    _write_csv(os.path.join(DB_DIR, "classifications.csv"), rows)
+    _write_jsonl(os.path.join(DB_DIR, "classifications.jsonl"), rows)
+    _write_csv(os.path.join(DB_DIR, "classifications_clean.csv"), clean)
+    _write_jsonl(os.path.join(DB_DIR, "classifications_clean.jsonl"), clean)
 
-    # SQLite
     dbp = os.path.join(DB_DIR, "classifications.sqlite")
     if os.path.exists(dbp):
         os.remove(dbp)
@@ -87,19 +133,31 @@ def build() -> dict:
     cur.execute("""CREATE TABLE videos(
         video_id TEXT PRIMARY KEY, video_url TEXT, title TEXT,
         duration_s REAL, source TEXT, n_windows INT, n_segments INT)""")
-    cur.execute(f"""CREATE TABLE windows(
-        {', '.join(f'{c} {"INTEGER" if c in ("window_index","is_step") else "REAL" if c.endswith("_s") or c=="confidence" else "TEXT"}' for c in WINDOW_FIELDS)},
-        FOREIGN KEY(video_id) REFERENCES videos(video_id))""")
-    cur.executemany(
-        "INSERT INTO videos VALUES (?,?,?,?,?,?,?)",
-        [(v["video_id"], v["video_url"], v["title"], v["duration_s"], v["source"],
-          v["n_windows"], v["n_segments"]) for v in videos.values()])
-    cur.executemany(
-        f"INSERT INTO windows VALUES ({','.join('?' * len(WINDOW_FIELDS))})",
-        [tuple(r[c] for c in WINDOW_FIELDS) for r in rows])
+
+    def coltype(c):
+        if c in ("window_index", "is_step", "has_caption", "keep"):
+            return "INTEGER"
+        if c.endswith("_s") or c in ("confidence", "face_score", "text_score",
+                                     "motion", "brightness", "colorfulness"):
+            return "REAL"
+        return "TEXT"
+    cols = ", ".join(f"{c} {coltype(c)}" for c in WINDOW_FIELDS)
+    cur.execute(f"CREATE TABLE windows({cols}, "
+                "FOREIGN KEY(video_id) REFERENCES videos(video_id))")
+    cur.executemany("INSERT INTO videos VALUES (?,?,?,?,?,?,?)",
+                    [(v["video_id"], v["video_url"], v["title"], v["duration_s"],
+                      v["source"], v["n_windows"], v["n_segments"]) for v in videos.values()])
+    cur.executemany(f"INSERT INTO windows VALUES ({','.join('?' * len(WINDOW_FIELDS))})",
+                    [tuple(r[c] for c in WINDOW_FIELDS) for r in rows])
     cur.execute("CREATE INDEX idx_label ON windows(action_label)")
     cur.execute("CREATE INDEX idx_video ON windows(video_id)")
+    cur.execute("CREATE INDEX idx_keep ON windows(keep)")
+    cur.execute("CREATE VIEW windows_clean AS SELECT * FROM windows WHERE keep=1 AND is_step=1")
     con.commit()
     con.close()
 
-    return {"videos": len(videos), "windows": len(rows), "dir": DB_DIR}
+    from collections import Counter
+    reasons = Counter(r["filter_reason"] for r in rows if not r["keep"])
+    return {"videos": len(videos), "windows": len(rows), "clean_windows": len(clean),
+            "filtered": dict(reasons),
+            "flagged": sum(1 for r in rows if r["validation_flags"]), "dir": DB_DIR}

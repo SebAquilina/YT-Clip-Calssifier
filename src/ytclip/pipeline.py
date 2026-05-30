@@ -108,9 +108,54 @@ def make_label_stub(video_id: str) -> str:
     """Write an empty labels stub for the classifier to fill in."""
     manifest = load_manifest(video_id)
     stub = [{"window": w["index"], "start": w["start"], "end": w["end"],
-             "label": "", "confidence": 0.0, "evidence": ""} for w in manifest["windows"]]
+             "label": "", "confidence": 0.0, "description": ""} for w in manifest["windows"]]
     p = os.path.join(OUT, f"{video_id}.labels.json")
     os.makedirs(OUT, exist_ok=True)
     with open(p, "w") as f:
         json.dump(stub, f, indent=2)
     return p
+
+
+def autolabel_stub(video_id: str) -> dict:
+    """Compute features, then pre-label the windows the objective detectors flag
+    as talking-head / text-card / blank, leaving the ACTION-candidate windows
+    blank for the agent to describe. This both speeds up new videos and grounds
+    the easy-but-error-prone aux windows in detectors rather than guesses.
+
+    Returns {"todo": [window indices needing manual labels], "auto": n}.
+    """
+    from .features import compute_for_video
+    from .filtering import filter_window, has_caption
+    manifest = load_manifest(video_id)
+    feats = compute_for_video(video_id, WORK)
+    rows, todo, auto = [], [], 0
+    n = len(manifest["windows"])
+    for wd in manifest["windows"]:
+        i = wd["index"]
+        ft = feats.get(i, {})
+        keep, reason = filter_window(ft)
+        rec = {"window": i, "start": wd["start"], "end": wd["end"],
+               "label": "", "confidence": 0.0, "description": ""}
+        if not keep:
+            ocr = ft.get("ocr_text", "")
+            if reason == "talking_head":
+                rec.update(label="talking_head", confidence=round(0.5 + 0.4 * ft.get("face_score", 0), 2),
+                           description="Presenter talking to camera (auto-detected: frontal face).")
+            elif reason == "text_overlay":
+                pos = i / max(1, n - 1)
+                lbl = "intro_titlecard" if pos < 0.15 else "outro_cta" if pos > 0.85 else "transition"
+                cap = f" Text reads: '{ocr}'." if has_caption(ft) else ""
+                rec.update(label=lbl, confidence=0.5,
+                           description=f"On-screen text card (auto-detected: static frame, OCR text).{cap}")
+            else:  # blank
+                rec.update(label="transition", confidence=0.5,
+                           description="Blank / near-black frame (auto-detected).")
+            auto += 1
+        else:
+            todo.append(i)
+        rows.append(rec)
+    p = os.path.join(OUT, f"{video_id}.labels.json")
+    os.makedirs(OUT, exist_ok=True)
+    with open(p, "w") as f:
+        json.dump(rows, f, indent=2)
+    return {"path": p, "todo": todo, "auto": auto, "n": n}
