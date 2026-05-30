@@ -1,0 +1,713 @@
+{
+  "video_id": "bE3cn6R9khs",
+  "title": "HOW TO MAKE CANDLES THAT ACTUALLY SMELL GOOD",
+  "url": "https://www.youtube.com/watch?v=bE3cn6R9khs",
+  "duration": 263.0,
+  "source": "storyboard",
+  "n_windows": 33,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.97,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "A white candle, then a 'Stovetopping' title card opens the tutorial.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.97,
+      "end": 15.94,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands hold white wax flakes beside a glass jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.94,
+      "end": 23.91,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "An empty glass jar is cleaned/prepared; a spoon nearby.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 23.91,
+      "end": 31.88,
+      "label": "prepare_container",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A spatula and a fragrance bottle laid out.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 31.88,
+      "end": 39.85,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Chopsticks set up as a wick holder across the jar.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.85,
+      "end": 47.82,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands position the wick with chopsticks.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.82,
+      "end": 55.79,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A black spoon and black pan for the double boiler.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (measure_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.79,
+      "end": 63.76,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The black double-boiler pan set up to melt wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.76,
+      "end": 71.73,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax melting in the black pot over water.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.73,
+      "end": 79.7,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the melting wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.7,
+      "end": 87.67,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting in the black pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.67,
+      "end": 95.64,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Continued stirring of the molten wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.64,
+      "end": 103.61,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass with chopstick wick; wax poured in.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.61,
+      "end": 111.58,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring from the black pot into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 111.58,
+      "end": 119.55,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filled glass in the black pan setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.55,
+      "end": 127.52,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Olive/yellow wax in the pot \u2014 essential oil/fragrance added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->add_fragrance)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 127.52,
+      "end": 135.48,
+      "label": "add_fragrance",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Scented wax melting in the black pot.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (cure_cool->add_fragrance)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 135.48,
+      "end": 143.45,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Chopsticks stir the fragrance into the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->add_fragrance)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 143.45,
+      "end": 151.42,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Black pan and glass; readying to pour.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 151.42,
+      "end": 159.39,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax in the black pot.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 159.39,
+      "end": 167.36,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the scented wax in the pot.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->add_fragrance)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 167.36,
+      "end": 175.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands pour wax into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 175.33,
+      "end": 183.3,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass filling with wax in the black pan.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 183.3,
+      "end": 191.27,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring/pouring the wax into the jar.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 191.27,
+      "end": 199.24,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Two glasses with chopstick wicks filled with yellow wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 199.24,
+      "end": 207.21,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow-wax candles in glasses, chopstick wicks centred.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 207.21,
+      "end": 215.18,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow candle in the glass left to set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 27,
+      "start": 215.18,
+      "end": 223.15,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands at a finished white candle, lighting/adjusting the wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 223.15,
+      "end": 231.12,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The finished candle is lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 231.12,
+      "end": 239.09,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'THANK YOU FOR WATCHING' blue end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 239.09,
+      "end": 247.06,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 247.06,
+      "end": 255.03,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 255.03,
+      "end": 263.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.97,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.97,
+      "end": 15.94,
+      "confidence": 0.55,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.94,
+      "end": 47.82,
+      "confidence": 0.5,
+      "windows": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 47.82,
+      "end": 55.79,
+      "confidence": 0.4,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 55.79,
+      "end": 95.64,
+      "confidence": 0.57,
+      "windows": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 95.64,
+      "end": 111.58,
+      "confidence": 0.5,
+      "windows": [
+        12,
+        13
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 111.58,
+      "end": 119.55,
+      "confidence": 0.4,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 119.55,
+      "end": 143.45,
+      "confidence": 0.5,
+      "windows": [
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 143.45,
+      "end": 151.42,
+      "confidence": 0.45,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 151.42,
+      "end": 159.39,
+      "confidence": 0.5,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 159.39,
+      "end": 167.36,
+      "confidence": 0.5,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 167.36,
+      "end": 207.21,
+      "confidence": 0.57,
+      "windows": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 207.21,
+      "end": 215.18,
+      "confidence": 0.5,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 215.18,
+      "end": 223.15,
+      "confidence": 0.45,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 223.15,
+      "end": 231.12,
+      "confidence": 0.6,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 231.12,
+      "end": 239.09,
+      "confidence": 0.6,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 239.09,
+      "end": 263.0,
+      "confidence": 0.4,
+      "windows": [
+        30,
+        31,
+        32
+      ]
+    }
+  ]
+}
