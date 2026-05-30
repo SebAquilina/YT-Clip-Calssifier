@@ -1,0 +1,16 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Opens from black to a host at a pegboard studio with a blue marbled candle teased alongside."},
+  {"window": 1, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera; close-up of the blue-swirl marble candle as a preview."},
+  {"window": 2, "label": "gather_materials", "confidence": 0.5, "description": "Host talks, then overhead view of small glass dishes and supplies on the bench."},
+  {"window": 3, "label": "add_dye_color", "confidence": 0.5, "description": "Overhead: wax poured from a metal pitcher into dishes with blue dye to make the marble colour."},
+  {"window": 4, "label": "add_dye_color", "confidence": 0.5, "description": "Blue tinted wax in a dish, mixed by hand."},
+  {"window": 5, "label": "pour_wax", "confidence": 0.55, "description": "Hands tilt and rotate a glass, swirling blue wax around the inside to create the marble pattern."},
+  {"window": 6, "label": "pour_wax", "confidence": 0.55, "description": "Continued swirling/tilting of the glass to marble the blue wax up the walls."},
+  {"window": 7, "label": "pour_wax", "confidence": 0.5, "description": "Host reacts, then overhead pouring from the metal pitcher; a timer is shown."},
+  {"window": 8, "label": "cure_cool", "confidence": 0.5, "description": "The marbled glass rests with a timer to let the pattern set before the fill."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.6, "description": "Clear/white wax poured into the marbled glass over a centring stick to fill it."},
+  {"window": 10, "label": "pour_wax", "confidence": 0.55, "description": "The fill wax rises in the marbled glass; host reacts to the result."},
+  {"window": 11, "label": "reveal_result", "confidence": 0.65, "description": "Two finished blue-marble candles shown lit."},
+  {"window": 12, "label": "talking_head", "confidence": 0.55, "description": "Host wraps up at the pegboard."},
+  {"window": 13, "label": "outro_cta", "confidence": 0.6, "description": "'THANKS FOR WATCHING / SUBSCRIBE' end card."}
+]

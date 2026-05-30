@@ -1,0 +1,295 @@
+{
+  "video_id": "fPLxwt3A3pA",
+  "title": "DIY Transparent Candles \u2013 No Gel Wax Needed!Easy Tutorial",
+  "url": "https://www.youtube.com/watch?v=fPLxwt3A3pA",
+  "duration": 118.0,
+  "source": "storyboard",
+  "n_windows": 15,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.87,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A clear glass with red rose pieces is prepared (blurry footage).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.87,
+      "end": 15.73,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red rose/petal pieces and a metal melting pot are gathered.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (prepare_container->gather_materials)"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 15.73,
+      "end": 23.6,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A silicone mould with red shapes and a melting pot on heat.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.6,
+      "end": 31.47,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Hot water'; clear liquid poured into the rose-filled glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.47,
+      "end": 39.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The glass fills with clear wax around embedded red roses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.33,
+      "end": 47.2,
+      "label": "pour_wax",
+      "original_label": "set_wick",
+      "confidence": 0.35,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A stick/wick is positioned in the clear rose candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.2,
+      "end": 55.07,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "More clear wax in the glass with suspended roses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.07,
+      "end": 62.93,
+      "label": "pour_wax",
+      "original_label": "other_unclear",
+      "confidence": 0.35,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Hot water'; a hot-water technique step (blurry).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 62.93,
+      "end": 70.8,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear wax poured around the roses in the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 70.8,
+      "end": 78.67,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass of clear wax with roses; a blue element appears.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 78.67,
+      "end": 86.53,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.35,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A blue swirl forms \u2014 a blue transparent variant being made.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 86.53,
+      "end": 94.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A blue ice-like mass sits in the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.4,
+      "end": 102.27,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The blue transparent candle in the glass is shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 102.27,
+      "end": 110.13,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished blue and rose transparent candles, one shown lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 110.13,
+      "end": 118.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the finished transparent candles with embedded roses.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.87,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.87,
+      "end": 15.73,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 15.73,
+      "end": 23.6,
+      "confidence": 0.4,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 23.6,
+      "end": 94.4,
+      "confidence": 0.38,
+      "windows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 94.4,
+      "end": 118.0,
+      "confidence": 0.44,
+      "windows": [
+        12,
+        13,
+        14
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "video_id": "Kgf2Nhmi_IU",
+  "title": "How to use TOAUTO 1.5L Handheld Wax Melting Kit to Make Christmas Candles? Beginners Candle Making",
+  "url": "https://www.youtube.com/watch?v=Kgf2Nhmi_IU",
+  "duration": 85.0,
+  "source": "storyboard",
+  "n_windows": 11,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.73,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'How to Use the Pro Candle Making Kit' title; scissors, supplies and a purple melting pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.73,
+      "end": 15.45,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax flakes poured into the purple melting pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.45,
+      "end": 23.18,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax melting in the purple pot; silicone moulds nearby.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.18,
+      "end": 30.91,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting in the pot beside white silicone moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 30.91,
+      "end": 38.64,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Ladling/handling the melted wax; moulds and tools on the table.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 38.64,
+      "end": 46.36,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Ladling melted wax into a cup; a scale and moulds alongside.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 46.36,
+      "end": 54.09,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring red-tinted wax into a ball mould; blue dye nearby.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 54.09,
+      "end": 61.82,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a blue ball mould; a heat gun in use.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 61.82,
+      "end": 69.55,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A blue ball candle and a white candle in a cup; wick handling.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 69.55,
+      "end": 77.27,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A white candle on a scale; tree- and shell-shaped silicone moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 77.27,
+      "end": 85.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished moulded candles displayed (red, blue, white, tree and shell shapes).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.73,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.73,
+      "end": 15.45,
+      "confidence": 0.55,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 15.45,
+      "end": 38.64,
+      "confidence": 0.55,
+      "windows": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 38.64,
+      "end": 61.82,
+      "confidence": 0.55,
+      "windows": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 61.82,
+      "end": 69.55,
+      "confidence": 0.45,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 69.55,
+      "end": 77.27,
+      "confidence": 0.45,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 77.27,
+      "end": 85.0,
+      "confidence": 0.6,
+      "windows": [
+        10
+      ]
+    }
+  ]
+}

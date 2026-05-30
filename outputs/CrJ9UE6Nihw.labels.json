@@ -1,0 +1,452 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Host (white tee) opens a full beginners candle guide in a kitchen."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'Easy Guide - Candle Making' title card."
+ },
+ {
+  "window": 3,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Title card; host."
+ },
+ {
+  "window": 4,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead creamy white wax mixture in a bowl."
+ },
+ {
+  "window": 5,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Star-pattern bowl and a wax bag."
+ },
+ {
+  "window": 6,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Hands with a clear bag of wax flakes."
+ },
+ {
+  "window": 7,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Hands with red dye/wax pieces."
+ },
+ {
+  "window": 8,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Red pieces measured into a container."
+ },
+ {
+  "window": 9,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Handling red dye chunks."
+ },
+ {
+  "window": 10,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Star-pattern bowl prepared."
+ },
+ {
+  "window": 11,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands at the star bowl."
+ },
+ {
+  "window": 12,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Prepping the decorative bowl."
+ },
+ {
+  "window": 13,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Metal bowl (double boiler) for melting."
+ },
+ {
+  "window": 14,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Metal bowl with red dye bags."
+ },
+ {
+  "window": 15,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Heat gun over the bowl."
+ },
+ {
+  "window": 16,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Metal melting bowl and star bowl."
+ },
+ {
+  "window": 17,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax added to the metal bowl."
+ },
+ {
+  "window": 18,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Pouring white wax flakes."
+ },
+ {
+  "window": 19,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax in the bowls."
+ },
+ {
+  "window": 20,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring white wax."
+ },
+ {
+  "window": 21,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Pouring white wax flakes."
+ },
+ {
+  "window": 22,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Hands at the white wax bowl."
+ },
+ {
+  "window": 23,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax in the bowl; metal bowl."
+ },
+ {
+  "window": 24,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Metal pot of wax melting on the induction hob."
+ },
+ {
+  "window": 25,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 26,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 27,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 28,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 29,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 30,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 31,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 32,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 34,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Yellow/green wax melting and stirred on the induction hob."
+ },
+ {
+  "window": 35,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Star bowl with wax; wick strings positioned."
+ },
+ {
+  "window": 36,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 37,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 38,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 39,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 40,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 41,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 42,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 43,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 44,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 45,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 46,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 47,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/securing wicks in the star bowl with glue and sticks."
+ },
+ {
+  "window": 48,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Star bowl with white wax."
+ },
+ {
+  "window": 49,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Bowl rim; decorative dots."
+ },
+ {
+  "window": 50,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring green/olive wax into the star bowl."
+ },
+ {
+  "window": 51,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring green wax."
+ },
+ {
+  "window": 52,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Green wax in the star bowl; wicks."
+ },
+ {
+  "window": 53,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Green-wax bowl; wicks held upright."
+ },
+ {
+  "window": 54,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Testing the green colour; pour."
+ },
+ {
+  "window": 55,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring more green wax."
+ },
+ {
+  "window": 56,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Green-wax bowl; wick."
+ },
+ {
+  "window": 57,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Adjusting the wicks in the green wax."
+ },
+ {
+  "window": 58,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Green-wax bowl setting."
+ },
+ {
+  "window": 59,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring white wax as a top layer."
+ },
+ {
+  "window": 60,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "White wax with embedded bits poured over the green."
+ },
+ {
+  "window": 61,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "White-wax top layer in the bowl; wicks."
+ },
+ {
+  "window": 62,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks in the white top layer."
+ },
+ {
+  "window": 63,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "White-wax bowl with wicks."
+ },
+ {
+  "window": 64,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "White-wax bowl with wicks setting."
+ },
+ {
+  "window": 65,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "White-wax bowl setting."
+ },
+ {
+  "window": 66,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Marbled/blue top finished on the bowl candle."
+ },
+ {
+  "window": 67,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 68,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Host holds up the finished bowl candle."
+ },
+ {
+  "window": 69,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera."
+ },
+ {
+  "window": 70,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera."
+ },
+ {
+  "window": 71,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished bowl candle presented."
+ },
+ {
+  "window": 72,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 73,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 74,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

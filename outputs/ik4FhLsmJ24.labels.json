@@ -1,0 +1,20 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Opens from black to a crackling wooden-wick flame close-up — a WoodWick candle-care segment."},
+  {"window": 1, "label": "talking_head", "confidence": 0.55, "description": "Candle flame close-up; host appears to begin the tips."},
+  {"window": 2, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera; hands on the green candle."},
+  {"window": 3, "label": "other_unclear", "confidence": 0.45, "description": "Hands break/trim the burnt wooden wick on the cooled candle (care, not making)."},
+  {"window": 4, "label": "other_unclear", "confidence": 0.45, "description": "Continued wick maintenance on the candle."},
+  {"window": 5, "label": "talking_head", "confidence": 0.55, "description": "Green candle on a wooden coaster; host talks."},
+  {"window": 6, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera."},
+  {"window": 7, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera."},
+  {"window": 8, "label": "talking_head", "confidence": 0.55, "description": "Candle flame close-up; host continues."},
+  {"window": 9, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera."},
+  {"window": 10, "label": "talking_head", "confidence": 0.55, "description": "Host talks; lit candle in frame."},
+  {"window": 11, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera."},
+  {"window": 12, "label": "talking_head", "confidence": 0.55, "description": "Host presents a safety-notes panel."},
+  {"window": 13, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera."},
+  {"window": 14, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera."},
+  {"window": 15, "label": "outro_cta", "confidence": 0.6, "description": "'Thank You' end card over a candle."},
+  {"window": 16, "label": "outro_cta", "confidence": 0.6, "description": "'Thank You' end card."},
+  {"window": 17, "label": "outro_cta", "confidence": 0.6, "description": "'Thank You' end card."}
+]

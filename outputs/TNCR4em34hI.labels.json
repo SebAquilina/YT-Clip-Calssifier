@@ -1,0 +1,258 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.94,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.94,
+  "end": 15.88,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 15.88,
+  "end": 23.81,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 3,
+  "start": 23.81,
+  "end": 31.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 4,
+  "start": 31.75,
+  "end": 39.69,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 5,
+  "start": 39.69,
+  "end": 47.62,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 6,
+  "start": 47.62,
+  "end": 55.56,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 55.56,
+  "end": 63.5,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 8,
+  "start": 63.5,
+  "end": 71.44,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 9,
+  "start": 71.44,
+  "end": 79.38,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 79.38,
+  "end": 87.31,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 11,
+  "start": 87.31,
+  "end": 95.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 12,
+  "start": 95.25,
+  "end": 103.19,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 13,
+  "start": 103.19,
+  "end": 111.12,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 14,
+  "start": 111.12,
+  "end": 119.06,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Amber wax poured into the open Altoids tin."
+ },
+ {
+  "window": 15,
+  "start": 119.06,
+  "end": 127.0,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Wick set in the tin."
+ },
+ {
+  "window": 16,
+  "start": 127.0,
+  "end": 134.94,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "The tin candle setting."
+ },
+ {
+  "window": 17,
+  "start": 134.94,
+  "end": 142.88,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host (glasses) talks/works at the table making an Altoids-tin candle."
+ },
+ {
+  "window": 18,
+  "start": 142.88,
+  "end": 150.81,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 19,
+  "start": 150.81,
+  "end": 158.75,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 20,
+  "start": 158.75,
+  "end": 166.69,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 166.69,
+  "end": 174.62,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 22,
+  "start": 174.62,
+  "end": 182.56,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 23,
+  "start": 182.56,
+  "end": 190.5,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 24,
+  "start": 190.5,
+  "end": 198.44,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 25,
+  "start": 198.44,
+  "end": 206.38,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 26,
+  "start": 206.38,
+  "end": 214.31,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 27,
+  "start": 214.31,
+  "end": 222.25,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 28,
+  "start": 222.25,
+  "end": 230.19,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 29,
+  "start": 230.19,
+  "end": 238.12,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 30,
+  "start": 238.12,
+  "end": 246.06,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 31,
+  "start": 246.06,
+  "end": 254.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.89,
+  "label": "measure_wax",
+  "confidence": 0.55,
+  "description": "Overhead on a purple swirl cloth: a metal saucepan holds white wax chunks."
+ },
+ {
+  "window": 1,
+  "start": 7.89,
+  "end": 15.78,
+  "label": "melt_wax",
+  "confidence": 0.6,
+  "description": "The saucepan of white wax sits on a blue induction burner, melting."
+ },
+ {
+  "window": 2,
+  "start": 15.78,
+  "end": 23.67,
+  "label": "prepare_container",
+  "confidence": 0.55,
+  "description": "Hands lay out a wick/sticker, small glass cups and supply packets."
+ },
+ {
+  "window": 3,
+  "start": 23.67,
+  "end": 31.56,
+  "label": "prepare_container",
+  "confidence": 0.55,
+  "description": "A wick is fixed into a small glass cup while the wax pot is stirred."
+ },
+ {
+  "window": 4,
+  "start": 31.56,
+  "end": 39.44,
+  "label": "melt_wax",
+  "confidence": 0.6,
+  "description": "A hand stirs the melting wax in the saucepan with a stick."
+ },
+ {
+  "window": 5,
+  "start": 39.44,
+  "end": 47.33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Continued stirring of the melting wax; a wicked glass cup waits."
+ },
+ {
+  "window": 6,
+  "start": 47.33,
+  "end": 55.22,
+  "label": "pour_wax",
+  "confidence": 0.6,
+  "description": "Purple-tinted melted wax is poured into a small cup."
+ },
+ {
+  "window": 7,
+  "start": 55.22,
+  "end": 63.11,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring purple wax into cups; finished purple candles with pink tulips appear."
+ },
+ {
+  "window": 8,
+  "start": 63.11,
+  "end": 71.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ss Neat 5 rm Re, YY fs Fal'."
+ }
+]

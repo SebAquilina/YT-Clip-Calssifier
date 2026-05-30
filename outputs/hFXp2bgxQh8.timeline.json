@@ -1,0 +1,267 @@
+{
+  "video_id": "hFXp2bgxQh8",
+  "title": "how to easily set up a wooden wick \ud83d\udd6f\ufe0f candle making tips",
+  "url": "https://www.youtube.com/watch?v=hFXp2bgxQh8",
+  "duration": 107.0,
+  "source": "storyboard",
+  "n_windows": 13,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.23,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.55,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (long braid, white outfit) stands in a bright studio with candle shelves, introducing a wooden-wick setup tutorial.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.23,
+      "end": 16.46,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Close-up on white marble of wooden-wick clips and a green dish; caption 'WOODEN WICK CLIPS'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.46,
+      "end": 24.69,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wooden wick height is measured against a vessel with a ruler before trimming.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.69,
+      "end": 32.92,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands handle a wick sticker and the glass vessel; captions 'WICK STICKERS' and 'CANDLE VESSEL'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.92,
+      "end": 41.15,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wooden wick is seated into its metal clip; captions 'CANDLE VESSEL' / 'WOODEN WICKS'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 41.15,
+      "end": 49.38,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands assemble the wooden wick into the metal base clip on the marble surface.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 49.38,
+      "end": 57.62,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wick-and-clip assembly is positioned and pressed toward the glass vessel.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 57.62,
+      "end": 65.85,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands press the wick sticker/clip onto the inside base of the empty glass vessel.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.85,
+      "end": 74.08,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wooden wick is fixed to the bottom of the glass; a green dish of supplies nearby.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 74.08,
+      "end": 82.31,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands centre and adjust the wooden wick upright in the empty glass vessel.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 82.31,
+      "end": 90.54,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host returns to camera in the studio to explain the setup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 90.54,
+      "end": 98.77,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host continues talking to camera about wooden wicks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 98.77,
+      "end": 107.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host wraps up the tutorial to camera.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.23,
+      "confidence": 0.55,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.23,
+      "end": 16.46,
+      "confidence": 0.55,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 16.46,
+      "end": 74.08,
+      "confidence": 0.58,
+      "windows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 74.08,
+      "end": 82.31,
+      "confidence": 0.55,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 82.31,
+      "end": 98.77,
+      "confidence": 0.6,
+      "windows": [
+        10,
+        11
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 98.77,
+      "end": 107.0,
+      "confidence": 0.5,
+      "windows": [
+        12
+      ]
+    }
+  ]
+}

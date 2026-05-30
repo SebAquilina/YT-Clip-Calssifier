@@ -1,0 +1,23 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Opens from black to a host (white shirt) introducing a soy tealight project; pink dye swatch."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.55, "description": "Host beside a tray of pink/red tealight cups."},
+  {"window": 2, "label": "gather_materials", "confidence": 0.6, "description": "Materials list caption: soy wax, tealight cups, wicks, wick stickers, fragrance, candle dye."},
+  {"window": 3, "label": "gather_materials", "confidence": 0.5, "description": "Host presents the supplies list to camera."},
+  {"window": 4, "label": "gather_materials", "confidence": 0.5, "description": "Supplies list with candle dye highlighted."},
+  {"window": 5, "label": "melt_wax", "confidence": 0.6, "description": "Soy wax melting in a black pot on an induction hob."},
+  {"window": 6, "label": "melt_wax", "confidence": 0.6, "description": "The wax continues melting in the black pot."},
+  {"window": 7, "label": "prepare_container", "confidence": 0.55, "description": "Wick stickers/wicks placed into the grid of empty tealight cups."},
+  {"window": 8, "label": "melt_wax", "confidence": 0.55, "description": "Pot on the induction hob; wax melting, host intercut."},
+  {"window": 9, "label": "melt_wax", "confidence": 0.55, "description": "Melted wax in the black pot."},
+  {"window": 10, "label": "add_fragrance", "confidence": 0.45, "description": "Fragrance/dye stirred into the molten (yellow) wax before pouring."},
+  {"window": 11, "label": "pour_wax", "confidence": 0.6, "description": "Molten wax poured from the pot into a tealight cup."},
+  {"window": 12, "label": "pour_wax", "confidence": 0.6, "description": "Host pours wax into the row of tealight cups."},
+  {"window": 13, "label": "pour_wax", "confidence": 0.6, "description": "A tray of red tealight cups being filled."},
+  {"window": 14, "label": "pour_wax", "confidence": 0.6, "description": "The full tray of red tealights is poured."},
+  {"window": 15, "label": "cure_cool", "confidence": 0.5, "description": "Filled red tealights begin to set; a dye drop shown."},
+  {"window": 16, "label": "cure_cool", "confidence": 0.5, "description": "Tray of red tealights cooling."},
+  {"window": 17, "label": "cure_cool", "confidence": 0.5, "description": "Red tealights setting in the tray."},
+  {"window": 18, "label": "set_wick", "confidence": 0.45, "description": "Wicks centred in the set red tealights."},
+  {"window": 19, "label": "outro_cta", "confidence": 0.6, "description": "'THANKS FOR WATCHING' end card."},
+  {"window": 20, "label": "outro_cta", "confidence": 0.6, "description": "'THANKS FOR WATCHING' end card."}
+]

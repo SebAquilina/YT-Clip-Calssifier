@@ -1,0 +1,791 @@
+{
+  "video_id": "BskHsZWNhRw",
+  "title": "DIY WATER CANDLES // Easy DIY CANDLES AT HOME",
+  "url": "https://www.youtube.com/watch?v=BskHsZWNhRw",
+  "duration": 300.0,
+  "source": "storyboard",
+  "n_windows": 38,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.89,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink-themed overhead; a round glass vessel readied for a decorative water/gel candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.89,
+      "end": 15.79,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dried flowers and decorative elements gathered.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (prepare_container->gather_materials)"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 15.79,
+      "end": 23.68,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Flowers/decor placed into the round glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.68,
+      "end": 31.58,
+      "label": "decorate_finish",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink wax/gel added into the glass.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 31.58,
+      "end": 39.47,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Arranging flowers and glitter in the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.47,
+      "end": 47.37,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink colour worked into the gel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->add_dye_color)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.37,
+      "end": 55.26,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "More pink gel poured into the vessel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.26,
+      "end": 63.16,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Embedding glitter and petals.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.16,
+      "end": 71.05,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink gel poured into the round glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.05,
+      "end": 78.95,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The glass fills with pink gel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 78.95,
+      "end": 86.84,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding decorations to the gel.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 86.84,
+      "end": 94.74,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Continued pink gel pour.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 94.74,
+      "end": 102.63,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Building the pink gel candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 102.63,
+      "end": 110.53,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Arranging embedded decor.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 110.53,
+      "end": 118.42,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "More gel poured.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 118.42,
+      "end": 126.32,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling the round glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 126.32,
+      "end": 134.21,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Deeper pink/red colour added.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->add_dye_color)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 134.21,
+      "end": 142.11,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Final decor placed in the pink candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.11,
+      "end": 150.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Top gel layer poured.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 150.0,
+      "end": 157.89,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finishing the pink gel fill.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 157.89,
+      "end": 165.79,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adjusting the embedded flowers.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 165.79,
+      "end": 173.68,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Topping off the pink candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 173.68,
+      "end": 181.58,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Completing the pink gel candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 181.58,
+      "end": 189.47,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The finished pink flower gel candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 189.47,
+      "end": 197.37,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink round candle with embedded flowers.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 197.37,
+      "end": 205.26,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A clear round glass readied for a second (purple) candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 205.26,
+      "end": 213.16,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wick/clear gel base set in the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 213.16,
+      "end": 221.05,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Positioning the wick in the clear glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 221.05,
+      "end": 228.95,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dark/purple gel poured into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 228.95,
+      "end": 236.84,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Purple gel fills the round vessel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 236.84,
+      "end": 244.74,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Purple colour deepens in the gel.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 244.74,
+      "end": 252.63,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Topping the purple gel candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 252.63,
+      "end": 260.53,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Purple candle left to set.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 260.53,
+      "end": 268.42,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The finished purple gel candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 268.42,
+      "end": 276.32,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Purple candle shown lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 276.32,
+      "end": 284.21,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lit purple candle close-up.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 284.21,
+      "end": 292.11,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 292.11,
+      "end": 300.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Sparkle-background outro frame.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.89,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.89,
+      "end": 15.79,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 15.79,
+      "end": 39.47,
+      "confidence": 0.4,
+      "windows": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 39.47,
+      "end": 47.37,
+      "confidence": 0.4,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 47.37,
+      "end": 126.32,
+      "confidence": 0.4,
+      "windows": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 126.32,
+      "end": 134.21,
+      "confidence": 0.4,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 134.21,
+      "end": 142.11,
+      "confidence": 0.4,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 142.11,
+      "end": 181.58,
+      "confidence": 0.4,
+      "windows": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 181.58,
+      "end": 197.37,
+      "confidence": 0.45,
+      "windows": [
+        23,
+        24
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 197.37,
+      "end": 213.16,
+      "confidence": 0.4,
+      "windows": [
+        25,
+        26
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 213.16,
+      "end": 221.05,
+      "confidence": 0.4,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 221.05,
+      "end": 252.63,
+      "confidence": 0.43,
+      "windows": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 252.63,
+      "end": 260.53,
+      "confidence": 0.4,
+      "windows": [
+        32
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 260.53,
+      "end": 292.11,
+      "confidence": 0.47,
+      "windows": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 292.11,
+      "end": 300.0,
+      "confidence": 0.4,
+      "windows": [
+        37
+      ]
+    }
+  ]
+}

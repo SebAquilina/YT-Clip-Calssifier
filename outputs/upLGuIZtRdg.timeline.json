@@ -1,0 +1,1051 @@
+{
+  "video_id": "upLGuIZtRdg",
+  "title": "Create Candles Like a Pro: 3 Mistakes to Avoid",
+  "url": "https://www.youtube.com/watch?v=upLGuIZtRdg",
+  "duration": 439.0,
+  "source": "storyboard",
+  "n_windows": 55,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.98,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.98,
+      "end": 15.96,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.96,
+      "end": 23.95,
+      "label": "talking_head",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 23.95,
+      "end": 31.93,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.93,
+      "end": 39.91,
+      "label": "talking_head",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Pouring wax flakes into a metal bowl.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.91,
+      "end": 47.89,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.89,
+      "end": 55.87,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.87,
+      "end": 63.85,
+      "label": "talking_head",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Pouring wax flakes into a metal bowl.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.85,
+      "end": 71.84,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.84,
+      "end": 79.82,
+      "label": "talking_head",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Metal bowl of wax melting on the hot plate.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.82,
+      "end": 87.8,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.8,
+      "end": 95.78,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.78,
+      "end": 103.76,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.76,
+      "end": 111.75,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 111.75,
+      "end": 119.73,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.73,
+      "end": 127.71,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.71,
+      "end": 135.69,
+      "label": "talking_head",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Metal bowl of wax melting on the hot plate.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 135.69,
+      "end": 143.67,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 143.67,
+      "end": 151.65,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 151.65,
+      "end": 159.64,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal bowl of wax melting on the hot plate.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 159.64,
+      "end": 167.62,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "'Mistake no.1: Fragrance oil'; fragrance discussed.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 167.62,
+      "end": 175.6,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 175.6,
+      "end": 183.58,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common candle-making mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 183.58,
+      "end": 191.56,
+      "label": "talking_head",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Metal bowl of wax melting on the hot plate.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 191.56,
+      "end": 199.55,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 199.55,
+      "end": 207.53,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the metal bowl on the hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 207.53,
+      "end": 215.51,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the metal bowl on the hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 215.51,
+      "end": 223.49,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the metal bowl on the hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 223.49,
+      "end": 231.47,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the metal bowl on the hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 231.47,
+      "end": 239.45,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 239.45,
+      "end": 247.44,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 247.44,
+      "end": 255.42,
+      "label": "talking_head",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Mistake caption card (sinkholes / cracks).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 255.42,
+      "end": 263.4,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 263.4,
+      "end": 271.38,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 271.38,
+      "end": 279.36,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the metal bowl on the hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 279.36,
+      "end": 287.35,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the metal bowl on the hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 287.35,
+      "end": 295.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 295.33,
+      "end": 303.31,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Mistake caption card (sinkholes / cracks).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 303.31,
+      "end": 311.29,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a candle with florals.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 311.29,
+      "end": 319.27,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the metal bowl on the hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 319.27,
+      "end": 327.25,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 327.25,
+      "end": 335.24,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of candles set.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 42,
+      "start": 335.24,
+      "end": 343.22,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 343.22,
+      "end": 351.2,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 351.2,
+      "end": 359.18,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 359.18,
+      "end": 367.16,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (3 common mistakes).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 367.16,
+      "end": 375.15,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a candle with florals.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 47,
+      "start": 375.15,
+      "end": 383.13,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a candle with florals.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 48,
+      "start": 383.13,
+      "end": 391.11,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 391.11,
+      "end": 399.09,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 399.09,
+      "end": 407.07,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 407.07,
+      "end": 415.05,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 52,
+      "start": 415.05,
+      "end": 423.04,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 53,
+      "start": 423.04,
+      "end": 431.02,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 54,
+      "start": 431.02,
+      "end": 439.0,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 0.0,
+      "end": 151.65,
+      "confidence": 0.53,
+      "windows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 151.65,
+      "end": 159.64,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 159.64,
+      "end": 167.62,
+      "confidence": 0.4,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 167.62,
+      "end": 199.55,
+      "confidence": 0.51,
+      "windows": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 199.55,
+      "end": 231.47,
+      "confidence": 0.5,
+      "windows": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 231.47,
+      "end": 271.38,
+      "confidence": 0.6,
+      "windows": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 271.38,
+      "end": 287.35,
+      "confidence": 0.5,
+      "windows": [
+        34,
+        35
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 287.35,
+      "end": 295.33,
+      "confidence": 0.5,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 295.33,
+      "end": 303.31,
+      "confidence": 0.6,
+      "windows": [
+        37
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 303.31,
+      "end": 311.29,
+      "confidence": 0.5,
+      "windows": [
+        38
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 311.29,
+      "end": 319.27,
+      "confidence": 0.5,
+      "windows": [
+        39
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 319.27,
+      "end": 327.25,
+      "confidence": 0.6,
+      "windows": [
+        40
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 327.25,
+      "end": 335.24,
+      "confidence": 0.5,
+      "windows": [
+        41
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 335.24,
+      "end": 343.22,
+      "confidence": 0.5,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 343.22,
+      "end": 367.16,
+      "confidence": 0.6,
+      "windows": [
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 367.16,
+      "end": 383.13,
+      "confidence": 0.5,
+      "windows": [
+        46,
+        47
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 383.13,
+      "end": 399.09,
+      "confidence": 0.6,
+      "windows": [
+        48,
+        49
+      ]
+    },
+    {
+      "label": "blank",
+      "phase": "aux",
+      "is_step": false,
+      "start": 399.09,
+      "end": 439.0,
+      "confidence": 0.6,
+      "windows": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    }
+  ]
+}

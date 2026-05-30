@@ -1,0 +1,21 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Dark elegant overhead flat-lay with lit tins, palm leaf and flowers; opening title."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.55, "description": "Overhead: beeswax block, a jar of coconut oil and metal tins laid out."},
+  {"window": 2, "label": "gather_materials", "confidence": 0.5, "description": "Tins and ingredients arranged on the dark surface."},
+  {"window": 3, "label": "melt_wax", "confidence": 0.6, "description": "Overhead double-boiler pot with beeswax beginning to melt."},
+  {"window": 4, "label": "melt_wax", "confidence": 0.55, "description": "Coconut oil measured/added into the melting pot."},
+  {"window": 5, "label": "melt_wax", "confidence": 0.6, "description": "The wax-and-oil blend melts in the pot, stirred."},
+  {"window": 6, "label": "add_fragrance", "confidence": 0.55, "description": "Essential oil (green bottle) stirred into the melted base."},
+  {"window": 7, "label": "melt_wax", "confidence": 0.5, "description": "More blending of the molten wax/oil in the pot."},
+  {"window": 8, "label": "melt_wax", "confidence": 0.5, "description": "Stirring the pot to fully combine."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.6, "description": "Molten wax poured into the metal tins."},
+  {"window": 10, "label": "pour_wax", "confidence": 0.6, "description": "Tins filled with wax around their wicks."},
+  {"window": 11, "label": "set_wick", "confidence": 0.5, "description": "Wicks centred in the freshly poured tins."},
+  {"window": 12, "label": "set_wick", "confidence": 0.5, "description": "Hands adjust the wicks as the tins set."},
+  {"window": 13, "label": "cure_cool", "confidence": 0.5, "description": "Filled tins left to set amid the floral decor."},
+  {"window": 14, "label": "reveal_result", "confidence": 0.6, "description": "Finished tins shown lit in the styled flat-lay."},
+  {"window": 15, "label": "reveal_result", "confidence": 0.6, "description": "Beauty shot of the lit beeswax-coconut candles."},
+  {"window": 16, "label": "outro_cta", "confidence": 0.55, "description": "'THANKS FOR WATCHING' end card."},
+  {"window": 17, "label": "outro_cta", "confidence": 0.55, "description": "Thanks card over lit candles."},
+  {"window": 18, "label": "reveal_result", "confidence": 0.45, "description": "Final lit-candle shot."}
+]

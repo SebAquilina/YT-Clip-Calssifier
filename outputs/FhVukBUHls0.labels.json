@@ -1,0 +1,16 @@
+[
+  {"window": 0, "label": "gather_materials", "confidence": 0.55, "description": "Overhead: hands unpack the candle kit — a wax block, vacuum-packed wax, and supply packets laid on the bench."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.5, "description": "Kit packets, the electronic hotplate and a metal melting pan are arranged for the build."},
+  {"window": 2, "label": "measure_wax", "confidence": 0.55, "description": "Vacuum-packed white wax bricks are laid out and portioned into the pan."},
+  {"window": 3, "label": "melt_wax", "confidence": 0.65, "description": "White wax melts in the metal pan on the electronic hotplate, stirred with a stick."},
+  {"window": 4, "label": "melt_wax", "confidence": 0.65, "description": "Continued stirring of the melting white wax in the pan."},
+  {"window": 5, "label": "pour_wax", "confidence": 0.6, "description": "Molten wax is poured into a glass and stirred with a stick."},
+  {"window": 6, "label": "pour_wax", "confidence": 0.5, "description": "The glass holds poured wax; hands work with the pan alongside."},
+  {"window": 7, "label": "add_dye_color", "confidence": 0.5, "description": "Green colour is introduced — a metal pitcher of wax turns green."},
+  {"window": 8, "label": "add_dye_color", "confidence": 0.5, "description": "Green molten wax is stirred in the pitcher."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.6, "description": "Green wax is poured into the glass; a clip holds the wick centred."},
+  {"window": 10, "label": "set_wick", "confidence": 0.55, "description": "Hands adjust the wick peg/clip on the glass rim as the wax sets."},
+  {"window": 11, "label": "decorate_finish", "confidence": 0.45, "description": "Hands smooth/finish the candle top on a tray."},
+  {"window": 12, "label": "outro_cta", "confidence": 0.55, "description": "Decorative branded end card ('PERFECT REVIEW')."},
+  {"window": 13, "label": "outro_cta", "confidence": 0.55, "description": "Branded end card."}
+]

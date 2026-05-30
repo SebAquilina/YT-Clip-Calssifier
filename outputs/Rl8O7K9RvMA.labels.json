@@ -1,0 +1,16 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.55, "description": "Opens to a 'SUPPLIES FOR CANDLES' branded title card."},
+  {"window": 1, "label": "prepare_container", "confidence": 0.65, "description": "Finished blue layered candle teaser, then hands peel a wick sticker; caption 'Peel off the wick stick and place it onto the end of the candle wick'."},
+  {"window": 2, "label": "prepare_container", "confidence": 0.65, "description": "Caption 'Peel off the other side and place the wick in the middle of your candle glass'; wick fixed into the glass."},
+  {"window": 3, "label": "measure_wax", "confidence": 0.6, "description": "White wax flakes in a metal bowl; captions 'split your measured wax into three separate bowls' and 'Fill your pan halfway with boiling water'."},
+  {"window": 4, "label": "melt_wax", "confidence": 0.65, "description": "Caption 'Melt your first wax layer ... and stir until melted'; wax melting in the bowl over the water bath."},
+  {"window": 5, "label": "add_dye_color", "confidence": 0.65, "description": "Dark blue dye added and stirred in; caption 'For your dark colour add around ten drops of your chosen dye and stir'."},
+  {"window": 6, "label": "add_fragrance", "confidence": 0.6, "description": "Caption 'Wait until your wax has cooled to 61°C then add your chosen fragrance'; stirring the blue wax."},
+  {"window": 7, "label": "pour_wax", "confidence": 0.7, "description": "Caption 'Transfer your wax into a pouring jug then slowly pour your mix into your glass'; first dark layer poured."},
+  {"window": 8, "label": "add_dye_color", "confidence": 0.55, "description": "Second layer prepared; captions about adding the wick-centering tool, waiting ~2 hours, and adding ~5 dye drops for the mid colour."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.7, "description": "Caption 'Slowly pour your next layer and wait around 2 hours before pouring the next layer'; second blue layer poured."},
+  {"window": 10, "label": "add_dye_color", "confidence": 0.55, "description": "Caption 'Melt the wax for your last layer and add one drop for your light colour'; lightest layer tinted."},
+  {"window": 11, "label": "pour_wax", "confidence": 0.65, "description": "Caption 'Slowly pour your last layer'; the final light-blue layer poured into the glass."},
+  {"window": 12, "label": "cure_cool", "confidence": 0.55, "description": "Finished blue ombre layered candle with white flowers; caption 'Leave your candle to set overnight before lighting'."},
+  {"window": 13, "label": "outro_cta", "confidence": 0.6, "description": "'THANK YOU FOR WATCHING' end card with flowers."}
+]

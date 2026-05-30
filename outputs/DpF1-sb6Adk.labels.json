@@ -1,0 +1,354 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.93,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 1,
+  "start": 7.93,
+  "end": 15.86,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Host shows candle dye blocks/bottles."
+ },
+ {
+  "window": 2,
+  "start": 15.86,
+  "end": 23.8,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 3,
+  "start": 23.8,
+  "end": 31.73,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 4,
+  "start": 31.73,
+  "end": 39.66,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 5,
+  "start": 39.66,
+  "end": 47.59,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 6,
+  "start": 47.59,
+  "end": 55.52,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 7,
+  "start": 55.52,
+  "end": 63.45,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 8,
+  "start": 63.45,
+  "end": 71.39,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 9,
+  "start": 71.39,
+  "end": 79.32,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 10,
+  "start": 79.32,
+  "end": 87.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 11,
+  "start": 87.25,
+  "end": 95.18,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 12,
+  "start": 95.18,
+  "end": 103.11,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 13,
+  "start": 103.11,
+  "end": 111.05,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 14,
+  "start": 111.05,
+  "end": 118.98,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 15,
+  "start": 118.98,
+  "end": 126.91,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 16,
+  "start": 126.91,
+  "end": 134.84,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 17,
+  "start": 134.84,
+  "end": 142.77,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Overhead: pouring/mixing dye into the wax (green/red)."
+ },
+ {
+  "window": 18,
+  "start": 142.77,
+  "end": 150.7,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Overhead: pouring/mixing dye into the wax (green/red)."
+ },
+ {
+  "window": 19,
+  "start": 150.7,
+  "end": 158.64,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 20,
+  "start": 158.64,
+  "end": 166.57,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Overhead: pouring/mixing dye into the wax (green/red)."
+ },
+ {
+  "window": 21,
+  "start": 166.57,
+  "end": 174.5,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring coloured wax into a glass."
+ },
+ {
+  "window": 22,
+  "start": 174.5,
+  "end": 182.43,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 23,
+  "start": 182.43,
+  "end": 190.36,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Overhead: pouring/mixing dye into the wax (green/red)."
+ },
+ {
+  "window": 24,
+  "start": 190.36,
+  "end": 198.3,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 25,
+  "start": 198.3,
+  "end": 206.23,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Fae ae Bs 4 St ae ea Se lg eg aed'."
+ },
+ {
+  "window": 26,
+  "start": 206.23,
+  "end": 214.16,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 27,
+  "start": 214.16,
+  "end": 222.09,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 28,
+  "start": 222.09,
+  "end": 230.02,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 29,
+  "start": 230.02,
+  "end": 237.95,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 30,
+  "start": 237.95,
+  "end": 245.89,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 31,
+  "start": 245.89,
+  "end": 253.82,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 32,
+  "start": 253.82,
+  "end": 261.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 33,
+  "start": 261.75,
+  "end": 269.68,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 34,
+  "start": 269.68,
+  "end": 277.61,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 35,
+  "start": 277.61,
+  "end": 285.55,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "ProCandleSupply host talks to camera about colouring soy candles."
+ },
+ {
+  "window": 36,
+  "start": 285.55,
+  "end": 293.48,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished coloured candles shown."
+ },
+ {
+  "window": 37,
+  "start": 293.48,
+  "end": 301.41,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished coloured candles shown."
+ },
+ {
+  "window": 38,
+  "start": 301.41,
+  "end": 309.34,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished coloured candles shown."
+ },
+ {
+  "window": 39,
+  "start": 309.34,
+  "end": 317.27,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished coloured candles shown."
+ },
+ {
+  "window": 40,
+  "start": 317.27,
+  "end": 325.2,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished coloured candles shown."
+ },
+ {
+  "window": 41,
+  "start": 325.2,
+  "end": 333.14,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 42,
+  "start": 333.14,
+  "end": 341.07,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 43,
+  "start": 341.07,
+  "end": 349.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

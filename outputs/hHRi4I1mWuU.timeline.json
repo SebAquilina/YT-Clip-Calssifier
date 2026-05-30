@@ -1,0 +1,2156 @@
+{
+  "video_id": "hHRi4I1mWuU",
+  "title": "Everyone\u2019s freaking out over these Candle HACKS using Dollar Tree Candles",
+  "url": "https://www.youtube.com/watch?v=hHRi4I1mWuU",
+  "duration": 883.0,
+  "source": "storyboard",
+  "n_windows": 110,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.03,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Kitchen setup; glasses and oven for coffee candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.03,
+      "end": 16.05,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Kitchen setup; glasses and oven for coffee candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.05,
+      "end": 24.08,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Kitchen setup; glasses and oven for coffee candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.08,
+      "end": 32.11,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Kitchen setup; glasses and oven for coffee candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.11,
+      "end": 40.14,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting/colouring wax for the coffee candle (oven/microwave).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.14,
+      "end": 48.16,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the brown 'coffee' wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.16,
+      "end": 56.19,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding whipped-cream foam and coffee-bean decor.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.19,
+      "end": 64.22,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished latte/coffee candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.22,
+      "end": 72.25,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting/colouring wax for the coffee candle (oven/microwave).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.25,
+      "end": 80.27,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the brown 'coffee' wax into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 80.27,
+      "end": 88.3,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding whipped-cream foam and coffee-bean decor.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 88.3,
+      "end": 96.33,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished latte/coffee candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.33,
+      "end": 104.35,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting/colouring wax for the coffee candle (oven/microwave).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.35,
+      "end": 112.38,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the brown 'coffee' wax into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 112.38,
+      "end": 120.41,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding whipped-cream foam and coffee-bean decor.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 120.41,
+      "end": 128.44,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished latte/coffee candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 128.44,
+      "end": 136.46,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting/colouring wax for the coffee candle (oven/microwave).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 136.46,
+      "end": 144.49,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the brown 'coffee' wax into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 144.49,
+      "end": 152.52,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Product grid card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 152.52,
+      "end": 160.55,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished latte/coffee candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 160.55,
+      "end": 168.57,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting/colouring wax for the coffee candle (oven/microwave).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 168.57,
+      "end": 176.6,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the brown 'coffee' wax into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 176.6,
+      "end": 184.63,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding whipped-cream foam and coffee-bean decor.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 184.63,
+      "end": 192.65,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished latte/coffee candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 192.65,
+      "end": 200.68,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Product/ingredient cards shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 200.68,
+      "end": 208.71,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax measured in a Pyrex measuring cup on the cutting board.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->measure_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 208.71,
+      "end": 216.74,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipping green wax with an immersion blender + whisk in the Pyrex.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 216.74,
+      "end": 224.76,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipping green wax with the immersion blender.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 224.76,
+      "end": 232.79,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipping green wax with the immersion blender.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 232.79,
+      "end": 240.82,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipping green wax with the immersion blender.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 240.82,
+      "end": 248.85,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipping green wax with the immersion blender.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 248.85,
+      "end": 256.87,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipping green wax to a creamy consistency.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 256.87,
+      "end": 264.9,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipped green wax in the Pyrex.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 264.9,
+      "end": 272.93,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipped cream-coloured wax; spooning into a cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 272.93,
+      "end": 280.95,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipped white wax in the cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 280.95,
+      "end": 288.98,
+      "label": "decorate_finish",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red colourant in a small dish.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 288.98,
+      "end": 297.01,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Whipped white wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 37,
+      "start": 297.01,
+      "end": 305.04,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping/placing whipped white wax by hand.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 305.04,
+      "end": 313.06,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Three finished red/green pillar drink candles (gingerbread backdrop).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 313.06,
+      "end": 321.09,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a square silicone mould near the oven.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 321.09,
+      "end": 329.12,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling a piping bag with wax at the stove (blue gloves).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 41,
+      "start": 329.12,
+      "end": 337.15,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping-bag of wax at the stove.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 42,
+      "start": 337.15,
+      "end": 345.17,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring coloured wax into tree/star silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 43,
+      "start": 345.17,
+      "end": 353.2,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring coloured wax into the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 44,
+      "start": 353.2,
+      "end": 361.23,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping green wax rosettes onto the surface.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 45,
+      "start": 361.23,
+      "end": 369.25,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piped green/red wax rosettes; ice-cube mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 46,
+      "start": 369.25,
+      "end": 377.28,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding red/green wax trees from the silicone mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 47,
+      "start": 377.28,
+      "end": 385.31,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Moulded red/green wax trees laid out.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 385.31,
+      "end": 393.34,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 393.34,
+      "end": 401.36,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 50,
+      "start": 401.36,
+      "end": 409.39,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 409.39,
+      "end": 417.42,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 417.42,
+      "end": 425.45,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 53,
+      "start": 425.45,
+      "end": 433.47,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 433.47,
+      "end": 441.5,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 55,
+      "start": 441.5,
+      "end": 449.53,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 56,
+      "start": 449.53,
+      "end": 457.55,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 57,
+      "start": 457.55,
+      "end": 465.58,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 58,
+      "start": 465.58,
+      "end": 473.61,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 473.61,
+      "end": 481.64,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 60,
+      "start": 481.64,
+      "end": 489.66,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 61,
+      "start": 489.66,
+      "end": 497.69,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 62,
+      "start": 497.69,
+      "end": 505.72,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 63,
+      "start": 505.72,
+      "end": 513.75,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 64,
+      "start": 513.75,
+      "end": 521.77,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 65,
+      "start": 521.77,
+      "end": 529.8,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 66,
+      "start": 529.8,
+      "end": 537.83,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 67,
+      "start": 537.83,
+      "end": 545.85,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 68,
+      "start": 545.85,
+      "end": 553.88,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 69,
+      "start": 553.88,
+      "end": 561.91,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 70,
+      "start": 561.91,
+      "end": 569.94,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished parfait/drink dessert candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 71,
+      "start": 569.94,
+      "end": 577.96,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a parfait/drink dessert candle (cream, red toppings).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 72,
+      "start": 577.96,
+      "end": 585.99,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a pink drink candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 73,
+      "start": 585.99,
+      "end": 594.02,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a candle by hand.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 74,
+      "start": 594.02,
+      "end": 602.05,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle shown.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 75,
+      "start": 602.05,
+      "end": 610.07,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating a candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 76,
+      "start": 610.07,
+      "end": 618.1,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 77,
+      "start": 618.1,
+      "end": 626.13,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 78,
+      "start": 626.13,
+      "end": 634.15,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 79,
+      "start": 634.15,
+      "end": 642.18,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 80,
+      "start": 642.18,
+      "end": 650.21,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating cookie-shaped candles.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 81,
+      "start": 650.21,
+      "end": 658.24,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished cookie candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 82,
+      "start": 658.24,
+      "end": 666.26,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Working pink wax.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 83,
+      "start": 666.26,
+      "end": 674.29,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink dome candles in the mould.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 84,
+      "start": 674.29,
+      "end": 682.32,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Round cookie candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 85,
+      "start": 682.32,
+      "end": 690.35,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Cookie candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 86,
+      "start": 690.35,
+      "end": 698.37,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring red wax into a dome silicone mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 87,
+      "start": 698.37,
+      "end": 706.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring into the dome mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 88,
+      "start": 706.4,
+      "end": 714.43,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding cookie candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 89,
+      "start": 714.43,
+      "end": 722.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding/assembling cookie candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 90,
+      "start": 722.45,
+      "end": 730.48,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 91,
+      "start": 730.48,
+      "end": 738.51,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 92,
+      "start": 738.51,
+      "end": 746.54,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping whipped-cream wax onto cupcake candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 93,
+      "start": 746.54,
+      "end": 754.56,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating cupcake candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 94,
+      "start": 754.56,
+      "end": 762.59,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished cupcake candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 95,
+      "start": 762.59,
+      "end": 770.62,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished cupcake candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 96,
+      "start": 770.62,
+      "end": 778.65,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 97,
+      "start": 778.65,
+      "end": 786.67,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 98,
+      "start": 786.67,
+      "end": 794.7,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 99,
+      "start": 794.7,
+      "end": 802.73,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 100,
+      "start": 802.73,
+      "end": 810.75,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 101,
+      "start": 810.75,
+      "end": 818.78,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 102,
+      "start": 818.78,
+      "end": 826.81,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 103,
+      "start": 826.81,
+      "end": 834.84,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 104,
+      "start": 834.84,
+      "end": 842.86,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 105,
+      "start": 842.86,
+      "end": 850.89,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 106,
+      "start": 850.89,
+      "end": 858.92,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 107,
+      "start": 858.92,
+      "end": 866.95,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 108,
+      "start": 866.95,
+      "end": 874.97,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 109,
+      "start": 874.97,
+      "end": 883.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 32.11,
+      "confidence": 0.4,
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 32.11,
+      "end": 40.14,
+      "confidence": 0.45,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 40.14,
+      "end": 48.16,
+      "confidence": 0.5,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 48.16,
+      "end": 56.19,
+      "confidence": 0.5,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 56.19,
+      "end": 64.22,
+      "confidence": 0.45,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 64.22,
+      "end": 72.25,
+      "confidence": 0.45,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 72.25,
+      "end": 80.27,
+      "confidence": 0.5,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 80.27,
+      "end": 88.3,
+      "confidence": 0.5,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 88.3,
+      "end": 96.33,
+      "confidence": 0.45,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 96.33,
+      "end": 104.35,
+      "confidence": 0.45,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 104.35,
+      "end": 112.38,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 112.38,
+      "end": 120.41,
+      "confidence": 0.5,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 120.41,
+      "end": 128.44,
+      "confidence": 0.45,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 128.44,
+      "end": 136.46,
+      "confidence": 0.45,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 136.46,
+      "end": 144.49,
+      "confidence": 0.5,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 144.49,
+      "end": 152.52,
+      "confidence": 0.4,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 152.52,
+      "end": 160.55,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 160.55,
+      "end": 168.57,
+      "confidence": 0.45,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 168.57,
+      "end": 176.6,
+      "confidence": 0.5,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 176.6,
+      "end": 184.63,
+      "confidence": 0.5,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 184.63,
+      "end": 192.65,
+      "confidence": 0.45,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 192.65,
+      "end": 200.68,
+      "confidence": 0.5,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 200.68,
+      "end": 208.71,
+      "confidence": 0.55,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 208.71,
+      "end": 305.04,
+      "confidence": 0.58,
+      "windows": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 305.04,
+      "end": 313.06,
+      "confidence": 0.55,
+      "windows": [
+        38
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 313.06,
+      "end": 353.2,
+      "confidence": 0.53,
+      "windows": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 353.2,
+      "end": 377.28,
+      "confidence": 0.55,
+      "windows": [
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 377.28,
+      "end": 481.64,
+      "confidence": 0.52,
+      "windows": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 481.64,
+      "end": 497.69,
+      "confidence": 0.5,
+      "windows": [
+        60,
+        61
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 497.69,
+      "end": 569.94,
+      "confidence": 0.5,
+      "windows": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 569.94,
+      "end": 610.07,
+      "confidence": 0.5,
+      "windows": [
+        71,
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 610.07,
+      "end": 626.13,
+      "confidence": 0.5,
+      "windows": [
+        76,
+        77
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 626.13,
+      "end": 690.35,
+      "confidence": 0.5,
+      "windows": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 690.35,
+      "end": 706.4,
+      "confidence": 0.5,
+      "windows": [
+        86,
+        87
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 706.4,
+      "end": 722.45,
+      "confidence": 0.5,
+      "windows": [
+        88,
+        89
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 722.45,
+      "end": 738.51,
+      "confidence": 0.5,
+      "windows": [
+        90,
+        91
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 738.51,
+      "end": 754.56,
+      "confidence": 0.5,
+      "windows": [
+        92,
+        93
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 754.56,
+      "end": 883.0,
+      "confidence": 0.57,
+      "windows": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ]
+    }
+  ]
+}

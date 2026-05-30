@@ -1,0 +1,226 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.86,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'Let's Pour!' intro; batch supplies."
+ },
+ {
+  "window": 1,
+  "start": 7.86,
+  "end": 15.71,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of small jars/moulds prepped with wicks."
+ },
+ {
+  "window": 2,
+  "start": 15.71,
+  "end": 23.57,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of small jars/moulds prepped with wicks."
+ },
+ {
+  "window": 3,
+  "start": 23.57,
+  "end": 31.43,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of small jars/moulds prepped with wicks."
+ },
+ {
+  "window": 4,
+  "start": 31.43,
+  "end": 39.29,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of small jars/moulds prepped with wicks."
+ },
+ {
+  "window": 5,
+  "start": 39.29,
+  "end": 47.14,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of small jars/moulds prepped with wicks."
+ },
+ {
+  "window": 6,
+  "start": 47.14,
+  "end": 55.0,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of small jars/moulds prepped with wicks."
+ },
+ {
+  "window": 7,
+  "start": 55.0,
+  "end": 62.86,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of cups."
+ },
+ {
+  "window": 8,
+  "start": 62.86,
+  "end": 70.71,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Filling the cups with wax."
+ },
+ {
+  "window": 9,
+  "start": 70.71,
+  "end": 78.57,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Rows of small jars with wicks."
+ },
+ {
+  "window": 10,
+  "start": 78.57,
+  "end": 86.43,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring; black melter pot."
+ },
+ {
+  "window": 11,
+  "start": 86.43,
+  "end": 94.29,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Black melter pot of wax."
+ },
+ {
+  "window": 12,
+  "start": 94.29,
+  "end": 102.14,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring white wax into jars."
+ },
+ {
+  "window": 13,
+  "start": 102.14,
+  "end": 110.0,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Rows of jars filled; box."
+ },
+ {
+  "window": 14,
+  "start": 110.0,
+  "end": 117.86,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of jars setting in boxes."
+ },
+ {
+  "window": 15,
+  "start": 117.86,
+  "end": 125.71,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of jars cooling."
+ },
+ {
+  "window": 16,
+  "start": 125.71,
+  "end": 133.57,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring more jars; black pot."
+ },
+ {
+  "window": 17,
+  "start": 133.57,
+  "end": 141.43,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of white candles setting."
+ },
+ {
+  "window": 18,
+  "start": 141.43,
+  "end": 149.29,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of white jar candles."
+ },
+ {
+  "window": 19,
+  "start": 149.29,
+  "end": 157.14,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring; black pot."
+ },
+ {
+  "window": 20,
+  "start": 157.14,
+  "end": 165.0,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished white jar candles."
+ },
+ {
+  "window": 21,
+  "start": 165.0,
+  "end": 172.86,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished white jar candles."
+ },
+ {
+  "window": 22,
+  "start": 172.86,
+  "end": 180.71,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished white jar candles."
+ },
+ {
+  "window": 23,
+  "start": 180.71,
+  "end": 188.57,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished white jar candles."
+ },
+ {
+  "window": 24,
+  "start": 188.57,
+  "end": 196.43,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished white jar candles."
+ },
+ {
+  "window": 25,
+  "start": 196.43,
+  "end": 204.29,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished white jar candles."
+ },
+ {
+  "window": 26,
+  "start": 204.29,
+  "end": 212.14,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! JOO Etsy'."
+ },
+ {
+  "window": 27,
+  "start": 212.14,
+  "end": 220.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! JOO Etsy'."
+ }
+]

@@ -1,0 +1,586 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.99,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 1,
+  "start": 7.99,
+  "end": 15.97,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing a mini 1oz tin on a scale."
+ },
+ {
+  "window": 2,
+  "start": 15.97,
+  "end": 23.96,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 3,
+  "start": 23.96,
+  "end": 31.95,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing a mini 1oz tin on a scale."
+ },
+ {
+  "window": 4,
+  "start": 31.95,
+  "end": 39.93,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 5,
+  "start": 39.93,
+  "end": 47.92,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing a mini 1oz tin on a scale."
+ },
+ {
+  "window": 6,
+  "start": 47.92,
+  "end": 55.9,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 7,
+  "start": 55.9,
+  "end": 63.89,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing a mini 1oz tin on a scale."
+ },
+ {
+  "window": 8,
+  "start": 63.89,
+  "end": 71.88,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 9,
+  "start": 71.88,
+  "end": 79.86,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing a mini 1oz tin on a scale."
+ },
+ {
+  "window": 10,
+  "start": 79.86,
+  "end": 87.85,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 11,
+  "start": 87.85,
+  "end": 95.84,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing a mini 1oz tin on a scale."
+ },
+ {
+  "window": 12,
+  "start": 95.84,
+  "end": 103.82,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 13,
+  "start": 103.82,
+  "end": 111.81,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing a mini 1oz tin on a scale."
+ },
+ {
+  "window": 14,
+  "start": 111.81,
+  "end": 119.79,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the mini tins."
+ },
+ {
+  "window": 15,
+  "start": 119.79,
+  "end": 127.78,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Calculator / notebook wax calculations."
+ },
+ {
+  "window": 16,
+  "start": 127.78,
+  "end": 135.77,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Calculator / notebook wax calculations."
+ },
+ {
+  "window": 17,
+  "start": 135.77,
+  "end": 143.75,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "A finished mini 1oz tin candle held."
+ },
+ {
+  "window": 18,
+  "start": 143.75,
+  "end": 151.74,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Calculator / notebook wax calculations."
+ },
+ {
+  "window": 19,
+  "start": 151.74,
+  "end": 159.73,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Calculator / notebook wax calculations."
+ },
+ {
+  "window": 20,
+  "start": 159.73,
+  "end": 167.71,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Calculator / notebook wax calculations."
+ },
+ {
+  "window": 21,
+  "start": 167.71,
+  "end": 175.7,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Calculator / notebook wax calculations."
+ },
+ {
+  "window": 22,
+  "start": 175.7,
+  "end": 183.68,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 23,
+  "start": 183.68,
+  "end": 191.67,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 24,
+  "start": 191.67,
+  "end": 199.66,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 25,
+  "start": 199.66,
+  "end": 207.64,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 26,
+  "start": 207.64,
+  "end": 215.63,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 27,
+  "start": 215.63,
+  "end": 223.62,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 28,
+  "start": 223.62,
+  "end": 231.6,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the mini tins."
+ },
+ {
+  "window": 29,
+  "start": 231.6,
+  "end": 239.59,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 30,
+  "start": 239.59,
+  "end": 247.58,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 31,
+  "start": 247.58,
+  "end": 255.56,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 32,
+  "start": 255.56,
+  "end": 263.55,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 33,
+  "start": 263.55,
+  "end": 271.53,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 34,
+  "start": 271.53,
+  "end": 279.52,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 35,
+  "start": 279.52,
+  "end": 287.51,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing wax/fragrance on the scale."
+ },
+ {
+  "window": 36,
+  "start": 287.51,
+  "end": 295.49,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing wax/fragrance on the scale."
+ },
+ {
+  "window": 37,
+  "start": 295.49,
+  "end": 303.48,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing wax/fragrance on the scale."
+ },
+ {
+  "window": 38,
+  "start": 303.48,
+  "end": 311.47,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal melter."
+ },
+ {
+  "window": 39,
+  "start": 311.47,
+  "end": 319.45,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal melter."
+ },
+ {
+  "window": 40,
+  "start": 319.45,
+  "end": 327.44,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal melter."
+ },
+ {
+  "window": 41,
+  "start": 327.44,
+  "end": 335.42,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal melter."
+ },
+ {
+  "window": 42,
+  "start": 335.42,
+  "end": 343.41,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of mini tins."
+ },
+ {
+  "window": 43,
+  "start": 343.41,
+  "end": 351.4,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal melter."
+ },
+ {
+  "window": 44,
+  "start": 351.4,
+  "end": 359.38,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of mini tins."
+ },
+ {
+  "window": 45,
+  "start": 359.38,
+  "end": 367.37,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of mini tins."
+ },
+ {
+  "window": 46,
+  "start": 367.37,
+  "end": 375.36,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 47,
+  "start": 375.36,
+  "end": 383.34,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 48,
+  "start": 383.34,
+  "end": 391.33,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 49,
+  "start": 391.33,
+  "end": 399.32,
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "Wick-sticker product shown."
+ },
+ {
+  "window": 50,
+  "start": 399.32,
+  "end": 407.3,
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "Wick-sticker product shown."
+ },
+ {
+  "window": 51,
+  "start": 407.3,
+  "end": 415.29,
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "Wick-sticker product shown."
+ },
+ {
+  "window": 52,
+  "start": 415.29,
+  "end": 423.27,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of mini tins."
+ },
+ {
+  "window": 53,
+  "start": 423.27,
+  "end": 431.26,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 54,
+  "start": 431.26,
+  "end": 439.25,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 55,
+  "start": 439.25,
+  "end": 447.23,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of mini tins."
+ },
+ {
+  "window": 56,
+  "start": 447.23,
+  "end": 455.22,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of mini tins."
+ },
+ {
+  "window": 57,
+  "start": 455.22,
+  "end": 463.21,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 58,
+  "start": 463.21,
+  "end": 471.19,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 59,
+  "start": 471.19,
+  "end": 479.18,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks in the mini tins."
+ },
+ {
+  "window": 60,
+  "start": 479.18,
+  "end": 487.16,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 61,
+  "start": 487.16,
+  "end": 495.15,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 62,
+  "start": 495.15,
+  "end": 503.14,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 63,
+  "start": 503.14,
+  "end": 511.12,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 64,
+  "start": 511.12,
+  "end": 519.11,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of mini candles setting."
+ },
+ {
+  "window": 65,
+  "start": 519.11,
+  "end": 527.1,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you / channel members' end card."
+ },
+ {
+  "window": 66,
+  "start": 527.1,
+  "end": 535.08,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you / channel members' end card."
+ },
+ {
+  "window": 67,
+  "start": 535.08,
+  "end": 543.07,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you / channel members' end card."
+ },
+ {
+  "window": 68,
+  "start": 543.07,
+  "end": 551.05,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you / channel members' end card."
+ },
+ {
+  "window": 69,
+  "start": 551.05,
+  "end": 559.04,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 70,
+  "start": 559.04,
+  "end": 567.03,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 71,
+  "start": 567.03,
+  "end": 575.01,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 72,
+  "start": 575.01,
+  "end": 583.0,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ }
+]

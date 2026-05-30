@@ -1,0 +1,754 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.03,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 1,
+  "start": 8.03,
+  "end": 16.06,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 2,
+  "start": 16.06,
+  "end": 24.1,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 3,
+  "start": 24.1,
+  "end": 32.13,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 4,
+  "start": 32.13,
+  "end": 40.16,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 5,
+  "start": 40.16,
+  "end": 48.19,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 6,
+  "start": 48.19,
+  "end": 56.22,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 7,
+  "start": 56.22,
+  "end": 64.26,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 8,
+  "start": 64.26,
+  "end": 72.29,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 9,
+  "start": 72.29,
+  "end": 80.32,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 10,
+  "start": 80.32,
+  "end": 88.35,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sea ers Bact dewalt Ore hE cil 8 Ss: WEEE. ae'."
+ },
+ {
+  "window": 11,
+  "start": 88.35,
+  "end": 96.38,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 12,
+  "start": 96.38,
+  "end": 104.41,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 13,
+  "start": 104.41,
+  "end": 112.45,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 14,
+  "start": 112.45,
+  "end": 120.48,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 15,
+  "start": 120.48,
+  "end": 128.51,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 128.51,
+  "end": 136.54,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into rows of jars (bulk pour)."
+ },
+ {
+  "window": 17,
+  "start": 136.54,
+  "end": 144.57,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 18,
+  "start": 144.57,
+  "end": 152.61,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 19,
+  "start": 152.61,
+  "end": 160.64,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 20,
+  "start": 160.64,
+  "end": 168.67,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 168.67,
+  "end": 176.7,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 22,
+  "start": 176.7,
+  "end": 184.73,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter of wax for the bulk batch."
+ },
+ {
+  "window": 23,
+  "start": 184.73,
+  "end": 192.77,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Centring wicks across the rows of jars."
+ },
+ {
+  "window": 24,
+  "start": 192.77,
+  "end": 200.8,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished bulk candles on the shelves."
+ },
+ {
+  "window": 25,
+  "start": 200.8,
+  "end": 208.83,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished bulk candles on the shelves."
+ },
+ {
+  "window": 26,
+  "start": 208.83,
+  "end": 216.86,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 27,
+  "start": 216.86,
+  "end": 224.89,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished bulk candles on the shelves."
+ },
+ {
+  "window": 28,
+  "start": 224.89,
+  "end": 232.93,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished bulk candles on the shelves."
+ },
+ {
+  "window": 29,
+  "start": 232.93,
+  "end": 240.96,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished bulk candles on the shelves."
+ },
+ {
+  "window": 30,
+  "start": 240.96,
+  "end": 248.99,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished bulk candles on the shelves."
+ },
+ {
+  "window": 31,
+  "start": 248.99,
+  "end": 257.02,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished bulk candles on the shelves."
+ },
+ {
+  "window": 32,
+  "start": 257.02,
+  "end": 265.05,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 33,
+  "start": 265.05,
+  "end": 273.09,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 34,
+  "start": 273.09,
+  "end": 281.12,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 35,
+  "start": 281.12,
+  "end": 289.15,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 36,
+  "start": 289.15,
+  "end": 297.18,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 37,
+  "start": 297.18,
+  "end": 305.21,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 38,
+  "start": 305.21,
+  "end": 313.24,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 39,
+  "start": 313.24,
+  "end": 321.28,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 40,
+  "start": 321.28,
+  "end": 329.31,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 41,
+  "start": 329.31,
+  "end": 337.34,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 42,
+  "start": 337.34,
+  "end": 345.37,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 43,
+  "start": 345.37,
+  "end": 353.4,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 44,
+  "start": 353.4,
+  "end": 361.44,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 45,
+  "start": 361.44,
+  "end": 369.47,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 46,
+  "start": 369.47,
+  "end": 377.5,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 47,
+  "start": 377.5,
+  "end": 385.53,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 48,
+  "start": 385.53,
+  "end": 393.56,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 49,
+  "start": 393.56,
+  "end": 401.6,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 50,
+  "start": 401.6,
+  "end": 409.63,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 51,
+  "start": 409.63,
+  "end": 417.66,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 52,
+  "start": 417.66,
+  "end": 425.69,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 53,
+  "start": 425.69,
+  "end": 433.72,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 54,
+  "start": 433.72,
+  "end": 441.76,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 55,
+  "start": 441.76,
+  "end": 449.79,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into pitchers / jars."
+ },
+ {
+  "window": 56,
+  "start": 449.79,
+  "end": 457.82,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 57,
+  "start": 457.82,
+  "end": 465.85,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 58,
+  "start": 465.85,
+  "end": 473.88,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 59,
+  "start": 473.88,
+  "end": 481.91,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the black wick-centering bars on the jars."
+ },
+ {
+  "window": 60,
+  "start": 481.91,
+  "end": 489.95,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 61,
+  "start": 489.95,
+  "end": 497.98,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 62,
+  "start": 497.98,
+  "end": 506.01,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 63,
+  "start": 506.01,
+  "end": 514.04,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 64,
+  "start": 514.04,
+  "end": 522.07,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 65,
+  "start": 522.07,
+  "end": 530.11,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 66,
+  "start": 530.11,
+  "end": 538.14,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 67,
+  "start": 538.14,
+  "end": 546.17,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 68,
+  "start": 546.17,
+  "end": 554.2,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 69,
+  "start": 554.2,
+  "end": 562.23,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 70,
+  "start": 562.23,
+  "end": 570.27,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 71,
+  "start": 570.27,
+  "end": 578.3,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 72,
+  "start": 578.3,
+  "end": 586.33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 73,
+  "start": 586.33,
+  "end": 594.36,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 74,
+  "start": 594.36,
+  "end": 602.39,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 75,
+  "start": 602.39,
+  "end": 610.43,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 76,
+  "start": 610.43,
+  "end": 618.46,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax in the silver melter/urn."
+ },
+ {
+  "window": 77,
+  "start": 618.46,
+  "end": 626.49,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured candles setting."
+ },
+ {
+  "window": 78,
+  "start": 626.49,
+  "end": 634.52,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you / channel members' end card."
+ },
+ {
+  "window": 79,
+  "start": 634.52,
+  "end": 642.55,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you / channel members' end card."
+ },
+ {
+  "window": 80,
+  "start": 642.55,
+  "end": 650.59,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you / channel members' end card."
+ },
+ {
+  "window": 81,
+  "start": 650.59,
+  "end": 658.62,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 82,
+  "start": 658.62,
+  "end": 666.65,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 83,
+  "start": 666.65,
+  "end": 674.68,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 84,
+  "start": 674.68,
+  "end": 682.71,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 85,
+  "start": 682.71,
+  "end": 690.74,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 86,
+  "start": 690.74,
+  "end": 698.78,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 87,
+  "start": 698.78,
+  "end": 706.81,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 88,
+  "start": 706.81,
+  "end": 714.84,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 89,
+  "start": 714.84,
+  "end": 722.87,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 90,
+  "start": 722.87,
+  "end": 730.9,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 91,
+  "start": 730.9,
+  "end": 738.94,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 92,
+  "start": 738.94,
+  "end": 746.97,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ },
+ {
+  "window": 93,
+  "start": 746.97,
+  "end": 755.0,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
+ }
+]

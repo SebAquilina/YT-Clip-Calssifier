@@ -1,0 +1,426 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.02,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 1,
+  "start": 8.02,
+  "end": 16.04,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 2,
+  "start": 16.04,
+  "end": 24.06,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 3,
+  "start": 24.06,
+  "end": 32.08,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 4,
+  "start": 32.08,
+  "end": 40.09,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 5,
+  "start": 40.09,
+  "end": 48.11,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 6,
+  "start": 48.11,
+  "end": 56.13,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 7,
+  "start": 56.13,
+  "end": 64.15,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: wicks/candles handled for the size test."
+ },
+ {
+  "window": 8,
+  "start": 64.15,
+  "end": 72.17,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 9,
+  "start": 72.17,
+  "end": 80.19,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 10,
+  "start": 80.19,
+  "end": 88.21,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 11,
+  "start": 88.21,
+  "end": 96.23,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 12,
+  "start": 96.23,
+  "end": 104.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 13,
+  "start": 104.25,
+  "end": 112.26,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: wicks/candles handled for the size test."
+ },
+ {
+  "window": 14,
+  "start": 112.26,
+  "end": 120.28,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 15,
+  "start": 120.28,
+  "end": 128.3,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 16,
+  "start": 128.3,
+  "end": 136.32,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 17,
+  "start": 136.32,
+  "end": 144.34,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 18,
+  "start": 144.34,
+  "end": 152.36,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 19,
+  "start": 152.36,
+  "end": 160.38,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 20,
+  "start": 160.38,
+  "end": 168.4,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle wick burn-test."
+ },
+ {
+  "window": 21,
+  "start": 168.4,
+  "end": 176.42,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle wick burn-test."
+ },
+ {
+  "window": 22,
+  "start": 176.42,
+  "end": 184.43,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle wick burn-test."
+ },
+ {
+  "window": 23,
+  "start": 184.43,
+  "end": 192.45,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle wick burn-test."
+ },
+ {
+  "window": 24,
+  "start": 192.45,
+  "end": 200.47,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 25,
+  "start": 200.47,
+  "end": 208.49,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 26,
+  "start": 208.49,
+  "end": 216.51,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 27,
+  "start": 216.51,
+  "end": 224.53,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 28,
+  "start": 224.53,
+  "end": 232.55,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 29,
+  "start": 232.55,
+  "end": 240.57,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 30,
+  "start": 240.57,
+  "end": 248.58,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 31,
+  "start": 248.58,
+  "end": 256.6,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 32,
+  "start": 256.6,
+  "end": 264.62,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 33,
+  "start": 264.62,
+  "end": 272.64,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 34,
+  "start": 272.64,
+  "end": 280.66,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 35,
+  "start": 280.66,
+  "end": 288.68,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 36,
+  "start": 288.68,
+  "end": 296.7,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 37,
+  "start": 296.7,
+  "end": 304.72,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 38,
+  "start": 304.72,
+  "end": 312.74,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 39,
+  "start": 312.74,
+  "end": 320.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 40,
+  "start": 320.75,
+  "end": 328.77,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 41,
+  "start": 328.77,
+  "end": 336.79,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 42,
+  "start": 336.79,
+  "end": 344.81,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 43,
+  "start": 344.81,
+  "end": 352.83,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 44,
+  "start": 352.83,
+  "end": 360.85,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks to camera about choosing the correct wick size."
+ },
+ {
+  "window": 45,
+  "start": 360.85,
+  "end": 368.87,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 46,
+  "start": 368.87,
+  "end": 376.89,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 47,
+  "start": 376.89,
+  "end": 384.91,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 48,
+  "start": 384.91,
+  "end": 392.92,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 49,
+  "start": 392.92,
+  "end": 400.94,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 50,
+  "start": 400.94,
+  "end": 408.96,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 51,
+  "start": 408.96,
+  "end": 416.98,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 52,
+  "start": 416.98,
+  "end": 425.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

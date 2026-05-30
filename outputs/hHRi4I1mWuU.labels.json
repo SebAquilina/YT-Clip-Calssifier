@@ -1,0 +1,882 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.03,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Kitchen setup; glasses and oven for coffee candles."
+ },
+ {
+  "window": 1,
+  "start": 8.03,
+  "end": 16.05,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Kitchen setup; glasses and oven for coffee candles."
+ },
+ {
+  "window": 2,
+  "start": 16.05,
+  "end": 24.08,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Kitchen setup; glasses and oven for coffee candles."
+ },
+ {
+  "window": 3,
+  "start": 24.08,
+  "end": 32.11,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Kitchen setup; glasses and oven for coffee candles."
+ },
+ {
+  "window": 4,
+  "start": 32.11,
+  "end": 40.14,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the coffee candle (oven/microwave)."
+ },
+ {
+  "window": 5,
+  "start": 40.14,
+  "end": 48.16,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the brown 'coffee' wax into the glass."
+ },
+ {
+  "window": 6,
+  "start": 48.16,
+  "end": 56.19,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding whipped-cream foam and coffee-bean decor."
+ },
+ {
+  "window": 7,
+  "start": 56.19,
+  "end": 64.22,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished latte/coffee candle shown."
+ },
+ {
+  "window": 8,
+  "start": 64.22,
+  "end": 72.25,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the coffee candle (oven/microwave)."
+ },
+ {
+  "window": 9,
+  "start": 72.25,
+  "end": 80.27,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the brown 'coffee' wax into the glass."
+ },
+ {
+  "window": 10,
+  "start": 80.27,
+  "end": 88.3,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding whipped-cream foam and coffee-bean decor."
+ },
+ {
+  "window": 11,
+  "start": 88.3,
+  "end": 96.33,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished latte/coffee candle shown."
+ },
+ {
+  "window": 12,
+  "start": 96.33,
+  "end": 104.35,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the coffee candle (oven/microwave)."
+ },
+ {
+  "window": 13,
+  "start": 104.35,
+  "end": 112.38,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the brown 'coffee' wax into the glass."
+ },
+ {
+  "window": 14,
+  "start": 112.38,
+  "end": 120.41,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding whipped-cream foam and coffee-bean decor."
+ },
+ {
+  "window": 15,
+  "start": 120.41,
+  "end": 128.44,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished latte/coffee candle shown."
+ },
+ {
+  "window": 16,
+  "start": 128.44,
+  "end": 136.46,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the coffee candle (oven/microwave)."
+ },
+ {
+  "window": 17,
+  "start": 136.46,
+  "end": 144.49,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the brown 'coffee' wax into the glass."
+ },
+ {
+  "window": 18,
+  "start": 144.49,
+  "end": 152.52,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Product grid card."
+ },
+ {
+  "window": 19,
+  "start": 152.52,
+  "end": 160.55,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished latte/coffee candle shown."
+ },
+ {
+  "window": 20,
+  "start": 160.55,
+  "end": 168.57,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the coffee candle (oven/microwave)."
+ },
+ {
+  "window": 21,
+  "start": 168.57,
+  "end": 176.6,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the brown 'coffee' wax into the glass."
+ },
+ {
+  "window": 22,
+  "start": 176.6,
+  "end": 184.63,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding whipped-cream foam and coffee-bean decor."
+ },
+ {
+  "window": 23,
+  "start": 184.63,
+  "end": 192.65,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished latte/coffee candle shown."
+ },
+ {
+  "window": 24,
+  "start": 192.65,
+  "end": 200.68,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Product/ingredient cards shown."
+ },
+ {
+  "window": 25,
+  "start": 200.68,
+  "end": 208.71,
+  "label": "measure_wax",
+  "confidence": 0.55,
+  "description": "Wax measured in a Pyrex measuring cup on the cutting board."
+ },
+ {
+  "window": 26,
+  "start": 208.71,
+  "end": 216.74,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipping green wax with an immersion blender + whisk in the Pyrex."
+ },
+ {
+  "window": 27,
+  "start": 216.74,
+  "end": 224.76,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipping green wax with the immersion blender."
+ },
+ {
+  "window": 28,
+  "start": 224.76,
+  "end": 232.79,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipping green wax with the immersion blender."
+ },
+ {
+  "window": 29,
+  "start": 232.79,
+  "end": 240.82,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipping green wax with the immersion blender."
+ },
+ {
+  "window": 30,
+  "start": 240.82,
+  "end": 248.85,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipping green wax with the immersion blender."
+ },
+ {
+  "window": 31,
+  "start": 248.85,
+  "end": 256.87,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipping green wax to a creamy consistency."
+ },
+ {
+  "window": 32,
+  "start": 256.87,
+  "end": 264.9,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipped green wax in the Pyrex."
+ },
+ {
+  "window": 33,
+  "start": 264.9,
+  "end": 272.93,
+  "label": "decorate_finish",
+  "confidence": 0.6,
+  "description": "Whipped cream-coloured wax; spooning into a cup."
+ },
+ {
+  "window": 34,
+  "start": 272.93,
+  "end": 280.95,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Whipped white wax in the cup."
+ },
+ {
+  "window": 35,
+  "start": 280.95,
+  "end": 288.98,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Red colourant in a small dish."
+ },
+ {
+  "window": 36,
+  "start": 288.98,
+  "end": 297.01,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Whipped white wax."
+ },
+ {
+  "window": 37,
+  "start": 297.01,
+  "end": 305.04,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Piping/placing whipped white wax by hand."
+ },
+ {
+  "window": 38,
+  "start": 305.04,
+  "end": 313.06,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Three finished red/green pillar drink candles (gingerbread backdrop)."
+ },
+ {
+  "window": 39,
+  "start": 313.06,
+  "end": 321.09,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring wax into a square silicone mould near the oven."
+ },
+ {
+  "window": 40,
+  "start": 321.09,
+  "end": 329.12,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Filling a piping bag with wax at the stove (blue gloves)."
+ },
+ {
+  "window": 41,
+  "start": 329.12,
+  "end": 337.15,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Piping-bag of wax at the stove."
+ },
+ {
+  "window": 42,
+  "start": 337.15,
+  "end": 345.17,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring coloured wax into tree/star silicone moulds."
+ },
+ {
+  "window": 43,
+  "start": 345.17,
+  "end": 353.2,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring coloured wax into the silicone moulds."
+ },
+ {
+  "window": 44,
+  "start": 353.2,
+  "end": 361.23,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Piping green wax rosettes onto the surface."
+ },
+ {
+  "window": 45,
+  "start": 361.23,
+  "end": 369.25,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Piped green/red wax rosettes; ice-cube mould."
+ },
+ {
+  "window": 46,
+  "start": 369.25,
+  "end": 377.28,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Demoulding red/green wax trees from the silicone mould."
+ },
+ {
+  "window": 47,
+  "start": 377.28,
+  "end": 385.31,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Moulded red/green wax trees laid out."
+ },
+ {
+  "window": 48,
+  "start": 385.31,
+  "end": 393.34,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 49,
+  "start": 393.34,
+  "end": 401.36,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 50,
+  "start": 401.36,
+  "end": 409.39,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 51,
+  "start": 409.39,
+  "end": 417.42,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 52,
+  "start": 417.42,
+  "end": 425.45,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 53,
+  "start": 425.45,
+  "end": 433.47,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 54,
+  "start": 433.47,
+  "end": 441.5,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 55,
+  "start": 441.5,
+  "end": 449.53,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 56,
+  "start": 449.53,
+  "end": 457.55,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 57,
+  "start": 457.55,
+  "end": 465.58,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 58,
+  "start": 465.58,
+  "end": 473.61,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 59,
+  "start": 473.61,
+  "end": 481.64,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 60,
+  "start": 481.64,
+  "end": 489.66,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 61,
+  "start": 489.66,
+  "end": 497.69,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 62,
+  "start": 497.69,
+  "end": 505.72,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 63,
+  "start": 505.72,
+  "end": 513.75,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 64,
+  "start": 513.75,
+  "end": 521.77,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 65,
+  "start": 521.77,
+  "end": 529.8,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 66,
+  "start": 529.8,
+  "end": 537.83,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 67,
+  "start": 537.83,
+  "end": 545.85,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 68,
+  "start": 545.85,
+  "end": 553.88,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 69,
+  "start": 553.88,
+  "end": 561.91,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 70,
+  "start": 561.91,
+  "end": 569.94,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished parfait/drink dessert candle presented."
+ },
+ {
+  "window": 71,
+  "start": 569.94,
+  "end": 577.96,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a parfait/drink dessert candle (cream, red toppings)."
+ },
+ {
+  "window": 72,
+  "start": 577.96,
+  "end": 585.99,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a pink drink candle."
+ },
+ {
+  "window": 73,
+  "start": 585.99,
+  "end": 594.02,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a candle by hand."
+ },
+ {
+  "window": 74,
+  "start": 594.02,
+  "end": 602.05,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished candle shown."
+ },
+ {
+  "window": 75,
+  "start": 602.05,
+  "end": 610.07,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a candle."
+ },
+ {
+  "window": 76,
+  "start": 610.07,
+  "end": 618.1,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into a mould."
+ },
+ {
+  "window": 77,
+  "start": 618.1,
+  "end": 626.13,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into a mould."
+ },
+ {
+  "window": 78,
+  "start": 626.13,
+  "end": 634.15,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished candles shown."
+ },
+ {
+  "window": 79,
+  "start": 634.15,
+  "end": 642.18,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished candles shown."
+ },
+ {
+  "window": 80,
+  "start": 642.18,
+  "end": 650.21,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating cookie-shaped candles."
+ },
+ {
+  "window": 81,
+  "start": 650.21,
+  "end": 658.24,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished cookie candles."
+ },
+ {
+  "window": 82,
+  "start": 658.24,
+  "end": 666.26,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working pink wax."
+ },
+ {
+  "window": 83,
+  "start": 666.26,
+  "end": 674.29,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Pink dome candles in the mould."
+ },
+ {
+  "window": 84,
+  "start": 674.29,
+  "end": 682.32,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Round cookie candles shown."
+ },
+ {
+  "window": 85,
+  "start": 682.32,
+  "end": 690.35,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Cookie candles shown."
+ },
+ {
+  "window": 86,
+  "start": 690.35,
+  "end": 698.37,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring red wax into a dome silicone mould."
+ },
+ {
+  "window": 87,
+  "start": 698.37,
+  "end": 706.4,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring into the dome mould."
+ },
+ {
+  "window": 88,
+  "start": 706.4,
+  "end": 714.43,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding cookie candles."
+ },
+ {
+  "window": 89,
+  "start": 714.43,
+  "end": 722.45,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/assembling cookie candles."
+ },
+ {
+  "window": 90,
+  "start": 722.45,
+  "end": 730.48,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished candles shown."
+ },
+ {
+  "window": 91,
+  "start": 730.48,
+  "end": 738.51,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished candles shown."
+ },
+ {
+  "window": 92,
+  "start": 738.51,
+  "end": 746.54,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped-cream wax onto cupcake candles."
+ },
+ {
+  "window": 93,
+  "start": 746.54,
+  "end": 754.56,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating cupcake candles."
+ },
+ {
+  "window": 94,
+  "start": 754.56,
+  "end": 762.59,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished cupcake candles."
+ },
+ {
+  "window": 95,
+  "start": 762.59,
+  "end": 770.62,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished cupcake candles."
+ },
+ {
+  "window": 96,
+  "start": 770.62,
+  "end": 778.65,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 97,
+  "start": 778.65,
+  "end": 786.67,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 98,
+  "start": 786.67,
+  "end": 794.7,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 99,
+  "start": 794.7,
+  "end": 802.73,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 100,
+  "start": 802.73,
+  "end": 810.75,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 101,
+  "start": 810.75,
+  "end": 818.78,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 102,
+  "start": 818.78,
+  "end": 826.81,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 103,
+  "start": 826.81,
+  "end": 834.84,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 104,
+  "start": 834.84,
+  "end": 842.86,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 105,
+  "start": 842.86,
+  "end": 850.89,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 106,
+  "start": 850.89,
+  "end": 858.92,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 107,
+  "start": 858.92,
+  "end": 866.95,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 108,
+  "start": 866.95,
+  "end": 874.97,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ },
+ {
+  "window": 109,
+  "start": 874.97,
+  "end": 883.0,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished Christmas cupcake/dessert candles (whipped cream, red & green) beauty shot."
+ }
+]

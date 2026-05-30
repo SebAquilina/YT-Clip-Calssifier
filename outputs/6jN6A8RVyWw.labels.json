@@ -1,0 +1,17 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.55, "description": "Title card 'How to make CANDLE MAKING KIT' with the pink-themed supplies shown."},
+  {"window": 1, "label": "measure_wax", "confidence": 0.55, "description": "Overhead: white wax pieces portioned into a metal bowl."},
+  {"window": 2, "label": "melt_wax", "confidence": 0.6, "description": "The metal bowl of white wax is placed on a pink induction hob to melt."},
+  {"window": 3, "label": "melt_wax", "confidence": 0.65, "description": "Wax melts in the pot on the hob, stirred by hand."},
+  {"window": 4, "label": "melt_wax", "confidence": 0.65, "description": "Continued stirring of the melting wax."},
+  {"window": 5, "label": "melt_wax", "confidence": 0.6, "description": "Pot on the pink hob with a pink spatula stirring the molten wax."},
+  {"window": 6, "label": "add_fragrance", "confidence": 0.45, "description": "Stirring continues; an additive (fragrance) is worked into the wax."},
+  {"window": 7, "label": "add_dye_color", "confidence": 0.55, "description": "Pink colourant is mixed into the wax, tinting it pink."},
+  {"window": 8, "label": "add_dye_color", "confidence": 0.55, "description": "Pink molten wax stirred in the pot."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.5, "description": "Pink wax readied for pouring; hands at the pot."},
+  {"window": 10, "label": "pour_wax", "confidence": 0.6, "description": "Pink wax poured into the container; caption about adding salt for a textured effect."},
+  {"window": 11, "label": "set_wick", "confidence": 0.45, "description": "Hands work the wick/top of the filled pink candle."},
+  {"window": 12, "label": "reveal_result", "confidence": 0.6, "description": "Hands handle the pink wax, then a finished candle is shown lit on the table."},
+  {"window": 13, "label": "reveal_result", "confidence": 0.6, "description": "Finished pink candle displayed on the table."},
+  {"window": 14, "label": "outro_cta", "confidence": 0.45, "description": "Closing panels with the caption 'Add salt to get creations'."}
+]

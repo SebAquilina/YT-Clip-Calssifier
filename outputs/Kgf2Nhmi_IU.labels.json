@@ -1,0 +1,90 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.73,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "'How to Use the Pro Candle Making Kit' title; scissors, supplies and a purple melting pot."
+ },
+ {
+  "window": 1,
+  "start": 7.73,
+  "end": 15.45,
+  "label": "measure_wax",
+  "confidence": 0.55,
+  "description": "White wax flakes poured into the purple melting pot."
+ },
+ {
+  "window": 2,
+  "start": 15.45,
+  "end": 23.18,
+  "label": "melt_wax",
+  "confidence": 0.6,
+  "description": "White wax melting in the purple pot; silicone moulds nearby."
+ },
+ {
+  "window": 3,
+  "start": 23.18,
+  "end": 30.91,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Wax melting in the pot beside white silicone moulds."
+ },
+ {
+  "window": 4,
+  "start": 30.91,
+  "end": 38.64,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Ladling/handling the melted wax; moulds and tools on the table."
+ },
+ {
+  "window": 5,
+  "start": 38.64,
+  "end": 46.36,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Ladling melted wax into a cup; a scale and moulds alongside."
+ },
+ {
+  "window": 6,
+  "start": 46.36,
+  "end": 54.09,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring red-tinted wax into a ball mould; blue dye nearby."
+ },
+ {
+  "window": 7,
+  "start": 54.09,
+  "end": 61.82,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring wax into a blue ball mould; a heat gun in use."
+ },
+ {
+  "window": 8,
+  "start": 61.82,
+  "end": 69.55,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "A blue ball candle and a white candle in a cup; wick handling."
+ },
+ {
+  "window": 9,
+  "start": 69.55,
+  "end": 77.27,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "A white candle on a scale; tree- and shell-shaped silicone moulds."
+ },
+ {
+  "window": 10,
+  "start": 77.27,
+  "end": 85.0,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished moulded candles displayed (red, blue, white, tree and shell shapes)."
+ }
+]

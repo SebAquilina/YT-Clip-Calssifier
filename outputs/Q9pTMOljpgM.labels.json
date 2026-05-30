@@ -1,0 +1,274 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.97,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'Sweet Eminence' title; wick-setting demo."
+ },
+ {
+  "window": 1,
+  "start": 7.97,
+  "end": 15.94,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 2,
+  "start": 15.94,
+  "end": 23.91,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 3,
+  "start": 23.91,
+  "end": 31.88,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 4,
+  "start": 31.88,
+  "end": 39.85,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 5,
+  "start": 39.85,
+  "end": 47.82,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 6,
+  "start": 47.82,
+  "end": 55.79,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 7,
+  "start": 55.79,
+  "end": 63.76,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 8,
+  "start": 63.76,
+  "end": 71.74,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 9,
+  "start": 71.74,
+  "end": 79.71,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 10,
+  "start": 79.71,
+  "end": 87.68,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 11,
+  "start": 87.68,
+  "end": 95.65,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 12,
+  "start": 95.65,
+  "end": 103.62,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 13,
+  "start": 103.62,
+  "end": 111.59,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 14,
+  "start": 111.59,
+  "end": 119.56,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 15,
+  "start": 119.56,
+  "end": 127.53,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 16,
+  "start": 127.53,
+  "end": 135.5,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 17,
+  "start": 135.5,
+  "end": 143.47,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 143.47,
+  "end": 151.44,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 19,
+  "start": 151.44,
+  "end": 159.41,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 20,
+  "start": 159.41,
+  "end": 167.38,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 21,
+  "start": 167.38,
+  "end": 175.35,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 22,
+  "start": 175.35,
+  "end": 183.32,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 23,
+  "start": 183.32,
+  "end": 191.29,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 24,
+  "start": 191.29,
+  "end": 199.26,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 25,
+  "start": 199.26,
+  "end": 207.24,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 26,
+  "start": 207.24,
+  "end": 215.21,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 27,
+  "start": 215.21,
+  "end": 223.18,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 28,
+  "start": 223.18,
+  "end": 231.15,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 29,
+  "start": 231.15,
+  "end": 239.12,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 30,
+  "start": 239.12,
+  "end": 247.09,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Overhead: setting/centring a wick in a glass jar (wick sticker / glue gun)."
+ },
+ {
+  "window": 31,
+  "start": 247.09,
+  "end": 255.06,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 32,
+  "start": 255.06,
+  "end": 263.03,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 33,
+  "start": 263.03,
+  "end": 271.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

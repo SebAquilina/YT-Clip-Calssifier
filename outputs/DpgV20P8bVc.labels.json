@@ -1,0 +1,818 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.04,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candle jars setting."
+ },
+ {
+  "window": 1,
+  "start": 8.04,
+  "end": 16.08,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 16.08,
+  "end": 24.12,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 24.12,
+  "end": 32.16,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Driving / b-roll."
+ },
+ {
+  "window": 4,
+  "start": 32.16,
+  "end": 40.2,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'te oe te ee Pe to ay Ae Me 3 ae iad 6 iS Milionil I's about minute dri onid'."
+ },
+ {
+  "window": 5,
+  "start": 40.2,
+  "end": 48.24,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Driving / b-roll."
+ },
+ {
+  "window": 6,
+  "start": 48.24,
+  "end": 56.27,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Driving / b-roll."
+ },
+ {
+  "window": 7,
+  "start": 56.27,
+  "end": 64.31,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Driving / b-roll."
+ },
+ {
+  "window": 8,
+  "start": 64.31,
+  "end": 72.35,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle jars shown."
+ },
+ {
+  "window": 9,
+  "start": 72.35,
+  "end": 80.39,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candle jars setting."
+ },
+ {
+  "window": 10,
+  "start": 80.39,
+  "end": 88.43,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 4 ff ai Wy QP jr fs ag sy Ongs Lot Ra. Jo learn yer around aga ity akconor os 0 thgery ey fore ae'."
+ },
+ {
+  "window": 11,
+  "start": 88.43,
+  "end": 96.47,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle jars shown."
+ },
+ {
+  "window": 12,
+  "start": 96.47,
+  "end": 104.51,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candle jars setting."
+ },
+ {
+  "window": 13,
+  "start": 104.51,
+  "end": 112.55,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Labelling/packing the candles."
+ },
+ {
+  "window": 14,
+  "start": 112.55,
+  "end": 120.59,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle jars shown."
+ },
+ {
+  "window": 15,
+  "start": 120.59,
+  "end": 128.63,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candle jars setting."
+ },
+ {
+  "window": 16,
+  "start": 128.63,
+  "end": 136.67,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 136.67,
+  "end": 144.71,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle jars shown."
+ },
+ {
+  "window": 18,
+  "start": 144.71,
+  "end": 152.75,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candle jars setting."
+ },
+ {
+  "window": 19,
+  "start": 152.75,
+  "end": 160.78,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Labelling/packing the candles."
+ },
+ {
+  "window": 20,
+  "start": 160.78,
+  "end": 168.82,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle jars shown."
+ },
+ {
+  "window": 21,
+  "start": 168.82,
+  "end": 176.86,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candle jars setting."
+ },
+ {
+  "window": 22,
+  "start": 176.86,
+  "end": 184.9,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Labelling/packing the candles."
+ },
+ {
+  "window": 23,
+  "start": 184.9,
+  "end": 192.94,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'pee Ok te ees ee fe ED ae See Pa Se 4 See ay we JES if 4 7 eo al Pk: OF Se gy 4 Ip he in 4 7 ay Cee 3 Vee ee. ON ee 4 ae wee ae IS Age aI ak ono Sa aad Te is'."
+ },
+ {
+  "window": 24,
+  "start": 192.94,
+  "end": 200.98,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 25,
+  "start": 200.98,
+  "end": 209.02,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 26,
+  "start": 209.02,
+  "end": 217.06,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of tins."
+ },
+ {
+  "window": 27,
+  "start": 217.06,
+  "end": 225.1,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 28,
+  "start": 225.1,
+  "end": 233.14,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 29,
+  "start": 233.14,
+  "end": 241.18,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks across the tins."
+ },
+ {
+  "window": 30,
+  "start": 241.18,
+  "end": 249.22,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of tins."
+ },
+ {
+  "window": 31,
+  "start": 249.22,
+  "end": 257.25,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 32,
+  "start": 257.25,
+  "end": 265.29,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks across the tins."
+ },
+ {
+  "window": 33,
+  "start": 265.29,
+  "end": 273.33,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 34,
+  "start": 273.33,
+  "end": 281.37,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 35,
+  "start": 281.37,
+  "end": 289.41,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of tins."
+ },
+ {
+  "window": 36,
+  "start": 289.41,
+  "end": 297.45,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks across the tins."
+ },
+ {
+  "window": 37,
+  "start": 297.45,
+  "end": 305.49,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 38,
+  "start": 305.49,
+  "end": 313.53,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 39,
+  "start": 313.53,
+  "end": 321.57,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of tins."
+ },
+ {
+  "window": 40,
+  "start": 321.57,
+  "end": 329.61,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks across the tins."
+ },
+ {
+  "window": 41,
+  "start": 329.61,
+  "end": 337.65,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 42,
+  "start": 337.65,
+  "end": 345.69,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 43,
+  "start": 345.69,
+  "end": 353.73,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of tins."
+ },
+ {
+  "window": 44,
+  "start": 353.73,
+  "end": 361.76,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 45,
+  "start": 361.76,
+  "end": 369.8,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting/centring wicks across the tins."
+ },
+ {
+  "window": 46,
+  "start": 369.8,
+  "end": 377.84,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 47,
+  "start": 377.84,
+  "end": 385.88,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 48,
+  "start": 385.88,
+  "end": 393.92,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 49,
+  "start": 393.92,
+  "end": 401.96,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of tins."
+ },
+ {
+  "window": 50,
+  "start": 401.96,
+  "end": 410.0,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 51,
+  "start": 410.0,
+  "end": 418.04,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 52,
+  "start": 418.04,
+  "end": 426.08,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the rows of tins."
+ },
+ {
+  "window": 53,
+  "start": 426.08,
+  "end": 434.12,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 54,
+  "start": 434.12,
+  "end": 442.16,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 55,
+  "start": 442.16,
+  "end": 450.2,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 56,
+  "start": 450.2,
+  "end": 458.24,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 57,
+  "start": 458.24,
+  "end": 466.27,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 58,
+  "start": 466.27,
+  "end": 474.31,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 59,
+  "start": 474.31,
+  "end": 482.35,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 60,
+  "start": 482.35,
+  "end": 490.39,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 61,
+  "start": 490.39,
+  "end": 498.43,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 62,
+  "start": 498.43,
+  "end": 506.47,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 63,
+  "start": 506.47,
+  "end": 514.51,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 64,
+  "start": 514.51,
+  "end": 522.55,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 65,
+  "start": 522.55,
+  "end": 530.59,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 66,
+  "start": 530.59,
+  "end": 538.63,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 67,
+  "start": 538.63,
+  "end": 546.67,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 68,
+  "start": 546.67,
+  "end": 554.71,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 69,
+  "start": 554.71,
+  "end": 562.75,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 70,
+  "start": 562.75,
+  "end": 570.78,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle tins setting (large batch)."
+ },
+ {
+  "window": 71,
+  "start": 570.78,
+  "end": 578.82,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 72,
+  "start": 578.82,
+  "end": 586.86,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 73,
+  "start": 586.86,
+  "end": 594.9,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 74,
+  "start": 594.9,
+  "end": 602.94,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 75,
+  "start": 602.94,
+  "end": 610.98,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 76,
+  "start": 610.98,
+  "end": 619.02,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 77,
+  "start": 619.02,
+  "end": 627.06,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 78,
+  "start": 627.06,
+  "end": 635.1,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 79,
+  "start": 635.1,
+  "end": 643.14,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 80,
+  "start": 643.14,
+  "end": 651.18,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch/heat-gun smoothing the tin tops; labelling."
+ },
+ {
+  "window": 81,
+  "start": 651.18,
+  "end": 659.22,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 82,
+  "start": 659.22,
+  "end": 667.25,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 83,
+  "start": 667.25,
+  "end": 675.29,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 84,
+  "start": 675.29,
+  "end": 683.33,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 85,
+  "start": 683.33,
+  "end": 691.37,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 86,
+  "start": 691.37,
+  "end": 699.41,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 87,
+  "start": 699.41,
+  "end": 707.45,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 88,
+  "start": 707.45,
+  "end": 715.49,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Inventory room b-roll."
+ },
+ {
+  "window": 89,
+  "start": 715.49,
+  "end": 723.53,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Inventory room b-roll."
+ },
+ {
+  "window": 90,
+  "start": 723.53,
+  "end": 731.57,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 91,
+  "start": 731.57,
+  "end": 739.61,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Inventory room b-roll."
+ },
+ {
+  "window": 92,
+  "start": 739.61,
+  "end": 747.65,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 93,
+  "start": 747.65,
+  "end": 755.69,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 94,
+  "start": 755.69,
+  "end": 763.73,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Inventory room b-roll."
+ },
+ {
+  "window": 95,
+  "start": 763.73,
+  "end": 771.76,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 96,
+  "start": 771.76,
+  "end": 779.8,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 97,
+  "start": 779.8,
+  "end": 787.84,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished labelled candles on the shelves."
+ },
+ {
+  "window": 98,
+  "start": 787.84,
+  "end": 795.88,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' (dream/joolieshome) end card."
+ },
+ {
+  "window": 99,
+  "start": 795.88,
+  "end": 803.92,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' (dream/joolieshome) end card."
+ },
+ {
+  "window": 100,
+  "start": 803.92,
+  "end": 811.96,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' (dream/joolieshome) end card."
+ },
+ {
+  "window": 101,
+  "start": 811.96,
+  "end": 820.0,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' (dream/joolieshome) end card."
+ }
+]

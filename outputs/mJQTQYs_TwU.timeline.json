@@ -1,0 +1,966 @@
+{
+  "video_id": "mJQTQYs_TwU",
+  "title": "\ud83c\udf84 \ud83c\udf4a Make Holiday Candles with me | Recipe Included \u2744\ufe0f",
+  "url": "https://www.youtube.com/watch?v=mJQTQYs_TwU",
+  "duration": 317.0,
+  "source": "storyboard",
+  "n_windows": 40,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.92,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.92,
+      "end": 15.85,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.85,
+      "end": 23.77,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into rows of jars.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.77,
+      "end": 31.7,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the candles with dried orange slices/herbs.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.7,
+      "end": 39.62,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing/portioning wax for the holiday batch (scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->measure_wax)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.62,
+      "end": 47.55,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.55,
+      "end": 55.47,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.47,
+      "end": 63.4,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sa oe oe Xs one 4 aa bs mh ma ie ay 7 ae'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.4,
+      "end": 71.32,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing/portioning wax for the holiday batch (scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->measure_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.32,
+      "end": 79.25,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.25,
+      "end": 87.17,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 87.17,
+      "end": 95.1,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the candles with dried orange slices/herbs.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.1,
+      "end": 103.02,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'wat oe ic Sas, 7 Yaz, se ee mn- iz cay'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.02,
+      "end": 110.95,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 110.95,
+      "end": 118.87,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 118.87,
+      "end": 126.8,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the candles with dried orange slices/herbs.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 126.8,
+      "end": 134.72,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing/portioning wax for the holiday batch (scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->measure_wax)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 134.72,
+      "end": 142.65,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'For ee he De Ee we ew- be 2.'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.65,
+      "end": 150.57,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 150.57,
+      "end": 158.5,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the candles with dried orange slices/herbs.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 158.5,
+      "end": 166.43,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing/portioning wax for the holiday batch (scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->measure_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 166.43,
+      "end": 174.35,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 174.35,
+      "end": 182.28,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 182.28,
+      "end": 190.2,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the candles with dried orange slices/herbs.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 190.2,
+      "end": 198.13,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing/portioning wax for the holiday batch (scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->measure_wax)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 198.13,
+      "end": 206.05,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 206.05,
+      "end": 213.98,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into rows of jars.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 213.98,
+      "end": 221.9,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 7 ne Se 5 le, on Te ca, ae ae gil aa AL Zz AA So is 1'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 221.9,
+      "end": 229.83,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing/portioning wax for the holiday batch (scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->measure_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 229.83,
+      "end": 237.75,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 237.75,
+      "end": 245.68,
+      "label": "talking_head",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Pouring amber wax into rows of jars.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 245.68,
+      "end": 253.6,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 253.6,
+      "end": 261.53,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 261.53,
+      "end": 269.45,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 269.45,
+      "end": 277.38,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished holiday candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 277.38,
+      "end": 285.3,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 285.3,
+      "end": 293.23,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 293.23,
+      "end": 301.15,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 301.15,
+      "end": 309.08,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 309.08,
+      "end": 317.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.92,
+      "confidence": 0.7,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 7.92,
+      "end": 15.85,
+      "confidence": 0.45,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 15.85,
+      "end": 23.77,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 23.77,
+      "end": 31.7,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 31.7,
+      "end": 39.62,
+      "confidence": 0.45,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 39.62,
+      "end": 47.55,
+      "confidence": 0.45,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 47.55,
+      "end": 55.47,
+      "confidence": 0.5,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 55.47,
+      "end": 63.4,
+      "confidence": 0.5,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 63.4,
+      "end": 71.32,
+      "confidence": 0.45,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 71.32,
+      "end": 79.25,
+      "confidence": 0.45,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 79.25,
+      "end": 87.17,
+      "confidence": 0.5,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 87.17,
+      "end": 95.1,
+      "confidence": 0.45,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 95.1,
+      "end": 103.02,
+      "confidence": 0.5,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 103.02,
+      "end": 110.95,
+      "confidence": 0.45,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 110.95,
+      "end": 118.87,
+      "confidence": 0.5,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 118.87,
+      "end": 126.8,
+      "confidence": 0.45,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 126.8,
+      "end": 134.72,
+      "confidence": 0.45,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 134.72,
+      "end": 142.65,
+      "confidence": 0.5,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 142.65,
+      "end": 150.57,
+      "confidence": 0.5,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 150.57,
+      "end": 158.5,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 158.5,
+      "end": 166.43,
+      "confidence": 0.45,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 166.43,
+      "end": 174.35,
+      "confidence": 0.45,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 174.35,
+      "end": 182.28,
+      "confidence": 0.9,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 182.28,
+      "end": 190.2,
+      "confidence": 0.45,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 190.2,
+      "end": 198.13,
+      "confidence": 0.45,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 198.13,
+      "end": 206.05,
+      "confidence": 0.45,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 206.05,
+      "end": 213.98,
+      "confidence": 0.5,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 213.98,
+      "end": 221.9,
+      "confidence": 0.5,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 221.9,
+      "end": 229.83,
+      "confidence": 0.45,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 229.83,
+      "end": 269.45,
+      "confidence": 0.7,
+      "windows": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 269.45,
+      "end": 277.38,
+      "confidence": 0.45,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 277.38,
+      "end": 317.0,
+      "confidence": 0.5,
+      "windows": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    }
+  ]
+}

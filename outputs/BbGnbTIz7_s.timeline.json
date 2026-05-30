@@ -1,0 +1,1279 @@
+{
+  "video_id": "BbGnbTIz7_s",
+  "title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+  "url": "https://www.youtube.com/watch?v=BbGnbTIz7_s",
+  "duration": 505.0,
+  "source": "storyboard",
+  "n_windows": 63,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.02,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Intro with a textured candle; subscribe card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.02,
+      "end": 16.03,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Teaser of the finished ombre cube candle in its mould.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.03,
+      "end": 24.05,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Caption: this tutorial covers a 5-layer ombre candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.05,
+      "end": 32.06,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Caption: 'Let's do it! Don't forget to...'; the mould.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.06,
+      "end": 40.08,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Measuring wax against the mould; scissors.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->measure_wax)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.08,
+      "end": 48.1,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Cutting the wax to size.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->measure_wax)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 48.1,
+      "end": 56.11,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Silicone cube mould prepared.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.11,
+      "end": 64.13,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Threading the wick through the mould with a needle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.13,
+      "end": 72.14,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Measuring the wick against the mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.14,
+      "end": 80.16,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wick threaded through the mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 80.16,
+      "end": 88.17,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax pieces; mould ready.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->measure_wax)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 88.17,
+      "end": 96.19,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption about pouring slowly; first pour.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 96.19,
+      "end": 104.21,
+      "label": "pour_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "'LAYER 1 - 0 colour / natural wax'; wax melting in the pot.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.21,
+      "end": 112.22,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Natural (uncoloured) wax poured into the mould as layer 1.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 112.22,
+      "end": 120.24,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A dye chip added to the melted wax in the pitcher.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 120.24,
+      "end": 128.25,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Making a gauge/start colour in the pitcher.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 128.25,
+      "end": 136.27,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Testing a colour drop on a plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 136.27,
+      "end": 144.29,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding a small dye chip with a spoon.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 144.29,
+      "end": 152.3,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Testing the colour.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 152.3,
+      "end": 160.32,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Spoon colour test.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 160.32,
+      "end": 168.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the next layer; caption.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 168.33,
+      "end": 176.35,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould with the first layer; 'not ready yet'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 176.35,
+      "end": 184.37,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Cube mould with a layer; 'not ready yet'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 184.37,
+      "end": 192.38,
+      "label": "cure_cool",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Checking/pouring the layer.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 192.38,
+      "end": 200.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould layer; 'almost'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 200.4,
+      "end": 208.41,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring; 'time to do the next layer'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 208.41,
+      "end": 216.43,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dye chip added to the pitcher.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 216.43,
+      "end": 224.44,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "'LAYER 2 - lightly coloured'; pouring layer 2.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 224.44,
+      "end": 232.46,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the second layer slowly.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 232.46,
+      "end": 240.48,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the second layer.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 240.48,
+      "end": 248.49,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "'Gently tap the mould to release bubbles'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 248.49,
+      "end": 256.51,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tapping the mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 256.51,
+      "end": 264.52,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding more chips to the pitcher.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 264.52,
+      "end": 272.54,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Breaking a dye chip into pieces.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 272.54,
+      "end": 280.56,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Darker wax in the pitcher.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 280.56,
+      "end": 288.57,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Testing the dye drop.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 288.57,
+      "end": 296.59,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "'LAYER 3 - medium colour'; the mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 37,
+      "start": 296.59,
+      "end": 304.6,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the third layer.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 304.6,
+      "end": 312.62,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould with three layers.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 39,
+      "start": 312.62,
+      "end": 320.63,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould; caption about texture.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 320.63,
+      "end": 328.65,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould layers; 'take your time'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 41,
+      "start": 328.65,
+      "end": 336.67,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould; 'repetitive process'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 42,
+      "start": 336.67,
+      "end": 344.68,
+      "label": "cure_cool",
+      "original_label": "monitor_temperature",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Thermometer in the wax; mould.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 43,
+      "start": 344.68,
+      "end": 352.7,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould; caption.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 44,
+      "start": 352.7,
+      "end": 360.71,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Colour/pour the next layer.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 45,
+      "start": 360.71,
+      "end": 368.73,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Spoon test on the mould.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 46,
+      "start": 368.73,
+      "end": 376.75,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "'LAYER 4 - dark colour'; pouring.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 47,
+      "start": 376.75,
+      "end": 384.76,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mould; caption.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 48,
+      "start": 384.76,
+      "end": 392.78,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dark layer in the mould.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 49,
+      "start": 392.78,
+      "end": 400.79,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pour the last layer; 'saturate the colour'.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 50,
+      "start": 400.79,
+      "end": 408.81,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the dark saturated layer.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 51,
+      "start": 408.81,
+      "end": 416.83,
+      "label": "pour_wax",
+      "original_label": "monitor_temperature",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Thermometer reading; mould.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 416.83,
+      "end": 424.84,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Heat gun over the mould top; pouring.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 53,
+      "start": 424.84,
+      "end": 432.86,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "'LAYER 5 - saturated colour'; heat gun.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 432.86,
+      "end": 440.87,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding the cube candle from the silicone.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 55,
+      "start": 440.87,
+      "end": 448.89,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Peeling the silicone mould off the cube.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 448.89,
+      "end": 456.9,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Releasing the ombre cube candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 57,
+      "start": 456.9,
+      "end": 464.92,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "'Ta-Daaa!'; holding the finished ombre cube candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 58,
+      "start": 464.92,
+      "end": 472.94,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The finished white-to-brown ombre cube candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 59,
+      "start": 472.94,
+      "end": 480.95,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'WATCH MORE VIDEOS' end card with the host.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 60,
+      "start": 480.95,
+      "end": 488.97,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 61,
+      "start": 488.97,
+      "end": 496.98,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 62,
+      "start": 496.98,
+      "end": 505.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.02,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 8.02,
+      "end": 16.03,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 16.03,
+      "end": 32.06,
+      "confidence": 0.4,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 32.06,
+      "end": 48.1,
+      "confidence": 0.5,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 48.1,
+      "end": 80.16,
+      "confidence": 0.5,
+      "windows": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 80.16,
+      "end": 88.17,
+      "confidence": 0.45,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 88.17,
+      "end": 112.22,
+      "confidence": 0.54,
+      "windows": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 112.22,
+      "end": 160.32,
+      "confidence": 0.5,
+      "windows": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 160.32,
+      "end": 168.33,
+      "confidence": 0.5,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 168.33,
+      "end": 200.4,
+      "confidence": 0.45,
+      "windows": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 200.4,
+      "end": 256.51,
+      "confidence": 0.5,
+      "windows": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 256.51,
+      "end": 288.57,
+      "confidence": 0.5,
+      "windows": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 288.57,
+      "end": 304.6,
+      "confidence": 0.53,
+      "windows": [
+        36,
+        37
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 304.6,
+      "end": 352.7,
+      "confidence": 0.46,
+      "windows": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 352.7,
+      "end": 376.75,
+      "confidence": 0.52,
+      "windows": [
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 376.75,
+      "end": 392.78,
+      "confidence": 0.45,
+      "windows": [
+        47,
+        48
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 392.78,
+      "end": 432.86,
+      "confidence": 0.5,
+      "windows": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 432.86,
+      "end": 456.9,
+      "confidence": 0.5,
+      "windows": [
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 456.9,
+      "end": 472.94,
+      "confidence": 0.6,
+      "windows": [
+        57,
+        58
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 472.94,
+      "end": 480.95,
+      "confidence": 0.5,
+      "windows": [
+        59
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 480.95,
+      "end": 505.0,
+      "confidence": 0.4,
+      "windows": [
+        60,
+        61,
+        62
+      ]
+    }
+  ]
+}

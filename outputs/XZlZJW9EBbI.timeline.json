@@ -1,0 +1,331 @@
+{
+  "video_id": "XZlZJW9EBbI",
+  "title": "DIY Water Candle / NO WAX Candles / PAANI se banaye candle / Diwali Special / Homemade Candles / How",
+  "url": "https://www.youtube.com/watch?v=XZlZJW9EBbI",
+  "duration": 121.0,
+  "source": "storyboard",
+  "n_windows": 15,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.07,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Craftz Talent' channel intro; yellow background.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.07,
+      "end": 16.13,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead yellow bg: a glass bowl of blue water; a plastic bottle is cut.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.13,
+      "end": 24.2,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorations placed into the blue water bowl.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.2,
+      "end": 32.27,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Arranging floating decor in the blue water.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.27,
+      "end": 40.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "An oil layer added over the blue water candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.33,
+      "end": 48.4,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands make a small floating wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->prepare_container)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 48.4,
+      "end": 56.47,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Assembling the float wick; scissors.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->prepare_container)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.47,
+      "end": 64.53,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Threading the wick through the float.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->prepare_container)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.53,
+      "end": 72.6,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The float wick placed on the blue water candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.6,
+      "end": 80.67,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adjusting the float/wick in the water bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 80.67,
+      "end": 88.73,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finishing the floating wick assembly.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 88.73,
+      "end": 96.8,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The finished blue water candle with a lit float wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.8,
+      "end": 104.87,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.87,
+      "end": 112.93,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.93,
+      "end": 121.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.07,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.07,
+      "end": 16.13,
+      "confidence": 0.45,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 16.13,
+      "end": 32.27,
+      "confidence": 0.45,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 32.27,
+      "end": 40.33,
+      "confidence": 0.4,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 40.33,
+      "end": 64.53,
+      "confidence": 0.45,
+      "windows": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 64.53,
+      "end": 88.73,
+      "confidence": 0.42,
+      "windows": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 88.73,
+      "end": 96.8,
+      "confidence": 0.5,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 96.8,
+      "end": 121.0,
+      "confidence": 0.5,
+      "windows": [
+        12,
+        13,
+        14
+      ]
+    }
+  ]
+}

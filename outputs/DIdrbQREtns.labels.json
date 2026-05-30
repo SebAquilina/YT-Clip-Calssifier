@@ -1,0 +1,698 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.98,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.98,
+  "end": 15.95,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera (beginners soy-wax guide)."
+ },
+ {
+  "window": 2,
+  "start": 15.95,
+  "end": 23.93,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 23.93,
+  "end": 31.91,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 4,
+  "start": 31.91,
+  "end": 39.89,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 39.89,
+  "end": 47.86,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 47.86,
+  "end": 55.84,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 55.84,
+  "end": 63.82,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 8,
+  "start": 63.82,
+  "end": 71.79,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 9,
+  "start": 71.79,
+  "end": 79.77,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 79.77,
+  "end": 87.75,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 87.75,
+  "end": 95.72,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 95.72,
+  "end": 103.7,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 103.7,
+  "end": 111.68,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 111.68,
+  "end": 119.66,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 119.66,
+  "end": 127.63,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 127.63,
+  "end": 135.61,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 135.61,
+  "end": 143.59,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 143.59,
+  "end": 151.56,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 19,
+  "start": 151.56,
+  "end": 159.54,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera (beginners soy-wax guide)."
+ },
+ {
+  "window": 20,
+  "start": 159.54,
+  "end": 167.52,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 167.52,
+  "end": 175.49,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 22,
+  "start": 175.49,
+  "end": 183.47,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 23,
+  "start": 183.47,
+  "end": 191.45,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 24,
+  "start": 191.45,
+  "end": 199.43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 25,
+  "start": 199.43,
+  "end": 207.4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 26,
+  "start": 207.4,
+  "end": 215.38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "start": 215.38,
+  "end": 223.36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 28,
+  "start": 223.36,
+  "end": 231.33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 29,
+  "start": 231.33,
+  "end": 239.31,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 30,
+  "start": 239.31,
+  "end": 247.29,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "start": 247.29,
+  "end": 255.26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 32,
+  "start": 255.26,
+  "end": 263.24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 33,
+  "start": 263.24,
+  "end": 271.22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 34,
+  "start": 271.22,
+  "end": 279.2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 35,
+  "start": 279.2,
+  "end": 287.17,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 36,
+  "start": 287.17,
+  "end": 295.15,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 37,
+  "start": 295.15,
+  "end": 303.13,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 38,
+  "start": 303.13,
+  "end": 311.1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 39,
+  "start": 311.1,
+  "end": 319.08,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 40,
+  "start": 319.08,
+  "end": 327.06,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 41,
+  "start": 327.06,
+  "end": 335.03,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 42,
+  "start": 335.03,
+  "end": 343.01,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 43,
+  "start": 343.01,
+  "end": 350.99,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 44,
+  "start": 350.99,
+  "end": 358.97,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the knit-textured silicone pillar mould."
+ },
+ {
+  "window": 45,
+  "start": 358.97,
+  "end": 366.94,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 46,
+  "start": 366.94,
+  "end": 374.92,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 47,
+  "start": 374.92,
+  "end": 382.9,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 48,
+  "start": 382.9,
+  "end": 390.87,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 49,
+  "start": 390.87,
+  "end": 398.85,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the knit-textured silicone pillar mould."
+ },
+ {
+  "window": 50,
+  "start": 398.85,
+  "end": 406.83,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the knit-textured silicone pillar mould."
+ },
+ {
+  "window": 51,
+  "start": 406.83,
+  "end": 414.8,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 52,
+  "start": 414.8,
+  "end": 422.78,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 53,
+  "start": 422.78,
+  "end": 430.76,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the pot."
+ },
+ {
+  "window": 54,
+  "start": 430.76,
+  "end": 438.74,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the pot."
+ },
+ {
+  "window": 55,
+  "start": 438.74,
+  "end": 446.71,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick in the mould."
+ },
+ {
+  "window": 56,
+  "start": 446.71,
+  "end": 454.69,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the knit-textured silicone pillar mould."
+ },
+ {
+  "window": 57,
+  "start": 454.69,
+  "end": 462.67,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick in the mould."
+ },
+ {
+  "window": 58,
+  "start": 462.67,
+  "end": 470.64,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar mould."
+ },
+ {
+  "window": 59,
+  "start": 470.64,
+  "end": 478.62,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick in the mould."
+ },
+ {
+  "window": 60,
+  "start": 478.62,
+  "end": 486.6,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the pot."
+ },
+ {
+  "window": 61,
+  "start": 486.6,
+  "end": 494.57,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding burgundy dye to the wax."
+ },
+ {
+  "window": 62,
+  "start": 494.57,
+  "end": 502.55,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding burgundy dye to the wax."
+ },
+ {
+  "window": 63,
+  "start": 502.55,
+  "end": 510.53,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the pot."
+ },
+ {
+  "window": 64,
+  "start": 510.53,
+  "end": 518.51,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the pot."
+ },
+ {
+  "window": 65,
+  "start": 518.51,
+  "end": 526.48,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding burgundy dye to the wax."
+ },
+ {
+  "window": 66,
+  "start": 526.48,
+  "end": 534.46,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar mould."
+ },
+ {
+  "window": 67,
+  "start": 534.46,
+  "end": 542.44,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar mould."
+ },
+ {
+  "window": 68,
+  "start": 542.44,
+  "end": 550.41,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick in the mould."
+ },
+ {
+  "window": 69,
+  "start": 550.41,
+  "end": 558.39,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick in the mould."
+ },
+ {
+  "window": 70,
+  "start": 558.39,
+  "end": 566.37,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar mould."
+ },
+ {
+  "window": 71,
+  "start": 566.37,
+  "end": 574.34,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar mould."
+ },
+ {
+  "window": 72,
+  "start": 574.34,
+  "end": 582.32,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 73,
+  "start": 582.32,
+  "end": 590.3,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar mould."
+ },
+ {
+  "window": 74,
+  "start": 590.3,
+  "end": 598.28,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar mould."
+ },
+ {
+  "window": 75,
+  "start": 598.28,
+  "end": 606.25,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 76,
+  "start": 606.25,
+  "end": 614.23,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding / heat-gun finishing the textured pillar candle."
+ },
+ {
+  "window": 77,
+  "start": 614.23,
+  "end": 622.21,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 78,
+  "start": 622.21,
+  "end": 630.18,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 79,
+  "start": 630.18,
+  "end": 638.16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 80,
+  "start": 638.16,
+  "end": 646.14,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 81,
+  "start": 646.14,
+  "end": 654.11,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 82,
+  "start": 654.11,
+  "end": 662.09,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 83,
+  "start": 662.09,
+  "end": 670.07,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 84,
+  "start": 670.07,
+  "end": 678.05,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 85,
+  "start": 678.05,
+  "end": 686.02,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ },
+ {
+  "window": 86,
+  "start": 686.02,
+  "end": 694.0,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished burgundy knit-pillar candles shown."
+ }
+]

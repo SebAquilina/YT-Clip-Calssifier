@@ -1,0 +1,383 @@
+{
+  "video_id": "2nxGLwe1Znk",
+  "title": "DIY Mason Jar Candles | How to Make Mason Jar Candles",
+  "url": "https://www.youtube.com/watch?v=2nxGLwe1Znk",
+  "duration": 147.0,
+  "source": "storyboard",
+  "n_windows": 18,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.17,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead metal pitcher of white soy wax flakes.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.17,
+      "end": 16.33,
+      "label": "measure_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pitcher of wax over a double boiler.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 16.33,
+      "end": 24.5,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax flakes into the pitcher; '6 oz soy wax'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.5,
+      "end": 32.67,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pitcher of white wax flakes ('6 oz').",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.67,
+      "end": 40.83,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pitcher in a water bath on the induction hob, melting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.83,
+      "end": 49.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting in the double boiler.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 49.0,
+      "end": 57.17,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax; caption 'Heat to 185\u00b0'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 57.17,
+      "end": 65.33,
+      "label": "monitor_temperature",
+      "original_label": "monitor_temperature",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring melted wax; checking temperature.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.33,
+      "end": 73.5,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring essential oil into the wax ('.5 oz essential oil').",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 73.5,
+      "end": 81.67,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring fragrance into the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 81.67,
+      "end": 89.83,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Cool wax fully'; pitcher of wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 89.83,
+      "end": 98.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mason jars readied with wicks.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->prepare_container)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 98.0,
+      "end": 106.17,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a mason jar.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 106.17,
+      "end": 114.33,
+      "label": "pour_wax",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mason jar with wax; wick bar.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 114.33,
+      "end": 122.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Mason jars filled; hands.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 122.5,
+      "end": 130.67,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle lit; 'one fine project' outro.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 130.67,
+      "end": 138.83,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'one fine project' end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 138.83,
+      "end": 147.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'one fine project' end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 32.67,
+      "confidence": 0.49,
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 32.67,
+      "end": 57.17,
+      "confidence": 0.52,
+      "windows": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "label": "monitor_temperature",
+      "phase": "process",
+      "is_step": true,
+      "start": 57.17,
+      "end": 65.33,
+      "confidence": 0.5,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 65.33,
+      "end": 81.67,
+      "confidence": 0.53,
+      "windows": [
+        8,
+        9
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 81.67,
+      "end": 89.83,
+      "confidence": 0.4,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 89.83,
+      "end": 98.0,
+      "confidence": 0.5,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 98.0,
+      "end": 122.5,
+      "confidence": 0.5,
+      "windows": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 122.5,
+      "end": 130.67,
+      "confidence": 0.5,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 130.67,
+      "end": 147.0,
+      "confidence": 0.5,
+      "windows": [
+        16,
+        17
+      ]
+    }
+  ]
+}

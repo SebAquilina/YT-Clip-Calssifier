@@ -1,0 +1,356 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Host (red hair) opens with layered red/blue candle samples and pouring pitchers."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 5,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands set up rows of cups with wicks."
+ },
+ {
+  "window": 6,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of cups prepared."
+ },
+ {
+  "window": 7,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of cups with wicks."
+ },
+ {
+  "window": 8,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 9,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of cups; hand."
+ },
+ {
+  "window": 10,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 11,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 12,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 13,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 15,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of clear cups with wicks."
+ },
+ {
+  "window": 16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 17,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 18,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 19,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Red first layer poured into the rows of cups."
+ },
+ {
+  "window": 20,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand fills a red-layer cup."
+ },
+ {
+  "window": 21,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Rows of cups with the red layer."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; fragrance math '15 x 0.09 = 1.35'."
+ },
+ {
+  "window": 23,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Rows of cups with the red layer."
+ },
+ {
+  "window": 24,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Red dye stirred into a pitcher of wax."
+ },
+ {
+  "window": 25,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Overhead black pot of wax stirred on a hot plate."
+ },
+ {
+  "window": 28,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Host with a pouring pitcher."
+ },
+ {
+  "window": 29,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "'**Cooling**' card between layers."
+ },
+ {
+  "window": 32,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Overhead red cups; black pot on the hot plate."
+ },
+ {
+  "window": 34,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 35,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; fragrance math caption."
+ },
+ {
+  "window": 36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 37,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Overhead pouring the next layer into the cups."
+ },
+ {
+  "window": 38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 39,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "'**Cooling**' card."
+ },
+ {
+  "window": 40,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 41,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 42,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead melter/heat gun with dye discs."
+ },
+ {
+  "window": 43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 44,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; fragrance math caption."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 46,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Overhead pouring on the hot plate."
+ },
+ {
+  "window": 47,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Dark dye poured into the pitcher."
+ },
+ {
+  "window": 48,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 49,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 50,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "'**Cooling**' card."
+ },
+ {
+  "window": 51,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Host pours the next layer into the cups."
+ },
+ {
+  "window": 52,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 53,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; blue-layer cups in front."
+ },
+ {
+  "window": 54,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; cups with blue layers."
+ },
+ {
+  "window": 55,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Finished red/white/blue 3-layer candles shown."
+ },
+ {
+  "window": 56,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 57,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 58,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

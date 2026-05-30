@@ -1,0 +1,17 @@
+[
+  {"window": 0, "label": "gather_materials", "confidence": 0.5, "description": "Overhead: a small grey handmade clay cup sits ready on a white surface."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.55, "description": "A hand holds the clay vessel (caption 'handmade clay cup') beside a pile of white soy wax flakes."},
+  {"window": 2, "label": "measure_wax", "confidence": 0.6, "description": "White wax flakes are scooped toward a black melting cup to be portioned."},
+  {"window": 3, "label": "measure_wax", "confidence": 0.6, "description": "Wax flakes poured into the black melting cup."},
+  {"window": 4, "label": "prepare_container", "confidence": 0.6, "description": "Caption 'glue'; adhesive is applied to seat the wooden wick base inside the clay cup."},
+  {"window": 5, "label": "prepare_container", "confidence": 0.6, "description": "The wooden wick is set upright in the clay cup; melted wax in the black cup nearby."},
+  {"window": 6, "label": "prepare_container", "confidence": 0.55, "description": "Caption 'cut the wick'; the wooden wick is trimmed to height over the cup."},
+  {"window": 7, "label": "prepare_container", "confidence": 0.55, "description": "Hands steady the clay cup with its centred wooden wick."},
+  {"window": 8, "label": "add_fragrance", "confidence": 0.45, "description": "The melted wax in the black cup is scented before pouring; clay cup ready alongside."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.65, "description": "Caption 'pour scented wax into cup'; molten wax poured into the clay cup."},
+  {"window": 10, "label": "pour_wax", "confidence": 0.6, "description": "The clay cup fills with scented wax around the wooden wick."},
+  {"window": 11, "label": "cure_cool", "confidence": 0.55, "description": "Caption 'leave for 1 hour'; the filled cup rests to set."},
+  {"window": 12, "label": "trim_wick", "confidence": 0.55, "description": "Caption 'cut unnecessary part of the wick'; the wooden wick is trimmed on the set candle."},
+  {"window": 13, "label": "reveal_result", "confidence": 0.6, "description": "Trimmed candle is lit; red heart decor in frame."},
+  {"window": 14, "label": "reveal_result", "confidence": 0.65, "description": "Beauty shot of the finished wooden-wick clay-cup candles lit."}
+]

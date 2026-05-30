@@ -1,0 +1,146 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.11,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "'SUPPLIES FOR CANDLES' title."
+ },
+ {
+  "window": 1,
+  "start": 8.11,
+  "end": 16.22,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "'How to make a glitter gel wax candle' caption; hands on marble."
+ },
+ {
+  "window": 2,
+  "start": 16.22,
+  "end": 24.33,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands prep at the marble bench."
+ },
+ {
+  "window": 3,
+  "start": 24.33,
+  "end": 32.44,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Handling the gel wax."
+ },
+ {
+  "window": 4,
+  "start": 32.44,
+  "end": 40.56,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Clear gel wax in a metal pot, melting."
+ },
+ {
+  "window": 5,
+  "start": 40.56,
+  "end": 48.67,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Gel wax melting (tinting begins)."
+ },
+ {
+  "window": 6,
+  "start": 48.67,
+  "end": 56.78,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Black pot of melting gel wax."
+ },
+ {
+  "window": 7,
+  "start": 56.78,
+  "end": 64.89,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Pot of clear gel; hands."
+ },
+ {
+  "window": 8,
+  "start": 64.89,
+  "end": 73.0,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding blue dye to the gel."
+ },
+ {
+  "window": 9,
+  "start": 73.0,
+  "end": 81.11,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Blue gel in the pot."
+ },
+ {
+  "window": 10,
+  "start": 81.11,
+  "end": 89.22,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring blue gel into a glass."
+ },
+ {
+  "window": 11,
+  "start": 89.22,
+  "end": 97.33,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring from the metal pot."
+ },
+ {
+  "window": 12,
+  "start": 97.33,
+  "end": 105.44,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Pot of blue gel."
+ },
+ {
+  "window": 13,
+  "start": 105.44,
+  "end": 113.56,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring blue gel into the glass around the wick."
+ },
+ {
+  "window": 14,
+  "start": 113.56,
+  "end": 121.67,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Blue gel candle with the wick set."
+ },
+ {
+  "window": 15,
+  "start": 121.67,
+  "end": 129.78,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Finished blue glitter gel candle."
+ },
+ {
+  "window": 16,
+  "start": 129.78,
+  "end": 137.89,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished glitter gel candle shown."
+ },
+ {
+  "window": 17,
+  "start": 137.89,
+  "end": 146.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'THANK YOU FOR WATCHING' card."
+ }
+]

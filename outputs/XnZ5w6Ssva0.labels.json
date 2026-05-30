@@ -1,0 +1,130 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.88,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Black opening into the CandleScience host; example multi-wick candles shown."
+ },
+ {
+  "window": 1,
+  "start": 7.88,
+  "end": 15.75,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 15.75,
+  "end": 23.62,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 23.62,
+  "end": 31.5,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Diagram: a circle marked with two wick positions."
+ },
+ {
+  "window": 4,
+  "start": 31.5,
+  "end": 39.38,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Diagram of wick spacing in a circular vessel."
+ },
+ {
+  "window": 5,
+  "start": 39.38,
+  "end": 47.25,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands hold a glass over white paper, marking wick positions."
+ },
+ {
+  "window": 6,
+  "start": 47.25,
+  "end": 55.12,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Marking/measuring multiple wick positions on paper under a glass."
+ },
+ {
+  "window": 7,
+  "start": 55.12,
+  "end": 63.0,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 8,
+  "start": 63.0,
+  "end": 70.88,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Empty circle diagram."
+ },
+ {
+  "window": 9,
+  "start": 70.88,
+  "end": 78.75,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Candle-size guide table; '4 \u00f7 2 = 2' wick-spacing diagram."
+ },
+ {
+  "window": 10,
+  "start": 78.75,
+  "end": 86.62,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Host works at the bench planning the wick layout."
+ },
+ {
+  "window": 11,
+  "start": 86.62,
+  "end": 94.5,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 94.5,
+  "end": 102.38,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Hands place multiple metal wick pins/wicks on the workbench with a tool."
+ },
+ {
+  "window": 13,
+  "start": 102.38,
+  "end": 110.25,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "start": 110.25,
+  "end": 118.12,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 15,
+  "start": 118.12,
+  "end": 126.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

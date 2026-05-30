@@ -1,0 +1,282 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.06,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'ecosoya' logo intro."
+ },
+ {
+  "window": 1,
+  "start": 8.06,
+  "end": 16.11,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 2,
+  "start": 16.11,
+  "end": 24.17,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 3,
+  "start": 24.17,
+  "end": 32.23,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 4,
+  "start": 32.23,
+  "end": 40.29,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 5,
+  "start": 40.29,
+  "end": 48.34,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 6,
+  "start": 48.34,
+  "end": 56.4,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 7,
+  "start": 56.4,
+  "end": 64.46,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 8,
+  "start": 64.46,
+  "end": 72.51,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 9,
+  "start": 72.51,
+  "end": 80.57,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 10,
+  "start": 80.57,
+  "end": 88.63,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 11,
+  "start": 88.63,
+  "end": 96.69,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing wax on a scale (overhead)."
+ },
+ {
+  "window": 12,
+  "start": 96.69,
+  "end": 104.74,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 13,
+  "start": 104.74,
+  "end": 112.8,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 14,
+  "start": 112.8,
+  "end": 120.86,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 15,
+  "start": 120.86,
+  "end": 128.91,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 16,
+  "start": 128.91,
+  "end": 136.97,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 17,
+  "start": 136.97,
+  "end": 145.03,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 18,
+  "start": 145.03,
+  "end": 153.09,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring melting wax in a pot."
+ },
+ {
+  "window": 19,
+  "start": 153.09,
+  "end": 161.14,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax from a pot."
+ },
+ {
+  "window": 20,
+  "start": 161.14,
+  "end": 169.2,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 21,
+  "start": 169.2,
+  "end": 177.26,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 22,
+  "start": 177.26,
+  "end": 185.31,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 23,
+  "start": 185.31,
+  "end": 193.37,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 24,
+  "start": 193.37,
+  "end": 201.43,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 25,
+  "start": 201.43,
+  "end": 209.49,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 26,
+  "start": 209.49,
+  "end": 217.54,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 27,
+  "start": 217.54,
+  "end": 225.6,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 28,
+  "start": 225.6,
+  "end": 233.66,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 29,
+  "start": 233.66,
+  "end": 241.71,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 30,
+  "start": 241.71,
+  "end": 249.77,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 31,
+  "start": 249.77,
+  "end": 257.83,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 32,
+  "start": 257.83,
+  "end": 265.89,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 33,
+  "start": 265.89,
+  "end": 273.94,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera in a bright kitchen (EcoSoya container candle)."
+ },
+ {
+  "window": 34,
+  "start": 273.94,
+  "end": 282.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

@@ -1,0 +1,357 @@
+{
+  "video_id": "GAh9lQmaEvI",
+  "title": "How to make scented candles at home step by step",
+  "url": "https://www.youtube.com/watch?v=GAh9lQmaEvI",
+  "duration": 135.0,
+  "source": "storyboard",
+  "n_windows": 17,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.94,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.7,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "channel 'U' logo + finished candles teaser",
+      "description": "channel 'U' logo + finished candles teaser",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.94,
+      "end": 15.88,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.7,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "step 1: washing jars under tap",
+      "description": "step 1: washing jars under tap",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.88,
+      "end": 23.82,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.65,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "step 2: drying jars in oven, 'preheat'",
+      "description": "step 2: drying jars in oven, 'preheat'",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.82,
+      "end": 31.76,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "step 3: wicks laid out",
+      "description": "step 3: wicks laid out",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.76,
+      "end": 39.71,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.7,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "step 4: glue + stick wick inside jar",
+      "description": "step 4: glue + stick wick inside jar",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.71,
+      "end": 47.65,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "step 5: measuring in bowls",
+      "description": "step 5: measuring in bowls",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.65,
+      "end": 55.59,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.75,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "step 6: 'Measure out the wax', flakes in cup",
+      "description": "step 6: 'Measure out the wax', flakes in cup",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.59,
+      "end": 63.53,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.75,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "step 7: wax cup in double boiler pot",
+      "description": "step 7: wax cup in double boiler pot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.53,
+      "end": 71.47,
+      "label": "monitor_temperature",
+      "original_label": "monitor_temperature",
+      "confidence": 0.7,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "step 8: 'Test the temperature of the wax'",
+      "description": "step 8: 'Test the temperature of the wax'",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.47,
+      "end": 79.41,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "hands working in bowl",
+      "description": "hands working in bowl",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.41,
+      "end": 87.35,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "dropper adding essential oils",
+      "description": "dropper adding essential oils",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.35,
+      "end": 95.29,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "green wax, dropper, thermometer",
+      "description": "green wax, dropper, thermometer",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.29,
+      "end": 103.24,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.75,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "'Pour the wax into your container'",
+      "description": "'Pour the wax into your container'",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.24,
+      "end": 111.18,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.7,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pouring green wax, 'leave space at top'",
+      "description": "pouring green wax, 'leave space at top'",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 111.18,
+      "end": 119.12,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "'Top off the candle', green+blue jars",
+      "description": "'Top off the candle', green+blue jars",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.12,
+      "end": 127.06,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "'Trim the wick' + finished candles",
+      "description": "'Trim the wick' + finished candles",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.06,
+      "end": 135.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "channel 'U' links outro card",
+      "description": "channel 'U' links outro card",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.94,
+      "confidence": 0.7,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.94,
+      "end": 39.71,
+      "confidence": 0.66,
+      "windows": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 39.71,
+      "end": 55.59,
+      "confidence": 0.65,
+      "windows": [
+        5,
+        6
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 55.59,
+      "end": 63.53,
+      "confidence": 0.75,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "monitor_temperature",
+      "phase": "process",
+      "is_step": true,
+      "start": 63.53,
+      "end": 71.47,
+      "confidence": 0.7,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 71.47,
+      "end": 95.29,
+      "confidence": 0.5,
+      "windows": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 95.29,
+      "end": 119.12,
+      "confidence": 0.66,
+      "windows": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 119.12,
+      "end": 127.06,
+      "confidence": 0.5,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 127.06,
+      "end": 135.0,
+      "confidence": 0.7,
+      "windows": [
+        16
+      ]
+    }
+  ]
+}

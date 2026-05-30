@@ -1,0 +1,98 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.08,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "'How to Make Artisan Candle' title; a clear faceted diamond mould."
+ },
+ {
+  "window": 1,
+  "start": 8.08,
+  "end": 16.17,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "The clear faceted mould is prepared; a wick stick set."
+ },
+ {
+  "window": 2,
+  "start": 16.17,
+  "end": 24.25,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "'candle making tutorial' caption; wax melting in a double boiler."
+ },
+ {
+  "window": 3,
+  "start": 24.25,
+  "end": 32.33,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Hands with chopsticks and trays of coloured sand/wax beside the mould."
+ },
+ {
+  "window": 4,
+  "start": 32.33,
+  "end": 40.42,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Layering coloured sand into the diamond mould with chopsticks."
+ },
+ {
+  "window": 5,
+  "start": 40.42,
+  "end": 48.5,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding more coloured sand layers into the mould."
+ },
+ {
+  "window": 6,
+  "start": 48.5,
+  "end": 56.58,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Clear gel wax poured into the faceted mould."
+ },
+ {
+  "window": 7,
+  "start": 56.58,
+  "end": 64.67,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding: peeling the clear mould off the candle; a ladle nearby."
+ },
+ {
+  "window": 8,
+  "start": 64.67,
+  "end": 72.75,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Handling the clear faceted pyramid candle."
+ },
+ {
+  "window": 9,
+  "start": 72.75,
+  "end": 80.83,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "The grey/clear pyramid candle on a board."
+ },
+ {
+  "window": 10,
+  "start": 80.83,
+  "end": 88.92,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "The faceted diamond candle shown."
+ },
+ {
+  "window": 11,
+  "start": 88.92,
+  "end": 97.0,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Finished faceted pyramid candle on a holder; 'Earthy Craft'."
+ }
+]

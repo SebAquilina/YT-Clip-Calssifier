@@ -1,0 +1,1489 @@
+{
+  "video_id": "mHXvtRqE-u0",
+  "title": "Palm Wax Candle Experiment | Part One",
+  "url": "https://www.youtube.com/watch?v=mHXvtRqE-u0",
+  "duration": 570.0,
+  "source": "storyboard",
+  "n_windows": 71,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.03,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Candle company intro card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.03,
+      "end": 16.06,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.06,
+      "end": 24.08,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding fragrance oil (bottles on the scale).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.08,
+      "end": 32.11,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glasses; wicks set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.11,
+      "end": 40.14,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing palm wax on a scale (calc card).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.14,
+      "end": 48.17,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.17,
+      "end": 56.2,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding fragrance oil (bottles on the scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_fragrance)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.2,
+      "end": 64.23,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glasses; wicks set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.23,
+      "end": 72.25,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing palm wax on a scale (calc card).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.25,
+      "end": 80.28,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.28,
+      "end": 88.31,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding fragrance oil (bottles on the scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_fragrance)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 88.31,
+      "end": 96.34,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glasses; wicks set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.34,
+      "end": 104.37,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing palm wax on a scale (calc card).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.37,
+      "end": 112.39,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.39,
+      "end": 120.42,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding fragrance oil (bottles on the scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_fragrance)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 120.42,
+      "end": 128.45,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glasses; wicks set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 128.45,
+      "end": 136.48,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing palm wax on a scale (calc card).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 136.48,
+      "end": 144.51,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the silver melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.51,
+      "end": 152.54,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding fragrance oil (bottles on the scale).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_fragrance)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 152.54,
+      "end": 160.56,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glasses; wicks set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 160.56,
+      "end": 168.59,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing palm wax on a scale (calc card).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 168.59,
+      "end": 176.62,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 176.62,
+      "end": 184.65,
+      "label": "talking_head",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Adding fragrance oil (bottles on the scale).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 184.65,
+      "end": 192.68,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 192.68,
+      "end": 200.7,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling glasses with palm-wax flakes / weighing.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 200.7,
+      "end": 208.73,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling glasses with palm-wax flakes / weighing.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 208.73,
+      "end": 216.76,
+      "label": "measure_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring molten palm wax into the glasses.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 216.76,
+      "end": 224.79,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling glasses with palm-wax flakes / weighing.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 224.79,
+      "end": 232.82,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling glasses with palm-wax flakes / weighing.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 232.82,
+      "end": 240.85,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Prepping the glasses.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 240.85,
+      "end": 248.87,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 248.87,
+      "end": 256.9,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 256.9,
+      "end": 264.93,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 264.93,
+      "end": 272.96,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 272.96,
+      "end": 280.99,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 280.99,
+      "end": 289.01,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 289.01,
+      "end": 297.04,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 297.04,
+      "end": 305.07,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 305.07,
+      "end": 313.1,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 313.1,
+      "end": 321.13,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 321.13,
+      "end": 329.15,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 329.15,
+      "end": 337.18,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the large metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 337.18,
+      "end": 345.21,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring molten palm wax into the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 345.21,
+      "end": 353.24,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring molten palm wax into the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 353.24,
+      "end": 361.27,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring molten palm wax into the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 361.27,
+      "end": 369.3,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring molten palm wax into the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 369.3,
+      "end": 377.32,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting wicks in the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 377.32,
+      "end": 385.35,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting wicks in the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 385.35,
+      "end": 393.38,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting wicks in the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 393.38,
+      "end": 401.41,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding red colourant to the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->add_dye_color)"
+      ]
+    },
+    {
+      "window": 50,
+      "start": 401.41,
+      "end": 409.44,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding red colourant to the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->add_dye_color)"
+      ]
+    },
+    {
+      "window": 51,
+      "start": 409.44,
+      "end": 417.46,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding red colourant to the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->add_dye_color)"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 417.46,
+      "end": 425.49,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding red colourant to the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->add_dye_color)"
+      ]
+    },
+    {
+      "window": 53,
+      "start": 425.49,
+      "end": 433.52,
+      "label": "add_dye_color",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting wicks in the glasses.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (set_wick->add_dye_color)"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 433.52,
+      "end": 441.55,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding red colourant to the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->add_dye_color)"
+      ]
+    },
+    {
+      "window": 55,
+      "start": 441.55,
+      "end": 449.58,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding red colourant to the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->add_dye_color)"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 449.58,
+      "end": 457.61,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting wicks in the glasses.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 57,
+      "start": 457.61,
+      "end": 465.63,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of palm-wax candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 58,
+      "start": 465.63,
+      "end": 473.66,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding red colourant to the wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->add_dye_color)"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 473.66,
+      "end": 481.69,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring molten palm wax into the glasses.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->pour_wax)"
+      ]
+    },
+    {
+      "window": 60,
+      "start": 481.69,
+      "end": 489.72,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of palm-wax candles setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 61,
+      "start": 489.72,
+      "end": 497.75,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished red palm-wax candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 62,
+      "start": 497.75,
+      "end": 505.77,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished red palm-wax candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 63,
+      "start": 505.77,
+      "end": 513.8,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished red palm-wax candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 64,
+      "start": 513.8,
+      "end": 521.83,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 65,
+      "start": 521.83,
+      "end": 529.86,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 66,
+      "start": 529.86,
+      "end": 537.89,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 67,
+      "start": 537.89,
+      "end": 545.92,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 68,
+      "start": 545.92,
+      "end": 553.94,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 69,
+      "start": 553.94,
+      "end": 561.97,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 70,
+      "start": 561.97,
+      "end": 570.0,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty/black end frame.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.03,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 8.03,
+      "end": 16.06,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 16.06,
+      "end": 24.08,
+      "confidence": 0.45,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 24.08,
+      "end": 32.11,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 32.11,
+      "end": 40.14,
+      "confidence": 0.5,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 40.14,
+      "end": 48.17,
+      "confidence": 0.5,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 48.17,
+      "end": 56.2,
+      "confidence": 0.45,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 56.2,
+      "end": 64.23,
+      "confidence": 0.45,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 64.23,
+      "end": 72.25,
+      "confidence": 0.5,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 72.25,
+      "end": 80.28,
+      "confidence": 0.5,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 80.28,
+      "end": 88.31,
+      "confidence": 0.45,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 88.31,
+      "end": 96.34,
+      "confidence": 0.45,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 96.34,
+      "end": 104.37,
+      "confidence": 0.5,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 104.37,
+      "end": 112.39,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 112.39,
+      "end": 120.42,
+      "confidence": 0.45,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 120.42,
+      "end": 128.45,
+      "confidence": 0.45,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 128.45,
+      "end": 136.48,
+      "confidence": 0.5,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 136.48,
+      "end": 144.51,
+      "confidence": 0.5,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 144.51,
+      "end": 152.54,
+      "confidence": 0.45,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 152.54,
+      "end": 160.56,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 160.56,
+      "end": 168.59,
+      "confidence": 0.5,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 168.59,
+      "end": 192.68,
+      "confidence": 0.61,
+      "windows": [
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 192.68,
+      "end": 232.82,
+      "confidence": 0.5,
+      "windows": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 232.82,
+      "end": 240.85,
+      "confidence": 0.5,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 240.85,
+      "end": 337.18,
+      "confidence": 0.5,
+      "windows": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 337.18,
+      "end": 369.3,
+      "confidence": 0.5,
+      "windows": [
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 369.3,
+      "end": 393.38,
+      "confidence": 0.5,
+      "windows": [
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 393.38,
+      "end": 449.58,
+      "confidence": 0.5,
+      "windows": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 449.58,
+      "end": 457.61,
+      "confidence": 0.5,
+      "windows": [
+        56
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 457.61,
+      "end": 465.63,
+      "confidence": 0.5,
+      "windows": [
+        57
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 465.63,
+      "end": 473.66,
+      "confidence": 0.5,
+      "windows": [
+        58
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 473.66,
+      "end": 481.69,
+      "confidence": 0.5,
+      "windows": [
+        59
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 481.69,
+      "end": 489.72,
+      "confidence": 0.5,
+      "windows": [
+        60
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 489.72,
+      "end": 513.8,
+      "confidence": 0.5,
+      "windows": [
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 513.8,
+      "end": 537.89,
+      "confidence": 0.6,
+      "windows": [
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "label": "blank",
+      "phase": "aux",
+      "is_step": false,
+      "start": 537.89,
+      "end": 570.0,
+      "confidence": 0.6,
+      "windows": [
+        67,
+        68,
+        69,
+        70
+      ]
+    }
+  ]
+}

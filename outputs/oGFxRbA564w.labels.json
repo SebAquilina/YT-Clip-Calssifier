@@ -1,0 +1,170 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.9,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Channel intro; pink moulds and a phone."
+ },
+ {
+  "window": 1,
+  "start": 7.9,
+  "end": 15.81,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead green melter pot/bowl."
+ },
+ {
+  "window": 2,
+  "start": 15.81,
+  "end": 23.71,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 23.71,
+  "end": 31.62,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "start": 31.62,
+  "end": 39.52,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead green pot; stirring wax."
+ },
+ {
+  "window": 5,
+  "start": 39.52,
+  "end": 47.43,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Green pot; pouring/working wax."
+ },
+ {
+  "window": 6,
+  "start": 47.43,
+  "end": 55.33,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring the green melter pot."
+ },
+ {
+  "window": 7,
+  "start": 55.33,
+  "end": 63.24,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 8,
+  "start": 63.24,
+  "end": 71.14,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead green melter pot."
+ },
+ {
+  "window": 9,
+  "start": 71.14,
+  "end": 79.05,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Green pot and a metal pot."
+ },
+ {
+  "window": 10,
+  "start": 79.05,
+  "end": 86.95,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 86.95,
+  "end": 94.86,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 94.86,
+  "end": 102.76,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 13,
+  "start": 102.76,
+  "end": 110.67,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Green melter pot/bowl."
+ },
+ {
+  "window": 14,
+  "start": 110.67,
+  "end": 118.57,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 118.57,
+  "end": 126.48,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 16,
+  "start": 126.48,
+  "end": 134.38,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 17,
+  "start": 134.38,
+  "end": 142.29,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 142.29,
+  "end": 150.19,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 19,
+  "start": 150.19,
+  "end": 158.1,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "'If you can dream it you can do it' card."
+ },
+ {
+  "window": 20,
+  "start": 158.1,
+  "end": 166.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

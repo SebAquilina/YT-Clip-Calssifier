@@ -1,0 +1,14 @@
+[
+  {"window": 0, "label": "gather_materials", "confidence": 0.55, "description": "Product display of the Crafts&Co candle kit — finished sample candles and supplies arranged on a tiered stand."},
+  {"window": 1, "label": "measure_wax", "confidence": 0.55, "description": "Wax flakes are poured from a bag onto a pan on an induction hob; a phone timer is set."},
+  {"window": 2, "label": "melt_wax", "confidence": 0.65, "description": "White wax melts in a metal bowl over the induction pan, stirred with a spatula; '2 MIN' timer."},
+  {"window": 3, "label": "melt_wax", "confidence": 0.55, "description": "Continued stirring of the molten wax in the bowl, something added; '3 MIN' timer."},
+  {"window": 4, "label": "pour_wax", "confidence": 0.65, "description": "Molten wax is poured from the bowl into a silicone mould resting on a wooden board."},
+  {"window": 5, "label": "pour_wax", "confidence": 0.55, "description": "The silicone mould fills; hands steady and squeeze the flexible white mould."},
+  {"window": 6, "label": "cure_cool", "confidence": 0.5, "description": "Filled white silicone mould (shaped cavities) sits on the board to set; a hand presses it."},
+  {"window": 7, "label": "cure_cool", "confidence": 0.5, "description": "The filled mould is held/inspected as the wax cools."},
+  {"window": 8, "label": "cure_cool", "confidence": 0.5, "description": "Wait captions ('23H'); the mould is placed in a bowl of water to speed cooling."},
+  {"window": 9, "label": "decorate_finish", "confidence": 0.55, "description": "Caption 'TIP'; the set candle is flexed out of the silicone mould ('2.5H')."},
+  {"window": 10, "label": "decorate_finish", "confidence": 0.55, "description": "The white moulded candle is peeled fully from the silicone mould."},
+  {"window": 11, "label": "reveal_result", "confidence": 0.6, "description": "Finished moulded candles displayed beside a vase, then shown lit."}
+]

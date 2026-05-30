@@ -1,0 +1,316 @@
+{
+  "video_id": "FhVukBUHls0",
+  "title": "Candle Making Kit with Electronic Hot Plate for Beginners, Adults, and Kids",
+  "url": "https://www.youtube.com/watch?v=FhVukBUHls0",
+  "duration": 110.0,
+  "source": "storyboard",
+  "n_windows": 14,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.86,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead: hands unpack the candle kit \u2014 a wax block, vacuum-packed wax, and supply packets laid on the bench.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.86,
+      "end": 15.71,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Kit packets, the electronic hotplate and a metal melting pan are arranged for the build.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.71,
+      "end": 23.57,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Vacuum-packed white wax bricks are laid out and portioned into the pan.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.57,
+      "end": 31.43,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax melts in the metal pan on the electronic hotplate, stirred with a stick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.43,
+      "end": 39.29,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Continued stirring of the melting white wax in the pan.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.29,
+      "end": 47.14,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax is poured into a glass and stirred with a stick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.14,
+      "end": 55.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The glass holds poured wax; hands work with the pan alongside.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.0,
+      "end": 62.86,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green colour is introduced \u2014 a metal pitcher of wax turns green.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 62.86,
+      "end": 70.71,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green molten wax is stirred in the pitcher.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->add_dye_color)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 70.71,
+      "end": 78.57,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green wax is poured into the glass; a clip holds the wick centred.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 78.57,
+      "end": 86.43,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands adjust the wick peg/clip on the glass rim as the wax sets.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 86.43,
+      "end": 94.29,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands smooth/finish the candle top on a tray.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.29,
+      "end": 102.14,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Decorative branded end card ('PERFECT REVIEW').",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 102.14,
+      "end": 110.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Branded end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 15.71,
+      "confidence": 0.53,
+      "windows": [
+        0,
+        1
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.71,
+      "end": 23.57,
+      "confidence": 0.55,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 23.57,
+      "end": 39.29,
+      "confidence": 0.65,
+      "windows": [
+        3,
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 39.29,
+      "end": 55.0,
+      "confidence": 0.55,
+      "windows": [
+        5,
+        6
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 55.0,
+      "end": 70.71,
+      "confidence": 0.5,
+      "windows": [
+        7,
+        8
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 70.71,
+      "end": 78.57,
+      "confidence": 0.6,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 78.57,
+      "end": 86.43,
+      "confidence": 0.55,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 86.43,
+      "end": 94.29,
+      "confidence": 0.45,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 94.29,
+      "end": 110.0,
+      "confidence": 0.55,
+      "windows": [
+        12,
+        13
+      ]
+    }
+  ]
+}

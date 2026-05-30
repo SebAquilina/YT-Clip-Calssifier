@@ -1,0 +1,19 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.45, "description": "Black opening frame into the troubleshooting segment."},
+  {"window": 1, "label": "talking_head", "confidence": 0.6, "description": "CandleScience host to camera; caption panel 'temperature shifts / Air in the wax / Fragrance oil ratio' with a pot of wax."},
+  {"window": 2, "label": "talking_head", "confidence": 0.6, "description": "Host explains; caption 'Adjust the pour temperature'; close-up of a rough candle top."},
+  {"window": 3, "label": "talking_head", "confidence": 0.6, "description": "Host talks to camera about causes of rough tops."},
+  {"window": 4, "label": "talking_head", "confidence": 0.6, "description": "Host continues to camera."},
+  {"window": 5, "label": "talking_head", "confidence": 0.6, "description": "Host continues to camera."},
+  {"window": 6, "label": "talking_head", "confidence": 0.55, "description": "Host talks; caption 'Elevate the candles' with a demo cutaway."},
+  {"window": 7, "label": "talking_head", "confidence": 0.6, "description": "Host talks to camera."},
+  {"window": 8, "label": "talking_head", "confidence": 0.55, "description": "Host talks; caption 'wet your vessels'."},
+  {"window": 9, "label": "talking_head", "confidence": 0.6, "description": "Host continues to camera."},
+  {"window": 10, "label": "pour_wax", "confidence": 0.4, "description": "Overhead demo: coloured wax and jars handled to illustrate a tip."},
+  {"window": 11, "label": "talking_head", "confidence": 0.5, "description": "Host talks; a heat gun smooths a candle top in cutaway."},
+  {"window": 12, "label": "decorate_finish", "confidence": 0.45, "description": "Close-up: a heat gun is used to smooth/finish a rough candle top."},
+  {"window": 13, "label": "talking_head", "confidence": 0.6, "description": "Host talks to camera."},
+  {"window": 14, "label": "reveal_result", "confidence": 0.4, "description": "A now-smooth candle top is shown; host wraps up."},
+  {"window": 15, "label": "outro_cta", "confidence": 0.6, "description": "'THANKS FOR WATCHING' end card."},
+  {"window": 16, "label": "outro_cta", "confidence": 0.6, "description": "'THANKS FOR WATCHING' end card."}
+]

@@ -1,0 +1,380 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Intro with a textured candle; subscribe card."
+ },
+ {
+  "window": 1,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Teaser of the finished ombre cube candle in its mould."
+ },
+ {
+  "window": 2,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Caption: this tutorial covers a 5-layer ombre candle."
+ },
+ {
+  "window": 3,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Caption: 'Let's do it! Don't forget to...'; the mould."
+ },
+ {
+  "window": 4,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Measuring wax against the mould; scissors."
+ },
+ {
+  "window": 5,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Cutting the wax to size."
+ },
+ {
+  "window": 6,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Silicone cube mould prepared."
+ },
+ {
+  "window": 7,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Threading the wick through the mould with a needle."
+ },
+ {
+  "window": 8,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Measuring the wick against the mould."
+ },
+ {
+  "window": 9,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Wick threaded through the mould."
+ },
+ {
+  "window": 10,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Wax pieces; mould ready."
+ },
+ {
+  "window": 11,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Caption about pouring slowly; first pour."
+ },
+ {
+  "window": 12,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "'LAYER 1 - 0 colour / natural wax'; wax melting in the pot."
+ },
+ {
+  "window": 13,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Natural (uncoloured) wax poured into the mould as layer 1."
+ },
+ {
+  "window": 14,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "A dye chip added to the melted wax in the pitcher."
+ },
+ {
+  "window": 15,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Making a gauge/start colour in the pitcher."
+ },
+ {
+  "window": 16,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Testing a colour drop on a plate."
+ },
+ {
+  "window": 17,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding a small dye chip with a spoon."
+ },
+ {
+  "window": 18,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Testing the colour."
+ },
+ {
+  "window": 19,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Spoon colour test."
+ },
+ {
+  "window": 20,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the next layer; caption."
+ },
+ {
+  "window": 21,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould with the first layer; 'not ready yet'."
+ },
+ {
+  "window": 22,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Cube mould with a layer; 'not ready yet'."
+ },
+ {
+  "window": 23,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Checking/pouring the layer."
+ },
+ {
+  "window": 24,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould layer; 'almost'."
+ },
+ {
+  "window": 25,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring; 'time to do the next layer'."
+ },
+ {
+  "window": 26,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Dye chip added to the pitcher."
+ },
+ {
+  "window": 27,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "'LAYER 2 - lightly coloured'; pouring layer 2."
+ },
+ {
+  "window": 28,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the second layer slowly."
+ },
+ {
+  "window": 29,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the second layer."
+ },
+ {
+  "window": 30,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "'Gently tap the mould to release bubbles'."
+ },
+ {
+  "window": 31,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Tapping the mould."
+ },
+ {
+  "window": 32,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding more chips to the pitcher."
+ },
+ {
+  "window": 33,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Breaking a dye chip into pieces."
+ },
+ {
+  "window": 34,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Darker wax in the pitcher."
+ },
+ {
+  "window": 35,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Testing the dye drop."
+ },
+ {
+  "window": 36,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "'LAYER 3 - medium colour'; the mould."
+ },
+ {
+  "window": 37,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the third layer."
+ },
+ {
+  "window": 38,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould with three layers."
+ },
+ {
+  "window": 39,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould; caption about texture."
+ },
+ {
+  "window": 40,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould layers; 'take your time'."
+ },
+ {
+  "window": 41,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould; 'repetitive process'."
+ },
+ {
+  "window": 42,
+  "label": "monitor_temperature",
+  "confidence": 0.5,
+  "description": "Thermometer in the wax; mould."
+ },
+ {
+  "window": 43,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould; caption."
+ },
+ {
+  "window": 44,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Colour/pour the next layer."
+ },
+ {
+  "window": 45,
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Spoon test on the mould."
+ },
+ {
+  "window": 46,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "'LAYER 4 - dark colour'; pouring."
+ },
+ {
+  "window": 47,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Mould; caption."
+ },
+ {
+  "window": 48,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Dark layer in the mould."
+ },
+ {
+  "window": 49,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pour the last layer; 'saturate the colour'."
+ },
+ {
+  "window": 50,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the dark saturated layer."
+ },
+ {
+  "window": 51,
+  "label": "monitor_temperature",
+  "confidence": 0.5,
+  "description": "Thermometer reading; mould."
+ },
+ {
+  "window": 52,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Heat gun over the mould top; pouring."
+ },
+ {
+  "window": 53,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "'LAYER 5 - saturated colour'; heat gun."
+ },
+ {
+  "window": 54,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the cube candle from the silicone."
+ },
+ {
+  "window": 55,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Peeling the silicone mould off the cube."
+ },
+ {
+  "window": 56,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Releasing the ombre cube candle."
+ },
+ {
+  "window": 57,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "'Ta-Daaa!'; holding the finished ombre cube candle."
+ },
+ {
+  "window": 58,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "The finished white-to-brown ombre cube candle."
+ },
+ {
+  "window": 59,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'WATCH MORE VIDEOS' end card with the host."
+ },
+ {
+  "window": 60,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 61,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 62,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

@@ -1,0 +1,410 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Young man opens outdoors introducing a coconut-wax-blends guide."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 5,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 6,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 7,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 8,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 9,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 10,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 11,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 12,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera (outdoors)."
+ },
+ {
+  "window": 13,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 15,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 16,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax block handled."
+ },
+ {
+  "window": 17,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Cutting the wax."
+ },
+ {
+  "window": 18,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 19,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 20,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 23,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 25,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 28,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 29,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 32,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax discs measured."
+ },
+ {
+  "window": 33,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "A wick sticker fixed in a jar."
+ },
+ {
+  "window": 34,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 35,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 37,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 39,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 40,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Fragrance bottles by the jars."
+ },
+ {
+  "window": 41,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 44,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Fragrance bottles by the jars."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 47,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 48,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished amber jar candles on the table."
+ },
+ {
+  "window": 49,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Hands finish/brush the amber jars."
+ },
+ {
+  "window": 50,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 51,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 52,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 53,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 54,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 55,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 56,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 57,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 58,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 59,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 60,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead pour into a jar (b-roll)."
+ },
+ {
+  "window": 61,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit amber jar candle."
+ },
+ {
+  "window": 62,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit amber jar candle close-up."
+ },
+ {
+  "window": 63,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 64,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 65,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 66,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 67,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "Presenter wraps up to camera."
+ }
+]

@@ -1,0 +1,22 @@
+[
+  {"window": 0, "label": "prepare_container", "confidence": 0.4, "description": "Blurry footage: a clear glass jar is readied for an 'ocean jelly' water candle."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.4, "description": "Decorative shells/beads and supplies gathered (low-detail)."},
+  {"window": 2, "label": "decorate_finish", "confidence": 0.4, "description": "Decorations are placed into the bottom of the glass."},
+  {"window": 3, "label": "pour_wax", "confidence": 0.4, "description": "Clear jelly wax poured into the decorated glass."},
+  {"window": 4, "label": "pour_wax", "confidence": 0.4, "description": "The glass fills with transparent jelly wax."},
+  {"window": 5, "label": "decorate_finish", "confidence": 0.4, "description": "More decorative elements added into the jelly."},
+  {"window": 6, "label": "pour_wax", "confidence": 0.4, "description": "Additional clear jelly poured to build layers."},
+  {"window": 7, "label": "decorate_finish", "confidence": 0.4, "description": "Embedding shells/figures in the jelly layer."},
+  {"window": 8, "label": "pour_wax", "confidence": 0.4, "description": "Clear jelly poured over the embedded decor."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.4, "description": "Jelly fills the glass further."},
+  {"window": 10, "label": "add_dye_color", "confidence": 0.35, "description": "A blue tint is introduced for the ocean-water effect."},
+  {"window": 11, "label": "pour_wax", "confidence": 0.4, "description": "Blue-tinted jelly poured into the glass."},
+  {"window": 12, "label": "decorate_finish", "confidence": 0.4, "description": "Final decorations arranged in the blue jelly."},
+  {"window": 13, "label": "pour_wax", "confidence": 0.4, "description": "Top jelly layer poured."},
+  {"window": 14, "label": "set_wick", "confidence": 0.35, "description": "A wick/centre element set in the jelly candle."},
+  {"window": 15, "label": "reveal_result", "confidence": 0.45, "description": "The finished ocean-jelly candle shown."},
+  {"window": 16, "label": "reveal_result", "confidence": 0.45, "description": "Beauty shot of the transparent ocean candle."},
+  {"window": 17, "label": "reveal_result", "confidence": 0.45, "description": "Finished jelly candle displayed."},
+  {"window": 18, "label": "reveal_result", "confidence": 0.4, "description": "Final result, possibly lit."},
+  {"window": 19, "label": "reveal_result", "confidence": 0.4, "description": "Closing shot of the ocean-jelly candle."}
+]
