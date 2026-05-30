@@ -56,6 +56,7 @@ def main(argv=None):
     an.add_argument("video_id", nargs="?", help="one video, or omit for all finalized videos")
     an.add_argument("--no-ocr", action="store_true")
     sub.add_parser("build-db")
+    sub.add_parser("split-db", help="fan the database out into one small file per label (outputs/db/by_label/)")
     sub.add_parser("prompt")
 
     a = ap.parse_args(argv)
@@ -97,6 +98,13 @@ def main(argv=None):
         print(f"database: {res['videos']} videos, {res['windows']} windows "
               f"(clean/action-only: {res['clean_windows']}); "
               f"filtered={res['filtered']}; validation_flags={res['flagged']} -> {res['dir']}")
+    elif a.cmd == "split-db":
+        from .database import split_by_label
+        res = split_by_label()
+        print(f"split {res['total_rows']} windows ({res['total_clean_rows']} clean) "
+              f"into {res['n_labels']} per-label files -> {res['dir']}")
+        for label, n in sorted(res["labels"].items(), key=lambda kv: -kv[1]):
+            print(f"  {n:6d}  {label}")
     elif a.cmd == "prompt":
         print(CLASSIFY_PROMPT + prompt_label_reference(load_taxonomy()))
 

@@ -161,3 +161,87 @@ def build() -> dict:
     return {"videos": len(videos), "windows": len(rows), "clean_windows": len(clean),
             "filtered": dict(reasons),
             "flagged": sum(1 for r in rows if r["validation_flags"]), "dir": DB_DIR}
+
+
+# ---------------------------------------------------------------------------
+# Split the monolithic database into per-label shards
+# ---------------------------------------------------------------------------
+# The full database (classifications.jsonl) is a single multi-megabyte file, so
+# loading it just to look at one action is wasteful and can blow request size
+# limits. `split_by_label` fans it out into outputs/db/by_label/<label>.{jsonl,csv}
+# (one small file per action_label) plus an index.json manifest, so a single
+# label can be read on its own. It reads the already-built db files, so it works
+# without the (gitignored, regenerable) data/work intermediates.
+BY_LABEL_DIR = os.path.join(DB_DIR, "by_label")
+
+
+def _read_jsonl(path):
+    if not os.path.exists(path):
+        return []
+    with open(path) as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+
+def _safe_label(label: str) -> str:
+    # action labels are already filename-safe (e.g. add_dye_color); guard anyway.
+    safe = "".join(c if (c.isalnum() or c in "-_") else "_" for c in (label or "unlabeled"))
+    return safe or "unlabeled"
+
+
+def split_by_label() -> dict:
+    """Fan the built database out into one file per action label.
+
+    Writes, under outputs/db/by_label/:
+      <label>.jsonl / <label>.csv            every window with that label (full db)
+      clean/<label>.jsonl / clean/<label>.csv  the action-only subset for that label
+      index.json                              manifest: per-label row counts + byte sizes
+    """
+    full = _read_jsonl(os.path.join(DB_DIR, "classifications.jsonl"))
+    clean = _read_jsonl(os.path.join(DB_DIR, "classifications_clean.jsonl"))
+    if not full:
+        raise FileNotFoundError(
+            "outputs/db/classifications.jsonl not found - run `ytclip build-db` first")
+
+    clean_dir = os.path.join(BY_LABEL_DIR, "clean")
+    os.makedirs(clean_dir, exist_ok=True)
+
+    def _group(rows):
+        groups: dict[str, list] = {}
+        for r in rows:
+            groups.setdefault(_safe_label(r.get("action_label")), []).append(r)
+        return groups
+
+    full_groups = _group(full)
+    clean_groups = _group(clean)
+
+    index: dict[str, dict] = {}
+    for label, rows in sorted(full_groups.items()):
+        jp = os.path.join(BY_LABEL_DIR, f"{label}.jsonl")
+        cp = os.path.join(BY_LABEL_DIR, f"{label}.csv")
+        _write_jsonl(jp, rows)
+        _write_csv(cp, rows)
+        index[label] = {
+            "rows": len(rows),
+            "clean_rows": len(clean_groups.get(label, [])),
+            "jsonl": os.path.relpath(jp, DB_DIR),
+            "csv": os.path.relpath(cp, DB_DIR),
+            "bytes": os.path.getsize(jp),
+        }
+
+    for label, rows in sorted(clean_groups.items()):
+        _write_jsonl(os.path.join(clean_dir, f"{label}.jsonl"), rows)
+        _write_csv(os.path.join(clean_dir, f"{label}.csv"), rows)
+
+    manifest = {
+        "source": "outputs/db/classifications.jsonl",
+        "total_rows": len(full),
+        "total_clean_rows": len(clean),
+        "n_labels": len(index),
+        "labels": index,
+    }
+    with open(os.path.join(BY_LABEL_DIR, "index.json"), "w") as f:
+        json.dump(manifest, f, indent=2)
+
+    return {"dir": BY_LABEL_DIR, "n_labels": len(index),
+            "total_rows": len(full), "total_clean_rows": len(clean),
+            "labels": {k: v["rows"] for k, v in index.items()}}

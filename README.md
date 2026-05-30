@@ -22,11 +22,13 @@ For each video:
 For the whole corpus:
 - **`outputs/db/classifications.{sqlite,csv,jsonl}`** — the full database: **one row per 5–10s window**, each with the video link, a timestamped deep-link (`youtu.be/<id>?t=<start>s`), action label, phase, confidence, a **detailed description**, the **objective features** (`face_score`, `text_score`, `ocr_text`, `motion`, `brightness`, `colorfulness`, `dominant_colors`), and the filter result (`keep`, `filter_reason`, `validation_flags`).
 - **`outputs/db/classifications_clean.{csv,jsonl}`** — the **action-only subset**: talking-head and text/title/card windows removed (also the `windows_clean` view in SQLite). This is the "no talking-head, no text-overlay" corpus.
+- **`outputs/db/by_label/<label>.{csv,jsonl}`** — the same rows **fanned out one file per action label** (`talking_head.jsonl`, `pour_wax.jsonl`, …), with the action-only subset under `by_label/clean/` and a `by_label/index.json` manifest of per-label counts and sizes. The monolithic `classifications.jsonl` is ~9 MB; each per-label shard is small (the largest, `talking_head`, is ~3 MB; most are well under 1 MB), so you can load just the label you're working on. Regenerate with `python -m ytclip.cli split-db`.
 - `outputs/learned_rules.yaml` / `outputs/SUMMARY.md` — empirically observed step order, durations, transitions.
 
 **Anti-hallucination:** every window's description is paired with code-computed signals (face/OCR/motion/…) that corroborate or contradict it, and a validator records `validation_flags` for genuine label↔evidence conflicts. See `docs/METHODOLOGY.md` §6–7. Refresh signals with `python -m ytclip.cli analyze` and rebuild with `build-db`.
 
-Build/refresh the database any time with `python -m ytclip.cli build-db`.
+Build/refresh the database any time with `python -m ytclip.cli build-db`, then
+optionally `python -m ytclip.cli split-db` to fan it out into per-label files.
 
 ### The 100-video database
 
