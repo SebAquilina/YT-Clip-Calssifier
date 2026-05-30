@@ -348,27 +348,29 @@
       "window": 24,
       "start": 193.2,
       "end": 201.25,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "set_wick",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring amber wax into the glasses (multi-wick).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 25,
       "start": 201.25,
       "end": 209.3,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Setting/centring the wicks with orange wick bars.",
       "smoothed": false,
       "notes": []
     },
@@ -376,13 +378,13 @@
       "window": 26,
       "start": 209.3,
       "end": 217.35,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Finishing/labelling the luxury candle.",
       "smoothed": false,
       "notes": []
     },
@@ -390,41 +392,45 @@
       "window": 27,
       "start": 217.35,
       "end": 225.4,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Pouring amber wax into the glasses (multi-wick).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 28,
       "start": 225.4,
       "end": 233.45,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Setting/centring the wicks with orange wick bars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
     },
     {
       "window": 29,
       "start": 233.45,
       "end": 241.5,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Finishing/labelling the luxury candle.",
       "smoothed": false,
       "notes": []
     },
@@ -432,103 +438,109 @@
       "window": 30,
       "start": 241.5,
       "end": 249.55,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Pouring amber wax into the glasses (multi-wick).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 31,
       "start": 249.55,
       "end": 257.6,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Setting/centring the wicks with orange wick bars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
     },
     {
       "window": 32,
       "start": 257.6,
       "end": 265.65,
-      "label": "",
+      "label": "transition",
       "original_label": "transition",
       "confidence": 0.5,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
       "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Fe ee oe ne Sw SS Se ees wee ss See eee eet mn mn gee ses erwvevt Geo ye ee tees oo as pews Se 2 Ps mind 2 ee See Ee eee oes ESS ee ee Cee eee eee ee el con oe oe ne on wee ee ee me ocntw YS aT ome om'.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 33,
       "start": 265.65,
       "end": 273.7,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Pouring amber wax into the glasses (multi-wick).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 34,
       "start": 273.7,
       "end": 281.75,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Setting/centring the wicks with orange wick bars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
     },
     {
       "window": 35,
       "start": 281.75,
       "end": 289.8,
-      "label": "",
+      "label": "transition",
       "original_label": "transition",
       "confidence": 0.5,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
       "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'siete Fs Sa Cee ly eee 6 Cotrer ml FS ee CZ Pee ah fy ie yt Js es bh'.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 36,
       "start": 289.8,
       "end": 297.85,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
+      "label": "transition",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring amber wax into the glasses (multi-wick).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 37,
@@ -562,85 +574,91 @@
       "window": 39,
       "start": 313.95,
       "end": 322.0,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Pouring amber wax into the glasses (multi-wick).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 40,
       "start": 322.0,
       "end": 330.05,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Setting/centring the wicks with orange wick bars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
     },
     {
       "window": 41,
       "start": 330.05,
       "end": 338.1,
-      "label": "",
+      "label": "transition",
       "original_label": "transition",
       "confidence": 0.5,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
       "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ome oF es See tae Cow hy Rae 6 Cobre re Rite OE Anal mE ay rsy eee'.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 42,
       "start": 338.1,
       "end": 346.15,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Pouring amber wax into the glasses (multi-wick).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 43,
       "start": 346.15,
       "end": 354.2,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Setting/centring the wicks with orange wick bars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
     },
     {
       "window": 44,
       "start": 354.2,
       "end": 362.25,
-      "label": "",
-      "original_label": "",
-      "confidence": 0.0,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "",
+      "description": "Finishing/labelling the luxury candle.",
       "smoothed": false,
       "notes": []
     },
@@ -934,62 +952,192 @@
       "phase": "assemble",
       "is_step": true,
       "start": 169.05,
-      "end": 193.2,
-      "confidence": 0.53,
+      "end": 209.3,
+      "confidence": 0.5,
       "windows": [
         21,
         22,
-        23
+        23,
+        24,
+        25
       ]
     },
     {
-      "label": "",
-      "phase": "aux",
-      "is_step": false,
-      "start": 193.2,
-      "end": 297.85,
-      "confidence": 0.08,
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 209.3,
+      "end": 217.35,
+      "confidence": 0.4,
       "windows": [
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36
+        26
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 217.35,
+      "end": 225.4,
+      "confidence": 0.45,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 225.4,
+      "end": 233.45,
+      "confidence": 0.45,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 233.45,
+      "end": 241.5,
+      "confidence": 0.4,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 241.5,
+      "end": 249.55,
+      "confidence": 0.45,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 249.55,
+      "end": 257.6,
+      "confidence": 0.45,
+      "windows": [
+        31
       ]
     },
     {
       "label": "transition",
       "phase": "aux",
       "is_step": false,
-      "start": 297.85,
-      "end": 313.95,
+      "start": 257.6,
+      "end": 265.65,
       "confidence": 0.5,
       "windows": [
+        32
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 265.65,
+      "end": 273.7,
+      "confidence": 0.45,
+      "windows": [
+        33
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 273.7,
+      "end": 281.75,
+      "confidence": 0.45,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 281.75,
+      "end": 313.95,
+      "confidence": 0.48,
+      "windows": [
+        35,
+        36,
         37,
         38
       ]
     },
     {
-      "label": "",
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 313.95,
+      "end": 322.0,
+      "confidence": 0.45,
+      "windows": [
+        39
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 322.0,
+      "end": 330.05,
+      "confidence": 0.45,
+      "windows": [
+        40
+      ]
+    },
+    {
+      "label": "transition",
       "phase": "aux",
       "is_step": false,
-      "start": 313.95,
-      "end": 362.25,
-      "confidence": 0.08,
+      "start": 330.05,
+      "end": 338.1,
+      "confidence": 0.5,
       "windows": [
-        39,
-        40,
-        41,
-        42,
-        43,
+        41
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 338.1,
+      "end": 346.15,
+      "confidence": 0.45,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 346.15,
+      "end": 354.2,
+      "confidence": 0.45,
+      "windows": [
+        43
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 354.2,
+      "end": 362.25,
+      "confidence": 0.4,
+      "windows": [
         44
       ]
     },

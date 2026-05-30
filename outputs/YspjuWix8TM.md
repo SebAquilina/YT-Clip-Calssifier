@@ -2,7 +2,7 @@
 
 - **Video:** [YspjuWix8TM](https://www.youtube.com/watch?v=YspjuWix8TM)
 - **Duration:** 8:03  (483s)
-- **Source:** storyboard  |  **Windows:** 60  |  **Segments:** 11
+- **Source:** storyboard  |  **Windows:** 60  |  **Segments:** 24
 
 ## Action segments (merged)
 
@@ -13,12 +13,25 @@
 | 3 | 1:20–1:29 | 8s | `melt_wax` | process | ✓ | 0.45 |
 | 4 | 1:29–2:17 | 48s | `pour_wax` | assemble | ✓ | 0.45 |
 | 5 | 2:17–2:49 | 32s | `transition` | aux |  | 0.42 |
-| 6 | 2:49–3:13 | 24s | `set_wick` | assemble | ✓ | 0.53 |
-| 7 | 3:13–4:58 | 105s | `` | aux |  | 0.08 |
-| 8 | 4:58–5:14 | 16s | `transition` | aux |  | 0.50 |
-| 9 | 5:14–6:02 | 48s | `` | aux |  | 0.08 |
-| 10 | 6:02–7:55 | 113s | `reveal_result` | finish | ✓ | 0.46 |
-| 11 | 7:55–8:03 | 8s | `transition` | aux |  | 0.50 |
+| 6 | 2:49–3:29 | 40s | `set_wick` | assemble | ✓ | 0.50 |
+| 7 | 3:29–3:37 | 8s | `decorate_finish` | finish | ✓ | 0.40 |
+| 8 | 3:37–3:45 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
+| 9 | 3:45–3:53 | 8s | `set_wick` | assemble | ✓ | 0.45 |
+| 10 | 3:53–4:02 | 8s | `decorate_finish` | finish | ✓ | 0.40 |
+| 11 | 4:02–4:10 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
+| 12 | 4:10–4:18 | 8s | `set_wick` | assemble | ✓ | 0.45 |
+| 13 | 4:18–4:26 | 8s | `transition` | aux |  | 0.50 |
+| 14 | 4:26–4:34 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
+| 15 | 4:34–4:42 | 8s | `set_wick` | assemble | ✓ | 0.45 |
+| 16 | 4:42–5:14 | 32s | `transition` | aux |  | 0.48 |
+| 17 | 5:14–5:22 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
+| 18 | 5:22–5:30 | 8s | `set_wick` | assemble | ✓ | 0.45 |
+| 19 | 5:30–5:38 | 8s | `transition` | aux |  | 0.50 |
+| 20 | 5:38–5:46 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
+| 21 | 5:46–5:54 | 8s | `set_wick` | assemble | ✓ | 0.45 |
+| 22 | 5:54–6:02 | 8s | `decorate_finish` | finish | ✓ | 0.40 |
+| 23 | 6:02–7:55 | 113s | `reveal_result` | finish | ✓ | 0.46 |
+| 24 | 7:55–8:03 | 8s | `transition` | aux |  | 0.50 |
 
 ## Per-window detail
 
@@ -48,27 +61,27 @@
 | W21 | 2:49–2:57 | `set_wick` | 0.45 |  |
 | W22 | 2:57–3:05 | `set_wick` *(smoothed)* | 0.70 | despiked to match neighbours |
 | W23 | 3:05–3:13 | `set_wick` | 0.45 |  |
-| W24 | 3:13–3:21 | `` | 0.00 |  |
-| W25 | 3:21–3:29 | `` | 0.00 |  |
-| W26 | 3:29–3:37 | `` | 0.00 |  |
-| W27 | 3:37–3:45 | `` | 0.00 |  |
-| W28 | 3:45–3:53 | `` | 0.00 |  |
-| W29 | 3:53–4:02 | `` | 0.00 |  |
-| W30 | 4:02–4:10 | `` | 0.00 |  |
-| W31 | 4:10–4:18 | `` | 0.00 |  |
-| W32 | 4:18–4:26 | `` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W33 | 4:26–4:34 | `` | 0.00 |  |
-| W34 | 4:34–4:42 | `` | 0.00 |  |
-| W35 | 4:42–4:50 | `` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W36 | 4:50–4:58 | `` | 0.00 |  |
+| W24 | 3:13–3:21 | `set_wick` *(smoothed)* | 0.45 | despiked to match neighbours |
+| W25 | 3:21–3:29 | `set_wick` | 0.45 |  |
+| W26 | 3:29–3:37 | `decorate_finish` | 0.40 |  |
+| W27 | 3:37–3:45 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W28 | 3:45–3:53 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
+| W29 | 3:53–4:02 | `decorate_finish` | 0.40 |  |
+| W30 | 4:02–4:10 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W31 | 4:10–4:18 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
+| W32 | 4:18–4:26 | `transition` | 0.50 |  |
+| W33 | 4:26–4:34 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W34 | 4:34–4:42 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
+| W35 | 4:42–4:50 | `transition` | 0.50 |  |
+| W36 | 4:50–4:58 | `transition` *(smoothed)* | 0.45 | despiked to match neighbours |
 | W37 | 4:58–5:06 | `transition` | 0.50 |  |
 | W38 | 5:06–5:14 | `transition` | 0.50 |  |
-| W39 | 5:14–5:22 | `` | 0.00 |  |
-| W40 | 5:22–5:30 | `` | 0.00 |  |
-| W41 | 5:30–5:38 | `` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W42 | 5:38–5:46 | `` | 0.00 |  |
-| W43 | 5:46–5:54 | `` | 0.00 |  |
-| W44 | 5:54–6:02 | `` | 0.00 |  |
+| W39 | 5:14–5:22 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W40 | 5:22–5:30 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
+| W41 | 5:30–5:38 | `transition` | 0.50 |  |
+| W42 | 5:38–5:46 | `pour_wax` | 0.45 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W43 | 5:46–5:54 | `set_wick` | 0.45 | backward step vs canonical order (decorate_finish->set_wick) |
+| W44 | 5:54–6:02 | `decorate_finish` | 0.40 |  |
 | W45 | 6:02–6:10 | `reveal_result` | 0.45 |  |
 | W46 | 6:10–6:18 | `reveal_result` | 0.45 |  |
 | W47 | 6:18–6:26 | `reveal_result` | 0.45 |  |
