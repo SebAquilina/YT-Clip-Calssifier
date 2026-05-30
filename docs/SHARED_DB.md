@@ -8,45 +8,48 @@ every future video in that niche.
 
 ## Why it is safe for simultaneous writers
 
-The store **shards by `(label, video_id)`** — every file is named by a unique
-video id, so two chats processing two different videos write to **disjoint
-files**. No locks, no lost writes, no corruption.
+The source of truth is **one self-contained record per video**
+(`records/<video_id>.json`) — every record is named by a unique video id, so two
+chats processing two different videos write **disjoint files**. No locks, no lost
+writes, no corruption. This is also the natural **Google Drive** unit (one
+file per video; see [`DRIVE_SYNC.md`](DRIVE_SYNC.md)).
 
 ```
-outputs/shared_db/                       (root; lives in the chosen storage)
-  by_label/<label>/<video_id>.jsonl      one video's windows for that label   ← source of truth
-  by_label/<label>.jsonl                 merged view, REBUILDABLE              ← derived
-  flags/<video_id>.json                  windows to NEVER use as footage
-  _index/<video_id>.json                 "done" marker + per-video metadata
-  index.json                             rebuilt manifest                      ← derived
+outputs/shared_db/                  (root; canonical copy on Google Drive)
+  records/<video_id>.json           a video's windows + meta + flags   ← SOURCE OF TRUTH
+  by_label/<label>.jsonl            "divided by label" view            ← derived, rebuildable
+  flags/<video_id>.json             windows to NEVER use as footage    ← derived
+  index.json                        manifest (counts per label/niche)  ← derived
+  .drive.json                       canonical Drive folder ids
 ```
 
 Guarantees:
 
 - **Atomic files** — every write goes to a temp file then `os.replace()`, so a
   reader never sees a half-written file.
-- **Commit marker last** — `_index/<video_id>.json` is written *after* all of a
-  video's shards, so a video only "counts" once its data is fully on disk.
 - **Idempotent** — re-ingesting an already-present video is a no-op unless
-  `force=True`; the same video is never double-counted.
-- **Derived views can't corrupt data** — `by_label/<label>.jsonl` and
-  `index.json` are rebuilt from the shards by `rebuild_views()`; they are never
-  the source of truth.
+  `force=True`; the same video is never double-counted. On import from Drive,
+  **newest `ingested_at` wins**.
+- **Queries read the source** — `usable_clips`, `coverage`, etc. read the records
+  directly, so they're correct the instant a record lands; no rebuild needed.
+- **Derived views can't corrupt data** — `by_label/<label>.jsonl`, `flags/` and
+  `index.json` are materialized from the records by `rebuild_views()`; they are
+  never the source of truth.
 
 > Concurrency is covered by `tests/test_shared_db.py`, which ingests 40 videos
-> across 8 threads and asserts the merged views are lossless with exactly one
-> entry per video.
+> across 8 threads and asserts the materialized views are lossless with exactly
+> one entry per video.
 
 ## Flags — the double layer against bad footage
 
 On ingest, every window that is **not a clean hands-on action clip** is recorded
-in `flags/<video_id>.json` with a reason (`talking_head`, `text_overlay`,
-`blank`, `non_action:<label>`, …). Footage selection is then checked twice:
+in the record's `flagged` list with a reason (`talking_head`, `text_overlay`,
+`blank`, `non_action:<label>`, …); it is also materialized to
+`flags/<video_id>.json`. Footage selection is then checked twice:
 
-1. `usable_clips()` only reads the **action-label** shards (it skips
-   `talking_head`, `intro_titlecard`, `outro_cta`, `transition`, `blank`,
-   `other_unclear` entirely), and
-2. it re-verifies every candidate against that video's flags file
+1. `usable_clips()` skips the non-footage labels entirely (`talking_head`,
+   `intro_titlecard`, `outro_cta`, `transition`, `blank`, `other_unclear`), and
+2. it re-verifies every candidate against that video's flagged list
    (`is_flagged(video_id, window_index)`) before returning it.
 
 So a talking-head or on-screen-text window cannot reach the final cut even if a
@@ -66,32 +69,37 @@ ytclip db-stats                                     # summarise the store
 
 # select footage for assembly
 ytclip shotlist --niche candle_making --per-step 3  # step-ordered list of vetted clips
+
+# Google Drive sync (the session does the actual MCP calls; see DRIVE_SYNC.md)
+ytclip drive-status                                 # Drive location + local records
+ytclip drive-push-plan --have <titles…>             # which records to upload
+ytclip drive-import-dir <dir>                       # import downloaded records (newest-wins) + rebuild
 ```
 
 Programmatic API:
 
-- `ytclip.shared_db`: `ingest_video`, `ingest_rows`, `usable_clips`,
-  `flagged_windows`, `is_flagged`, `is_ingested`, `rebuild_views`, `stats`,
-  `coverage`, `pending`.
+- `ytclip.shared_db`: `ingest_video`, `ingest_rows`, `import_record`,
+  `usable_clips`, `flagged_windows`, `is_flagged`, `is_ingested`, `load_record`,
+  `all_records`, `rebuild_views`, `stats`, `coverage`, `pending`.
 - `ytclip.select`: `build_shotlist`, `write_shotlist`, `render_markdown` — picks
   the best vetted clip per canonical step (order + target durations from
   `outputs/learned_rules.yaml`), deduped for variety, and writes
   `outputs/shotlists/<niche>.{json,md}`.
+- `ytclip.drive`: `config`, `local_records`, `records_to_push`, `record_text`,
+  `decode`, `import_downloaded`, `import_dir` — glue around the Drive MCP calls.
 
 ## Storage / cross-chat access
 
-The engine is **storage-agnostic** — it operates on a directory (`SHARED_DIR`,
-default `outputs/shared_db/`). To share that directory across chats:
+The canonical store lives in **Google Drive** (folder `yt-clip-shared/`); the
+local `outputs/shared_db/` is a working copy. Each session pulls new records,
+ingests its own videos, and pushes the records it created. Because each video is
+one uniquely-named file, concurrent contributors never collide and merges are
+trivial (newest `ingested_at` wins). Full protocol + folder ids:
+[`DRIVE_SYNC.md`](DRIVE_SYNC.md).
 
-- **Git repo (recommended for writers):** each session clones, ingests its
-  videos, and commits/pushes. Per-video file naming makes merges conflict-free.
-- **Drive (connected file MCP):** mirror the directory; readers/writers use the
-  Drive tools.
-- **claude.ai Project knowledge (read-only mirror):** Project files are *context*,
-  not a transactional store — a Code session can't append to them and concurrent
-  appends aren't supported. Use them for a periodically **exported snapshot** so
-  Project chats can *read* the latest store; keep the writable canonical copy in
-  git or Drive.
+The engine itself is storage-agnostic (it operates on the `SHARED_DIR`
+directory), so the same records can also be kept in git, or exported as a
+read-only snapshot into claude.ai Project knowledge for Project chats to read.
 
 ## `YTA-video-maker` pipeline
 

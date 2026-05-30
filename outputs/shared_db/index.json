@@ -4,66 +4,21 @@
  "usable": 156,
  "flagged": 15,
  "labels": {
-  "add_dye_color": {
-   "videos": 1,
-   "windows": 10
-  },
-  "add_fragrance": {
-   "videos": 2,
-   "windows": 10
-  },
-  "cure_cool": {
-   "videos": 3,
-   "windows": 14
-  },
-  "decorate_finish": {
-   "videos": 2,
-   "windows": 4
-  },
-  "gather_materials": {
-   "videos": 1,
-   "windows": 1
-  },
-  "intro_titlecard": {
-   "videos": 3,
-   "windows": 4
-  },
-  "measure_wax": {
-   "videos": 3,
-   "windows": 11
-  },
-  "melt_wax": {
-   "videos": 2,
-   "windows": 12
-  },
-  "outro_cta": {
-   "videos": 2,
-   "windows": 3
-  },
-  "pour_wax": {
-   "videos": 3,
-   "windows": 53
-  },
-  "prepare_container": {
-   "videos": 2,
-   "windows": 26
-  },
-  "reveal_result": {
-   "videos": 2,
-   "windows": 4
-  },
-  "set_wick": {
-   "videos": 2,
-   "windows": 11
-  },
-  "talking_head": {
-   "videos": 1,
-   "windows": 1
-  },
-  "transition": {
-   "videos": 2,
-   "windows": 7
-  }
+  "add_dye_color": 10,
+  "add_fragrance": 10,
+  "cure_cool": 14,
+  "decorate_finish": 4,
+  "gather_materials": 1,
+  "intro_titlecard": 4,
+  "measure_wax": 11,
+  "melt_wax": 12,
+  "outro_cta": 3,
+  "pour_wax": 53,
+  "prepare_container": 26,
+  "reveal_result": 4,
+  "set_wick": 11,
+  "talking_head": 1,
+  "transition": 7
  },
  "niches": [
   "candle_making"
@@ -73,5 +28,5 @@
   "HPD1k0lhDCU",
   "lTMszYRbm84"
  ],
- "rebuilt_at": "2026-05-30T18:17:22Z"
+ "rebuilt_at": "2026-05-30T18:49:26Z"
 }

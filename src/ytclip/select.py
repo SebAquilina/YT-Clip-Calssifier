@@ -20,7 +20,7 @@ RULES = os.path.join(ROOT, "outputs", "learned_rules.yaml")
 SHOTLIST_DIR = os.path.join(ROOT, "outputs", "shotlists")
 
 
-def _canonical_order(root: str | None = None) -> list:
+def _canonical_order(root: str | None = None, records: list | None = None) -> list:
     """Preferred step order: learned canonical order, else labels present in the store."""
     try:
         import yaml
@@ -30,7 +30,7 @@ def _canonical_order(root: str | None = None) -> list:
             return order
     except Exception:
         pass
-    return sorted(shared_db._action_labels(shared_db._root(root)))
+    return shared_db._action_labels(root=root, records=records)
 
 
 def _target_durations() -> dict:
@@ -62,12 +62,13 @@ def build_shotlist(niche: str | None = None, order: list | None = None,
     per_step      how many candidate clips to offer per step
     max_per_video cap clips from the same source video per step (variety)
     """
-    order = order or _canonical_order(root)
+    recs = shared_db.all_records(root)
+    order = order or _canonical_order(root, records=recs)
     targets = _target_durations()
     steps = []
     total = 0
     for label in order:
-        cands = shared_db.usable_clips(label=label, niche=niche, root=root)
+        cands = shared_db.usable_clips(label=label, niche=niche, records=recs)
         cands.sort(key=lambda c: _score(c, targets.get(label)), reverse=True)
         picked, per_vid = [], {}
         for c in cands:

@@ -69,6 +69,12 @@ def main(argv=None):
     sl.add_argument("--niche", default="", help="restrict to a niche")
     sl.add_argument("--per-step", type=int, default=3)
     sl.add_argument("--max-per-video", type=int, default=1, help="cap clips from one source video per step")
+    sub.add_parser("drive-status", help="show the store's Google Drive location + local records")
+    dp = sub.add_parser("drive-push-plan", help="list local records to upload to Drive (the session does the create_file calls)")
+    dp.add_argument("--have", nargs="*", default=[], help="titles already on Drive (from search_files)")
+    dimp = sub.add_parser("drive-import-dir", help="import downloaded Drive record files (newest-wins) and rebuild")
+    dimp.add_argument("directory")
+    dimp.add_argument("--force", action="store_true")
     sub.add_parser("prompt")
 
     a = ap.parse_args(argv)
@@ -172,6 +178,30 @@ def main(argv=None):
               f"-> {sl['_paths']['md']}")
         for step in sl["steps"]:
             print(f"  {step['label']:20s} {len(step['clips'])}/{step['n_available']} picked")
+    elif a.cmd == "drive-status":
+        from . import drive
+        cfg = drive.config()
+        recs = drive.local_records()
+        print(f"Drive store: {cfg.get('store_folder_url', '(not configured)')}")
+        print(f"  records folder: {cfg.get('records_folder_id', '-')}")
+        print(f"local records: {len(recs)} "
+              f"({sum(r['size'] for r in recs)//1024} KB total)")
+        for r in recs:
+            print(f"  {r['title']:20s} {r['size']//1024:4d} KB")
+    elif a.cmd == "drive-push-plan":
+        from . import drive
+        plan = drive.records_to_push(a.have)
+        cfg = drive.config()
+        print(f"{len(plan)} record(s) to upload to records folder "
+              f"{cfg.get('records_folder_id', '-')}:")
+        for r in plan:
+            print(f"  create_file title={r['title']} parentId={cfg.get('records_folder_id','?')} "
+                  f"contentMimeType=application/json  (from {r['path']})")
+    elif a.cmd == "drive-import-dir":
+        from . import drive
+        res = drive.import_dir(a.directory, force=a.force)
+        print(f"imported: {res['added']} new, {res['updated']} updated, "
+              f"{res['skipped']} skipped; store now has {res['rebuilt']} videos")
     elif a.cmd == "prompt":
         print(CLASSIFY_PROMPT + prompt_label_reference(load_taxonomy()))
 

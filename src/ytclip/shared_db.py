@@ -1,28 +1,28 @@
-"""Concurrency-safe, label-sharded shared clip database for cross-chat use.
+"""Concurrency-safe shared clip database for cross-chat use, synced via Google Drive.
 
 Goal: many Claude sessions ("coworker chats") can ingest videos into ONE shared
 store at the same time without corrupting it, and a video-making run can read
 back vetted, non-flagged clips for a niche.
 
-Design — shard by (label, video_id) so writers never collide
-------------------------------------------------------------
+Design — one self-contained record per video (the Drive-friendly unit)
+----------------------------------------------------------------------
     <root>/
-      by_label/<label>/<video_id>.jsonl   every window of that video+label
-      by_label/<label>.jsonl              REBUILDABLE merged view (not source)
-      flags/<video_id>.json               windows to NEVER use as footage
-      _index/<video_id>.json              "this video is done" marker + metadata
-      index.json                          rebuilt manifest (counts per label/video)
+      records/<video_id>.json   SOURCE OF TRUTH: a video's windows + meta + flags
+      by_label/<label>.jsonl    DERIVED, rebuildable view ("divided by label")
+      flags/<video_id>.json     DERIVED, extracted for convenience
+      index.json                DERIVED manifest (counts per label / niche / video)
 
-Because every file is named by a unique video_id, two chats processing two
-different videos touch disjoint files -> no locks needed, no lost writes. A chat
-that re-processes an already-ingested video is a no-op (idempotent) unless it
-passes force=True. Every individual file is written atomically (tmp + os.replace),
-and the `_index/<video_id>.json` marker is written LAST, so a video is only
-"seen" once all its shards are safely on disk.
+Why per-video records: Google Drive's unit is a file, so each video maps to one
+`records/<video_id>.json`. Because every record is named by a unique video id,
+two chats processing two different videos write disjoint files -> no locks, no
+lost writes. The same video processed twice is idempotent locally (skip unless
+force); on Drive a same-title re-upload just makes a newer version, and readers
+keep the newest. Every file is written atomically (tmp + os.replace).
 
-The merged `by_label/<label>.jsonl` views and `index.json` are read-side
-aggregations rebuilt from the shards by `rebuild_views()`; they are never the
-source of truth, so rebuilding them can't corrupt ingested data.
+`by_label/`, `flags/` and `index.json` are materialized from the records by
+`rebuild_views()`; they are never the source of truth, so rebuilding them can't
+corrupt ingested data. Queries (`usable_clips`, `coverage`, …) read the records
+directly, so they are correct the instant a record lands — no rebuild required.
 """
 from __future__ import annotations
 
@@ -61,8 +61,30 @@ def _safe(name: str) -> str:
     return "".join(c if (c.isalnum() or c in "-_") else "_" for c in (name or "x")) or "x"
 
 
+# --------------------------------------------------------------------------- #
+# record layer (source of truth)                                              #
+# --------------------------------------------------------------------------- #
+def record_path(video_id: str, root: str | None = None) -> str:
+    return os.path.join(_root(root), "records", f"{_safe(video_id)}.json")
+
+
 def is_ingested(video_id: str, root: str | None = None) -> bool:
-    return os.path.exists(os.path.join(_root(root), "_index", f"{_safe(video_id)}.json"))
+    return os.path.exists(record_path(video_id, root))
+
+
+def load_record(video_id: str, root: str | None = None) -> dict | None:
+    p = record_path(video_id, root)
+    return json.load(open(p)) if os.path.exists(p) else None
+
+
+def all_records(root: str | None = None) -> list:
+    out = []
+    for p in sorted(glob.glob(os.path.join(_root(root), "records", "*.json"))):
+        try:
+            out.append(json.load(open(p)))
+        except (ValueError, OSError):
+            continue
+    return out
 
 
 def _flag_reason(row: dict) -> str | None:
@@ -77,30 +99,7 @@ def _flag_reason(row: dict) -> str | None:
     return None
 
 
-def ingest_rows(video_id: str, rows: list, meta: dict | None = None,
-                root: str | None = None, force: bool = False) -> dict:
-    """Add ONE video's classified windows to the shared store (concurrency-safe).
-
-    Writes per-(label) shards for this video, a flags file listing the
-    never-use windows, and a final _index marker. Idempotent: a video already
-    in the store is skipped unless force=True.
-    """
-    root = _root(root)
-    vid = _safe(video_id)
-    if is_ingested(video_id, root) and not force:
-        return {"video_id": video_id, "skipped": True, "reason": "already ingested"}
-    if not rows:
-        raise ValueError(f"no rows to ingest for {video_id}")
-
-    # group this video's windows by label and write one shard per label
-    by_label: dict[str, list] = {}
-    for r in rows:
-        by_label.setdefault(_safe(r.get("action_label", "unlabeled")), []).append(r)
-    for label, lrows in by_label.items():
-        path = os.path.join(root, "by_label", label, f"{vid}.jsonl")
-        _atomic_write(path, "".join(json.dumps(r) + "\n" for r in lrows))
-
-    # flags = windows that must never be used as footage (talking head / text / non-action)
+def _build_record(video_id: str, rows: list, meta: dict | None) -> dict:
     flags = []
     for r in rows:
         reason = _flag_reason(r)
@@ -108,30 +107,43 @@ def ingest_rows(video_id: str, rows: list, meta: dict | None = None,
             flags.append({"window_index": r.get("window_index"),
                           "start_s": r.get("start_s"), "end_s": r.get("end_s"),
                           "action_label": r.get("action_label"), "reason": reason})
-    usable = len(rows) - len(flags)
-    _atomic_write(os.path.join(root, "flags", f"{vid}.json"),
-                  json.dumps({"video_id": video_id, "flagged": flags}, indent=1))
-
-    # _index marker written LAST: a video only "counts" once its shards are on disk
     m = dict(meta or {})
     first = rows[0]
-    index = {
+    labels: dict[str, int] = {}
+    for r in rows:
+        labels[r.get("action_label", "unlabeled")] = labels.get(r.get("action_label", "unlabeled"), 0) + 1
+    return {
         "video_id": video_id,
         "video_title": m.get("video_title", first.get("video_title", "")),
         "video_url": m.get("video_url", first.get("video_url", "")),
         "video_duration_s": m.get("video_duration_s", first.get("video_duration_s")),
         "source": m.get("source", first.get("source", "")),
         "niche": m.get("niche", ""),
-        "n_windows": len(rows),
-        "n_usable": usable,
-        "n_flagged": len(flags),
-        "labels": {lbl: len(lr) for lbl, lr in sorted(by_label.items())},
         "ingested_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "n_windows": len(rows),
+        "n_usable": len(rows) - len(flags),
+        "n_flagged": len(flags),
+        "labels": dict(sorted(labels.items())),
+        "flagged": flags,
+        "windows": rows,
     }
-    _atomic_write(os.path.join(root, "_index", f"{vid}.json"), json.dumps(index, indent=1))
-    return {"video_id": video_id, "skipped": False,
-            "n_windows": len(rows), "n_usable": usable, "n_flagged": len(flags),
-            "labels": index["labels"]}
+
+
+def ingest_rows(video_id: str, rows: list, meta: dict | None = None,
+                root: str | None = None, force: bool = False) -> dict:
+    """Add ONE video's classified windows to the shared store (concurrency-safe).
+
+    Writes a single self-contained `records/<video_id>.json`. Idempotent: skipped
+    if the video is already present unless force=True.
+    """
+    if is_ingested(video_id, root) and not force:
+        return {"video_id": video_id, "skipped": True, "reason": "already ingested"}
+    if not rows:
+        raise ValueError(f"no rows to ingest for {video_id}")
+    rec = _build_record(video_id, rows, meta)
+    _atomic_write(record_path(video_id, root), json.dumps(rec))
+    return {"video_id": video_id, "skipped": False, "n_windows": rec["n_windows"],
+            "n_usable": rec["n_usable"], "n_flagged": rec["n_flagged"], "labels": rec["labels"]}
 
 
 def ingest_video(video_id: str, root: str | None = None, force: bool = False,
@@ -141,11 +153,30 @@ def ingest_video(video_id: str, root: str | None = None, force: bool = False,
     return ingest_rows(video_id, rows_for_video(video_id), meta=meta, root=root, force=force)
 
 
+def import_record(text_or_path: str, root: str | None = None, force: bool = False) -> dict:
+    """Write a record fetched from Drive into the local store.
+
+    `text_or_path` is the record JSON (string) or a path to it. Newest wins: an
+    existing record is replaced only if the incoming `ingested_at` is newer (or
+    force=True). Used when pulling other chats' contributions down from Drive.
+    """
+    rec = json.loads(text_or_path) if text_or_path.lstrip().startswith("{") \
+        else json.load(open(text_or_path))
+    vid = rec["video_id"]
+    if not force:
+        cur = load_record(vid, root)
+        if cur and (cur.get("ingested_at") or "") >= (rec.get("ingested_at") or ""):
+            return {"video_id": vid, "skipped": True, "reason": "local copy is newer/equal"}
+    _atomic_write(record_path(vid, root), json.dumps(rec))
+    return {"video_id": vid, "skipped": False, "n_windows": rec.get("n_windows")}
+
+
+# --------------------------------------------------------------------------- #
+# flags / footage selection                                                   #
+# --------------------------------------------------------------------------- #
 def flagged_windows(video_id: str, root: str | None = None) -> list:
-    p = os.path.join(_root(root), "flags", f"{_safe(video_id)}.json")
-    if not os.path.exists(p):
-        return []
-    return json.load(open(p)).get("flagged", [])
+    rec = load_record(video_id, root)
+    return rec.get("flagged", []) if rec else []
 
 
 def is_flagged(video_id: str, window_index: int, root: str | None = None) -> bool:
@@ -155,74 +186,72 @@ def is_flagged(video_id: str, window_index: int, root: str | None = None) -> boo
 
 
 def usable_clips(label: str | None = None, niche: str | None = None,
-                 root: str | None = None) -> list:
+                 root: str | None = None, records: list | None = None) -> list:
     """Return clean action clips (keep & is_step, not flagged), optionally by label.
 
-    Double-checked: rows come from action-label shards AND are re-verified against
-    each video's flags file before being returned.
+    Double-checked: a window must have a clean `_flag_reason` AND not appear in its
+    record's flagged list. Talking-head / on-screen-text windows can never pass.
+    `records` may be pre-loaded to avoid re-reading the store per call.
     """
-    root = _root(root)
-    labels = [label] if label else _action_labels(root)
-    niche_ids = None
-    if niche:
-        niche_ids = {ix["video_id"] for ix in _indexes(root) if ix.get("niche") == niche}
+    recs = records if records is not None else all_records(root)
     out = []
-    for lbl in labels:
-        for shard in glob.glob(os.path.join(root, "by_label", _safe(lbl), "*.jsonl")):
-            for line in open(shard):
-                if not line.strip():
-                    continue
-                r = json.loads(line)
-                if niche_ids is not None and r.get("video_id") not in niche_ids:
-                    continue
-                if _flag_reason(r) is None and not is_flagged(
-                        r.get("video_id"), r.get("window_index"), root):
-                    out.append(r)
+    for rec in recs:
+        if niche and rec.get("niche") != niche:
+            continue
+        flagged_idx = {f.get("window_index") for f in rec.get("flagged", [])}
+        for r in rec.get("windows", []):
+            if label and r.get("action_label") != label:
+                continue
+            if r.get("action_label") in _NON_FOOTAGE_LABELS:
+                continue
+            if _flag_reason(r) is None and r.get("window_index") not in flagged_idx:
+                out.append(r)
     return out
 
 
-def _action_labels(root: str) -> list:
-    base = os.path.join(root, "by_label")
-    if not os.path.isdir(base):
-        return []
-    return [d for d in os.listdir(base)
-            if os.path.isdir(os.path.join(base, d)) and d not in _NON_FOOTAGE_LABELS]
+def _action_labels(root: str | None = None, records: list | None = None) -> list:
+    recs = records if records is not None else all_records(root)
+    labels = set()
+    for rec in recs:
+        for lbl in rec.get("labels", {}):
+            if lbl not in _NON_FOOTAGE_LABELS:
+                labels.add(lbl)
+    return sorted(labels)
 
 
-def _indexes(root: str) -> list:
-    return [json.load(open(p))
-            for p in glob.glob(os.path.join(root, "_index", "*.json"))]
-
-
+# --------------------------------------------------------------------------- #
+# derived views + summaries                                                   #
+# --------------------------------------------------------------------------- #
 def rebuild_views(root: str | None = None) -> dict:
-    """Rebuild the merged by_label/<label>.jsonl views + index.json from the shards."""
+    """Materialize by_label/<label>.jsonl, flags/<id>.json and index.json from records."""
     root = _root(root)
-    base = os.path.join(root, "by_label")
-    labels = {}
-    if os.path.isdir(base):
-        for label in sorted(os.listdir(base)):
-            ldir = os.path.join(base, label)
-            if not os.path.isdir(ldir):
-                continue
-            shards = sorted(glob.glob(os.path.join(ldir, "*.jsonl")))
-            lines, n = [], 0
-            for s in shards:
-                for line in open(s):
-                    if line.strip():
-                        lines.append(line if line.endswith("\n") else line + "\n")
-                        n += 1
-            _atomic_write(os.path.join(base, f"{label}.jsonl"), "".join(lines))
-            labels[label] = {"videos": len(shards), "windows": n}
+    recs = all_records(root)
 
-    idx = _indexes(root)
+    by_label: dict[str, list] = {}
+    for rec in recs:
+        _atomic_write(os.path.join(root, "flags", f"{_safe(rec['video_id'])}.json"),
+                      json.dumps({"video_id": rec["video_id"], "flagged": rec.get("flagged", [])}, indent=1))
+        for r in rec.get("windows", []):
+            by_label.setdefault(_safe(r.get("action_label", "unlabeled")), []).append(r)
+
+    labels_manifest = {}
+    base = os.path.join(root, "by_label")
+    # clear stale label views then rewrite
+    for old in glob.glob(os.path.join(base, "*.jsonl")):
+        os.remove(old)
+    for label, lrows in sorted(by_label.items()):
+        _atomic_write(os.path.join(base, f"{label}.jsonl"),
+                      "".join(json.dumps(r) + "\n" for r in lrows))
+        labels_manifest[label] = len(lrows)
+
     manifest = {
-        "videos": len(idx),
-        "windows": sum(i.get("n_windows", 0) for i in idx),
-        "usable": sum(i.get("n_usable", 0) for i in idx),
-        "flagged": sum(i.get("n_flagged", 0) for i in idx),
-        "labels": labels,
-        "niches": sorted({i.get("niche", "") for i in idx if i.get("niche")}),
-        "video_ids": sorted(i["video_id"] for i in idx),
+        "videos": len(recs),
+        "windows": sum(r.get("n_windows", 0) for r in recs),
+        "usable": sum(r.get("n_usable", 0) for r in recs),
+        "flagged": sum(r.get("n_flagged", 0) for r in recs),
+        "labels": labels_manifest,
+        "niches": sorted({r.get("niche", "") for r in recs if r.get("niche")}),
+        "video_ids": sorted(r["video_id"] for r in recs),
         "rebuilt_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
     }
     _atomic_write(os.path.join(root, "index.json"), json.dumps(manifest, indent=1))
@@ -230,35 +259,30 @@ def rebuild_views(root: str | None = None) -> dict:
 
 
 def stats(root: str | None = None) -> dict:
-    idx = _indexes(_root(root))
+    recs = all_records(root)
     return {
-        "videos": len(idx),
-        "windows": sum(i.get("n_windows", 0) for i in idx),
-        "usable": sum(i.get("n_usable", 0) for i in idx),
-        "flagged": sum(i.get("n_flagged", 0) for i in idx),
-        "niches": sorted({i.get("niche", "") for i in idx if i.get("niche")}),
+        "videos": len(recs),
+        "windows": sum(r.get("n_windows", 0) for r in recs),
+        "usable": sum(r.get("n_usable", 0) for r in recs),
+        "flagged": sum(r.get("n_flagged", 0) for r in recs),
+        "niches": sorted({r.get("niche", "") for r in recs if r.get("niche")}),
     }
 
 
 def coverage(root: str | None = None) -> dict:
-    """What is already in the store — so a chat reads before it researches.
-
-    Returns videos grouped by niche, per-niche usable-clip counts, and overall
-    per-label usable totals, so a session can see what's covered and avoid
-    re-researching it.
-    """
-    idx = _indexes(_root(root))
+    """What is already in the store — so a chat reads before it researches."""
+    recs = all_records(root)
     niches: dict[str, list] = {}
-    for i in idx:
-        niches.setdefault(i.get("niche") or "(untagged)", []).append({
-            "video_id": i["video_id"], "title": i.get("video_title", ""),
-            "usable": i.get("n_usable", 0), "flagged": i.get("n_flagged", 0),
+    for r in recs:
+        niches.setdefault(r.get("niche") or "(untagged)", []).append({
+            "video_id": r["video_id"], "title": r.get("video_title", ""),
+            "usable": r.get("n_usable", 0), "flagged": r.get("n_flagged", 0),
         })
     labels: dict[str, int] = {}
-    for lbl in _action_labels(_root(root)):
-        labels[lbl] = len(usable_clips(label=lbl, root=root))
+    for lbl in _action_labels(records=recs):
+        labels[lbl] = len(usable_clips(label=lbl, records=recs))
     return {
-        "videos": len(idx),
+        "videos": len(recs),
         "niches": {n: sorted(v, key=lambda r: -r["usable"]) for n, v in sorted(niches.items())},
         "usable_by_label": dict(sorted(labels.items(), key=lambda kv: -kv[1])),
     }
@@ -282,7 +306,6 @@ def pending(candidates: list, root: str | None = None) -> dict:
     Accepts bare ids or YouTube URLs. Lets a chat take ~10 candidate videos for a
     new video type and skip the ones the shared store already has.
     """
-    root = _root(root)
     seen, covered, todo = set(), [], []
     for c in candidates:
         vid = _video_id_from(c)
