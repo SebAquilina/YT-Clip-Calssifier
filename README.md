@@ -7,8 +7,9 @@ container, melt wax, add fragrance, pour, set wick, cure, trim, reveal, …),
 smooths the labels with a procedure-aware rules engine, and emits a per-video
 timeline plus corpus-level *learned* rules that extrapolate to other DIY domains.
 
-This repo ships with a **worked run over 10 real candle-making videos** (see
-[`outputs/`](outputs/) and [`outputs/SUMMARY.md`](outputs/SUMMARY.md)).
+This repo ships with a **classified database of 100 real candle-making videos**
+(**4,315** labelled 5–10s windows) — see [`outputs/db/`](outputs/db/) and
+[`outputs/SUMMARY.md`](outputs/SUMMARY.md).
 
 ---
 
@@ -19,8 +20,21 @@ For each video:
 - `outputs/<id>.md` — a readable timeline table ([example](outputs/GAh9lQmaEvI.md))
 
 For the whole corpus:
+- **`outputs/db/classifications.{sqlite,csv,jsonl}`** — the consolidated database: **one row per 5–10s window** across all videos, each with the video link, a timestamped deep-link (`youtu.be/<id>?t=<start>s`), the action label, phase, confidence and a **detailed description** of what is happening
 - `outputs/learned_rules.yaml` — empirically observed step order, durations, transition frequencies, coverage
 - `outputs/SUMMARY.md` — human summary of the learned rules
+
+Build/refresh the database any time with `python -m ytclip.cli build-db`.
+
+### The 100-video database
+
+`outputs/db/` holds **100 candle videos / 4,315 windows**. Querying it (e.g.
+`sqlite3 outputs/db/classifications.sqlite "select action_label,count(*) from windows group by 1 order by 2 desc"`)
+and the `ytclip learn` aggregation independently recover the real candle-making
+procedure from the data:
+
+> gather materials → prepare container → measure wax → melt wax → add fragrance →
+> add dye → monitor temp → pour wax → decorate → set wick → cure → reveal → trim wick
 
 > The 5–10s cap is enforced on **windows**. Consecutive windows with the same
 > label are then merged into action **segments** for readability, so a segment
@@ -128,16 +142,14 @@ the rest of the pipeline is unchanged.
 
 ## Results in this repo
 
-10 candle videos, 436 windows classified. The **canonical step order derived from
-the data** (`outputs/learned_rules.yaml`) independently recovers the real
-candle-making procedure:
-
-> prepare container → gather → measure wax → melt → add fragrance → monitor temp →
-> pour → add dye → set wick → cure → decorate → trim wick → reveal
-
-and the dominant transitions (`measure_wax → melt_wax`, `melt_wax → add_fragrance`,
-`pour_wax → cure_cool`, `reveal_result → outro_cta`) match how candles are
-actually made. See [`outputs/SUMMARY.md`](outputs/SUMMARY.md).
+**100 candle videos, 4,315 windows classified** — a broad spread of soy/beeswax/
+coconut/paraffin builds, layered & ombre candles, dipped tapers, rolled & carved
+& flower & dessert candles, plus kit/business/care videos. Every window carries a
+detailed description and a timestamped link in `outputs/db/`. The **canonical step
+order derived from the data** (`outputs/learned_rules.yaml`) independently recovers
+the real candle-making procedure, and the dominant transitions (`measure_wax →
+melt_wax`, `melt_wax → add_fragrance`, `pour_wax → cure_cool`) match how candles
+are actually made. See [`outputs/SUMMARY.md`](outputs/SUMMARY.md).
 
 ---
 

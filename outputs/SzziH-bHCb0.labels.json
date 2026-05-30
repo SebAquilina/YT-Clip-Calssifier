@@ -1,0 +1,644 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "La Fille de la Mer opens; lit wooden-wick candle teaser."
+ },
+ {
+  "window": 1,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Lit wooden-wick candle teaser."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: pouring yellow soy wax into the rows of small jars."
+ },
+ {
+  "window": 4,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: setting/centring wooden wicks in the jars."
+ },
+ {
+  "window": 5,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead bench work measuring/handling wax and jars."
+ },
+ {
+  "window": 6,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: pouring yellow soy wax into the rows of small jars."
+ },
+ {
+  "window": 7,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: setting/centring wooden wicks in the jars."
+ },
+ {
+  "window": 8,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead bench work measuring/handling wax and jars."
+ },
+ {
+  "window": 9,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: pouring yellow soy wax into the rows of small jars."
+ },
+ {
+  "window": 10,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: setting/centring wooden wicks in the jars."
+ },
+ {
+  "window": 11,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead bench work measuring/handling wax and jars."
+ },
+ {
+  "window": 12,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: pouring yellow soy wax into the rows of small jars."
+ },
+ {
+  "window": 13,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: setting/centring wooden wicks in the jars."
+ },
+ {
+  "window": 14,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead bench work measuring/handling wax and jars."
+ },
+ {
+  "window": 15,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: pouring yellow soy wax into the rows of small jars."
+ },
+ {
+  "window": 16,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: setting/centring wooden wicks in the jars."
+ },
+ {
+  "window": 17,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead bench work measuring/handling wax and jars."
+ },
+ {
+  "window": 18,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: pouring yellow soy wax into the rows of small jars."
+ },
+ {
+  "window": 19,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: setting/centring wooden wicks in the jars."
+ },
+ {
+  "window": 20,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead bench work measuring/handling wax and jars."
+ },
+ {
+  "window": 21,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: pouring yellow soy wax into the rows of small jars."
+ },
+ {
+  "window": 22,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: setting/centring wooden wicks in the jars."
+ },
+ {
+  "window": 23,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead bench work measuring/handling wax and jars."
+ },
+ {
+  "window": 24,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting soy wax (overhead)."
+ },
+ {
+  "window": 25,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 26,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wooden wicks in the poured jars."
+ },
+ {
+  "window": 27,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the wax."
+ },
+ {
+  "window": 28,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting soy wax (overhead)."
+ },
+ {
+  "window": 29,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 30,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wooden wicks in the poured jars."
+ },
+ {
+  "window": 31,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the wax."
+ },
+ {
+  "window": 32,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting soy wax (overhead)."
+ },
+ {
+  "window": 33,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 34,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wooden wicks in the poured jars."
+ },
+ {
+  "window": 35,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the wax."
+ },
+ {
+  "window": 36,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting soy wax (overhead)."
+ },
+ {
+  "window": 37,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 38,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wooden wicks in the poured jars."
+ },
+ {
+  "window": 39,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the wax."
+ },
+ {
+  "window": 40,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting soy wax (overhead)."
+ },
+ {
+  "window": 41,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 42,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wooden wicks in the poured jars."
+ },
+ {
+  "window": 43,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the wax."
+ },
+ {
+  "window": 44,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting soy wax (overhead)."
+ },
+ {
+  "window": 45,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 46,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wooden wicks in the poured jars."
+ },
+ {
+  "window": 47,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the wax."
+ },
+ {
+  "window": 48,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 49,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 50,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 51,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 52,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 53,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 54,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 55,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 56,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 57,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 58,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 59,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 60,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 61,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 62,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 63,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 64,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 65,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 66,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 67,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 68,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 69,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the rows of jars."
+ },
+ {
+  "window": 70,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wooden wicks in the jars."
+ },
+ {
+  "window": 71,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured jars setting."
+ },
+ {
+  "window": 72,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks at the counter."
+ },
+ {
+  "window": 73,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 74,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 75,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 76,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks at the counter."
+ },
+ {
+  "window": 77,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 78,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 79,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 80,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks at the counter."
+ },
+ {
+  "window": 81,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 82,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 83,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 84,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks at the counter."
+ },
+ {
+  "window": 85,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 86,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 87,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 88,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks at the counter."
+ },
+ {
+  "window": 89,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 90,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 91,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 92,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks at the counter."
+ },
+ {
+  "window": 93,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 94,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 95,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring/finishing the jar candles."
+ },
+ {
+  "window": 96,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 97,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 98,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 99,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 100,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 101,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 102,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 103,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks at the counter with rows of finished candles."
+ },
+ {
+  "window": 104,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Lit wooden-wick soy candle close-up."
+ },
+ {
+  "window": 105,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'lafilledelamer.com - soy wax candles with wooden wicks' end card."
+ },
+ {
+  "window": 106,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

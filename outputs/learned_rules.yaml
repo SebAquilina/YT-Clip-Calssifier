@@ -1,177 +1,269 @@
 corpus:
-  n_videos: 10
+  n_videos: 100
   video_ids:
   - 1V3hfxo7OtE
+  - 2KbmlOnPJnU
+  - 2rhZ7lzaU4Y
   - 5SulILZNPEI
+  - 5mCtnH6K4u0
+  - 6HKMsobiG74
+  - 6N1oH8pkD5Q
+  - 6Y1FERoGUSo
+  - 6jN6A8RVyWw
+  - 7j6uypARXW4
+  - 8PZQhTp_67E
+  - 8V_WyGLS5Zo
+  - 999EQfNvuds
+  - 9ziN3qqHkc4
+  - AiMR4cfEfwE
+  - B2AFuHYg_Io
+  - BbGnbTIz7_s
+  - BskHsZWNhRw
+  - CQ3SYeqOP8Y
+  - CrJ9UE6Nihw
+  - Cx5_JG8stBo
+  - D2TTNZkVMMM
+  - DSj_ZcxHB2w
+  - E27yUdPTNEU
+  - FhVukBUHls0
   - FxW5eR7Uv3o
+  - G42ivbBdIHY
   - GAh9lQmaEvI
+  - HPD1k0lhDCU
   - Hir66vEC2MI
+  - JrRekRMu7bQ
+  - JxJVzdPJexE
+  - K7UxM5B0FdM
+  - Ktz5Q9udtXY
+  - Lg_fGA7jd4A
+  - LiLrIjz_2ac
+  - N1izApjGj2c
+  - NGgDIEY_R40
+  - NKgSlA79S78
+  - Pj9yYzFvpFA
+  - Rl8O7K9RvMA
+  - Rpu5mH5me1Y
+  - RwLOuuMSrWE
+  - SVhIQ4pB5sc
+  - SzziH-bHCb0
+  - TYdTLOd4q4Y
+  - UNBvcQ1TxKE
+  - Ucr1PgqwuCU
+  - UrFrR3p0B3A
+  - VazMrJH55Is
+  - VeFhYM_tD8Q
+  - Vsd8r7uSDII
+  - WD-GsTgR5p8
+  - W_CSmi19gys
   - ZQk9l2ttcIA
+  - _eyf0tCZzBY
+  - a9IOU3fbWx0
+  - bE3cn6R9khs
+  - bEt6-L6-q3M
+  - bOutp9y0oxE
+  - brxojqIpgH0
+  - c2l0eQnhwiE
+  - dFPnxVWvd6A
+  - e2RHQ6LVr-w
+  - ejlyZKwVMU8
+  - eyBrs0uVjyw
+  - eyHB2gfWo_I
+  - fPLxwt3A3pA
+  - fS_Y1fC39kM
+  - fXBd9th3Mq8
+  - fhuTHnPrqIM
+  - hFXp2bgxQh8
+  - i64JEKLWiz0
+  - ik4FhLsmJ24
+  - imxg0XoPkmg
   - jJWl9Kpwbno
+  - k4UzRUgCPZw
+  - kdQH8hAYZ38
+  - lTMszYRbm84
+  - lyN8MQxg4Uw
+  - m2fZmJ8RmZM
+  - nVrWdGYHQkc
+  - nnm8jirkn64
+  - o4YzLSxaahk
+  - oMSta9suaQ8
+  - p3X85tRiKRc
+  - p9iuqnq99o8
+  - qavzkjldNdE
   - qlyYdhfU5nA
+  - r11QpNzEYqY
+  - rjhYJgEVFMw
+  - rltpKr2t-Bw
+  - tAUu-zn8nXo
   - v9z-JiqGX1U
   - vVlmkfF_PRk
+  - vWsjYBvP3aE
+  - vnL7IzFaKUY
+  - wrGN0qeWyPk
+  - yVBr4Z9S0EA
+  - zBcOeiJCRmM
 observed_position:
-  add_dye_color: 0.704
-  add_fragrance: 0.511
-  cure_cool: 0.737
-  decorate_finish: 0.781
-  gather_materials: 0.3
-  intro_titlecard: 0.013
-  measure_wax: 0.371
-  melt_wax: 0.455
-  monitor_temperature: 0.541
-  outro_cta: 0.937
-  pour_wax: 0.685
-  prepare_container: 0.277
-  reveal_result: 0.887
-  set_wick: 0.736
-  talking_head: 0.459
-  transition: 0.75
-  trim_wick: 0.874
+  add_dye_color: 0.466
+  add_fragrance: 0.442
+  cure_cool: 0.677
+  decorate_finish: 0.575
+  gather_materials: 0.173
+  intro_titlecard: 0.024
+  measure_wax: 0.295
+  melt_wax: 0.387
+  monitor_temperature: 0.508
+  other_unclear: 0.375
+  outro_cta: 0.946
+  pour_wax: 0.528
+  prepare_container: 0.274
+  reveal_result: 0.763
+  set_wick: 0.594
+  talking_head: 0.455
+  transition: 0.734
+  trim_wick: 0.818
 observed_duration_s:
   add_dye_color:
-    mean: 7.9
-    median: 7.9
-    n: 2
-  add_fragrance:
-    mean: 19.4
-    median: 23.8
-    n: 7
-  cure_cool:
-    mean: 14.0
-    median: 12.0
-    n: 4
-  decorate_finish:
-    mean: 16.0
-    median: 16.0
-    n: 1
-  gather_materials:
-    mean: 21.6
-    median: 12.0
-    n: 10
-  measure_wax:
-    mean: 26.8
-    median: 15.9
-    n: 11
-  melt_wax:
-    mean: 21.0
-    median: 16.2
-    n: 11
-  monitor_temperature:
-    mean: 8.0
+    mean: 10.0
     median: 8.0
-    n: 3
-  pour_wax:
-    mean: 20.4
-    median: 16.0
-    n: 9
-  prepare_container:
-    mean: 29.1
-    median: 20.0
-    n: 6
-  reveal_result:
+    n: 49
+  add_fragrance:
+    mean: 12.2
+    median: 8.0
+    n: 66
+  cure_cool:
+    mean: 13.9
+    median: 8.0
+    n: 49
+  decorate_finish:
+    mean: 40.2
+    median: 8.0
+    n: 77
+  gather_materials:
+    mean: 21.4
+    median: 8.1
+    n: 71
+  measure_wax:
+    mean: 12.1
+    median: 8.0
+    n: 100
+  melt_wax:
     mean: 17.6
+    median: 8.0
+    n: 130
+  monitor_temperature:
+    mean: 11.2
+    median: 8.0
+    n: 10
+  pour_wax:
+    mean: 22.9
+    median: 8.0
+    n: 178
+  prepare_container:
+    mean: 34.8
     median: 16.0
-    n: 5
+    n: 54
+  reveal_result:
+    mean: 20.6
+    median: 15.9
+    n: 94
   set_wick:
-    mean: 16.0
-    median: 15.9
-    n: 4
+    mean: 14.0
+    median: 8.0
+    n: 86
   trim_wick:
-    mean: 15.9
-    median: 15.9
-    n: 2
+    mean: 9.5
+    median: 8.0
+    n: 10
 coverage_videos:
-  add_dye_color: 2
-  add_fragrance: 6
-  cure_cool: 4
-  decorate_finish: 1
-  gather_materials: 6
-  intro_titlecard: 9
-  measure_wax: 8
-  melt_wax: 9
-  monitor_temperature: 3
-  outro_cta: 10
-  pour_wax: 7
-  prepare_container: 6
-  reveal_result: 5
-  set_wick: 4
-  talking_head: 8
-  transition: 8
-  trim_wick: 2
+  add_dye_color: 21
+  add_fragrance: 33
+  cure_cool: 32
+  decorate_finish: 34
+  gather_materials: 51
+  intro_titlecard: 87
+  measure_wax: 45
+  melt_wax: 60
+  monitor_temperature: 10
+  other_unclear: 4
+  outro_cta: 74
+  pour_wax: 73
+  prepare_container: 43
+  reveal_result: 73
+  set_wick: 45
+  talking_head: 59
+  transition: 48
+  trim_wick: 10
 top_transitions:
-- from: intro_titlecard
-  to: talking_head
-  count: 8
-- from: talking_head
-  to: gather_materials
-  count: 7
+- from: pour_wax
+  to: set_wick
+  count: 59
 - from: measure_wax
   to: melt_wax
-  count: 7
-- from: outro_cta
-  to: transition
-  count: 6
-- from: talking_head
-  to: transition
-  count: 5
-- from: talking_head
-  to: outro_cta
-  count: 4
+  count: 55
+- from: intro_titlecard
+  to: talking_head
+  count: 51
 - from: melt_wax
-  to: add_fragrance
-  count: 4
+  to: pour_wax
+  count: 41
 - from: reveal_result
   to: outro_cta
-  count: 4
-- from: gather_materials
-  to: talking_head
-  count: 4
-- from: gather_materials
-  to: measure_wax
-  count: 3
+  count: 35
 - from: pour_wax
-  to: cure_cool
-  count: 3
-- from: melt_wax
-  to: talking_head
-  count: 3
-- from: prepare_container
-  to: measure_wax
-  count: 3
-- from: measure_wax
-  to: talking_head
-  count: 3
-- from: pour_wax
-  to: trim_wick
-  count: 2
-- from: pour_wax
-  to: talking_head
-  count: 2
-- from: talking_head
-  to: measure_wax
-  count: 2
-- from: talking_head
-  to: reveal_result
-  count: 2
+  to: decorate_finish
+  count: 33
 - from: add_fragrance
   to: pour_wax
-  count: 2
-- from: add_fragrance
-  to: monitor_temperature
-  count: 2
+  count: 32
+- from: talking_head
+  to: gather_materials
+  count: 26
+- from: talking_head
+  to: melt_wax
+  count: 26
+- from: talking_head
+  to: outro_cta
+  count: 25
+- from: outro_cta
+  to: transition
+  count: 25
+- from: pour_wax
+  to: cure_cool
+  count: 24
+- from: add_dye_color
+  to: pour_wax
+  count: 24
+- from: decorate_finish
+  to: reveal_result
+  count: 23
+- from: gather_materials
+  to: measure_wax
+  count: 22
+- from: set_wick
+  to: cure_cool
+  count: 22
+- from: melt_wax
+  to: add_dye_color
+  count: 22
+- from: melt_wax
+  to: add_fragrance
+  count: 21
+- from: talking_head
+  to: reveal_result
+  count: 21
+- from: talking_head
+  to: pour_wax
+  count: 19
 derived_canonical_order:
-- prepare_container
 - gather_materials
+- prepare_container
 - measure_wax
 - melt_wax
 - add_fragrance
+- add_dye_color
 - monitor_temperature
 - pour_wax
-- add_dye_color
+- decorate_finish
 - set_wick
 - cure_cool
-- decorate_finish
-- trim_wick
 - reveal_result
+- trim_wick
