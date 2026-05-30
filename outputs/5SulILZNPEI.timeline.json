@@ -16,6 +16,7 @@
       "phase": "intro",
       "is_step": false,
       "evidence": "host opening at table with melter",
+      "description": "host opening at table with melter",
       "smoothed": false,
       "notes": []
     },
@@ -29,6 +30,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -42,6 +44,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -55,6 +58,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -68,6 +72,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -81,6 +86,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "ProCandleSupply materials card",
+      "description": "ProCandleSupply materials card",
       "smoothed": false,
       "notes": []
     },
@@ -94,6 +100,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "pouring flakes into pitcher",
+      "description": "pouring flakes into pitcher",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -109,6 +116,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "reaching for materials",
+      "description": "reaching for materials",
       "smoothed": false,
       "notes": []
     },
@@ -122,6 +130,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "at melter pot",
+      "description": "at melter pot",
       "smoothed": false,
       "notes": []
     },
@@ -135,6 +144,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "tending melter",
+      "description": "tending melter",
       "smoothed": false,
       "notes": []
     },
@@ -148,6 +158,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -161,6 +172,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host gesturing",
+      "description": "host gesturing",
       "smoothed": false,
       "notes": []
     },
@@ -174,6 +186,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "handling wick/container item",
+      "description": "handling wick/container item",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (melt_wax->prepare_container)"
@@ -189,6 +202,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "at melter pot",
+      "description": "at melter pot",
       "smoothed": false,
       "notes": []
     },
@@ -202,6 +216,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "tending melter",
+      "description": "tending melter",
       "smoothed": false,
       "notes": []
     },
@@ -215,6 +230,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "reaching to side",
+      "description": "reaching to side",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -230,6 +246,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "stirring melter",
+      "description": "stirring melter",
       "smoothed": false,
       "notes": []
     },
@@ -243,6 +260,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "tending melter",
+      "description": "tending melter",
       "smoothed": false,
       "notes": []
     },
@@ -256,6 +274,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "hands in melter",
+      "description": "hands in melter",
       "smoothed": false,
       "notes": []
     },
@@ -269,6 +288,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "adding/stirring into melter",
+      "description": "adding/stirring into melter",
       "smoothed": false,
       "notes": []
     },
@@ -282,6 +302,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -295,6 +316,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -308,6 +330,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -321,6 +344,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "overhead pouring into pot",
+      "description": "overhead pouring into pot",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -336,6 +360,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -349,6 +374,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -362,6 +388,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -375,6 +402,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -388,6 +416,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "at melter pot",
+      "description": "at melter pot",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -403,6 +432,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -416,6 +446,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -429,6 +460,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -442,6 +474,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "overhead hands at tins",
+      "description": "overhead hands at tins",
       "smoothed": false,
       "notes": []
     },
@@ -455,6 +488,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "overhead pouring into tins",
+      "description": "overhead pouring into tins",
       "smoothed": false,
       "notes": []
     },
@@ -468,6 +502,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "overhead working tins",
+      "description": "overhead working tins",
       "smoothed": false,
       "notes": []
     },
@@ -481,6 +516,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -496,6 +532,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "overhead adjusting wicks",
+      "description": "overhead adjusting wicks",
       "smoothed": false,
       "notes": []
     },
@@ -509,6 +546,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "overhead pouring",
+      "description": "overhead pouring",
       "smoothed": false,
       "notes": []
     },
@@ -522,6 +560,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -535,6 +574,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "overhead working tins",
+      "description": "overhead working tins",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -550,6 +590,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -563,6 +604,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -576,6 +618,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -589,6 +632,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "overhead pouring/working",
+      "description": "overhead pouring/working",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -604,6 +648,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -617,6 +662,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -630,6 +676,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -643,6 +690,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "transition/overhead frame",
+      "description": "transition/overhead frame",
       "smoothed": false,
       "notes": []
     },
@@ -656,6 +704,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "host holding finished tin candle",
+      "description": "host holding finished tin candle",
       "smoothed": false,
       "notes": []
     },
@@ -669,6 +718,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "showing finished candle",
+      "description": "showing finished candle",
       "smoothed": false,
       "notes": []
     },
@@ -682,6 +732,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "showing finished candle",
+      "description": "showing finished candle",
       "smoothed": false,
       "notes": []
     },
@@ -695,6 +746,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "showing finished candle",
+      "description": "showing finished candle",
       "smoothed": false,
       "notes": []
     },
@@ -708,6 +760,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "branded 'Order' supply flat-lay",
+      "description": "branded 'Order' supply flat-lay",
       "smoothed": false,
       "notes": []
     },
@@ -721,6 +774,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "branded supply flat-lay end card",
+      "description": "branded supply flat-lay end card",
       "smoothed": false,
       "notes": []
     },
@@ -734,6 +788,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "branded supply flat-lay end card",
+      "description": "branded supply flat-lay end card",
       "smoothed": false,
       "notes": []
     },
@@ -747,6 +802,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "branded supply flat-lay end card",
+      "description": "branded supply flat-lay end card",
       "smoothed": false,
       "notes": []
     },
@@ -760,6 +816,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "branded supply flat-lay end card",
+      "description": "branded supply flat-lay end card",
       "smoothed": false,
       "notes": []
     }

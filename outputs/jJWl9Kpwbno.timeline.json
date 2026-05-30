@@ -16,6 +16,7 @@
       "phase": "intro",
       "is_step": false,
       "evidence": "host opening to camera",
+      "description": "host opening to camera",
       "smoothed": false,
       "notes": []
     },
@@ -29,6 +30,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -42,6 +44,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -55,6 +58,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -68,6 +72,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -81,6 +86,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking, subscribe button overlay",
+      "description": "host talking, subscribe button overlay",
       "smoothed": false,
       "notes": []
     },
@@ -94,6 +100,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking, on-screen card",
+      "description": "host talking, on-screen card",
       "smoothed": false,
       "notes": []
     },
@@ -107,6 +114,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -120,6 +128,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking, overlay",
+      "description": "host talking, overlay",
       "smoothed": false,
       "notes": []
     },
@@ -133,6 +142,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -146,6 +156,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -159,6 +170,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -172,6 +184,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -185,6 +198,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "'About Wicks' educational graphic insert",
+      "description": "'About Wicks' educational graphic insert",
       "smoothed": false,
       "notes": []
     },
@@ -198,6 +212,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "animated graphic insert",
+      "description": "animated graphic insert",
       "smoothed": false,
       "notes": []
     },
@@ -211,6 +226,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "pile of wax flakes b-roll",
+      "description": "pile of wax flakes b-roll",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -226,6 +242,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "'NEW CANDLE MAKER WATCH THIS FIRST' card",
+      "description": "'NEW CANDLE MAKER WATCH THIS FIRST' card",
       "smoothed": false,
       "notes": []
     },
@@ -239,6 +256,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "host at workbench with materials",
+      "description": "host at workbench with materials",
       "smoothed": false,
       "notes": []
     },
@@ -252,6 +270,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "pouring pitcher with flakes",
+      "description": "pouring pitcher with flakes",
       "smoothed": false,
       "notes": []
     },
@@ -265,6 +284,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "liquid wax b-roll",
+      "description": "liquid wax b-roll",
       "smoothed": false,
       "notes": []
     },
@@ -278,6 +298,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -291,6 +312,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -304,6 +326,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "bowls of dye / materials",
+      "description": "bowls of dye / materials",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (melt_wax->gather_materials)"
@@ -319,6 +342,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "'Fragrance Oils' card with bottles",
+      "description": "'Fragrance Oils' card with bottles",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours",
@@ -335,6 +359,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "row of jars b-roll",
+      "description": "row of jars b-roll",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (melt_wax->gather_materials)"
@@ -350,6 +375,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "metal pot b-roll",
+      "description": "metal pot b-roll",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours",
@@ -366,6 +392,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "containers b-roll",
+      "description": "containers b-roll",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (melt_wax->gather_materials)"
@@ -381,6 +408,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -394,6 +422,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "fragrance-ratio text caption",
+      "description": "fragrance-ratio text caption",
       "smoothed": false,
       "notes": []
     },
@@ -407,6 +436,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "fragrance-ratio text caption",
+      "description": "fragrance-ratio text caption",
       "smoothed": false,
       "notes": []
     },
@@ -420,6 +450,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "shelf of jars b-roll",
+      "description": "shelf of jars b-roll",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -435,6 +466,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black frame",
+      "description": "blank/black frame",
       "smoothed": false,
       "notes": []
     },
@@ -448,6 +480,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -461,6 +494,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -474,6 +508,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "'Keep Wicks Centered' diagram insert",
+      "description": "'Keep Wicks Centered' diagram insert",
       "smoothed": false,
       "notes": []
     },
@@ -487,6 +522,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "coloured wax pile b-roll",
+      "description": "coloured wax pile b-roll",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (melt_wax->gather_materials)"
@@ -502,6 +538,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -515,6 +552,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "'Let candles cool/cure' caption",
+      "description": "'Let candles cool/cure' caption",
       "smoothed": false,
       "notes": []
     },
@@ -528,6 +566,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "honeycomb wax pile b-roll",
+      "description": "honeycomb wax pile b-roll",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (cure_cool->gather_materials)"
@@ -543,6 +582,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -556,6 +596,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "graphic insert",
+      "description": "graphic insert",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -571,6 +612,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -584,6 +626,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -597,6 +640,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -610,6 +654,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -623,6 +668,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -636,6 +682,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -649,6 +696,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -662,6 +710,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -675,6 +724,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -688,6 +738,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -701,6 +752,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -714,6 +766,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -727,6 +780,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -740,6 +794,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "closing remarks to camera",
+      "description": "closing remarks to camera",
       "smoothed": false,
       "notes": []
     }

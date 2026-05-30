@@ -16,6 +16,7 @@
       "phase": "intro",
       "is_step": false,
       "evidence": "channel 'U' logo + finished candles teaser",
+      "description": "channel 'U' logo + finished candles teaser",
       "smoothed": false,
       "notes": []
     },
@@ -29,6 +30,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "step 1: washing jars under tap",
+      "description": "step 1: washing jars under tap",
       "smoothed": false,
       "notes": []
     },
@@ -42,6 +44,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "step 2: drying jars in oven, 'preheat'",
+      "description": "step 2: drying jars in oven, 'preheat'",
       "smoothed": false,
       "notes": []
     },
@@ -55,6 +58,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "step 3: wicks laid out",
+      "description": "step 3: wicks laid out",
       "smoothed": false,
       "notes": []
     },
@@ -68,6 +72,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "step 4: glue + stick wick inside jar",
+      "description": "step 4: glue + stick wick inside jar",
       "smoothed": false,
       "notes": []
     },
@@ -81,6 +86,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "step 5: measuring in bowls",
+      "description": "step 5: measuring in bowls",
       "smoothed": false,
       "notes": []
     },
@@ -94,6 +100,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "step 6: 'Measure out the wax', flakes in cup",
+      "description": "step 6: 'Measure out the wax', flakes in cup",
       "smoothed": false,
       "notes": []
     },
@@ -107,6 +114,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "step 7: wax cup in double boiler pot",
+      "description": "step 7: wax cup in double boiler pot",
       "smoothed": false,
       "notes": []
     },
@@ -120,6 +128,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "step 8: 'Test the temperature of the wax'",
+      "description": "step 8: 'Test the temperature of the wax'",
       "smoothed": false,
       "notes": []
     },
@@ -133,6 +142,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "hands working in bowl",
+      "description": "hands working in bowl",
       "smoothed": false,
       "notes": []
     },
@@ -146,6 +156,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "dropper adding essential oils",
+      "description": "dropper adding essential oils",
       "smoothed": false,
       "notes": []
     },
@@ -159,6 +170,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "green wax, dropper, thermometer",
+      "description": "green wax, dropper, thermometer",
       "smoothed": false,
       "notes": []
     },
@@ -172,6 +184,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "'Pour the wax into your container'",
+      "description": "'Pour the wax into your container'",
       "smoothed": false,
       "notes": []
     },
@@ -185,6 +198,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pouring green wax, 'leave space at top'",
+      "description": "pouring green wax, 'leave space at top'",
       "smoothed": false,
       "notes": []
     },
@@ -198,6 +212,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "'Top off the candle', green+blue jars",
+      "description": "'Top off the candle', green+blue jars",
       "smoothed": false,
       "notes": []
     },
@@ -211,6 +226,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "'Trim the wick' + finished candles",
+      "description": "'Trim the wick' + finished candles",
       "smoothed": false,
       "notes": []
     },
@@ -224,6 +240,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "channel 'U' links outro card",
+      "description": "channel 'U' links outro card",
       "smoothed": false,
       "notes": []
     }

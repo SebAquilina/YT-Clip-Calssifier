@@ -16,6 +16,7 @@
       "phase": "intro",
       "is_step": false,
       "evidence": "Cosy Owl branded title card + host",
+      "description": "Cosy Owl branded title card + host",
       "smoothed": false,
       "notes": []
     },
@@ -29,6 +30,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -42,6 +44,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "host with supplies laid on table",
+      "description": "host with supplies laid on table",
       "smoothed": false,
       "notes": []
     },
@@ -55,6 +58,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "handling wick/sticker on table",
+      "description": "handling wick/sticker on table",
       "smoothed": false,
       "notes": []
     },
@@ -68,6 +72,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "host explaining to camera",
+      "description": "host explaining to camera",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -83,6 +88,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "preparing jars at table",
+      "description": "preparing jars at table",
       "smoothed": false,
       "notes": []
     },
@@ -96,6 +102,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "tin on scale",
+      "description": "tin on scale",
       "smoothed": false,
       "notes": []
     },
@@ -109,6 +116,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "pouring wax flakes into tin on scale",
+      "description": "pouring wax flakes into tin on scale",
       "smoothed": false,
       "notes": []
     },
@@ -122,6 +130,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "metal pot with flakes",
+      "description": "metal pot with flakes",
       "smoothed": false,
       "notes": []
     },
@@ -135,6 +144,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "pot on gas stove melting",
+      "description": "pot on gas stove melting",
       "smoothed": false,
       "notes": []
     },
@@ -148,6 +158,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "melting wax on stove",
+      "description": "melting wax on stove",
       "smoothed": false,
       "notes": []
     },
@@ -161,6 +172,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "stirring melting pot",
+      "description": "stirring melting pot",
       "smoothed": false,
       "notes": []
     },
@@ -174,6 +186,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "handling bottle near pot",
+      "description": "handling bottle near pot",
       "smoothed": false,
       "notes": []
     },
@@ -187,6 +200,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "pouring oil into pot",
+      "description": "pouring oil into pot",
       "smoothed": false,
       "notes": []
     },
@@ -200,6 +214,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "stirring fragrance into amber liquid",
+      "description": "stirring fragrance into amber liquid",
       "smoothed": false,
       "notes": []
     },
@@ -213,6 +228,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "pot of amber liquid, checking",
+      "description": "pot of amber liquid, checking",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (add_fragrance->monitor_temperature)"
@@ -228,6 +244,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pouring wax into glass",
+      "description": "pouring wax into glass",
       "smoothed": false,
       "notes": []
     },
@@ -241,6 +258,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pouring into glasses",
+      "description": "pouring into glasses",
       "smoothed": false,
       "notes": []
     },
@@ -254,6 +272,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pink/red colour appears",
+      "description": "pink/red colour appears",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -269,6 +288,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pouring pink wax into glasses",
+      "description": "pouring pink wax into glasses",
       "smoothed": false,
       "notes": []
     },
@@ -282,6 +302,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pink glasses filled",
+      "description": "pink glasses filled",
       "smoothed": false,
       "notes": []
     },
@@ -295,6 +316,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "row of filled glasses setting",
+      "description": "row of filled glasses setting",
       "smoothed": false,
       "notes": []
     },
@@ -308,6 +330,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pink candles cooling",
+      "description": "pink candles cooling",
       "smoothed": false,
       "notes": []
     },
@@ -321,6 +344,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "hands adjusting wicks",
+      "description": "hands adjusting wicks",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (cure_cool->set_wick)"
@@ -336,6 +360,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "sprinkling petals on top",
+      "description": "sprinkling petals on top",
       "smoothed": false,
       "notes": []
     },
@@ -349,6 +374,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "decorating candle tops with petals",
+      "description": "decorating candle tops with petals",
       "smoothed": false,
       "notes": []
     },
@@ -362,6 +388,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "finished pink candles beauty shot",
+      "description": "finished pink candles beauty shot",
       "smoothed": false,
       "notes": []
     },
@@ -375,6 +402,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "Cosy Owl outro end card",
+      "description": "Cosy Owl outro end card",
       "smoothed": false,
       "notes": []
     },
@@ -388,6 +416,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding frame",
+      "description": "blank/black padding frame",
       "smoothed": false,
       "notes": []
     },
@@ -401,6 +430,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding frame",
+      "description": "blank/black padding frame",
       "smoothed": false,
       "notes": []
     },
@@ -414,6 +444,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding frame",
+      "description": "blank/black padding frame",
       "smoothed": false,
       "notes": []
     },
@@ -427,6 +458,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding frame",
+      "description": "blank/black padding frame",
       "smoothed": false,
       "notes": []
     }

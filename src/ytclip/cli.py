@@ -41,6 +41,7 @@ def main(argv=None):
     p.add_argument("--max-height", type=int, default=480)
     f = sub.add_parser("finalize"); f.add_argument("video_id")
     sub.add_parser("learn")
+    sub.add_parser("build-db")
     sub.add_parser("prompt")
 
     a = ap.parse_args(argv)
@@ -61,6 +62,10 @@ def main(argv=None):
     elif a.cmd == "learn":
         res = run_learn()
         print(f"learned from {res['corpus']['n_videos']} videos -> outputs/learned_rules.yaml, SUMMARY.md")
+    elif a.cmd == "build-db":
+        from .database import build
+        res = build()
+        print(f"database: {res['videos']} videos, {res['windows']} windows -> {res['dir']}")
     elif a.cmd == "prompt":
         print(CLASSIFY_PROMPT + prompt_label_reference(load_taxonomy()))
 

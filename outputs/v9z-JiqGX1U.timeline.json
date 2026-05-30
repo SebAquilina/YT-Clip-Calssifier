@@ -16,6 +16,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "hands at table by empty glass, 'prepare candle container' caption",
+      "description": "hands at table by empty glass, 'prepare candle container' caption",
       "smoothed": false,
       "notes": []
     },
@@ -29,6 +30,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "pressing wick into bottom of glass jar",
+      "description": "pressing wick into bottom of glass jar",
       "smoothed": false,
       "notes": []
     },
@@ -42,6 +44,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "pouring wax flakes into measuring cup, 'melt wax using double boiler'",
+      "description": "pouring wax flakes into measuring cup, 'melt wax using double boiler'",
       "smoothed": false,
       "notes": []
     },
@@ -55,6 +58,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "metal pouring pitcher with flakes",
+      "description": "metal pouring pitcher with flakes",
       "smoothed": false,
       "notes": []
     },
@@ -68,6 +72,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "pitcher in pot of water on heat, 'melt wax using double boiler'",
+      "description": "pitcher in pot of water on heat, 'melt wax using double boiler'",
       "smoothed": false,
       "notes": []
     },
@@ -81,6 +86,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "wax melting in double boiler",
+      "description": "wax melting in double boiler",
       "smoothed": false,
       "notes": []
     },
@@ -94,6 +100,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "continued melting in pot",
+      "description": "continued melting in pot",
       "smoothed": false,
       "notes": []
     },
@@ -107,6 +114,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "pot on heat, liquefying",
+      "description": "pot on heat, liquefying",
       "smoothed": false,
       "notes": []
     },
@@ -120,6 +128,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "blue dye being added/stirred into wax",
+      "description": "blue dye being added/stirred into wax",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -135,6 +144,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "honeycomb tray + caption, ambiguous",
+      "description": "honeycomb tray + caption, ambiguous",
       "smoothed": false,
       "notes": []
     },
@@ -148,6 +158,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "pouring fragrance oil from bottle, 'add fragrance'",
+      "description": "pouring fragrance oil from bottle, 'add fragrance'",
       "smoothed": false,
       "notes": []
     },
@@ -161,6 +172,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "stirring fragrance into pot",
+      "description": "stirring fragrance into pot",
       "smoothed": false,
       "notes": []
     },
@@ -174,6 +186,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "tray + 'stir' caption, ambiguous",
+      "description": "tray + 'stir' caption, ambiguous",
       "smoothed": false,
       "notes": []
     },
@@ -187,6 +200,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "teal liquid wax poured into containers",
+      "description": "teal liquid wax poured into containers",
       "smoothed": false,
       "notes": []
     },
@@ -200,6 +214,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "pouring colored wax into cups",
+      "description": "pouring colored wax into cups",
       "smoothed": false,
       "notes": []
     },
@@ -213,6 +228,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "blue cups filled",
+      "description": "blue cups filled",
       "smoothed": false,
       "notes": []
     },
@@ -226,6 +242,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "filled cups sitting to set",
+      "description": "filled cups sitting to set",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -241,6 +258,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "second color (pink) poured into cups",
+      "description": "second color (pink) poured into cups",
       "smoothed": false,
       "notes": []
     },
@@ -254,6 +272,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "colored cups setting",
+      "description": "colored cups setting",
       "smoothed": false,
       "notes": []
     },
@@ -267,6 +286,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "hands adjusting wicks in cups",
+      "description": "hands adjusting wicks in cups",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (cure_cool->set_wick)"
@@ -282,6 +302,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "finished colorful candles with fragrance bottles",
+      "description": "finished colorful candles with fragrance bottles",
       "smoothed": false,
       "notes": []
     },
@@ -295,6 +316,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "arranged finished candles beauty shot",
+      "description": "arranged finished candles beauty shot",
       "smoothed": false,
       "notes": []
     },
@@ -308,6 +330,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "fade to black / end",
+      "description": "fade to black / end",
       "smoothed": false,
       "notes": []
     }

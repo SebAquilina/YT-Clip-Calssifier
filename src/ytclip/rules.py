@@ -39,6 +39,9 @@ def refine(windows, raw: List[dict], tax: Taxonomy, rules: dict | None = None) -
     for i, r in enumerate(labels):
         r.setdefault("confidence", 0.6)
         r.setdefault("evidence", "")
+        # detailed free-text description of what happens in the window; fall back
+        # to the short evidence string if a caller only provided that.
+        r.setdefault("description", r.get("evidence", ""))
         r["original_label"] = r["label"]
         r["notes"] = []
 
@@ -93,6 +96,7 @@ def refine(windows, raw: List[dict], tax: Taxonomy, rules: dict | None = None) -
             "phase": tax.labels[r["label"]].phase if r["label"] in tax.labels else "aux",
             "is_step": tax.labels[r["label"]].is_step if r["label"] in tax.labels else False,
             "evidence": r["evidence"],
+            "description": r["description"],
             "smoothed": r["label"] != r["original_label"],
             "notes": r["notes"],
         })

@@ -16,6 +16,7 @@
       "phase": "intro",
       "is_step": false,
       "evidence": "host in lab coat opening at table",
+      "description": "host in lab coat opening at table",
       "smoothed": false,
       "notes": []
     },
@@ -29,6 +30,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking with materials on table",
+      "description": "host talking with materials on table",
       "smoothed": false,
       "notes": []
     },
@@ -42,6 +44,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "jars and supplies laid out",
+      "description": "jars and supplies laid out",
       "smoothed": false,
       "notes": []
     },
@@ -55,6 +58,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "metal pitcher with white wax",
+      "description": "metal pitcher with white wax",
       "smoothed": false,
       "notes": []
     },
@@ -68,6 +72,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -81,6 +86,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "row of fragrance bottles",
+      "description": "row of fragrance bottles",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (measure_wax->gather_materials)"
@@ -96,6 +102,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "holding fragrance bottle",
+      "description": "holding fragrance bottle",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (measure_wax->gather_materials)"
@@ -111,6 +118,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "fragrance bottle close-up",
+      "description": "fragrance bottle close-up",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (measure_wax->gather_materials)"
@@ -126,6 +134,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "labelled bottles lined up",
+      "description": "labelled bottles lined up",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (measure_wax->gather_materials)"
@@ -141,6 +150,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours",
@@ -157,6 +167,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "holding small bottle",
+      "description": "holding small bottle",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (measure_wax->gather_materials)"
@@ -172,6 +183,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "handling fragrance bottle",
+      "description": "handling fragrance bottle",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours",
@@ -188,6 +200,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "supply boxes shown",
+      "description": "supply boxes shown",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (measure_wax->gather_materials)"
@@ -203,6 +216,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -216,6 +230,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "pouring wax flakes into pitcher",
+      "description": "pouring wax flakes into pitcher",
       "smoothed": false,
       "notes": []
     },
@@ -229,6 +244,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "dark/black frame",
+      "description": "dark/black frame",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -244,6 +260,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "pitcher of flakes",
+      "description": "pitcher of flakes",
       "smoothed": false,
       "notes": []
     },
@@ -257,6 +274,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "measuring wax flakes",
+      "description": "measuring wax flakes",
       "smoothed": false,
       "notes": []
     },
@@ -270,6 +288,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -283,6 +302,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "pot of melting wax",
+      "description": "pot of melting wax",
       "smoothed": false,
       "notes": []
     },
@@ -296,6 +316,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "Escali digital scale with pitcher",
+      "description": "Escali digital scale with pitcher",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (melt_wax->measure_wax)"
@@ -311,6 +332,7 @@
       "phase": "prep",
       "is_step": true,
       "evidence": "weighing pitcher of flakes on scale",
+      "description": "weighing pitcher of flakes on scale",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (melt_wax->measure_wax)"
@@ -326,6 +348,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "metal pitcher heating",
+      "description": "metal pitcher heating",
       "smoothed": false,
       "notes": []
     },
@@ -339,6 +362,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "yellow melted wax liquid",
+      "description": "yellow melted wax liquid",
       "smoothed": false,
       "notes": []
     },
@@ -352,6 +376,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "fragrance bottles next to tin",
+      "description": "fragrance bottles next to tin",
       "smoothed": false,
       "notes": []
     },
@@ -365,6 +390,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "thermometer in wax, 'Pour at 135F' caption",
+      "description": "thermometer in wax, 'Pour at 135F' caption",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (add_fragrance->monitor_temperature)"
@@ -380,6 +406,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "tin of liquid wax with wick, pour-temp note",
+      "description": "tin of liquid wax with wick, pour-temp note",
       "smoothed": false,
       "notes": []
     },
@@ -393,6 +420,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "stirring yellow liquid in tin",
+      "description": "stirring yellow liquid in tin",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (pour_wax->add_fragrance)"
@@ -408,6 +436,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "tins with wick bar",
+      "description": "tins with wick bar",
       "smoothed": false,
       "notes": []
     },
@@ -421,6 +450,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": true,
       "notes": [
         "despiked to match neighbours"
@@ -436,6 +466,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "centering wick in tin, lid in hand",
+      "description": "centering wick in tin, lid in hand",
       "smoothed": false,
       "notes": []
     },
@@ -449,6 +480,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -462,6 +494,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -475,6 +508,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "host talking to camera",
+      "description": "host talking to camera",
       "smoothed": false,
       "notes": []
     },
@@ -488,6 +522,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "'Visit us at candlescience.com' card",
+      "description": "'Visit us at candlescience.com' card",
       "smoothed": false,
       "notes": []
     },
@@ -501,6 +536,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black frame",
+      "description": "blank/black frame",
       "smoothed": false,
       "notes": []
     },
@@ -514,6 +550,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding",
+      "description": "blank/black padding",
       "smoothed": false,
       "notes": []
     },
@@ -527,6 +564,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding",
+      "description": "blank/black padding",
       "smoothed": false,
       "notes": []
     },
@@ -540,6 +578,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding",
+      "description": "blank/black padding",
       "smoothed": false,
       "notes": []
     },
@@ -553,6 +592,7 @@
       "phase": "aux",
       "is_step": false,
       "evidence": "blank/black padding",
+      "description": "blank/black padding",
       "smoothed": false,
       "notes": []
     }
