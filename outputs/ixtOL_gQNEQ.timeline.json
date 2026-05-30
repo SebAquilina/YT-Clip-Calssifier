@@ -1,0 +1,2022 @@
+{
+  "video_id": "ixtOL_gQNEQ",
+  "title": "What's the BEST Flower Candle WAX? 9 Wax casts tests with silicone mold",
+  "url": "https://www.youtube.com/watch?v=ixtOL_gQNEQ",
+  "duration": 854.0,
+  "source": "storyboard",
+  "n_windows": 107,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.98,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Testing waxes with silicone moulds' title.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.98,
+      "end": 15.96,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'as DMP lantasy ay ora ad ig vor as 9 ry 5 axes 25 with one ee ai molds 7 fe EIR Baad oP Ate'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.96,
+      "end": 23.94,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.94,
+      "end": 31.93,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 31.93,
+      "end": 39.91,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.91,
+      "end": 47.89,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.89,
+      "end": 55.87,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.87,
+      "end": 63.85,
+      "label": "reveal_result",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 ae Li es Aart 7 ee ie Vccy sticky RO SS ZZ ae Ss wy, 24 ee'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.85,
+      "end": 71.83,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.83,
+      "end": 79.81,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.81,
+      "end": 87.79,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.79,
+      "end": 95.78,
+      "label": "reveal_result",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '2 2 3. ae me ee mens ee an ff SS ety, ew io SS oo oe So ee 3 2 eee ee ee ge'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 95.78,
+      "end": 103.76,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.76,
+      "end": 111.74,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 111.74,
+      "end": 119.72,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 SSS ra Oca ee eS Sr Ss et ee ow SE. hc! 22 cS 7'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.72,
+      "end": 127.7,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.7,
+      "end": 135.68,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 135.68,
+      "end": 143.66,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 143.66,
+      "end": 151.64,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 151.64,
+      "end": 159.63,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 159.63,
+      "end": 167.61,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 167.61,
+      "end": 175.59,
+      "label": "reveal_result",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 175.59,
+      "end": 183.57,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 183.57,
+      "end": 191.55,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 191.55,
+      "end": 199.53,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 199.53,
+      "end": 207.51,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 207.51,
+      "end": 215.5,
+      "label": "decorate_finish",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'el te Saas LT At oe 1 fa Pitta 2 3. aes Se'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 215.5,
+      "end": 223.48,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 223.48,
+      "end": 231.46,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 231.46,
+      "end": 239.44,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ba ce eee 7 vad SS SS oe Se ee SS ee 7 im 4 Ps'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 239.44,
+      "end": 247.42,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 247.42,
+      "end": 255.4,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 255.4,
+      "end": 263.38,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 263.38,
+      "end": 271.36,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 271.36,
+      "end": 279.35,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 279.35,
+      "end": 287.33,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 287.33,
+      "end": 295.31,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 295.31,
+      "end": 303.29,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 303.29,
+      "end": 311.27,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 311.27,
+      "end": 319.25,
+      "label": "reveal_result",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe ee ee, aot ee 2 NI 2 Se ee .2 7'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 319.25,
+      "end": 327.23,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 327.23,
+      "end": 335.21,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 335.21,
+      "end": 343.2,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'labo euler et mR TST SS ee'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 343.2,
+      "end": 351.18,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 44,
+      "start": 351.18,
+      "end": 359.16,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 359.16,
+      "end": 367.14,
+      "label": "reveal_result",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 're AL en on ae bt ee Seesees ee AS oe oo an EEA ee eo uF Coe ware At 7'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 46,
+      "start": 367.14,
+      "end": 375.12,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 375.12,
+      "end": 383.1,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 48,
+      "start": 383.1,
+      "end": 391.08,
+      "label": "decorate_finish",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Fa 7 7 er ae SS es ro ae,'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 49,
+      "start": 391.08,
+      "end": 399.07,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 50,
+      "start": 399.07,
+      "end": 407.05,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 51,
+      "start": 407.05,
+      "end": 415.03,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 415.03,
+      "end": 423.01,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 53,
+      "start": 423.01,
+      "end": 430.99,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 430.99,
+      "end": 438.97,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 55,
+      "start": 438.97,
+      "end": 446.95,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 446.95,
+      "end": 454.93,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 57,
+      "start": 454.93,
+      "end": 462.92,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 58,
+      "start": 462.92,
+      "end": 470.9,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 470.9,
+      "end": 478.88,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 60,
+      "start": 478.88,
+      "end": 486.86,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 61,
+      "start": 486.86,
+      "end": 494.84,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 62,
+      "start": 494.84,
+      "end": 502.82,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 63,
+      "start": 502.82,
+      "end": 510.8,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 64,
+      "start": 510.8,
+      "end": 518.79,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 65,
+      "start": 518.79,
+      "end": 526.77,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 66,
+      "start": 526.77,
+      "end": 534.75,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 67,
+      "start": 534.75,
+      "end": 542.73,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 68,
+      "start": 542.73,
+      "end": 550.71,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 69,
+      "start": 550.71,
+      "end": 558.69,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 70,
+      "start": 558.69,
+      "end": 566.67,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 71,
+      "start": 566.67,
+      "end": 574.65,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 72,
+      "start": 574.65,
+      "end": 582.64,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 73,
+      "start": 582.64,
+      "end": 590.62,
+      "label": "reveal_result",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sr mm Very shrinkage 7 7 wh ae maeettin foodgrade ss'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 74,
+      "start": 590.62,
+      "end": 598.6,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 75,
+      "start": 598.6,
+      "end": 606.58,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 76,
+      "start": 606.58,
+      "end": 614.56,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 77,
+      "start": 614.56,
+      "end": 622.54,
+      "label": "reveal_result",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'el es AS-s ee ee ei aa 4 eo etna'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 78,
+      "start": 622.54,
+      "end": 630.52,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 79,
+      "start": 630.52,
+      "end": 638.5,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 80,
+      "start": 638.5,
+      "end": 646.49,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 81,
+      "start": 646.49,
+      "end": 654.47,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 82,
+      "start": 654.47,
+      "end": 662.45,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 83,
+      "start": 662.45,
+      "end": 670.43,
+      "label": "reveal_result",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'on St ma Ke Po ge 4 7 ee is 7 oo to SS CS ion my wa na Ose 5 2 Tin. Wax 2 7 eo'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 84,
+      "start": 670.43,
+      "end": 678.41,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 85,
+      "start": 678.41,
+      "end": 686.39,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 86,
+      "start": 686.39,
+      "end": 694.37,
+      "label": "decorate_finish",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 .4 sk Pe ee ad 2 wont ee em ee ll Sa ee srwi aes ye vali'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 87,
+      "start": 694.37,
+      "end": 702.36,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 88,
+      "start": 702.36,
+      "end": 710.34,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 89,
+      "start": 710.34,
+      "end": 718.32,
+      "label": "reveal_result",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae ae me 7 See ee 3 ey of 4 Po os tare ae ee Ss'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 90,
+      "start": 718.32,
+      "end": 726.3,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 91,
+      "start": 726.3,
+      "end": 734.28,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 92,
+      "start": 734.28,
+      "end": 742.26,
+      "label": "decorate_finish",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'rn hg 4 re 2 fo ee tS SS ee ee aol aa Se ia Ss oc at Se ee bi ee oe awe'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 93,
+      "start": 742.26,
+      "end": 750.24,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 94,
+      "start": 750.24,
+      "end": 758.22,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 95,
+      "start": 758.22,
+      "end": 766.21,
+      "label": "reveal_result",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Se as 2 Sepia me en ae re oe eS SS eer ea er See 2 PE Sie oe ae as Rate evi tcek Sao Se ee ae'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 96,
+      "start": 766.21,
+      "end": 774.19,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 97,
+      "start": 774.19,
+      "end": 782.17,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding pink rose/flower pillar candles from the silicone moulds.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 98,
+      "start": 782.17,
+      "end": 790.15,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Comparing the demoulded flower candle (wax-type captions).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 99,
+      "start": 790.15,
+      "end": 798.13,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae 4 oo Yt poe. Baty 3 ws 4 Se. oe gatas Rv, 4'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 100,
+      "start": 798.13,
+      "end": 806.11,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sy ee oF oo SAS is ee Se Be EX 5 eS een ot Va 4 7'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 101,
+      "start": 806.11,
+      "end": 814.09,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished flower candles compared.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 102,
+      "start": 814.09,
+      "end": 822.07,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 103,
+      "start": 822.07,
+      "end": 830.06,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 104,
+      "start": 830.06,
+      "end": 838.04,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 105,
+      "start": 838.04,
+      "end": 846.02,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 106,
+      "start": 846.02,
+      "end": 854.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 15.96,
+      "confidence": 0.45,
+      "windows": [
+        0,
+        1
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 15.96,
+      "end": 23.94,
+      "confidence": 0.45,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 23.94,
+      "end": 31.93,
+      "confidence": 0.5,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 31.93,
+      "end": 39.91,
+      "confidence": 0.9,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 39.91,
+      "end": 47.89,
+      "confidence": 0.5,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 47.89,
+      "end": 103.76,
+      "confidence": 0.47,
+      "windows": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 103.76,
+      "end": 111.74,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 111.74,
+      "end": 119.72,
+      "confidence": 0.5,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 119.72,
+      "end": 127.7,
+      "confidence": 0.7,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 127.7,
+      "end": 199.53,
+      "confidence": 0.49,
+      "windows": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 199.53,
+      "end": 223.48,
+      "confidence": 0.5,
+      "windows": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 223.48,
+      "end": 231.46,
+      "confidence": 0.7,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 231.46,
+      "end": 239.44,
+      "confidence": 0.5,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 239.44,
+      "end": 327.23,
+      "confidence": 0.47,
+      "windows": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 327.23,
+      "end": 335.21,
+      "confidence": 0.7,
+      "windows": [
+        41
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 335.21,
+      "end": 343.2,
+      "confidence": 0.5,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 343.2,
+      "end": 351.18,
+      "confidence": 0.5,
+      "windows": [
+        43
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 351.18,
+      "end": 375.12,
+      "confidence": 0.46,
+      "windows": [
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 375.12,
+      "end": 574.65,
+      "confidence": 0.48,
+      "windows": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 574.65,
+      "end": 678.41,
+      "confidence": 0.47,
+      "windows": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 678.41,
+      "end": 702.36,
+      "confidence": 0.5,
+      "windows": [
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 702.36,
+      "end": 726.3,
+      "confidence": 0.46,
+      "windows": [
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 726.3,
+      "end": 750.24,
+      "confidence": 0.5,
+      "windows": [
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 750.24,
+      "end": 790.15,
+      "confidence": 0.47,
+      "windows": [
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 790.15,
+      "end": 806.11,
+      "confidence": 0.5,
+      "windows": [
+        99,
+        100
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 806.11,
+      "end": 814.09,
+      "confidence": 0.45,
+      "windows": [
+        101
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 814.09,
+      "end": 854.0,
+      "confidence": 0.5,
+      "windows": [
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    }
+  ]
+}

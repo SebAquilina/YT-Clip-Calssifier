@@ -1,882 +1,882 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.99,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.99,
-    "end": 15.98,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.98,
-    "end": 23.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.97,
-    "end": 31.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.96,
-    "end": 39.95,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 5,
-    "start": 39.95,
-    "end": 47.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.95,
-    "end": 55.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.94,
-    "end": 63.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.93,
-    "end": 71.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.92,
-    "end": 79.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.91,
-    "end": 87.9,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 11,
-    "start": 87.9,
-    "end": 95.89,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.89,
-    "end": 103.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.88,
-    "end": 111.87,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.87,
-    "end": 119.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.86,
-    "end": 127.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.85,
-    "end": 135.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.85,
-    "end": 143.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.84,
-    "end": 151.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.83,
-    "end": 159.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.82,
-    "end": 167.81,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.81,
-    "end": 175.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.8,
-    "end": 183.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 183.79,
-    "end": 191.78,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.78,
-    "end": 199.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 199.77,
-    "end": 207.76,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 26,
-    "start": 207.76,
-    "end": 215.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 215.75,
-    "end": 223.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 223.75,
-    "end": 231.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 231.74,
-    "end": 239.73,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 30,
-    "start": 239.73,
-    "end": 247.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 247.72,
-    "end": 255.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 255.71,
-    "end": 263.7,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 263.7,
-    "end": 271.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 271.69,
-    "end": 279.68,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 35,
-    "start": 279.68,
-    "end": 287.67,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 36,
-    "start": 287.67,
-    "end": 295.66,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 37,
-    "start": 295.66,
-    "end": 303.65,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 38,
-    "start": 303.65,
-    "end": 311.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 311.65,
-    "end": 319.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 319.64,
-    "end": 327.63,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 327.63,
-    "end": 335.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 335.62,
-    "end": 343.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 43,
-    "start": 343.61,
-    "end": 351.6,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 44,
-    "start": 351.6,
-    "end": 359.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 45,
-    "start": 359.59,
-    "end": 367.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 367.58,
-    "end": 375.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 375.57,
-    "end": 383.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 383.56,
-    "end": 391.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 49,
-    "start": 391.55,
-    "end": 399.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 50,
-    "start": 399.55,
-    "end": 407.54,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 51,
-    "start": 407.54,
-    "end": 415.53,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 52,
-    "start": 415.53,
-    "end": 423.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 423.52,
-    "end": 431.51,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 54,
-    "start": 431.51,
-    "end": 439.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 439.5,
-    "end": 447.49,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 447.49,
-    "end": 455.48,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 57,
-    "start": 455.48,
-    "end": 463.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 463.47,
-    "end": 471.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 471.46,
-    "end": 479.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 60,
-    "start": 479.45,
-    "end": 487.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 61,
-    "start": 487.45,
-    "end": 495.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 62,
-    "start": 495.44,
-    "end": 503.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 503.43,
-    "end": 511.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 64,
-    "start": 511.42,
-    "end": 519.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 65,
-    "start": 519.41,
-    "end": 527.4,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 66,
-    "start": 527.4,
-    "end": 535.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 67,
-    "start": 535.39,
-    "end": 543.38,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 68,
-    "start": 543.38,
-    "end": 551.37,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 69,
-    "start": 551.37,
-    "end": 559.36,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 70,
-    "start": 559.36,
-    "end": 567.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 71,
-    "start": 567.35,
-    "end": 575.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 72,
-    "start": 575.35,
-    "end": 583.34,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 73,
-    "start": 583.34,
-    "end": 591.33,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 74,
-    "start": 591.33,
-    "end": 599.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 75,
-    "start": 599.32,
-    "end": 607.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 76,
-    "start": 607.31,
-    "end": 615.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 77,
-    "start": 615.3,
-    "end": 623.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 78,
-    "start": 623.29,
-    "end": 631.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 79,
-    "start": 631.28,
-    "end": 639.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 80,
-    "start": 639.27,
-    "end": 647.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 81,
-    "start": 647.26,
-    "end": 655.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 82,
-    "start": 655.25,
-    "end": 663.25,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 83,
-    "start": 663.25,
-    "end": 671.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 84,
-    "start": 671.24,
-    "end": 679.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 85,
-    "start": 679.23,
-    "end": 687.22,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 86,
-    "start": 687.22,
-    "end": 695.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 87,
-    "start": 695.21,
-    "end": 703.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 88,
-    "start": 703.2,
-    "end": 711.19,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 89,
-    "start": 711.19,
-    "end": 719.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 90,
-    "start": 719.18,
-    "end": 727.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 91,
-    "start": 727.17,
-    "end": 735.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 92,
-    "start": 735.16,
-    "end": 743.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 93,
-    "start": 743.15,
-    "end": 751.15,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 94,
-    "start": 751.15,
-    "end": 759.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 95,
-    "start": 759.14,
-    "end": 767.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 96,
-    "start": 767.13,
-    "end": 775.12,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'll 7 es os ie Hy wl rt 0 Pa any Wire oe 2 ae'."
-  },
-  {
-    "window": 97,
-    "start": 775.12,
-    "end": 783.11,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 98,
-    "start": 783.11,
-    "end": 791.1,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 99,
-    "start": 791.1,
-    "end": 799.09,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 100,
-    "start": 799.09,
-    "end": 807.08,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 101,
-    "start": 807.08,
-    "end": 815.07,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 102,
-    "start": 815.07,
-    "end": 823.06,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 103,
-    "start": 823.06,
-    "end": 831.05,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 104,
-    "start": 831.05,
-    "end": 839.05,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 105,
-    "start": 839.05,
-    "end": 847.04,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 106,
-    "start": 847.04,
-    "end": 855.03,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 107,
-    "start": 855.03,
-    "end": 863.02,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 108,
-    "start": 863.02,
-    "end": 871.01,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  },
-  {
-    "window": 109,
-    "start": 871.01,
-    "end": 879.0,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.99,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Host opens the emergency-candles demo."
+ },
+ {
+  "window": 1,
+  "start": 7.99,
+  "end": 15.98,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Host opens the emergency-candles demo."
+ },
+ {
+  "window": 2,
+  "start": 15.98,
+  "end": 23.97,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Host opens the emergency-candles demo."
+ },
+ {
+  "window": 3,
+  "start": 23.97,
+  "end": 31.96,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Host opens the emergency-candles demo."
+ },
+ {
+  "window": 4,
+  "start": 31.96,
+  "end": 39.95,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 39.95,
+  "end": 47.95,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Emergency-candle supplies (butter, cheese, cans) on the table."
+ },
+ {
+  "window": 6,
+  "start": 47.95,
+  "end": 55.94,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Emergency-candle supplies (butter, cheese, cans) on the table."
+ },
+ {
+  "window": 7,
+  "start": 55.94,
+  "end": 63.93,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Emergency-candle supplies (butter, cheese, cans) on the table."
+ },
+ {
+  "window": 8,
+  "start": 63.93,
+  "end": 71.92,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 9,
+  "start": 71.92,
+  "end": 79.91,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 10,
+  "start": 79.91,
+  "end": 87.9,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 87.9,
+  "end": 95.89,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 12,
+  "start": 95.89,
+  "end": 103.88,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 13,
+  "start": 103.88,
+  "end": 111.87,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 14,
+  "start": 111.87,
+  "end": 119.86,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 15,
+  "start": 119.86,
+  "end": 127.85,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 16,
+  "start": 127.85,
+  "end": 135.85,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 17,
+  "start": 135.85,
+  "end": 143.84,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 18,
+  "start": 143.84,
+  "end": 151.83,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 19,
+  "start": 151.83,
+  "end": 159.82,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 20,
+  "start": 159.82,
+  "end": 167.81,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 21,
+  "start": 167.81,
+  "end": 175.8,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 22,
+  "start": 175.8,
+  "end": 183.79,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 23,
+  "start": 183.79,
+  "end": 191.78,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 24,
+  "start": 191.78,
+  "end": 199.77,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 25,
+  "start": 199.77,
+  "end": 207.76,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 26,
+  "start": 207.76,
+  "end": 215.75,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 27,
+  "start": 215.75,
+  "end": 223.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 28,
+  "start": 223.75,
+  "end": 231.74,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 29,
+  "start": 231.74,
+  "end": 239.73,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 30,
+  "start": 239.73,
+  "end": 247.72,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 31,
+  "start": 247.72,
+  "end": 255.71,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 32,
+  "start": 255.71,
+  "end": 263.7,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 33,
+  "start": 263.7,
+  "end": 271.69,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 34,
+  "start": 271.69,
+  "end": 279.68,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 35,
+  "start": 279.68,
+  "end": 287.67,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 36,
+  "start": 287.67,
+  "end": 295.66,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 37,
+  "start": 295.66,
+  "end": 303.65,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 38,
+  "start": 303.65,
+  "end": 311.65,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 39,
+  "start": 311.65,
+  "end": 319.64,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 40,
+  "start": 319.64,
+  "end": 327.63,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 41,
+  "start": 327.63,
+  "end": 335.62,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 42,
+  "start": 335.62,
+  "end": 343.61,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 43,
+  "start": 343.61,
+  "end": 351.6,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 44,
+  "start": 351.6,
+  "end": 359.59,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 45,
+  "start": 359.59,
+  "end": 367.58,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 46,
+  "start": 367.58,
+  "end": 375.57,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 47,
+  "start": 375.57,
+  "end": 383.56,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 48,
+  "start": 383.56,
+  "end": 391.55,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 49,
+  "start": 391.55,
+  "end": 399.55,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 50,
+  "start": 399.55,
+  "end": 407.54,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 51,
+  "start": 407.54,
+  "end": 415.53,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 52,
+  "start": 415.53,
+  "end": 423.52,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 53,
+  "start": 423.52,
+  "end": 431.51,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 54,
+  "start": 431.51,
+  "end": 439.5,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 55,
+  "start": 439.5,
+  "end": 447.49,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 56,
+  "start": 447.49,
+  "end": 455.48,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 57,
+  "start": 455.48,
+  "end": 463.47,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 58,
+  "start": 463.47,
+  "end": 471.46,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 59,
+  "start": 471.46,
+  "end": 479.45,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 60,
+  "start": 479.45,
+  "end": 487.45,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 61,
+  "start": 487.45,
+  "end": 495.44,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 62,
+  "start": 495.44,
+  "end": 503.43,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 63,
+  "start": 503.43,
+  "end": 511.42,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 64,
+  "start": 511.42,
+  "end": 519.41,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 65,
+  "start": 519.41,
+  "end": 527.4,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 66,
+  "start": 527.4,
+  "end": 535.39,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 67,
+  "start": 535.39,
+  "end": 543.38,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 68,
+  "start": 543.38,
+  "end": 551.37,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 69,
+  "start": 551.37,
+  "end": 559.36,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 70,
+  "start": 559.36,
+  "end": 567.35,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 71,
+  "start": 567.35,
+  "end": 575.35,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 72,
+  "start": 575.35,
+  "end": 583.34,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 73,
+  "start": 583.34,
+  "end": 591.33,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 74,
+  "start": 591.33,
+  "end": 599.32,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 75,
+  "start": 599.32,
+  "end": 607.31,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 76,
+  "start": 607.31,
+  "end": 615.3,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 77,
+  "start": 615.3,
+  "end": 623.29,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 78,
+  "start": 623.29,
+  "end": 631.28,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 79,
+  "start": 631.28,
+  "end": 639.27,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 80,
+  "start": 639.27,
+  "end": 647.26,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 81,
+  "start": 647.26,
+  "end": 655.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 82,
+  "start": 655.25,
+  "end": 663.25,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 83,
+  "start": 663.25,
+  "end": 671.24,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 84,
+  "start": 671.24,
+  "end": 679.23,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 85,
+  "start": 679.23,
+  "end": 687.22,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 86,
+  "start": 687.22,
+  "end": 695.21,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 87,
+  "start": 695.21,
+  "end": 703.2,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 88,
+  "start": 703.2,
+  "end": 711.19,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 89,
+  "start": 711.19,
+  "end": 719.18,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 90,
+  "start": 719.18,
+  "end": 727.17,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host explains the emergency candle to camera."
+ },
+ {
+  "window": 91,
+  "start": 727.17,
+  "end": 735.16,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 92,
+  "start": 735.16,
+  "end": 743.15,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 93,
+  "start": 743.15,
+  "end": 751.15,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 94,
+  "start": 751.15,
+  "end": 759.14,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Inserting a wick into a butter/cheese block candle."
+ },
+ {
+  "window": 95,
+  "start": 759.14,
+  "end": 767.13,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lighting the improvised emergency candle."
+ },
+ {
+  "window": 96,
+  "start": 767.13,
+  "end": 775.12,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'll 7 es os ie Hy wl rt 0 Pa any Wire oe 2 ae'."
+ },
+ {
+  "window": 97,
+  "start": 775.12,
+  "end": 783.11,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 98,
+  "start": 783.11,
+  "end": 791.1,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 99,
+  "start": 791.1,
+  "end": 799.09,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 100,
+  "start": 799.09,
+  "end": 807.08,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 101,
+  "start": 807.08,
+  "end": 815.07,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 102,
+  "start": 815.07,
+  "end": 823.06,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 103,
+  "start": 823.06,
+  "end": 831.05,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 104,
+  "start": 831.05,
+  "end": 839.05,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 105,
+  "start": 839.05,
+  "end": 847.04,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 106,
+  "start": 847.04,
+  "end": 855.03,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 107,
+  "start": 855.03,
+  "end": 863.02,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 108,
+  "start": 863.02,
+  "end": 871.01,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ },
+ {
+  "window": 109,
+  "start": 871.01,
+  "end": 879.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ores wie lL Pee 2 we Mag tie ote af'."
+ }
 ]
