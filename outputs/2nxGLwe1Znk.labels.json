@@ -1,146 +1,146 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.17,
-    "end": 16.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.33,
-    "end": 24.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.5,
-    "end": 32.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.67,
-    "end": 40.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.83,
-    "end": 49.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 49.0,
-    "end": 57.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 57.17,
-    "end": 65.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 65.33,
-    "end": 73.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 73.5,
-    "end": 81.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 81.67,
-    "end": 89.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 89.83,
-    "end": 98.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 98.0,
-    "end": 106.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 106.17,
-    "end": 114.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 114.33,
-    "end": 122.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 122.5,
-    "end": 130.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 130.67,
-    "end": 138.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 138.83,
-    "end": 147.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.17,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Overhead metal pitcher of white soy wax flakes."
+ },
+ {
+  "window": 1,
+  "start": 8.17,
+  "end": 16.33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Pitcher of wax over a double boiler."
+ },
+ {
+  "window": 2,
+  "start": 16.33,
+  "end": 24.5,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax flakes into the pitcher; '6 oz soy wax'."
+ },
+ {
+  "window": 3,
+  "start": 24.5,
+  "end": 32.67,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Pitcher of white wax flakes ('6 oz')."
+ },
+ {
+  "window": 4,
+  "start": 32.67,
+  "end": 40.83,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Pitcher in a water bath on the induction hob, melting."
+ },
+ {
+  "window": 5,
+  "start": 40.83,
+  "end": 49.0,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax melting in the double boiler."
+ },
+ {
+  "window": 6,
+  "start": 49.0,
+  "end": 57.17,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax; caption 'Heat to 185\u00b0'."
+ },
+ {
+  "window": 7,
+  "start": 57.17,
+  "end": 65.33,
+  "label": "monitor_temperature",
+  "confidence": 0.5,
+  "description": "Stirring melted wax; checking temperature."
+ },
+ {
+  "window": 8,
+  "start": 65.33,
+  "end": 73.5,
+  "label": "add_fragrance",
+  "confidence": 0.55,
+  "description": "Pouring essential oil into the wax ('.5 oz essential oil')."
+ },
+ {
+  "window": 9,
+  "start": 73.5,
+  "end": 81.67,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Stirring fragrance into the wax."
+ },
+ {
+  "window": 10,
+  "start": 81.67,
+  "end": 89.83,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Caption 'Cool wax fully'; pitcher of wax."
+ },
+ {
+  "window": 11,
+  "start": 89.83,
+  "end": 98.0,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Mason jars readied with wicks."
+ },
+ {
+  "window": 12,
+  "start": 98.0,
+  "end": 106.17,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring wax into a mason jar."
+ },
+ {
+  "window": 13,
+  "start": 106.17,
+  "end": 114.33,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Mason jar with wax; wick bar."
+ },
+ {
+  "window": 14,
+  "start": 114.33,
+  "end": 122.5,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Mason jars filled; hands."
+ },
+ {
+  "window": 15,
+  "start": 122.5,
+  "end": 130.67,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished candle lit; 'one fine project' outro."
+ },
+ {
+  "window": 16,
+  "start": 130.67,
+  "end": 138.83,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'one fine project' end card."
+ },
+ {
+  "window": 17,
+  "start": 138.83,
+  "end": 147.0,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'one fine project' end card."
+ }
 ]

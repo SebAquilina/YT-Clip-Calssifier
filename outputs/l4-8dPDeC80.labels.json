@@ -1,122 +1,122 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.07,
-    "end": 16.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.13,
-    "end": 24.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.2,
-    "end": 32.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.27,
-    "end": 40.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.33,
-    "end": 48.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.4,
-    "end": 56.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.47,
-    "end": 64.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.53,
-    "end": 72.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.6,
-    "end": 80.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.67,
-    "end": 88.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.73,
-    "end": 96.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.8,
-    "end": 104.87,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.87,
-    "end": 112.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.93,
-    "end": 121.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.07,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Glass with blue/clear gel layers; starfish decor."
+ },
+ {
+  "window": 1,
+  "start": 8.07,
+  "end": 16.13,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands ready the glass with a wick."
+ },
+ {
+  "window": 2,
+  "start": 16.13,
+  "end": 24.2,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Holding the candle glass; wick."
+ },
+ {
+  "window": 3,
+  "start": 24.2,
+  "end": 32.27,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Clear gel poured into the glass."
+ },
+ {
+  "window": 4,
+  "start": 32.27,
+  "end": 40.33,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping white 'foam' wax for the wave crest."
+ },
+ {
+  "window": 5,
+  "start": 40.33,
+  "end": 48.4,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding white foam wax on top of the blue gel."
+ },
+ {
+  "window": 6,
+  "start": 48.4,
+  "end": 56.47,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Glass with blue gel and a white foam wave."
+ },
+ {
+  "window": 7,
+  "start": 56.47,
+  "end": 64.53,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Blue ocean gel poured into the glass."
+ },
+ {
+  "window": 8,
+  "start": 64.53,
+  "end": 72.6,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Blue gel fills the glass."
+ },
+ {
+  "window": 9,
+  "start": 72.6,
+  "end": 80.67,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Finishing the foam wave on the ocean candle."
+ },
+ {
+  "window": 10,
+  "start": 80.67,
+  "end": 88.73,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "More blue gel poured."
+ },
+ {
+  "window": 11,
+  "start": 88.73,
+  "end": 96.8,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished blue 'ocean' candle with foam."
+ },
+ {
+  "window": 12,
+  "start": 96.8,
+  "end": 104.87,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished ocean candle (overhead)."
+ },
+ {
+  "window": 13,
+  "start": 104.87,
+  "end": 112.93,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding the ocean candle; starfish."
+ },
+ {
+  "window": 14,
+  "start": 112.93,
+  "end": 121.0,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished ocean candle; subscribe."
+ }
 ]
