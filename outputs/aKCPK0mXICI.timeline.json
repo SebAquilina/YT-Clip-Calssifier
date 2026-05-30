@@ -378,11 +378,11 @@
       "end": 201.14,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Melting wax in the double boiler.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->melt_wax)"
@@ -392,59 +392,65 @@
       "window": 25,
       "start": 201.14,
       "end": 209.18,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.5,
-      "phase": "finish",
-      "is_step": true,
-      "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 26,
-      "start": 209.18,
-      "end": 217.23,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ia 2 ae sS 4 ra wale. tet hk'.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 27,
-      "start": 217.23,
-      "end": 225.27,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Melting wax in the double boiler.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
+      "window": 26,
+      "start": 209.18,
+      "end": 217.23,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the moulds / glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 217.23,
+      "end": 225.27,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Prepping the glass / arranging shapes.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->prepare_container)"
+      ]
+    },
+    {
       "window": 28,
       "start": 225.27,
       "end": 233.32,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Melting wax in the double boiler.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
     },
     {
       "window": 29,
@@ -452,11 +458,11 @@
       "end": 241.36,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
+      "description": "Pouring wax into the moulds / glass.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->pour_wax)"
@@ -466,63 +472,59 @@
       "window": 30,
       "start": 241.36,
       "end": 249.41,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
-      "is_step": true,
-      "evidence": "",
-      "description": "Melting white wax in a double boiler.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
-    },
-    {
-      "window": 31,
-      "start": 249.41,
-      "end": 257.45,
       "label": "decorate_finish",
       "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
+    },
+    {
+      "window": 31,
+      "start": 249.41,
+      "end": 257.45,
+      "label": "decorate_finish",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Prepping the glass / arranging shapes.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 32,
       "start": 257.45,
       "end": 265.5,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 33,
       "start": 265.5,
       "end": 273.55,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 34,
@@ -534,7 +536,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -542,33 +544,31 @@
       "window": 35,
       "start": 281.59,
       "end": 289.64,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
-      "smoothed": false,
+      "description": "Prepping the glass / arranging shapes.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 36,
       "start": 289.64,
       "end": 297.68,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 37,
@@ -580,7 +580,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -588,33 +588,29 @@
       "window": 38,
       "start": 305.73,
       "end": 313.77,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 39,
       "start": 313.77,
       "end": 321.82,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 40,
@@ -626,7 +622,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -634,33 +630,29 @@
       "window": 41,
       "start": 329.86,
       "end": 337.91,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 42,
       "start": 337.91,
       "end": 345.95,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 43,
@@ -672,7 +664,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -680,47 +672,47 @@
       "window": 44,
       "start": 354.0,
       "end": 362.05,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 45,
-      "start": 362.05,
-      "end": 370.09,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
-      "is_step": true,
-      "evidence": "",
-      "description": "Melting white wax in a double boiler.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
-    },
-    {
-      "window": 46,
-      "start": 370.09,
-      "end": 378.14,
       "label": "decorate_finish",
       "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
+    },
+    {
+      "window": 45,
+      "start": 362.05,
+      "end": 370.09,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Prepping the glass / arranging shapes.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->prepare_container)"
+      ]
+    },
+    {
+      "window": 46,
+      "start": 370.09,
+      "end": 378.14,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the moulds / glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 47,
@@ -728,11 +720,11 @@
       "end": 386.18,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
+      "description": "Pouring wax into the moulds / glass.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->pour_wax)"
@@ -742,63 +734,61 @@
       "window": 48,
       "start": 386.18,
       "end": 394.23,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
-      "is_step": true,
-      "evidence": "",
-      "description": "Melting white wax in a double boiler.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
-    },
-    {
-      "window": 49,
-      "start": 394.23,
-      "end": 402.27,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.5,
-      "phase": "finish",
-      "is_step": true,
-      "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 50,
-      "start": 402.27,
-      "end": 410.32,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
+      "description": "Pouring wax into the moulds / glass.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
+      "window": 49,
+      "start": 394.23,
+      "end": 402.27,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the moulds / glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 50,
+      "start": 402.27,
+      "end": 410.32,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
       "window": 51,
       "start": 410.32,
       "end": 418.36,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 52,
@@ -810,7 +800,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -818,33 +808,29 @@
       "window": 53,
       "start": 426.41,
       "end": 434.45,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the glass / heart silicone moulds.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 54,
       "start": 434.45,
       "end": 442.5,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting white wax in a double boiler.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 55,
@@ -856,7 +842,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Placing moulded white wax shapes into the clear glass.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -864,13 +850,13 @@
       "window": 56,
       "start": 450.55,
       "end": 458.59,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -878,13 +864,13 @@
       "window": 57,
       "start": 458.59,
       "end": 466.64,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -892,13 +878,13 @@
       "window": 58,
       "start": 466.64,
       "end": 474.68,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -906,13 +892,13 @@
       "window": 59,
       "start": 474.68,
       "end": 482.73,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -920,13 +906,13 @@
       "window": 60,
       "start": 482.73,
       "end": 490.77,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -934,13 +920,13 @@
       "window": 61,
       "start": 490.77,
       "end": 498.82,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -948,13 +934,13 @@
       "window": 62,
       "start": 498.82,
       "end": 506.86,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -962,13 +948,13 @@
       "window": 63,
       "start": 506.86,
       "end": 514.91,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Decorating the Valentine candle (hearts, white shapes, red decor).",
       "smoothed": false,
       "notes": []
     },
@@ -978,11 +964,11 @@
       "end": 522.95,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Finished red Valentine candle shown.",
       "smoothed": false,
       "notes": []
     },
@@ -992,11 +978,11 @@
       "end": 531.0,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished Valentine's designer candle shown.",
+      "description": "Finished red Valentine candle shown.",
       "smoothed": false,
       "notes": []
     }
@@ -1271,27 +1257,17 @@
       "phase": "process",
       "is_step": true,
       "start": 193.09,
-      "end": 201.14,
-      "confidence": 0.45,
-      "windows": [
-        24
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 201.14,
       "end": 209.18,
       "confidence": 0.5,
       "windows": [
+        24,
         25
       ]
     },
     {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
       "start": 209.18,
       "end": 217.23,
       "confidence": 0.5,
@@ -1300,19 +1276,19 @@
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "prepare_container",
+      "phase": "prep",
       "is_step": true,
       "start": 217.23,
       "end": 225.27,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
         27
       ]
     },
     {
-      "label": "decorate_finish",
-      "phase": "finish",
+      "label": "melt_wax",
+      "phase": "process",
       "is_step": true,
       "start": 225.27,
       "end": 233.32,
@@ -1327,305 +1303,75 @@
       "is_step": true,
       "start": 233.32,
       "end": 241.36,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
         29
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "decorate_finish",
+      "phase": "finish",
       "is_step": true,
       "start": 241.36,
-      "end": 249.41,
-      "confidence": 0.45,
-      "windows": [
-        30
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 249.41,
-      "end": 257.45,
-      "confidence": 0.5,
-      "windows": [
-        31
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 257.45,
-      "end": 265.5,
-      "confidence": 0.45,
-      "windows": [
-        32
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 265.5,
-      "end": 273.55,
-      "confidence": 0.45,
-      "windows": [
-        33
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 273.55,
-      "end": 281.59,
-      "confidence": 0.5,
-      "windows": [
-        34
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 281.59,
-      "end": 289.64,
-      "confidence": 0.45,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 289.64,
-      "end": 297.68,
-      "confidence": 0.45,
-      "windows": [
-        36
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 297.68,
-      "end": 305.73,
-      "confidence": 0.5,
-      "windows": [
-        37
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 305.73,
-      "end": 313.77,
-      "confidence": 0.45,
-      "windows": [
-        38
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 313.77,
-      "end": 321.82,
-      "confidence": 0.45,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 321.82,
-      "end": 329.86,
-      "confidence": 0.5,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 329.86,
-      "end": 337.91,
-      "confidence": 0.45,
-      "windows": [
-        41
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 337.91,
-      "end": 345.95,
-      "confidence": 0.45,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 345.95,
-      "end": 354.0,
-      "confidence": 0.5,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 354.0,
       "end": 362.05,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
         44
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "prepare_container",
+      "phase": "prep",
       "is_step": true,
       "start": 362.05,
       "end": 370.09,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
         45
       ]
     },
     {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 370.09,
-      "end": 378.14,
-      "confidence": 0.5,
-      "windows": [
-        46
-      ]
-    },
-    {
       "label": "pour_wax",
       "phase": "assemble",
       "is_step": true,
-      "start": 378.14,
-      "end": 386.18,
-      "confidence": 0.45,
-      "windows": [
-        47
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 386.18,
-      "end": 394.23,
-      "confidence": 0.45,
-      "windows": [
-        48
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 394.23,
+      "start": 370.09,
       "end": 402.27,
       "confidence": 0.5,
       "windows": [
+        46,
+        47,
+        48,
         49
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "phase": "finish",
       "is_step": true,
       "start": 402.27,
-      "end": 410.32,
-      "confidence": 0.45,
-      "windows": [
-        50
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 410.32,
-      "end": 418.36,
-      "confidence": 0.45,
-      "windows": [
-        51
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 418.36,
-      "end": 426.41,
+      "end": 514.91,
       "confidence": 0.5,
       "windows": [
-        52
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 426.41,
-      "end": 434.45,
-      "confidence": 0.45,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 434.45,
-      "end": 442.5,
-      "confidence": 0.45,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 442.5,
-      "end": 450.55,
-      "confidence": 0.5,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 450.55,
-      "end": 531.0,
-      "confidence": 0.45,
-      "windows": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
         56,
         57,
         58,
@@ -1633,7 +1379,17 @@
         60,
         61,
         62,
-        63,
+        63
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 514.91,
+      "end": 531.0,
+      "confidence": 0.5,
+      "windows": [
         64,
         65
       ]

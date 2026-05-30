@@ -356,13 +356,13 @@
       "window": 24,
       "start": 190.93,
       "end": 198.88,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ty ee ee oT. aT Oe oo 3 oi 5 om the 2. Bibs SAS! OF 7 te fh eons ao Ng ates: 2 tf ns bs ed Tamm PA ee'.",
+      "description": "Rows of iced-coffee candles set.",
       "smoothed": false,
       "notes": []
     },
@@ -370,13 +370,13 @@
       "window": 25,
       "start": 198.88,
       "end": 206.84,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
+      "description": "Rows of iced-coffee candles set.",
       "smoothed": false,
       "notes": []
     },
@@ -384,73 +384,73 @@
       "window": 26,
       "start": 206.84,
       "end": 214.79,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Filling the glasses with the latte layers.",
+      "description": "Finishing/sorting the iced-coffee candles.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 27,
       "start": 214.79,
       "end": 222.75,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring brown 'coffee' gel into rows of tall glasses (bulk order).",
+      "description": "Finishing/sorting the iced-coffee candles.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 28,
       "start": 222.75,
       "end": 230.7,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
+      "description": "Rows of iced-coffee candles set.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 29,
       "start": 230.7,
       "end": 238.66,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of iced-coffee candles set.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 30,
       "start": 238.66,
       "end": 246.61,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Finishing/sorting the iced-coffee candles.",
       "smoothed": false,
       "notes": []
     },
@@ -458,13 +458,13 @@
       "window": 31,
       "start": 246.61,
       "end": 254.57,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Finishing/sorting the iced-coffee candles.",
       "smoothed": false,
       "notes": []
     },
@@ -472,27 +472,29 @@
       "window": 32,
       "start": 254.57,
       "end": 262.52,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Rows of iced-coffee candles set.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 33,
       "start": 262.52,
       "end": 270.48,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Finishing/sorting the iced-coffee candles.",
       "smoothed": false,
       "notes": []
     },
@@ -500,69 +502,78 @@
       "window": 34,
       "start": 270.48,
       "end": 278.43,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of iced-coffee candles set.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 35,
       "start": 278.43,
       "end": 286.39,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of iced-coffee candles set.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 36,
       "start": 286.39,
       "end": 294.34,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Finishing/sorting the iced-coffee candles.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 37,
       "start": 294.34,
       "end": 302.3,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of iced-coffee candles set.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 38,
       "start": 302.3,
       "end": 310.25,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -572,11 +583,11 @@
       "end": 318.21,
       "label": "transition",
       "original_label": "transition",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'yw 4 Tel Cal mn ae eax an 3 ai eo Se yy peo XY NX yo at ae FNS Sn ae'.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -584,13 +595,13 @@
       "window": 40,
       "start": 318.21,
       "end": 326.16,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -598,17 +609,15 @@
       "window": 41,
       "start": 326.16,
       "end": 334.12,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Filling the glasses with the latte layers.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 42,
@@ -616,11 +625,11 @@
       "end": 342.07,
       "label": "transition",
       "original_label": "transition",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mae. 2 4 4 4 ah eee vA nes oe ty an ee 7 me Fis ts an ce, 2 Nese iss im Oe pa 2 ra Se, 7 ee ieee fi ail eta 74 tis 7 al'.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -628,13 +637,13 @@
       "window": 43,
       "start": 342.07,
       "end": 350.03,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -642,17 +651,15 @@
       "window": 44,
       "start": 350.03,
       "end": 357.99,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Filling the glasses with the latte layers.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 45,
@@ -660,11 +667,11 @@
       "end": 365.94,
       "label": "transition",
       "original_label": "transition",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'dinin .tep ey OM fF te rg ag 7 it ay oe ee Ph te See'.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -672,13 +679,13 @@
       "window": 46,
       "start": 365.94,
       "end": 373.9,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -686,78 +693,69 @@
       "window": 47,
       "start": 373.9,
       "end": 381.85,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Filling the glasses with the latte layers.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 48,
       "start": 381.85,
       "end": 389.81,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.5,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring brown 'coffee' gel into rows of tall glasses (bulk order).",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 49,
       "start": 389.81,
       "end": 397.76,
-      "label": "pour_wax",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "description": "Folding boxes & packing candles for shipping.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 50,
       "start": 397.76,
       "end": 405.72,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Filling the glasses with the latte layers.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 51,
       "start": 405.72,
       "end": 413.67,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -765,13 +763,13 @@
       "window": 52,
       "start": 413.67,
       "end": 421.63,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -779,94 +777,83 @@
       "window": 53,
       "start": 421.63,
       "end": 429.58,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Filling the glasses with the latte layers.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 54,
       "start": 429.58,
       "end": 437.54,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.5,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring brown 'coffee' gel into rows of tall glasses (bulk order).",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 55,
       "start": 437.54,
       "end": 445.49,
-      "label": "pour_wax",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours",
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "description": "Folding boxes & packing candles for shipping.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 56,
       "start": 445.49,
       "end": 453.45,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Filling the glasses with the latte layers.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 57,
       "start": 453.45,
       "end": 461.4,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.5,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring brown 'coffee' gel into rows of tall glasses (bulk order).",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 58,
       "start": 461.4,
       "end": 469.36,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding white 'cream' foam and ice-cube wax to the iced-coffee candles.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -874,13 +861,13 @@
       "window": 59,
       "start": 469.36,
       "end": 477.31,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of finished iced-coffee candles shown.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -888,13 +875,13 @@
       "window": 60,
       "start": 477.31,
       "end": 485.27,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of finished iced-coffee candles shown.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -902,13 +889,13 @@
       "window": 61,
       "start": 485.27,
       "end": 493.22,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of finished iced-coffee candles shown.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -916,13 +903,13 @@
       "window": 62,
       "start": 493.22,
       "end": 501.18,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of finished iced-coffee candles shown.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -930,13 +917,13 @@
       "window": 63,
       "start": 501.18,
       "end": 509.13,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of finished iced-coffee candles shown.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -944,13 +931,13 @@
       "window": 64,
       "start": 509.13,
       "end": 517.09,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of finished iced-coffee candles shown.",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -960,11 +947,11 @@
       "end": 525.04,
       "label": "transition",
       "original_label": "transition",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Folding boxes & packing candles for shipping.",
       "smoothed": false,
       "notes": []
     },
@@ -972,13 +959,13 @@
       "window": 66,
       "start": 525.04,
       "end": 533.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     }
@@ -1069,245 +1056,115 @@
       ]
     },
     {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
       "start": 190.93,
-      "end": 198.88,
+      "end": 206.84,
       "confidence": 0.5,
       "windows": [
-        24
+        24,
+        25
       ]
     },
     {
       "label": "decorate_finish",
       "phase": "finish",
       "is_step": true,
-      "start": 198.88,
-      "end": 206.84,
-      "confidence": 0.45,
-      "windows": [
-        25
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
       "start": 206.84,
       "end": 222.75,
-      "confidence": 0.47,
+      "confidence": 0.5,
       "windows": [
         26,
         27
       ]
     },
     {
-      "label": "decorate_finish",
-      "phase": "finish",
+      "label": "cure_cool",
+      "phase": "assemble",
       "is_step": true,
       "start": 222.75,
-      "end": 230.7,
-      "confidence": 0.45,
+      "end": 238.66,
+      "confidence": 0.5,
       "windows": [
-        28
+        28,
+        29
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 230.7,
-      "end": 310.25,
-      "confidence": 0.87,
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 238.66,
+      "end": 270.48,
+      "confidence": 0.5,
       "windows": [
-        29,
         30,
         31,
         32,
-        33,
+        33
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 270.48,
+      "end": 302.3,
+      "confidence": 0.5,
+      "windows": [
         34,
         35,
         36,
-        37,
-        38
+        37
       ]
     },
     {
       "label": "transition",
       "phase": "aux",
       "is_step": false,
-      "start": 310.25,
-      "end": 318.21,
-      "confidence": 0.5,
+      "start": 302.3,
+      "end": 525.04,
+      "confidence": 0.6,
       "windows": [
-        39
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 318.21,
-      "end": 326.16,
-      "confidence": 0.45,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 326.16,
-      "end": 334.12,
-      "confidence": 0.45,
-      "windows": [
-        41
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 334.12,
-      "end": 342.07,
-      "confidence": 0.5,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 342.07,
-      "end": 350.03,
-      "confidence": 0.45,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 350.03,
-      "end": 357.99,
-      "confidence": 0.45,
-      "windows": [
-        44
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 357.99,
-      "end": 365.94,
-      "confidence": 0.5,
-      "windows": [
-        45
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 365.94,
-      "end": 373.9,
-      "confidence": 0.45,
-      "windows": [
-        46
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 373.9,
-      "end": 405.72,
-      "confidence": 0.46,
-      "windows": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
         47,
         48,
         49,
-        50
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 405.72,
-      "end": 413.67,
-      "confidence": 0.7,
-      "windows": [
-        51
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 413.67,
-      "end": 421.63,
-      "confidence": 0.45,
-      "windows": [
-        52
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 421.63,
-      "end": 461.4,
-      "confidence": 0.47,
-      "windows": [
+        50,
+        51,
+        52,
         53,
         54,
         55,
         56,
-        57
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 461.4,
-      "end": 469.36,
-      "confidence": 0.45,
-      "windows": [
-        58
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 469.36,
-      "end": 517.09,
-      "confidence": 0.45,
-      "windows": [
+        57,
+        58,
         59,
         60,
         61,
         62,
         63,
-        64
+        64,
+        65
       ]
     },
     {
-      "label": "transition",
+      "label": "blank",
       "phase": "aux",
       "is_step": false,
-      "start": 517.09,
+      "start": 525.04,
       "end": 533.0,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "windows": [
-        65,
         66
       ]
     }
