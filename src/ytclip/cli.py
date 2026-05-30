@@ -192,11 +192,13 @@ def main(argv=None):
         from . import drive
         plan = drive.records_to_push(a.have)
         cfg = drive.config()
-        print(f"{len(plan)} record(s) to upload to records folder "
-              f"{cfg.get('records_folder_id', '-')}:")
+        rf = cfg.get("records_folder_id", "?")
+        print(f"{len(plan)} record(s) to upload to records folder {rf} "
+              f"(gzipped; base64Content = `gzip -c <path> | base64 -w0`):")
         for r in plan:
-            print(f"  create_file title={r['title']} parentId={cfg.get('records_folder_id','?')} "
-                  f"contentMimeType=application/json  (from {r['path']})")
+            print(f"  create_file title={r['title']} parentId={rf} "
+                  f"contentMimeType=application/gzip disableConversionToGoogleType=true "
+                  f"({r['gz_size']}B gz from {r['path']})")
     elif a.cmd == "drive-import-dir":
         from . import drive
         res = drive.import_dir(a.directory, force=a.force)
