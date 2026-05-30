@@ -376,200 +376,211 @@
       "window": 24,
       "start": 191.27,
       "end": 199.24,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 25,
       "start": 199.24,
       "end": 207.21,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the containers.",
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 26,
       "start": 207.21,
       "end": 215.18,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "melt_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring the wax into the iridescent glass jars.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
     },
     {
       "window": 27,
       "start": 215.18,
       "end": 223.15,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 28,
       "start": 223.15,
       "end": 231.12,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 29,
       "start": 231.12,
       "end": 239.09,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the containers.",
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 30,
       "start": 239.09,
       "end": 247.06,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
     },
     {
       "window": 31,
       "start": 247.06,
       "end": 255.03,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Setting the wicks.",
-      "smoothed": false,
+      "description": "Pouring the wax into the iridescent glass jars.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 32,
       "start": 255.03,
       "end": 263.0,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 33,
       "start": 263.0,
       "end": 270.97,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 34,
       "start": 270.97,
       "end": 278.94,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 35,
       "start": 278.94,
       "end": 286.91,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
       "window": 36,
       "start": 286.91,
       "end": 294.88,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "pour_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
-      "smoothed": false,
+      "description": "Melting/stirring mint-green wax in the metal melter (production).",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
@@ -582,7 +593,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the containers.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->pour_wax)"
@@ -592,46 +603,48 @@
       "window": 38,
       "start": 302.85,
       "end": 310.82,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 39,
       "start": 310.82,
       "end": 318.79,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
       "window": 40,
       "start": 318.79,
       "end": 326.76,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
@@ -639,14 +652,15 @@
       "start": 326.76,
       "end": 334.73,
       "label": "pour_wax",
-      "original_label": "pour_wax",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the containers.",
-      "smoothed": false,
+      "description": "Rows of poured pastel candles setting.",
+      "smoothed": true,
       "notes": [
+        "despiked to match neighbours",
         "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
@@ -654,99 +668,110 @@
       "window": 42,
       "start": 334.73,
       "end": 342.7,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 43,
       "start": 342.7,
       "end": 350.67,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
       "window": 44,
       "start": 350.67,
       "end": 358.64,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 45,
       "start": 358.64,
       "end": 366.61,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Rows of poured pastel candles setting.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 46,
       "start": 366.61,
       "end": 374.58,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Pouring the wax into the iridescent glass jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 47,
       "start": 374.58,
       "end": 382.55,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of poured pastel candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 48,
       "start": 382.55,
       "end": 390.52,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
       "smoothed": false,
       "notes": []
     },
@@ -754,13 +779,13 @@
       "window": 49,
       "start": 390.52,
       "end": 398.48,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
       "smoothed": false,
       "notes": []
     },
@@ -769,74 +794,72 @@
       "start": 398.48,
       "end": 406.45,
       "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
-      "smoothed": false,
-      "notes": []
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 51,
       "start": 406.45,
       "end": 414.42,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Setting the wicks.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
-    },
-    {
-      "window": 52,
-      "start": 414.42,
-      "end": 422.39,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
-      "is_step": true,
-      "evidence": "",
-      "description": "Prepping cream containers for the candles.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
-      ]
-    },
-    {
-      "window": 53,
-      "start": 422.39,
-      "end": 430.36,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.5,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into the containers.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 54,
-      "start": 430.36,
-      "end": 438.33,
       "label": "decorate_finish",
       "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 52,
+      "start": 414.42,
+      "end": 422.39,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 53,
+      "start": 422.39,
+      "end": 430.36,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of poured pastel candles setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 430.36,
+      "end": 438.33,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
       "notes": []
     },
@@ -844,48 +867,48 @@
       "window": 55,
       "start": 438.33,
       "end": 446.3,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 56,
       "start": 446.3,
       "end": 454.27,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 57,
       "start": 454.27,
       "end": 462.24,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the containers.",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
@@ -893,74 +916,73 @@
       "start": 462.24,
       "end": 470.21,
       "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
-      "smoothed": false,
-      "notes": []
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 59,
       "start": 470.21,
       "end": 478.18,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Setting the wicks.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
-    },
-    {
-      "window": 60,
-      "start": 478.18,
-      "end": 486.15,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
-      "is_step": true,
-      "evidence": "",
-      "description": "Prepping cream containers for the candles.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
-      ]
-    },
-    {
-      "window": 61,
-      "start": 486.15,
-      "end": 494.12,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.5,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into the containers.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 62,
-      "start": 494.12,
-      "end": 502.09,
       "label": "decorate_finish",
       "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Finishing the jars (wiping rims / scraper / lids).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 60,
+      "start": 478.18,
+      "end": 486.15,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 61,
+      "start": 486.15,
+      "end": 494.12,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Fall' label / branding card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 62,
+      "start": 494.12,
+      "end": 502.09,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Fall' label / branding card.",
       "smoothed": false,
       "notes": []
     },
@@ -968,17 +990,15 @@
       "window": 63,
       "start": 502.09,
       "end": 510.06,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "'Fall' label / branding card.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 64,
@@ -986,11 +1006,11 @@
       "end": 518.03,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1000,11 +1020,11 @@
       "end": 526.0,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1014,11 +1034,11 @@
       "end": 533.97,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1026,32 +1046,30 @@
       "window": 67,
       "start": 533.97,
       "end": 541.94,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 68,
       "start": 541.94,
       "end": 549.91,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
-      "smoothed": false,
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
+        "despiked to match neighbours"
       ]
     },
     {
@@ -1060,11 +1078,11 @@
       "end": 557.88,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1074,11 +1092,11 @@
       "end": 565.85,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1086,61 +1104,55 @@
       "window": 71,
       "start": 565.85,
       "end": 573.82,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Setting the wicks.",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 72,
       "start": 573.82,
       "end": 581.79,
-      "label": "prepare_container",
-      "original_label": "prepare_container",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Prepping cream containers for the candles.",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->prepare_container)"
-      ]
+      "notes": []
     },
     {
       "window": 73,
       "start": 581.79,
       "end": 589.76,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the containers.",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 74,
       "start": 589.76,
       "end": 597.73,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.5,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1150,11 +1162,11 @@
       "end": 605.7,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1163,14 +1175,16 @@
       "start": 605.7,
       "end": 613.67,
       "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
+      "original_label": "reveal_result",
+      "confidence": 0.5,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 77,
@@ -1178,11 +1192,11 @@
       "end": 621.64,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1191,30 +1205,30 @@
       "start": 621.64,
       "end": 629.61,
       "label": "talking_head",
-      "original_label": "decorate_finish",
-      "confidence": 0.5,
+      "original_label": "talking_head",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Host (grey top) talks to camera presenting the candle.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 79,
       "start": 629.61,
       "end": 637.58,
       "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
+      "original_label": "reveal_result",
+      "confidence": 0.5,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 80,
@@ -1222,11 +1236,11 @@
       "end": 645.55,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1236,11 +1250,11 @@
       "end": 653.52,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1250,11 +1264,11 @@
       "end": 661.48,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1264,11 +1278,11 @@
       "end": 669.45,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1277,14 +1291,16 @@
       "start": 669.45,
       "end": 677.42,
       "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
+      "original_label": "reveal_result",
+      "confidence": 0.5,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 85,
@@ -1292,11 +1308,11 @@
       "end": 685.39,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1306,11 +1322,11 @@
       "end": 693.36,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1319,14 +1335,16 @@
       "start": 693.36,
       "end": 701.33,
       "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
+      "original_label": "reveal_result",
+      "confidence": 0.5,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 88,
@@ -1334,11 +1352,11 @@
       "end": 709.3,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host (grey top) talks to camera presenting the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1346,29 +1364,27 @@
       "window": 89,
       "start": 709.3,
       "end": 717.27,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into the containers.",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 90,
       "start": 717.27,
       "end": 725.24,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding the iridescent/pearl finish and decorations.",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1378,11 +1394,11 @@
       "end": 733.21,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished iridescent candles shown.",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1391,16 +1407,14 @@
       "start": 733.21,
       "end": 741.18,
       "label": "reveal_result",
-      "original_label": "outro_cta",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Patsy Schwantee Tall Peggy William: rad woe Riisnna Sofikitm Ro iMLBastion Robin Moskat Robyn Sugarcane BETO Math Bs 4 SOM hs TRUS See PDEA TVRD ATT TED ERE iy ofr Oct'.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Holding up / showing the finished iridescent candle.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 93,
@@ -1408,11 +1422,11 @@
       "end": 749.15,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished iridescent candles shown.",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1421,26 +1435,28 @@
       "start": 749.15,
       "end": 757.12,
       "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "original_label": "transition",
+      "confidence": 0.6,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished iridescent candles shown.",
-      "smoothed": false,
-      "notes": []
+      "description": "'Fall' label / branding card.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 95,
       "start": 757.12,
       "end": 765.09,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Holding up / showing the finished iridescent candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1450,11 +1466,11 @@
       "end": 773.06,
       "label": "outro_cta",
       "original_label": "outro_cta",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'.",
+      "description": "'Thanks for watching' end card.",
       "smoothed": false,
       "notes": []
     },
@@ -1464,11 +1480,11 @@
       "end": 781.03,
       "label": "outro_cta",
       "original_label": "outro_cta",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'.",
+      "description": "'Thanks for watching' end card.",
       "smoothed": false,
       "notes": []
     },
@@ -1478,11 +1494,11 @@
       "end": 789.0,
       "label": "outro_cta",
       "original_label": "outro_cta",
-      "confidence": 0.5,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'.",
+      "description": "'Thanks for watching' end card.",
       "smoothed": false,
       "notes": []
     }
@@ -1753,276 +1769,76 @@
       ]
     },
     {
-      "label": "prepare_container",
-      "phase": "prep",
+      "label": "melt_wax",
+      "phase": "process",
       "is_step": true,
       "start": 191.27,
-      "end": 199.24,
-      "confidence": 0.45,
-      "windows": [
-        24
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 199.24,
-      "end": 207.21,
-      "confidence": 0.5,
-      "windows": [
-        25
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 207.21,
-      "end": 215.18,
-      "confidence": 0.5,
-      "windows": [
-        26
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 215.18,
-      "end": 223.15,
-      "confidence": 0.4,
-      "windows": [
-        27
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 223.15,
-      "end": 231.12,
-      "confidence": 0.45,
-      "windows": [
-        28
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 231.12,
-      "end": 239.09,
-      "confidence": 0.5,
-      "windows": [
-        29
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 239.09,
-      "end": 247.06,
-      "confidence": 0.5,
-      "windows": [
-        30
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 247.06,
-      "end": 255.03,
-      "confidence": 0.4,
-      "windows": [
-        31
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 255.03,
       "end": 263.0,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
         32
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
       "start": 263.0,
-      "end": 270.97,
-      "confidence": 0.7,
-      "windows": [
-        33
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 270.97,
-      "end": 278.94,
+      "end": 374.58,
       "confidence": 0.5,
       "windows": [
-        34
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 278.94,
-      "end": 286.91,
-      "confidence": 0.4,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 286.91,
-      "end": 294.88,
-      "confidence": 0.45,
-      "windows": [
-        36
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 294.88,
-      "end": 302.85,
-      "confidence": 0.5,
-      "windows": [
-        37
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 302.85,
-      "end": 310.82,
-      "confidence": 0.5,
-      "windows": [
-        38
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 310.82,
-      "end": 318.79,
-      "confidence": 0.4,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 318.79,
-      "end": 326.76,
-      "confidence": 0.45,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 326.76,
-      "end": 334.73,
-      "confidence": 0.5,
-      "windows": [
-        41
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 334.73,
-      "end": 342.7,
-      "confidence": 0.5,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 342.7,
-      "end": 350.67,
-      "confidence": 0.4,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 350.67,
-      "end": 398.48,
-      "confidence": 0.83,
-      "windows": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
         44,
         45,
-        46,
-        47,
-        48,
-        49
+        46
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 374.58,
+      "end": 382.55,
+      "confidence": 0.5,
+      "windows": [
+        47
       ]
     },
     {
       "label": "decorate_finish",
       "phase": "finish",
       "is_step": true,
-      "start": 398.48,
-      "end": 406.45,
+      "start": 382.55,
+      "end": 422.39,
       "confidence": 0.5,
       "windows": [
-        50
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 406.45,
-      "end": 414.42,
-      "confidence": 0.4,
-      "windows": [
-        51
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 414.42,
-      "end": 422.39,
-      "confidence": 0.45,
-      "windows": [
+        48,
+        49,
+        50,
+        51,
         52
       ]
     },
     {
-      "label": "pour_wax",
+      "label": "cure_cool",
       "phase": "assemble",
       "is_step": true,
       "start": 422.39,
@@ -2033,7 +1849,7 @@
       ]
     },
     {
-      "label": "decorate_finish",
+      "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
       "start": 430.36,
@@ -2044,101 +1860,41 @@
       ]
     },
     {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 438.33,
-      "end": 446.3,
-      "confidence": 0.4,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 446.3,
-      "end": 454.27,
-      "confidence": 0.45,
-      "windows": [
-        56
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 454.27,
-      "end": 462.24,
-      "confidence": 0.5,
-      "windows": [
-        57
-      ]
-    },
-    {
       "label": "decorate_finish",
       "phase": "finish",
       "is_step": true,
-      "start": 462.24,
-      "end": 470.21,
+      "start": 438.33,
+      "end": 478.18,
       "confidence": 0.5,
       "windows": [
-        58
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 470.21,
-      "end": 478.18,
-      "confidence": 0.4,
-      "windows": [
+        55,
+        56,
+        57,
+        58,
         59
       ]
     },
     {
-      "label": "prepare_container",
-      "phase": "prep",
+      "label": "reveal_result",
+      "phase": "finish",
       "is_step": true,
       "start": 478.18,
       "end": 486.15,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
         60
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
       "start": 486.15,
-      "end": 494.12,
-      "confidence": 0.5,
-      "windows": [
-        61
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 494.12,
-      "end": 502.09,
-      "confidence": 0.5,
-      "windows": [
-        62
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 502.09,
       "end": 510.06,
-      "confidence": 0.4,
+      "confidence": 0.6,
       "windows": [
+        61,
+        62,
         63
       ]
     },
@@ -2147,100 +1903,40 @@
       "phase": "aux",
       "is_step": false,
       "start": 510.06,
-      "end": 533.97,
-      "confidence": 0.83,
+      "end": 565.85,
+      "confidence": 0.58,
       "windows": [
         64,
         65,
-        66
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 533.97,
-      "end": 541.94,
-      "confidence": 0.4,
-      "windows": [
-        67
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 541.94,
-      "end": 549.91,
-      "confidence": 0.45,
-      "windows": [
-        68
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 549.91,
-      "end": 565.85,
-      "confidence": 0.8,
-      "windows": [
+        66,
+        67,
+        68,
         69,
         70
       ]
     },
     {
-      "label": "set_wick",
-      "phase": "assemble",
+      "label": "reveal_result",
+      "phase": "finish",
       "is_step": true,
       "start": 565.85,
-      "end": 573.82,
-      "confidence": 0.4,
-      "windows": [
-        71
-      ]
-    },
-    {
-      "label": "prepare_container",
-      "phase": "prep",
-      "is_step": true,
-      "start": 573.82,
-      "end": 581.79,
-      "confidence": 0.45,
-      "windows": [
-        72
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 581.79,
       "end": 589.76,
       "confidence": 0.5,
       "windows": [
+        71,
+        72,
         73
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 589.76,
-      "end": 597.73,
-      "confidence": 0.5,
-      "windows": [
-        74
       ]
     },
     {
       "label": "talking_head",
       "phase": "aux",
       "is_step": false,
-      "start": 597.73,
+      "start": 589.76,
       "end": 709.3,
-      "confidence": 0.84,
+      "confidence": 0.56,
       "windows": [
+        74,
         75,
         76,
         77,
@@ -2258,49 +1954,19 @@
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 709.3,
-      "end": 717.27,
-      "confidence": 0.5,
-      "windows": [
-        89
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 717.27,
-      "end": 725.24,
-      "confidence": 0.5,
-      "windows": [
-        90
-      ]
-    },
-    {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 725.24,
-      "end": 757.12,
-      "confidence": 0.46,
+      "start": 709.3,
+      "end": 765.09,
+      "confidence": 0.52,
       "windows": [
+        89,
+        90,
         91,
         92,
         93,
-        94
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 757.12,
-      "end": 765.09,
-      "confidence": 0.7,
-      "windows": [
+        94,
         95
       ]
     },
@@ -2310,7 +1976,7 @@
       "is_step": false,
       "start": 765.09,
       "end": 789.0,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "windows": [
         96,
         97,

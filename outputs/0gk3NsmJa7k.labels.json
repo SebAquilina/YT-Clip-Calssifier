@@ -195,65 +195,65 @@
   "window": 24,
   "start": 192.48,
   "end": 200.51,
-  "label": "pour_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Melting amber wax in the metal melter/pitcher (winter batch)."
  },
  {
   "window": 25,
   "start": 200.51,
   "end": 208.53,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting amber wax in the metal melter/pitcher (winter batch)."
  },
  {
   "window": 26,
   "start": 208.53,
   "end": 216.55,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Pouring amber wax into the jars."
  },
  {
   "window": 27,
   "start": 216.55,
   "end": 224.57,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting amber wax in the metal melter/pitcher (winter batch)."
  },
  {
   "window": 28,
   "start": 224.57,
   "end": 232.59,
-  "label": "pour_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Melting amber wax in the metal melter/pitcher (winter batch)."
  },
  {
   "window": 29,
   "start": 232.59,
   "end": 240.61,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the jars."
  },
  {
   "window": 30,
   "start": 240.61,
   "end": 248.63,
-  "label": "decorate_finish",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Melting amber wax in the metal melter/pitcher (winter batch)."
  },
  {
   "window": 31,
   "start": 248.63,
   "end": 256.65,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting amber wax in the metal melter/pitcher (winter batch)."
  },
  {
   "window": 32,
@@ -261,31 +261,31 @@
   "end": 264.67,
   "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Pouring amber wax into the jars."
  },
  {
   "window": 33,
   "start": 264.67,
   "end": 272.69,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the jars."
  },
  {
   "window": 34,
   "start": 272.69,
   "end": 280.71,
-  "label": "decorate_finish",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Melting amber wax in the metal melter/pitcher (winter batch)."
  },
  {
   "window": 35,
   "start": 280.71,
   "end": 288.73,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the jars."
  },
  {
   "window": 36,
@@ -293,15 +293,15 @@
   "end": 296.75,
   "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Pouring amber wax into the jars."
  },
  {
   "window": 37,
   "start": 296.75,
   "end": 304.77,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 38,
@@ -309,62 +309,62 @@
   "end": 312.79,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 39,
   "start": 312.79,
   "end": 320.81,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 40,
   "start": 320.81,
   "end": 328.83,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 41,
   "start": 328.83,
   "end": 336.85,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 42,
   "start": 336.85,
   "end": 344.87,
-  "label": "decorate_finish",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 43,
   "start": 344.87,
   "end": 352.89,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 44,
   "start": 352.89,
   "end": 360.91,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 45,
   "start": 360.91,
   "end": 368.93,
   "label": "cure_cool",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Rows of winter candles setting."
  },
  {
@@ -373,30 +373,30 @@
   "end": 376.95,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 47,
   "start": 376.95,
   "end": 384.97,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 48,
   "start": 384.97,
   "end": 392.99,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 49,
   "start": 392.99,
   "end": 401.01,
   "label": "cure_cool",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Rows of winter candles setting."
  },
  {
@@ -405,30 +405,30 @@
   "end": 409.03,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 51,
   "start": 409.03,
   "end": 417.05,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 52,
   "start": 417.05,
   "end": 425.07,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 53,
   "start": 425.07,
   "end": 433.09,
   "label": "cure_cool",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Rows of winter candles setting."
  },
  {
@@ -437,358 +437,358 @@
   "end": 441.11,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 55,
   "start": 441.11,
   "end": 449.13,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 56,
   "start": 449.13,
   "end": 457.15,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 57,
   "start": 457.15,
   "end": 465.17,
   "label": "cure_cool",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Rows of winter candles setting."
  },
  {
   "window": 58,
   "start": 465.17,
   "end": 473.19,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee me fa ae as le ec eae wl at Re Ss Spree per.'."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 59,
   "start": 473.19,
   "end": 481.21,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 60,
   "start": 481.21,
   "end": 489.23,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 61,
   "start": 489.23,
   "end": 497.25,
   "label": "cure_cool",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Rows of winter candles setting."
  },
  {
   "window": 62,
   "start": 497.25,
   "end": 505.27,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'At ry FA oS ih ae ss ae ah, oe ee es 7'."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 63,
   "start": 505.27,
   "end": 513.29,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 64,
   "start": 513.29,
   "end": 521.31,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 65,
   "start": 521.31,
   "end": 529.33,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 66,
   "start": 529.33,
   "end": 537.35,
-  "label": "transition",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'id PO. Pep rr are lay ma FTA, Vete-y ee ae'."
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 67,
   "start": 537.35,
   "end": 545.37,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 68,
   "start": 545.37,
   "end": 553.39,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Decorating the candle tops with pine sprigs / botanicals."
  },
  {
   "window": 69,
   "start": 553.39,
   "end": 561.41,
   "label": "cure_cool",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Rows of winter candles setting."
  },
  {
   "window": 70,
   "start": 561.41,
   "end": 569.43,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 71,
   "start": 569.43,
   "end": 577.45,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of winter candles setting."
  },
  {
   "window": 72,
   "start": 577.45,
   "end": 585.47,
-  "label": "pour_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 73,
   "start": 585.47,
   "end": 593.49,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 74,
   "start": 593.49,
   "end": 601.52,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 75,
   "start": 601.52,
   "end": 609.54,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 76,
   "start": 609.54,
   "end": 617.56,
-  "label": "pour_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 77,
   "start": 617.56,
   "end": 625.58,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 78,
   "start": 625.58,
   "end": 633.6,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 79,
   "start": 633.6,
   "end": 641.62,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 80,
   "start": 641.62,
   "end": 649.64,
-  "label": "pour_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 81,
   "start": 649.64,
   "end": 657.66,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 82,
   "start": 657.66,
   "end": 665.68,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 83,
   "start": 665.68,
   "end": 673.7,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 84,
   "start": 673.7,
   "end": 681.72,
-  "label": "pour_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Pouring amber wax into rows of glasses."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 85,
   "start": 681.72,
   "end": 689.74,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 86,
   "start": 689.74,
   "end": 697.76,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Decorating the candles with pine sprigs/berries."
+  "description": "Rows of finished botanical winter candles / labelled beauty shots."
  },
  {
   "window": 87,
   "start": 697.76,
   "end": 705.78,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Centring the wicks."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Snowy winter-forest b-roll."
  },
  {
   "window": 88,
   "start": 705.78,
   "end": 713.8,
-  "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee Re eS Lorestan be eT DR eae ee ers ee hy 1 Pera sf ay 4 er, ory Se ge eg 4 SS, Smee et te tpt hia igo eae rat on cy See... fo CAS Best Ope eee SE SAY ames ie en fa Sh. 8 rr tas law Mio ASS eS 2 oa '."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Snowy winter-forest b-roll."
  },
  {
   "window": 89,
   "start": 713.8,
   "end": 721.82,
-  "label": "cure_cool",
-  "confidence": 0.45,
-  "description": "Rows of winter candles setting."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Snowy winter-forest b-roll."
  },
  {
   "window": 90,
   "start": 721.82,
   "end": 729.84,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 91,
   "start": 729.84,
   "end": 737.86,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 92,
   "start": 737.86,
   "end": 745.88,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 93,
   "start": 745.88,
   "end": 753.9,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 94,
   "start": 753.9,
   "end": 761.92,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 95,
   "start": 761.92,
   "end": 769.94,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 96,
   "start": 769.94,
   "end": 777.96,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 97,
   "start": 777.96,
   "end": 785.98,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 98,
   "start": 785.98,
   "end": 794.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

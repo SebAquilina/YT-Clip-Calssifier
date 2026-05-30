@@ -195,105 +195,105 @@
   "window": 24,
   "start": 191.27,
   "end": 199.24,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 25,
   "start": 199.24,
   "end": 207.21,
-  "label": "pour_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 26,
   "start": 207.21,
   "end": 215.18,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 27,
   "start": 215.18,
   "end": 223.15,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 28,
   "start": 223.15,
   "end": 231.12,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 29,
   "start": 231.12,
   "end": 239.09,
-  "label": "pour_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 30,
   "start": 239.09,
   "end": 247.06,
-  "label": "decorate_finish",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 31,
   "start": 247.06,
   "end": 255.03,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 32,
   "start": 255.03,
   "end": 263.0,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 33,
   "start": 263.0,
   "end": 270.97,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 34,
   "start": 270.97,
   "end": 278.94,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 35,
   "start": 278.94,
   "end": 286.91,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 36,
   "start": 286.91,
   "end": 294.88,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting/stirring mint-green wax in the metal melter (production)."
  },
  {
   "window": 37,
@@ -301,494 +301,494 @@
   "end": 302.85,
   "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 38,
   "start": 302.85,
   "end": 310.82,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 39,
   "start": 310.82,
   "end": 318.79,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 40,
   "start": 318.79,
   "end": 326.76,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 41,
   "start": 326.76,
   "end": 334.73,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Rows of poured pastel candles setting."
  },
  {
   "window": 42,
   "start": 334.73,
   "end": 342.7,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 43,
   "start": 342.7,
   "end": 350.67,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 44,
   "start": 350.67,
   "end": 358.64,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 45,
   "start": 358.64,
   "end": 366.61,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured pastel candles setting."
  },
  {
   "window": 46,
   "start": 366.61,
   "end": 374.58,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax into the iridescent glass jars."
  },
  {
   "window": 47,
   "start": 374.58,
   "end": 382.55,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of poured pastel candles setting."
  },
  {
   "window": 48,
   "start": 382.55,
   "end": 390.52,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 49,
   "start": 390.52,
   "end": 398.48,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 50,
   "start": 398.48,
   "end": 406.45,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 51,
   "start": 406.45,
   "end": 414.42,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 52,
   "start": 414.42,
   "end": 422.39,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 53,
   "start": 422.39,
   "end": 430.36,
-  "label": "pour_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Rows of poured pastel candles setting."
  },
  {
   "window": 54,
   "start": 430.36,
   "end": 438.33,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 55,
   "start": 438.33,
   "end": 446.3,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 56,
   "start": 446.3,
   "end": 454.27,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 57,
   "start": 454.27,
   "end": 462.24,
-  "label": "pour_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 58,
   "start": 462.24,
   "end": 470.21,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 59,
   "start": 470.21,
   "end": 478.18,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the jars (wiping rims / scraper / lids)."
  },
  {
   "window": 60,
   "start": 478.18,
   "end": 486.15,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 61,
   "start": 486.15,
   "end": 494.12,
-  "label": "pour_wax",
-  "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "'Fall' label / branding card."
  },
  {
   "window": 62,
   "start": 494.12,
   "end": 502.09,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "'Fall' label / branding card."
  },
  {
   "window": 63,
   "start": 502.09,
   "end": 510.06,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "'Fall' label / branding card."
  },
  {
   "window": 64,
   "start": 510.06,
   "end": 518.03,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 65,
   "start": 518.03,
   "end": 526.0,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 66,
   "start": 526.0,
   "end": 533.97,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 67,
   "start": 533.97,
   "end": 541.94,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 68,
   "start": 541.94,
   "end": 549.91,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 69,
   "start": 549.91,
   "end": 557.88,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 70,
   "start": 557.88,
   "end": 565.85,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 71,
   "start": 565.85,
   "end": 573.82,
-  "label": "set_wick",
-  "confidence": 0.4,
-  "description": "Setting the wicks."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 72,
   "start": 573.82,
   "end": 581.79,
-  "label": "prepare_container",
-  "confidence": 0.45,
-  "description": "Prepping cream containers for the candles."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 73,
   "start": 581.79,
   "end": 589.76,
-  "label": "pour_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 74,
   "start": 589.76,
   "end": 597.73,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 75,
   "start": 597.73,
   "end": 605.7,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 76,
   "start": 605.7,
   "end": 613.67,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 77,
   "start": 613.67,
   "end": 621.64,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 78,
   "start": 621.64,
   "end": 629.61,
-  "label": "decorate_finish",
-  "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 79,
   "start": 629.61,
   "end": 637.58,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 80,
   "start": 637.58,
   "end": 645.55,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 81,
   "start": 645.55,
   "end": 653.52,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 82,
   "start": 653.52,
   "end": 661.48,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 83,
   "start": 661.48,
   "end": 669.45,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 84,
   "start": 669.45,
   "end": 677.42,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 85,
   "start": 677.42,
   "end": 685.39,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 86,
   "start": 685.39,
   "end": 693.36,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 87,
   "start": 693.36,
   "end": 701.33,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 88,
   "start": 701.33,
   "end": 709.3,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host (grey top) talks to camera presenting the candle."
  },
  {
   "window": 89,
   "start": 709.3,
   "end": 717.27,
-  "label": "pour_wax",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Pouring wax into the containers."
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 90,
   "start": 717.27,
   "end": 725.24,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Adding the iridescent/pearl finish and decorations."
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 91,
   "start": 725.24,
   "end": 733.21,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished iridescent candles shown."
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 92,
   "start": 733.21,
   "end": 741.18,
-  "label": "outro_cta",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Patsy Schwantee Tall Peggy William: rad woe Riisnna Sofikitm Ro iMLBastion Robin Moskat Robyn Sugarcane BETO Math Bs 4 SOM hs TRUS See PDEA TVRD ATT TED ERE iy ofr Oct'."
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 93,
   "start": 741.18,
   "end": 749.15,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished iridescent candles shown."
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 94,
   "start": 749.15,
   "end": 757.12,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished iridescent candles shown."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "'Fall' label / branding card."
  },
  {
   "window": 95,
   "start": 757.12,
   "end": 765.09,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding up / showing the finished iridescent candle."
  },
  {
   "window": 96,
   "start": 765.09,
   "end": 773.06,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
+  "confidence": 0.6,
+  "description": "'Thanks for watching' end card."
  },
  {
   "window": 97,
   "start": 773.06,
   "end": 781.03,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
+  "confidence": 0.6,
+  "description": "'Thanks for watching' end card."
  },
  {
   "window": 98,
   "start": 781.03,
   "end": 789.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vee Age 4 2 4 anil mec. 8 6 NEXT VIDEO PREVIOUS VIDEO WA Vv'."
+  "confidence": 0.6,
+  "description": "'Thanks for watching' end card."
  }
 ]

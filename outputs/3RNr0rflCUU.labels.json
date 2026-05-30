@@ -195,640 +195,640 @@
   "window": 24,
   "start": 192.46,
   "end": 200.48,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 25,
   "start": 200.48,
   "end": 208.5,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "Supplies laid out overhead."
  },
  {
   "window": 26,
   "start": 208.5,
   "end": 216.52,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "confidence": 0.6,
+  "description": "B-roll (concert/food/floor/packing)."
  },
  {
   "window": 27,
   "start": 216.52,
   "end": 224.54,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "B-roll (concert/food/floor/packing)."
  },
  {
   "window": 28,
   "start": 224.54,
   "end": 232.56,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 29,
   "start": 232.56,
   "end": 240.58,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 30,
   "start": 240.58,
   "end": 248.6,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 31,
   "start": 248.6,
   "end": 256.62,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 32,
   "start": 256.62,
   "end": 264.63,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 oA Pa Ui 1 Ie Se 4 1 LS'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 33,
   "start": 264.63,
   "end": 272.65,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 34,
   "start": 272.65,
   "end": 280.67,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 35,
   "start": 280.67,
   "end": 288.69,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 36,
   "start": 288.69,
   "end": 296.71,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 37,
   "start": 296.71,
   "end": 304.73,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 38,
   "start": 304.73,
   "end": 312.75,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 39,
   "start": 312.75,
   "end": 320.77,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 40,
   "start": 320.77,
   "end": 328.79,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 41,
   "start": 328.79,
   "end": 336.81,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 42,
   "start": 336.81,
   "end": 344.83,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 43,
   "start": 344.83,
   "end": 352.85,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 44,
   "start": 352.85,
   "end": 360.87,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 45,
   "start": 360.87,
   "end": 368.88,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 46,
   "start": 368.88,
   "end": 376.9,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 47,
   "start": 376.9,
   "end": 384.92,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 48,
   "start": 384.92,
   "end": 392.94,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 49,
   "start": 392.94,
   "end": 400.96,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Pitts: VII Mle Pate ll ai: 4 Loe oe oe aS'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 50,
   "start": 400.96,
   "end": 408.98,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 51,
   "start": 408.98,
   "end": 417.0,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 52,
   "start": 417.0,
   "end": 425.02,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 53,
   "start": 425.02,
   "end": 433.04,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 54,
   "start": 433.04,
   "end": 441.06,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 55,
   "start": 441.06,
   "end": 449.08,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 56,
   "start": 449.08,
   "end": 457.1,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 57,
   "start": 457.1,
   "end": 465.12,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '2 aw it el: ANS SIISIT 7 SSS ide aie'."
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 58,
   "start": 465.12,
   "end": 473.13,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 59,
   "start": 473.13,
   "end": 481.15,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 60,
   "start": 481.15,
   "end": 489.17,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 61,
   "start": 489.17,
   "end": 497.19,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 62,
   "start": 497.19,
   "end": 505.21,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 63,
   "start": 505.21,
   "end": 513.23,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 64,
   "start": 513.23,
   "end": 521.25,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "B-roll (concert/food/floor/packing)."
  },
  {
   "window": 65,
   "start": 521.25,
   "end": 529.27,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles on the shelves."
  },
  {
   "window": 66,
   "start": 529.27,
   "end": 537.29,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ma al Phe Neds eA Ve te om eo if se AGE'."
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 67,
   "start": 537.29,
   "end": 545.31,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 68,
   "start": 545.31,
   "end": 553.33,
   "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Be he pes ep Bo: aK ea cual acai SN'."
+  "confidence": 0.6,
+  "description": "B-roll (concert/food/floor/packing)."
  },
  {
   "window": 69,
   "start": 553.33,
   "end": 561.35,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 70,
   "start": 561.35,
   "end": 569.37,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 71,
   "start": 569.37,
   "end": 577.38,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 72,
   "start": 577.38,
   "end": 585.4,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 73,
   "start": 585.4,
   "end": 593.42,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 74,
   "start": 593.42,
   "end": 601.44,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 75,
   "start": 601.44,
   "end": 609.46,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 76,
   "start": 609.46,
   "end": 617.48,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 77,
   "start": 617.48,
   "end": 625.5,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax."
  },
  {
   "window": 78,
   "start": 625.5,
   "end": 633.52,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 79,
   "start": 633.52,
   "end": 641.54,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 80,
   "start": 641.54,
   "end": 649.56,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Tt 2 rR Sa AS XAAAS 7 SS EVANS AS TSANYS oun'."
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 81,
   "start": 649.56,
   "end": 657.58,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 82,
   "start": 657.58,
   "end": 665.6,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 83,
   "start": 665.6,
   "end": 673.62,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the silver urn melter."
  },
  {
   "window": 84,
   "start": 673.62,
   "end": 681.63,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 85,
   "start": 681.63,
   "end": 689.65,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 86,
   "start": 689.65,
   "end": 697.67,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of candles setting."
  },
  {
   "window": 87,
   "start": 697.67,
   "end": 705.69,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of candles setting."
  },
  {
   "window": 88,
   "start": 705.69,
   "end": 713.71,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 89,
   "start": 713.71,
   "end": 721.73,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 90,
   "start": 721.73,
   "end": 729.75,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 91,
   "start": 729.75,
   "end": 737.77,
-  "label": "outro_cta",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '3 Sah pvp: ak At Me 1 ww aj BNW 24 ae een oy ey ew ay mm. 4 ae aw ap Ss Fe ioe, er'."
+  "description": "Rows of candles setting."
  },
  {
   "window": 92,
   "start": 737.77,
   "end": 745.79,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 93,
   "start": 745.79,
   "end": 753.81,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 94,
   "start": 753.81,
   "end": 761.83,
-  "label": "outro_cta",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oo ap Fa ee ee ee peg gt He, 4 1 3 ib jae Fr CLO 1 LID ws'."
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 95,
   "start": 761.83,
   "end": 769.85,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 96,
   "start": 769.85,
   "end": 777.87,
-  "label": "outro_cta",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'in ees ay Er WAT SVS 4 aS sx'."
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 97,
   "start": 777.87,
   "end": 785.88,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (business vlog, preparing an order)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Packing/wrapping & stamping candles."
  },
  {
   "window": 98,
   "start": 785.88,
   "end": 793.9,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Packing the candles into boxes."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business vlog)."
  },
  {
   "window": 99,
   "start": 793.9,
   "end": 801.92,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'from, kayla bee, commant suscrbe'."
+  "confidence": 0.6,
+  "description": "'From Kayla' subscribe end card."
  },
  {
   "window": 100,
   "start": 801.92,
   "end": 809.94,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Packing the candles into boxes."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla' subscribe end card."
  },
  {
   "window": 101,
   "start": 809.94,
   "end": 817.96,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Packing the candles into boxes."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla' subscribe end card."
  },
  {
   "window": 102,
   "start": 817.96,
   "end": 825.98,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Packing the candles into boxes."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla' subscribe end card."
  },
  {
   "window": 103,
   "start": 825.98,
   "end": 834.0,
-  "label": "transition",
-  "confidence": 0.4,
-  "description": "Packing the candles into boxes."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla' subscribe end card."
  }
 ]

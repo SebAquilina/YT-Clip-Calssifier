@@ -376,124 +376,130 @@
       "window": 24,
       "start": 192.48,
       "end": 200.51,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Melting amber wax in the metal melter/pitcher (winter batch).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 25,
       "start": 200.51,
       "end": 208.53,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of winter candles setting.",
+      "description": "Melting amber wax in the metal melter/pitcher (winter batch).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->cure_cool)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 26,
       "start": 208.53,
       "end": 216.55,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "melt_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring amber wax into the jars.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
     },
     {
       "window": 27,
       "start": 216.55,
       "end": 224.57,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Melting amber wax in the metal melter/pitcher (winter batch).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 28,
       "start": 224.57,
       "end": 232.59,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Melting amber wax in the metal melter/pitcher (winter batch).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 29,
       "start": 232.59,
       "end": 240.61,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of winter candles setting.",
-      "smoothed": false,
+      "description": "Pouring amber wax into the jars.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->cure_cool)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 30,
       "start": 240.61,
       "end": 248.63,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
+      "description": "Melting amber wax in the metal melter/pitcher (winter batch).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
     },
     {
       "window": 31,
       "start": 248.63,
       "end": 256.65,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Melting amber wax in the metal melter/pitcher (winter batch).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
@@ -506,7 +512,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Pouring amber wax into the jars.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->pour_wax)"
@@ -516,46 +522,49 @@
       "window": 33,
       "start": 264.67,
       "end": 272.69,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.45,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of winter candles setting.",
+      "description": "Pouring amber wax into the jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->cure_cool)"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
       "window": 34,
       "start": 272.69,
       "end": 280.71,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "pour_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
-      "smoothed": false,
-      "notes": []
+      "description": "Melting amber wax in the metal melter/pitcher (winter batch).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 35,
       "start": 280.71,
       "end": 288.73,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Pouring amber wax into the jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
@@ -568,7 +577,7 @@
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Pouring amber wax into the jars.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->pour_wax)"
@@ -578,17 +587,15 @@
       "window": 37,
       "start": 296.75,
       "end": 304.77,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of winter candles setting.",
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->cure_cool)"
-      ]
+      "notes": []
     },
     {
       "window": 38,
@@ -600,7 +607,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
       "smoothed": false,
       "notes": []
     },
@@ -608,41 +615,53 @@
       "window": 39,
       "start": 312.79,
       "end": 320.81,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
-      "smoothed": false,
+      "description": "Rows of winter candles setting.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 40,
       "start": 320.81,
       "end": 328.83,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 41,
       "start": 328.83,
       "end": 336.85,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 336.85,
+      "end": 344.87,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -653,49 +672,35 @@
       ]
     },
     {
-      "window": 42,
-      "start": 336.85,
-      "end": 344.87,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
-      "confidence": 0.5,
-      "phase": "finish",
-      "is_step": true,
-      "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
       "window": 43,
       "start": 344.87,
       "end": 352.89,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 44,
       "start": 352.89,
       "end": 360.91,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
@@ -704,7 +709,7 @@
       "end": 368.93,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -718,46 +723,49 @@
       "window": 46,
       "start": 368.93,
       "end": 376.95,
-      "label": "decorate_finish",
+      "label": "cure_cool",
       "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
-      "smoothed": false,
-      "notes": []
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 47,
       "start": 376.95,
       "end": 384.97,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 48,
       "start": 384.97,
       "end": 392.99,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
@@ -766,7 +774,7 @@
       "end": 401.01,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -786,7 +794,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
       "smoothed": false,
       "notes": []
     },
@@ -794,32 +802,30 @@
       "window": 51,
       "start": 409.03,
       "end": 417.05,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 52,
       "start": 417.05,
       "end": 425.07,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
@@ -828,7 +834,7 @@
       "end": 433.09,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -842,46 +848,49 @@
       "window": 54,
       "start": 433.09,
       "end": 441.11,
-      "label": "decorate_finish",
+      "label": "cure_cool",
       "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
-      "smoothed": false,
-      "notes": []
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 55,
       "start": 441.11,
       "end": 449.13,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 56,
       "start": 449.13,
       "end": 457.15,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
@@ -890,7 +899,7 @@
       "end": 465.17,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -904,46 +913,49 @@
       "window": 58,
       "start": 465.17,
       "end": 473.19,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee me fa ae as le ec eae wl at Re Ss Spree per.'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 59,
       "start": 473.19,
       "end": 481.21,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 60,
       "start": 481.21,
       "end": 489.23,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
@@ -952,7 +964,7 @@
       "end": 497.25,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -966,55 +978,26 @@
       "window": 62,
       "start": 497.25,
       "end": 505.27,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'At ry FA oS ih ae ss ae ah, oe ee es 7'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 63,
       "start": 505.27,
       "end": 513.29,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Centring the wicks.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
-    },
-    {
-      "window": 64,
-      "start": 513.29,
-      "end": 521.31,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.5,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 65,
-      "start": 521.31,
-      "end": 529.33,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -1025,49 +1008,85 @@
       ]
     },
     {
+      "window": 64,
+      "start": 513.29,
+      "end": 521.31,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of winter candles setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 65,
+      "start": 521.31,
+      "end": 529.33,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
       "window": 66,
       "start": 529.33,
       "end": 537.35,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'id PO. Pep rr are lay ma FTA, Vete-y ee ae'.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 67,
       "start": 537.35,
       "end": 545.37,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 68,
       "start": 545.37,
       "end": 553.39,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
-      "smoothed": false,
+      "description": "Decorating the candle tops with pine sprigs / botanicals.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
@@ -1076,7 +1095,7 @@
       "end": 561.41,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -1090,57 +1109,59 @@
       "window": 70,
       "start": 561.41,
       "end": 569.43,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 71,
       "start": 569.43,
       "end": 577.45,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of winter candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 72,
       "start": 577.45,
       "end": 585.47,
-      "label": "talking_head",
-      "original_label": "pour_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 73,
       "start": 585.47,
       "end": 593.49,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
       "notes": []
     },
@@ -1148,13 +1169,13 @@
       "window": 74,
       "start": 593.49,
       "end": 601.52,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
       "notes": []
     },
@@ -1162,61 +1183,55 @@
       "window": 75,
       "start": 601.52,
       "end": 609.54,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 76,
       "start": 609.54,
       "end": 617.56,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 77,
       "start": 617.56,
       "end": 625.58,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of winter candles setting.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->cure_cool)"
-      ]
+      "notes": []
     },
     {
       "window": 78,
       "start": 625.58,
       "end": 633.6,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
       "notes": []
     },
@@ -1224,61 +1239,55 @@
       "window": 79,
       "start": 633.6,
       "end": 641.62,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 80,
       "start": 641.62,
       "end": 649.64,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 81,
       "start": 649.64,
       "end": 657.66,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of winter candles setting.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->cure_cool)"
-      ]
+      "notes": []
     },
     {
       "window": 82,
       "start": 657.66,
       "end": 665.68,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
       "notes": []
     },
@@ -1286,45 +1295,41 @@
       "window": 83,
       "start": 665.68,
       "end": 673.7,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 84,
       "start": 673.7,
       "end": 681.72,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring amber wax into rows of glasses.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 85,
       "start": 681.72,
       "end": 689.74,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
       "notes": []
     },
@@ -1332,13 +1337,13 @@
       "window": 86,
       "start": 689.74,
       "end": 697.76,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the candles with pine sprigs/berries.",
+      "description": "Rows of finished botanical winter candles / labelled beauty shots.",
       "smoothed": false,
       "notes": []
     },
@@ -1346,29 +1351,27 @@
       "window": 87,
       "start": 697.76,
       "end": 705.78,
-      "label": "set_wick",
-      "original_label": "set_wick",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Centring the wicks.",
+      "description": "Snowy winter-forest b-roll.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->set_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 88,
       "start": 705.78,
       "end": 713.8,
-      "label": "outro_cta",
-      "original_label": "outro_cta",
-      "confidence": 0.5,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee Re eS Lorestan be eT DR eae ee ers ee hy 1 Pera sf ay 4 er, ory Se ge eg 4 SS, Smee et te tpt hia igo eae rat on cy See... fo CAS Best Ope eee SE SAY ames ie en fa Sh. 8 rr tas law Mio ASS eS 2 oa '.",
+      "description": "Snowy winter-forest b-roll.",
       "smoothed": false,
       "notes": []
     },
@@ -1376,29 +1379,27 @@
       "window": 89,
       "start": 713.8,
       "end": 721.82,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of winter candles setting.",
+      "description": "Snowy winter-forest b-roll.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->cure_cool)"
-      ]
+      "notes": []
     },
     {
       "window": 90,
       "start": 721.82,
       "end": 729.84,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1406,13 +1407,13 @@
       "window": 91,
       "start": 729.84,
       "end": 737.86,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1420,13 +1421,13 @@
       "window": 92,
       "start": 737.86,
       "end": 745.88,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1434,13 +1435,13 @@
       "window": 93,
       "start": 745.88,
       "end": 753.9,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1448,13 +1449,13 @@
       "window": 94,
       "start": 753.9,
       "end": 761.92,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1462,13 +1463,13 @@
       "window": 95,
       "start": 761.92,
       "end": 769.94,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1476,13 +1477,13 @@
       "window": 96,
       "start": 769.94,
       "end": 777.96,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1490,13 +1491,13 @@
       "window": 97,
       "start": 777.96,
       "end": 785.98,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1504,13 +1505,13 @@
       "window": 98,
       "start": 785.98,
       "end": 794.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     }
@@ -1781,90 +1782,20 @@
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "melt_wax",
+      "phase": "process",
       "is_step": true,
       "start": 192.48,
-      "end": 200.51,
-      "confidence": 0.5,
-      "windows": [
-        24
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 200.51,
-      "end": 208.53,
-      "confidence": 0.45,
-      "windows": [
-        25
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 208.53,
-      "end": 216.55,
-      "confidence": 0.5,
-      "windows": [
-        26
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 216.55,
-      "end": 224.57,
-      "confidence": 0.4,
-      "windows": [
-        27
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 224.57,
-      "end": 232.59,
-      "confidence": 0.5,
-      "windows": [
-        28
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 232.59,
-      "end": 240.61,
-      "confidence": 0.45,
-      "windows": [
-        29
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 240.61,
-      "end": 248.63,
-      "confidence": 0.5,
-      "windows": [
-        30
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 248.63,
       "end": 256.65,
-      "confidence": 0.4,
+      "confidence": 0.5,
       "windows": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
         31
       ]
     },
@@ -1873,196 +1804,46 @@
       "phase": "assemble",
       "is_step": true,
       "start": 256.65,
-      "end": 264.67,
-      "confidence": 0.5,
-      "windows": [
-        32
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 264.67,
-      "end": 272.69,
-      "confidence": 0.45,
-      "windows": [
-        33
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 272.69,
-      "end": 280.71,
-      "confidence": 0.5,
-      "windows": [
-        34
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 280.71,
-      "end": 288.73,
-      "confidence": 0.4,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 288.73,
       "end": 296.75,
       "confidence": 0.5,
       "windows": [
+        32,
+        33,
+        34,
+        35,
         36
       ]
     },
     {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 296.75,
-      "end": 304.77,
-      "confidence": 0.45,
-      "windows": [
-        37
-      ]
-    },
-    {
       "label": "decorate_finish",
       "phase": "finish",
       "is_step": true,
-      "start": 304.77,
-      "end": 312.79,
-      "confidence": 0.5,
-      "windows": [
-        38
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 312.79,
-      "end": 320.81,
-      "confidence": 0.4,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 320.81,
-      "end": 328.83,
-      "confidence": 0.5,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 328.83,
+      "start": 296.75,
       "end": 336.85,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
+        37,
+        38,
+        39,
+        40,
         41
       ]
     },
     {
-      "label": "decorate_finish",
-      "phase": "finish",
+      "label": "cure_cool",
+      "phase": "assemble",
       "is_step": true,
       "start": 336.85,
-      "end": 344.87,
-      "confidence": 0.5,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 344.87,
-      "end": 352.89,
-      "confidence": 0.4,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 352.89,
-      "end": 360.91,
-      "confidence": 0.5,
-      "windows": [
-        44
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 360.91,
-      "end": 368.93,
-      "confidence": 0.45,
-      "windows": [
-        45
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 368.93,
-      "end": 376.95,
-      "confidence": 0.5,
-      "windows": [
-        46
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 376.95,
-      "end": 384.97,
-      "confidence": 0.4,
-      "windows": [
-        47
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 384.97,
-      "end": 392.99,
-      "confidence": 0.5,
-      "windows": [
-        48
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 392.99,
       "end": 401.01,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
         49
       ]
     },
@@ -2071,418 +1852,88 @@
       "phase": "finish",
       "is_step": true,
       "start": 401.01,
-      "end": 409.03,
+      "end": 417.05,
       "confidence": 0.5,
       "windows": [
-        50
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 409.03,
-      "end": 417.05,
-      "confidence": 0.4,
-      "windows": [
+        50,
         51
       ]
     },
     {
-      "label": "pour_wax",
+      "label": "cure_cool",
       "phase": "assemble",
       "is_step": true,
       "start": 417.05,
-      "end": 425.07,
+      "end": 577.45,
       "confidence": 0.5,
       "windows": [
-        52
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 425.07,
-      "end": 433.09,
-      "confidence": 0.45,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 433.09,
-      "end": 441.11,
-      "confidence": 0.5,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 441.11,
-      "end": 449.13,
-      "confidence": 0.4,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 449.13,
-      "end": 457.15,
-      "confidence": 0.5,
-      "windows": [
-        56
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 457.15,
-      "end": 465.17,
-      "confidence": 0.45,
-      "windows": [
-        57
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 465.17,
-      "end": 473.19,
-      "confidence": 0.5,
-      "windows": [
-        58
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 473.19,
-      "end": 481.21,
-      "confidence": 0.4,
-      "windows": [
-        59
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 481.21,
-      "end": 489.23,
-      "confidence": 0.5,
-      "windows": [
-        60
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 489.23,
-      "end": 497.25,
-      "confidence": 0.45,
-      "windows": [
-        61
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 497.25,
-      "end": 505.27,
-      "confidence": 0.5,
-      "windows": [
-        62
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 505.27,
-      "end": 513.29,
-      "confidence": 0.4,
-      "windows": [
-        63
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 513.29,
-      "end": 521.31,
-      "confidence": 0.5,
-      "windows": [
-        64
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 521.31,
-      "end": 529.33,
-      "confidence": 0.45,
-      "windows": [
-        65
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 529.33,
-      "end": 537.35,
-      "confidence": 0.5,
-      "windows": [
-        66
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 537.35,
-      "end": 545.37,
-      "confidence": 0.4,
-      "windows": [
-        67
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 545.37,
-      "end": 553.39,
-      "confidence": 0.5,
-      "windows": [
-        68
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 553.39,
-      "end": 561.41,
-      "confidence": 0.45,
-      "windows": [
-        69
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 561.41,
-      "end": 593.49,
-      "confidence": 0.7,
-      "windows": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
         70,
-        71,
-        72,
-        73
+        71
       ]
     },
     {
-      "label": "decorate_finish",
+      "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 593.49,
-      "end": 601.52,
-      "confidence": 0.5,
-      "windows": [
-        74
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 601.52,
-      "end": 609.54,
-      "confidence": 0.4,
-      "windows": [
-        75
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 609.54,
-      "end": 617.56,
-      "confidence": 0.5,
-      "windows": [
-        76
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 617.56,
-      "end": 625.58,
-      "confidence": 0.45,
-      "windows": [
-        77
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 625.58,
-      "end": 633.6,
-      "confidence": 0.5,
-      "windows": [
-        78
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 633.6,
-      "end": 641.62,
-      "confidence": 0.4,
-      "windows": [
-        79
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 641.62,
-      "end": 649.64,
-      "confidence": 0.5,
-      "windows": [
-        80
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 649.64,
-      "end": 657.66,
-      "confidence": 0.45,
-      "windows": [
-        81
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 657.66,
-      "end": 665.68,
-      "confidence": 0.5,
-      "windows": [
-        82
-      ]
-    },
-    {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 665.68,
-      "end": 673.7,
-      "confidence": 0.4,
-      "windows": [
-        83
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 673.7,
-      "end": 681.72,
-      "confidence": 0.5,
-      "windows": [
-        84
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 681.72,
-      "end": 689.74,
-      "confidence": 0.7,
-      "windows": [
-        85
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 689.74,
+      "start": 577.45,
       "end": 697.76,
       "confidence": 0.5,
       "windows": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
         86
       ]
     },
     {
-      "label": "set_wick",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 697.76,
-      "end": 705.78,
-      "confidence": 0.4,
-      "windows": [
-        87
-      ]
-    },
-    {
-      "label": "outro_cta",
+      "label": "transition",
       "phase": "aux",
       "is_step": false,
-      "start": 705.78,
-      "end": 713.8,
-      "confidence": 0.5,
-      "windows": [
-        88
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 713.8,
+      "start": 697.76,
       "end": 721.82,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "windows": [
+        87,
+        88,
         89
       ]
     },
     {
-      "label": "transition",
+      "label": "blank",
       "phase": "aux",
       "is_step": false,
       "start": 721.82,
       "end": 794.0,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "windows": [
         90,
         91,
