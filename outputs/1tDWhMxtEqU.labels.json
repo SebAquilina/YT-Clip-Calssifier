@@ -196,319 +196,319 @@
   "start": 192.0,
   "end": 200.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 25,
   "start": 200.0,
   "end": 208.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 26,
   "start": 208.0,
   "end": 216.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 27,
   "start": 216.0,
   "end": 224.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 28,
   "start": 224.0,
   "end": 232.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 29,
   "start": 232.0,
   "end": 240.0,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 30,
   "start": 240.0,
   "end": 248.0,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 31,
   "start": 248.0,
   "end": 256.0,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ges belli: Mo on ue Ps SSE ede'."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 32,
   "start": 256.0,
   "end": 264.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 33,
   "start": 264.0,
   "end": 272.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 34,
   "start": 272.0,
   "end": 280.0,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 35,
   "start": 280.0,
   "end": 288.0,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 36,
   "start": 288.0,
   "end": 296.0,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 37,
   "start": 296.0,
   "end": 304.0,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 38,
   "start": 304.0,
   "end": 312.0,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 39,
   "start": 312.0,
   "end": 320.0,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 40,
   "start": 320.0,
   "end": 328.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 41,
   "start": 328.0,
   "end": 336.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 42,
   "start": 336.0,
   "end": 344.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 43,
   "start": 344.0,
   "end": 352.0,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 44,
   "start": 352.0,
   "end": 360.0,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 45,
   "start": 360.0,
   "end": 368.0,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 46,
   "start": 368.0,
   "end": 376.0,
-  "label": "talking_head",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Finished beeswax candle shown."
  },
  {
   "window": 47,
   "start": 376.0,
   "end": 384.0,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Melting beeswax in the pot."
  },
  {
   "window": 48,
   "start": 384.0,
   "end": 392.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 49,
   "start": 392.0,
   "end": 400.0,
-  "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "'Beeswax Candle' label card."
  },
  {
   "window": 50,
   "start": 400.0,
   "end": 408.0,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "confidence": 0.6,
+  "description": "Host talks to camera."
  },
  {
   "window": 51,
   "start": 408.0,
   "end": 416.0,
-  "label": "talking_head",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Host talks to camera (easy beeswax recipe)."
+  "description": "Finished beeswax candle shown."
  },
  {
   "window": 52,
   "start": 416.0,
   "end": 424.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 53,
   "start": 424.0,
   "end": 432.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 54,
   "start": 432.0,
   "end": 440.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 55,
   "start": 440.0,
   "end": 448.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 56,
   "start": 448.0,
   "end": 456.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 57,
   "start": 456.0,
   "end": 464.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 58,
   "start": 464.0,
   "end": 472.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 59,
   "start": 472.0,
   "end": 480.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 60,
   "start": 480.0,
   "end": 488.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 61,
   "start": 488.0,
   "end": 496.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 62,
   "start": 496.0,
   "end": 504.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  },
  {
   "window": 63,
   "start": 504.0,
   "end": 512.0,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SLAL SE mists KIEP WATCH VY 49 Tey vat'."
+  "confidence": 0.6,
+  "description": "Subscribe / keep-watching end screen."
  }
 ]

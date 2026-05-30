@@ -196,247 +196,247 @@
   "start": 191.56,
   "end": 199.55,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 25,
   "start": 199.55,
   "end": 207.53,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "description": "Melting wax in the metal bowl on the hot plate."
  },
  {
   "window": 26,
   "start": 207.53,
   "end": 215.51,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "description": "Melting wax in the metal bowl on the hot plate."
  },
  {
   "window": 27,
   "start": 215.51,
   "end": 223.49,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl on the hot plate."
  },
  {
   "window": 28,
   "start": 223.49,
   "end": 231.47,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "description": "Melting wax in the metal bowl on the hot plate."
  },
  {
   "window": 29,
   "start": 231.47,
   "end": 239.45,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 30,
   "start": 239.45,
   "end": 247.44,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 31,
   "start": 247.44,
   "end": 255.42,
-  "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Mistake caption card (sinkholes / cracks)."
  },
  {
   "window": 32,
   "start": 255.42,
   "end": 263.4,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 33,
   "start": 263.4,
   "end": 271.38,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 34,
   "start": 271.38,
   "end": 279.36,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl on the hot plate."
  },
  {
   "window": 35,
   "start": 279.36,
   "end": 287.35,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl on the hot plate."
  },
  {
   "window": 36,
   "start": 287.35,
   "end": 295.33,
-  "label": "talking_head",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "description": "Pouring wax."
  },
  {
   "window": 37,
   "start": 295.33,
   "end": 303.31,
-  "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Mistake caption card (sinkholes / cracks)."
  },
  {
   "window": 38,
   "start": 303.31,
   "end": 311.29,
-  "label": "talking_head",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "description": "Decorating a candle with florals."
  },
  {
   "window": 39,
   "start": 311.29,
   "end": 319.27,
-  "label": "talking_head",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "description": "Melting wax in the metal bowl on the hot plate."
  },
  {
   "window": 40,
   "start": 319.27,
   "end": 327.25,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 41,
   "start": 327.25,
   "end": 335.24,
-  "label": "talking_head",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "description": "Rows of candles set."
  },
  {
   "window": 42,
   "start": 335.24,
   "end": 343.22,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished candle shown."
  },
  {
   "window": 43,
   "start": 343.22,
   "end": 351.2,
   "label": "talking_head",
-  "confidence": 0.5,
-  "description": "Host talks to camera (3 common candle-making mistakes)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 44,
   "start": 351.2,
   "end": 359.18,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle shown."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 45,
   "start": 359.18,
   "end": 367.16,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (3 common mistakes)."
  },
  {
   "window": 46,
   "start": 367.16,
   "end": 375.15,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a candle with florals."
  },
  {
   "window": 47,
   "start": 375.15,
   "end": 383.13,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle shown."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Decorating a candle with florals."
  },
  {
   "window": 48,
   "start": 383.13,
   "end": 391.11,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle shown."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 49,
   "start": 391.11,
   "end": 399.09,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 50,
   "start": 399.09,
   "end": 407.07,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 51,
   "start": 407.07,
   "end": 415.05,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 52,
   "start": 415.05,
   "end": 423.04,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 53,
   "start": 423.04,
   "end": 431.02,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 54,
   "start": 431.02,
   "end": 439.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

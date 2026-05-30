@@ -2,16 +2,31 @@
 
 - **Video:** [8_vXTepQRI8](https://www.youtube.com/watch?v=8_vXTepQRI8)
 - **Duration:** 7:04  (424s)
-- **Source:** storyboard  |  **Windows:** 53  |  **Segments:** 4
+- **Source:** storyboard  |  **Windows:** 53  |  **Segments:** 19
 
 ## Action segments (merged)
 
 | # | Time | Duration | Action | Phase | Step | Conf |
 |--:|------|---------:|--------|-------|:----:|-----:|
 | 1 | 0:00–0:08 | 8s | `gather_materials` | prep | ✓ | 0.45 |
-| 2 | 0:08–5:20 | 312s | `talking_head` | aux |  | 0.51 |
-| 3 | 5:20–6:08 | 48s | `reveal_result` | finish | ✓ | 0.40 |
-| 4 | 6:08–7:04 | 56s | `transition` | aux |  | 0.50 |
+| 2 | 0:08–4:00 | 232s | `talking_head` | aux |  | 0.50 |
+| 3 | 4:00–4:08 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
+| 4 | 4:08–4:16 | 8s | `cure_cool` | assemble | ✓ | 0.50 |
+| 5 | 4:16–4:24 | 8s | `melt_wax` | process | ✓ | 0.50 |
+| 6 | 4:24–4:32 | 8s | `measure_wax` | prep | ✓ | 0.50 |
+| 7 | 4:32–4:48 | 16s | `pour_wax` | assemble | ✓ | 0.50 |
+| 8 | 4:48–4:56 | 8s | `set_wick` | assemble | ✓ | 0.50 |
+| 9 | 4:56–5:04 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
+| 10 | 5:04–5:12 | 8s | `talking_head` | aux |  | 0.60 |
+| 11 | 5:12–5:20 | 8s | `set_wick` | assemble | ✓ | 0.50 |
+| 12 | 5:20–5:28 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
+| 13 | 5:28–5:36 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
+| 14 | 5:36–5:44 | 8s | `talking_head` | aux |  | 0.60 |
+| 15 | 5:44–5:52 | 8s | `decorate_finish` | finish | ✓ | 0.50 |
+| 16 | 5:52–6:00 | 8s | `reveal_result` | finish | ✓ | 0.50 |
+| 17 | 6:00–6:08 | 8s | `transition` | aux |  | 0.60 |
+| 18 | 6:08–6:24 | 16s | `talking_head` | aux |  | 0.60 |
+| 19 | 6:24–7:04 | 40s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -41,32 +56,32 @@
 | W21 | 2:48–2:56 | `talking_head` | 0.50 |  |
 | W22 | 2:56–3:04 | `talking_head` | 0.50 |  |
 | W23 | 3:04–3:12 | `talking_head` | 0.50 |  |
-| W24 | 3:12–3:20 | `talking_head` | 0.50 |  |
-| W25 | 3:20–3:28 | `talking_head` | 0.50 |  |
-| W26 | 3:28–3:36 | `talking_head` | 0.50 |  |
-| W27 | 3:36–3:44 | `talking_head` | 0.50 |  |
-| W28 | 3:44–3:52 | `talking_head` | 0.50 |  |
-| W29 | 3:52–4:00 | `talking_head` | 0.50 |  |
-| W30 | 4:00–4:08 | `talking_head` | 0.50 |  |
-| W31 | 4:08–4:16 | `talking_head` | 0.50 |  |
-| W32 | 4:16–4:24 | `talking_head` | 0.50 |  |
-| W33 | 4:24–4:32 | `talking_head` | 0.50 |  |
-| W34 | 4:32–4:40 | `talking_head` | 0.50 |  |
-| W35 | 4:40–4:48 | `talking_head` | 0.50 |  |
-| W36 | 4:48–4:56 | `talking_head` | 0.50 |  |
-| W37 | 4:56–5:04 | `talking_head` | 0.70 |  |
-| W38 | 5:04–5:12 | `talking_head` | 0.50 |  |
-| W39 | 5:12–5:20 | `talking_head` | 0.50 |  |
-| W40 | 5:20–5:28 | `reveal_result` | 0.40 |  |
-| W41 | 5:28–5:36 | `reveal_result` | 0.40 |  |
-| W42 | 5:36–5:44 | `reveal_result` | 0.40 |  |
-| W43 | 5:44–5:52 | `reveal_result` | 0.40 |  |
-| W44 | 5:52–6:00 | `reveal_result` | 0.40 |  |
-| W45 | 6:00–6:08 | `reveal_result` | 0.40 |  |
-| W46 | 6:08–6:16 | `transition` | 0.50 |  |
-| W47 | 6:16–6:24 | `transition` | 0.50 |  |
-| W48 | 6:24–6:32 | `transition` | 0.50 |  |
-| W49 | 6:32–6:40 | `transition` | 0.50 |  |
-| W50 | 6:40–6:48 | `transition` | 0.50 |  |
-| W51 | 6:48–6:56 | `transition` | 0.50 |  |
-| W52 | 6:56–7:04 | `transition` | 0.50 |  |
+| W24 | 3:12–3:20 | `talking_head` | 0.60 |  |
+| W25 | 3:20–3:28 | `talking_head` | 0.60 |  |
+| W26 | 3:28–3:36 | `talking_head` | 0.60 |  |
+| W27 | 3:36–3:44 | `talking_head` | 0.60 |  |
+| W28 | 3:44–3:52 | `talking_head` | 0.60 |  |
+| W29 | 3:52–4:00 | `talking_head` | 0.60 |  |
+| W30 | 4:00–4:08 | `pour_wax` | 0.50 |  |
+| W31 | 4:08–4:16 | `cure_cool` | 0.50 |  |
+| W32 | 4:16–4:24 | `melt_wax` | 0.50 | backward step vs canonical order (cure_cool->melt_wax) |
+| W33 | 4:24–4:32 | `measure_wax` | 0.50 | backward step vs canonical order (cure_cool->measure_wax) |
+| W34 | 4:32–4:40 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
+| W35 | 4:40–4:48 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
+| W36 | 4:48–4:56 | `set_wick` | 0.50 | backward step vs canonical order (cure_cool->set_wick) |
+| W37 | 4:56–5:04 | `decorate_finish` | 0.50 |  |
+| W38 | 5:04–5:12 | `talking_head` | 0.60 |  |
+| W39 | 5:12–5:20 | `set_wick` | 0.50 | backward step vs canonical order (decorate_finish->set_wick) |
+| W40 | 5:20–5:28 | `decorate_finish` | 0.50 |  |
+| W41 | 5:28–5:36 | `pour_wax` | 0.50 | backward step vs canonical order (decorate_finish->pour_wax) |
+| W42 | 5:36–5:44 | `talking_head` | 0.60 |  |
+| W43 | 5:44–5:52 | `decorate_finish` | 0.50 |  |
+| W44 | 5:52–6:00 | `reveal_result` | 0.50 |  |
+| W45 | 6:00–6:08 | `transition` | 0.60 |  |
+| W46 | 6:08–6:16 | `talking_head` | 0.60 |  |
+| W47 | 6:16–6:24 | `talking_head` | 0.60 |  |
+| W48 | 6:24–6:32 | `blank` | 0.60 |  |
+| W49 | 6:32–6:40 | `blank` | 0.60 |  |
+| W50 | 6:40–6:48 | `blank` | 0.60 |  |
+| W51 | 6:48–6:56 | `blank` | 0.60 |  |
+| W52 | 6:56–7:04 | `blank` | 0.60 |  |

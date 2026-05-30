@@ -2,15 +2,24 @@
 
 - **Video:** [1tDWhMxtEqU](https://www.youtube.com/watch?v=1tDWhMxtEqU)
 - **Duration:** 8:32  (512s)
-- **Source:** storyboard  |  **Windows:** 64  |  **Segments:** 3
+- **Source:** storyboard  |  **Windows:** 64  |  **Segments:** 12
 
 ## Action segments (merged)
 
 | # | Time | Duration | Action | Phase | Step | Conf |
 |--:|------|---------:|--------|-------|:----:|-----:|
-| 1 | 0:00–6:56 | 416s | `talking_head` | aux |  | 0.47 |
-| 2 | 6:56–7:12 | 16s | `transition` | aux |  | 0.50 |
-| 3 | 7:12–8:32 | 80s | `outro_cta` | aux |  | 0.50 |
+| 1 | 0:00–3:52 | 232s | `talking_head` | aux |  | 0.48 |
+| 2 | 3:52–4:16 | 24s | `melt_wax` | process | ✓ | 0.50 |
+| 3 | 4:16–4:32 | 16s | `talking_head` | aux |  | 0.60 |
+| 4 | 4:32–5:12 | 40s | `melt_wax` | process | ✓ | 0.50 |
+| 5 | 5:12–5:20 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
+| 6 | 5:20–5:44 | 24s | `talking_head` | aux |  | 0.60 |
+| 7 | 5:44–6:08 | 24s | `pour_wax` | assemble | ✓ | 0.50 |
+| 8 | 6:08–6:16 | 8s | `reveal_result` | finish | ✓ | 0.50 |
+| 9 | 6:16–6:24 | 8s | `melt_wax` | process | ✓ | 0.50 |
+| 10 | 6:24–6:48 | 24s | `talking_head` | aux |  | 0.60 |
+| 11 | 6:48–6:56 | 8s | `reveal_result` | finish | ✓ | 0.50 |
+| 12 | 6:56–8:32 | 96s | `outro_cta` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -40,43 +49,43 @@
 | W21 | 2:48–2:56 | `talking_head` | 0.50 |  |
 | W22 | 2:56–3:04 | `talking_head` *(smoothed)* | 0.40 | despiked to match neighbours |
 | W23 | 3:04–3:12 | `talking_head` | 0.50 |  |
-| W24 | 3:12–3:20 | `talking_head` | 0.50 |  |
-| W25 | 3:20–3:28 | `talking_head` | 0.50 |  |
-| W26 | 3:28–3:36 | `talking_head` | 0.50 |  |
-| W27 | 3:36–3:44 | `talking_head` | 0.50 |  |
-| W28 | 3:44–3:52 | `talking_head` | 0.50 |  |
-| W29 | 3:52–4:00 | `talking_head` | 0.50 |  |
-| W30 | 4:00–4:08 | `talking_head` | 0.50 |  |
-| W31 | 4:08–4:16 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W32 | 4:16–4:24 | `talking_head` | 0.50 |  |
-| W33 | 4:24–4:32 | `talking_head` | 0.50 |  |
-| W34 | 4:32–4:40 | `talking_head` | 0.50 |  |
-| W35 | 4:40–4:48 | `talking_head` | 0.50 |  |
-| W36 | 4:48–4:56 | `talking_head` | 0.50 |  |
-| W37 | 4:56–5:04 | `talking_head` | 0.50 |  |
-| W38 | 5:04–5:12 | `talking_head` | 0.50 |  |
-| W39 | 5:12–5:20 | `talking_head` | 0.50 |  |
-| W40 | 5:20–5:28 | `talking_head` | 0.50 |  |
-| W41 | 5:28–5:36 | `talking_head` | 0.50 |  |
-| W42 | 5:36–5:44 | `talking_head` | 0.50 |  |
-| W43 | 5:44–5:52 | `talking_head` | 0.50 |  |
-| W44 | 5:52–6:00 | `talking_head` | 0.50 |  |
-| W45 | 6:00–6:08 | `talking_head` | 0.50 |  |
-| W46 | 6:08–6:16 | `talking_head` | 0.50 |  |
-| W47 | 6:16–6:24 | `talking_head` | 0.50 |  |
-| W48 | 6:24–6:32 | `talking_head` | 0.50 |  |
-| W49 | 6:32–6:40 | `talking_head` | 0.50 |  |
-| W50 | 6:40–6:48 | `talking_head` | 0.50 |  |
-| W51 | 6:48–6:56 | `talking_head` | 0.50 |  |
-| W52 | 6:56–7:04 | `transition` | 0.50 |  |
-| W53 | 7:04–7:12 | `transition` | 0.50 |  |
-| W54 | 7:12–7:20 | `outro_cta` | 0.50 |  |
-| W55 | 7:20–7:28 | `outro_cta` | 0.50 |  |
-| W56 | 7:28–7:36 | `outro_cta` | 0.50 |  |
-| W57 | 7:36–7:44 | `outro_cta` | 0.50 |  |
-| W58 | 7:44–7:52 | `outro_cta` | 0.50 |  |
-| W59 | 7:52–8:00 | `outro_cta` | 0.50 |  |
-| W60 | 8:00–8:08 | `outro_cta` | 0.50 |  |
-| W61 | 8:08–8:16 | `outro_cta` | 0.50 |  |
-| W62 | 8:16–8:24 | `outro_cta` | 0.50 |  |
-| W63 | 8:24–8:32 | `outro_cta` | 0.50 |  |
+| W24 | 3:12–3:20 | `talking_head` | 0.60 |  |
+| W25 | 3:20–3:28 | `talking_head` | 0.60 |  |
+| W26 | 3:28–3:36 | `talking_head` | 0.60 |  |
+| W27 | 3:36–3:44 | `talking_head` | 0.60 |  |
+| W28 | 3:44–3:52 | `talking_head` | 0.60 |  |
+| W29 | 3:52–4:00 | `melt_wax` | 0.50 |  |
+| W30 | 4:00–4:08 | `melt_wax` | 0.50 |  |
+| W31 | 4:08–4:16 | `melt_wax` | 0.50 |  |
+| W32 | 4:16–4:24 | `talking_head` | 0.60 |  |
+| W33 | 4:24–4:32 | `talking_head` | 0.60 |  |
+| W34 | 4:32–4:40 | `melt_wax` | 0.50 |  |
+| W35 | 4:40–4:48 | `melt_wax` | 0.50 |  |
+| W36 | 4:48–4:56 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W37 | 4:56–5:04 | `melt_wax` | 0.50 |  |
+| W38 | 5:04–5:12 | `melt_wax` | 0.50 |  |
+| W39 | 5:12–5:20 | `pour_wax` | 0.50 |  |
+| W40 | 5:20–5:28 | `talking_head` | 0.60 |  |
+| W41 | 5:28–5:36 | `talking_head` | 0.60 |  |
+| W42 | 5:36–5:44 | `talking_head` | 0.60 |  |
+| W43 | 5:44–5:52 | `pour_wax` | 0.50 |  |
+| W44 | 5:52–6:00 | `pour_wax` | 0.50 |  |
+| W45 | 6:00–6:08 | `pour_wax` | 0.50 |  |
+| W46 | 6:08–6:16 | `reveal_result` | 0.50 |  |
+| W47 | 6:16–6:24 | `melt_wax` | 0.50 | backward step vs canonical order (reveal_result->melt_wax) |
+| W48 | 6:24–6:32 | `talking_head` | 0.60 |  |
+| W49 | 6:32–6:40 | `talking_head` *(smoothed)* | 0.60 | despiked to match neighbours |
+| W50 | 6:40–6:48 | `talking_head` | 0.60 |  |
+| W51 | 6:48–6:56 | `reveal_result` | 0.50 |  |
+| W52 | 6:56–7:04 | `outro_cta` | 0.60 |  |
+| W53 | 7:04–7:12 | `outro_cta` | 0.60 |  |
+| W54 | 7:12–7:20 | `outro_cta` | 0.60 |  |
+| W55 | 7:20–7:28 | `outro_cta` | 0.60 |  |
+| W56 | 7:28–7:36 | `outro_cta` | 0.60 |  |
+| W57 | 7:36–7:44 | `outro_cta` | 0.60 |  |
+| W58 | 7:44–7:52 | `outro_cta` | 0.60 |  |
+| W59 | 7:52–8:00 | `outro_cta` | 0.60 |  |
+| W60 | 8:00–8:08 | `outro_cta` | 0.60 |  |
+| W61 | 8:08–8:16 | `outro_cta` | 0.60 |  |
+| W62 | 8:16–8:24 | `outro_cta` | 0.60 |  |
+| W63 | 8:24–8:32 | `outro_cta` | 0.60 |  |
