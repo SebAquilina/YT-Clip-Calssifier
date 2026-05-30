@@ -1,530 +1,530 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.02,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 1,
-    "start": 8.02,
-    "end": 16.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.03,
-    "end": 24.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.05,
-    "end": 32.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.06,
-    "end": 40.08,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 5,
-    "start": 40.08,
-    "end": 48.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.09,
-    "end": 56.11,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vy 7 XN Terw ie having thelr 1 year anniversary sale coming up, fealuring items priced at New Temu agp users can find these deals in my axciusive link below'."
-  },
-  {
-    "window": 7,
-    "start": 56.11,
-    "end": 64.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.12,
-    "end": 72.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.14,
-    "end": 80.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.15,
-    "end": 88.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.17,
-    "end": 96.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.18,
-    "end": 104.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.2,
-    "end": 112.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.21,
-    "end": 120.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 120.23,
-    "end": 128.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 128.24,
-    "end": 136.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 136.26,
-    "end": 144.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 144.27,
-    "end": 152.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 152.29,
-    "end": 160.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 160.3,
-    "end": 168.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 168.32,
-    "end": 176.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 176.33,
-    "end": 184.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 184.35,
-    "end": 192.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 192.36,
-    "end": 200.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 200.38,
-    "end": 208.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 208.39,
-    "end": 216.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 216.41,
-    "end": 224.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 224.42,
-    "end": 232.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 232.44,
-    "end": 240.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 240.45,
-    "end": 248.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 248.47,
-    "end": 256.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 256.48,
-    "end": 264.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 264.5,
-    "end": 272.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 272.52,
-    "end": 280.53,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 42 ff ay fe Ss 1 Pa ghee ey Nv 7. Ail ern aatin bo pour tne red right to the edge Revapes. Sr aa as'."
-  },
-  {
-    "window": 35,
-    "start": 280.53,
-    "end": 288.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 288.55,
-    "end": 296.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 296.56,
-    "end": 304.58,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SS Wh 2 te ae sy io er dh ee AS po OY'."
-  },
-  {
-    "window": 38,
-    "start": 304.58,
-    "end": 312.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 312.59,
-    "end": 320.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 320.61,
-    "end": 328.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 328.62,
-    "end": 336.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 336.64,
-    "end": 344.65,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe ioe aL Ne co ics used Cane BO, Hikawe RADMF ANd HobON for thin!'."
-  },
-  {
-    "window": 43,
-    "start": 344.65,
-    "end": 352.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 352.67,
-    "end": 360.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 45,
-    "start": 360.68,
-    "end": 368.7,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Lyi oye he ribbon ls tp0 cule Need ee acre for packag ing gifts 3'."
-  },
-  {
-    "window": 46,
-    "start": 368.7,
-    "end": 376.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 376.71,
-    "end": 384.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 384.73,
-    "end": 392.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 49,
-    "start": 392.74,
-    "end": 400.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 50,
-    "start": 400.76,
-    "end": 408.77,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'age SSyk 4 he yy SPA 3 ee ee ead gs sak 4 tie 2'."
-  },
-  {
-    "window": 51,
-    "start": 408.77,
-    "end": 416.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 416.79,
-    "end": 424.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 424.8,
-    "end": 432.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 432.82,
-    "end": 440.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 440.83,
-    "end": 448.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 448.85,
-    "end": 456.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 57,
-    "start": 456.86,
-    "end": 464.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 464.88,
-    "end": 472.89,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 472.89,
-    "end": 480.91,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 60,
-    "start": 480.91,
-    "end": 488.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 61,
-    "start": 488.92,
-    "end": 496.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 62,
-    "start": 496.94,
-    "end": 504.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 504.95,
-    "end": 512.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 64,
-    "start": 512.97,
-    "end": 520.98,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! JOOLIE Etsy'."
-  },
-  {
-    "window": 65,
-    "start": 520.98,
-    "end": 529.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.02,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 8.02,
+  "end": 16.03,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Temu silicone moulds (flowers, balls) shown."
+ },
+ {
+  "window": 2,
+  "start": 16.03,
+  "end": 24.05,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Temu silicone moulds (flowers, balls) shown."
+ },
+ {
+  "window": 3,
+  "start": 24.05,
+  "end": 32.06,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Temu silicone moulds (flowers, balls) shown."
+ },
+ {
+  "window": 4,
+  "start": 32.06,
+  "end": 40.08,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 40.08,
+  "end": 48.09,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 6,
+  "start": 48.09,
+  "end": 56.11,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vy 7 XN Terw ie having thelr 1 year anniversary sale coming up, fealuring items priced at New Temu agp users can find these deals in my axciusive link below'."
+ },
+ {
+  "window": 7,
+  "start": 56.11,
+  "end": 64.12,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 8,
+  "start": 64.12,
+  "end": 72.14,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 9,
+  "start": 72.14,
+  "end": 80.15,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 10,
+  "start": 80.15,
+  "end": 88.17,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 11,
+  "start": 88.17,
+  "end": 96.18,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 12,
+  "start": 96.18,
+  "end": 104.2,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 13,
+  "start": 104.2,
+  "end": 112.21,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 14,
+  "start": 112.21,
+  "end": 120.23,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 15,
+  "start": 120.23,
+  "end": 128.24,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 16,
+  "start": 128.24,
+  "end": 136.26,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 17,
+  "start": 136.26,
+  "end": 144.27,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 18,
+  "start": 144.27,
+  "end": 152.29,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 19,
+  "start": 152.29,
+  "end": 160.3,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 20,
+  "start": 160.3,
+  "end": 168.32,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 21,
+  "start": 168.32,
+  "end": 176.33,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 22,
+  "start": 176.33,
+  "end": 184.35,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 23,
+  "start": 184.35,
+  "end": 192.36,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 24,
+  "start": 192.36,
+  "end": 200.38,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 25,
+  "start": 200.38,
+  "end": 208.39,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 26,
+  "start": 208.39,
+  "end": 216.41,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 27,
+  "start": 216.41,
+  "end": 224.42,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 28,
+  "start": 224.42,
+  "end": 232.44,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 29,
+  "start": 232.44,
+  "end": 240.45,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 30,
+  "start": 240.45,
+  "end": 248.47,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 31,
+  "start": 248.47,
+  "end": 256.48,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 32,
+  "start": 256.48,
+  "end": 264.5,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 33,
+  "start": 264.5,
+  "end": 272.52,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 34,
+  "start": 272.52,
+  "end": 280.53,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 42 ff ay fe Ss 1 Pa ghee ey Nv 7. Ail ern aatin bo pour tne red right to the edge Revapes. Sr aa as'."
+ },
+ {
+  "window": 35,
+  "start": 280.53,
+  "end": 288.55,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 36,
+  "start": 288.55,
+  "end": 296.56,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 37,
+  "start": 296.56,
+  "end": 304.58,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'SS Wh 2 te ae sy io er dh ee AS po OY'."
+ },
+ {
+  "window": 38,
+  "start": 304.58,
+  "end": 312.59,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 39,
+  "start": 312.59,
+  "end": 320.61,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 40,
+  "start": 320.61,
+  "end": 328.62,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 41,
+  "start": 328.62,
+  "end": 336.64,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 42,
+  "start": 336.64,
+  "end": 344.65,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe ioe aL Ne co ics used Cane BO, Hikawe RADMF ANd HobON for thin!'."
+ },
+ {
+  "window": 43,
+  "start": 344.65,
+  "end": 352.67,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 44,
+  "start": 352.67,
+  "end": 360.68,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 45,
+  "start": 360.68,
+  "end": 368.7,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Lyi oye he ribbon ls tp0 cule Need ee acre for packag ing gifts 3'."
+ },
+ {
+  "window": 46,
+  "start": 368.7,
+  "end": 376.71,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 47,
+  "start": 376.71,
+  "end": 384.73,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 48,
+  "start": 384.73,
+  "end": 392.74,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 49,
+  "start": 392.74,
+  "end": 400.76,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 50,
+  "start": 400.76,
+  "end": 408.77,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'age SSyk 4 he yy SPA 3 ee ee ead gs sak 4 tie 2'."
+ },
+ {
+  "window": 51,
+  "start": 408.77,
+  "end": 416.79,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 52,
+  "start": 416.79,
+  "end": 424.8,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 53,
+  "start": 424.8,
+  "end": 432.82,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding the aesthetic moulded candles."
+ },
+ {
+  "window": 54,
+  "start": 432.82,
+  "end": 440.83,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring coloured wax into flower/ball silicone moulds."
+ },
+ {
+  "window": 55,
+  "start": 440.83,
+  "end": 448.85,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Tinting the wax (pink/yellow/green)."
+ },
+ {
+  "window": 56,
+  "start": 448.85,
+  "end": 456.86,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished aesthetic candles shown."
+ },
+ {
+  "window": 57,
+  "start": 456.86,
+  "end": 464.88,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished aesthetic candles shown."
+ },
+ {
+  "window": 58,
+  "start": 464.88,
+  "end": 472.89,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished aesthetic candles shown."
+ },
+ {
+  "window": 59,
+  "start": 472.89,
+  "end": 480.91,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 60,
+  "start": 480.91,
+  "end": 488.92,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished aesthetic candles shown."
+ },
+ {
+  "window": 61,
+  "start": 488.92,
+  "end": 496.94,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished aesthetic candles shown."
+ },
+ {
+  "window": 62,
+  "start": 496.94,
+  "end": 504.95,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished aesthetic candles shown."
+ },
+ {
+  "window": 63,
+  "start": 504.95,
+  "end": 512.97,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished aesthetic candles shown."
+ },
+ {
+  "window": 64,
+  "start": 512.97,
+  "end": 520.98,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! JOOLIE Etsy'."
+ },
+ {
+  "window": 65,
+  "start": 520.98,
+  "end": 529.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
