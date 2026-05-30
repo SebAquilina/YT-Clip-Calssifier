@@ -1,570 +1,570 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.01,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 1,
-    "start": 8.01,
-    "end": 16.03,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 2,
-    "start": 16.03,
-    "end": 24.04,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 3,
-    "start": 24.04,
-    "end": 32.06,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 4,
-    "start": 32.06,
-    "end": 40.07,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 5,
-    "start": 40.07,
-    "end": 48.08,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 6,
-    "start": 48.08,
-    "end": 56.1,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 7,
-    "start": 56.1,
-    "end": 64.11,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'on 4 le ae, wt we KC Bs on LS er 1 SS'."
-  },
-  {
-    "window": 8,
-    "start": 64.11,
-    "end": 72.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.13,
-    "end": 80.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.14,
-    "end": 88.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.15,
-    "end": 96.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.17,
-    "end": 104.18,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 13,
-    "start": 104.18,
-    "end": 112.2,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 14,
-    "start": 112.2,
-    "end": 120.21,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 15,
-    "start": 120.21,
-    "end": 128.23,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Hy eS tea ai 1. Pe 4 ff it 4 4 ya Lf ees ai af'."
-  },
-  {
-    "window": 16,
-    "start": 128.23,
-    "end": 136.24,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 17,
-    "start": 136.24,
-    "end": 144.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 144.25,
-    "end": 152.27,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 esi 1 re 3 mil iz 7 oa ee 5 ah Be 4 7 ww aat' ss Boe'."
-  },
-  {
-    "window": 19,
-    "start": 152.27,
-    "end": 160.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 160.28,
-    "end": 168.3,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 168.3,
-    "end": 176.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 176.31,
-    "end": 184.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 184.32,
-    "end": 192.34,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 192.34,
-    "end": 200.35,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'my sre us ry 7 Ji wf neh oi S-7y mage: rey Fon te ie yy 4 7 fu ay me! Sie Ss ae ej'."
-  },
-  {
-    "window": 25,
-    "start": 200.35,
-    "end": 208.37,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 26,
-    "start": 208.37,
-    "end": 216.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 216.38,
-    "end": 224.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 224.39,
-    "end": 232.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 232.41,
-    "end": 240.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 240.42,
-    "end": 248.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 248.44,
-    "end": 256.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 256.45,
-    "end": 264.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 264.46,
-    "end": 272.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 272.48,
-    "end": 280.49,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 280.49,
-    "end": 288.51,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 288.51,
-    "end": 296.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 296.52,
-    "end": 304.54,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 304.54,
-    "end": 312.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 312.55,
-    "end": 320.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 320.56,
-    "end": 328.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 328.58,
-    "end": 336.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 336.59,
-    "end": 344.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 43,
-    "start": 344.61,
-    "end": 352.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 352.62,
-    "end": 360.63,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'rv et ie se qi Ny ey ar Te 5 ail eS 3 PARE ate toa os Ss Sara ov ee Sets ee hc Pee 7 Sew eae'."
-  },
-  {
-    "window": 45,
-    "start": 360.63,
-    "end": 368.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 368.65,
-    "end": 376.66,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'va ay 2 2 vs os an Saat te Sy 7 aise aa ys'."
-  },
-  {
-    "window": 47,
-    "start": 376.66,
-    "end": 384.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 384.68,
-    "end": 392.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 49,
-    "start": 392.69,
-    "end": 400.7,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'iL va bie at Deed fi 4 et. ir 3 ee ee 5 Cae mF ae 4 4 or lS tee ay Pie lene Komen th Ne he. iia AmB He vat Pee fe ie!'."
-  },
-  {
-    "window": 50,
-    "start": 400.7,
-    "end": 408.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 51,
-    "start": 408.72,
-    "end": 416.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 416.73,
-    "end": 424.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 424.75,
-    "end": 432.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 432.76,
-    "end": 440.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 440.77,
-    "end": 448.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 448.79,
-    "end": 456.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 57,
-    "start": 456.8,
-    "end": 464.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 464.82,
-    "end": 472.83,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 59,
-    "start": 472.83,
-    "end": 480.85,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 60,
-    "start": 480.85,
-    "end": 488.86,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 61,
-    "start": 488.86,
-    "end": 496.87,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 62,
-    "start": 496.87,
-    "end": 504.89,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 63,
-    "start": 504.89,
-    "end": 512.9,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 64,
-    "start": 512.9,
-    "end": 520.92,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 65,
-    "start": 520.92,
-    "end": 528.93,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 66,
-    "start": 528.93,
-    "end": 536.94,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 67,
-    "start": 536.94,
-    "end": 544.96,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 68,
-    "start": 544.96,
-    "end": 552.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 69,
-    "start": 552.97,
-    "end": 560.99,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 70,
-    "start": 560.99,
-    "end": 569.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.01,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 8.01,
+  "end": 16.03,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 16.03,
+  "end": 24.04,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 24.04,
+  "end": 32.06,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 4,
+  "start": 32.06,
+  "end": 40.07,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 40.07,
+  "end": 48.08,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 48.08,
+  "end": 56.1,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 56.1,
+  "end": 64.11,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'on 4 le ae, wt we KC Bs on LS er 1 SS'."
+ },
+ {
+  "window": 8,
+  "start": 64.11,
+  "end": 72.13,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 9,
+  "start": 72.13,
+  "end": 80.14,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 10,
+  "start": 80.14,
+  "end": 88.15,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 11,
+  "start": 88.15,
+  "end": 96.17,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 12,
+  "start": 96.17,
+  "end": 104.18,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 104.18,
+  "end": 112.2,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 112.2,
+  "end": 120.21,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 120.21,
+  "end": 128.23,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Hy eS tea ai 1. Pe 4 ff it 4 4 ya Lf ees ai af'."
+ },
+ {
+  "window": 16,
+  "start": 128.23,
+  "end": 136.24,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 136.24,
+  "end": 144.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 18,
+  "start": 144.25,
+  "end": 152.27,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 esi 1 re 3 mil iz 7 oa ee 5 ah Be 4 7 ww aat' ss Boe'."
+ },
+ {
+  "window": 19,
+  "start": 152.27,
+  "end": 160.28,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead: pouring wax into moulds (ice-cube tray)."
+ },
+ {
+  "window": 20,
+  "start": 160.28,
+  "end": 168.3,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 21,
+  "start": 168.3,
+  "end": 176.31,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 22,
+  "start": 176.31,
+  "end": 184.32,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead: pouring wax into moulds (ice-cube tray)."
+ },
+ {
+  "window": 23,
+  "start": 184.32,
+  "end": 192.34,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 24,
+  "start": 192.34,
+  "end": 200.35,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'my sre us ry 7 Ji wf neh oi S-7y mage: rey Fon te ie yy 4 7 fu ay me! Sie Ss ae ej'."
+ },
+ {
+  "window": 25,
+  "start": 200.35,
+  "end": 208.37,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 26,
+  "start": 208.37,
+  "end": 216.38,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 27,
+  "start": 216.38,
+  "end": 224.39,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 28,
+  "start": 224.39,
+  "end": 232.41,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 29,
+  "start": 232.41,
+  "end": 240.42,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 30,
+  "start": 240.42,
+  "end": 248.44,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 31,
+  "start": 248.44,
+  "end": 256.45,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 32,
+  "start": 256.45,
+  "end": 264.46,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 33,
+  "start": 264.46,
+  "end": 272.48,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 34,
+  "start": 272.48,
+  "end": 280.49,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 35,
+  "start": 280.49,
+  "end": 288.51,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 36,
+  "start": 288.51,
+  "end": 296.52,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 37,
+  "start": 296.52,
+  "end": 304.54,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 38,
+  "start": 304.54,
+  "end": 312.55,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 39,
+  "start": 312.55,
+  "end": 320.56,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 40,
+  "start": 320.56,
+  "end": 328.58,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 41,
+  "start": 328.58,
+  "end": 336.59,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 42,
+  "start": 336.59,
+  "end": 344.61,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 43,
+  "start": 344.61,
+  "end": 352.62,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 44,
+  "start": 352.62,
+  "end": 360.63,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'rv et ie se qi Ny ey ar Te 5 ail eS 3 PARE ate toa os Ss Sara ov ee Sets ee hc Pee 7 Sew eae'."
+ },
+ {
+  "window": 45,
+  "start": 360.63,
+  "end": 368.65,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 46,
+  "start": 368.65,
+  "end": 376.66,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'va ay 2 2 vs os an Saat te Sy 7 aise aa ys'."
+ },
+ {
+  "window": 47,
+  "start": 376.66,
+  "end": 384.68,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 48,
+  "start": 384.68,
+  "end": 392.69,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 49,
+  "start": 392.69,
+  "end": 400.7,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'iL va bie at Deed fi 4 et. ir 3 ee ee 5 Cae mF ae 4 4 or lS tee ay Pie lene Komen th Ne he. iia AmB He vat Pee fe ie!'."
+ },
+ {
+  "window": 50,
+  "start": 400.7,
+  "end": 408.72,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 51,
+  "start": 408.72,
+  "end": 416.73,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 52,
+  "start": 416.73,
+  "end": 424.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 53,
+  "start": 424.75,
+  "end": 432.76,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 54,
+  "start": 432.76,
+  "end": 440.77,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 55,
+  "start": 440.77,
+  "end": 448.79,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 56,
+  "start": 448.79,
+  "end": 456.8,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (the viral candle)."
+ },
+ {
+  "window": 57,
+  "start": 456.8,
+  "end": 464.82,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead candle-making insert (mould/pour)."
+ },
+ {
+  "window": 58,
+  "start": 464.82,
+  "end": 472.83,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 59,
+  "start": 472.83,
+  "end": 480.85,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 60,
+  "start": 480.85,
+  "end": 488.86,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 61,
+  "start": 488.86,
+  "end": 496.87,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 62,
+  "start": 496.87,
+  "end": 504.89,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 63,
+  "start": 504.89,
+  "end": 512.9,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 64,
+  "start": 512.9,
+  "end": 520.92,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 65,
+  "start": 520.92,
+  "end": 528.93,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 66,
+  "start": 528.93,
+  "end": 536.94,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 67,
+  "start": 536.94,
+  "end": 544.96,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 68,
+  "start": 544.96,
+  "end": 552.97,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished viral candle shown."
+ },
+ {
+  "window": 69,
+  "start": 552.97,
+  "end": 560.99,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished viral candle shown."
+ },
+ {
+  "window": 70,
+  "start": 560.99,
+  "end": 569.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
