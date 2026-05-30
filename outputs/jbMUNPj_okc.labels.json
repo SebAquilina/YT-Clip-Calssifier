@@ -196,671 +196,671 @@
   "start": 191.11,
   "end": 199.07,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 25,
   "start": 199.07,
   "end": 207.04,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 26,
   "start": 207.04,
   "end": 215.0,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 27,
   "start": 215.0,
   "end": 222.96,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 28,
   "start": 222.96,
   "end": 230.93,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 29,
   "start": 230.93,
   "end": 238.89,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 30,
   "start": 238.89,
   "end": 246.85,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 31,
   "start": 246.85,
   "end": 254.81,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 32,
   "start": 254.81,
   "end": 262.78,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 33,
   "start": 262.78,
   "end": 270.74,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 34,
   "start": 270.74,
   "end": 278.7,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 35,
   "start": 278.7,
   "end": 286.67,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 36,
   "start": 286.67,
   "end": 294.63,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 37,
   "start": 294.63,
   "end": 302.59,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 38,
   "start": 302.59,
   "end": 310.56,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "confidence": 0.6,
+  "description": "Host talks to camera about calculating fragrance load."
  },
  {
   "window": 39,
   "start": 310.56,
   "end": 318.52,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 40,
   "start": 318.52,
   "end": 326.48,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 41,
   "start": 326.48,
   "end": 334.44,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 42,
   "start": 334.44,
   "end": 342.41,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 43,
   "start": 342.41,
   "end": 350.37,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 44,
   "start": 350.37,
   "end": 358.33,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 45,
   "start": 358.33,
   "end": 366.3,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 46,
   "start": 366.3,
   "end": 374.26,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 47,
   "start": 374.26,
   "end": 382.22,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 48,
   "start": 382.22,
   "end": 390.19,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 49,
   "start": 390.19,
   "end": 398.15,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 50,
   "start": 398.15,
   "end": 406.11,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 51,
   "start": 406.11,
   "end": 414.07,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 52,
   "start": 414.07,
   "end": 422.04,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 53,
   "start": 422.04,
   "end": 430.0,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 54,
   "start": 430.0,
   "end": 437.96,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 55,
   "start": 437.96,
   "end": 445.93,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 56,
   "start": 445.93,
   "end": 453.89,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 57,
   "start": 453.89,
   "end": 461.85,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 58,
   "start": 461.85,
   "end": 469.81,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 59,
   "start": 469.81,
   "end": 477.78,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 60,
   "start": 477.78,
   "end": 485.74,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 61,
   "start": 485.74,
   "end": 493.7,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 62,
   "start": 493.7,
   "end": 501.67,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 63,
   "start": 501.67,
   "end": 509.63,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 64,
   "start": 509.63,
   "end": 517.59,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 65,
   "start": 517.59,
   "end": 525.56,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 66,
   "start": 525.56,
   "end": 533.52,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 67,
   "start": 533.52,
   "end": 541.48,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 68,
   "start": 541.48,
   "end": 549.44,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 69,
   "start": 549.44,
   "end": 557.41,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 70,
   "start": 557.41,
   "end": 565.37,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 71,
   "start": 565.37,
   "end": 573.33,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 72,
   "start": 573.33,
   "end": 581.3,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 73,
   "start": 581.3,
   "end": 589.26,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 74,
   "start": 589.26,
   "end": 597.22,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 75,
   "start": 597.22,
   "end": 605.19,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 76,
   "start": 605.19,
   "end": 613.15,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 77,
   "start": 613.15,
   "end": 621.11,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 78,
   "start": 621.11,
   "end": 629.07,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 79,
   "start": 629.07,
   "end": 637.04,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 80,
   "start": 637.04,
   "end": 645.0,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 81,
   "start": 645.0,
   "end": 652.96,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 82,
   "start": 652.96,
   "end": 660.93,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 83,
   "start": 660.93,
   "end": 668.89,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 84,
   "start": 668.89,
   "end": 676.85,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 85,
   "start": 676.85,
   "end": 684.81,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 86,
   "start": 684.81,
   "end": 692.78,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 87,
   "start": 692.78,
   "end": 700.74,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 88,
   "start": 700.74,
   "end": 708.7,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 89,
   "start": 708.7,
   "end": 716.67,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 90,
   "start": 716.67,
   "end": 724.63,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 91,
   "start": 724.63,
   "end": 732.59,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 92,
   "start": 732.59,
   "end": 740.56,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 93,
   "start": 740.56,
   "end": 748.52,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 94,
   "start": 748.52,
   "end": 756.48,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 95,
   "start": 756.48,
   "end": 764.44,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 96,
   "start": 764.44,
   "end": 772.41,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 97,
   "start": 772.41,
   "end": 780.37,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 98,
   "start": 780.37,
   "end": 788.33,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 99,
   "start": 788.33,
   "end": 796.3,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 100,
   "start": 796.3,
   "end": 804.26,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 101,
   "start": 804.26,
   "end": 812.22,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera about calculating fragrance amounts."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 102,
   "start": 812.22,
   "end": 820.19,
-  "label": "outro_cta",
-  "confidence": 0.4,
-  "description": "Closing frame."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 103,
   "start": 820.19,
   "end": 828.15,
-  "label": "outro_cta",
-  "confidence": 0.4,
-  "description": "Closing frame."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Overhead: working fragrance calculations on a notepad with a calculator."
  },
  {
   "window": 104,
   "start": 828.15,
   "end": 836.11,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ca ks Sats ee ee es oornrke Wh ES aw fi PRESCRIBE HERE'."
+  "confidence": 0.6,
+  "description": "'Thanks for watching / subscribe' end card."
  },
  {
   "window": 105,
   "start": 836.11,
   "end": 844.07,
   "label": "outro_cta",
-  "confidence": 0.4,
-  "description": "Closing frame."
+  "confidence": 0.6,
+  "description": "'Thanks for watching / subscribe' end card."
  },
  {
   "window": 106,
   "start": 844.07,
   "end": 852.04,
   "label": "outro_cta",
-  "confidence": 0.4,
-  "description": "Closing frame."
+  "confidence": 0.6,
+  "description": "'Thanks for watching / subscribe' end card."
  },
  {
   "window": 107,
   "start": 852.04,
   "end": 860.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thanks for watching / subscribe' end card."
  }
 ]

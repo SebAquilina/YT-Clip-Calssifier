@@ -366,274 +366,285 @@
       "window": 24,
       "start": 191.04,
       "end": 199.0,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 25,
       "start": 199.0,
       "end": 206.96,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 26,
       "start": 206.96,
       "end": 214.92,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Factory: wax fed into the moulding line.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->cure_cool)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 27,
       "start": 214.92,
       "end": 222.88,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Factory: wax fed into the moulding line.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
     },
     {
       "window": 28,
       "start": 222.88,
       "end": 230.84,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 29,
       "start": 230.84,
       "end": 238.8,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 30,
       "start": 238.8,
       "end": 246.76,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Factory: wax fed into the moulding line.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->cure_cool)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 31,
       "start": 246.76,
       "end": 254.72,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
-      "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 32,
-      "start": 254.72,
-      "end": 262.68,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
-      "is_step": true,
-      "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
-    },
-    {
-      "window": 33,
-      "start": 262.68,
-      "end": 270.64,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 34,
-      "start": 270.64,
-      "end": 278.6,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
-      "window": 35,
-      "start": 278.6,
-      "end": 286.56,
+      "window": 32,
+      "start": 254.72,
+      "end": 262.68,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
       "notes": []
+    },
+    {
+      "window": 33,
+      "start": 262.68,
+      "end": 270.64,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Factory: molten wax vat/channel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 270.64,
+      "end": 278.6,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Factory: molten wax vat/channel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 278.6,
+      "end": 286.56,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Factory: wax fed into the moulding line.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
     },
     {
       "window": 36,
       "start": 286.56,
       "end": 294.52,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 37,
       "start": 294.52,
       "end": 302.48,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 38,
-      "start": 302.48,
-      "end": 310.44,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oy SS: jf ie ie Ge BC pee al ee tages 5'.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 39,
-      "start": 310.44,
-      "end": 318.4,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
-      "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 40,
-      "start": 318.4,
-      "end": 326.36,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Factory: molten wax vat/channel.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->melt_wax)"
       ]
     },
     {
-      "window": 41,
-      "start": 326.36,
-      "end": 334.32,
+      "window": 38,
+      "start": 302.48,
+      "end": 310.44,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Factory: wax fed into the moulding line.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 39,
+      "start": 310.44,
+      "end": 318.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 318.4,
+      "end": 326.36,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 41,
+      "start": 326.36,
+      "end": 334.32,
+      "label": "cure_cool",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Factory: wax fed into the moulding line.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
@@ -642,11 +653,11 @@
       "end": 342.28,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->cure_cool)"
@@ -656,46 +667,46 @@
       "window": 43,
       "start": 342.28,
       "end": 350.24,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'et en pe ol 5 14 eo. al ailing rs 2 Se Fig sS See Oe yy ia oa al fe 3 ay yes'.",
+      "description": "Factory: wax fed into the moulding line.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
     },
     {
       "window": 44,
       "start": 350.24,
       "end": 358.2,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 45,
       "start": 358.2,
       "end": 366.16,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
@@ -704,11 +715,11 @@
       "end": 374.12,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->cure_cool)"
@@ -720,11 +731,11 @@
       "end": 382.08,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
       "notes": []
     },
@@ -732,32 +743,32 @@
       "window": 48,
       "start": 382.08,
       "end": 390.04,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Factory: wax fed into the moulding line.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->pour_wax)"
       ]
     },
     {
       "window": 49,
       "start": 390.04,
       "end": 398.0,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
@@ -765,14 +776,15 @@
       "start": 398.0,
       "end": 405.96,
       "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
+      "original_label": "melt_wax",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
-      "smoothed": false,
+      "description": "Factory: molten wax vat/channel.",
+      "smoothed": true,
       "notes": [
+        "despiked to match neighbours",
         "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
@@ -780,46 +792,49 @@
       "window": 51,
       "start": 405.96,
       "end": 413.92,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae ey ie we ee ty PF Wty aa re pe ee te om 4 oh wu ey 2 sad ad 4 si og'.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 52,
       "start": 413.92,
       "end": 421.88,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 53,
       "start": 421.88,
       "end": 429.84,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
-      "smoothed": false,
+      "description": "Demoulded finished candles on the line / in bins.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
@@ -828,11 +843,11 @@
       "end": 437.8,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->cure_cool)"
@@ -842,44 +857,49 @@
       "window": 55,
       "start": 437.8,
       "end": 445.76,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 56,
       "start": 445.76,
       "end": 453.72,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ey 4 Za ae 4 ee 3 Si pe vs 7 rs bin 4 wy ted we'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Demoulded finished candles on the line / in bins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 57,
       "start": 453.72,
       "end": 461.68,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
@@ -888,11 +908,11 @@
       "end": 469.64,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->cure_cool)"
@@ -902,46 +922,49 @@
       "window": 59,
       "start": 469.64,
       "end": 477.6,
-      "label": "reveal_result",
+      "label": "cure_cool",
       "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
-      "smoothed": false,
-      "notes": []
+      "description": "Demoulded finished candles on the line / in bins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 60,
       "start": 477.6,
       "end": 485.56,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 61,
       "start": 485.56,
       "end": 493.52,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
@@ -949,14 +972,15 @@
       "start": 493.52,
       "end": 501.48,
       "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
+      "original_label": "reveal_result",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
-      "smoothed": false,
+      "description": "Demoulded finished candles on the line / in bins.",
+      "smoothed": true,
       "notes": [
+        "despiked to match neighbours",
         "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
@@ -964,46 +988,49 @@
       "window": 63,
       "start": 501.48,
       "end": 509.44,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 64,
       "start": 509.44,
       "end": 517.4,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 65,
       "start": 517.4,
       "end": 525.36,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
-      "smoothed": false,
+      "description": "Demoulded finished candles on the line / in bins.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
@@ -1012,11 +1039,11 @@
       "end": 533.32,
       "label": "cure_cool",
       "original_label": "cure_cool",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (reveal_result->cure_cool)"
@@ -1026,61 +1053,66 @@
       "window": 67,
       "start": 533.32,
       "end": 541.28,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ts AS 4 Ye iq ae ae 4 Si ada'.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 68,
       "start": 541.28,
       "end": 549.24,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
-      "smoothed": false,
+      "description": "Demoulded finished candles on the line / in bins.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 69,
       "start": 549.24,
       "end": 557.2,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 70,
       "start": 557.2,
       "end": 565.16,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 71,
@@ -1088,11 +1120,11 @@
       "end": 573.12,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
       "notes": []
     },
@@ -1100,13 +1132,13 @@
       "window": 72,
       "start": 573.12,
       "end": 581.08,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '2 fk aie ws we oo nee oy Se ot Pe'.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
       "notes": []
     },
@@ -1114,93 +1146,95 @@
       "window": 73,
       "start": 581.08,
       "end": 589.04,
-      "label": "transition",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
-      "smoothed": true,
+      "description": "Rows of candles cooling in the moulds on the conveyor.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 74,
       "start": 589.04,
       "end": 597.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Se af if Ja Sa Uae ee 3 9'.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 75,
       "start": 597.0,
       "end": 604.96,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 76,
       "start": 604.96,
       "end": 612.92,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 77,
       "start": 612.92,
       "end": 620.88,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 78,
       "start": 620.88,
       "end": 628.84,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->cure_cool)"
-      ]
+      "notes": []
     },
     {
       "window": 79,
@@ -1208,11 +1242,11 @@
       "end": 636.8,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
       "notes": []
     },
@@ -1220,179 +1254,188 @@
       "window": 80,
       "start": 636.8,
       "end": 644.76,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 81,
       "start": 644.76,
       "end": 652.72,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 82,
       "start": 652.72,
       "end": 660.68,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aa As at ee was: aes SEN 3 ae 78 4 ca Re nl cc evar Uy, eo pa 5 Oy 2. Fred we Pan Monster 2. ss'.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 83,
       "start": 660.68,
       "end": 668.64,
-      "label": "reveal_result",
+      "label": "decorate_finish",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.45,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
-      "smoothed": false,
-      "notes": []
+      "description": "Demoulded finished candles on the line / in bins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 84,
       "start": 668.64,
       "end": 676.6,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 85,
       "start": 676.6,
       "end": 684.56,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 86,
       "start": 684.56,
       "end": 692.52,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 87,
       "start": 692.52,
       "end": 700.48,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 88,
       "start": 700.48,
       "end": 708.44,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 89,
       "start": 708.44,
       "end": 716.4,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 90,
       "start": 716.4,
       "end": 724.36,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Machine finishing the candles (stamping Korean text, cutting, rolling).",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->cure_cool)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 91,
       "start": 724.36,
       "end": 732.32,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Packing candles into boxes / conveyor b-roll.",
       "smoothed": false,
       "notes": []
     },
@@ -1400,61 +1443,55 @@
       "window": 92,
       "start": 732.32,
       "end": 740.28,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.4,
-      "phase": "process",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Molten wax channels in the candle factory.",
+      "description": "Packing candles into boxes / conveyor b-roll.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 93,
       "start": 740.28,
       "end": 748.24,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Wax fed into the moulding machine.",
+      "description": "Packing candles into boxes / conveyor b-roll.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 94,
       "start": 748.24,
       "end": 756.2,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Packing candles into boxes / conveyor b-roll.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (reveal_result->cure_cool)"
-      ]
+      "notes": []
     },
     {
       "window": 95,
       "start": 756.2,
       "end": 764.16,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Packing candles into boxes / conveyor b-roll.",
       "smoothed": false,
       "notes": []
     },
@@ -1462,13 +1499,13 @@
       "window": 96,
       "start": 764.16,
       "end": 772.12,
-      "label": "outro_cta",
-      "original_label": "outro_cta",
-      "confidence": 0.5,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.45,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aan ae 4 che ar aS Wi AS ee 7 cd aw ei,'.",
+      "description": "Packing candles into boxes / conveyor b-roll.",
       "smoothed": false,
       "notes": []
     },
@@ -1476,13 +1513,13 @@
       "window": 97,
       "start": 772.12,
       "end": 780.08,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulded finished candles on the line / in bins.",
       "smoothed": false,
       "notes": []
     },
@@ -1490,31 +1527,33 @@
       "window": 98,
       "start": 780.08,
       "end": 788.04,
-      "label": "cure_cool",
-      "original_label": "cure_cool",
-      "confidence": 0.4,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Rows of white candles cooling in the moulds on the line.",
+      "description": "Factory: molten wax vat/channel.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (reveal_result->cure_cool)"
+        "backward step vs canonical order (reveal_result->melt_wax)"
       ]
     },
     {
       "window": 99,
       "start": 788.04,
       "end": 796.0,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Demoulded white pillar candles on the conveyor.",
+      "description": "Factory: molten wax vat/channel.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
     }
   ],
   "segments": [
@@ -1783,255 +1822,185 @@
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "cure_cool",
+      "phase": "assemble",
       "is_step": true,
       "start": 191.04,
-      "end": 199.0,
-      "confidence": 0.4,
+      "end": 206.96,
+      "confidence": 0.45,
       "windows": [
-        24
+        24,
+        25
       ]
     },
     {
       "label": "pour_wax",
       "phase": "assemble",
       "is_step": true,
-      "start": 199.0,
-      "end": 206.96,
-      "confidence": 0.4,
+      "start": 206.96,
+      "end": 222.88,
+      "confidence": 0.45,
       "windows": [
-        25
+        26,
+        27
       ]
     },
     {
       "label": "cure_cool",
       "phase": "assemble",
       "is_step": true,
-      "start": 206.96,
-      "end": 214.92,
-      "confidence": 0.4,
-      "windows": [
-        26
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 214.92,
-      "end": 222.88,
-      "confidence": 0.4,
-      "windows": [
-        27
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
       "start": 222.88,
       "end": 230.84,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         28
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "reveal_result",
+      "phase": "finish",
       "is_step": true,
       "start": 230.84,
       "end": 238.8,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         29
       ]
     },
     {
-      "label": "cure_cool",
+      "label": "pour_wax",
       "phase": "assemble",
       "is_step": true,
       "start": 238.8,
       "end": 246.76,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         30
       ]
     },
     {
-      "label": "reveal_result",
-      "phase": "finish",
+      "label": "cure_cool",
+      "phase": "assemble",
       "is_step": true,
       "start": 246.76,
       "end": 254.72,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         31
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "reveal_result",
+      "phase": "finish",
       "is_step": true,
       "start": 254.72,
       "end": 262.68,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         32
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 262.68,
-      "end": 270.64,
-      "confidence": 0.7,
-      "windows": [
-        33
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
+      "label": "melt_wax",
+      "phase": "process",
       "is_step": true,
-      "start": 270.64,
+      "start": 262.68,
       "end": 278.6,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
+        33,
         34
       ]
     },
     {
-      "label": "reveal_result",
-      "phase": "finish",
+      "label": "pour_wax",
+      "phase": "assemble",
       "is_step": true,
       "start": 278.6,
       "end": 286.56,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         35
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "cure_cool",
+      "phase": "assemble",
       "is_step": true,
       "start": 286.56,
       "end": 294.52,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         36
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
       "start": 294.52,
       "end": 302.48,
-      "confidence": 0.7,
+      "confidence": 0.45,
       "windows": [
         37
       ]
     },
     {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
       "start": 302.48,
       "end": 310.44,
-      "confidence": 0.5,
+      "confidence": 0.45,
       "windows": [
         38
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 310.44,
+      "end": 342.28,
+      "confidence": 0.45,
+      "windows": [
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 342.28,
+      "end": 350.24,
+      "confidence": 0.45,
+      "windows": [
+        43
       ]
     },
     {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 310.44,
-      "end": 318.4,
-      "confidence": 0.4,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 318.4,
-      "end": 326.36,
-      "confidence": 0.4,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 326.36,
-      "end": 334.32,
-      "confidence": 0.4,
-      "windows": [
-        41
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 334.32,
-      "end": 342.28,
-      "confidence": 0.4,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 342.28,
-      "end": 350.24,
-      "confidence": 0.5,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
       "start": 350.24,
       "end": 358.2,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         44
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 358.2,
-      "end": 366.16,
-      "confidence": 0.4,
-      "windows": [
-        45
-      ]
-    },
-    {
       "label": "cure_cool",
       "phase": "assemble",
       "is_step": true,
-      "start": 366.16,
+      "start": 358.2,
       "end": 374.12,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
+        45,
         46
       ]
     },
@@ -2041,261 +2010,51 @@
       "is_step": true,
       "start": 374.12,
       "end": 382.08,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         47
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "pour_wax",
+      "phase": "assemble",
       "is_step": true,
       "start": 382.08,
       "end": 390.04,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
         48
       ]
     },
     {
-      "label": "pour_wax",
+      "label": "cure_cool",
       "phase": "assemble",
       "is_step": true,
       "start": 390.04,
-      "end": 398.0,
-      "confidence": 0.4,
-      "windows": [
-        49
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 398.0,
-      "end": 405.96,
-      "confidence": 0.4,
-      "windows": [
-        50
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 405.96,
-      "end": 413.92,
-      "confidence": 0.5,
-      "windows": [
-        51
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 413.92,
-      "end": 421.88,
-      "confidence": 0.4,
-      "windows": [
-        52
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 421.88,
-      "end": 429.84,
-      "confidence": 0.4,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 429.84,
-      "end": 437.8,
-      "confidence": 0.4,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 437.8,
-      "end": 445.76,
-      "confidence": 0.4,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 445.76,
-      "end": 453.72,
-      "confidence": 0.5,
-      "windows": [
-        56
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 453.72,
-      "end": 461.68,
-      "confidence": 0.4,
-      "windows": [
-        57
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 461.68,
-      "end": 469.64,
-      "confidence": 0.4,
-      "windows": [
-        58
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 469.64,
-      "end": 477.6,
-      "confidence": 0.4,
-      "windows": [
-        59
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 477.6,
-      "end": 485.56,
-      "confidence": 0.4,
-      "windows": [
-        60
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 485.56,
-      "end": 493.52,
-      "confidence": 0.4,
-      "windows": [
-        61
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 493.52,
-      "end": 501.48,
-      "confidence": 0.4,
-      "windows": [
-        62
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 501.48,
-      "end": 509.44,
-      "confidence": 0.4,
-      "windows": [
-        63
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 509.44,
-      "end": 517.4,
-      "confidence": 0.4,
-      "windows": [
-        64
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 517.4,
-      "end": 525.36,
-      "confidence": 0.4,
-      "windows": [
-        65
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 525.36,
-      "end": 533.32,
-      "confidence": 0.4,
-      "windows": [
-        66
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 533.32,
-      "end": 541.28,
-      "confidence": 0.5,
-      "windows": [
-        67
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 541.28,
-      "end": 549.24,
-      "confidence": 0.4,
-      "windows": [
-        68
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 549.24,
-      "end": 557.2,
-      "confidence": 0.4,
-      "windows": [
-        69
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 557.2,
       "end": 565.16,
-      "confidence": 0.7,
+      "confidence": 0.45,
       "windows": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
         70
       ]
     },
@@ -2304,277 +2063,107 @@
       "phase": "finish",
       "is_step": true,
       "start": 565.16,
-      "end": 573.12,
-      "confidence": 0.4,
+      "end": 581.08,
+      "confidence": 0.45,
       "windows": [
-        71
+        71,
+        72
       ]
     },
     {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 573.12,
-      "end": 597.0,
-      "confidence": 0.47,
-      "windows": [
-        72,
-        73,
-        74
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 597.0,
-      "end": 604.96,
-      "confidence": 0.4,
-      "windows": [
-        75
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 604.96,
-      "end": 612.92,
-      "confidence": 0.4,
-      "windows": [
-        76
-      ]
-    },
-    {
-      "label": "pour_wax",
+      "label": "cure_cool",
       "phase": "assemble",
       "is_step": true,
-      "start": 612.92,
-      "end": 620.88,
-      "confidence": 0.4,
+      "start": 581.08,
+      "end": 589.04,
+      "confidence": 0.45,
       "windows": [
+        73
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 589.04,
+      "end": 620.88,
+      "confidence": 0.45,
+      "windows": [
+        74,
+        75,
+        76,
         77
       ]
     },
     {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 620.88,
-      "end": 628.84,
-      "confidence": 0.4,
-      "windows": [
-        78
-      ]
-    },
-    {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 628.84,
-      "end": 636.8,
-      "confidence": 0.4,
-      "windows": [
-        79
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 636.8,
+      "start": 620.88,
       "end": 644.76,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
+        78,
+        79,
         80
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "phase": "finish",
       "is_step": true,
       "start": 644.76,
-      "end": 652.72,
-      "confidence": 0.4,
+      "end": 724.36,
+      "confidence": 0.45,
       "windows": [
-        81
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
       ]
     },
     {
       "label": "transition",
       "phase": "aux",
       "is_step": false,
-      "start": 652.72,
-      "end": 660.68,
-      "confidence": 0.5,
-      "windows": [
-        82
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 660.68,
-      "end": 668.64,
-      "confidence": 0.4,
-      "windows": [
-        83
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 668.64,
-      "end": 676.6,
-      "confidence": 0.4,
-      "windows": [
-        84
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 676.6,
-      "end": 684.56,
-      "confidence": 0.4,
-      "windows": [
-        85
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 684.56,
-      "end": 708.44,
-      "confidence": 0.77,
-      "windows": [
-        86,
-        87,
-        88
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 708.44,
-      "end": 716.4,
-      "confidence": 0.4,
-      "windows": [
-        89
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 716.4,
-      "end": 724.36,
-      "confidence": 0.4,
-      "windows": [
-        90
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
       "start": 724.36,
-      "end": 732.32,
-      "confidence": 0.4,
-      "windows": [
-        91
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 732.32,
-      "end": 740.28,
-      "confidence": 0.4,
-      "windows": [
-        92
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 740.28,
-      "end": 748.24,
-      "confidence": 0.4,
-      "windows": [
-        93
-      ]
-    },
-    {
-      "label": "cure_cool",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 748.24,
-      "end": 756.2,
-      "confidence": 0.4,
-      "windows": [
-        94
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 756.2,
-      "end": 764.16,
-      "confidence": 0.4,
-      "windows": [
-        95
-      ]
-    },
-    {
-      "label": "outro_cta",
-      "phase": "aux",
-      "is_step": false,
-      "start": 764.16,
       "end": 772.12,
-      "confidence": 0.5,
+      "confidence": 0.45,
       "windows": [
+        91,
+        92,
+        93,
+        94,
+        95,
         96
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
       "start": 772.12,
       "end": 780.08,
-      "confidence": 0.7,
+      "confidence": 0.45,
       "windows": [
         97
       ]
     },
     {
-      "label": "cure_cool",
-      "phase": "assemble",
+      "label": "melt_wax",
+      "phase": "process",
       "is_step": true,
       "start": 780.08,
-      "end": 788.04,
-      "confidence": 0.4,
-      "windows": [
-        98
-      ]
-    },
-    {
-      "label": "reveal_result",
-      "phase": "finish",
-      "is_step": true,
-      "start": 788.04,
       "end": 796.0,
-      "confidence": 0.4,
+      "confidence": 0.45,
       "windows": [
+        98,
         99
       ]
     }

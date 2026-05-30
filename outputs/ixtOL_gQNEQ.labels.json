@@ -195,9 +195,9 @@
   "window": 24,
   "start": 191.55,
   "end": 199.53,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 25,
@@ -205,15 +205,15 @@
   "end": 207.51,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 26,
   "start": 207.51,
   "end": 215.5,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'el te Saas LT At oe 1 fa Pitta 2 3. aes Se'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 27,
@@ -221,63 +221,63 @@
   "end": 223.48,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 28,
   "start": 223.48,
   "end": 231.46,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 29,
   "start": 231.46,
   "end": 239.44,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ba ce eee 7 vad SS SS oe Se ee SS ee 7 im 4 Ps'."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 30,
   "start": 239.44,
   "end": 247.42,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 31,
   "start": 247.42,
   "end": 255.4,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 32,
   "start": 255.4,
   "end": 263.38,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 33,
   "start": 263.38,
   "end": 271.36,
-  "label": "decorate_finish",
+  "label": "gather_materials",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Wax blocks/flakes for the test shown (Paraffin / Cargill NatureWax)."
  },
  {
   "window": 34,
   "start": 271.36,
   "end": 279.35,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "confidence": 0.5,
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 35,
@@ -285,15 +285,15 @@
   "end": 287.33,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 36,
   "start": 287.33,
   "end": 295.31,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 37,
@@ -301,95 +301,95 @@
   "end": 303.29,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 38,
   "start": 303.29,
   "end": 311.27,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "confidence": 0.5,
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 39,
   "start": 311.27,
   "end": 319.25,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe ee ee, aot ee 2 NI 2 Se ee .2 7'."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 40,
   "start": 319.25,
   "end": 327.23,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "confidence": 0.5,
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 41,
   "start": 327.23,
   "end": 335.21,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 42,
   "start": 335.21,
   "end": 343.2,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'labo euler et mR TST SS ee'."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 43,
   "start": 343.2,
   "end": 351.18,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 44,
   "start": 351.18,
   "end": 359.16,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 45,
   "start": 359.16,
   "end": 367.14,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 're AL en on ae bt ee Seesees ee AS oe oo an EEA ee eo uF Coe ware At 7'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 46,
   "start": 367.14,
   "end": 375.12,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 47,
   "start": 375.12,
   "end": 383.1,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 48,
   "start": 383.1,
   "end": 391.08,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Fa 7 7 er ae SS es ro ae,'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 49,
@@ -397,31 +397,31 @@
   "end": 399.07,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 50,
   "start": 399.07,
   "end": 407.05,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 51,
   "start": 407.05,
   "end": 415.03,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 52,
   "start": 415.03,
   "end": 423.01,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 53,
@@ -429,95 +429,95 @@
   "end": 430.99,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 54,
   "start": 430.99,
   "end": 438.97,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 55,
   "start": 438.97,
   "end": 446.95,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 56,
   "start": 446.95,
   "end": 454.93,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 57,
   "start": 454.93,
   "end": 462.92,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 58,
   "start": 462.92,
   "end": 470.9,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 59,
   "start": 470.9,
   "end": 478.88,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 60,
   "start": 478.88,
   "end": 486.86,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 61,
   "start": 486.86,
   "end": 494.84,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 62,
   "start": 494.84,
   "end": 502.82,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 63,
   "start": 502.82,
   "end": 510.8,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 64,
   "start": 510.8,
   "end": 518.79,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 65,
@@ -525,31 +525,31 @@
   "end": 526.77,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 66,
   "start": 526.77,
   "end": 534.75,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "confidence": 0.5,
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 67,
   "start": 534.75,
   "end": 542.73,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 68,
   "start": 542.73,
   "end": 550.71,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 69,
@@ -557,47 +557,47 @@
   "end": 558.69,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 70,
   "start": 558.69,
   "end": 566.67,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 71,
   "start": 566.67,
   "end": 574.65,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 72,
   "start": 574.65,
   "end": 582.64,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 73,
   "start": 582.64,
   "end": 590.62,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sr mm Very shrinkage 7 7 wh ae maeettin foodgrade ss'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 74,
   "start": 590.62,
   "end": 598.6,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 75,
@@ -605,47 +605,47 @@
   "end": 606.58,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 76,
   "start": 606.58,
   "end": 614.56,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 77,
   "start": 614.56,
   "end": 622.54,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'el es AS-s ee ee ei aa 4 eo etna'."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 78,
   "start": 622.54,
   "end": 630.52,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 79,
   "start": 630.52,
   "end": 638.5,
-  "label": "decorate_finish",
+  "label": "gather_materials",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Wax blocks/flakes for the test shown (Paraffin / Cargill NatureWax)."
  },
  {
   "window": 80,
   "start": 638.5,
   "end": 646.49,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a black pot."
  },
  {
   "window": 81,
@@ -653,31 +653,31 @@
   "end": 654.47,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 82,
   "start": 654.47,
   "end": 662.45,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 83,
   "start": 662.45,
   "end": 670.43,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'on St ma Ke Po ge 4 7 ee is 7 oo to SS CS ion my wa na Ose 5 2 Tin. Wax 2 7 eo'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 84,
   "start": 670.43,
   "end": 678.41,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 85,
@@ -685,63 +685,63 @@
   "end": 686.39,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 86,
   "start": 686.39,
   "end": 694.37,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 .4 sk Pe ee ad 2 wont ee em ee ll Sa ee srwi aes ye vali'."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 87,
   "start": 694.37,
   "end": 702.36,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 88,
   "start": 702.36,
   "end": 710.34,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 89,
   "start": 710.34,
   "end": 718.32,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae ae me 7 See ee 3 ey of 4 Po os tare ae ee Ss'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 90,
   "start": 718.32,
   "end": 726.3,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a black pot."
  },
  {
   "window": 91,
   "start": 726.3,
   "end": 734.28,
-  "label": "decorate_finish",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Melting wax in a black pot."
  },
  {
   "window": 92,
   "start": 734.28,
   "end": 742.26,
-  "label": "outro_cta",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'rn hg 4 re 2 fo ee tS SS ee ee aol aa Se ia Ss oc at Se ee bi ee oe awe'."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 93,
@@ -749,110 +749,110 @@
   "end": 750.24,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 94,
   "start": 750.24,
   "end": 758.22,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 95,
   "start": 758.22,
   "end": 766.21,
-  "label": "outro_cta",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Se as 2 Sepia me en ae re oe eS SS eer ea er See 2 PE Sie oe ae as Rate evi tcek Sao Se ee ae'."
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 96,
   "start": 766.21,
   "end": 774.19,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/flexing a pink silicone mould to release a wax disc/rose candle (wax test)."
  },
  {
   "window": 97,
   "start": 774.19,
   "end": 782.17,
-  "label": "decorate_finish",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Demoulding pink rose/flower pillar candles from the silicone moulds."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 98,
   "start": 782.17,
   "end": 790.15,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Comparing the demoulded flower candle (wax-type captions)."
+  "confidence": 0.5,
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 99,
   "start": 790.15,
   "end": 798.13,
-  "label": "outro_cta",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae 4 oo Yt poe. Baty 3 ws 4 Se. oe gatas Rv, 4'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 100,
   "start": 798.13,
   "end": 806.11,
-  "label": "outro_cta",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sy ee oF oo SAS is ee Se Be EX 5 eS een ot Va 4 7'."
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 101,
   "start": 806.11,
   "end": 814.09,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished flower candles compared."
+  "confidence": 0.5,
+  "description": "Holding up the demoulded flower/disc candle to show the result."
  },
  {
   "window": 102,
   "start": 814.09,
   "end": 822.07,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 103,
   "start": 822.07,
   "end": 830.06,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 104,
   "start": 830.06,
   "end": 838.04,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 105,
   "start": 838.04,
   "end": 846.02,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 106,
   "start": 846.02,
   "end": 854.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]
