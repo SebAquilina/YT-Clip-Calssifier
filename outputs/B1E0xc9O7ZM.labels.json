@@ -1,338 +1,338 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.93,
-    "end": 15.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.86,
-    "end": 23.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.79,
-    "end": 31.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.71,
-    "end": 39.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.64,
-    "end": 47.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.57,
-    "end": 55.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.5,
-    "end": 63.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.43,
-    "end": 71.36,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 9,
-    "start": 71.36,
-    "end": 79.29,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 10,
-    "start": 79.29,
-    "end": 87.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.21,
-    "end": 95.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.14,
-    "end": 103.07,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 13,
-    "start": 103.07,
-    "end": 111.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.0,
-    "end": 118.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 118.93,
-    "end": 126.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 126.86,
-    "end": 134.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 134.79,
-    "end": 142.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 142.71,
-    "end": 150.64,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 19,
-    "start": 150.64,
-    "end": 158.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 158.57,
-    "end": 166.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 166.5,
-    "end": 174.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 174.43,
-    "end": 182.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 182.36,
-    "end": 190.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 190.29,
-    "end": 198.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 198.21,
-    "end": 206.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 206.14,
-    "end": 214.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 214.07,
-    "end": 222.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 222.0,
-    "end": 229.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 229.93,
-    "end": 237.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 237.86,
-    "end": 245.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 245.79,
-    "end": 253.71,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 32,
-    "start": 253.71,
-    "end": 261.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 261.64,
-    "end": 269.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 269.57,
-    "end": 277.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 277.5,
-    "end": 285.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 285.43,
-    "end": 293.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 293.36,
-    "end": 301.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 301.29,
-    "end": 309.21,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 39,
-    "start": 309.21,
-    "end": 317.14,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 40,
-    "start": 317.14,
-    "end": 325.07,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 41,
-    "start": 325.07,
-    "end": 333.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.93,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Beeswax sheets and rolled candles on the table."
+ },
+ {
+  "window": 1,
+  "start": 7.93,
+  "end": 15.86,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 2,
+  "start": 15.86,
+  "end": 23.79,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Laying a wick along the edge of a fresh beeswax sheet."
+ },
+ {
+  "window": 3,
+  "start": 23.79,
+  "end": 31.71,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 4,
+  "start": 31.71,
+  "end": 39.64,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 5,
+  "start": 39.64,
+  "end": 47.57,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 6,
+  "start": 47.57,
+  "end": 55.5,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 7,
+  "start": 55.5,
+  "end": 63.43,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 8,
+  "start": 63.43,
+  "end": 71.36,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 9,
+  "start": 71.36,
+  "end": 79.29,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 79.29,
+  "end": 87.21,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 11,
+  "start": 87.21,
+  "end": 95.14,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 12,
+  "start": 95.14,
+  "end": 103.07,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 103.07,
+  "end": 111.0,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 14,
+  "start": 111.0,
+  "end": 118.93,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Laying a wick along the edge of a fresh beeswax sheet."
+ },
+ {
+  "window": 15,
+  "start": 118.93,
+  "end": 126.86,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 16,
+  "start": 126.86,
+  "end": 134.79,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 17,
+  "start": 134.79,
+  "end": 142.71,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 18,
+  "start": 142.71,
+  "end": 150.64,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 19,
+  "start": 150.64,
+  "end": 158.57,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 20,
+  "start": 158.57,
+  "end": 166.5,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Laying a wick along the edge of a fresh beeswax sheet."
+ },
+ {
+  "window": 21,
+  "start": 166.5,
+  "end": 174.43,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 22,
+  "start": 174.43,
+  "end": 182.36,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 23,
+  "start": 182.36,
+  "end": 190.29,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 24,
+  "start": 190.29,
+  "end": 198.21,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 25,
+  "start": 198.21,
+  "end": 206.14,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 26,
+  "start": 206.14,
+  "end": 214.07,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Laying a wick along the edge of a fresh beeswax sheet."
+ },
+ {
+  "window": 27,
+  "start": 214.07,
+  "end": 222.0,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 28,
+  "start": 222.0,
+  "end": 229.93,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 29,
+  "start": 229.93,
+  "end": 237.86,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 30,
+  "start": 237.86,
+  "end": 245.79,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 31,
+  "start": 245.79,
+  "end": 253.71,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 32,
+  "start": 253.71,
+  "end": 261.64,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Laying a wick along the edge of a fresh beeswax sheet."
+ },
+ {
+  "window": 33,
+  "start": 261.64,
+  "end": 269.57,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 34,
+  "start": 269.57,
+  "end": 277.5,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 35,
+  "start": 277.5,
+  "end": 285.43,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 36,
+  "start": 285.43,
+  "end": 293.36,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 37,
+  "start": 293.36,
+  "end": 301.29,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a yellow honeycomb beeswax sheet around a wick to form a candle."
+ },
+ {
+  "window": 38,
+  "start": 301.29,
+  "end": 309.21,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 39,
+  "start": 309.21,
+  "end": 317.14,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 40,
+  "start": 317.14,
+  "end": 325.07,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 41,
+  "start": 325.07,
+  "end": 333.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
