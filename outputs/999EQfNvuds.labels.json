@@ -1,0 +1,488 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "'How I make iced matcha latte candle' title; green wax."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 5,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Hands ready a clear glass on the table."
+ },
+ {
+  "window": 7,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Handling the glass vessel."
+ },
+ {
+  "window": 8,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Whipping white wax into a creamy 'milk foam' texture."
+ },
+ {
+  "window": 9,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Glasses and the pot of whipped white wax."
+ },
+ {
+  "window": 10,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Pot of whipped white wax (foam)."
+ },
+ {
+  "window": 11,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Bowl of whipped white wax."
+ },
+ {
+  "window": 12,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Holding the pot of whipped wax."
+ },
+ {
+  "window": 13,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Clear glasses with whipped wax ready."
+ },
+ {
+  "window": 14,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow wax into the glass as the 'milk' base."
+ },
+ {
+  "window": 15,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Glass with yellow milk-wax; pink cloth."
+ },
+ {
+  "window": 16,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Glass with the milk-wax base."
+ },
+ {
+  "window": 17,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Hands building up the milk layer."
+ },
+ {
+  "window": 18,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Adjusting the wick in the milk-wax glass."
+ },
+ {
+  "window": 19,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Building/pouring the milk-wax base in the glass."
+ },
+ {
+  "window": 20,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Building/pouring the milk-wax base in the glass."
+ },
+ {
+  "window": 21,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Building/pouring the milk-wax base in the glass."
+ },
+ {
+  "window": 22,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Building/pouring the milk-wax base in the glass."
+ },
+ {
+  "window": 23,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Building/pouring the milk-wax base in the glass."
+ },
+ {
+  "window": 24,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 25,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 26,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 27,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 28,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 29,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 30,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 31,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 32,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 33,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 34,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 35,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 36,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 37,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 38,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 39,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 40,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 41,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 42,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 43,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 44,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 45,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 46,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 47,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring yellow milk-wax and foam into the iced-latte glass."
+ },
+ {
+  "window": 48,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 49,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 50,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 51,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 52,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 53,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 54,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 55,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 56,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 57,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 58,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 59,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 60,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 61,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 62,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 63,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 64,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 65,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 66,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 67,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 68,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 69,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun/torch blends the matcha-green wax layer."
+ },
+ {
+  "window": 70,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Green matcha wax added on top of the milk layer."
+ },
+ {
+  "window": 71,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the green matcha wax into the glass."
+ },
+ {
+  "window": 72,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding clear wax 'ice cubes' to the iced-matcha candle."
+ },
+ {
+  "window": 73,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Finishing the matcha-latte look in the glass."
+ },
+ {
+  "window": 74,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "The finished 'Iced Matcha Latte' candle on the table."
+ },
+ {
+  "window": 75,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Holding up the finished iced-matcha-latte candle."
+ },
+ {
+  "window": 76,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "'Iced Matcha Latte' candle held to camera."
+ },
+ {
+  "window": 77,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Overhead of the finished matcha candle."
+ },
+ {
+  "window": 78,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 79,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 80,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

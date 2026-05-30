@@ -1,0 +1,518 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Pink-gloved maker opens with rows of amber jars (Willow's Pip production batch)."
+ },
+ {
+  "window": 1,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 2,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 3,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands fit wicks into the rows of amber jars."
+ },
+ {
+  "window": 4,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 5,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 6,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands fit wicks into the rows of amber jars."
+ },
+ {
+  "window": 7,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 8,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 9,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands fit wicks into the rows of amber jars."
+ },
+ {
+  "window": 10,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 11,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 12,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands fit wicks into the rows of amber jars."
+ },
+ {
+  "window": 13,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 14,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 15,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands fit wicks into the rows of amber jars."
+ },
+ {
+  "window": 16,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 17,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 18,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands fit wicks into the rows of amber jars."
+ },
+ {
+  "window": 19,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 20,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 21,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands fit wicks into the rows of amber jars."
+ },
+ {
+  "window": 22,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks across the rows of amber jars."
+ },
+ {
+  "window": 23,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Arranging the rows of amber jars with wick stickers."
+ },
+ {
+  "window": 24,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring coconut-apricot wax."
+ },
+ {
+  "window": 25,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a pot on the induction (blue glow)."
+ },
+ {
+  "window": 26,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Adding fragrance/dye into the melted wax."
+ },
+ {
+  "window": 27,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a pitcher/jar."
+ },
+ {
+  "window": 28,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring coconut-apricot wax."
+ },
+ {
+  "window": 29,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a pot on the induction (blue glow)."
+ },
+ {
+  "window": 30,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Adding fragrance/dye into the melted wax."
+ },
+ {
+  "window": 31,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a pitcher/jar."
+ },
+ {
+  "window": 32,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring coconut-apricot wax."
+ },
+ {
+  "window": 33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a pot on the induction (blue glow)."
+ },
+ {
+  "window": 34,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Adding fragrance/dye into the melted wax."
+ },
+ {
+  "window": 35,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a pitcher/jar."
+ },
+ {
+  "window": 36,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring coconut-apricot wax."
+ },
+ {
+  "window": 37,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a pot on the induction (blue glow)."
+ },
+ {
+  "window": 38,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Adding fragrance/dye into the melted wax."
+ },
+ {
+  "window": 39,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a pitcher/jar."
+ },
+ {
+  "window": 40,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring coconut-apricot wax."
+ },
+ {
+  "window": 41,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a pot on the induction (blue glow)."
+ },
+ {
+  "window": 42,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Adding fragrance/dye into the melted wax."
+ },
+ {
+  "window": 43,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a pitcher/jar."
+ },
+ {
+  "window": 44,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring coconut-apricot wax."
+ },
+ {
+  "window": 45,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a pot on the induction (blue glow)."
+ },
+ {
+  "window": 46,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Adding fragrance/dye into the melted wax."
+ },
+ {
+  "window": 47,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a pitcher/jar."
+ },
+ {
+  "window": 48,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 49,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 50,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 51,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 52,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 53,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 54,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 55,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 56,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 57,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 58,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 59,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 60,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 61,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 62,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 63,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 64,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 65,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 66,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 67,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 68,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 69,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 70,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 71,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the rows of jars."
+ },
+ {
+  "window": 72,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands centre wicks in the filled amber jars."
+ },
+ {
+  "window": 73,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of filled amber jars setting."
+ },
+ {
+  "window": 74,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands centre wicks in the filled amber jars."
+ },
+ {
+  "window": 75,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of filled amber jars setting."
+ },
+ {
+  "window": 76,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands centre wicks in the filled amber jars."
+ },
+ {
+  "window": 77,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of filled amber jars setting."
+ },
+ {
+  "window": 78,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands centre wicks in the filled amber jars."
+ },
+ {
+  "window": 79,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of filled amber jars setting."
+ },
+ {
+  "window": 80,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Pink-gloved hands centre wicks in the filled amber jars."
+ },
+ {
+  "window": 81,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of filled amber jars setting."
+ },
+ {
+  "window": 82,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Holding a labelled 'Willow's Pip Palo Santo + Moss' jar."
+ },
+ {
+  "window": 83,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished labelled coconut-apricot jar candle shown."
+ },
+ {
+  "window": 84,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 85,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]
