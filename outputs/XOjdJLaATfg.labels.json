@@ -1,194 +1,194 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.83,
-    "end": 15.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.67,
-    "end": 23.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.5,
-    "end": 31.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.33,
-    "end": 39.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.17,
-    "end": 47.0,
-    "label": "talking_head",
-    "confidence": 0.77,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 6,
-    "start": 47.0,
-    "end": 54.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 54.83,
-    "end": 62.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 62.67,
-    "end": 70.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 70.5,
-    "end": 78.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 78.33,
-    "end": 86.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 86.17,
-    "end": 94.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 94.0,
-    "end": 101.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 101.83,
-    "end": 109.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 109.67,
-    "end": 117.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 117.5,
-    "end": 125.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 125.33,
-    "end": 133.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 133.17,
-    "end": 141.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 141.0,
-    "end": 148.83,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 148.83,
-    "end": 156.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 156.67,
-    "end": 164.5,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 164.5,
-    "end": 172.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 172.33,
-    "end": 180.17,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 180.17,
-    "end": 188.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.83,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 1,
+  "start": 7.83,
+  "end": 15.67,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 2,
+  "start": 15.67,
+  "end": 23.5,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 3,
+  "start": 23.5,
+  "end": 31.33,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 4,
+  "start": 31.33,
+  "end": 39.17,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 5,
+  "start": 39.17,
+  "end": 47.0,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 47.0,
+  "end": 54.83,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 7,
+  "start": 54.83,
+  "end": 62.67,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 8,
+  "start": 62.67,
+  "end": 70.5,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 9,
+  "start": 70.5,
+  "end": 78.33,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 10,
+  "start": 78.33,
+  "end": 86.17,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 11,
+  "start": 86.17,
+  "end": 94.0,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 12,
+  "start": 94.0,
+  "end": 101.83,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 13,
+  "start": 101.83,
+  "end": 109.67,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 14,
+  "start": 109.67,
+  "end": 117.5,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 15,
+  "start": 117.5,
+  "end": 125.33,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 16,
+  "start": 125.33,
+  "end": 133.17,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 17,
+  "start": 133.17,
+  "end": 141.0,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 18,
+  "start": 141.0,
+  "end": 148.83,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 19,
+  "start": 148.83,
+  "end": 156.67,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 20,
+  "start": 156.67,
+  "end": 164.5,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 21,
+  "start": 164.5,
+  "end": 172.33,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Cleaning leftover wax out of a used candle jar to reuse it (sink/counter)."
+ },
+ {
+  "window": 22,
+  "start": 172.33,
+  "end": 180.17,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "'Powerhouz' end card."
+ },
+ {
+  "window": 23,
+  "start": 180.17,
+  "end": 188.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
