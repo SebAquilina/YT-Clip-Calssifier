@@ -2,7 +2,7 @@
 
 - **Video:** [vm9aSzlLWnw](https://www.youtube.com/watch?v=vm9aSzlLWnw)
 - **Duration:** 12:35  (755s)
-- **Source:** storyboard  |  **Windows:** 94  |  **Segments:** 80
+- **Source:** storyboard  |  **Windows:** 94  |  **Segments:** 31
 
 ## Action segments (merged)
 
@@ -32,62 +32,13 @@
 | 22 | 2:49–2:57 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
 | 23 | 2:57–3:05 | 8s | `melt_wax` | process | ✓ | 0.45 |
 | 24 | 3:05–3:13 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 25 | 3:13–3:21 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 26 | 3:21–3:29 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 27 | 3:29–3:37 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 28 | 3:37–3:45 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 29 | 3:45–3:53 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 30 | 3:53–4:01 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 31 | 4:01–4:09 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 32 | 4:09–4:17 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 33 | 4:17–4:25 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 34 | 4:25–4:33 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 35 | 4:33–4:41 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 36 | 4:41–4:49 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 37 | 4:49–4:57 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 38 | 4:57–5:05 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 39 | 5:05–5:13 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 40 | 5:13–5:21 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 41 | 5:21–5:29 | 8s | `talking_head` | aux |  | 0.70 |
-| 42 | 5:29–5:37 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 43 | 5:37–5:45 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 44 | 5:45–5:53 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 45 | 5:53–6:01 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 46 | 6:01–6:09 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 47 | 6:09–6:18 | 8s | `transition` | aux |  | 0.50 |
-| 48 | 6:18–6:26 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 49 | 6:26–6:34 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 50 | 6:34–6:42 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 51 | 6:42–6:50 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 52 | 6:50–6:58 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 53 | 6:58–7:06 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 54 | 7:06–7:14 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 55 | 7:14–7:22 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 56 | 7:22–7:30 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 57 | 7:30–7:38 | 8s | `talking_head` | aux |  | 0.70 |
-| 58 | 7:38–7:46 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 59 | 7:46–7:54 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 60 | 7:54–8:02 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 61 | 8:02–8:10 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 62 | 8:10–8:18 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 63 | 8:18–8:26 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 64 | 8:26–8:34 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 65 | 8:34–8:42 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 66 | 8:42–8:50 | 8s | `talking_head` | aux |  | 0.70 |
-| 67 | 8:50–8:58 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 68 | 8:58–9:06 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 69 | 9:06–9:14 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 70 | 9:14–9:22 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 71 | 9:22–9:30 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 72 | 9:30–9:38 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 73 | 9:38–9:46 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 74 | 9:46–9:54 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 75 | 9:54–10:02 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 76 | 10:02–10:10 | 8s | `set_wick` | assemble | ✓ | 0.40 |
-| 77 | 10:10–10:18 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
-| 78 | 10:18–10:26 | 8s | `cure_cool` | assemble | ✓ | 0.45 |
-| 79 | 10:26–10:35 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 80 | 10:35–12:35 | 120s | `transition` | aux |  | 0.50 |
+| 25 | 3:13–4:17 | 64s | `reveal_result` | finish | ✓ | 0.50 |
+| 26 | 4:17–4:57 | 40s | `melt_wax` | process | ✓ | 0.50 |
+| 27 | 4:57–6:18 | 80s | `pour_wax` | assemble | ✓ | 0.50 |
+| 28 | 6:18–8:02 | 104s | `set_wick` | assemble | ✓ | 0.50 |
+| 29 | 8:02–10:26 | 145s | `cure_cool` | assemble | ✓ | 0.50 |
+| 30 | 10:26–10:51 | 24s | `outro_cta` | aux |  | 0.60 |
+| 31 | 10:51–12:35 | 104s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -117,73 +68,73 @@
 | W21 | 2:49–2:57 | `cure_cool` | 0.45 |  |
 | W22 | 2:57–3:05 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
 | W23 | 3:05–3:13 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W24 | 3:13–3:21 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W25 | 3:21–3:29 | `cure_cool` | 0.45 |  |
-| W26 | 3:29–3:37 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W27 | 3:37–3:45 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W28 | 3:45–3:53 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W29 | 3:53–4:01 | `cure_cool` | 0.45 |  |
-| W30 | 4:01–4:09 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W31 | 4:09–4:17 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W32 | 4:17–4:25 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W33 | 4:25–4:33 | `cure_cool` | 0.45 |  |
-| W34 | 4:33–4:41 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W35 | 4:41–4:49 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W36 | 4:49–4:57 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W37 | 4:57–5:05 | `cure_cool` | 0.45 |  |
-| W38 | 5:05–5:13 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W39 | 5:13–5:21 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W40 | 5:21–5:29 | `talking_head` | 0.70 |  |
-| W41 | 5:29–5:37 | `cure_cool` | 0.45 |  |
-| W42 | 5:37–5:45 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W43 | 5:45–5:53 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W44 | 5:53–6:01 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W45 | 6:01–6:09 | `cure_cool` | 0.45 |  |
-| W46 | 6:09–6:18 | `transition` | 0.50 |  |
-| W47 | 6:18–6:26 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W48 | 6:26–6:34 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W49 | 6:34–6:42 | `cure_cool` | 0.45 |  |
-| W50 | 6:42–6:50 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W51 | 6:50–6:58 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W52 | 6:58–7:06 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W53 | 7:06–7:14 | `cure_cool` | 0.45 |  |
-| W54 | 7:14–7:22 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W55 | 7:22–7:30 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W56 | 7:30–7:38 | `talking_head` | 0.70 |  |
-| W57 | 7:38–7:46 | `cure_cool` | 0.45 |  |
-| W58 | 7:46–7:54 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W59 | 7:54–8:02 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W60 | 8:02–8:10 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W61 | 8:10–8:18 | `cure_cool` | 0.45 |  |
-| W62 | 8:18–8:26 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W63 | 8:26–8:34 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W64 | 8:34–8:42 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W65 | 8:42–8:50 | `talking_head` | 0.70 |  |
-| W66 | 8:50–8:58 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W67 | 8:58–9:06 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W68 | 9:06–9:14 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W69 | 9:14–9:22 | `cure_cool` | 0.45 |  |
-| W70 | 9:22–9:30 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W71 | 9:30–9:38 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W72 | 9:38–9:46 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W73 | 9:46–9:54 | `cure_cool` | 0.45 |  |
-| W74 | 9:54–10:02 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W75 | 10:02–10:10 | `set_wick` | 0.40 | backward step vs canonical order (cure_cool->set_wick) |
-| W76 | 10:10–10:18 | `pour_wax` | 0.50 | backward step vs canonical order (cure_cool->pour_wax) |
-| W77 | 10:18–10:26 | `cure_cool` | 0.45 |  |
-| W78 | 10:26–10:35 | `melt_wax` | 0.45 | backward step vs canonical order (cure_cool->melt_wax) |
-| W79 | 10:35–10:43 | `transition` | 0.50 |  |
-| W80 | 10:43–10:51 | `transition` *(smoothed)* | 0.50 | despiked to match neighbours |
-| W81 | 10:51–10:59 | `transition` | 0.50 |  |
-| W82 | 10:59–11:07 | `transition` | 0.50 |  |
-| W83 | 11:07–11:15 | `transition` | 0.50 |  |
-| W84 | 11:15–11:23 | `transition` | 0.50 |  |
-| W85 | 11:23–11:31 | `transition` | 0.50 |  |
-| W86 | 11:31–11:39 | `transition` | 0.50 |  |
-| W87 | 11:39–11:47 | `transition` | 0.50 |  |
-| W88 | 11:47–11:55 | `transition` | 0.50 |  |
-| W89 | 11:55–12:03 | `transition` | 0.50 |  |
-| W90 | 12:03–12:11 | `transition` | 0.50 |  |
-| W91 | 12:11–12:19 | `transition` | 0.50 |  |
-| W92 | 12:19–12:27 | `transition` | 0.50 |  |
-| W93 | 12:27–12:35 | `transition` | 0.50 |  |
+| W24 | 3:13–3:21 | `reveal_result` | 0.50 |  |
+| W25 | 3:21–3:29 | `reveal_result` | 0.50 |  |
+| W26 | 3:29–3:37 | `reveal_result` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W27 | 3:37–3:45 | `reveal_result` | 0.50 |  |
+| W28 | 3:45–3:53 | `reveal_result` | 0.50 |  |
+| W29 | 3:53–4:01 | `reveal_result` | 0.50 |  |
+| W30 | 4:01–4:09 | `reveal_result` | 0.50 |  |
+| W31 | 4:09–4:17 | `reveal_result` | 0.50 |  |
+| W32 | 4:17–4:25 | `melt_wax` | 0.50 | backward step vs canonical order (reveal_result->melt_wax) |
+| W33 | 4:25–4:33 | `melt_wax` | 0.50 | backward step vs canonical order (reveal_result->melt_wax) |
+| W34 | 4:33–4:41 | `melt_wax` | 0.50 | backward step vs canonical order (reveal_result->melt_wax) |
+| W35 | 4:41–4:49 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->melt_wax) |
+| W36 | 4:49–4:57 | `melt_wax` | 0.50 | backward step vs canonical order (reveal_result->melt_wax) |
+| W37 | 4:57–5:05 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W38 | 5:05–5:13 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W39 | 5:13–5:21 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W40 | 5:21–5:29 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W41 | 5:29–5:37 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->pour_wax) |
+| W42 | 5:37–5:45 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W43 | 5:45–5:53 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W44 | 5:53–6:01 | `pour_wax` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->pour_wax) |
+| W45 | 6:01–6:09 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W46 | 6:09–6:18 | `pour_wax` | 0.50 | backward step vs canonical order (reveal_result->pour_wax) |
+| W47 | 6:18–6:26 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W48 | 6:26–6:34 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W49 | 6:34–6:42 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W50 | 6:42–6:50 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W51 | 6:50–6:58 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W52 | 6:58–7:06 | `set_wick` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->set_wick) |
+| W53 | 7:06–7:14 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W54 | 7:14–7:22 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W55 | 7:22–7:30 | `set_wick` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->set_wick) |
+| W56 | 7:30–7:38 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W57 | 7:38–7:46 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W58 | 7:46–7:54 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W59 | 7:54–8:02 | `set_wick` | 0.50 | backward step vs canonical order (reveal_result->set_wick) |
+| W60 | 8:02–8:10 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W61 | 8:10–8:18 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W62 | 8:18–8:26 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W63 | 8:26–8:34 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W64 | 8:34–8:42 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W65 | 8:42–8:50 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W66 | 8:50–8:58 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W67 | 8:58–9:06 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W68 | 9:06–9:14 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W69 | 9:14–9:22 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W70 | 9:22–9:30 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W71 | 9:30–9:38 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W72 | 9:38–9:46 | `cure_cool` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->cure_cool) |
+| W73 | 9:46–9:54 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W74 | 9:54–10:02 | `cure_cool` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->cure_cool) |
+| W75 | 10:02–10:10 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W76 | 10:10–10:18 | `cure_cool` *(smoothed)* | 0.50 | despiked to match neighbours; backward step vs canonical order (reveal_result->cure_cool) |
+| W77 | 10:18–10:26 | `cure_cool` | 0.50 | backward step vs canonical order (reveal_result->cure_cool) |
+| W78 | 10:26–10:35 | `outro_cta` | 0.60 |  |
+| W79 | 10:35–10:43 | `outro_cta` | 0.60 |  |
+| W80 | 10:43–10:51 | `outro_cta` | 0.60 |  |
+| W81 | 10:51–10:59 | `blank` | 0.60 |  |
+| W82 | 10:59–11:07 | `blank` | 0.60 |  |
+| W83 | 11:07–11:15 | `blank` | 0.60 |  |
+| W84 | 11:15–11:23 | `blank` | 0.60 |  |
+| W85 | 11:23–11:31 | `blank` | 0.60 |  |
+| W86 | 11:31–11:39 | `blank` | 0.60 |  |
+| W87 | 11:39–11:47 | `blank` | 0.60 |  |
+| W88 | 11:47–11:55 | `blank` | 0.60 |  |
+| W89 | 11:55–12:03 | `blank` | 0.60 |  |
+| W90 | 12:03–12:11 | `blank` | 0.60 |  |
+| W91 | 12:11–12:19 | `blank` | 0.60 |  |
+| W92 | 12:19–12:27 | `blank` | 0.60 |  |
+| W93 | 12:27–12:35 | `blank` | 0.60 |  |
