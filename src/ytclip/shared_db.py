@@ -26,7 +26,9 @@ directly, so they are correct the instant a record lands — no rebuild required
 """
 from __future__ import annotations
 
+import csv
 import glob
+import io
 import json
 import os
 import time
@@ -222,8 +224,18 @@ def _action_labels(root: str | None = None, records: list | None = None) -> list
 # --------------------------------------------------------------------------- #
 # derived views + summaries                                                   #
 # --------------------------------------------------------------------------- #
+def _csv_text(rows: list) -> str:
+    """Render rows as CSV using the canonical column order (one file per label)."""
+    from .database import WINDOW_FIELDS
+    buf = io.StringIO()
+    wtr = csv.DictWriter(buf, fieldnames=WINDOW_FIELDS, extrasaction="ignore")
+    wtr.writeheader()
+    wtr.writerows(rows)
+    return buf.getvalue()
+
+
 def rebuild_views(root: str | None = None) -> dict:
-    """Materialize by_label/<label>.jsonl, flags/<id>.json and index.json from records."""
+    """Materialize the per-label views (.jsonl + .csv), flags/ and index.json from records."""
     root = _root(root)
     recs = all_records(root)
 
@@ -236,12 +248,14 @@ def rebuild_views(root: str | None = None) -> dict:
 
     labels_manifest = {}
     base = os.path.join(root, "by_label")
-    # clear stale label views then rewrite
-    for old in glob.glob(os.path.join(base, "*.jsonl")):
+    # clear stale label views then rewrite (one .jsonl + one .csv per label)
+    for old in glob.glob(os.path.join(base, "*.jsonl")) + glob.glob(os.path.join(base, "*.csv")):
         os.remove(old)
     for label, lrows in sorted(by_label.items()):
+        lrows.sort(key=lambda r: (r.get("video_id", ""), r.get("window_index", 0)))
         _atomic_write(os.path.join(base, f"{label}.jsonl"),
                       "".join(json.dumps(r) + "\n" for r in lrows))
+        _atomic_write(os.path.join(base, f"{label}.csv"), _csv_text(lrows))
         labels_manifest[label] = len(lrows)
 
     manifest = {

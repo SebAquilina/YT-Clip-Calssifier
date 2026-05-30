@@ -101,6 +101,21 @@ def test_rebuild_views_manifest(tmp_path):
     assert json.load(open(os.path.join(root, "index.json")))["video_ids"] == ["a", "b"]
 
 
+def test_rebuild_writes_one_csv_per_label(tmp_path):
+    import csv
+    root = str(tmp_path)
+    for vid in ("a", "b"):
+        rows, meta = _video(vid)
+        shared_db.ingest_rows(vid, rows, meta=meta, root=root)
+    shared_db.rebuild_views(root)
+    # a .csv beside every .jsonl, with a header + the right number of rows
+    cp = os.path.join(root, "by_label", "pour_wax.csv")
+    assert os.path.exists(cp) and os.path.exists(os.path.join(root, "by_label", "pour_wax.jsonl"))
+    rows = list(csv.DictReader(open(cp)))
+    assert len(rows) == 2 and rows[0]["action_label"] == "pour_wax"
+    assert "description_detailed" in rows[0] and "window_url" in rows[0]
+
+
 def test_import_record_round_trip_newest_wins(tmp_path):
     """Simulate pulling another chat's record down from Drive."""
     src, dst = str(tmp_path / "src"), str(tmp_path / "dst")
