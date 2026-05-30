@@ -58,8 +58,10 @@ def validate_window(label: str, description: str, feat: Dict, cfg: dict | None =
     flags: List[str] = []
     desc = (description or "").lower()
 
-    if label == "talking_head" and feat.get("face_score", 0) < 0.2:
-        flags.append("labelled talking_head but no face detected")
+    # NOTE: we deliberately do NOT flag "talking_head but no face": the Haar
+    # cascade has low recall at 160x90 (misses wide/profile/small faces), so that
+    # would penalise correct labels for the detector's blind spots, not catch
+    # hallucinations. Only genuine label<->evidence contradictions are flagged.
 
     if (label in v["action_step_labels"]
             and feat.get("face_score", 0) >= v["action_with_strong_face_at_or_above"]):

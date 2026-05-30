@@ -20,9 +20,11 @@ For each video:
 - `outputs/<id>.md` — a readable timeline table ([example](outputs/GAh9lQmaEvI.md))
 
 For the whole corpus:
-- **`outputs/db/classifications.{sqlite,csv,jsonl}`** — the consolidated database: **one row per 5–10s window** across all videos, each with the video link, a timestamped deep-link (`youtu.be/<id>?t=<start>s`), the action label, phase, confidence and a **detailed description** of what is happening
-- `outputs/learned_rules.yaml` — empirically observed step order, durations, transition frequencies, coverage
-- `outputs/SUMMARY.md` — human summary of the learned rules
+- **`outputs/db/classifications.{sqlite,csv,jsonl}`** — the full database: **one row per 5–10s window**, each with the video link, a timestamped deep-link (`youtu.be/<id>?t=<start>s`), action label, phase, confidence, a **detailed description**, the **objective features** (`face_score`, `text_score`, `ocr_text`, `motion`, `brightness`, `colorfulness`, `dominant_colors`), and the filter result (`keep`, `filter_reason`, `validation_flags`).
+- **`outputs/db/classifications_clean.{csv,jsonl}`** — the **action-only subset**: talking-head and text/title/card windows removed (also the `windows_clean` view in SQLite). This is the "no talking-head, no text-overlay" corpus.
+- `outputs/learned_rules.yaml` / `outputs/SUMMARY.md` — empirically observed step order, durations, transitions.
+
+**Anti-hallucination:** every window's description is paired with code-computed signals (face/OCR/motion/…) that corroborate or contradict it, and a validator records `validation_flags` for genuine label↔evidence conflicts. See `docs/METHODOLOGY.md` §6–7. Refresh signals with `python -m ytclip.cli analyze` and rebuild with `build-db`.
 
 Build/refresh the database any time with `python -m ytclip.cli build-db`.
 
