@@ -238,3 +238,57 @@ def stats(root: str | None = None) -> dict:
         "flagged": sum(i.get("n_flagged", 0) for i in idx),
         "niches": sorted({i.get("niche", "") for i in idx if i.get("niche")}),
     }
+
+
+def coverage(root: str | None = None) -> dict:
+    """What is already in the store — so a chat reads before it researches.
+
+    Returns videos grouped by niche, per-niche usable-clip counts, and overall
+    per-label usable totals, so a session can see what's covered and avoid
+    re-researching it.
+    """
+    idx = _indexes(_root(root))
+    niches: dict[str, list] = {}
+    for i in idx:
+        niches.setdefault(i.get("niche") or "(untagged)", []).append({
+            "video_id": i["video_id"], "title": i.get("video_title", ""),
+            "usable": i.get("n_usable", 0), "flagged": i.get("n_flagged", 0),
+        })
+    labels: dict[str, int] = {}
+    for lbl in _action_labels(_root(root)):
+        labels[lbl] = len(usable_clips(label=lbl, root=root))
+    return {
+        "videos": len(idx),
+        "niches": {n: sorted(v, key=lambda r: -r["usable"]) for n, v in sorted(niches.items())},
+        "usable_by_label": dict(sorted(labels.items(), key=lambda kv: -kv[1])),
+    }
+
+
+def _video_id_from(s: str) -> str:
+    """Accept a bare id or a YouTube URL and return the 11-char video id."""
+    s = (s or "").strip()
+    for marker in ("watch?v=", "youtu.be/", "/shorts/", "/embed/", "v="):
+        if marker in s:
+            s = s.split(marker, 1)[1]
+            break
+    for sep in ("&", "?", "/", "#"):
+        s = s.split(sep, 1)[0]
+    return s
+
+
+def pending(candidates: list, root: str | None = None) -> dict:
+    """Split candidate videos into already-covered vs still-to-research.
+
+    Accepts bare ids or YouTube URLs. Lets a chat take ~10 candidate videos for a
+    new video type and skip the ones the shared store already has.
+    """
+    root = _root(root)
+    seen, covered, todo = set(), [], []
+    for c in candidates:
+        vid = _video_id_from(c)
+        if not vid or vid in seen:
+            continue
+        seen.add(vid)
+        (covered if is_ingested(vid, root) else todo).append(vid)
+    return {"pending": todo, "covered": covered,
+            "n_pending": len(todo), "n_covered": len(covered)}

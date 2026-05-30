@@ -1,0 +1,318 @@
+{
+ "niche": "candle_making",
+ "order": [
+  "gather_materials",
+  "prepare_container",
+  "measure_wax",
+  "melt_wax",
+  "add_fragrance",
+  "add_dye_color",
+  "pour_wax",
+  "decorate_finish",
+  "monitor_temperature",
+  "cure_cool",
+  "set_wick",
+  "trim_wick",
+  "reveal_result"
+ ],
+ "n_steps": 13,
+ "n_clips": 20,
+ "steps": [
+  {
+   "label": "gather_materials",
+   "n_available": 1,
+   "clips": [
+    {
+     "video_id": "lTMszYRbm84",
+     "window_index": 2,
+     "start_s": 15.82,
+     "end_s": 23.73,
+     "duration_s": 7.91,
+     "confidence": 0.5,
+     "clip_url": "https://youtu.be/lTMszYRbm84?t=16s",
+     "video_title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+     "description": "Host at a table with a scale and a green melting pot. prep phase, ~9% in, 0:15\u20130:23."
+    }
+   ]
+  },
+  {
+   "label": "prepare_container",
+   "n_available": 26,
+   "clips": [
+    {
+     "video_id": "BbGnbTIz7_s",
+     "window_index": 7,
+     "start_s": 56.11,
+     "end_s": 64.13,
+     "duration_s": 8.02,
+     "confidence": 0.5,
+     "clip_url": "https://youtu.be/BbGnbTIz7_s?t=56s",
+     "video_title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+     "description": "Threading the wick through the mould with a needle. prep phase, ~11% in, 0:56\u20131:04."
+    },
+    {
+     "video_id": "HPD1k0lhDCU",
+     "window_index": 12,
+     "start_s": 95.86,
+     "end_s": 103.85,
+     "duration_s": 7.99,
+     "confidence": 0.45,
+     "clip_url": "https://youtu.be/HPD1k0lhDCU?t=96s",
+     "video_title": "How to Make Luxury Coconut Apricot Wax Candles | Step-by-Step Tutorial",
+     "description": "Pink-gloved hands fit wicks into the rows of amber jars. prep phase, ~14% in, 1:35\u20131:43."
+    }
+   ]
+  },
+  {
+   "label": "measure_wax",
+   "n_available": 11,
+   "clips": [
+    {
+     "video_id": "lTMszYRbm84",
+     "window_index": 4,
+     "start_s": 31.64,
+     "end_s": 39.55,
+     "duration_s": 7.91,
+     "confidence": 0.65,
+     "clip_url": "https://youtu.be/lTMszYRbm84?t=32s",
+     "video_title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+     "description": "Caption 'MEASURE THE WAX'; host pours wax into the pot on the scale. prep phase, ~18% in, 0:31\u20130:39."
+    },
+    {
+     "video_id": "BbGnbTIz7_s",
+     "window_index": 5,
+     "start_s": 40.08,
+     "end_s": 48.1,
+     "duration_s": 8.02,
+     "confidence": 0.5,
+     "clip_url": "https://youtu.be/BbGnbTIz7_s?t=40s",
+     "video_title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+     "description": "Cutting the wax to size. Weighing or measuring wax flakes into a pouring pot or pitcher. prep phase, ~8% in, 0:40\u20130:48."
+    }
+   ]
+  },
+  {
+   "label": "melt_wax",
+   "n_available": 12,
+   "clips": [
+    {
+     "video_id": "lTMszYRbm84",
+     "window_index": 6,
+     "start_s": 47.45,
+     "end_s": 55.36,
+     "duration_s": 7.91,
+     "confidence": 0.65,
+     "clip_url": "https://youtu.be/lTMszYRbm84?t=47s",
+     "video_title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+     "description": "Caption 'USE STEAM TO MELT'; the wax melts over a steam/double-boiler setup. process phase, ~27% in, 0:47\u20130:55."
+    },
+    {
+     "video_id": "HPD1k0lhDCU",
+     "window_index": 25,
+     "start_s": 199.71,
+     "end_s": 207.7,
+     "duration_s": 7.99,
+     "confidence": 0.5,
+     "clip_url": "https://youtu.be/HPD1k0lhDCU?t=200s",
+     "video_title": "How to Make Luxury Coconut Apricot Wax Candles | Step-by-Step Tutorial",
+     "description": "Melting wax in a pot on the induction (blue glow). process phase, ~29% in, 3:19\u20133:27."
+    }
+   ]
+  },
+  {
+   "label": "add_fragrance",
+   "n_available": 10,
+   "clips": [
+    {
+     "video_id": "lTMszYRbm84",
+     "window_index": 12,
+     "start_s": 94.91,
+     "end_s": 102.82,
+     "duration_s": 7.91,
+     "confidence": 0.55,
+     "clip_url": "https://youtu.be/lTMszYRbm84?t=95s",
+     "video_title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+     "description": "Host adds fragrance (caption) to the melted wax. process phase, ~55% in, 1:34\u20131:42."
+    },
+    {
+     "video_id": "HPD1k0lhDCU",
+     "window_index": 26,
+     "start_s": 207.7,
+     "end_s": 215.69,
+     "duration_s": 7.99,
+     "confidence": 0.45,
+     "clip_url": "https://youtu.be/HPD1k0lhDCU?t=208s",
+     "video_title": "How to Make Luxury Coconut Apricot Wax Candles | Step-by-Step Tutorial",
+     "description": "Adding fragrance/dye into the melted wax. process phase, ~30% in, 3:27\u20133:35."
+    }
+   ]
+  },
+  {
+   "label": "add_dye_color",
+   "n_available": 10,
+   "clips": [
+    {
+     "video_id": "BbGnbTIz7_s",
+     "window_index": 35,
+     "start_s": 280.56,
+     "end_s": 288.57,
+     "duration_s": 8.01,
+     "confidence": 0.5,
+     "clip_url": "https://youtu.be/BbGnbTIz7_s?t=281s",
+     "video_title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+     "description": "Testing the dye drop. Adding colour (dye chips, liquid dye, crayon) to the melted wax and stirring until uniform. process phase, ~56% in, 4:40\u20134:48."
+    }
+   ]
+  },
+  {
+   "label": "pour_wax",
+   "n_available": 53,
+   "clips": [
+    {
+     "video_id": "lTMszYRbm84",
+     "window_index": 16,
+     "start_s": 126.55,
+     "end_s": 134.45,
+     "duration_s": 7.9,
+     "confidence": 0.65,
+     "clip_url": "https://youtu.be/lTMszYRbm84?t=127s",
+     "video_title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+     "description": "Caption 'POUR INTO CUP'; wax poured into the container. assemble phase, ~73% in, 2:06\u20132:14."
+    },
+    {
+     "video_id": "BbGnbTIz7_s",
+     "window_index": 12,
+     "start_s": 96.19,
+     "end_s": 104.21,
+     "duration_s": 8.02,
+     "confidence": 0.55,
+     "clip_url": "https://youtu.be/BbGnbTIz7_s?t=96s",
+     "video_title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+     "description": "'LAYER 1 - 0 colour / natural wax'; wax melting in the pot. assemble phase, ~19% in, 1:36\u20131:44."
+    }
+   ]
+  },
+  {
+   "label": "decorate_finish",
+   "n_available": 4,
+   "clips": [
+    {
+     "video_id": "BbGnbTIz7_s",
+     "window_index": 54,
+     "start_s": 432.86,
+     "end_s": 440.87,
+     "duration_s": 8.01,
+     "confidence": 0.5,
+     "clip_url": "https://youtu.be/BbGnbTIz7_s?t=433s",
+     "video_title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+     "description": "Demoulding the cube candle from the silicone. finish phase, ~86% in, 7:12\u20137:20."
+    },
+    {
+     "video_id": "HPD1k0lhDCU",
+     "window_index": 82,
+     "start_s": 655.05,
+     "end_s": 663.03,
+     "duration_s": 7.98,
+     "confidence": 0.45,
+     "clip_url": "https://youtu.be/HPD1k0lhDCU?t=655s",
+     "video_title": "How to Make Luxury Coconut Apricot Wax Candles | Step-by-Step Tutorial",
+     "description": "Holding a labelled 'Willow's Pip Palo Santo + Moss' jar. finish phase, ~95% in, 10:55\u201311:03."
+    }
+   ]
+  },
+  {
+   "label": "monitor_temperature",
+   "n_available": 0,
+   "clips": []
+  },
+  {
+   "label": "cure_cool",
+   "n_available": 14,
+   "clips": [
+    {
+     "video_id": "BbGnbTIz7_s",
+     "window_index": 38,
+     "start_s": 304.6,
+     "end_s": 312.62,
+     "duration_s": 8.02,
+     "confidence": 0.45,
+     "clip_url": "https://youtu.be/BbGnbTIz7_s?t=305s",
+     "video_title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+     "description": "Mould with three layers. Letting the candle cool and solidify - often a time-lapse or a caption saying to wait/cure. assemble phase, ~60% in, 5:04\u20135:12."
+    },
+    {
+     "video_id": "lTMszYRbm84",
+     "window_index": 19,
+     "start_s": 150.27,
+     "end_s": 158.18,
+     "duration_s": 7.91,
+     "confidence": 0.45,
+     "clip_url": "https://youtu.be/lTMszYRbm84?t=150s",
+     "video_title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+     "description": "Candle left to set; host intercut. assemble phase, ~86% in, 2:30\u20132:38."
+    }
+   ]
+  },
+  {
+   "label": "set_wick",
+   "n_available": 11,
+   "clips": [
+    {
+     "video_id": "lTMszYRbm84",
+     "window_index": 18,
+     "start_s": 142.36,
+     "end_s": 150.27,
+     "duration_s": 7.91,
+     "confidence": 0.55,
+     "clip_url": "https://youtu.be/lTMszYRbm84?t=142s",
+     "video_title": "Candle Making Tutorial | DIY Candle Pouring for Beginners",
+     "description": "Caption 'WICK CYCLE'; centring/securing the wick in the poured candle. assemble phase, ~82% in, 2:22\u20132:30."
+    },
+    {
+     "video_id": "HPD1k0lhDCU",
+     "window_index": 78,
+     "start_s": 623.09,
+     "end_s": 631.08,
+     "duration_s": 7.99,
+     "confidence": 0.45,
+     "clip_url": "https://youtu.be/HPD1k0lhDCU?t=623s",
+     "video_title": "How to Make Luxury Coconut Apricot Wax Candles | Step-by-Step Tutorial",
+     "description": "Pink-gloved hands centre wicks in the filled amber jars. assemble phase, ~91% in, 10:23\u201310:31."
+    }
+   ]
+  },
+  {
+   "label": "trim_wick",
+   "n_available": 0,
+   "clips": []
+  },
+  {
+   "label": "reveal_result",
+   "n_available": 4,
+   "clips": [
+    {
+     "video_id": "BbGnbTIz7_s",
+     "window_index": 57,
+     "start_s": 456.9,
+     "end_s": 464.92,
+     "duration_s": 8.02,
+     "confidence": 0.6,
+     "clip_url": "https://youtu.be/BbGnbTIz7_s?t=457s",
+     "video_title": "Ombre 5 layers gradient candle tutorial | Step by step | Advanced candle making | POV (no talking)",
+     "description": "'Ta-Daaa!'; holding the finished ombre cube candle. finish phase, ~90% in, 7:36\u20137:44."
+    },
+    {
+     "video_id": "HPD1k0lhDCU",
+     "window_index": 83,
+     "start_s": 663.03,
+     "end_s": 671.02,
+     "duration_s": 7.99,
+     "confidence": 0.5,
+     "clip_url": "https://youtu.be/HPD1k0lhDCU?t=663s",
+     "video_title": "How to Make Luxury Coconut Apricot Wax Candles | Step-by-Step Tutorial",
+     "description": "Finished labelled coconut-apricot jar candle shown. finish phase, ~97% in, 11:03\u201311:11."
+    }
+   ]
+  }
+ ]
+}

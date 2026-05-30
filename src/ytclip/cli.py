@@ -12,8 +12,6 @@ import argparse
 import json
 import sys
 
-from . import download, pipeline
-from .learn import learn as run_learn
 from .taxonomy import load_taxonomy, prompt_label_reference
 
 CLASSIFY_PROMPT = """\
@@ -64,14 +62,23 @@ def main(argv=None):
     di.add_argument("--force", action="store_true", help="re-ingest even if already present")
     sub.add_parser("db-rebuild", help="rebuild the shared store's merged views + index.json")
     sub.add_parser("db-stats", help="summarise the shared store")
+    sub.add_parser("db-coverage", help="show what niches/videos the shared store already covers (read before researching)")
+    dt = sub.add_parser("db-todo", help="filter candidate videos/URLs to those NOT yet in the store")
+    dt.add_argument("candidates", nargs="+", help="video ids or YouTube URLs")
+    sl = sub.add_parser("shotlist", help="build a step-ordered shotlist of vetted clips for assembly")
+    sl.add_argument("--niche", default="", help="restrict to a niche")
+    sl.add_argument("--per-step", type=int, default=3)
+    sl.add_argument("--max-per-video", type=int, default=1, help="cap clips from one source video per step")
     sub.add_parser("prompt")
 
     a = ap.parse_args(argv)
 
     if a.cmd == "search":
+        from . import download
         for v in download.search(a.query, n=a.n):
             print(f"{v.id}\t{int(v.duration)//60}m{int(v.duration)%60:02d}\t{v.title}")
     elif a.cmd == "prepare":
+        from . import pipeline
         m = pipeline.prepare(a.video_id, prefer_stream=not a.no_stream, max_height=a.max_height)
         stub = pipeline.make_label_stub(a.video_id)
         print(f"source={m['source']} windows={len(m['windows'])} sheets={len(m['sheets'])}")
@@ -79,9 +86,11 @@ def main(argv=None):
             print("  sheet:", s_)
         print("  label stub:", stub)
     elif a.cmd == "finalize":
+        from . import pipeline
         doc = pipeline.finalize(a.video_id)
         print(f"{a.video_id}: {len(doc['segments'])} segments -> outputs/{a.video_id}.md")
     elif a.cmd == "learn":
+        from .learn import learn as run_learn
         res = run_learn()
         print(f"learned from {res['corpus']['n_videos']} videos -> outputs/learned_rules.yaml, SUMMARY.md")
     elif a.cmd == "analyze":
@@ -138,6 +147,31 @@ def main(argv=None):
         s = shared_db.stats()
         print(f"shared store: {s['videos']} videos, {s['windows']} windows, "
               f"{s['usable']} usable, {s['flagged']} flagged; niches={s['niches'] or '-'}")
+    elif a.cmd == "db-coverage":
+        from . import shared_db
+        cov = shared_db.coverage()
+        print(f"shared store covers {cov['videos']} videos across {len(cov['niches'])} niche(s):")
+        for niche, vids in cov["niches"].items():
+            print(f"  {niche}: {len(vids)} videos, {sum(v['usable'] for v in vids)} usable clips")
+        print("usable clips by step:")
+        for lbl, n in cov["usable_by_label"].items():
+            print(f"  {n:5d}  {lbl}")
+    elif a.cmd == "db-todo":
+        from . import shared_db
+        res = shared_db.pending(a.candidates)
+        print(f"{res['n_pending']} to research, {res['n_covered']} already in store")
+        for v in res["pending"]:
+            print(f"  TODO     {v}")
+        for v in res["covered"]:
+            print(f"  have     {v}")
+    elif a.cmd == "shotlist":
+        from . import select
+        sl = select.write_shotlist(niche=a.niche or None, per_step=a.per_step,
+                                   max_per_video=a.max_per_video)
+        print(f"shotlist for {sl['niche']}: {sl['n_clips']} clips across {sl['n_steps']} steps "
+              f"-> {sl['_paths']['md']}")
+        for step in sl["steps"]:
+            print(f"  {step['label']:20s} {len(step['clips'])}/{step['n_available']} picked")
     elif a.cmd == "prompt":
         print(CLASSIFY_PROMPT + prompt_label_reference(load_taxonomy()))
 

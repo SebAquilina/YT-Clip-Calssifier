@@ -55,14 +55,28 @@ label were wrong.
 ## CLI
 
 ```bash
-ytclip db-ingest <video_id> --niche candle_making   # add a finalized video to the store
+# read first — what's already covered, so you don't re-research it
+ytclip db-coverage                                  # niches/videos + usable clips per step
+ytclip db-todo <id|url> ...                         # filter candidates to those NOT yet in the store
+
+# grow the store (concurrency-safe)
+ytclip db-ingest <video_id> --niche candle_making   # add a finalized video
 ytclip db-rebuild                                   # rebuild merged views + index.json
 ytclip db-stats                                     # summarise the store
+
+# select footage for assembly
+ytclip shotlist --niche candle_making --per-step 3  # step-ordered list of vetted clips
 ```
 
-Programmatic API lives in `ytclip.shared_db`: `ingest_video`, `ingest_rows`,
-`usable_clips`, `flagged_windows`, `is_flagged`, `is_ingested`, `rebuild_views`,
-`stats`.
+Programmatic API:
+
+- `ytclip.shared_db`: `ingest_video`, `ingest_rows`, `usable_clips`,
+  `flagged_windows`, `is_flagged`, `is_ingested`, `rebuild_views`, `stats`,
+  `coverage`, `pending`.
+- `ytclip.select`: `build_shotlist`, `write_shotlist`, `render_markdown` — picks
+  the best vetted clip per canonical step (order + target durations from
+  `outputs/learned_rules.yaml`), deduped for variety, and writes
+  `outputs/shotlists/<niche>.{json,md}`.
 
 ## Storage / cross-chat access
 
@@ -79,14 +93,24 @@ default `outputs/shared_db/`). To share that directory across chats:
   Project chats can *read* the latest store; keep the writable canonical copy in
   git or Drive.
 
-## Intended `YTA-video-maker` pipeline (skill wiring — pending the skill MD)
+## `YTA-video-maker` pipeline
 
-1. **Read first** — load the store, list which niches/videos are already covered.
-2. **Targeted research** — search ~10 videos specific to *this* video type (the
-   broad niche is already researched), skipping any `video_id` already ingested.
-3. **Classify in-session** — `prepare` → contact sheets → Claude labels each
-   5–10s window → `finalize`.
+All steps below are built and runnable today; the only piece left is wiring your
+**skill MD** to orchestrate them (you're handling that integration).
+
+1. **Read first** — `db-coverage` shows which niches/videos/steps are already
+   covered, so you don't re-research them.
+2. **Targeted research** — gather ~10 candidate videos for *this* video type
+   (the broad niche is already researched) and run `db-todo <urls…>` to drop any
+   already in the store.
+3. **Classify in-session** — `prepare` → contact sheets → **Claude vision labels
+   each 5–10s window in-session** (`ytclip prompt` prints the labeling contract)
+   → `finalize` writes `outputs/<id>.timeline.json`.
 4. **Ingest** — `db-ingest <id> --niche <niche>` writes the per-label shards +
-   flags + index (concurrency-safe).
-5. **Select footage** — `usable_clips(niche=…)` returns vetted, non-flagged clips
-   for assembly, after which the **normal video-making process + rules** run.
+   flags + index (concurrency-safe; idempotent).
+5. **Select footage** — `ytclip shotlist --niche <niche>` returns a step-ordered,
+   deduped, vetted (non-flagged) clip list ready for the **normal video-making
+   process + rules** to assemble.
+
+Each step is a thin CLI command / function, so the skill can call them directly
+or shell out, whichever you prefer.
