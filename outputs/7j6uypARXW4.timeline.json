@@ -1,0 +1,1110 @@
+{
+  "video_id": "7j6uypARXW4",
+  "title": "DIY Water candles | Making candles with WATER!?",
+  "url": "https://www.youtube.com/watch?v=7j6uypARXW4",
+  "duration": 414.0,
+  "source": "storyboard",
+  "n_windows": 52,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.96,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Teaser of finished colourful 'water candles' burning.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.96,
+      "end": 15.92,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red-flower water candles lit (preview).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.92,
+      "end": 23.88,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red water candles lit (preview).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.88,
+      "end": 31.85,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Lit candle with 'CANDLE #7' title.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.85,
+      "end": 39.81,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A clear plastic cup readied as the vessel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.81,
+      "end": 47.77,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Cup partly filled with water.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.77,
+      "end": 55.73,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear water/gel base in the cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.73,
+      "end": 63.69,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow oil poured on top of the water.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.69,
+      "end": 71.65,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blue colour added to the water layer.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->add_dye_color)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.65,
+      "end": 79.62,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A clear plastic sheet for making the float wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.62,
+      "end": 87.58,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hand forms a small floating wick disc.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 87.58,
+      "end": 95.54,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Shaping the clear float disc.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 95.54,
+      "end": 103.5,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Float wick with a small straw piece.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 103.5,
+      "end": 111.46,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Assembling the wick from packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 111.46,
+      "end": 119.42,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finishing the floating wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 119.42,
+      "end": 127.38,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Float wick placed on the blue oil/water cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 127.38,
+      "end": 135.35,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wick floats on the blue water candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 135.35,
+      "end": 143.31,
+      "label": "set_wick",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Amber water candle with the wick lit.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 143.31,
+      "end": 151.27,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adjusting the blue float wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 151.27,
+      "end": 159.23,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear cup with water and wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 159.23,
+      "end": 167.19,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red beads placed at the bottom of the cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 167.19,
+      "end": 175.15,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Oil poured over the red beads.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 175.15,
+      "end": 183.12,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Float wick set over the red-bead cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 183.12,
+      "end": 191.08,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red water candle shown lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 191.08,
+      "end": 199.04,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'CANDLE #3' title card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 199.04,
+      "end": 207.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hand with a clear round glass globe vessel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 207.0,
+      "end": 214.96,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Silver glitter/beads placed in the globe.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 214.96,
+      "end": 222.92,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Globe filled with glitter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 222.92,
+      "end": 230.88,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Water poured into the glitter globe.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 230.88,
+      "end": 238.85,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glitter globe with water.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 238.85,
+      "end": 246.81,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wick set on the glitter water globe.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 246.81,
+      "end": 254.77,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glitter water candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 254.77,
+      "end": 262.73,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Orange/red flower beads in a glass; oil poured.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 262.73,
+      "end": 270.69,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Orange-flower water candle, wick lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 270.69,
+      "end": 278.65,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Orange flower water candle burning.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 278.65,
+      "end": 286.62,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Black paper cutouts (craft prep).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 286.62,
+      "end": 294.58,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink flowers on a branch (decorations).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 37,
+      "start": 294.58,
+      "end": 302.54,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hand with pink flowers.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 302.54,
+      "end": 310.5,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beads placed at the bottom of a clear glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 39,
+      "start": 310.5,
+      "end": 318.46,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Arranging beads in the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 318.46,
+      "end": 326.42,
+      "label": "decorate_finish",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow water with a pink flower in the glass.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 41,
+      "start": 326.42,
+      "end": 334.38,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink flower water candle finished.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 42,
+      "start": 334.38,
+      "end": 342.35,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink flower water candles lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 342.35,
+      "end": 350.31,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (girl) talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 350.31,
+      "end": 358.27,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 358.27,
+      "end": 366.23,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished water candles lit on display.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 366.23,
+      "end": 374.19,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the water candles burning.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 374.19,
+      "end": 382.15,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Subscribe / Last video' sparkle card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 382.15,
+      "end": 390.12,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Flower-bloom outro animation.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 390.12,
+      "end": 398.08,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Flower-bloom outro animation.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 398.08,
+      "end": 406.04,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Flower-bloom outro animation.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 406.04,
+      "end": 414.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Flower-bloom outro animation.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.96,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 7.96,
+      "end": 23.88,
+      "confidence": 0.4,
+      "windows": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 23.88,
+      "end": 31.85,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 31.85,
+      "end": 47.77,
+      "confidence": 0.45,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 47.77,
+      "end": 63.69,
+      "confidence": 0.45,
+      "windows": [
+        6,
+        7
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 63.69,
+      "end": 71.65,
+      "confidence": 0.45,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 71.65,
+      "end": 79.62,
+      "confidence": 0.4,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 79.62,
+      "end": 119.42,
+      "confidence": 0.45,
+      "windows": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 119.42,
+      "end": 159.23,
+      "confidence": 0.43,
+      "windows": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 159.23,
+      "end": 167.19,
+      "confidence": 0.4,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 167.19,
+      "end": 175.15,
+      "confidence": 0.4,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 175.15,
+      "end": 183.12,
+      "confidence": 0.4,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 183.12,
+      "end": 191.08,
+      "confidence": 0.5,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 191.08,
+      "end": 199.04,
+      "confidence": 0.45,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 199.04,
+      "end": 207.0,
+      "confidence": 0.45,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 207.0,
+      "end": 222.92,
+      "confidence": 0.4,
+      "windows": [
+        26,
+        27
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 222.92,
+      "end": 238.85,
+      "confidence": 0.45,
+      "windows": [
+        28,
+        29
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 238.85,
+      "end": 246.81,
+      "confidence": 0.4,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 246.81,
+      "end": 278.65,
+      "confidence": 0.46,
+      "windows": [
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 278.65,
+      "end": 302.54,
+      "confidence": 0.4,
+      "windows": [
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 302.54,
+      "end": 334.38,
+      "confidence": 0.42,
+      "windows": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 334.38,
+      "end": 342.35,
+      "confidence": 0.5,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 342.35,
+      "end": 358.27,
+      "confidence": 0.5,
+      "windows": [
+        43,
+        44
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 358.27,
+      "end": 374.19,
+      "confidence": 0.5,
+      "windows": [
+        45,
+        46
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 374.19,
+      "end": 414.0,
+      "confidence": 0.42,
+      "windows": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    }
+  ]
+}
