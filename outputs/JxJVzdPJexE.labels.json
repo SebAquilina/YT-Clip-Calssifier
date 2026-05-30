@@ -1,0 +1,542 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Workshop opens on the hand-carved candle process; colour trays."
+ },
+ {
+  "window": 1,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Trays of coloured wax (blue/red/yellow/green) and white candle cores."
+ },
+ {
+  "window": 2,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Heated coloured wax baths in the workshop."
+ },
+ {
+  "window": 3,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "White cylindrical candle cores ready for dipping."
+ },
+ {
+  "window": 4,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 5,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 6,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 7,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 8,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 9,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 10,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 11,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 12,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 13,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 14,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 15,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 16,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 17,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 18,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 19,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 20,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 21,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 22,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 23,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 24,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 25,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 26,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 27,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 28,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 29,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 30,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 31,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Dipping the candle core into coloured wax baths to build rainbow layers."
+ },
+ {
+  "window": 32,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 33,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 34,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 35,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 36,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 37,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 38,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 39,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 40,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 41,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 42,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 43,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 44,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 45,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 46,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 47,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 48,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 49,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 50,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 51,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 52,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 53,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 54,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 55,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 56,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 57,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 58,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 59,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 60,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 61,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 62,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 63,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 64,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 65,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 66,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 67,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 68,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 69,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 70,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 71,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Hand-carving the warm multi-colour candle into ornate petal patterns."
+ },
+ {
+  "window": 72,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished ornate carved candle shown."
+ },
+ {
+  "window": 73,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Lit carved candle."
+ },
+ {
+  "window": 74,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Carved candle close-up."
+ },
+ {
+  "window": 75,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit carved candle on a stand."
+ },
+ {
+  "window": 76,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Shelves of finished carved candles."
+ },
+ {
+  "window": 77,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Display of colourful carved candles."
+ },
+ {
+  "window": 78,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Blue/orange carved candles displayed."
+ },
+ {
+  "window": 79,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Worker in the workshop."
+ },
+ {
+  "window": 80,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing a carved candle into a bag."
+ },
+ {
+  "window": 81,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Worker bags the candle in the shop."
+ },
+ {
+  "window": 82,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Shop interior; a customer walks by."
+ },
+ {
+  "window": 83,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Shop shelves of candles."
+ },
+ {
+  "window": 84,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Brand end card."
+ },
+ {
+  "window": 85,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Brand end card."
+ },
+ {
+  "window": 86,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Brand end card."
+ },
+ {
+  "window": 87,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Brand end card."
+ },
+ {
+  "window": 88,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Brand end card."
+ },
+ {
+  "window": 89,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Brand end card."
+ }
+]
