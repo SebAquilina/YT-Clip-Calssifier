@@ -1,0 +1,638 @@
+{
+  "video_id": "a9IOU3fbWx0",
+  "title": "How to Make Simple Paraffin Candles | Candle Making Guides | CandleScience",
+  "url": "https://www.youtube.com/watch?v=a9IOU3fbWx0",
+  "duration": 221.0,
+  "source": "storyboard",
+  "n_windows": 28,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.89,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Black into a CandleScience host in the studio for a paraffin candle how-to.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.89,
+      "end": 15.79,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; finished green candle samples beside her.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.79,
+      "end": 23.68,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead scale weighing wax; a green dye drop shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.68,
+      "end": 31.57,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green dye drops into white wax pellets.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.57,
+      "end": 39.46,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; a white wax block in frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.46,
+      "end": 47.36,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Row of black fragrance bottles shown.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->gather_materials)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.36,
+      "end": 55.25,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax pellets in containers.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.25,
+      "end": 63.14,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax pellets and jars on the bench.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.14,
+      "end": 71.04,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax pellets poured into a metal pot.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.04,
+      "end": 78.93,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The pot of wax melts on a hot plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 78.93,
+      "end": 86.82,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "'HOW TO' card; wax melting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 86.82,
+      "end": 94.71,
+      "label": "monitor_temperature",
+      "original_label": "monitor_temperature",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A thermometer/stick is inserted into the melting pot.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->monitor_temperature)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 94.71,
+      "end": 102.61,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green colour mixed into the molten wax/jug.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 102.61,
+      "end": 110.5,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green melted wax in the pot.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 110.5,
+      "end": 118.39,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green wax decanted into a metal pouring jug.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 118.39,
+      "end": 126.29,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green wax in the jug, jar with wick ready.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 126.29,
+      "end": 134.18,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green wax poured into the jar around the wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 134.18,
+      "end": 142.07,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The jar fills with green wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.07,
+      "end": 149.96,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; green jug in frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 149.96,
+      "end": 157.86,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands centre the wick in the freshly poured green candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 157.86,
+      "end": 165.75,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green candle in the jar left to set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 165.75,
+      "end": 173.64,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 173.64,
+      "end": 181.54,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished green paraffin candle in the jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 181.54,
+      "end": 189.43,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished green candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 189.43,
+      "end": 197.32,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "candlescience.com end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 197.32,
+      "end": 205.21,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "End card / closing frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 205.21,
+      "end": 213.11,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 27,
+      "start": 213.11,
+      "end": 221.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.89,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 7.89,
+      "end": 15.79,
+      "confidence": 0.6,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.79,
+      "end": 23.68,
+      "confidence": 0.55,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 23.68,
+      "end": 31.57,
+      "confidence": 0.5,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 31.57,
+      "end": 39.46,
+      "confidence": 0.55,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 39.46,
+      "end": 47.36,
+      "confidence": 0.55,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 47.36,
+      "end": 71.04,
+      "confidence": 0.52,
+      "windows": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 71.04,
+      "end": 86.82,
+      "confidence": 0.57,
+      "windows": [
+        9,
+        10
+      ]
+    },
+    {
+      "label": "monitor_temperature",
+      "phase": "process",
+      "is_step": true,
+      "start": 86.82,
+      "end": 94.71,
+      "confidence": 0.5,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 94.71,
+      "end": 102.61,
+      "confidence": 0.5,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 102.61,
+      "end": 110.5,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 110.5,
+      "end": 142.07,
+      "confidence": 0.58,
+      "windows": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 142.07,
+      "end": 149.96,
+      "confidence": 0.55,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 149.96,
+      "end": 157.86,
+      "confidence": 0.5,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 157.86,
+      "end": 165.75,
+      "confidence": 0.5,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 165.75,
+      "end": 173.64,
+      "confidence": 0.55,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 173.64,
+      "end": 189.43,
+      "confidence": 0.6,
+      "windows": [
+        22,
+        23
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 189.43,
+      "end": 205.21,
+      "confidence": 0.57,
+      "windows": [
+        24,
+        25
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 205.21,
+      "end": 221.0,
+      "confidence": 0.4,
+      "windows": [
+        26,
+        27
+      ]
+    }
+  ]
+}

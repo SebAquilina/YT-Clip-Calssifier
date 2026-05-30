@@ -1,0 +1,584 @@
+{
+  "video_id": "LiLrIjz_2ac",
+  "title": "Beginners Guide - How to Make a Scented Candle at Home",
+  "url": "https://www.youtube.com/watch?v=LiLrIjz_2ac",
+  "duration": 211.0,
+  "source": "storyboard",
+  "n_windows": 26,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.12,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Overhead marble bench with supplies and a 'Scented Candle' title; greenery.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.12,
+      "end": 16.23,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax block, wicks, jar and a blue thermometer laid out.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.23,
+      "end": 24.35,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A metal pitcher on a scale to weigh the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.35,
+      "end": 32.46,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax in a black melting pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.46,
+      "end": 40.58,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands peel a wick sticker on the marble surface.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.58,
+      "end": 48.69,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wick is placed into the base of the glass jar.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 48.69,
+      "end": 56.81,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands seat and centre the wick in the jar.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.81,
+      "end": 64.92,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Final adjustment of the wick in the jar.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.92,
+      "end": 73.04,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal pot of wax on the scale.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 73.04,
+      "end": 81.15,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melts in a double-boiler pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 81.15,
+      "end": 89.27,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the melting wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 89.27,
+      "end": 97.38,
+      "label": "monitor_temperature",
+      "original_label": "monitor_temperature",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A thermometer checks the wax temperature in the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 97.38,
+      "end": 105.5,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A black fragrance bottle is held over the pot to add scent.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 105.5,
+      "end": 113.62,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Fragrance oil poured into the melted wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 113.62,
+      "end": 121.73,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the fragrance into the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 121.73,
+      "end": 129.85,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax poured into the prepared jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 129.85,
+      "end": 137.96,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wick steadied as the jar fills.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 137.96,
+      "end": 146.08,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filled jar with the wick centred.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 146.08,
+      "end": 154.19,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands at the jar with a dropper bottle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->add_fragrance)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 154.19,
+      "end": 162.31,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The poured jar is left to set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 162.31,
+      "end": 170.42,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wick is trimmed on the set candle; greenery in frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 170.42,
+      "end": 178.54,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A dropper finishes the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 178.54,
+      "end": 186.65,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished scented candle shown lit on the marble with a plant.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 186.65,
+      "end": 194.77,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the lit candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 194.77,
+      "end": 202.88,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Branded end slide.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 202.88,
+      "end": 211.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thanks for watching' end slide.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.12,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.12,
+      "end": 16.23,
+      "confidence": 0.55,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 16.23,
+      "end": 24.35,
+      "confidence": 0.55,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 24.35,
+      "end": 32.46,
+      "confidence": 0.55,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 32.46,
+      "end": 64.92,
+      "confidence": 0.56,
+      "windows": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 64.92,
+      "end": 73.04,
+      "confidence": 0.5,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 73.04,
+      "end": 89.27,
+      "confidence": 0.6,
+      "windows": [
+        9,
+        10
+      ]
+    },
+    {
+      "label": "monitor_temperature",
+      "phase": "process",
+      "is_step": true,
+      "start": 89.27,
+      "end": 97.38,
+      "confidence": 0.55,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 97.38,
+      "end": 121.73,
+      "confidence": 0.58,
+      "windows": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 121.73,
+      "end": 129.85,
+      "confidence": 0.6,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 129.85,
+      "end": 146.08,
+      "confidence": 0.5,
+      "windows": [
+        16,
+        17
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 146.08,
+      "end": 154.19,
+      "confidence": 0.4,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 154.19,
+      "end": 162.31,
+      "confidence": 0.5,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 162.31,
+      "end": 170.42,
+      "confidence": 0.5,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 170.42,
+      "end": 178.54,
+      "confidence": 0.4,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 178.54,
+      "end": 194.77,
+      "confidence": 0.6,
+      "windows": [
+        22,
+        23
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 194.77,
+      "end": 211.0,
+      "confidence": 0.5,
+      "windows": [
+        24,
+        25
+      ]
+    }
+  ]
+}
