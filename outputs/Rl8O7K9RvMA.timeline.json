@@ -1,0 +1,316 @@
+{
+  "video_id": "Rl8O7K9RvMA",
+  "title": "How To Make A Layered Candle \ud83d\udd6f\ufe0f| Supplies For Candles",
+  "url": "https://www.youtube.com/watch?v=Rl8O7K9RvMA",
+  "duration": 114.0,
+  "source": "storyboard",
+  "n_windows": 14,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.14,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.55,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Opens to a 'SUPPLIES FOR CANDLES' branded title card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.14,
+      "end": 16.29,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.65,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished blue layered candle teaser, then hands peel a wick sticker; caption 'Peel off the wick stick and place it onto the end of the candle wick'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.29,
+      "end": 24.43,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.65,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Peel off the other side and place the wick in the middle of your candle glass'; wick fixed into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.43,
+      "end": 32.57,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax flakes in a metal bowl; captions 'split your measured wax into three separate bowls' and 'Fill your pan halfway with boiling water'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.57,
+      "end": 40.71,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Melt your first wax layer ... and stir until melted'; wax melting in the bowl over the water bath.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.71,
+      "end": 48.86,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dark blue dye added and stirred in; caption 'For your dark colour add around ten drops of your chosen dye and stir'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.86,
+      "end": 57.0,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Wait until your wax has cooled to 61\u00b0C then add your chosen fragrance'; stirring the blue wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 57.0,
+      "end": 65.14,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.7,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Transfer your wax into a pouring jug then slowly pour your mix into your glass'; first dark layer poured.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.14,
+      "end": 73.29,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Second layer prepared; captions about adding the wick-centering tool, waiting ~2 hours, and adding ~5 dye drops for the mid colour.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 73.29,
+      "end": 81.43,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.7,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Slowly pour your next layer and wait around 2 hours before pouring the next layer'; second blue layer poured.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 81.43,
+      "end": 89.57,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Melt the wax for your last layer and add one drop for your light colour'; lightest layer tinted.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 89.57,
+      "end": 97.71,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Slowly pour your last layer'; the final light-blue layer poured into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 97.71,
+      "end": 105.86,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished blue ombre layered candle with white flowers; caption 'Leave your candle to set overnight before lighting'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 105.86,
+      "end": 114.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'THANK YOU FOR WATCHING' end card with flowers.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.14,
+      "confidence": 0.55,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.14,
+      "end": 24.43,
+      "confidence": 0.65,
+      "windows": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 24.43,
+      "end": 32.57,
+      "confidence": 0.6,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 32.57,
+      "end": 40.71,
+      "confidence": 0.65,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 40.71,
+      "end": 48.86,
+      "confidence": 0.65,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 48.86,
+      "end": 57.0,
+      "confidence": 0.6,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 57.0,
+      "end": 97.71,
+      "confidence": 0.63,
+      "windows": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 97.71,
+      "end": 105.86,
+      "confidence": 0.55,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 105.86,
+      "end": 114.0,
+      "confidence": 0.6,
+      "windows": [
+        13
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Opens from black to a host standing by a counter with a lit green WoodWick candle — a candle-care/usage segment."},
+  {"window": 1, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera; close-up of the crackling wooden-wick flame."},
+  {"window": 2, "label": "talking_head", "confidence": 0.55, "description": "Host talks to camera; hands rest on the green candle."},
+  {"window": 3, "label": "other_unclear", "confidence": 0.45, "description": "Hands gently break off burnt wick on the cooled candle; care caption about the wick (not a making step)."},
+  {"window": 4, "label": "other_unclear", "confidence": 0.45, "description": "Caption 'Remove and discard wick trimmings before relighting'; hands clear debris from the candle."},
+  {"window": 5, "label": "other_unclear", "confidence": 0.45, "description": "Burn guidance: 'Burn until wax is melted to all edges'; hands beside the candle."},
+  {"window": 6, "label": "other_unclear", "confidence": 0.45, "description": "Safety guidance about not moving a lit candle / using a heat-resistant surface."},
+  {"window": 7, "label": "talking_head", "confidence": 0.55, "description": "Host to camera; caption 'Trim the wick'."},
+  {"window": 8, "label": "talking_head", "confidence": 0.55, "description": "Host to camera presenting safety notes panel."},
+  {"window": 9, "label": "talking_head", "confidence": 0.55, "description": "Host continues talking to camera."},
+  {"window": 10, "label": "talking_head", "confidence": 0.55, "description": "Host continues talking to camera."},
+  {"window": 11, "label": "outro_cta", "confidence": 0.6, "description": "'Thank You' end card with contact phone number over a lit candle."},
+  {"window": 12, "label": "outro_cta", "confidence": 0.6, "description": "'Thank You' end card with contact details."},
+  {"window": 13, "label": "outro_cta", "confidence": 0.6, "description": "'Thank You' end card fading out."}
+]

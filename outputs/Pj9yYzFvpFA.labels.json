@@ -1,0 +1,10 @@
+[
+  {"window": 0, "label": "prepare_container", "confidence": 0.55, "description": "Hands position a clear glass tumbler on a table strewn with decorative beads and fairy lights, prepping the transparent vessel for a gel-look candle."},
+  {"window": 1, "label": "measure_wax", "confidence": 0.55, "description": "White wax pellets are scooped/poured into a small metal pouring pitcher; a tealight and supplies sit on the table."},
+  {"window": 2, "label": "melt_wax", "confidence": 0.6, "description": "The metal pitcher sits on a small burner; the wax melts into a clear, colourless liquid."},
+  {"window": 3, "label": "melt_wax", "confidence": 0.55, "description": "The clear molten wax is stirred in the pitcher with a wooden stick to fully liquefy it."},
+  {"window": 4, "label": "pour_wax", "confidence": 0.65, "description": "Clear molten wax is poured from the pitcher into the decorated glass; a wick is held upright on a stick laid across the rim."},
+  {"window": 5, "label": "pour_wax", "confidence": 0.6, "description": "The glass fills with transparent wax around the centred wick; embedded beads and glitter settle in the clear body."},
+  {"window": 6, "label": "reveal_result", "confidence": 0.65, "description": "A hand holds up the finished glittery transparent candle, then it is shown lit."},
+  {"window": 7, "label": "reveal_result", "confidence": 0.7, "description": "Beauty shot of the finished lit transparent candles arranged among the bead-and-light decor."}
+]

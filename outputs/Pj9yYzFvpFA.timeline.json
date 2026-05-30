@@ -1,0 +1,182 @@
+{
+  "video_id": "Pj9yYzFvpFA",
+  "title": "DIY Transparent Candle Without Gel | Elegant and Easy Tutorial",
+  "url": "https://www.youtube.com/watch?v=Pj9yYzFvpFA",
+  "duration": 63.0,
+  "source": "storyboard",
+  "n_windows": 8,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.88,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands position a clear glass tumbler on a table strewn with decorative beads and fairy lights, prepping the transparent vessel for a gel-look candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.88,
+      "end": 15.75,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax pellets are scooped/poured into a small metal pouring pitcher; a tealight and supplies sit on the table.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.75,
+      "end": 23.62,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The metal pitcher sits on a small burner; the wax melts into a clear, colourless liquid.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.62,
+      "end": 31.5,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The clear molten wax is stirred in the pitcher with a wooden stick to fully liquefy it.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.5,
+      "end": 39.38,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear molten wax is poured from the pitcher into the decorated glass; a wick is held upright on a stick laid across the rim.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.38,
+      "end": 47.25,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The glass fills with transparent wax around the centred wick; embedded beads and glitter settle in the clear body.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.25,
+      "end": 55.12,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.65,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A hand holds up the finished glittery transparent candle, then it is shown lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.12,
+      "end": 63.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.7,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the finished lit transparent candles arranged among the bead-and-light decor.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.88,
+      "confidence": 0.55,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.88,
+      "end": 15.75,
+      "confidence": 0.55,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 15.75,
+      "end": 31.5,
+      "confidence": 0.57,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 31.5,
+      "end": 47.25,
+      "confidence": 0.62,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 47.25,
+      "end": 63.0,
+      "confidence": 0.68,
+      "windows": [
+        6,
+        7
+      ]
+    }
+  ]
+}

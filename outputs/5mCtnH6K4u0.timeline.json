@@ -1,0 +1,197 @@
+{
+  "video_id": "5mCtnH6K4u0",
+  "title": "Candle Care Series [Ribbonwick Candles]",
+  "url": "https://www.youtube.com/watch?v=5mCtnH6K4u0",
+  "duration": 70.0,
+  "source": "storyboard",
+  "n_windows": 9,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.78,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "White screen transitions to a blonde host standing in a kitchen, opening a candle-care segment (not a build).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.78,
+      "end": 15.56,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera explaining how to care for a RibbonWick candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.56,
+      "end": 23.33,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Close-up of a lit rectangular RibbonWick candle in a dish; caption 'Extinguish if flame is over 1 inch high' \u2014 candle-use guidance, off the making taxonomy.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.33,
+      "end": 31.11,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "A card/paper is slid under the wick area; caption 'After wax has cooled, gently run index finger over wick' \u2014 wick maintenance.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.11,
+      "end": 38.89,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hands work over the cooled candle; caption 'Gently use index finger to remove loose wick material'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 38.89,
+      "end": 46.67,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hands remove loose wick debris from the ribbon wick before relighting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 46.67,
+      "end": 54.44,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Close-up of the ribbon wick; caption 'Allow wax to melt fully to the edge of container' \u2014 burn guidance.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 54.44,
+      "end": 62.22,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host returns to camera to wrap up the care tips.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 62.22,
+      "end": 70.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "End card 'For More Information Visit www.ribbonwick.com'.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.78,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 7.78,
+      "end": 15.56,
+      "confidence": 0.6,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 15.56,
+      "end": 54.44,
+      "confidence": 0.45,
+      "windows": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 54.44,
+      "end": 62.22,
+      "confidence": 0.55,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 62.22,
+      "end": 70.0,
+      "confidence": 0.65,
+      "windows": [
+        8
+      ]
+    }
+  ]
+}
