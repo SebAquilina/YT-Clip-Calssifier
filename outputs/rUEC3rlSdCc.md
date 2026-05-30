@@ -2,7 +2,7 @@
 
 - **Video:** [rUEC3rlSdCc](https://www.youtube.com/watch?v=rUEC3rlSdCc)
 - **Duration:** 12:12  (732s)
-- **Source:** storyboard  |  **Windows:** 92  |  **Segments:** 80
+- **Source:** storyboard  |  **Windows:** 92  |  **Segments:** 28
 
 ## Action segments (merged)
 
@@ -26,68 +26,16 @@
 | 16 | 2:47–2:55 | 8s | `melt_wax` | process | ✓ | 0.45 |
 | 17 | 2:55–3:03 | 8s | `transition` | aux |  | 0.50 |
 | 18 | 3:03–3:11 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 19 | 3:11–3:19 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 20 | 3:19–3:27 | 8s | `transition` | aux |  | 0.50 |
-| 21 | 3:27–3:35 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 22 | 3:35–3:43 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 23 | 3:43–3:51 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 24 | 3:51–3:59 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 25 | 3:59–4:07 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 26 | 4:07–4:15 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 27 | 4:15–4:23 | 8s | `talking_head` | aux |  | 0.70 |
-| 28 | 4:23–4:31 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 29 | 4:31–4:38 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 30 | 4:38–4:46 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 31 | 4:46–4:54 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 32 | 4:54–5:02 | 8s | `transition` | aux |  | 0.50 |
-| 33 | 5:02–5:10 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 34 | 5:10–5:18 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 35 | 5:18–5:26 | 8s | `transition` | aux |  | 0.50 |
-| 36 | 5:26–5:34 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 37 | 5:34–5:42 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 38 | 5:42–5:50 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 39 | 5:50–5:58 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 40 | 5:58–6:06 | 8s | `transition` | aux |  | 0.50 |
-| 41 | 6:06–6:14 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 42 | 6:14–6:22 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 43 | 6:22–6:30 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 44 | 6:30–6:38 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 45 | 6:38–6:46 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 46 | 6:46–6:54 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 47 | 6:54–7:02 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 48 | 7:02–7:10 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 49 | 7:10–7:18 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 50 | 7:18–7:26 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 51 | 7:26–7:34 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 52 | 7:34–7:41 | 8s | `transition` | aux |  | 0.50 |
-| 53 | 7:41–7:49 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 54 | 7:49–7:57 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 55 | 7:57–8:05 | 8s | `transition` | aux |  | 0.50 |
-| 56 | 8:05–8:13 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 57 | 8:13–8:21 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 58 | 8:21–8:29 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 59 | 8:29–8:37 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 60 | 8:37–8:45 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 61 | 8:45–8:53 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 62 | 8:53–9:01 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 63 | 9:01–9:09 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 64 | 9:09–9:17 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 65 | 9:17–9:25 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 66 | 9:25–9:33 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 67 | 9:33–9:41 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 68 | 9:41–9:49 | 8s | `transition` | aux |  | 0.50 |
-| 69 | 9:49–9:57 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 70 | 9:57–10:05 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 71 | 10:05–10:13 | 8s | `transition` | aux |  | 0.50 |
-| 72 | 10:13–10:21 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 73 | 10:21–10:29 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 74 | 10:29–10:37 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 75 | 10:37–10:44 | 8s | `outro_cta` | aux |  | 0.50 |
-| 76 | 10:44–10:52 | 8s | `melt_wax` | process | ✓ | 0.45 |
-| 77 | 10:52–11:00 | 8s | `add_fragrance` | process | ✓ | 0.40 |
-| 78 | 11:00–11:08 | 8s | `pour_wax` | assemble | ✓ | 0.45 |
-| 79 | 11:08–11:48 | 40s | `reveal_result` | finish | ✓ | 0.40 |
-| 80 | 11:48–12:12 | 24s | `transition` | aux |  | 0.50 |
+| 19 | 3:11–4:07 | 56s | `melt_wax` | process | ✓ | 0.50 |
+| 20 | 4:07–4:15 | 8s | `add_fragrance` | process | ✓ | 0.50 |
+| 21 | 4:15–4:23 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
+| 22 | 4:23–9:25 | 302s | `melt_wax` | process | ✓ | 0.50 |
+| 23 | 9:25–9:33 | 8s | `pour_wax` | assemble | ✓ | 0.50 |
+| 24 | 9:33–10:21 | 48s | `talking_head` | aux |  | 0.60 |
+| 25 | 10:21–10:37 | 16s | `reveal_result` | finish | ✓ | 0.50 |
+| 26 | 10:37–11:40 | 64s | `talking_head` | aux |  | 0.58 |
+| 27 | 11:40–11:48 | 8s | `reveal_result` | finish | ✓ | 0.50 |
+| 28 | 11:48–12:12 | 24s | `blank` | aux |  | 0.60 |
 
 ## Per-window detail
 
@@ -117,71 +65,71 @@
 | W21 | 2:47–2:55 | `melt_wax` | 0.45 |  |
 | W22 | 2:55–3:03 | `transition` | 0.50 |  |
 | W23 | 3:03–3:11 | `pour_wax` | 0.45 |  |
-| W24 | 3:11–3:19 | `melt_wax` | 0.45 |  |
-| W25 | 3:19–3:27 | `transition` | 0.50 |  |
-| W26 | 3:27–3:35 | `pour_wax` | 0.45 |  |
-| W27 | 3:35–3:43 | `melt_wax` | 0.45 |  |
-| W28 | 3:43–3:51 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W29 | 3:51–3:59 | `pour_wax` | 0.45 |  |
-| W30 | 3:59–4:07 | `melt_wax` | 0.45 |  |
-| W31 | 4:07–4:15 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W32 | 4:15–4:23 | `talking_head` | 0.70 |  |
-| W33 | 4:23–4:31 | `melt_wax` | 0.45 |  |
-| W34 | 4:31–4:38 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W35 | 4:38–4:46 | `pour_wax` | 0.45 |  |
-| W36 | 4:46–4:54 | `melt_wax` | 0.45 |  |
-| W37 | 4:54–5:02 | `transition` | 0.50 |  |
-| W38 | 5:02–5:10 | `pour_wax` | 0.45 |  |
-| W39 | 5:10–5:18 | `melt_wax` | 0.45 |  |
-| W40 | 5:18–5:26 | `transition` | 0.50 |  |
-| W41 | 5:26–5:34 | `pour_wax` | 0.45 |  |
-| W42 | 5:34–5:42 | `melt_wax` | 0.45 |  |
-| W43 | 5:42–5:50 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W44 | 5:50–5:58 | `pour_wax` | 0.45 |  |
-| W45 | 5:58–6:06 | `transition` | 0.50 |  |
-| W46 | 6:06–6:14 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W47 | 6:14–6:22 | `pour_wax` | 0.45 |  |
-| W48 | 6:22–6:30 | `melt_wax` | 0.45 |  |
-| W49 | 6:30–6:38 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W50 | 6:38–6:46 | `pour_wax` | 0.45 |  |
-| W51 | 6:46–6:54 | `melt_wax` | 0.45 |  |
-| W52 | 6:54–7:02 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W53 | 7:02–7:10 | `pour_wax` | 0.45 |  |
-| W54 | 7:10–7:18 | `melt_wax` | 0.45 |  |
-| W55 | 7:18–7:26 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W56 | 7:26–7:34 | `pour_wax` | 0.45 |  |
-| W57 | 7:34–7:41 | `transition` | 0.50 |  |
-| W58 | 7:41–7:49 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W59 | 7:49–7:57 | `pour_wax` | 0.45 |  |
-| W60 | 7:57–8:05 | `transition` | 0.50 |  |
-| W61 | 8:05–8:13 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W62 | 8:13–8:21 | `pour_wax` | 0.45 |  |
-| W63 | 8:21–8:29 | `melt_wax` | 0.45 |  |
-| W64 | 8:29–8:37 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W65 | 8:37–8:45 | `pour_wax` | 0.45 |  |
-| W66 | 8:45–8:53 | `melt_wax` | 0.45 |  |
-| W67 | 8:53–9:01 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W68 | 9:01–9:09 | `pour_wax` | 0.45 |  |
-| W69 | 9:09–9:17 | `melt_wax` | 0.45 |  |
-| W70 | 9:17–9:25 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W71 | 9:25–9:33 | `pour_wax` | 0.45 |  |
-| W72 | 9:33–9:41 | `melt_wax` | 0.45 |  |
-| W73 | 9:41–9:49 | `transition` | 0.50 |  |
-| W74 | 9:49–9:57 | `pour_wax` | 0.45 |  |
-| W75 | 9:57–10:05 | `melt_wax` | 0.45 |  |
-| W76 | 10:05–10:13 | `transition` | 0.50 |  |
-| W77 | 10:13–10:21 | `pour_wax` | 0.45 |  |
-| W78 | 10:21–10:29 | `melt_wax` | 0.45 |  |
-| W79 | 10:29–10:37 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W80 | 10:37–10:44 | `outro_cta` | 0.50 |  |
-| W81 | 10:44–10:52 | `melt_wax` | 0.45 |  |
-| W82 | 10:52–11:00 | `add_fragrance` | 0.40 | backward step vs canonical order (pour_wax->add_fragrance) |
-| W83 | 11:00–11:08 | `pour_wax` | 0.45 |  |
-| W84 | 11:08–11:16 | `reveal_result` | 0.40 |  |
-| W85 | 11:16–11:24 | `reveal_result` | 0.40 |  |
-| W86 | 11:24–11:32 | `reveal_result` | 0.40 |  |
-| W87 | 11:32–11:40 | `reveal_result` | 0.40 |  |
-| W88 | 11:40–11:48 | `reveal_result` | 0.40 |  |
-| W89 | 11:48–11:56 | `transition` | 0.50 |  |
-| W90 | 11:56–12:04 | `transition` | 0.50 |  |
-| W91 | 12:04–12:12 | `transition` | 0.50 |  |
+| W24 | 3:11–3:19 | `melt_wax` | 0.50 |  |
+| W25 | 3:19–3:27 | `melt_wax` | 0.50 |  |
+| W26 | 3:27–3:35 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W27 | 3:35–3:43 | `melt_wax` | 0.50 |  |
+| W28 | 3:43–3:51 | `melt_wax` | 0.50 |  |
+| W29 | 3:51–3:59 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W30 | 3:59–4:07 | `melt_wax` | 0.50 |  |
+| W31 | 4:07–4:15 | `add_fragrance` | 0.50 | backward step vs canonical order (pour_wax->add_fragrance) |
+| W32 | 4:15–4:23 | `pour_wax` | 0.50 |  |
+| W33 | 4:23–4:31 | `melt_wax` | 0.50 |  |
+| W34 | 4:31–4:38 | `melt_wax` | 0.50 |  |
+| W35 | 4:38–4:46 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W36 | 4:46–4:54 | `melt_wax` | 0.50 |  |
+| W37 | 4:54–5:02 | `melt_wax` | 0.50 |  |
+| W38 | 5:02–5:10 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W39 | 5:10–5:18 | `melt_wax` | 0.50 |  |
+| W40 | 5:18–5:26 | `melt_wax` | 0.50 |  |
+| W41 | 5:26–5:34 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W42 | 5:34–5:42 | `melt_wax` | 0.50 |  |
+| W43 | 5:42–5:50 | `melt_wax` | 0.50 |  |
+| W44 | 5:50–5:58 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W45 | 5:58–6:06 | `melt_wax` | 0.50 |  |
+| W46 | 6:06–6:14 | `melt_wax` | 0.50 |  |
+| W47 | 6:14–6:22 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W48 | 6:22–6:30 | `melt_wax` | 0.50 |  |
+| W49 | 6:30–6:38 | `melt_wax` | 0.50 |  |
+| W50 | 6:38–6:46 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W51 | 6:46–6:54 | `melt_wax` | 0.50 |  |
+| W52 | 6:54–7:02 | `melt_wax` | 0.50 |  |
+| W53 | 7:02–7:10 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W54 | 7:10–7:18 | `melt_wax` | 0.50 |  |
+| W55 | 7:18–7:26 | `melt_wax` | 0.50 |  |
+| W56 | 7:26–7:34 | `melt_wax` | 0.50 |  |
+| W57 | 7:34–7:41 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W58 | 7:41–7:49 | `melt_wax` | 0.50 |  |
+| W59 | 7:49–7:57 | `melt_wax` | 0.50 |  |
+| W60 | 7:57–8:05 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W61 | 8:05–8:13 | `melt_wax` | 0.50 |  |
+| W62 | 8:13–8:21 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W63 | 8:21–8:29 | `melt_wax` | 0.50 |  |
+| W64 | 8:29–8:37 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W65 | 8:37–8:45 | `melt_wax` | 0.50 |  |
+| W66 | 8:45–8:53 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W67 | 8:53–9:01 | `melt_wax` | 0.50 |  |
+| W68 | 9:01–9:09 | `melt_wax` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W69 | 9:09–9:17 | `melt_wax` | 0.50 |  |
+| W70 | 9:17–9:25 | `melt_wax` | 0.50 |  |
+| W71 | 9:25–9:33 | `pour_wax` | 0.50 |  |
+| W72 | 9:33–9:41 | `talking_head` | 0.60 |  |
+| W73 | 9:41–9:49 | `talking_head` | 0.60 |  |
+| W74 | 9:49–9:57 | `talking_head` | 0.60 |  |
+| W75 | 9:57–10:05 | `talking_head` | 0.60 |  |
+| W76 | 10:05–10:13 | `talking_head` | 0.60 |  |
+| W77 | 10:13–10:21 | `talking_head` | 0.60 |  |
+| W78 | 10:21–10:29 | `reveal_result` | 0.50 |  |
+| W79 | 10:29–10:37 | `reveal_result` | 0.50 |  |
+| W80 | 10:37–10:44 | `talking_head` | 0.60 |  |
+| W81 | 10:44–10:52 | `talking_head` | 0.60 |  |
+| W82 | 10:52–11:00 | `talking_head` | 0.60 |  |
+| W83 | 11:00–11:08 | `talking_head` *(smoothed)* | 0.50 | despiked to match neighbours |
+| W84 | 11:08–11:16 | `talking_head` | 0.60 |  |
+| W85 | 11:16–11:24 | `talking_head` | 0.60 |  |
+| W86 | 11:24–11:32 | `talking_head` | 0.60 |  |
+| W87 | 11:32–11:40 | `talking_head` | 0.60 |  |
+| W88 | 11:40–11:48 | `reveal_result` | 0.50 |  |
+| W89 | 11:48–11:56 | `blank` | 0.60 |  |
+| W90 | 11:56–12:04 | `blank` | 0.60 |  |
+| W91 | 12:04–12:12 | `blank` | 0.60 |  |

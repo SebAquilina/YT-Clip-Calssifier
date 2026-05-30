@@ -196,543 +196,543 @@
   "start": 191.48,
   "end": 199.46,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 25,
   "start": 199.46,
   "end": 207.43,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 26,
   "start": 207.43,
   "end": 215.41,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 27,
   "start": 215.41,
   "end": 223.39,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 28,
   "start": 223.39,
   "end": 231.37,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 29,
   "start": 231.37,
   "end": 239.35,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 30,
   "start": 239.35,
   "end": 247.33,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 31,
   "start": 247.33,
   "end": 255.3,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 32,
   "start": 255.3,
   "end": 263.28,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 33,
   "start": 263.28,
   "end": 271.26,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 34,
   "start": 271.26,
   "end": 279.24,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 35,
   "start": 279.24,
   "end": 287.22,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 36,
   "start": 287.22,
   "end": 295.2,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 37,
   "start": 295.2,
   "end": 303.17,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 38,
   "start": 303.17,
   "end": 311.15,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 39,
   "start": 311.15,
   "end": 319.13,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 40,
   "start": 319.13,
   "end": 327.11,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 41,
   "start": 327.11,
   "end": 335.09,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 42,
   "start": 335.09,
   "end": 343.07,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 43,
   "start": 343.07,
   "end": 351.04,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 44,
   "start": 351.04,
   "end": 359.02,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 45,
   "start": 359.02,
   "end": 367.0,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 46,
   "start": 367.0,
   "end": 374.98,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 47,
   "start": 374.98,
   "end": 382.96,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 48,
   "start": 382.96,
   "end": 390.93,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 49,
   "start": 390.93,
   "end": 398.91,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 50,
   "start": 398.91,
   "end": 406.89,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 51,
   "start": 406.89,
   "end": 414.87,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 52,
   "start": 414.87,
   "end": 422.85,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 53,
   "start": 422.85,
   "end": 430.83,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 54,
   "start": 430.83,
   "end": 438.8,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 55,
   "start": 438.8,
   "end": 446.78,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 56,
   "start": 446.78,
   "end": 454.76,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 57,
   "start": 454.76,
   "end": 462.74,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 58,
   "start": 462.74,
   "end": 470.72,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 59,
   "start": 470.72,
   "end": 478.7,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 60,
   "start": 478.7,
   "end": 486.67,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'if you want to make multiple candies at once, just multiply both numbers by how many candies you want to make: Formula for 5 candies: 155 5 775 grams of wax 5 75 grams of FO'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 61,
   "start": 486.67,
   "end": 494.65,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 62,
   "start": 494.65,
   "end": 502.63,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "On-screen wax/fragrance formula card."
  },
  {
   "window": 63,
   "start": 502.63,
   "end": 510.61,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "On-screen wax/fragrance formula card."
  },
  {
   "window": 64,
   "start": 510.61,
   "end": 518.59,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "On-screen wax/fragrance formula card."
  },
  {
   "window": 65,
   "start": 518.59,
   "end": 526.57,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "On-screen wax/fragrance formula card."
  },
  {
   "window": 66,
   "start": 526.57,
   "end": 534.54,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of jars setting."
  },
  {
   "window": 67,
   "start": 534.54,
   "end": 542.52,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "Supplies/fragrance shown."
  },
  {
   "window": 68,
   "start": 542.52,
   "end": 550.5,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 69,
   "start": 550.5,
   "end": 558.48,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host talks to camera (how I make 6oz candles)."
  },
  {
   "window": 70,
   "start": 558.48,
   "end": 566.46,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "Supplies/fragrance shown."
  },
  {
   "window": 71,
   "start": 566.46,
   "end": 574.43,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "Supplies/fragrance shown."
  },
  {
   "window": 72,
   "start": 574.43,
   "end": 582.41,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Adding fragrance oil to the melter."
  },
  {
   "window": 73,
   "start": 582.41,
   "end": 590.39,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 74,
   "start": 590.39,
   "end": 598.37,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 75,
   "start": 598.37,
   "end": 606.35,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 76,
   "start": 606.35,
   "end": 614.33,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 77,
   "start": 614.33,
   "end": 622.3,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 78,
   "start": 622.3,
   "end": 630.28,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 79,
   "start": 630.28,
   "end": 638.26,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 80,
   "start": 638.26,
   "end": 646.24,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal bowl/melter."
  },
  {
   "window": 81,
   "start": 646.24,
   "end": 654.22,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the grey tin."
  },
  {
   "window": 82,
   "start": 654.22,
   "end": 662.2,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the grey tin."
  },
  {
   "window": 83,
   "start": 662.2,
   "end": 670.17,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the grey tin."
  },
  {
   "window": 84,
   "start": 670.17,
   "end": 678.15,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit finished candle shown."
  },
  {
   "window": 85,
   "start": 678.15,
   "end": 686.13,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (step-by-step how I make candles)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Lit finished candle shown."
  },
  {
   "window": 86,
   "start": 686.13,
   "end": 694.11,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candles shown."
+  "confidence": 0.5,
+  "description": "Lit finished candle shown."
  },
  {
   "window": 87,
   "start": 694.11,
   "end": 702.09,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candles shown."
+  "confidence": 0.5,
+  "description": "Lit finished candle shown."
  },
  {
   "window": 88,
   "start": 702.09,
   "end": 710.07,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'THANKYOU og FOR WATCHING! Wj ml 1 YT REQUMMENDS AEL ENT UPLOAD'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 89,
   "start": 710.07,
   "end": 718.04,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 THANKYOU ab og FOR WATCHING! Wj SUSSCHC'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' end card."
  },
  {
   "window": 90,
   "start": 718.04,
   "end": 726.02,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 91,
   "start": 726.02,
   "end": 734.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

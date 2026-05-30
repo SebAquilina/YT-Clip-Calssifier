@@ -352,11 +352,11 @@
       "end": 198.91,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -364,13 +364,13 @@
       "window": 25,
       "start": 198.91,
       "end": 206.87,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oa oe 2 Fas roo ene Fi 4 4 se oe Vv'.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -378,15 +378,17 @@
       "window": 26,
       "start": 206.87,
       "end": 214.83,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "description": "Adding fragrance oil.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 27,
@@ -394,11 +396,11 @@
       "end": 222.78,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -406,31 +408,31 @@
       "window": 28,
       "start": 222.78,
       "end": 230.74,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 29,
       "start": 230.74,
       "end": 238.7,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 30,
@@ -438,11 +440,11 @@
       "end": 246.65,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -452,7 +454,7 @@
       "end": 254.61,
       "label": "add_fragrance",
       "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
@@ -466,13 +468,13 @@
       "window": 32,
       "start": 254.61,
       "end": 262.57,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Pouring wax from the melter into a jar.",
       "smoothed": false,
       "notes": []
     },
@@ -482,11 +484,11 @@
       "end": 270.52,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -494,31 +496,31 @@
       "window": 34,
       "start": 270.52,
       "end": 278.48,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 35,
       "start": 278.48,
       "end": 286.43,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 36,
@@ -526,11 +528,11 @@
       "end": 294.39,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -538,13 +540,13 @@
       "window": 37,
       "start": 294.39,
       "end": 302.35,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aa fa an fi ny 9 TT of et wT ay Lg. ai'.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -552,15 +554,17 @@
       "window": 38,
       "start": 302.35,
       "end": 310.3,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 39,
@@ -568,11 +572,11 @@
       "end": 318.26,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -580,13 +584,13 @@
       "window": 40,
       "start": 318.26,
       "end": 326.22,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mS pic pe Ven ft Yer as if'.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -594,15 +598,17 @@
       "window": 41,
       "start": 326.22,
       "end": 334.17,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 42,
@@ -610,11 +616,11 @@
       "end": 342.13,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -622,43 +628,43 @@
       "window": 43,
       "start": 342.13,
       "end": 350.09,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 44,
       "start": 350.09,
       "end": 358.04,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 45,
       "start": 358.04,
       "end": 366.0,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sv. am ei Pa 2 ia es ee an All 2 wis'.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -666,31 +672,31 @@
       "window": 46,
       "start": 366.0,
       "end": 373.96,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 47,
       "start": 373.96,
       "end": 381.91,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 48,
@@ -698,11 +704,11 @@
       "end": 389.87,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -710,31 +716,31 @@
       "window": 49,
       "start": 389.87,
       "end": 397.83,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 50,
       "start": 397.83,
       "end": 405.78,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 51,
@@ -742,11 +748,11 @@
       "end": 413.74,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -754,31 +760,31 @@
       "window": 52,
       "start": 413.74,
       "end": 421.7,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 53,
       "start": 421.7,
       "end": 429.65,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 54,
@@ -786,11 +792,11 @@
       "end": 437.61,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -798,29 +804,27 @@
       "window": 55,
       "start": 437.61,
       "end": 445.57,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 56,
       "start": 445.57,
       "end": 453.52,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax from the melter into a jar.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -828,43 +832,43 @@
       "window": 57,
       "start": 453.52,
       "end": 461.48,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "melt_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'is oS by? Ba was 7 ai ws aw ee ex 7 4. wv'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring wax from the melter into a jar.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 58,
       "start": 461.48,
       "end": 469.43,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 59,
       "start": 469.43,
       "end": 477.39,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax from the melter into a jar.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -872,45 +876,47 @@
       "window": 60,
       "start": 477.39,
       "end": 485.35,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "melt_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ame ns Ge rail sal eee ere St ry Sil 5 ae!'.",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring wax from the melter into a jar.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 61,
       "start": 485.35,
       "end": 493.3,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 62,
       "start": 493.3,
       "end": 501.26,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 63,
@@ -918,11 +924,11 @@
       "end": 509.22,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -930,29 +936,29 @@
       "window": 64,
       "start": 509.22,
       "end": 517.17,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
-      "smoothed": false,
+      "description": "Pouring wax from the melter into a jar.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
+        "despiked to match neighbours"
       ]
     },
     {
       "window": 65,
       "start": 517.17,
       "end": 525.13,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax from the melter into a jar.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -961,44 +967,46 @@
       "start": 525.13,
       "end": 533.09,
       "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
+      "original_label": "pour_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
-      "smoothed": false,
-      "notes": []
+      "description": "Pouring wax from the melter into a jar.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 67,
       "start": 533.09,
       "end": 541.04,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 68,
       "start": 541.04,
       "end": 549.0,
-      "label": "pour_wax",
+      "label": "melt_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
       "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 69,
@@ -1006,11 +1014,11 @@
       "end": 556.96,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
       "notes": []
     },
@@ -1018,17 +1026,15 @@
       "window": 70,
       "start": 556.96,
       "end": 564.91,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Melting wax in the Ksedcon melter (overhead).",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 71,
@@ -1036,7 +1042,7 @@
       "end": 572.87,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
@@ -1048,13 +1054,13 @@
       "window": 72,
       "start": 572.87,
       "end": 580.83,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1062,13 +1068,13 @@
       "window": 73,
       "start": 580.83,
       "end": 588.78,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ow 1 2 Lae ey, 7 ir 7 yp Ox rd 33'.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1076,13 +1082,13 @@
       "window": 74,
       "start": 588.78,
       "end": 596.74,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring wax from the melter into a jar.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1090,13 +1096,13 @@
       "window": 75,
       "start": 596.74,
       "end": 604.7,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1104,13 +1110,13 @@
       "window": 76,
       "start": 604.7,
       "end": 612.65,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Asa ae Bie 2 Ftp se Ue PS oe'.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1118,13 +1124,13 @@
       "window": 77,
       "start": 612.65,
       "end": 620.61,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring wax from the melter into a jar.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1132,13 +1138,13 @@
       "window": 78,
       "start": 620.61,
       "end": 628.57,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Holding/showing the finished candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1146,29 +1152,27 @@
       "window": 79,
       "start": 628.57,
       "end": 636.52,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Holding/showing the finished candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 80,
       "start": 636.52,
       "end": 644.48,
-      "label": "outro_cta",
-      "original_label": "outro_cta",
-      "confidence": 0.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'fn et Ss Py 4 Nl ce 5 amo'.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1176,13 +1180,13 @@
       "window": 81,
       "start": 644.48,
       "end": 652.43,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Melting wax in the Ksedcon melter.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1190,43 +1194,43 @@
       "window": 82,
       "start": 652.43,
       "end": 660.39,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Adding fragrance oil.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 83,
       "start": 660.39,
       "end": 668.35,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Pouring wax from the melter into a jar.",
-      "smoothed": false,
-      "notes": []
+      "description": "Holding/showing the finished candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 84,
       "start": 668.35,
       "end": 676.3,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished candle from the melter shown.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1234,13 +1238,13 @@
       "window": 85,
       "start": 676.3,
       "end": 684.26,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished candle from the melter shown.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1248,13 +1252,13 @@
       "window": 86,
       "start": 684.26,
       "end": 692.22,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished candle from the melter shown.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1262,13 +1266,13 @@
       "window": 87,
       "start": 692.22,
       "end": 700.17,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.4,
-      "phase": "finish",
-      "is_step": true,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished candle from the melter shown.",
+      "description": "Host reviews the melter to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -1278,11 +1282,11 @@
       "end": 708.13,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.4,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished candle from the melter shown.",
+      "description": "Holding/showing the finished candle.",
       "smoothed": false,
       "notes": []
     },
@@ -1290,13 +1294,13 @@
       "window": 89,
       "start": 708.13,
       "end": 716.09,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1304,13 +1308,13 @@
       "window": 90,
       "start": 716.09,
       "end": 724.04,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1318,13 +1322,13 @@
       "window": 91,
       "start": 724.04,
       "end": 732.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     }
@@ -1539,75 +1543,15 @@
       "phase": "process",
       "is_step": true,
       "start": 190.96,
-      "end": 198.91,
-      "confidence": 0.45,
-      "windows": [
-        24
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 198.91,
-      "end": 206.87,
+      "end": 246.65,
       "confidence": 0.5,
       "windows": [
-        25
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 206.87,
-      "end": 214.83,
-      "confidence": 0.45,
-      "windows": [
-        26
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 214.83,
-      "end": 222.78,
-      "confidence": 0.45,
-      "windows": [
-        27
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 222.78,
-      "end": 230.74,
-      "confidence": 0.4,
-      "windows": [
-        28
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 230.74,
-      "end": 238.7,
-      "confidence": 0.45,
-      "windows": [
-        29
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 238.7,
-      "end": 246.65,
-      "confidence": 0.45,
-      "windows": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
         30
       ]
     },
@@ -1617,18 +1561,18 @@
       "is_step": true,
       "start": 246.65,
       "end": 254.61,
-      "confidence": 0.4,
+      "confidence": 0.5,
       "windows": [
         31
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
       "start": 254.61,
       "end": 262.57,
-      "confidence": 0.7,
+      "confidence": 0.5,
       "windows": [
         32
       ]
@@ -1638,416 +1582,46 @@
       "phase": "process",
       "is_step": true,
       "start": 262.57,
-      "end": 270.52,
-      "confidence": 0.45,
-      "windows": [
-        33
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 270.52,
-      "end": 278.48,
-      "confidence": 0.4,
-      "windows": [
-        34
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 278.48,
-      "end": 286.43,
-      "confidence": 0.45,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 286.43,
-      "end": 294.39,
-      "confidence": 0.45,
-      "windows": [
-        36
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 294.39,
-      "end": 302.35,
-      "confidence": 0.5,
-      "windows": [
-        37
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 302.35,
-      "end": 310.3,
-      "confidence": 0.45,
-      "windows": [
-        38
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 310.3,
-      "end": 318.26,
-      "confidence": 0.45,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 318.26,
-      "end": 326.22,
-      "confidence": 0.5,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 326.22,
-      "end": 334.17,
-      "confidence": 0.45,
-      "windows": [
-        41
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 334.17,
-      "end": 342.13,
-      "confidence": 0.45,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 342.13,
-      "end": 350.09,
-      "confidence": 0.4,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 350.09,
-      "end": 358.04,
-      "confidence": 0.45,
-      "windows": [
-        44
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 358.04,
-      "end": 366.0,
-      "confidence": 0.5,
-      "windows": [
-        45
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 366.0,
-      "end": 373.96,
-      "confidence": 0.4,
-      "windows": [
-        46
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 373.96,
-      "end": 381.91,
-      "confidence": 0.45,
-      "windows": [
-        47
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 381.91,
-      "end": 389.87,
-      "confidence": 0.45,
-      "windows": [
-        48
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 389.87,
-      "end": 397.83,
-      "confidence": 0.4,
-      "windows": [
-        49
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 397.83,
-      "end": 405.78,
-      "confidence": 0.45,
-      "windows": [
-        50
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 405.78,
-      "end": 413.74,
-      "confidence": 0.45,
-      "windows": [
-        51
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 413.74,
-      "end": 421.7,
-      "confidence": 0.4,
-      "windows": [
-        52
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 421.7,
-      "end": 429.65,
-      "confidence": 0.45,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 429.65,
-      "end": 437.61,
-      "confidence": 0.45,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 437.61,
-      "end": 445.57,
-      "confidence": 0.4,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 445.57,
-      "end": 453.52,
-      "confidence": 0.45,
-      "windows": [
-        56
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 453.52,
-      "end": 461.48,
-      "confidence": 0.5,
-      "windows": [
-        57
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 461.48,
-      "end": 469.43,
-      "confidence": 0.4,
-      "windows": [
-        58
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 469.43,
-      "end": 477.39,
-      "confidence": 0.45,
-      "windows": [
-        59
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 477.39,
-      "end": 485.35,
-      "confidence": 0.5,
-      "windows": [
-        60
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 485.35,
-      "end": 493.3,
-      "confidence": 0.4,
-      "windows": [
-        61
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 493.3,
-      "end": 501.26,
-      "confidence": 0.45,
-      "windows": [
-        62
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 501.26,
-      "end": 509.22,
-      "confidence": 0.45,
-      "windows": [
-        63
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 509.22,
-      "end": 517.17,
-      "confidence": 0.4,
-      "windows": [
-        64
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 517.17,
-      "end": 525.13,
-      "confidence": 0.45,
-      "windows": [
-        65
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 525.13,
-      "end": 533.09,
-      "confidence": 0.45,
-      "windows": [
-        66
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 533.09,
-      "end": 541.04,
-      "confidence": 0.4,
-      "windows": [
-        67
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 541.04,
-      "end": 549.0,
-      "confidence": 0.45,
-      "windows": [
-        68
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 549.0,
-      "end": 556.96,
-      "confidence": 0.45,
-      "windows": [
-        69
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 556.96,
       "end": 564.91,
-      "confidence": 0.4,
+      "confidence": 0.5,
       "windows": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
         70
       ]
     },
@@ -2057,165 +1631,75 @@
       "is_step": true,
       "start": 564.91,
       "end": 572.87,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
         71
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
       "start": 572.87,
-      "end": 580.83,
-      "confidence": 0.45,
-      "windows": [
-        72
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 580.83,
-      "end": 588.78,
-      "confidence": 0.5,
-      "windows": [
-        73
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 588.78,
-      "end": 596.74,
-      "confidence": 0.45,
-      "windows": [
-        74
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 596.74,
-      "end": 604.7,
-      "confidence": 0.45,
-      "windows": [
-        75
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 604.7,
-      "end": 612.65,
-      "confidence": 0.5,
-      "windows": [
-        76
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 612.65,
       "end": 620.61,
-      "confidence": 0.45,
+      "confidence": 0.6,
       "windows": [
+        72,
+        73,
+        74,
+        75,
+        76,
         77
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 620.61,
-      "end": 628.57,
-      "confidence": 0.45,
-      "windows": [
-        78
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 628.57,
-      "end": 636.52,
-      "confidence": 0.4,
-      "windows": [
-        79
-      ]
-    },
-    {
-      "label": "outro_cta",
-      "phase": "aux",
-      "is_step": false,
-      "start": 636.52,
-      "end": 644.48,
-      "confidence": 0.5,
-      "windows": [
-        80
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 644.48,
-      "end": 652.43,
-      "confidence": 0.45,
-      "windows": [
-        81
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 652.43,
-      "end": 660.39,
-      "confidence": 0.4,
-      "windows": [
-        82
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 660.39,
-      "end": 668.35,
-      "confidence": 0.45,
-      "windows": [
-        83
       ]
     },
     {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 668.35,
-      "end": 708.13,
-      "confidence": 0.4,
+      "start": 620.61,
+      "end": 636.52,
+      "confidence": 0.5,
       "windows": [
+        78,
+        79
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 636.52,
+      "end": 700.17,
+      "confidence": 0.58,
+      "windows": [
+        80,
+        81,
+        82,
+        83,
         84,
         85,
         86,
-        87,
+        87
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 700.17,
+      "end": 708.13,
+      "confidence": 0.5,
+      "windows": [
         88
       ]
     },
     {
-      "label": "transition",
+      "label": "blank",
       "phase": "aux",
       "is_step": false,
       "start": 708.13,
       "end": 732.0,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "windows": [
         89,
         90,

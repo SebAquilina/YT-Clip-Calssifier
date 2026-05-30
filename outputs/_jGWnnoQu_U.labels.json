@@ -196,543 +196,543 @@
   "start": 192.26,
   "end": 200.27,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 25,
   "start": 200.27,
   "end": 208.28,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 26,
   "start": 208.28,
   "end": 216.29,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 27,
   "start": 216.29,
   "end": 224.3,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 28,
   "start": 224.3,
   "end": 232.32,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 29,
   "start": 232.32,
   "end": 240.33,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 30,
   "start": 240.33,
   "end": 248.34,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 31,
   "start": 248.34,
   "end": 256.35,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 32,
   "start": 256.35,
   "end": 264.36,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 33,
   "start": 264.36,
   "end": 272.37,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'we ee fh 2 ote etl! 4 ina'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 34,
   "start": 272.37,
   "end": 280.38,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 35,
   "start": 280.38,
   "end": 288.39,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 36,
   "start": 288.39,
   "end": 296.4,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Li wi fi, Bot me ze. ry 4'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 37,
   "start": 296.4,
   "end": 304.41,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Me Taber Las tne be os ters'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 38,
   "start": 304.41,
   "end": 312.42,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 39,
   "start": 312.42,
   "end": 320.43,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 40,
   "start": 320.43,
   "end": 328.45,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Handling jars/gel tub."
  },
  {
   "window": 41,
   "start": 328.45,
   "end": 336.46,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 42,
   "start": 336.46,
   "end": 344.47,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 43,
   "start": 344.47,
   "end": 352.48,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Heating/handling clear gel wax in the pitcher."
  },
  {
   "window": 44,
   "start": 352.48,
   "end": 360.49,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: ''We ee ra ee ihnp Be 7 oe ee ae 4 7'."
+  "description": "Heating/handling clear gel wax in the pitcher."
  },
  {
   "window": 45,
   "start": 360.49,
   "end": 368.5,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Handling jars/gel tub."
  },
  {
   "window": 46,
   "start": 368.5,
   "end": 376.51,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Heating/handling clear gel wax in the pitcher."
  },
  {
   "window": 47,
   "start": 376.51,
   "end": 384.52,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Heating/handling clear gel wax in the pitcher."
  },
  {
   "window": 48,
   "start": 384.52,
   "end": 392.53,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Heating/handling clear gel wax in the pitcher."
  },
  {
   "window": 49,
   "start": 392.53,
   "end": 400.54,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 50,
   "start": 400.54,
   "end": 408.55,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 51,
   "start": 408.55,
   "end": 416.57,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 52,
   "start": 416.57,
   "end": 424.58,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ws ae Nee he Fie. FF he ita.'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 53,
   "start": 424.58,
   "end": 432.59,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Tinting the gel (green)."
  },
  {
   "window": 54,
   "start": 432.59,
   "end": 440.6,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Heating/handling clear gel wax in the pitcher."
  },
  {
   "window": 55,
   "start": 440.6,
   "end": 448.61,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 56,
   "start": 448.61,
   "end": 456.62,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 57,
   "start": 456.62,
   "end": 464.63,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 58,
   "start": 464.63,
   "end": 472.64,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 59,
   "start": 472.64,
   "end": 480.65,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 60,
   "start": 480.65,
   "end": 488.66,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'we an ft Rae we Le 3 ieee eee'."
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 61,
   "start": 488.66,
   "end": 496.67,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 62,
   "start": 496.67,
   "end": 504.68,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 63,
   "start": 504.68,
   "end": 512.7,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '3 ee fh mag hs: To Gon ae'."
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 64,
   "start": 512.7,
   "end": 520.71,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 65,
   "start": 520.71,
   "end": 528.72,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 66,
   "start": 528.72,
   "end": 536.73,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 67,
   "start": 536.73,
   "end": 544.74,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 68,
   "start": 544.74,
   "end": 552.75,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 69,
   "start": 552.75,
   "end": 560.76,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 70,
   "start": 560.76,
   "end": 568.77,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding embeds/decor to the gel candle."
  },
  {
   "window": 71,
   "start": 568.77,
   "end": 576.78,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 72,
   "start": 576.78,
   "end": 584.79,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 73,
   "start": 584.79,
   "end": 592.8,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 74,
   "start": 592.8,
   "end": 600.82,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 75,
   "start": 600.82,
   "end": 608.83,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'we Pj an or 2 ma Bot oe ar'."
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 76,
   "start": 608.83,
   "end": 616.84,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 77,
   "start": 616.84,
   "end": 624.85,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 78,
   "start": 624.85,
   "end": 632.86,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 79,
   "start": 632.86,
   "end": 640.87,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 80,
   "start": 640.87,
   "end": 648.88,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 81,
   "start": 648.88,
   "end": 656.89,
-  "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Adding embeds/decor to the gel candle."
  },
  {
   "window": 82,
   "start": 656.89,
   "end": 664.9,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 83,
   "start": 664.9,
   "end": 672.91,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring gel into the jars."
  },
  {
   "window": 84,
   "start": 672.91,
   "end": 680.92,
   "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 85,
   "start": 680.92,
   "end": 688.93,
   "label": "talking_head",
-  "confidence": 0.55,
-  "description": "Host talks to camera (how to make gel candles)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 86,
   "start": 688.93,
   "end": 696.95,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished gel candles shown."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 87,
   "start": 696.95,
   "end": 704.96,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished gel candles shown."
+  "confidence": 0.5,
+  "description": "Finished blue gel (aquarium) candle shown."
  },
  {
   "window": 88,
   "start": 704.96,
   "end": 712.97,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished gel candles shown."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 89,
   "start": 712.97,
   "end": 720.98,
   "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 90,
   "start": 720.98,
   "end": 728.99,
-  "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ot ao? eS ce fh 2 por kK os'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host demonstrates gel candles to camera at the table."
  },
  {
   "window": 91,
   "start": 728.99,
   "end": 737.0,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished gel candles shown."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

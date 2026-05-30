@@ -196,47 +196,47 @@
   "start": 190.96,
   "end": 198.91,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 25,
   "start": 198.91,
   "end": 206.87,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oa oe 2 Fas roo ene Fi 4 4 se oe Vv'."
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 26,
   "start": 206.87,
   "end": 214.83,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax from the melter into a jar."
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Adding fragrance oil."
  },
  {
   "window": 27,
   "start": 214.83,
   "end": 222.78,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 28,
   "start": 222.78,
   "end": 230.74,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 29,
   "start": 230.74,
   "end": 238.7,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -244,47 +244,47 @@
   "start": 238.7,
   "end": 246.65,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 31,
   "start": 246.65,
   "end": 254.61,
   "label": "add_fragrance",
-  "confidence": 0.4,
+  "confidence": 0.5,
   "description": "Adding fragrance oil."
  },
  {
   "window": 32,
   "start": 254.61,
   "end": 262.57,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax from the melter into a jar."
  },
  {
   "window": 33,
   "start": 262.57,
   "end": 270.52,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 34,
   "start": 270.52,
   "end": 278.48,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 35,
   "start": 278.48,
   "end": 286.43,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -292,23 +292,23 @@
   "start": 286.43,
   "end": 294.39,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 37,
   "start": 294.39,
   "end": 302.35,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aa fa an fi ny 9 TT of et wT ay Lg. ai'."
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 38,
   "start": 302.35,
   "end": 310.3,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -316,23 +316,23 @@
   "start": 310.3,
   "end": 318.26,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 40,
   "start": 318.26,
   "end": 326.22,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mS pic pe Ven ft Yer as if'."
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 41,
   "start": 326.22,
   "end": 334.17,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -340,47 +340,47 @@
   "start": 334.17,
   "end": 342.13,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 43,
   "start": 342.13,
   "end": 350.09,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 44,
   "start": 350.09,
   "end": 358.04,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
   "window": 45,
   "start": 358.04,
   "end": 366.0,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sv. am ei Pa 2 ia es ee an All 2 wis'."
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 46,
   "start": 366.0,
   "end": 373.96,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 47,
   "start": 373.96,
   "end": 381.91,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -388,23 +388,23 @@
   "start": 381.91,
   "end": 389.87,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 49,
   "start": 389.87,
   "end": 397.83,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 50,
   "start": 397.83,
   "end": 405.78,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -412,23 +412,23 @@
   "start": 405.78,
   "end": 413.74,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 52,
   "start": 413.74,
   "end": 421.7,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 53,
   "start": 421.7,
   "end": 429.65,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -436,71 +436,71 @@
   "start": 429.65,
   "end": 437.61,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 55,
   "start": 437.61,
   "end": 445.57,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 56,
   "start": 445.57,
   "end": 453.52,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax from the melter into a jar."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 57,
   "start": 453.52,
   "end": 461.48,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'is oS by? Ba was 7 ai ws aw ee ex 7 4. wv'."
+  "description": "Pouring wax from the melter into a jar."
  },
  {
   "window": 58,
   "start": 461.48,
   "end": 469.43,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 59,
   "start": 469.43,
   "end": 477.39,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax from the melter into a jar."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 60,
   "start": 477.39,
   "end": 485.35,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Ame ns Ge rail sal eee ere St ry Sil 5 ae!'."
+  "description": "Pouring wax from the melter into a jar."
  },
  {
   "window": 61,
   "start": 485.35,
   "end": 493.3,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 62,
   "start": 493.3,
   "end": 501.26,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -508,47 +508,47 @@
   "start": 501.26,
   "end": 509.22,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 64,
   "start": 509.22,
   "end": 517.17,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax from the melter into a jar."
  },
  {
   "window": 65,
   "start": 517.17,
   "end": 525.13,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax from the melter into a jar."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 66,
   "start": 525.13,
   "end": 533.09,
-  "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax from the melter into a jar."
  },
  {
   "window": 67,
   "start": 533.09,
   "end": 541.04,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 68,
   "start": 541.04,
   "end": 549.0,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
@@ -556,183 +556,183 @@
   "start": 549.0,
   "end": 556.96,
   "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 70,
   "start": 556.96,
   "end": 564.91,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the Ksedcon melter (overhead)."
  },
  {
   "window": 71,
   "start": 564.91,
   "end": 572.87,
   "label": "pour_wax",
-  "confidence": 0.45,
+  "confidence": 0.5,
   "description": "Pouring wax from the melter into a jar."
  },
  {
   "window": 72,
   "start": 572.87,
   "end": 580.83,
-  "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 73,
   "start": 580.83,
   "end": 588.78,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ow 1 2 Lae ey, 7 ir 7 yp Ox rd 33'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 74,
   "start": 588.78,
   "end": 596.74,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax from the melter into a jar."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 75,
   "start": 596.74,
   "end": 604.7,
-  "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 76,
   "start": 604.7,
   "end": 612.65,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Asa ae Bie 2 Ftp se Ue PS oe'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 77,
   "start": 612.65,
   "end": 620.61,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax from the melter into a jar."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 78,
   "start": 620.61,
   "end": 628.57,
-  "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding/showing the finished candle."
  },
  {
   "window": 79,
   "start": 628.57,
   "end": 636.52,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding/showing the finished candle."
  },
  {
   "window": 80,
   "start": 636.52,
   "end": 644.48,
-  "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'fn et Ss Py 4 Nl ce 5 amo'."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 81,
   "start": 644.48,
   "end": 652.43,
-  "label": "melt_wax",
-  "confidence": 0.45,
-  "description": "Melting wax in the Ksedcon melter."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 82,
   "start": 652.43,
   "end": 660.39,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance oil."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 83,
   "start": 660.39,
   "end": 668.35,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax from the melter into a jar."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Holding/showing the finished candle."
  },
  {
   "window": 84,
   "start": 668.35,
   "end": 676.3,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle from the melter shown."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 85,
   "start": 676.3,
   "end": 684.26,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle from the melter shown."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 86,
   "start": 684.26,
   "end": 692.22,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle from the melter shown."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 87,
   "start": 692.22,
   "end": 700.17,
-  "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle from the melter shown."
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host reviews the melter to camera."
  },
  {
   "window": 88,
   "start": 700.17,
   "end": 708.13,
   "label": "reveal_result",
-  "confidence": 0.4,
-  "description": "Finished candle from the melter shown."
+  "confidence": 0.5,
+  "description": "Holding/showing the finished candle."
  },
  {
   "window": 89,
   "start": 708.13,
   "end": 716.09,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 90,
   "start": 716.09,
   "end": 724.04,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 91,
   "start": 724.04,
   "end": 732.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]
