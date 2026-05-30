@@ -1,242 +1,242 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.0,
-    "end": 16.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.0,
-    "end": 24.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.0,
-    "end": 32.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.0,
-    "end": 40.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.0,
-    "end": 48.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.0,
-    "end": 56.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.0,
-    "end": 64.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.0,
-    "end": 72.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.0,
-    "end": 80.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.0,
-    "end": 88.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.0,
-    "end": 96.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.0,
-    "end": 104.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.0,
-    "end": 112.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.0,
-    "end": 120.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 120.0,
-    "end": 128.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 128.0,
-    "end": 136.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 136.0,
-    "end": 144.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 144.0,
-    "end": 152.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 152.0,
-    "end": 160.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 160.0,
-    "end": 168.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 168.0,
-    "end": 176.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 176.0,
-    "end": 184.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 184.0,
-    "end": 192.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 192.0,
-    "end": 200.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 200.0,
-    "end": 208.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 208.0,
-    "end": 216.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 216.0,
-    "end": 224.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 224.0,
-    "end": 232.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 232.0,
-    "end": 240.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.0,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Dark workspace; black jars and supplies."
+ },
+ {
+  "window": 1,
+  "start": 8.0,
+  "end": 16.0,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Wick prepared in a jar."
+ },
+ {
+  "window": 2,
+  "start": 16.0,
+  "end": 24.0,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wicks in the jars."
+ },
+ {
+  "window": 3,
+  "start": 24.0,
+  "end": 32.0,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Black jars with wicks."
+ },
+ {
+  "window": 4,
+  "start": 32.0,
+  "end": 40.0,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Handling a black jar/lid."
+ },
+ {
+  "window": 5,
+  "start": 40.0,
+  "end": 48.0,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Rows of glass jars readied."
+ },
+ {
+  "window": 6,
+  "start": 48.0,
+  "end": 56.0,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Silver melter pot of wax."
+ },
+ {
+  "window": 7,
+  "start": 56.0,
+  "end": 64.0,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into the jars."
+ },
+ {
+  "window": 8,
+  "start": 64.0,
+  "end": 72.0,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Hands with a jar/lid."
+ },
+ {
+  "window": 9,
+  "start": 72.0,
+  "end": 80.0,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring from the melter into jars."
+ },
+ {
+  "window": 10,
+  "start": 80.0,
+  "end": 88.0,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Silver melter pot."
+ },
+ {
+  "window": 11,
+  "start": 88.0,
+  "end": 96.0,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Filling a jar with wax."
+ },
+ {
+  "window": 12,
+  "start": 96.0,
+  "end": 104.0,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Rows of amber jars poured."
+ },
+ {
+  "window": 13,
+  "start": 104.0,
+  "end": 112.0,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of jars setting."
+ },
+ {
+  "window": 14,
+  "start": 112.0,
+  "end": 120.0,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Adjusting wicks in the jars."
+ },
+ {
+  "window": 15,
+  "start": 120.0,
+  "end": 128.0,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of jars cooling."
+ },
+ {
+  "window": 16,
+  "start": 128.0,
+  "end": 136.0,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Wrapping/finishing the candles."
+ },
+ {
+  "window": 17,
+  "start": 136.0,
+  "end": 144.0,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Packing a candle into a box."
+ },
+ {
+  "window": 18,
+  "start": 144.0,
+  "end": 152.0,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Wrapping a candle."
+ },
+ {
+  "window": 19,
+  "start": 152.0,
+  "end": 160.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 20,
+  "start": 160.0,
+  "end": 168.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 21,
+  "start": 168.0,
+  "end": 176.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 22,
+  "start": 176.0,
+  "end": 184.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 23,
+  "start": 184.0,
+  "end": 192.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 24,
+  "start": 192.0,
+  "end": 200.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 25,
+  "start": 200.0,
+  "end": 208.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 26,
+  "start": 208.0,
+  "end": 216.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 27,
+  "start": 216.0,
+  "end": 224.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 28,
+  "start": 224.0,
+  "end": 232.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing/shipping the candles (boxes, packing peanuts, labels)."
+ },
+ {
+  "window": 29,
+  "start": 232.0,
+  "end": 240.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]

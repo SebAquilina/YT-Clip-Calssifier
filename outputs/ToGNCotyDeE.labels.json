@@ -1,250 +1,250 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.94,
-    "end": 15.87,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.87,
-    "end": 23.81,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.81,
-    "end": 31.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.74,
-    "end": 39.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.68,
-    "end": 47.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.61,
-    "end": 55.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.55,
-    "end": 63.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.48,
-    "end": 71.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.42,
-    "end": 79.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.35,
-    "end": 87.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.29,
-    "end": 95.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.23,
-    "end": 103.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.16,
-    "end": 111.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.1,
-    "end": 119.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.03,
-    "end": 126.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 126.97,
-    "end": 134.9,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 134.9,
-    "end": 142.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 142.84,
-    "end": 150.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 150.77,
-    "end": 158.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 158.71,
-    "end": 166.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 166.65,
-    "end": 174.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 174.58,
-    "end": 182.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 182.52,
-    "end": 190.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 190.45,
-    "end": 198.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 198.39,
-    "end": 206.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 206.32,
-    "end": 214.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 214.26,
-    "end": 222.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 222.19,
-    "end": 230.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 230.13,
-    "end": 238.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 238.06,
-    "end": 246.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.94,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "ToAuto wax melter tank and supplies."
+ },
+ {
+  "window": 1,
+  "start": 7.94,
+  "end": 15.87,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted wax into rows of cups."
+ },
+ {
+  "window": 2,
+  "start": 15.87,
+  "end": 23.81,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Wax flakes loaded into the melter."
+ },
+ {
+  "window": 3,
+  "start": 23.81,
+  "end": 31.74,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting on the racks."
+ },
+ {
+  "window": 4,
+  "start": 31.74,
+  "end": 39.68,
+  "label": "trim_wick",
+  "confidence": 0.4,
+  "description": "Trimming wicks on the set candles."
+ },
+ {
+  "window": 5,
+  "start": 39.68,
+  "end": 47.61,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax melting to amber in the ToAuto melter tank."
+ },
+ {
+  "window": 6,
+  "start": 47.61,
+  "end": 55.55,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted wax into rows of cups."
+ },
+ {
+  "window": 7,
+  "start": 55.55,
+  "end": 63.48,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks in the rows of cups."
+ },
+ {
+  "window": 8,
+  "start": 63.48,
+  "end": 71.42,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting on the racks."
+ },
+ {
+  "window": 9,
+  "start": 71.42,
+  "end": 79.35,
+  "label": "trim_wick",
+  "confidence": 0.4,
+  "description": "Trimming wicks on the set candles."
+ },
+ {
+  "window": 10,
+  "start": 79.35,
+  "end": 87.29,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax melting to amber in the ToAuto melter tank."
+ },
+ {
+  "window": 11,
+  "start": 87.29,
+  "end": 95.23,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted wax into rows of cups."
+ },
+ {
+  "window": 12,
+  "start": 95.23,
+  "end": 103.16,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks in the rows of cups."
+ },
+ {
+  "window": 13,
+  "start": 103.16,
+  "end": 111.1,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting on the racks."
+ },
+ {
+  "window": 14,
+  "start": 111.1,
+  "end": 119.03,
+  "label": "trim_wick",
+  "confidence": 0.4,
+  "description": "Trimming wicks on the set candles."
+ },
+ {
+  "window": 15,
+  "start": 119.03,
+  "end": 126.97,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax melting to amber in the ToAuto melter tank."
+ },
+ {
+  "window": 16,
+  "start": 126.97,
+  "end": 134.9,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted wax into rows of cups."
+ },
+ {
+  "window": 17,
+  "start": 134.9,
+  "end": 142.84,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks in the rows of cups."
+ },
+ {
+  "window": 18,
+  "start": 142.84,
+  "end": 150.77,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting on the racks."
+ },
+ {
+  "window": 19,
+  "start": 150.77,
+  "end": 158.71,
+  "label": "trim_wick",
+  "confidence": 0.4,
+  "description": "Trimming wicks on the set candles."
+ },
+ {
+  "window": 20,
+  "start": 158.71,
+  "end": 166.65,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax melting to amber in the ToAuto melter tank."
+ },
+ {
+  "window": 21,
+  "start": 166.65,
+  "end": 174.58,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted wax into rows of cups."
+ },
+ {
+  "window": 22,
+  "start": 174.58,
+  "end": 182.52,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks in the rows of cups."
+ },
+ {
+  "window": 23,
+  "start": 182.52,
+  "end": 190.45,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting on the racks."
+ },
+ {
+  "window": 24,
+  "start": 190.45,
+  "end": 198.39,
+  "label": "trim_wick",
+  "confidence": 0.4,
+  "description": "Trimming wicks on the set candles."
+ },
+ {
+  "window": 25,
+  "start": 198.39,
+  "end": 206.32,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax melting to amber in the ToAuto melter tank."
+ },
+ {
+  "window": 26,
+  "start": 206.32,
+  "end": 214.26,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted wax into rows of cups."
+ },
+ {
+  "window": 27,
+  "start": 214.26,
+  "end": 222.19,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring wicks in the rows of cups."
+ },
+ {
+  "window": 28,
+  "start": 222.19,
+  "end": 230.13,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured candles setting on the racks."
+ },
+ {
+  "window": 29,
+  "start": 230.13,
+  "end": 238.06,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Rows of finished candles."
+ },
+ {
+  "window": 30,
+  "start": 238.06,
+  "end": 246.0,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Closing frame."
+ }
 ]

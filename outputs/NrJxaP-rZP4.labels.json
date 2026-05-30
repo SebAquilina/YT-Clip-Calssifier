@@ -1,250 +1,250 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.03,
-    "end": 16.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.06,
-    "end": 24.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 24.1,
-    "end": 32.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.13,
-    "end": 40.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.16,
-    "end": 48.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.19,
-    "end": 56.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.23,
-    "end": 64.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.26,
-    "end": 72.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.29,
-    "end": 80.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.32,
-    "end": 88.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.35,
-    "end": 96.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.39,
-    "end": 104.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.42,
-    "end": 112.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.45,
-    "end": 120.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 120.48,
-    "end": 128.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 128.52,
-    "end": 136.55,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Now take your ratio of bourbon to vanilla For Vanilla, you need vanilla: 0.6 1.44 0.864 of vanilla For Bourbon, you need bourbon: 04 144 ,5760z0fbourbon'."
-  },
-  {
-    "window": 17,
-    "start": 136.55,
-    "end": 144.58,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Now take your ratio of bourbon to vanilla For Vanilla, you need vanilla: 0.6 1.44 0.864 oz of vanilla For Bourbon, you need bourbon: 0.4 144 ,5760z0f bourbon'."
-  },
-  {
-    "window": 18,
-    "start": 144.58,
-    "end": 152.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 152.61,
-    "end": 160.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 160.65,
-    "end": 168.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 168.68,
-    "end": 176.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 176.71,
-    "end": 184.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 184.74,
-    "end": 192.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 192.77,
-    "end": 200.81,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 200.81,
-    "end": 208.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 208.84,
-    "end": 216.87,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 27,
-    "start": 216.87,
-    "end": 224.9,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 28,
-    "start": 224.9,
-    "end": 232.94,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 29,
-    "start": 232.94,
-    "end": 240.97,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 30,
-    "start": 240.97,
-    "end": 249.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.03,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 1,
+  "start": 8.03,
+  "end": 16.06,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 2,
+  "start": 16.06,
+  "end": 24.1,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 3,
+  "start": 24.1,
+  "end": 32.13,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 4,
+  "start": 32.13,
+  "end": 40.16,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 5,
+  "start": 40.16,
+  "end": 48.19,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 6,
+  "start": 48.19,
+  "end": 56.23,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 7,
+  "start": 56.23,
+  "end": 64.26,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 8,
+  "start": 64.26,
+  "end": 72.29,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 9,
+  "start": 72.29,
+  "end": 80.32,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 10,
+  "start": 80.32,
+  "end": 88.35,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 11,
+  "start": 88.35,
+  "end": 96.39,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 12,
+  "start": 96.39,
+  "end": 104.42,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 13,
+  "start": 104.42,
+  "end": 112.45,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Math caption slide (fragrance ratio calculation)."
+ },
+ {
+  "window": 14,
+  "start": 112.45,
+  "end": 120.48,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Math caption slide (fragrance ratio calculation)."
+ },
+ {
+  "window": 15,
+  "start": 120.48,
+  "end": 128.52,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text slide with fragrance-blend ratio math."
+ },
+ {
+  "window": 16,
+  "start": 128.52,
+  "end": 136.55,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Now take your ratio of bourbon to vanilla For Vanilla, you need vanilla: 0.6 1.44 0.864 of vanilla For Bourbon, you need bourbon: 04 144 ,5760z0fbourbon'."
+ },
+ {
+  "window": 17,
+  "start": 136.55,
+  "end": 144.58,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Now take your ratio of bourbon to vanilla For Vanilla, you need vanilla: 0.6 1.44 0.864 oz of vanilla For Bourbon, you need bourbon: 0.4 144 ,5760z0f bourbon'."
+ },
+ {
+  "window": 18,
+  "start": 144.58,
+  "end": 152.61,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text slide with fragrance-blend ratio math."
+ },
+ {
+  "window": 19,
+  "start": 152.61,
+  "end": 160.65,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text slide with fragrance-blend ratio math."
+ },
+ {
+  "window": 20,
+  "start": 160.65,
+  "end": 168.68,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text slide with fragrance-blend ratio math."
+ },
+ {
+  "window": 21,
+  "start": 168.68,
+  "end": 176.71,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text slide with fragrance-blend ratio math."
+ },
+ {
+  "window": 22,
+  "start": 176.71,
+  "end": 184.74,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text slide with fragrance-blend ratio math."
+ },
+ {
+  "window": 23,
+  "start": 184.74,
+  "end": 192.77,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text slide with fragrance-blend ratio math."
+ },
+ {
+  "window": 24,
+  "start": 192.77,
+  "end": 200.81,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 25,
+  "start": 200.81,
+  "end": 208.84,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera about blending fragrance oils."
+ },
+ {
+  "window": 26,
+  "start": 208.84,
+  "end": 216.87,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 27,
+  "start": 216.87,
+  "end": 224.9,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 28,
+  "start": 224.9,
+  "end": 232.94,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 29,
+  "start": 232.94,
+  "end": 240.97,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 30,
+  "start": 240.97,
+  "end": 249.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
