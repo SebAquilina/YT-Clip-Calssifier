@@ -1,0 +1,596 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Host (dark tank, headband) opens a talk on complementary products to expand a candle business."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 5,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 6,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 7,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 8,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 9,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 10,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 11,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 12,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 13,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 15,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 17,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 18,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 19,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 20,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 23,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 25,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 27,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 28,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 29,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 31,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 32,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 34,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 35,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 37,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 39,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 40,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 41,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 44,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 47,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 48,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 49,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 50,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 51,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 52,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 53,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 54,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 55,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 56,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 57,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 58,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 59,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 60,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 61,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 62,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 63,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 64,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 65,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 66,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 67,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 68,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 69,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 70,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 71,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 72,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 73,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 74,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 75,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 76,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 77,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 78,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 79,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 80,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 81,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 82,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 83,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 84,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 85,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 86,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 87,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 88,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 89,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 90,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 91,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 92,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 93,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 94,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 95,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (business advice)."
+ },
+ {
+  "window": 96,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "A second presenter talks to camera."
+ },
+ {
+  "window": 97,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Presenter talks to camera."
+ },
+ {
+  "window": 98,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "Presenter wraps up to camera."
+ }
+]
