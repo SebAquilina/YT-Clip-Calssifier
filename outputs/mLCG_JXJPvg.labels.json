@@ -1,314 +1,314 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 8.05,
-    "end": 16.1,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 2,
-    "start": 16.1,
-    "end": 24.15,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 3,
-    "start": 24.15,
-    "end": 32.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.21,
-    "end": 40.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.26,
-    "end": 48.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.31,
-    "end": 56.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.36,
-    "end": 64.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 64.41,
-    "end": 72.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.46,
-    "end": 80.51,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.51,
-    "end": 88.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.56,
-    "end": 96.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.62,
-    "end": 104.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 104.67,
-    "end": 112.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.72,
-    "end": 120.77,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 120.77,
-    "end": 128.82,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 16,
-    "start": 128.82,
-    "end": 136.87,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 17,
-    "start": 136.87,
-    "end": 144.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 144.92,
-    "end": 152.97,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 152.97,
-    "end": 161.03,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 161.03,
-    "end": 169.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 169.08,
-    "end": 177.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 177.13,
-    "end": 185.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 185.18,
-    "end": 193.23,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 193.23,
-    "end": 201.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 201.28,
-    "end": 209.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 209.33,
-    "end": 217.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 217.38,
-    "end": 225.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 225.44,
-    "end": 233.49,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 29,
-    "start": 233.49,
-    "end": 241.54,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 30,
-    "start": 241.54,
-    "end": 249.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 249.59,
-    "end": 257.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 257.64,
-    "end": 265.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 265.69,
-    "end": 273.74,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 34,
-    "start": 273.74,
-    "end": 281.79,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 35,
-    "start": 281.79,
-    "end": 289.85,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 36,
-    "start": 289.85,
-    "end": 297.9,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 37,
-    "start": 297.9,
-    "end": 305.95,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 38,
-    "start": 305.95,
-    "end": 314.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.05,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'How to Make a Candle with a Double Boiler' title."
+ },
+ {
+  "window": 1,
+  "start": 8.05,
+  "end": 16.1,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 16.1,
+  "end": 24.15,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 24.15,
+  "end": 32.21,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "start": 32.21,
+  "end": 40.26,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal pot over a double boiler (overhead)."
+ },
+ {
+  "window": 5,
+  "start": 40.26,
+  "end": 48.31,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal pot over a double boiler (overhead)."
+ },
+ {
+  "window": 6,
+  "start": 48.31,
+  "end": 56.36,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal pot over a double boiler (overhead)."
+ },
+ {
+  "window": 7,
+  "start": 56.36,
+  "end": 64.41,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal pot over a double boiler (overhead)."
+ },
+ {
+  "window": 8,
+  "start": 64.41,
+  "end": 72.46,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal pot over a double boiler (overhead)."
+ },
+ {
+  "window": 9,
+  "start": 72.46,
+  "end": 80.51,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal pot over a double boiler (overhead)."
+ },
+ {
+  "window": 10,
+  "start": 80.51,
+  "end": 88.56,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax block measured into the pot."
+ },
+ {
+  "window": 11,
+  "start": 88.56,
+  "end": 96.62,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal pot over a double boiler (overhead)."
+ },
+ {
+  "window": 12,
+  "start": 96.62,
+  "end": 104.67,
+  "label": "monitor_temperature",
+  "confidence": 0.5,
+  "description": "Checking the wax temperature with a thermometer."
+ },
+ {
+  "window": 13,
+  "start": 104.67,
+  "end": 112.72,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax in the pot."
+ },
+ {
+  "window": 14,
+  "start": 112.72,
+  "end": 120.77,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Tending the melting wax."
+ },
+ {
+  "window": 15,
+  "start": 120.77,
+  "end": 128.82,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 128.82,
+  "end": 136.87,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 136.87,
+  "end": 144.92,
+  "label": "monitor_temperature",
+  "confidence": 0.45,
+  "description": "Checking temperature before pouring."
+ },
+ {
+  "window": 18,
+  "start": 144.92,
+  "end": 152.97,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into a metal pitcher."
+ },
+ {
+  "window": 19,
+  "start": 152.97,
+  "end": 161.03,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Pot of wax; hands."
+ },
+ {
+  "window": 20,
+  "start": 161.03,
+  "end": 169.08,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring the wax."
+ },
+ {
+  "window": 21,
+  "start": 169.08,
+  "end": 177.13,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring from the metal pot."
+ },
+ {
+  "window": 22,
+  "start": 177.13,
+  "end": 185.18,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Pot of wax."
+ },
+ {
+  "window": 23,
+  "start": 185.18,
+  "end": 193.23,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into a jar."
+ },
+ {
+  "window": 24,
+  "start": 193.23,
+  "end": 201.28,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting."
+ },
+ {
+  "window": 25,
+  "start": 201.28,
+  "end": 209.33,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting."
+ },
+ {
+  "window": 26,
+  "start": 209.33,
+  "end": 217.38,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting."
+ },
+ {
+  "window": 27,
+  "start": 217.38,
+  "end": 225.44,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting."
+ },
+ {
+  "window": 28,
+  "start": 225.44,
+  "end": 233.49,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 29,
+  "start": 233.49,
+  "end": 241.54,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 30,
+  "start": 241.54,
+  "end": 249.59,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting."
+ },
+ {
+  "window": 31,
+  "start": 249.59,
+  "end": 257.64,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting."
+ },
+ {
+  "window": 32,
+  "start": 257.64,
+  "end": 265.69,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting."
+ },
+ {
+  "window": 33,
+  "start": 265.69,
+  "end": 273.74,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 34,
+  "start": 273.74,
+  "end": 281.79,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 35,
+  "start": 281.79,
+  "end": 289.85,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 36,
+  "start": 289.85,
+  "end": 297.9,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 37,
+  "start": 297.9,
+  "end": 305.95,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 38,
+  "start": 305.95,
+  "end": 314.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]

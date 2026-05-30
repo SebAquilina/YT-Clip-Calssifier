@@ -1,306 +1,306 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.95,
-    "end": 15.89,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.89,
-    "end": 23.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.84,
-    "end": 31.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.79,
-    "end": 39.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.74,
-    "end": 47.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.68,
-    "end": 55.63,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 7,
-    "start": 55.63,
-    "end": 63.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.58,
-    "end": 71.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.53,
-    "end": 79.47,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 10,
-    "start": 79.47,
-    "end": 87.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.42,
-    "end": 95.37,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.37,
-    "end": 103.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.32,
-    "end": 111.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.26,
-    "end": 119.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.21,
-    "end": 127.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.16,
-    "end": 135.11,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.11,
-    "end": 143.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.05,
-    "end": 151.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.0,
-    "end": 158.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 158.95,
-    "end": 166.89,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 166.89,
-    "end": 174.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 174.84,
-    "end": 182.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 182.79,
-    "end": 190.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 190.74,
-    "end": 198.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 198.68,
-    "end": 206.63,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 206.63,
-    "end": 214.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 214.58,
-    "end": 222.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 222.53,
-    "end": 230.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 230.47,
-    "end": 238.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 238.42,
-    "end": 246.37,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 246.37,
-    "end": 254.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 254.32,
-    "end": 262.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 262.26,
-    "end": 270.21,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'he DIN late Pi fe eu rr cy Aa'."
-  },
-  {
-    "window": 34,
-    "start": 270.21,
-    "end": 278.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 278.16,
-    "end": 286.11,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 36,
-    "start": 286.11,
-    "end": 294.05,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 294.05,
-    "end": 302.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.95,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: building a colourful candle in a glass with embedded decor."
+ },
+ {
+  "window": 1,
+  "start": 7.95,
+  "end": 15.89,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 2,
+  "start": 15.89,
+  "end": 23.84,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 3,
+  "start": 23.84,
+  "end": 31.79,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 4,
+  "start": 31.79,
+  "end": 39.74,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 5,
+  "start": 39.74,
+  "end": 47.68,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 6,
+  "start": 47.68,
+  "end": 55.63,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 55.63,
+  "end": 63.58,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 8,
+  "start": 63.58,
+  "end": 71.53,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 9,
+  "start": 71.53,
+  "end": 79.47,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 79.47,
+  "end": 87.42,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 11,
+  "start": 87.42,
+  "end": 95.37,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead: coloured wax and decorations built up in a glass."
+ },
+ {
+  "window": 12,
+  "start": 95.37,
+  "end": 103.32,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 13,
+  "start": 103.32,
+  "end": 111.26,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 14,
+  "start": 111.26,
+  "end": 119.21,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 15,
+  "start": 119.21,
+  "end": 127.16,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 16,
+  "start": 127.16,
+  "end": 135.11,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 17,
+  "start": 135.11,
+  "end": 143.05,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 18,
+  "start": 143.05,
+  "end": 151.0,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 19,
+  "start": 151.0,
+  "end": 158.95,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 20,
+  "start": 158.95,
+  "end": 166.89,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 21,
+  "start": 166.89,
+  "end": 174.84,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 22,
+  "start": 174.84,
+  "end": 182.79,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 23,
+  "start": 182.79,
+  "end": 190.74,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 24,
+  "start": 190.74,
+  "end": 198.68,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 25,
+  "start": 198.68,
+  "end": 206.63,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 26,
+  "start": 206.63,
+  "end": 214.58,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 27,
+  "start": 214.58,
+  "end": 222.53,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 28,
+  "start": 222.53,
+  "end": 230.47,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 29,
+  "start": 230.47,
+  "end": 238.42,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Shaping a tall green crystalline candle by hand."
+ },
+ {
+  "window": 30,
+  "start": 238.42,
+  "end": 246.37,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished green crystal candle shown."
+ },
+ {
+  "window": 31,
+  "start": 246.37,
+  "end": 254.32,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished green crystal candle shown."
+ },
+ {
+  "window": 32,
+  "start": 254.32,
+  "end": 262.26,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished green crystal candle shown."
+ },
+ {
+  "window": 33,
+  "start": 262.26,
+  "end": 270.21,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'he DIN late Pi fe eu rr cy Aa'."
+ },
+ {
+  "window": 34,
+  "start": 270.21,
+  "end": 278.16,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished green crystal candle shown."
+ },
+ {
+  "window": 35,
+  "start": 278.16,
+  "end": 286.11,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 36,
+  "start": 286.11,
+  "end": 294.05,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished green crystal candle shown."
+ },
+ {
+  "window": 37,
+  "start": 294.05,
+  "end": 302.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
