@@ -1,0 +1,386 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 8.04,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 8.04,
+    "end": 16.08,
+    "label": "intro_titlecard",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Bae fS ho De FO SS SOM Som 7 een 3 Aw Pa ie ns on 4 4 est 3 7 2 2 eo jes'."
+  },
+  {
+    "window": 2,
+    "start": 16.08,
+    "end": 24.12,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 24.12,
+    "end": 32.17,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 32.17,
+    "end": 40.21,
+    "label": "intro_titlecard",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Wa ron 4 hae 3 De is iy ba Riad aay iP ar ie Bees wax has higher melting point and will not bleed 00 ie ceennsenesas meen temenemes'."
+  },
+  {
+    "window": 5,
+    "start": 40.21,
+    "end": 48.25,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 48.25,
+    "end": 56.29,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 56.29,
+    "end": 64.33,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 64.33,
+    "end": 72.38,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 9,
+    "start": 72.38,
+    "end": 80.42,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 10,
+    "start": 80.42,
+    "end": 88.46,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 11,
+    "start": 88.46,
+    "end": 96.5,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'whe 7 SOME. al Vee rs eS Bias ks ee ea aay ee ee: ume Pa Lips oy Continue the same way an .rT'."
+  },
+  {
+    "window": 12,
+    "start": 96.5,
+    "end": 104.54,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 104.54,
+    "end": 112.58,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 112.58,
+    "end": 120.63,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'en mess Wie Ng Hh Add the wax into the silicone moulds'."
+  },
+  {
+    "window": 15,
+    "start": 120.63,
+    "end": 128.67,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 128.67,
+    "end": 136.71,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 17,
+    "start": 136.71,
+    "end": 144.75,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '2 cde SS os re Pes as ar 9 he ot 1. Ke oe 4 se af nt ae Oa yh 7 oy 4 Pad fee fi, 7'."
+  },
+  {
+    "window": 18,
+    "start": 144.75,
+    "end": 152.79,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 152.79,
+    "end": 160.83,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 160.83,
+    "end": 168.87,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'onan rc 3 Pesoe Wie 7 7 ji th ee Co Vina? Pr'."
+  },
+  {
+    "window": 21,
+    "start": 168.87,
+    "end": 176.92,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 176.92,
+    "end": 184.96,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 23,
+    "start": 184.96,
+    "end": 193.0,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Rett Ye Sa By Ane ee oe 5 Dey Se, Hh ip ar XY Bed Py LETf'."
+  },
+  {
+    "window": 24,
+    "start": 193.0,
+    "end": 201.04,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 25,
+    "start": 201.04,
+    "end": 209.08,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 26,
+    "start": 209.08,
+    "end": 217.12,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 217.12,
+    "end": 225.17,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'cen si 4 ye ov RY 4 and finally strawberry'."
+  },
+  {
+    "window": 28,
+    "start": 225.17,
+    "end": 233.21,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 29,
+    "start": 233.21,
+    "end": 241.25,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 30,
+    "start": 241.25,
+    "end": 249.29,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Se ae ee ae eg Fee aa ieee: ae Nae Br er ie So yy To eo'."
+  },
+  {
+    "window": 31,
+    "start": 249.29,
+    "end": 257.33,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 32,
+    "start": 257.33,
+    "end": 265.37,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 33,
+    "start": 265.37,
+    "end": 273.42,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'as oh OS al jo ee ae ae ie ae ie zzz ae ae va ar fw'."
+  },
+  {
+    "window": 34,
+    "start": 273.42,
+    "end": 281.46,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 35,
+    "start": 281.46,
+    "end": 289.5,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 36,
+    "start": 289.5,
+    "end": 297.54,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 37,
+    "start": 297.54,
+    "end": 305.58,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 38,
+    "start": 305.58,
+    "end": 313.62,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 39,
+    "start": 313.62,
+    "end": 321.67,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Moth ae we te Aer. id MOP Es eo ji mans vy rd Lee 4 in: Sw Lak 7'."
+  },
+  {
+    "window": 40,
+    "start": 321.67,
+    "end": 329.71,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 41,
+    "start": 329.71,
+    "end": 337.75,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'see al qe se Tbe iu Pt BAS ox Se Se ae 2 Af. HI ReSFY Ye If rr? oF eh'."
+  },
+  {
+    "window": 42,
+    "start": 337.75,
+    "end": 345.79,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 43,
+    "start": 345.79,
+    "end": 353.83,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 44,
+    "start": 353.83,
+    "end": 361.88,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 45,
+    "start": 361.88,
+    "end": 369.92,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 46,
+    "start": 369.92,
+    "end": 377.96,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 47,
+    "start": 377.96,
+    "end": 386.0,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "Blank / near-black frame (auto-detected)."
+  }
+]

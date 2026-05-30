@@ -1,0 +1,850 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 7.97,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 7.97,
+    "end": 15.94,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 2,
+    "start": 15.94,
+    "end": 23.92,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 3,
+    "start": 23.92,
+    "end": 31.89,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 4,
+    "start": 31.89,
+    "end": 39.86,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 5,
+    "start": 39.86,
+    "end": 47.83,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 6,
+    "start": 47.83,
+    "end": 55.8,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 7,
+    "start": 55.8,
+    "end": 63.77,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 8,
+    "start": 63.77,
+    "end": 71.75,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 71.75,
+    "end": 79.72,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 79.72,
+    "end": 87.69,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 11,
+    "start": 87.69,
+    "end": 95.66,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 95.66,
+    "end": 103.63,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 13,
+    "start": 103.63,
+    "end": 111.6,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 14,
+    "start": 111.6,
+    "end": 119.58,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 15,
+    "start": 119.58,
+    "end": 127.55,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 16,
+    "start": 127.55,
+    "end": 135.52,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Pad? co eha tia nite ail nl pF'."
+  },
+  {
+    "window": 17,
+    "start": 135.52,
+    "end": 143.49,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 18,
+    "start": 143.49,
+    "end": 151.46,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 151.46,
+    "end": 159.43,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 159.43,
+    "end": 167.41,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 21,
+    "start": 167.41,
+    "end": 175.38,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 175.38,
+    "end": 183.35,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 23,
+    "start": 183.35,
+    "end": 191.32,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 24,
+    "start": 191.32,
+    "end": 199.29,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ts JAE init hat toe CORI 7 it:'."
+  },
+  {
+    "window": 25,
+    "start": 199.29,
+    "end": 207.26,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 26,
+    "start": 207.26,
+    "end": 215.24,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 215.24,
+    "end": 223.21,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'FP ies 1. oe Fai Fei ei en 7 mime var inte 4 NY, my 4 La me'."
+  },
+  {
+    "window": 28,
+    "start": 223.21,
+    "end": 231.18,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 29,
+    "start": 231.18,
+    "end": 239.15,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 1 al aa 4 alse 7 Bs ts ie: saul 3 cn La yeu BS pie'."
+  },
+  {
+    "window": 30,
+    "start": 239.15,
+    "end": 247.12,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 31,
+    "start": 247.12,
+    "end": 255.09,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 32,
+    "start": 255.09,
+    "end": 263.07,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 33,
+    "start": 263.07,
+    "end": 271.04,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 34,
+    "start": 271.04,
+    "end": 279.01,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'all rd is 4 5 Pe, 7 ii. deals 2 wat oa oa ictal 4 ae SNC as ai Aiea atin 99 Pi on at NM Bae ee ee ne ee eeo rt 4 3'."
+  },
+  {
+    "window": 35,
+    "start": 279.01,
+    "end": 286.98,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 36,
+    "start": 286.98,
+    "end": 294.95,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 37,
+    "start": 294.95,
+    "end": 302.92,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 Ps hy SI we ee. We MT ERO EEE zs mail cae fh. Li'."
+  },
+  {
+    "window": 38,
+    "start": 302.92,
+    "end": 310.9,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 39,
+    "start": 310.9,
+    "end": 318.87,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 40,
+    "start": 318.87,
+    "end": 326.84,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ww Aa rer lg 1 ia ep 5 ed fees ra vg'."
+  },
+  {
+    "window": 41,
+    "start": 326.84,
+    "end": 334.81,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 42,
+    "start": 334.81,
+    "end": 342.78,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 43,
+    "start": 342.78,
+    "end": 350.75,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 44,
+    "start": 350.75,
+    "end": 358.73,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 45,
+    "start": 358.73,
+    "end": 366.7,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 46,
+    "start": 366.7,
+    "end": 374.67,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 47,
+    "start": 374.67,
+    "end": 382.64,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 48,
+    "start": 382.64,
+    "end": 390.61,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 49,
+    "start": 390.61,
+    "end": 398.58,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 50,
+    "start": 398.58,
+    "end": 406.56,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 51,
+    "start": 406.56,
+    "end": 414.53,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 52,
+    "start": 414.53,
+    "end": 422.5,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 53,
+    "start": 422.5,
+    "end": 430.47,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 54,
+    "start": 430.47,
+    "end": 438.44,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 55,
+    "start": 438.44,
+    "end": 446.42,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 56,
+    "start": 446.42,
+    "end": 454.39,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 57,
+    "start": 454.39,
+    "end": 462.36,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 58,
+    "start": 462.36,
+    "end": 470.33,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Fy oh Ps Tie 2 iw Winathi betore 214 is'."
+  },
+  {
+    "window": 59,
+    "start": 470.33,
+    "end": 478.3,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 60,
+    "start": 478.3,
+    "end": 486.27,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 61,
+    "start": 486.27,
+    "end": 494.25,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 62,
+    "start": 494.25,
+    "end": 502.22,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 63,
+    "start": 502.22,
+    "end": 510.19,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ie sae eA rvar-&, Sete 5 AX nd oes Lf ah, it 2. Zz 7 ihe rs 7 ae ie ry'."
+  },
+  {
+    "window": 64,
+    "start": 510.19,
+    "end": 518.16,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 65,
+    "start": 518.16,
+    "end": 526.13,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'wh ae 9 SS uRBsAn Ay 1 ar poh ye ae is sh fo we af ff eee Bt Soo HES as-tep ZA RY Browsed, But didn pick up anything this tiene syre.'."
+  },
+  {
+    "window": 66,
+    "start": 526.13,
+    "end": 534.1,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 67,
+    "start": 534.1,
+    "end": 542.08,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 68,
+    "start": 542.08,
+    "end": 550.05,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 69,
+    "start": 550.05,
+    "end": 558.02,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 70,
+    "start": 558.02,
+    "end": 565.99,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 71,
+    "start": 565.99,
+    "end": 573.96,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 72,
+    "start": 573.96,
+    "end": 581.93,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 73,
+    "start": 581.93,
+    "end": 589.91,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'pean OR SE oh ee ee iS Ne ee re po Riis da eo Se es nS, Sh IP 1 he Rees Fae ee aie IM en ava hc: Pert se'."
+  },
+  {
+    "window": 74,
+    "start": 589.91,
+    "end": 597.88,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 75,
+    "start": 597.88,
+    "end": 605.85,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 76,
+    "start": 605.85,
+    "end": 613.82,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'NN ae Yee Lf ae Ba cia an SG 7 ZNOFS JN CRP ae Dh'."
+  },
+  {
+    "window": 77,
+    "start": 613.82,
+    "end": 621.79,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 78,
+    "start": 621.79,
+    "end": 629.76,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 79,
+    "start": 629.76,
+    "end": 637.74,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 80,
+    "start": 637.74,
+    "end": 645.71,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 81,
+    "start": 645.71,
+    "end": 653.68,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 82,
+    "start": 653.68,
+    "end": 661.65,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 83,
+    "start": 661.65,
+    "end": 669.62,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 84,
+    "start": 669.62,
+    "end": 677.59,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aps co PR, 4 wa EBS wed AS SS'."
+  },
+  {
+    "window": 85,
+    "start": 677.59,
+    "end": 685.57,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 86,
+    "start": 685.57,
+    "end": 693.54,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee in. Hs, ieee beh PO as hs'."
+  },
+  {
+    "window": 87,
+    "start": 693.54,
+    "end": 701.51,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 88,
+    "start": 701.51,
+    "end": 709.48,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 89,
+    "start": 709.48,
+    "end": 717.45,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ie eee ros 4 Pernt ny co ul Ne el oor'."
+  },
+  {
+    "window": 90,
+    "start": 717.45,
+    "end": 725.42,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 91,
+    "start": 725.42,
+    "end": 733.4,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'es aa ren eee sage er ate gene il 4 7'."
+  },
+  {
+    "window": 92,
+    "start": 733.4,
+    "end": 741.37,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 93,
+    "start": 741.37,
+    "end": 749.34,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 94,
+    "start": 749.34,
+    "end": 757.31,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'opttorr 1 eaaonee Ef ese aA at ae'."
+  },
+  {
+    "window": 95,
+    "start": 757.31,
+    "end": 765.28,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 96,
+    "start": 765.28,
+    "end": 773.25,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '14 eae ee rE Pe Ae gag So'."
+  },
+  {
+    "window": 97,
+    "start": 773.25,
+    "end": 781.23,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 98,
+    "start": 781.23,
+    "end": 789.2,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 99,
+    "start": 789.2,
+    "end": 797.17,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oh brite, Pee white be ales'."
+  },
+  {
+    "window": 100,
+    "start": 797.17,
+    "end": 805.14,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 101,
+    "start": 805.14,
+    "end": 813.11,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 102,
+    "start": 813.11,
+    "end": 821.08,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 103,
+    "start": 821.08,
+    "end": 829.06,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 104,
+    "start": 829.06,
+    "end": 837.03,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 105,
+    "start": 837.03,
+    "end": 845.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  }
+]

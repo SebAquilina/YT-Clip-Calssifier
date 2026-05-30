@@ -1,0 +1,234 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 7.9,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 7.9,
+    "end": 15.79,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 2,
+    "start": 15.79,
+    "end": 23.69,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 23.69,
+    "end": 31.59,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 31.59,
+    "end": 39.48,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 5,
+    "start": 39.48,
+    "end": 47.38,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 47.38,
+    "end": 55.28,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 55.28,
+    "end": 63.17,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 63.17,
+    "end": 71.07,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 71.07,
+    "end": 78.97,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 78.97,
+    "end": 86.86,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 11,
+    "start": 86.86,
+    "end": 94.76,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 94.76,
+    "end": 102.66,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 102.66,
+    "end": 110.55,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 110.55,
+    "end": 118.45,
+    "label": "talking_head",
+    "confidence": 0.77,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 15,
+    "start": 118.45,
+    "end": 126.34,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 126.34,
+    "end": 134.24,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 17,
+    "start": 134.24,
+    "end": 142.14,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 18,
+    "start": 142.14,
+    "end": 150.03,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 150.03,
+    "end": 157.93,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 157.93,
+    "end": 165.83,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 21,
+    "start": 165.83,
+    "end": 173.72,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 173.72,
+    "end": 181.62,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 23,
+    "start": 181.62,
+    "end": 189.52,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 24,
+    "start": 189.52,
+    "end": 197.41,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 25,
+    "start": 197.41,
+    "end": 205.31,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 26,
+    "start": 205.31,
+    "end": 213.21,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 213.21,
+    "end": 221.1,
+    "label": "talking_head",
+    "confidence": 0.77,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 28,
+    "start": 221.1,
+    "end": 229.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 8.01,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 8.01,
+    "end": 16.02,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 2,
+    "start": 16.02,
+    "end": 24.04,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 3,
+    "start": 24.04,
+    "end": 32.05,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 32.05,
+    "end": 40.06,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 5,
+    "start": 40.06,
+    "end": 48.07,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 48.07,
+    "end": 56.08,
+    "label": "intro_titlecard",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'eS SB Foye ep AL nee LD so 4 bas NE eee sy ws'."
+  },
+  {
+    "window": 7,
+    "start": 56.08,
+    "end": 64.1,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 64.1,
+    "end": 72.11,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 72.11,
+    "end": 80.12,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 80.12,
+    "end": 88.13,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 11,
+    "start": 88.13,
+    "end": 96.14,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 96.14,
+    "end": 104.16,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 104.16,
+    "end": 112.17,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 112.17,
+    "end": 120.18,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 15,
+    "start": 120.18,
+    "end": 128.19,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 128.19,
+    "end": 136.2,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 17,
+    "start": 136.2,
+    "end": 144.22,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 18,
+    "start": 144.22,
+    "end": 152.23,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 152.23,
+    "end": 160.24,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 160.24,
+    "end": 168.25,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 21,
+    "start": 168.25,
+    "end": 176.27,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 176.27,
+    "end": 184.28,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 23,
+    "start": 184.28,
+    "end": 192.29,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 24,
+    "start": 192.29,
+    "end": 200.3,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 25,
+    "start": 200.3,
+    "end": 208.31,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 26,
+    "start": 208.31,
+    "end": 216.33,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 216.33,
+    "end": 224.34,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 28,
+    "start": 224.34,
+    "end": 232.35,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'yt fa Gey. aye aN soe 9 gi'."
+  },
+  {
+    "window": 29,
+    "start": 232.35,
+    "end": 240.36,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 30,
+    "start": 240.36,
+    "end": 248.37,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'sr Fe 5 yy, ey eo te 4 we 7'."
+  },
+  {
+    "window": 31,
+    "start": 248.37,
+    "end": 256.39,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 32,
+    "start": 256.39,
+    "end": 264.4,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 33,
+    "start": 264.4,
+    "end": 272.41,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 34,
+    "start": 272.41,
+    "end": 280.42,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 35,
+    "start": 280.42,
+    "end": 288.43,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 36,
+    "start": 288.43,
+    "end": 296.45,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 37,
+    "start": 296.45,
+    "end": 304.46,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 38,
+    "start": 304.46,
+    "end": 312.47,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 39,
+    "start": 312.47,
+    "end": 320.48,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 40,
+    "start": 320.48,
+    "end": 328.49,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 41,
+    "start": 328.49,
+    "end": 336.51,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 42,
+    "start": 336.51,
+    "end": 344.52,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 43,
+    "start": 344.52,
+    "end": 352.53,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 44,
+    "start": 352.53,
+    "end": 360.54,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 45,
+    "start": 360.54,
+    "end": 368.55,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 46,
+    "start": 368.55,
+    "end": 376.57,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 47,
+    "start": 376.57,
+    "end": 384.58,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 48,
+    "start": 384.58,
+    "end": 392.59,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 49,
+    "start": 392.59,
+    "end": 400.6,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 50,
+    "start": 400.6,
+    "end": 408.61,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 51,
+    "start": 408.61,
+    "end": 416.63,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 52,
+    "start": 416.63,
+    "end": 424.64,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 53,
+    "start": 424.64,
+    "end": 432.65,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 54,
+    "start": 432.65,
+    "end": 440.66,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 55,
+    "start": 440.66,
+    "end": 448.67,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 56,
+    "start": 448.67,
+    "end": 456.69,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 57,
+    "start": 456.69,
+    "end": 464.7,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 58,
+    "start": 464.7,
+    "end": 472.71,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 59,
+    "start": 472.71,
+    "end": 480.72,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 60,
+    "start": 480.72,
+    "end": 488.73,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 61,
+    "start": 488.73,
+    "end": 496.75,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 62,
+    "start": 496.75,
+    "end": 504.76,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 63,
+    "start": 504.76,
+    "end": 512.77,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 64,
+    "start": 512.77,
+    "end": 520.78,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 65,
+    "start": 520.78,
+    "end": 528.8,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 66,
+    "start": 528.8,
+    "end": 536.81,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 67,
+    "start": 536.81,
+    "end": 544.82,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 68,
+    "start": 544.82,
+    "end": 552.83,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 69,
+    "start": 552.83,
+    "end": 560.84,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 70,
+    "start": 560.84,
+    "end": 568.86,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 71,
+    "start": 568.86,
+    "end": 576.87,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 72,
+    "start": 576.87,
+    "end": 584.88,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 73,
+    "start": 584.88,
+    "end": 592.89,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 74,
+    "start": 592.89,
+    "end": 600.9,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 75,
+    "start": 600.9,
+    "end": 608.92,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 76,
+    "start": 608.92,
+    "end": 616.93,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 77,
+    "start": 616.93,
+    "end": 624.94,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 78,
+    "start": 624.94,
+    "end": 632.95,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 79,
+    "start": 632.95,
+    "end": 640.96,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 80,
+    "start": 640.96,
+    "end": 648.98,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 81,
+    "start": 648.98,
+    "end": 656.99,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 82,
+    "start": 656.99,
+    "end": 665.0,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  }
+]

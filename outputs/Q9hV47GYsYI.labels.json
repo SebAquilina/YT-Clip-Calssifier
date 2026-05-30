@@ -1,0 +1,650 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 8.02,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 8.02,
+    "end": 16.05,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 2,
+    "start": 16.05,
+    "end": 24.07,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 24.07,
+    "end": 32.1,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 32.1,
+    "end": 40.12,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 5,
+    "start": 40.12,
+    "end": 48.15,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 6,
+    "start": 48.15,
+    "end": 56.17,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 56.17,
+    "end": 64.2,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 64.2,
+    "end": 72.22,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 72.22,
+    "end": 80.25,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 80.25,
+    "end": 88.27,
+    "label": "intro_titlecard",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'sy At Pa. 2 tes mw? Pwd my paper oar ett laser ae ee Sy Sun Se mag Ase 7 7'."
+  },
+  {
+    "window": 11,
+    "start": 88.27,
+    "end": 96.3,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 96.3,
+    "end": 104.32,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 104.32,
+    "end": 112.35,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 112.35,
+    "end": 120.37,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 15,
+    "start": 120.37,
+    "end": 128.4,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 128.4,
+    "end": 136.42,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 17,
+    "start": 136.42,
+    "end": 144.44,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 18,
+    "start": 144.44,
+    "end": 152.47,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 152.47,
+    "end": 160.49,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 160.49,
+    "end": 168.52,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 21,
+    "start": 168.52,
+    "end": 176.54,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 176.54,
+    "end": 184.57,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'La Ps ae aa ae 2 Sati iis 6 ee'."
+  },
+  {
+    "window": 23,
+    "start": 184.57,
+    "end": 192.59,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 24,
+    "start": 192.59,
+    "end": 200.62,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 25,
+    "start": 200.62,
+    "end": 208.64,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 26,
+    "start": 208.64,
+    "end": 216.67,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 216.67,
+    "end": 224.69,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 28,
+    "start": 224.69,
+    "end": 232.72,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 29,
+    "start": 232.72,
+    "end": 240.74,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 30,
+    "start": 240.74,
+    "end": 248.77,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 31,
+    "start": 248.77,
+    "end": 256.79,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 32,
+    "start": 256.79,
+    "end": 264.81,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 33,
+    "start": 264.81,
+    "end": 272.84,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 34,
+    "start": 272.84,
+    "end": 280.86,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 35,
+    "start": 280.86,
+    "end": 288.89,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 36,
+    "start": 288.89,
+    "end": 296.91,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 37,
+    "start": 296.91,
+    "end": 304.94,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '1 2 ef? Sy oa 4 4 vv Zz 7'."
+  },
+  {
+    "window": 38,
+    "start": 304.94,
+    "end": 312.96,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 39,
+    "start": 312.96,
+    "end": 320.99,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 40,
+    "start": 320.99,
+    "end": 329.01,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 41,
+    "start": 329.01,
+    "end": 337.04,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 42,
+    "start": 337.04,
+    "end": 345.06,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 43,
+    "start": 345.06,
+    "end": 353.09,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 44,
+    "start": 353.09,
+    "end": 361.11,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 45,
+    "start": 361.11,
+    "end": 369.14,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 46,
+    "start": 369.14,
+    "end": 377.16,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 47,
+    "start": 377.16,
+    "end": 385.19,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 48,
+    "start": 385.19,
+    "end": 393.21,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 49,
+    "start": 393.21,
+    "end": 401.23,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aN ae SS So SEE. tk ma ae mt Me ome'."
+  },
+  {
+    "window": 50,
+    "start": 401.23,
+    "end": 409.26,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 51,
+    "start": 409.26,
+    "end": 417.28,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 52,
+    "start": 417.28,
+    "end": 425.31,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 53,
+    "start": 425.31,
+    "end": 433.33,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 54,
+    "start": 433.33,
+    "end": 441.36,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 55,
+    "start": 441.36,
+    "end": 449.38,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 56,
+    "start": 449.38,
+    "end": 457.41,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 57,
+    "start": 457.41,
+    "end": 465.43,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 58,
+    "start": 465.43,
+    "end": 473.46,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'se SSS SE vp Zs 3 Se be 2 ie ees'."
+  },
+  {
+    "window": 59,
+    "start": 473.46,
+    "end": 481.48,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 60,
+    "start": 481.48,
+    "end": 489.51,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 61,
+    "start": 489.51,
+    "end": 497.53,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 62,
+    "start": 497.53,
+    "end": 505.56,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 63,
+    "start": 505.56,
+    "end": 513.58,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 64,
+    "start": 513.58,
+    "end": 521.6,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 65,
+    "start": 521.6,
+    "end": 529.63,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 66,
+    "start": 529.63,
+    "end": 537.65,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 67,
+    "start": 537.65,
+    "end": 545.68,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 68,
+    "start": 545.68,
+    "end": 553.7,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 69,
+    "start": 553.7,
+    "end": 561.73,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 70,
+    "start": 561.73,
+    "end": 569.75,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 71,
+    "start": 569.75,
+    "end": 577.78,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 72,
+    "start": 577.78,
+    "end": 585.8,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 73,
+    "start": 585.8,
+    "end": 593.83,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 74,
+    "start": 593.83,
+    "end": 601.85,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 75,
+    "start": 601.85,
+    "end": 609.88,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 76,
+    "start": 609.88,
+    "end": 617.9,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 77,
+    "start": 617.9,
+    "end": 625.93,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 78,
+    "start": 625.93,
+    "end": 633.95,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 79,
+    "start": 633.95,
+    "end": 641.98,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "Blank / near-black frame (auto-detected)."
+  },
+  {
+    "window": 80,
+    "start": 641.98,
+    "end": 650.0,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "Blank / near-black frame (auto-detected)."
+  }
+]

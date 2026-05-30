@@ -1,0 +1,234 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 7.93,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 7.93,
+    "end": 15.86,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 2,
+    "start": 15.86,
+    "end": 23.79,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 23.79,
+    "end": 31.72,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 31.72,
+    "end": 39.66,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 5,
+    "start": 39.66,
+    "end": 47.59,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 47.59,
+    "end": 55.52,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 55.52,
+    "end": 63.45,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 63.45,
+    "end": 71.38,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 71.38,
+    "end": 79.31,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 79.31,
+    "end": 87.24,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 11,
+    "start": 87.24,
+    "end": 95.17,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 95.17,
+    "end": 103.1,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 103.1,
+    "end": 111.03,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 111.03,
+    "end": 118.97,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 15,
+    "start": 118.97,
+    "end": 126.9,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 126.9,
+    "end": 134.83,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 17,
+    "start": 134.83,
+    "end": 142.76,
+    "label": "talking_head",
+    "confidence": 0.77,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 18,
+    "start": 142.76,
+    "end": 150.69,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 150.69,
+    "end": 158.62,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 158.62,
+    "end": 166.55,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 21,
+    "start": 166.55,
+    "end": 174.48,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 174.48,
+    "end": 182.41,
+    "label": "talking_head",
+    "confidence": 0.77,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 23,
+    "start": 182.41,
+    "end": 190.34,
+    "label": "talking_head",
+    "confidence": 0.77,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 24,
+    "start": 190.34,
+    "end": 198.28,
+    "label": "talking_head",
+    "confidence": 0.77,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 25,
+    "start": 198.28,
+    "end": 206.21,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 26,
+    "start": 206.21,
+    "end": 214.14,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 214.14,
+    "end": 222.07,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 28,
+    "start": 222.07,
+    "end": 230.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  }
+]

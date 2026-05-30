@@ -1,0 +1,514 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 7.95,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 7.95,
+    "end": 15.91,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 2,
+    "start": 15.91,
+    "end": 23.86,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 23.86,
+    "end": 31.81,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 31.81,
+    "end": 39.77,
+    "label": "intro_titlecard",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae eo Mrs he wt eo 4 ng Ne rm Seek cy vee CC 4 be So PP fi am ww'."
+  },
+  {
+    "window": 5,
+    "start": 39.77,
+    "end": 47.72,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 47.72,
+    "end": 55.67,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 55.67,
+    "end": 63.62,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 63.62,
+    "end": 71.58,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 71.58,
+    "end": 79.53,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 79.53,
+    "end": 87.48,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 11,
+    "start": 87.48,
+    "end": 95.44,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 95.44,
+    "end": 103.39,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 103.39,
+    "end": 111.34,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 111.34,
+    "end": 119.3,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 15,
+    "start": 119.3,
+    "end": 127.25,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 127.25,
+    "end": 135.2,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 17,
+    "start": 135.2,
+    "end": 143.16,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Total Weight per Candle: 2594 Wax Total Weight Frageance Load War 259 0.06 Waxe Fragrance Ol Total weight wan Pragcance Oil Feagrance oil 86'."
+  },
+  {
+    "window": 18,
+    "start": 143.16,
+    "end": 151.11,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 151.11,
+    "end": 159.06,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 159.06,
+    "end": 167.02,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 21,
+    "start": 167.02,
+    "end": 174.97,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 174.97,
+    "end": 182.92,
+    "label": "talking_head",
+    "confidence": 0.7,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 23,
+    "start": 182.92,
+    "end": 190.88,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'or et hd as ee ee 1 av Soe FS tux'."
+  },
+  {
+    "window": 24,
+    "start": 190.88,
+    "end": 198.83,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 25,
+    "start": 198.83,
+    "end": 206.78,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 26,
+    "start": 206.78,
+    "end": 214.73,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 214.73,
+    "end": 222.69,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 28,
+    "start": 222.69,
+    "end": 230.64,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 29,
+    "start": 230.64,
+    "end": 238.59,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 30,
+    "start": 238.59,
+    "end": 246.55,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 31,
+    "start": 246.55,
+    "end": 254.5,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 32,
+    "start": 254.5,
+    "end": 262.45,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 33,
+    "start": 262.45,
+    "end": 270.41,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 34,
+    "start": 270.41,
+    "end": 278.36,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 35,
+    "start": 278.36,
+    "end": 286.31,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 36,
+    "start": 286.31,
+    "end": 294.27,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sa Sy, pf 4 Bea he oe Pheer'."
+  },
+  {
+    "window": 37,
+    "start": 294.27,
+    "end": 302.22,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 38,
+    "start": 302.22,
+    "end": 310.17,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 39,
+    "start": 310.17,
+    "end": 318.12,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 40,
+    "start": 318.12,
+    "end": 326.08,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 41,
+    "start": 326.08,
+    "end": 334.03,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 42,
+    "start": 334.03,
+    "end": 341.98,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 43,
+    "start": 341.98,
+    "end": 349.94,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aa ae tee eee nee BLACK RASPBERRY VANILLA peers fodere'."
+  },
+  {
+    "window": 44,
+    "start": 349.94,
+    "end": 357.89,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Oo foer, ewe ee Pe neem tet 7 ee Seapets ROBOTO fudore me'."
+  },
+  {
+    "window": 45,
+    "start": 357.89,
+    "end": 365.84,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 46,
+    "start": 365.84,
+    "end": 373.8,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 47,
+    "start": 373.8,
+    "end": 381.75,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 48,
+    "start": 381.75,
+    "end": 389.7,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 49,
+    "start": 389.7,
+    "end": 397.66,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 50,
+    "start": 397.66,
+    "end": 405.61,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 51,
+    "start": 405.61,
+    "end": 413.56,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 52,
+    "start": 413.56,
+    "end": 421.52,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 53,
+    "start": 421.52,
+    "end": 429.47,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 54,
+    "start": 429.47,
+    "end": 437.42,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 55,
+    "start": 437.42,
+    "end": 445.38,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 56,
+    "start": 445.38,
+    "end": 453.33,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 57,
+    "start": 453.33,
+    "end": 461.28,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 58,
+    "start": 461.28,
+    "end": 469.23,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 59,
+    "start": 469.23,
+    "end": 477.19,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 60,
+    "start": 477.19,
+    "end": 485.14,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 61,
+    "start": 485.14,
+    "end": 493.09,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "Blank / near-black frame (auto-detected)."
+  },
+  {
+    "window": 62,
+    "start": 493.09,
+    "end": 501.05,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "Blank / near-black frame (auto-detected)."
+  },
+  {
+    "window": 63,
+    "start": 501.05,
+    "end": 509.0,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "Blank / near-black frame (auto-detected)."
+  }
+]

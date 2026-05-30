@@ -1,0 +1,114 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 8.14,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 1,
+    "start": 8.14,
+    "end": 16.29,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 2,
+    "start": 16.29,
+    "end": 24.43,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 24.43,
+    "end": 32.57,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 32.57,
+    "end": 40.71,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 5,
+    "start": 40.71,
+    "end": 48.86,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 48.86,
+    "end": 57.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 57.0,
+    "end": 65.14,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 65.14,
+    "end": 73.29,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mr, ey vt oats 7 en 57 te aa'."
+  },
+  {
+    "window": 9,
+    "start": 73.29,
+    "end": 81.43,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 81.43,
+    "end": 89.57,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 11,
+    "start": 89.57,
+    "end": 97.71,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 97.71,
+    "end": 105.86,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 105.86,
+    "end": 114.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  }
+]

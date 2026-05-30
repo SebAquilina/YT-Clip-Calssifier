@@ -1,0 +1,306 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 8.11,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 1,
+    "start": 8.11,
+    "end": 16.21,
+    "label": "intro_titlecard",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'lave: Pe eT eee APSF oe STR ESS Sed el ei eSacene date Cetes wtntabarc-esete e-e ee Se vy. CA, we ey oe iy, SS SS ni 7 ae 75 4 oe sf Ff ee ee 5 ae'."
+  },
+  {
+    "window": 2,
+    "start": 16.21,
+    "end": 24.32,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 24.32,
+    "end": 32.42,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 32.42,
+    "end": 40.53,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 5,
+    "start": 40.53,
+    "end": 48.63,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 48.63,
+    "end": 56.74,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 56.74,
+    "end": 64.84,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 8,
+    "start": 64.84,
+    "end": 72.95,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 72.95,
+    "end": 81.05,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 81.05,
+    "end": 89.16,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ota oe oat vr. wh baal ee NES tae'."
+  },
+  {
+    "window": 11,
+    "start": 89.16,
+    "end": 97.26,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 97.26,
+    "end": 105.37,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 105.37,
+    "end": 113.47,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 113.47,
+    "end": 121.58,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 15,
+    "start": 121.58,
+    "end": 129.68,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 129.68,
+    "end": 137.79,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ot ie ae Ja Bo 1 TT! SS 7 ub'."
+  },
+  {
+    "window": 17,
+    "start": 137.79,
+    "end": 145.89,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 18,
+    "start": 145.89,
+    "end": 154.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 154.0,
+    "end": 162.11,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 162.11,
+    "end": 170.21,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 21,
+    "start": 170.21,
+    "end": 178.32,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 of aN me Wa ee 7 4 t's pb 4 3 4'."
+  },
+  {
+    "window": 22,
+    "start": 178.32,
+    "end": 186.42,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 23,
+    "start": 186.42,
+    "end": 194.53,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 24,
+    "start": 194.53,
+    "end": 202.63,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae PAX ha hy Byer Pp te DA 4 4 Ne ss. of ae ji eo'."
+  },
+  {
+    "window": 25,
+    "start": 202.63,
+    "end": 210.74,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 26,
+    "start": 210.74,
+    "end": 218.84,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 218.84,
+    "end": 226.95,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 28,
+    "start": 226.95,
+    "end": 235.05,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 29,
+    "start": 235.05,
+    "end": 243.16,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 30,
+    "start": 243.16,
+    "end": 251.26,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '44 7 4 os ep th so ae oe Eg ff'."
+  },
+  {
+    "window": 31,
+    "start": 251.26,
+    "end": 259.37,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 32,
+    "start": 259.37,
+    "end": 267.47,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 33,
+    "start": 267.47,
+    "end": 275.58,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oP LX. wig si if eB Ay 14 om 7 4 fo AMY ta'."
+  },
+  {
+    "window": 34,
+    "start": 275.58,
+    "end": 283.68,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 35,
+    "start": 283.68,
+    "end": 291.79,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'cre OFS 3 tre he ie 7 nig ff, fj 7 ba gs 4 ro U.S zh tr'."
+  },
+  {
+    "window": 36,
+    "start": 291.79,
+    "end": 299.89,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ane ee join 3 ie ay Cah se ff 4 ro ae Hye'."
+  },
+  {
+    "window": 37,
+    "start": 299.89,
+    "end": 308.0,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'one SLE 5 4 Bay at af ff mS, Qt 7 ap tr 4 Zi'."
+  }
+]

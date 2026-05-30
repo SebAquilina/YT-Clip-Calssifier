@@ -1,0 +1,482 @@
+[
+  {
+    "window": 0,
+    "start": 0.0,
+    "end": 8.0,
+    "label": "talking_head",
+    "confidence": 0.9,
+    "description": "Presenter talking to camera (auto-detected: frontal face)."
+  },
+  {
+    "window": 1,
+    "start": 8.0,
+    "end": 16.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 2,
+    "start": 16.0,
+    "end": 24.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 3,
+    "start": 24.0,
+    "end": 32.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 4,
+    "start": 32.0,
+    "end": 40.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 5,
+    "start": 40.0,
+    "end": 48.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 6,
+    "start": 48.0,
+    "end": 56.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 7,
+    "start": 56.0,
+    "end": 64.0,
+    "label": "intro_titlecard",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 AP ie AMissential Oils ral tie from plants by distillation'."
+  },
+  {
+    "window": 8,
+    "start": 64.0,
+    "end": 72.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 9,
+    "start": 72.0,
+    "end": 80.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 10,
+    "start": 80.0,
+    "end": 88.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 11,
+    "start": 88.0,
+    "end": 96.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 12,
+    "start": 96.0,
+    "end": 104.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 13,
+    "start": 104.0,
+    "end": 112.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 14,
+    "start": 112.0,
+    "end": 120.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 15,
+    "start": 120.0,
+    "end": 128.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 16,
+    "start": 128.0,
+    "end": 136.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 17,
+    "start": 136.0,
+    "end": 144.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 18,
+    "start": 144.0,
+    "end": 152.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 19,
+    "start": 152.0,
+    "end": 160.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 20,
+    "start": 160.0,
+    "end": 168.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 21,
+    "start": 168.0,
+    "end": 176.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 22,
+    "start": 176.0,
+    "end": 184.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 23,
+    "start": 184.0,
+    "end": 192.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 24,
+    "start": 192.0,
+    "end": 200.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 25,
+    "start": 200.0,
+    "end": 208.0,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'eS PHTHALATE bund he: and scents to ake them stronger'."
+  },
+  {
+    "window": 26,
+    "start": 208.0,
+    "end": 216.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 27,
+    "start": 216.0,
+    "end": 224.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 28,
+    "start": 224.0,
+    "end": 232.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 29,
+    "start": 232.0,
+    "end": 240.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 30,
+    "start": 240.0,
+    "end": 248.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 31,
+    "start": 248.0,
+    "end": 256.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 32,
+    "start": 256.0,
+    "end": 264.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 33,
+    "start": 264.0,
+    "end": 272.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 34,
+    "start": 272.0,
+    "end": 280.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 35,
+    "start": 280.0,
+    "end": 288.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 36,
+    "start": 288.0,
+    "end": 296.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 37,
+    "start": 296.0,
+    "end": 304.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 38,
+    "start": 304.0,
+    "end": 312.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 39,
+    "start": 312.0,
+    "end": 320.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 40,
+    "start": 320.0,
+    "end": 328.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 41,
+    "start": 328.0,
+    "end": 336.0,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '2 ie 14 5 sm. ae ee buy smallcramounts of oils today bney on experimenrting'."
+  },
+  {
+    "window": 42,
+    "start": 336.0,
+    "end": 344.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 43,
+    "start": 344.0,
+    "end": 352.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 44,
+    "start": 352.0,
+    "end": 360.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 45,
+    "start": 360.0,
+    "end": 368.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 46,
+    "start": 368.0,
+    "end": 376.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 47,
+    "start": 376.0,
+    "end": 384.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 48,
+    "start": 384.0,
+    "end": 392.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 49,
+    "start": 392.0,
+    "end": 400.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 50,
+    "start": 400.0,
+    "end": 408.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 51,
+    "start": 408.0,
+    "end": 416.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 52,
+    "start": 416.0,
+    "end": 424.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 53,
+    "start": 424.0,
+    "end": 432.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 54,
+    "start": 432.0,
+    "end": 440.0,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sc ee ELS BHTMUATE FREE SCENTS 4 WILLA FREE OLS xz gf'."
+  },
+  {
+    "window": 55,
+    "start": 440.0,
+    "end": 448.0,
+    "label": "outro_cta",
+    "confidence": 0.5,
+    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'mo OILS SHTHEATE FREE SCENTS'."
+  },
+  {
+    "window": 56,
+    "start": 448.0,
+    "end": 456.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 57,
+    "start": 456.0,
+    "end": 464.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 58,
+    "start": 464.0,
+    "end": 472.0,
+    "label": "",
+    "confidence": 0.0,
+    "description": ""
+  },
+  {
+    "window": 59,
+    "start": 472.0,
+    "end": 480.0,
+    "label": "transition",
+    "confidence": 0.5,
+    "description": "Blank / near-black frame (auto-detected)."
+  }
+]
