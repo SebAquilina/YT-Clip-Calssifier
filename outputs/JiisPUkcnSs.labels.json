@@ -1,802 +1,802 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.96,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 1,
-    "start": 7.96,
-    "end": 15.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.92,
-    "end": 23.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.88,
-    "end": 31.84,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe oF 7 Pe rs as ths ee ae ae Moneter'."
-  },
-  {
-    "window": 4,
-    "start": 31.84,
-    "end": 39.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.8,
-    "end": 47.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.76,
-    "end": 55.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.72,
-    "end": 63.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.68,
-    "end": 71.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.64,
-    "end": 79.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.6,
-    "end": 87.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.56,
-    "end": 95.52,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee st Sa ee eee le lll CO le Oe ee ae'."
-  },
-  {
-    "window": 12,
-    "start": 95.52,
-    "end": 103.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.48,
-    "end": 111.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.44,
-    "end": 119.4,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 15,
-    "start": 119.4,
-    "end": 127.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.36,
-    "end": 135.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.32,
-    "end": 143.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.28,
-    "end": 151.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.24,
-    "end": 159.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.2,
-    "end": 167.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.16,
-    "end": 175.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.12,
-    "end": 183.08,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aoe! ry est deh 7 tN Ps rt 7 oe 7 ad os'."
-  },
-  {
-    "window": 23,
-    "start": 183.08,
-    "end": 191.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.04,
-    "end": 199.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 199.0,
-    "end": 206.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 206.96,
-    "end": 214.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 214.92,
-    "end": 222.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 222.88,
-    "end": 230.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 230.84,
-    "end": 238.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 238.8,
-    "end": 246.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 246.76,
-    "end": 254.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 254.72,
-    "end": 262.68,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ag ig as 29 FD Ps AS sen AD 4 ee Qs wa iy fy 2 tom'."
-  },
-  {
-    "window": 33,
-    "start": 262.68,
-    "end": 270.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 270.64,
-    "end": 278.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 278.6,
-    "end": 286.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 286.56,
-    "end": 294.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 294.52,
-    "end": 302.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 302.48,
-    "end": 310.44,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Tee ESe ie iv ri tie pean be wee ed ine foes roglles Lh Lehi ii'."
-  },
-  {
-    "window": 39,
-    "start": 310.44,
-    "end": 318.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 318.4,
-    "end": 326.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 326.36,
-    "end": 334.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 334.32,
-    "end": 342.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 43,
-    "start": 342.28,
-    "end": 350.24,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee 4 oz, at Be gt 2 oe yi 5 yr ae if nd bs aA en ee'."
-  },
-  {
-    "window": 44,
-    "start": 350.24,
-    "end": 358.2,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 45,
-    "start": 358.2,
-    "end": 366.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 366.16,
-    "end": 374.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 374.12,
-    "end": 382.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 382.08,
-    "end": 390.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 49,
-    "start": 390.04,
-    "end": 398.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 50,
-    "start": 398.0,
-    "end": 405.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 51,
-    "start": 405.96,
-    "end": 413.92,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee ry h/t te 4 Diy ee as ap ee ie me 4 7 se fe ey ey Sg My 7 Py on Pe: oui peestih'."
-  },
-  {
-    "window": 52,
-    "start": 413.92,
-    "end": 421.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 421.88,
-    "end": 429.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 429.84,
-    "end": 437.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 437.8,
-    "end": 445.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 445.76,
-    "end": 453.72,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '3 Tee LM Se Pe. ke ff siti 4 te So key, yy, SS fs ne Wa. SL 2 AyD sr eN Sh Bp'."
-  },
-  {
-    "window": 57,
-    "start": 453.72,
-    "end": 461.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 461.68,
-    "end": 469.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 469.64,
-    "end": 477.6,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee Ve 3 eee VS Ly af Mors ot'."
-  },
-  {
-    "window": 60,
-    "start": 477.6,
-    "end": 485.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 61,
-    "start": 485.56,
-    "end": 493.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 62,
-    "start": 493.52,
-    "end": 501.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 501.48,
-    "end": 509.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 64,
-    "start": 509.44,
-    "end": 517.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 65,
-    "start": 517.4,
-    "end": 525.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 66,
-    "start": 525.36,
-    "end": 533.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 67,
-    "start": 533.32,
-    "end": 541.28,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Aa ts rma rae whe if ply Siam, 2 ee oy oo ov oe. ae Sean Oe'."
-  },
-  {
-    "window": 68,
-    "start": 541.28,
-    "end": 549.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 69,
-    "start": 549.24,
-    "end": 557.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 70,
-    "start": 557.2,
-    "end": 565.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 71,
-    "start": 565.16,
-    "end": 573.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 72,
-    "start": 573.12,
-    "end": 581.08,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'sf jie bi wt 4 7 2 ess Py Og mo ye 54 Pee'."
-  },
-  {
-    "window": 73,
-    "start": 581.08,
-    "end": 589.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 74,
-    "start": 589.04,
-    "end": 597.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ss oa 4 yg Hy rf peek. sy 4 aon 4 Monarer 4 4'."
-  },
-  {
-    "window": 75,
-    "start": 597.0,
-    "end": 604.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 76,
-    "start": 604.96,
-    "end": 612.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 77,
-    "start": 612.92,
-    "end": 620.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 78,
-    "start": 620.88,
-    "end": 628.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 79,
-    "start": 628.84,
-    "end": 636.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 80,
-    "start": 636.8,
-    "end": 644.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 81,
-    "start": 644.76,
-    "end": 652.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 82,
-    "start": 652.72,
-    "end": 660.68,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aS bb LS is 4 7 ty ON 2 See 5 Ft Pan Soh ve 7 BS oY uf 2. Ty er 4 ry ee aa PP So Se it wv eS 4 aS te porster ys. 3. aes'."
-  },
-  {
-    "window": 83,
-    "start": 660.68,
-    "end": 668.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 84,
-    "start": 668.64,
-    "end": 676.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 85,
-    "start": 676.6,
-    "end": 684.56,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oz KM he LE be SS rd 4. 4 Monster'."
-  },
-  {
-    "window": 86,
-    "start": 684.56,
-    "end": 692.52,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 87,
-    "start": 692.52,
-    "end": 700.48,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 88,
-    "start": 700.48,
-    "end": 708.44,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 89,
-    "start": 708.44,
-    "end": 716.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 90,
-    "start": 716.4,
-    "end": 724.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 91,
-    "start": 724.36,
-    "end": 732.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 92,
-    "start": 732.32,
-    "end": 740.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 93,
-    "start": 740.28,
-    "end": 748.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 94,
-    "start": 748.24,
-    "end": 756.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 95,
-    "start": 756.2,
-    "end": 764.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 96,
-    "start": 764.16,
-    "end": 772.12,
-    "label": "outro_cta",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tm is 5 ft Hi 7 oe ats am fo 4'."
-  },
-  {
-    "window": 97,
-    "start": 772.12,
-    "end": 780.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 98,
-    "start": 780.08,
-    "end": 788.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 99,
-    "start": 788.04,
-    "end": 796.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.96,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.96,
+  "end": 15.92,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 2,
+  "start": 15.92,
+  "end": 23.88,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Delivery truck / exterior b-roll."
+ },
+ {
+  "window": 3,
+  "start": 23.88,
+  "end": 31.84,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oe oF 7 Pe rs as ths ee ae ae Moneter'."
+ },
+ {
+  "window": 4,
+  "start": 31.84,
+  "end": 39.8,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 5,
+  "start": 39.8,
+  "end": 47.76,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 6,
+  "start": 47.76,
+  "end": 55.72,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 7,
+  "start": 55.72,
+  "end": 63.68,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 8,
+  "start": 63.68,
+  "end": 71.64,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 9,
+  "start": 71.64,
+  "end": 79.6,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 10,
+  "start": 79.6,
+  "end": 87.56,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 11,
+  "start": 87.56,
+  "end": 95.52,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee st Sa ee eee le lll CO le Oe ee ae'."
+ },
+ {
+  "window": 12,
+  "start": 95.52,
+  "end": 103.48,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 13,
+  "start": 103.48,
+  "end": 111.44,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 14,
+  "start": 111.44,
+  "end": 119.4,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 119.4,
+  "end": 127.36,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 16,
+  "start": 127.36,
+  "end": 135.32,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 17,
+  "start": 135.32,
+  "end": 143.28,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 18,
+  "start": 143.28,
+  "end": 151.24,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 19,
+  "start": 151.24,
+  "end": 159.2,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 20,
+  "start": 159.2,
+  "end": 167.16,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 21,
+  "start": 167.16,
+  "end": 175.12,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 22,
+  "start": 175.12,
+  "end": 183.08,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aoe! ry est deh 7 tN Ps rt 7 oe 7 ad os'."
+ },
+ {
+  "window": 23,
+  "start": 183.08,
+  "end": 191.04,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 24,
+  "start": 191.04,
+  "end": 199.0,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 25,
+  "start": 199.0,
+  "end": 206.96,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 26,
+  "start": 206.96,
+  "end": 214.92,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 27,
+  "start": 214.92,
+  "end": 222.88,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 28,
+  "start": 222.88,
+  "end": 230.84,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 29,
+  "start": 230.84,
+  "end": 238.8,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 30,
+  "start": 238.8,
+  "end": 246.76,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 31,
+  "start": 246.76,
+  "end": 254.72,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 32,
+  "start": 254.72,
+  "end": 262.68,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ag ig as 29 FD Ps AS sen AD 4 ee Qs wa iy fy 2 tom'."
+ },
+ {
+  "window": 33,
+  "start": 262.68,
+  "end": 270.64,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 34,
+  "start": 270.64,
+  "end": 278.6,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 35,
+  "start": 278.6,
+  "end": 286.56,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 36,
+  "start": 286.56,
+  "end": 294.52,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 37,
+  "start": 294.52,
+  "end": 302.48,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 38,
+  "start": 302.48,
+  "end": 310.44,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Tee ESe ie iv ri tie pean be wee ed ine foes roglles Lh Lehi ii'."
+ },
+ {
+  "window": 39,
+  "start": 310.44,
+  "end": 318.4,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 40,
+  "start": 318.4,
+  "end": 326.36,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 41,
+  "start": 326.36,
+  "end": 334.32,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 42,
+  "start": 334.32,
+  "end": 342.28,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 43,
+  "start": 342.28,
+  "end": 350.24,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee 4 oz, at Be gt 2 oe yi 5 yr ae if nd bs aA en ee'."
+ },
+ {
+  "window": 44,
+  "start": 350.24,
+  "end": 358.2,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 45,
+  "start": 358.2,
+  "end": 366.16,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 46,
+  "start": 366.16,
+  "end": 374.12,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 47,
+  "start": 374.12,
+  "end": 382.08,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 48,
+  "start": 382.08,
+  "end": 390.04,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 49,
+  "start": 390.04,
+  "end": 398.0,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 50,
+  "start": 398.0,
+  "end": 405.96,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 51,
+  "start": 405.96,
+  "end": 413.92,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee ry h/t te 4 Diy ee as ap ee ie me 4 7 se fe ey ey Sg My 7 Py on Pe: oui peestih'."
+ },
+ {
+  "window": 52,
+  "start": 413.92,
+  "end": 421.88,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 53,
+  "start": 421.88,
+  "end": 429.84,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 54,
+  "start": 429.84,
+  "end": 437.8,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 55,
+  "start": 437.8,
+  "end": 445.76,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 56,
+  "start": 445.76,
+  "end": 453.72,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '3 Tee LM Se Pe. ke ff siti 4 te So key, yy, SS fs ne Wa. SL 2 AyD sr eN Sh Bp'."
+ },
+ {
+  "window": 57,
+  "start": 453.72,
+  "end": 461.68,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 58,
+  "start": 461.68,
+  "end": 469.64,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 59,
+  "start": 469.64,
+  "end": 477.6,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ee Ve 3 eee VS Ly af Mors ot'."
+ },
+ {
+  "window": 60,
+  "start": 477.6,
+  "end": 485.56,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 61,
+  "start": 485.56,
+  "end": 493.52,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 62,
+  "start": 493.52,
+  "end": 501.48,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 63,
+  "start": 501.48,
+  "end": 509.44,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 64,
+  "start": 509.44,
+  "end": 517.4,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 65,
+  "start": 517.4,
+  "end": 525.36,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 66,
+  "start": 525.36,
+  "end": 533.32,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 67,
+  "start": 533.32,
+  "end": 541.28,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Aa ts rma rae whe if ply Siam, 2 ee oy oo ov oe. ae Sean Oe'."
+ },
+ {
+  "window": 68,
+  "start": 541.28,
+  "end": 549.24,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 69,
+  "start": 549.24,
+  "end": 557.2,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 70,
+  "start": 557.2,
+  "end": 565.16,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 71,
+  "start": 565.16,
+  "end": 573.12,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 72,
+  "start": 573.12,
+  "end": 581.08,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'sf jie bi wt 4 7 2 ess Py Og mo ye 54 Pee'."
+ },
+ {
+  "window": 73,
+  "start": 581.08,
+  "end": 589.04,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 74,
+  "start": 589.04,
+  "end": 597.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ss oa 4 yg Hy rf peek. sy 4 aon 4 Monarer 4 4'."
+ },
+ {
+  "window": 75,
+  "start": 597.0,
+  "end": 604.96,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 76,
+  "start": 604.96,
+  "end": 612.92,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 77,
+  "start": 612.92,
+  "end": 620.88,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 78,
+  "start": 620.88,
+  "end": 628.84,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 79,
+  "start": 628.84,
+  "end": 636.8,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 80,
+  "start": 636.8,
+  "end": 644.76,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 81,
+  "start": 644.76,
+  "end": 652.72,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 82,
+  "start": 652.72,
+  "end": 660.68,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'aS bb LS is 4 7 ty ON 2 See 5 Ft Pan Soh ve 7 BS oY uf 2. Ty er 4 ry ee aa PP So Se it wv eS 4 aS te porster ys. 3. aes'."
+ },
+ {
+  "window": 83,
+  "start": 660.68,
+  "end": 668.64,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 84,
+  "start": 668.64,
+  "end": 676.6,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 85,
+  "start": 676.6,
+  "end": 684.56,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oz KM he LE be SS rd 4. 4 Monster'."
+ },
+ {
+  "window": 86,
+  "start": 684.56,
+  "end": 692.52,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 87,
+  "start": 692.52,
+  "end": 700.48,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 88,
+  "start": 700.48,
+  "end": 708.44,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 89,
+  "start": 708.44,
+  "end": 716.4,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 90,
+  "start": 716.4,
+  "end": 724.36,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 91,
+  "start": 724.36,
+  "end": 732.32,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 92,
+  "start": 732.32,
+  "end": 740.28,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Molten wax channels in the candle factory."
+ },
+ {
+  "window": 93,
+  "start": 740.28,
+  "end": 748.24,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 94,
+  "start": 748.24,
+  "end": 756.2,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 95,
+  "start": 756.2,
+  "end": 764.16,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ },
+ {
+  "window": 96,
+  "start": 764.16,
+  "end": 772.12,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'tm is 5 ft Hi 7 oe ats am fo 4'."
+ },
+ {
+  "window": 97,
+  "start": 772.12,
+  "end": 780.08,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Wax fed into the moulding machine."
+ },
+ {
+  "window": 98,
+  "start": 780.08,
+  "end": 788.04,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of white candles cooling in the moulds on the line."
+ },
+ {
+  "window": 99,
+  "start": 788.04,
+  "end": 796.0,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Demoulded white pillar candles on the conveyor."
+ }
 ]
