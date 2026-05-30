@@ -1,394 +1,394 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.98,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.98,
-    "end": 15.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.96,
-    "end": 23.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.94,
-    "end": 31.92,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 4,
-    "start": 31.92,
-    "end": 39.9,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.9,
-    "end": 47.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.88,
-    "end": 55.86,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 7,
-    "start": 55.86,
-    "end": 63.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.84,
-    "end": 71.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.82,
-    "end": 79.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.8,
-    "end": 87.78,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.78,
-    "end": 95.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.76,
-    "end": 103.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.73,
-    "end": 111.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.71,
-    "end": 119.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.69,
-    "end": 127.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.67,
-    "end": 135.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.65,
-    "end": 143.63,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.63,
-    "end": 151.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.61,
-    "end": 159.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.59,
-    "end": 167.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.57,
-    "end": 175.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.55,
-    "end": 183.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 183.53,
-    "end": 191.51,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.51,
-    "end": 199.49,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 199.49,
-    "end": 207.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 207.47,
-    "end": 215.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 215.45,
-    "end": 223.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 223.43,
-    "end": 231.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 231.41,
-    "end": 239.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 239.39,
-    "end": 247.37,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 247.37,
-    "end": 255.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 255.35,
-    "end": 263.33,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 33,
-    "start": 263.33,
-    "end": 271.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 271.31,
-    "end": 279.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 279.29,
-    "end": 287.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 287.27,
-    "end": 295.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 295.24,
-    "end": 303.22,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 303.22,
-    "end": 311.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 311.2,
-    "end": 319.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 319.18,
-    "end": 327.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 327.16,
-    "end": 335.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 335.14,
-    "end": 343.12,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 43,
-    "start": 343.12,
-    "end": 351.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 351.1,
-    "end": 359.08,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 45,
-    "start": 359.08,
-    "end": 367.06,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 367.06,
-    "end": 375.04,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 375.04,
-    "end": 383.02,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 383.02,
-    "end": 391.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.98,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Beeswax candle tutorial intro."
+ },
+ {
+  "window": 1,
+  "start": 7.98,
+  "end": 15.96,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "start": 15.96,
+  "end": 23.94,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "start": 23.94,
+  "end": 31.92,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 4,
+  "start": 31.92,
+  "end": 39.9,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Pouring yellow beeswax pellets into a pot."
+ },
+ {
+  "window": 5,
+  "start": 39.9,
+  "end": 47.88,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Beeswax in a measuring cup."
+ },
+ {
+  "window": 6,
+  "start": 47.88,
+  "end": 55.86,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 55.86,
+  "end": 63.84,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Beeswax melting."
+ },
+ {
+  "window": 8,
+  "start": 63.84,
+  "end": 71.82,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring melted beeswax."
+ },
+ {
+  "window": 9,
+  "start": 71.82,
+  "end": 79.8,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Beeswax in the cup; double boiler."
+ },
+ {
+  "window": 10,
+  "start": 79.8,
+  "end": 87.78,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting beeswax."
+ },
+ {
+  "window": 11,
+  "start": 87.78,
+  "end": 95.76,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring beeswax."
+ },
+ {
+  "window": 12,
+  "start": 95.76,
+  "end": 103.73,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Beeswax in the pot."
+ },
+ {
+  "window": 13,
+  "start": 103.73,
+  "end": 111.71,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring beeswax into a container."
+ },
+ {
+  "window": 14,
+  "start": 111.71,
+  "end": 119.69,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 15,
+  "start": 119.69,
+  "end": 127.67,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 16,
+  "start": 127.67,
+  "end": 135.65,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 17,
+  "start": 135.65,
+  "end": 143.63,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 18,
+  "start": 143.63,
+  "end": 151.61,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 19,
+  "start": 151.61,
+  "end": 159.59,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 20,
+  "start": 159.59,
+  "end": 167.57,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 21,
+  "start": 167.57,
+  "end": 175.55,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 22,
+  "start": 175.55,
+  "end": 183.53,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 23,
+  "start": 183.53,
+  "end": 191.51,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 24,
+  "start": 191.51,
+  "end": 199.49,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 25,
+  "start": 199.49,
+  "end": 207.47,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 26,
+  "start": 207.47,
+  "end": 215.45,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 27,
+  "start": 215.45,
+  "end": 223.43,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 28,
+  "start": 223.43,
+  "end": 231.41,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 29,
+  "start": 231.41,
+  "end": 239.39,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 30,
+  "start": 239.39,
+  "end": 247.37,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 31,
+  "start": 247.37,
+  "end": 255.35,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 32,
+  "start": 255.35,
+  "end": 263.33,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 33,
+  "start": 263.33,
+  "end": 271.31,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 34,
+  "start": 271.31,
+  "end": 279.29,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 35,
+  "start": 279.29,
+  "end": 287.27,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 36,
+  "start": 287.27,
+  "end": 295.24,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 37,
+  "start": 295.24,
+  "end": 303.22,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 38,
+  "start": 303.22,
+  "end": 311.2,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 39,
+  "start": 311.2,
+  "end": 319.18,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping/rolling beeswax on the white surface."
+ },
+ {
+  "window": 40,
+  "start": 319.18,
+  "end": 327.16,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 41,
+  "start": 327.16,
+  "end": 335.14,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 42,
+  "start": 335.14,
+  "end": 343.12,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 43,
+  "start": 343.12,
+  "end": 351.1,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 44,
+  "start": 351.1,
+  "end": 359.08,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 45,
+  "start": 359.08,
+  "end": 367.06,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 46,
+  "start": 367.06,
+  "end": 375.04,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 47,
+  "start": 375.04,
+  "end": 383.02,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ },
+ {
+  "window": 48,
+  "start": 383.02,
+  "end": 391.0,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished beeswax candle shown."
+ }
 ]

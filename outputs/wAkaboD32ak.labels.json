@@ -1,410 +1,410 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.98,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.98,
-    "end": 15.96,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 15.96,
-    "end": 23.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 3,
-    "start": 23.94,
-    "end": 31.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.92,
-    "end": 39.9,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.9,
-    "end": 47.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.88,
-    "end": 55.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.86,
-    "end": 63.84,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.84,
-    "end": 71.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.82,
-    "end": 79.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.8,
-    "end": 87.78,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.78,
-    "end": 95.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.76,
-    "end": 103.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.75,
-    "end": 111.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 111.73,
-    "end": 119.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.71,
-    "end": 127.69,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 16,
-    "start": 127.69,
-    "end": 135.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.67,
-    "end": 143.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.65,
-    "end": 151.63,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.63,
-    "end": 159.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.61,
-    "end": 167.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.59,
-    "end": 175.57,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.57,
-    "end": 183.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 183.55,
-    "end": 191.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.53,
-    "end": 199.51,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 199.51,
-    "end": 207.49,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 207.49,
-    "end": 215.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 215.47,
-    "end": 223.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 223.45,
-    "end": 231.43,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 231.43,
-    "end": 239.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 239.41,
-    "end": 247.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 247.39,
-    "end": 255.37,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 255.37,
-    "end": 263.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 263.35,
-    "end": 271.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 271.33,
-    "end": 279.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 279.31,
-    "end": 287.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 287.29,
-    "end": 295.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 295.27,
-    "end": 303.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 303.25,
-    "end": 311.24,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 311.24,
-    "end": 319.22,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 319.22,
-    "end": 327.2,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 41,
-    "start": 327.2,
-    "end": 335.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 42,
-    "start": 335.18,
-    "end": 343.16,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 43,
-    "start": 343.16,
-    "end": 351.14,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 44,
-    "start": 351.14,
-    "end": 359.12,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 45,
-    "start": 359.12,
-    "end": 367.1,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 46,
-    "start": 367.1,
-    "end": 375.08,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 47,
-    "start": 375.08,
-    "end": 383.06,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 48,
-    "start": 383.06,
-    "end": 391.04,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 49,
-    "start": 391.04,
-    "end": 399.02,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 50,
-    "start": 399.02,
-    "end": 407.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.98,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 1,
+  "start": 7.98,
+  "end": 15.96,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 2,
+  "start": 15.96,
+  "end": 23.94,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 3,
+  "start": 23.94,
+  "end": 31.92,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished pillar candles shown."
+ },
+ {
+  "window": 4,
+  "start": 31.92,
+  "end": 39.9,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 5,
+  "start": 39.9,
+  "end": 47.88,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 6,
+  "start": 47.88,
+  "end": 55.86,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 7,
+  "start": 55.86,
+  "end": 63.84,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 8,
+  "start": 63.84,
+  "end": 71.82,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 9,
+  "start": 71.82,
+  "end": 79.8,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 10,
+  "start": 79.8,
+  "end": 87.78,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 11,
+  "start": 87.78,
+  "end": 95.76,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 12,
+  "start": 95.76,
+  "end": 103.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 13,
+  "start": 103.75,
+  "end": 111.73,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 14,
+  "start": 111.73,
+  "end": 119.71,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead work insert (melting/pouring for the pillar)."
+ },
+ {
+  "window": 15,
+  "start": 119.71,
+  "end": 127.69,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 127.69,
+  "end": 135.67,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 17,
+  "start": 135.67,
+  "end": 143.65,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 18,
+  "start": 143.65,
+  "end": 151.63,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 19,
+  "start": 151.63,
+  "end": 159.61,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 20,
+  "start": 159.61,
+  "end": 167.59,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 21,
+  "start": 167.59,
+  "end": 175.57,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 22,
+  "start": 175.57,
+  "end": 183.55,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 23,
+  "start": 183.55,
+  "end": 191.53,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 24,
+  "start": 191.53,
+  "end": 199.51,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 25,
+  "start": 199.51,
+  "end": 207.49,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 26,
+  "start": 207.49,
+  "end": 215.47,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 27,
+  "start": 215.47,
+  "end": 223.45,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 28,
+  "start": 223.45,
+  "end": 231.43,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Overhead work insert (melting/pouring for the pillar)."
+ },
+ {
+  "window": 29,
+  "start": 231.43,
+  "end": 239.41,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 30,
+  "start": 239.41,
+  "end": 247.39,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 31,
+  "start": 247.39,
+  "end": 255.37,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 32,
+  "start": 255.37,
+  "end": 263.35,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 33,
+  "start": 263.35,
+  "end": 271.33,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 34,
+  "start": 271.33,
+  "end": 279.31,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 35,
+  "start": 279.31,
+  "end": 287.29,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 36,
+  "start": 287.29,
+  "end": 295.27,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 37,
+  "start": 295.27,
+  "end": 303.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 38,
+  "start": 303.25,
+  "end": 311.24,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 39,
+  "start": 311.24,
+  "end": 319.22,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 40,
+  "start": 319.22,
+  "end": 327.2,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 41,
+  "start": 327.2,
+  "end": 335.18,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (pillar candle explainer)."
+ },
+ {
+  "window": 42,
+  "start": 335.18,
+  "end": 343.16,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 43,
+  "start": 343.16,
+  "end": 351.14,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 44,
+  "start": 351.14,
+  "end": 359.12,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 45,
+  "start": 359.12,
+  "end": 367.1,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 46,
+  "start": 367.1,
+  "end": 375.08,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 47,
+  "start": 375.08,
+  "end": 383.06,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 48,
+  "start": 383.06,
+  "end": 391.04,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 49,
+  "start": 391.04,
+  "end": 399.02,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 50,
+  "start": 399.02,
+  "end": 407.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
