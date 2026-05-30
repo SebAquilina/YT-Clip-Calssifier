@@ -1,0 +1,430 @@
+{
+  "video_id": "v9z-JiqGX1U",
+  "title": "Candle Making Instructions - Candle Craft Club DIY Candle Making Kit - How to make Soy Wax candles",
+  "url": "https://www.youtube.com/watch?v=v9z-JiqGX1U",
+  "duration": 184.0,
+  "source": "storyboard",
+  "n_windows": 23,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "hands at table by empty glass, 'prepare candle container' caption",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.0,
+      "end": 16.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.8,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "pressing wick into bottom of glass jar",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.0,
+      "end": 24.0,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.7,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "pouring wax flakes into measuring cup, 'melt wax using double boiler'",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.0,
+      "end": 32.0,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "metal pouring pitcher with flakes",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.0,
+      "end": 40.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.8,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "pitcher in pot of water on heat, 'melt wax using double boiler'",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.0,
+      "end": 48.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.8,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "wax melting in double boiler",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.0,
+      "end": 56.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.75,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "continued melting in pot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.0,
+      "end": 64.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "pot on heat, liquefying",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.0,
+      "end": 72.0,
+      "label": "melt_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.7,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "blue dye being added/stirred into wax",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.0,
+      "end": 80.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "honeycomb tray + caption, ambiguous",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.0,
+      "end": 88.0,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.7,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "pouring fragrance oil from bottle, 'add fragrance'",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.0,
+      "end": 96.0,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "stirring fragrance into pot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.0,
+      "end": 104.0,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "tray + 'stir' caption, ambiguous",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.0,
+      "end": 112.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.8,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "teal liquid wax poured into containers",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.0,
+      "end": 120.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.8,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pouring colored wax into cups",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 120.0,
+      "end": 128.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "blue cups filled",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 128.0,
+      "end": 136.0,
+      "label": "pour_wax",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "filled cups sitting to set",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 136.0,
+      "end": 144.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "second color (pink) poured into cups",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.0,
+      "end": 152.0,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "colored cups setting",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 152.0,
+      "end": 160.0,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "hands adjusting wicks in cups",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 160.0,
+      "end": 168.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.8,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "finished colorful candles with fragrance bottles",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 168.0,
+      "end": 176.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.8,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "arranged finished candles beauty shot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 176.0,
+      "end": 184.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "fade to black / end",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 16.0,
+      "confidence": 0.68,
+      "windows": [
+        0,
+        1
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 16.0,
+      "end": 32.0,
+      "confidence": 0.62,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 32.0,
+      "end": 80.0,
+      "confidence": 0.67,
+      "windows": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 80.0,
+      "end": 104.0,
+      "confidence": 0.55,
+      "windows": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 104.0,
+      "end": 144.0,
+      "confidence": 0.66,
+      "windows": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 144.0,
+      "end": 152.0,
+      "confidence": 0.5,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 152.0,
+      "end": 160.0,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 160.0,
+      "end": 176.0,
+      "confidence": 0.8,
+      "windows": [
+        20,
+        21
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 176.0,
+      "end": 184.0,
+      "confidence": 0.45,
+      "windows": [
+        22
+      ]
+    }
+  ]
+}

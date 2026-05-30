@@ -1,0 +1,19 @@
+[
+  {"window": 0,  "label": "intro_titlecard",   "confidence": 0.7,  "evidence": "channel 'U' logo + finished candles teaser"},
+  {"window": 1,  "label": "prepare_container",  "confidence": 0.7,  "evidence": "step 1: washing jars under tap"},
+  {"window": 2,  "label": "prepare_container",  "confidence": 0.65, "evidence": "step 2: drying jars in oven, 'preheat'"},
+  {"window": 3,  "label": "prepare_container",  "confidence": 0.6,  "evidence": "step 3: wicks laid out"},
+  {"window": 4,  "label": "prepare_container",  "confidence": 0.7,  "evidence": "step 4: glue + stick wick inside jar"},
+  {"window": 5,  "label": "measure_wax",        "confidence": 0.55, "evidence": "step 5: measuring in bowls"},
+  {"window": 6,  "label": "measure_wax",        "confidence": 0.75, "evidence": "step 6: 'Measure out the wax', flakes in cup"},
+  {"window": 7,  "label": "melt_wax",           "confidence": 0.75, "evidence": "step 7: wax cup in double boiler pot"},
+  {"window": 8,  "label": "monitor_temperature","confidence": 0.7,  "evidence": "step 8: 'Test the temperature of the wax'"},
+  {"window": 9,  "label": "add_fragrance",      "confidence": 0.4,  "evidence": "hands working in bowl"},
+  {"window": 10, "label": "add_fragrance",      "confidence": 0.6,  "evidence": "dropper adding essential oils"},
+  {"window": 11, "label": "add_fragrance",      "confidence": 0.5,  "evidence": "green wax, dropper, thermometer"},
+  {"window": 12, "label": "pour_wax",           "confidence": 0.75, "evidence": "'Pour the wax into your container'"},
+  {"window": 13, "label": "pour_wax",           "confidence": 0.7,  "evidence": "pouring green wax, 'leave space at top'"},
+  {"window": 14, "label": "pour_wax",           "confidence": 0.55, "evidence": "'Top off the candle', green+blue jars"},
+  {"window": 15, "label": "trim_wick",          "confidence": 0.5,  "evidence": "'Trim the wick' + finished candles"},
+  {"window": 16, "label": "outro_cta",          "confidence": 0.7,  "evidence": "channel 'U' links outro card"}
+]

@@ -1,0 +1,88 @@
+# =============================================================================
+# Rules engine configuration
+# -----------------------------------------------------------------------------
+# These rules (a) constrain how 5-10s windows are formed, (b) post-process the
+# raw per-window vision labels into a cleaner timeline (temporal smoothing using
+# procedure-order priors), and (c) describe how the candle taxonomy extrapolates
+# to other DIY domains.
+#
+# Empirically learned rules (observed step order, durations, transition
+# frequencies) are written to outputs/learned_rules.yaml by `ytclip learn`,
+# which is meant to be merged back here over time.
+# =============================================================================
+
+version: 1
+
+# --- Windowing -------------------------------------------------------------
+windowing:
+  min_seconds: 5
+  max_seconds: 10            # hard cap: a window may never exceed 10s
+  target_seconds: 8
+  # When a detected shot is longer than max_seconds it is split into equal
+  # windows of <= max_seconds. Shots shorter than min_seconds are merged
+  # forward until they reach >= min_seconds (without crossing max_seconds).
+  snap_to_shots: true        # prefer shot/scene cuts as window boundaries
+
+# --- Canonical procedure order --------------------------------------------
+# The normal forward order of the real steps. Used to (a) detect implausible
+# backwards jumps and (b) fill low-confidence gaps between same-label neighbours.
+canonical_order:
+  - gather_materials
+  - prepare_container
+  - measure_wax
+  - melt_wax
+  - monitor_temperature
+  - add_fragrance
+  - add_dye_color
+  - pour_wax
+  - set_wick
+  - cure_cool
+  - trim_wick
+  - decorate_finish
+  - reveal_result
+
+# Steps that legitimately repeat / interleave (so a "backwards" move between
+# them is NOT penalised).
+repeatable:
+  - [melt_wax, monitor_temperature]      # reheat / re-check loops
+  - [add_fragrance, add_dye_color]        # order varies, often stirred together
+  - [pour_wax, set_wick]                  # multi-layer pours
+  - [melt_wax, pour_wax]                  # layered candles re-melt and re-pour
+
+# --- Temporal smoothing ----------------------------------------------------
+smoothing:
+  enabled: true
+  # Fill an isolated low-confidence window if both neighbours share a label.
+  fill_gaps: true
+  gap_confidence_below: 0.55
+  # Remove a single-window "spike" whose label differs from identical
+  # neighbours on both sides (likely a misread).
+  despike: true
+  # Penalise a label whose position is far from its taxonomy typical_position.
+  position_prior_weight: 0.25
+  # Penalise transitions that jump backwards through canonical_order (unless in
+  # `repeatable`). Higher = stricter monotonic progression.
+  backward_jump_penalty: 0.35
+
+# --- Confidence handling ---------------------------------------------------
+confidence:
+  # Below this, a label is shown as tentative in reports and is eligible for
+  # gap-filling / smoothing overrides.
+  low_threshold: 0.55
+  # Auxiliary labels (talking_head, transition, other_unclear) are allowed
+  # anywhere and never penalised by the order prior.
+  aux_labels: [intro_titlecard, outro_cta, talking_head, transition, other_unclear]
+
+# --- Generalisation to other DIY domains -----------------------------------
+# The phase skeleton is domain-independent; only the `process` phase changes.
+# To add a domain, write a new config/taxonomy.<domain>.yaml that fills these
+# phase slots with domain-specific steps.
+generalization:
+  phase_skeleton: [intro, prep, process, assemble, finish, aux]
+  invariant_phases: [intro, prep, assemble, finish, aux]
+  domain_specific_phase: process
+  examples:
+    candle_diy:   {process: [melt_wax, monitor_temperature, add_fragrance, add_dye_color]}
+    soap_diy:     {process: [melt_base, blend_lye, add_fragrance, add_dye_color, trace]}
+    resin_diy:    {process: [mix_resin, add_pigment, degas, pour_layers]}
+    baking_diy:   {process: [mix_batter, add_flavor, whisk, bake]}

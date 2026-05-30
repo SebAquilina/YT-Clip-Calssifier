@@ -1,0 +1,618 @@
+{
+  "video_id": "ZQk9l2ttcIA",
+  "title": "A Beginners Guide To Making A Candle",
+  "url": "https://www.youtube.com/watch?v=ZQk9l2ttcIA",
+  "duration": 256.0,
+  "source": "storyboard",
+  "n_windows": 32,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.0,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.7,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "Cosy Owl branded title card + host",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.0,
+      "end": 16.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.0,
+      "end": 24.0,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "host with supplies laid on table",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.0,
+      "end": 32.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "handling wick/sticker on table",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.0,
+      "end": 40.0,
+      "label": "prepare_container",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "host explaining to camera",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.0,
+      "end": 48.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "preparing jars at table",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.0,
+      "end": 56.0,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.65,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "tin on scale",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.0,
+      "end": 64.0,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.75,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "pouring wax flakes into tin on scale",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.0,
+      "end": 72.0,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "metal pot with flakes",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.0,
+      "end": 80.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.8,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "pot on gas stove melting",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.0,
+      "end": 88.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.8,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "melting wax on stove",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.0,
+      "end": 96.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "stirring melting pot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.0,
+      "end": 104.0,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "handling bottle near pot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.0,
+      "end": 112.0,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "pouring oil into pot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.0,
+      "end": 120.0,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "stirring fragrance into amber liquid",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 120.0,
+      "end": 128.0,
+      "label": "monitor_temperature",
+      "original_label": "monitor_temperature",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "pot of amber liquid, checking",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->monitor_temperature)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 128.0,
+      "end": 136.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.75,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pouring wax into glass",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 136.0,
+      "end": 144.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.8,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pouring into glasses",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.0,
+      "end": 152.0,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pink/red colour appears",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 152.0,
+      "end": 160.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.7,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pouring pink wax into glasses",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 160.0,
+      "end": 168.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pink glasses filled",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 168.0,
+      "end": 176.0,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "row of filled glasses setting",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 176.0,
+      "end": 184.0,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "pink candles cooling",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 184.0,
+      "end": 192.0,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "hands adjusting wicks",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->set_wick)"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 192.0,
+      "end": 200.0,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "sprinkling petals on top",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 200.0,
+      "end": 208.0,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "decorating candle tops with petals",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 208.0,
+      "end": 216.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.75,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "finished pink candles beauty shot",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 27,
+      "start": 216.0,
+      "end": 224.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "Cosy Owl outro end card",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 224.0,
+      "end": 232.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "blank/black padding frame",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 232.0,
+      "end": 240.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "blank/black padding frame",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 240.0,
+      "end": 248.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "blank/black padding frame",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 248.0,
+      "end": 256.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "blank/black padding frame",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.0,
+      "confidence": 0.7,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.0,
+      "end": 16.0,
+      "confidence": 0.6,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 16.0,
+      "end": 24.0,
+      "confidence": 0.55,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 24.0,
+      "end": 48.0,
+      "confidence": 0.54,
+      "windows": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 48.0,
+      "end": 72.0,
+      "confidence": 0.62,
+      "windows": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 72.0,
+      "end": 96.0,
+      "confidence": 0.75,
+      "windows": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 96.0,
+      "end": 120.0,
+      "confidence": 0.54,
+      "windows": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "label": "monitor_temperature",
+      "phase": "process",
+      "is_step": true,
+      "start": 120.0,
+      "end": 128.0,
+      "confidence": 0.4,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 128.0,
+      "end": 168.0,
+      "confidence": 0.64,
+      "windows": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 168.0,
+      "end": 184.0,
+      "confidence": 0.6,
+      "windows": [
+        21,
+        22
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 184.0,
+      "end": 192.0,
+      "confidence": 0.45,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 192.0,
+      "end": 208.0,
+      "confidence": 0.55,
+      "windows": [
+        24,
+        25
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 208.0,
+      "end": 216.0,
+      "confidence": 0.75,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 216.0,
+      "end": 224.0,
+      "confidence": 0.7,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 224.0,
+      "end": 256.0,
+      "confidence": 0.4,
+      "windows": [
+        28,
+        29,
+        30,
+        31
+      ]
+    }
+  ]
+}
