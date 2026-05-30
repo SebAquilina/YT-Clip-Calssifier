@@ -1,0 +1,1174 @@
+{
+  "video_id": "tUXkZFNUQXI",
+  "title": "How I Make Our #1 Bestselling Market Tins | Full Recipe Included",
+  "url": "https://www.youtube.com/watch?v=tUXkZFNUQXI",
+  "duration": 364.0,
+  "source": "storyboard",
+  "n_windows": 46,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.91,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.91,
+      "end": 15.83,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Brushed-metal wax melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->melt_wax)"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 15.83,
+      "end": 23.74,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 oe 3 SS rs pe Zz al if bueteuise'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.74,
+      "end": 31.65,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.65,
+      "end": 39.57,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.57,
+      "end": 47.48,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.48,
+      "end": 55.39,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.39,
+      "end": 63.3,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.3,
+      "end": 71.22,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.22,
+      "end": 79.13,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.13,
+      "end": 87.04,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 87.04,
+      "end": 94.96,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.96,
+      "end": 102.87,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 102.87,
+      "end": 110.78,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 110.78,
+      "end": 118.7,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 118.7,
+      "end": 126.61,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 126.61,
+      "end": 134.52,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 134.52,
+      "end": 142.43,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 142.43,
+      "end": 150.35,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'meets Se Sed aii, tl, ey Ps Nay Sean te Fas ne yf iad ae oe ae snes an BE iG Ste RO ee Ping ae Fn eam Sa He Ms lng PE Ges YY he Sei 3 eh ee oa teere'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 150.35,
+      "end": 158.26,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 158.26,
+      "end": 166.17,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 166.17,
+      "end": 174.09,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 174.09,
+      "end": 182.0,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 182.0,
+      "end": 189.91,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 189.91,
+      "end": 197.83,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 197.83,
+      "end": 205.74,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 205.74,
+      "end": 213.65,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 213.65,
+      "end": 221.57,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 221.57,
+      "end": 229.48,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 229.48,
+      "end": 237.39,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 237.39,
+      "end": 245.3,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 245.3,
+      "end": 253.22,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 253.22,
+      "end": 261.13,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 261.13,
+      "end": 269.04,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 269.04,
+      "end": 276.96,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 276.96,
+      "end": 284.87,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lidding and labelling the finished tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 284.87,
+      "end": 292.78,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of amber candle tins setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 37,
+      "start": 292.78,
+      "end": 300.7,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring amber wax into the tins from the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 300.7,
+      "end": 308.61,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Trimming wicks on the set tin candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->trim_wick)"
+      ]
+    },
+    {
+      "window": 39,
+      "start": 308.61,
+      "end": 316.52,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'S/S 4 al po Sar 4 4 wy Pa oad 4 2 ae cae face ee'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 316.52,
+      "end": 324.43,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled tin candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 324.43,
+      "end": 332.35,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 332.35,
+      "end": 340.26,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 340.26,
+      "end": 348.17,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 348.17,
+      "end": 356.09,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 356.09,
+      "end": 364.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.91,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 7.91,
+      "end": 15.83,
+      "confidence": 0.45,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 15.83,
+      "end": 23.74,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 23.74,
+      "end": 31.65,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 31.65,
+      "end": 39.57,
+      "confidence": 0.45,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 39.57,
+      "end": 47.48,
+      "confidence": 0.45,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 47.48,
+      "end": 55.39,
+      "confidence": 0.45,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 55.39,
+      "end": 63.3,
+      "confidence": 0.45,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 63.3,
+      "end": 71.22,
+      "confidence": 0.45,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 71.22,
+      "end": 79.13,
+      "confidence": 0.45,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 79.13,
+      "end": 87.04,
+      "confidence": 0.45,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 87.04,
+      "end": 94.96,
+      "confidence": 0.45,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 94.96,
+      "end": 102.87,
+      "confidence": 0.45,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 102.87,
+      "end": 110.78,
+      "confidence": 0.45,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 110.78,
+      "end": 118.7,
+      "confidence": 0.45,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 118.7,
+      "end": 126.61,
+      "confidence": 0.45,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 126.61,
+      "end": 134.52,
+      "confidence": 0.45,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 134.52,
+      "end": 142.43,
+      "confidence": 0.45,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 142.43,
+      "end": 150.35,
+      "confidence": 0.5,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 150.35,
+      "end": 158.26,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 158.26,
+      "end": 166.17,
+      "confidence": 0.45,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 166.17,
+      "end": 174.09,
+      "confidence": 0.45,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 174.09,
+      "end": 182.0,
+      "confidence": 0.45,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 182.0,
+      "end": 189.91,
+      "confidence": 0.45,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 189.91,
+      "end": 197.83,
+      "confidence": 0.45,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 197.83,
+      "end": 205.74,
+      "confidence": 0.45,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 205.74,
+      "end": 213.65,
+      "confidence": 0.45,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 213.65,
+      "end": 221.57,
+      "confidence": 0.45,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 221.57,
+      "end": 229.48,
+      "confidence": 0.7,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 229.48,
+      "end": 237.39,
+      "confidence": 0.45,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 237.39,
+      "end": 245.3,
+      "confidence": 0.45,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 245.3,
+      "end": 253.22,
+      "confidence": 0.45,
+      "windows": [
+        31
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 253.22,
+      "end": 261.13,
+      "confidence": 0.45,
+      "windows": [
+        32
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 261.13,
+      "end": 269.04,
+      "confidence": 0.45,
+      "windows": [
+        33
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 269.04,
+      "end": 276.96,
+      "confidence": 0.45,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 276.96,
+      "end": 284.87,
+      "confidence": 0.45,
+      "windows": [
+        35
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 284.87,
+      "end": 292.78,
+      "confidence": 0.45,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 292.78,
+      "end": 300.7,
+      "confidence": 0.45,
+      "windows": [
+        37
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 300.7,
+      "end": 308.61,
+      "confidence": 0.45,
+      "windows": [
+        38
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 308.61,
+      "end": 316.52,
+      "confidence": 0.5,
+      "windows": [
+        39
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 316.52,
+      "end": 324.43,
+      "confidence": 0.45,
+      "windows": [
+        40
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 324.43,
+      "end": 364.0,
+      "confidence": 0.5,
+      "windows": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    }
+  ]
+}

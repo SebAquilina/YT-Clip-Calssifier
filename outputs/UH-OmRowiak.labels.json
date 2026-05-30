@@ -1,362 +1,362 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 8.07,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 1,
-    "start": 8.07,
-    "end": 16.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 2,
-    "start": 16.13,
-    "end": 24.2,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oN Oe ae Gam es esi, Shes Sh 4 4 Ay 5 TF AUR gee NN Toye tally re va De Coes te et as aap eo ole 4 bs 7 7 yy 4'."
-  },
-  {
-    "window": 3,
-    "start": 24.2,
-    "end": 32.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 32.27,
-    "end": 40.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 40.33,
-    "end": 48.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 48.4,
-    "end": 56.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 56.47,
-    "end": 64.53,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ees pe iS Se hie ee Deen 5 ie Mi poh bom yr 7 ine 7 Ret eee as Fe ae cer te ee Awe ee 2. wae cut 8 4 Nw 7 te ys ee. od ad ay aS ll'."
-  },
-  {
-    "window": 8,
-    "start": 64.53,
-    "end": 72.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 72.6,
-    "end": 80.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 80.67,
-    "end": 88.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 88.73,
-    "end": 96.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 96.8,
-    "end": 104.87,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 13,
-    "start": 104.87,
-    "end": 112.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 14,
-    "start": 112.93,
-    "end": 121.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 121.0,
-    "end": 129.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 129.07,
-    "end": 137.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 137.13,
-    "end": 145.2,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'et egy on 7 vat Se SSS sunt ae YY ee set on ae iti call Pd mS, 2 oe 7 pond 2 of ae'."
-  },
-  {
-    "window": 18,
-    "start": 145.2,
-    "end": 153.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 153.27,
-    "end": 161.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 161.33,
-    "end": 169.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 169.4,
-    "end": 177.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 177.47,
-    "end": 185.53,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ou ieee ide. Se oe ee, ee See, te. Prdemmer od neal Es OR ne oe om Gm Mae 2 7 nn ae oy ERE Nar Re ete woe 4 es Le es az, ea oe, ye Pe 4 at Wt ot'."
-  },
-  {
-    "window": 23,
-    "start": 185.53,
-    "end": 193.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 193.6,
-    "end": 201.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 201.67,
-    "end": 209.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 209.73,
-    "end": 217.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 217.8,
-    "end": 225.87,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'BE PRY ag an Wr wa Bogs ee oe, pagel Mae Ts ond tes NGG SSeS ee Ativan 5 Sy Se Pee es eel ae oy iy Stn: Mg Rs Re ee lm'."
-  },
-  {
-    "window": 28,
-    "start": 225.87,
-    "end": 233.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 233.93,
-    "end": 242.0,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 242.0,
-    "end": 250.07,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 250.07,
-    "end": 258.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 258.13,
-    "end": 266.2,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'we Wrudermng of Mahseg as 9 ety ws oe gg 2 S&S eo oy 7'."
-  },
-  {
-    "window": 33,
-    "start": 266.2,
-    "end": 274.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 274.27,
-    "end": 282.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 282.33,
-    "end": 290.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 290.4,
-    "end": 298.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 298.47,
-    "end": 306.53,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'rs oe ri 4 Pate IA it ey 2'."
-  },
-  {
-    "window": 38,
-    "start": 306.53,
-    "end": 314.6,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 39,
-    "start": 314.6,
-    "end": 322.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 322.67,
-    "end": 330.73,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 41,
-    "start": 330.73,
-    "end": 338.8,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 42,
-    "start": 338.8,
-    "end": 346.87,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 43,
-    "start": 346.87,
-    "end": 354.93,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 44,
-    "start": 354.93,
-    "end": 363.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.07,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 8.07,
+  "end": 16.13,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 2,
+  "start": 16.13,
+  "end": 24.2,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oN Oe ae Gam es esi, Shes Sh 4 4 Ay 5 TF AUR gee NN Toye tally re va De Coes te et as aap eo ole 4 bs 7 7 yy 4'."
+ },
+ {
+  "window": 3,
+  "start": 24.2,
+  "end": 32.27,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 4,
+  "start": 32.27,
+  "end": 40.33,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory: rows of white candles formed in metal moulds."
+ },
+ {
+  "window": 5,
+  "start": 40.33,
+  "end": 48.4,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 6,
+  "start": 48.4,
+  "end": 56.47,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers demoulding/finishing the candles."
+ },
+ {
+  "window": 7,
+  "start": 56.47,
+  "end": 64.53,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ees pe iS Se hie ee Deen 5 ie Mi poh bom yr 7 ine 7 Ret eee as Fe ae cer te ee Awe ee 2. wae cut 8 4 Nw 7 te ys ee. od ad ay aS ll'."
+ },
+ {
+  "window": 8,
+  "start": 64.53,
+  "end": 72.6,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory: rows of white candles formed in metal moulds."
+ },
+ {
+  "window": 9,
+  "start": 72.6,
+  "end": 80.67,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 10,
+  "start": 80.67,
+  "end": 88.73,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers demoulding/finishing the candles."
+ },
+ {
+  "window": 11,
+  "start": 88.73,
+  "end": 96.8,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 12,
+  "start": 96.8,
+  "end": 104.87,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 104.87,
+  "end": 112.93,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 14,
+  "start": 112.93,
+  "end": 121.0,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers demoulding/finishing the candles."
+ },
+ {
+  "window": 15,
+  "start": 121.0,
+  "end": 129.07,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 16,
+  "start": 129.07,
+  "end": 137.13,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory: rows of white candles formed in metal moulds."
+ },
+ {
+  "window": 17,
+  "start": 137.13,
+  "end": 145.2,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'et egy on 7 vat Se SSS sunt ae YY ee set on ae iti call Pd mS, 2 oe 7 pond 2 of ae'."
+ },
+ {
+  "window": 18,
+  "start": 145.2,
+  "end": 153.27,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers demoulding/finishing the candles."
+ },
+ {
+  "window": 19,
+  "start": 153.27,
+  "end": 161.33,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 20,
+  "start": 161.33,
+  "end": 169.4,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory: rows of white candles formed in metal moulds."
+ },
+ {
+  "window": 21,
+  "start": 169.4,
+  "end": 177.47,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 22,
+  "start": 177.47,
+  "end": 185.53,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '7 ou ieee ide. Se oe ee, ee See, te. Prdemmer od neal Es OR ne oe om Gm Mae 2 7 nn ae oy ERE Nar Re ete woe 4 es Le es az, ea oe, ye Pe 4 at Wt ot'."
+ },
+ {
+  "window": 23,
+  "start": 185.53,
+  "end": 193.6,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 24,
+  "start": 193.6,
+  "end": 201.67,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory: rows of white candles formed in metal moulds."
+ },
+ {
+  "window": 25,
+  "start": 201.67,
+  "end": 209.73,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 26,
+  "start": 209.73,
+  "end": 217.8,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers demoulding/finishing the candles."
+ },
+ {
+  "window": 27,
+  "start": 217.8,
+  "end": 225.87,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'BE PRY ag an Wr wa Bogs ee oe, pagel Mae Ts ond tes NGG SSeS ee Ativan 5 Sy Se Pee es eel ae oy iy Stn: Mg Rs Re ee lm'."
+ },
+ {
+  "window": 28,
+  "start": 225.87,
+  "end": 233.93,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory: rows of white candles formed in metal moulds."
+ },
+ {
+  "window": 29,
+  "start": 233.93,
+  "end": 242.0,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 30,
+  "start": 242.0,
+  "end": 250.07,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers demoulding/finishing the candles."
+ },
+ {
+  "window": 31,
+  "start": 250.07,
+  "end": 258.13,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 32,
+  "start": 258.13,
+  "end": 266.2,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'we Wrudermng of Mahseg as 9 ety ws oe gg 2 S&S eo oy 7'."
+ },
+ {
+  "window": 33,
+  "start": 266.2,
+  "end": 274.27,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Candles cooling in the moulds on the line."
+ },
+ {
+  "window": 34,
+  "start": 274.27,
+  "end": 282.33,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Workers demoulding/finishing the candles."
+ },
+ {
+  "window": 35,
+  "start": 282.33,
+  "end": 290.4,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 36,
+  "start": 290.4,
+  "end": 298.47,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Factory: rows of white candles formed in metal moulds."
+ },
+ {
+  "window": 37,
+  "start": 298.47,
+  "end": 306.53,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'rs oe ri 4 Pate IA it ey 2'."
+ },
+ {
+  "window": 38,
+  "start": 306.53,
+  "end": 314.6,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 39,
+  "start": 314.6,
+  "end": 322.67,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / machinery b-roll."
+ },
+ {
+  "window": 40,
+  "start": 322.67,
+  "end": 330.73,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 41,
+  "start": 330.73,
+  "end": 338.8,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 42,
+  "start": 338.8,
+  "end": 346.87,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 43,
+  "start": 346.87,
+  "end": 354.93,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 44,
+  "start": 354.93,
+  "end": 363.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
