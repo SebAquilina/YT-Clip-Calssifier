@@ -1,394 +1,394 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.96,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 1,
-    "start": 7.96,
-    "end": 15.92,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 2,
-    "start": 15.92,
-    "end": 23.88,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 3,
-    "start": 23.88,
-    "end": 31.84,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 4,
-    "start": 31.84,
-    "end": 39.8,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 5,
-    "start": 39.8,
-    "end": 47.76,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 6,
-    "start": 47.76,
-    "end": 55.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.71,
-    "end": 63.67,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 8,
-    "start": 63.67,
-    "end": 71.63,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 9,
-    "start": 71.63,
-    "end": 79.59,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 10,
-    "start": 79.59,
-    "end": 87.55,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 11,
-    "start": 87.55,
-    "end": 95.51,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 12,
-    "start": 95.51,
-    "end": 103.47,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 13,
-    "start": 103.47,
-    "end": 111.43,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 14,
-    "start": 111.43,
-    "end": 119.39,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 15,
-    "start": 119.39,
-    "end": 127.35,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 16,
-    "start": 127.35,
-    "end": 135.31,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 17,
-    "start": 135.31,
-    "end": 143.27,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 18,
-    "start": 143.27,
-    "end": 151.22,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vy Qe aii Baie AY 7 ee ow ve age 3'."
-  },
-  {
-    "window": 19,
-    "start": 151.22,
-    "end": 159.18,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 20,
-    "start": 159.18,
-    "end": 167.14,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 21,
-    "start": 167.14,
-    "end": 175.1,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.1,
-    "end": 183.06,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 23,
-    "start": 183.06,
-    "end": 191.02,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 24,
-    "start": 191.02,
-    "end": 198.98,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 25,
-    "start": 198.98,
-    "end": 206.94,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 26,
-    "start": 206.94,
-    "end": 214.9,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 27,
-    "start": 214.9,
-    "end": 222.86,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 28,
-    "start": 222.86,
-    "end": 230.82,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 29,
-    "start": 230.82,
-    "end": 238.78,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 30,
-    "start": 238.78,
-    "end": 246.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 246.73,
-    "end": 254.69,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 32,
-    "start": 254.69,
-    "end": 262.65,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 33,
-    "start": 262.65,
-    "end": 270.61,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 34,
-    "start": 270.61,
-    "end": 278.57,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 35,
-    "start": 278.57,
-    "end": 286.53,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 36,
-    "start": 286.53,
-    "end": 294.49,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 37,
-    "start": 294.49,
-    "end": 302.45,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 38,
-    "start": 302.45,
-    "end": 310.41,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 39,
-    "start": 310.41,
-    "end": 318.37,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 40,
-    "start": 318.37,
-    "end": 326.33,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 41,
-    "start": 326.33,
-    "end": 334.29,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 42,
-    "start": 334.29,
-    "end": 342.24,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 43,
-    "start": 342.24,
-    "end": 350.2,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 44,
-    "start": 350.2,
-    "end": 358.16,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 45,
-    "start": 358.16,
-    "end": 366.12,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 46,
-    "start": 366.12,
-    "end": 374.08,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 47,
-    "start": 374.08,
-    "end": 382.04,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 48,
-    "start": 382.04,
-    "end": 390.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.96,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.96,
+  "end": 15.92,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 15.92,
+  "end": 23.88,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 23.88,
+  "end": 31.84,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 4,
+  "start": 31.84,
+  "end": 39.8,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 39.8,
+  "end": 47.76,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 47.76,
+  "end": 55.71,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Host (cap) talks to camera."
+ },
+ {
+  "window": 7,
+  "start": 55.71,
+  "end": 63.67,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 8,
+  "start": 63.67,
+  "end": 71.63,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 9,
+  "start": 71.63,
+  "end": 79.59,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 79.59,
+  "end": 87.55,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 87.55,
+  "end": 95.51,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 95.51,
+  "end": 103.47,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 103.47,
+  "end": 111.43,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 111.43,
+  "end": 119.39,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 119.39,
+  "end": 127.35,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 127.35,
+  "end": 135.31,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 135.31,
+  "end": 143.27,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 143.27,
+  "end": 151.22,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Vy Qe aii Baie AY 7 ee ow ve age 3'."
+ },
+ {
+  "window": 19,
+  "start": 151.22,
+  "end": 159.18,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 20,
+  "start": 159.18,
+  "end": 167.14,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 167.14,
+  "end": 175.1,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera; 'Reason 4: Easier Cleanup' caption."
+ },
+ {
+  "window": 22,
+  "start": 175.1,
+  "end": 183.06,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 23,
+  "start": 183.06,
+  "end": 191.02,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 24,
+  "start": 191.02,
+  "end": 198.98,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 25,
+  "start": 198.98,
+  "end": 206.94,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 26,
+  "start": 206.94,
+  "end": 214.9,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 27,
+  "start": 214.9,
+  "end": 222.86,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 28,
+  "start": 222.86,
+  "end": 230.82,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 29,
+  "start": 230.82,
+  "end": 238.78,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 30,
+  "start": 238.78,
+  "end": 246.73,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera; 'Reason 5: Provides a Cleaner Burn' caption."
+ },
+ {
+  "window": 31,
+  "start": 246.73,
+  "end": 254.69,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 32,
+  "start": 254.69,
+  "end": 262.65,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 33,
+  "start": 262.65,
+  "end": 270.61,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 34,
+  "start": 270.61,
+  "end": 278.57,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 35,
+  "start": 278.57,
+  "end": 286.53,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 36,
+  "start": 286.53,
+  "end": 294.49,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 37,
+  "start": 294.49,
+  "end": 302.45,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 38,
+  "start": 302.45,
+  "end": 310.41,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 39,
+  "start": 310.41,
+  "end": 318.37,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 40,
+  "start": 318.37,
+  "end": 326.33,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 41,
+  "start": 326.33,
+  "end": 334.29,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 42,
+  "start": 334.29,
+  "end": 342.24,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 43,
+  "start": 342.24,
+  "end": 350.2,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 44,
+  "start": 350.2,
+  "end": 358.16,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 45,
+  "start": 358.16,
+  "end": 366.12,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 46,
+  "start": 366.12,
+  "end": 374.08,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 47,
+  "start": 374.08,
+  "end": 382.04,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 48,
+  "start": 382.04,
+  "end": 390.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
