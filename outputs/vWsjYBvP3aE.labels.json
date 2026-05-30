@@ -1,0 +1,350 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Host opens in a bright minimal studio for scented beeswax candles."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 5,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 7,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 8,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 9,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Overhead beeswax discs (copper/brown)."
+ },
+ {
+  "window": 10,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Overhead white surface with beeswax discs."
+ },
+ {
+  "window": 11,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "A copper wax disc; 'fragrance oil' caption."
+ },
+ {
+  "window": 12,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 13,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Overhead beeswax discs measured."
+ },
+ {
+  "window": 14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 15,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 17,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 18,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 19,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 20,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 23,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 25,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 28,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 29,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead beeswax melted/poured (b-roll)."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead pour into a vessel (b-roll)."
+ },
+ {
+  "window": 32,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 34,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead beeswax melted/poured (b-roll)."
+ },
+ {
+  "window": 35,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 37,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 39,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead beeswax melted/poured (b-roll)."
+ },
+ {
+  "window": 40,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 41,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Overhead pour into a vessel (b-roll)."
+ },
+ {
+  "window": 42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 44,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Overhead beeswax melted/poured (b-roll)."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 47,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 48,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; 'TRIM YOUR WICK BETWEEN BURNS' caption."
+ },
+ {
+  "window": 49,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 50,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle; 'never burn more than 4 hours' caption."
+ },
+ {
+  "window": 51,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Wax block scraped into a cup (b-roll)."
+ },
+ {
+  "window": 52,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 53,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 54,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 55,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Ceramic cups filled with wax."
+ },
+ {
+  "window": 56,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 57,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]
