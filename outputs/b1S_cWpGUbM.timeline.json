@@ -360,75 +360,79 @@
       "window": 24,
       "start": 193.03,
       "end": 201.07,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Prepping the jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (pour_wax->prepare_container)"
+      ]
     },
     {
       "window": 25,
       "start": 201.07,
       "end": 209.11,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "prepare_container",
+      "original_label": "prepare_container",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
+      "description": "Prepping the jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (pour_wax->prepare_container)"
+      ]
     },
     {
       "window": 26,
       "start": 209.11,
       "end": 217.16,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Prepping the jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
+        "backward step vs canonical order (pour_wax->prepare_container)"
       ]
     },
     {
       "window": 27,
       "start": 217.16,
       "end": 225.2,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Prepping the jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (pour_wax->prepare_container)"
+      ]
     },
     {
       "window": 28,
       "start": 225.2,
       "end": 233.24,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
+      "description": "Melting wax in the metal pitcher on the stove.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 29,
@@ -440,7 +444,7 @@
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
+      "description": "Melting wax in the metal pitcher on the stove.",
       "smoothed": false,
       "notes": []
     },
@@ -448,29 +452,27 @@
       "window": 30,
       "start": 241.29,
       "end": 249.33,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Melting wax in the metal pitcher on the stove.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 31,
       "start": 249.33,
       "end": 257.37,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into a metal tin/jar.",
+      "description": "Melting wax in the metal pitcher on the stove.",
       "smoothed": false,
       "notes": []
     },
@@ -478,89 +480,87 @@
       "window": 32,
       "start": 257.37,
       "end": 265.41,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
-      "is_step": true,
-      "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
-      ]
-    },
-    {
-      "window": 33,
-      "start": 265.41,
-      "end": 273.46,
       "label": "melt_wax",
       "original_label": "melt_wax",
       "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
+      "description": "Melting wax in the metal pitcher on the stove.",
       "smoothed": false,
       "notes": []
     },
     {
-      "window": 34,
-      "start": 273.46,
-      "end": 281.5,
+      "window": 33,
+      "start": 265.41,
+      "end": 273.46,
       "label": "add_fragrance",
       "original_label": "add_fragrance",
-      "confidence": 0.4,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Adding fragrance/essential oil.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (pour_wax->add_fragrance)"
       ]
     },
     {
+      "window": 34,
+      "start": 273.46,
+      "end": 281.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the jars.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
       "window": 35,
       "start": 281.5,
       "end": 289.54,
       "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
+      "original_label": "melt_wax",
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into a metal tin/jar.",
-      "smoothed": false,
-      "notes": []
+      "description": "Melting wax in the metal pitcher on the stove.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 36,
       "start": 289.54,
       "end": 297.59,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 37,
       "start": 297.59,
       "end": 305.63,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
       "notes": []
     },
@@ -568,17 +568,15 @@
       "window": 38,
       "start": 305.63,
       "end": 313.67,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 39,
@@ -586,11 +584,11 @@
       "end": 321.71,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into a metal tin/jar.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
       "notes": []
     },
@@ -598,29 +596,27 @@
       "window": 40,
       "start": 321.71,
       "end": 329.76,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 41,
       "start": 329.76,
       "end": 337.8,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
       "notes": []
     },
@@ -628,17 +624,15 @@
       "window": 42,
       "start": 337.8,
       "end": 345.84,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
+      "notes": []
     },
     {
       "window": 43,
@@ -646,11 +640,11 @@
       "end": 353.89,
       "label": "pour_wax",
       "original_label": "pour_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into a metal tin/jar.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
       "notes": []
     },
@@ -658,59 +652,57 @@
       "window": 44,
       "start": 353.89,
       "end": 361.93,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
+      "description": "Pouring wax into the jars.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 45,
       "start": 361.93,
       "end": 369.97,
+      "label": "pour_wax",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of natural candles setting.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 46,
+      "start": 369.97,
+      "end": 378.01,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the jars.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 378.01,
+      "end": 386.06,
       "label": "melt_wax",
       "original_label": "melt_wax",
       "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 46,
-      "start": 369.97,
-      "end": 378.01,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
-      "is_step": true,
-      "evidence": "",
-      "description": "Adding fragrance/essential oils.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
-      ]
-    },
-    {
-      "window": 47,
-      "start": 378.01,
-      "end": 386.06,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring wax into a metal tin/jar.",
+      "description": "Melting wax in the metal pitcher on the stove.",
       "smoothed": false,
       "notes": []
     },
@@ -718,179 +710,188 @@
       "window": 48,
       "start": 386.06,
       "end": 394.1,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
+      "description": "Finished/lit natural candles shown.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 49,
       "start": 394.1,
       "end": 402.14,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
+      "description": "Rows of natural candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
     },
     {
       "window": 50,
       "start": 402.14,
       "end": 410.19,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Rows of natural candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
+        "backward step vs canonical order (reveal_result->cure_cool)"
       ]
     },
     {
       "window": 51,
       "start": 410.19,
       "end": 418.23,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Lidding/labelling & cleaning the jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 52,
       "start": 418.23,
       "end": 426.27,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
+      "description": "Lidding/labelling & cleaning the jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 53,
       "start": 426.27,
       "end": 434.31,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
+      "description": "Lidding/labelling & cleaning the jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 54,
       "start": 434.31,
       "end": 442.36,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Lidding/labelling & cleaning the jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 55,
       "start": 442.36,
       "end": 450.4,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into a metal tin/jar.",
+      "description": "Lidding/labelling & cleaning the jars.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 56,
       "start": 450.4,
       "end": 458.44,
-      "label": "measure_wax",
-      "original_label": "measure_wax",
-      "confidence": 0.45,
-      "phase": "prep",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Cutting/weighing beeswax for the natural candle.",
+      "description": "Lidding/labelling & cleaning the jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (pour_wax->measure_wax)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 57,
       "start": 458.44,
       "end": 466.49,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
+      "label": "decorate_finish",
+      "original_label": "prepare_container",
       "confidence": 0.5,
-      "phase": "process",
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting wax in a metal pitcher on the stove.",
-      "smoothed": false,
-      "notes": []
+      "description": "Prepping the jars.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
     },
     {
       "window": 58,
       "start": 466.49,
       "end": 474.53,
-      "label": "add_fragrance",
-      "original_label": "add_fragrance",
-      "confidence": 0.4,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Adding fragrance/essential oils.",
+      "description": "Lidding/labelling & cleaning the jars.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (pour_wax->add_fragrance)"
+        "backward step vs canonical order (reveal_result->decorate_finish)"
       ]
     },
     {
       "window": 59,
       "start": 474.53,
       "end": 482.57,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring wax into a metal tin/jar.",
+      "description": "Finished/lit natural candles shown.",
       "smoothed": false,
       "notes": []
     },
@@ -900,11 +901,11 @@
       "end": 490.61,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished all-natural candles shown.",
+      "description": "Finished/lit natural candles shown.",
       "smoothed": false,
       "notes": []
     },
@@ -914,11 +915,11 @@
       "end": 498.66,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished all-natural candles shown.",
+      "description": "Finished/lit natural candles shown.",
       "smoothed": false,
       "notes": []
     },
@@ -928,11 +929,11 @@
       "end": 506.7,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished all-natural candles shown.",
+      "description": "Finished/lit natural candles shown.",
       "smoothed": false,
       "notes": []
     },
@@ -940,13 +941,13 @@
       "window": 63,
       "start": 506.7,
       "end": 514.74,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Social-handle end card.",
       "smoothed": false,
       "notes": []
     },
@@ -954,13 +955,13 @@
       "window": 64,
       "start": 514.74,
       "end": 522.79,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -968,13 +969,13 @@
       "window": 65,
       "start": 522.79,
       "end": 530.83,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -982,13 +983,13 @@
       "window": 66,
       "start": 530.83,
       "end": 538.87,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -996,13 +997,13 @@
       "window": 67,
       "start": 538.87,
       "end": 546.91,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1010,13 +1011,13 @@
       "window": 68,
       "start": 546.91,
       "end": 554.96,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     },
@@ -1024,13 +1025,13 @@
       "window": 69,
       "start": 554.96,
       "end": 563.0,
-      "label": "transition",
-      "original_label": "transition",
-      "confidence": 0.5,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Blank / near-black frame (auto-detected).",
+      "description": "Empty/black end frame.",
       "smoothed": false,
       "notes": []
     }
@@ -1271,106 +1272,36 @@
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 193.03,
-      "end": 201.07,
-      "confidence": 0.7,
-      "windows": [
-        24
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
+      "label": "prepare_container",
+      "phase": "prep",
       "is_step": true,
-      "start": 201.07,
-      "end": 209.11,
+      "start": 193.03,
+      "end": 225.2,
       "confidence": 0.5,
       "windows": [
-        25
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 209.11,
-      "end": 217.16,
-      "confidence": 0.4,
-      "windows": [
-        26
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 217.16,
-      "end": 225.2,
-      "confidence": 0.7,
-      "windows": [
+        24,
+        25,
+        26,
         27
       ]
     },
     {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 225.2,
-      "end": 233.24,
-      "confidence": 0.45,
-      "windows": [
-        28
-      ]
-    },
-    {
       "label": "melt_wax",
       "phase": "process",
       "is_step": true,
-      "start": 233.24,
-      "end": 241.29,
+      "start": 225.2,
+      "end": 265.41,
       "confidence": 0.5,
       "windows": [
-        29
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 241.29,
-      "end": 249.33,
-      "confidence": 0.4,
-      "windows": [
-        30
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 249.33,
-      "end": 257.37,
-      "confidence": 0.45,
-      "windows": [
-        31
-      ]
-    },
-    {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 257.37,
-      "end": 265.41,
-      "confidence": 0.45,
-      "windows": [
+        28,
+        29,
+        30,
+        31,
         32
       ]
     },
     {
-      "label": "melt_wax",
+      "label": "add_fragrance",
       "phase": "process",
       "is_step": true,
       "start": 265.41,
@@ -1381,313 +1312,113 @@
       ]
     },
     {
-      "label": "add_fragrance",
-      "phase": "process",
+      "label": "pour_wax",
+      "phase": "assemble",
       "is_step": true,
       "start": 273.46,
-      "end": 281.5,
-      "confidence": 0.4,
-      "windows": [
-        34
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 281.5,
-      "end": 289.54,
-      "confidence": 0.45,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 289.54,
-      "end": 297.59,
-      "confidence": 0.45,
-      "windows": [
-        36
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 297.59,
-      "end": 305.63,
-      "confidence": 0.5,
-      "windows": [
-        37
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 305.63,
-      "end": 313.67,
-      "confidence": 0.4,
-      "windows": [
-        38
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 313.67,
-      "end": 321.71,
-      "confidence": 0.45,
-      "windows": [
-        39
-      ]
-    },
-    {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 321.71,
-      "end": 329.76,
-      "confidence": 0.45,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 329.76,
-      "end": 337.8,
-      "confidence": 0.5,
-      "windows": [
-        41
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 337.8,
-      "end": 345.84,
-      "confidence": 0.4,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 345.84,
-      "end": 353.89,
-      "confidence": 0.45,
-      "windows": [
-        43
-      ]
-    },
-    {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 353.89,
-      "end": 361.93,
-      "confidence": 0.45,
-      "windows": [
-        44
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 361.93,
-      "end": 369.97,
-      "confidence": 0.5,
-      "windows": [
-        45
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 369.97,
       "end": 378.01,
-      "confidence": 0.4,
+      "confidence": 0.5,
       "windows": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
         46
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "melt_wax",
+      "phase": "process",
       "is_step": true,
       "start": 378.01,
       "end": 386.06,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
         47
-      ]
-    },
-    {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 386.06,
-      "end": 394.1,
-      "confidence": 0.45,
-      "windows": [
-        48
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 394.1,
-      "end": 402.14,
-      "confidence": 0.5,
-      "windows": [
-        49
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 402.14,
-      "end": 410.19,
-      "confidence": 0.4,
-      "windows": [
-        50
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 410.19,
-      "end": 418.23,
-      "confidence": 0.7,
-      "windows": [
-        51
-      ]
-    },
-    {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 418.23,
-      "end": 426.27,
-      "confidence": 0.45,
-      "windows": [
-        52
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 426.27,
-      "end": 434.31,
-      "confidence": 0.5,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 434.31,
-      "end": 442.36,
-      "confidence": 0.4,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 442.36,
-      "end": 450.4,
-      "confidence": 0.45,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "measure_wax",
-      "phase": "prep",
-      "is_step": true,
-      "start": 450.4,
-      "end": 458.44,
-      "confidence": 0.45,
-      "windows": [
-        56
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 458.44,
-      "end": 466.49,
-      "confidence": 0.5,
-      "windows": [
-        57
-      ]
-    },
-    {
-      "label": "add_fragrance",
-      "phase": "process",
-      "is_step": true,
-      "start": 466.49,
-      "end": 474.53,
-      "confidence": 0.4,
-      "windows": [
-        58
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 474.53,
-      "end": 482.57,
-      "confidence": 0.45,
-      "windows": [
-        59
       ]
     },
     {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 482.57,
-      "end": 506.7,
-      "confidence": 0.45,
+      "start": 386.06,
+      "end": 394.1,
+      "confidence": 0.5,
       "windows": [
+        48
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 394.1,
+      "end": 410.19,
+      "confidence": 0.5,
+      "windows": [
+        49,
+        50
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 410.19,
+      "end": 474.53,
+      "confidence": 0.5,
+      "windows": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 474.53,
+      "end": 506.7,
+      "confidence": 0.5,
+      "windows": [
+        59,
         60,
         61,
         62
       ]
     },
     {
-      "label": "transition",
+      "label": "outro_cta",
       "phase": "aux",
       "is_step": false,
       "start": 506.7,
-      "end": 563.0,
-      "confidence": 0.5,
+      "end": 514.74,
+      "confidence": 0.6,
       "windows": [
-        63,
+        63
+      ]
+    },
+    {
+      "label": "blank",
+      "phase": "aux",
+      "is_step": false,
+      "start": 514.74,
+      "end": 563.0,
+      "confidence": 0.6,
+      "windows": [
         64,
         65,
         66,

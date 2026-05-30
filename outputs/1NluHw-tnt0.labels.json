@@ -195,344 +195,344 @@
   "window": 24,
   "start": 192.72,
   "end": 200.75,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 25,
   "start": 200.75,
   "end": 208.78,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 26,
   "start": 208.78,
   "end": 216.81,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 27,
   "start": 216.81,
   "end": 224.84,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 28,
   "start": 224.84,
   "end": 232.87,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 29,
   "start": 232.87,
   "end": 240.9,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Poo Sa Di Ka 42 Ng eed Se Ki Ss 7 SS 7'."
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 30,
   "start": 240.9,
   "end": 248.93,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Fire / outdoor-landscape b-roll."
  },
  {
   "window": 31,
   "start": 248.93,
   "end": 256.96,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Fire / outdoor-landscape b-roll."
  },
  {
   "window": 32,
   "start": 256.96,
   "end": 264.99,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 33,
   "start": 264.99,
   "end": 273.01,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Se IF at ws SS ie es 1 Sa 14 SS SS RS By Ne 4'."
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 34,
   "start": 273.01,
   "end": 281.04,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 35,
   "start": 281.04,
   "end": 289.07,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 36,
   "start": 289.07,
   "end": 297.1,
   "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 37,
   "start": 297.1,
   "end": 305.13,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 38,
   "start": 305.13,
   "end": 313.16,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 39,
   "start": 313.16,
   "end": 321.19,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 40,
   "start": 321.19,
   "end": 329.22,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 41,
   "start": 329.22,
   "end": 337.25,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'LE az UTA EVE OF WHE FEAST pave THE SAINT JOt 4 MARKING HIS BHITH je'."
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 42,
   "start": 337.25,
   "end": 345.28,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 43,
   "start": 345.28,
   "end": 353.31,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 44,
   "start": 353.31,
   "end": 361.34,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 45,
   "start": 361.34,
   "end": 369.37,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 46,
   "start": 369.37,
   "end": 377.4,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Dipped tapers cooling between coats."
  },
  {
   "window": 47,
   "start": 377.4,
   "end": 385.43,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 48,
   "start": 385.43,
   "end": 393.46,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Fire / outdoor-landscape b-roll."
  },
  {
   "window": 49,
   "start": 393.46,
   "end": 401.49,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Fire / outdoor-landscape b-roll."
  },
  {
   "window": 50,
   "start": 401.49,
   "end": 409.52,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 51,
   "start": 409.52,
   "end": 417.55,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 52,
   "start": 417.55,
   "end": 425.58,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 53,
   "start": 425.58,
   "end": 433.61,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae te 2 af 7 YY 7 ee is ol ee ees Zz rah ip iy'."
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 54,
   "start": 433.61,
   "end": 441.64,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 55,
   "start": 441.64,
   "end": 449.67,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 56,
   "start": 449.67,
   "end": 457.7,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 57,
   "start": 457.7,
   "end": 465.73,
-  "label": "cure_cool",
-  "confidence": 0.4,
-  "description": "Dipped tapers hung to cool between coats."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Hand-dipping wicks into the molten-wax tank to build tapers."
  },
  {
   "window": 58,
   "start": 465.73,
   "end": 473.76,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Hand-dipping wicks into yellow wax to build taper candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Fire / outdoor-landscape b-roll."
  },
  {
   "window": 59,
   "start": 473.76,
   "end": 481.79,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished hand-dipped taper candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Fire / outdoor-landscape b-roll."
  },
  {
   "window": 60,
   "start": 481.79,
   "end": 489.82,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished hand-dipped taper candles."
+  "confidence": 0.5,
+  "description": "Finished taper candles outdoors."
  },
  {
   "window": 61,
   "start": 489.82,
   "end": 497.85,
-  "label": "transition",
+  "label": "reveal_result",
   "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "description": "Finished taper candles outdoors."
  },
  {
   "window": 62,
   "start": 497.85,
   "end": 505.88,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 63,
   "start": 505.88,
   "end": 513.91,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 64,
   "start": 513.91,
   "end": 521.94,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 65,
   "start": 521.94,
   "end": 529.97,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 66,
   "start": 529.97,
   "end": 538.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

@@ -195,137 +195,137 @@
   "window": 24,
   "start": 192.71,
   "end": 200.74,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting yellow wax in the silver melter."
  },
  {
   "window": 25,
   "start": 200.74,
   "end": 208.76,
-  "label": "transition",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '2 vem FS Te 4 Nee 8 ak af os ar 7 oF Ut UW ie.'."
+  "description": "Melting yellow wax in the silver melter."
  },
  {
   "window": 26,
   "start": 208.76,
   "end": 216.79,
-  "label": "transition",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'wai aX hm 4 4 Saeed Se vs 4 or LY wee Cy ty LSS ee'."
+  "description": "Pouring wax into the pillar moulds."
  },
  {
   "window": 27,
   "start": 216.79,
   "end": 224.82,
-  "label": "trim_wick",
-  "confidence": 0.4,
-  "description": "Trimming the wicks on the pillars."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar moulds."
  },
  {
   "window": 28,
   "start": 224.82,
   "end": 232.85,
-  "label": "decorate_finish",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Melting yellow wax in the silver melter."
  },
  {
   "window": 29,
   "start": 232.85,
   "end": 240.88,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Pouring wax into the pillar moulds."
  },
  {
   "window": 30,
   "start": 240.88,
   "end": 248.91,
-  "label": "trim_wick",
-  "confidence": 0.4,
-  "description": "Trimming the wicks on the pillars."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the pillar moulds."
  },
  {
   "window": 31,
   "start": 248.91,
   "end": 256.94,
-  "label": "decorate_finish",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Pouring wax into the pillar moulds."
  },
  {
   "window": 32,
   "start": 256.94,
   "end": 264.97,
-  "label": "decorate_finish",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 33,
   "start": 264.97,
   "end": 273.0,
-  "label": "transition",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ay cn ay 4 my 2 ff: rar ee ee 5 az. oe GE iz oye ul yy oe. ij'."
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 34,
   "start": 273.0,
   "end": 281.03,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 35,
   "start": 281.03,
   "end": 289.06,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 36,
   "start": 289.06,
   "end": 297.09,
-  "label": "trim_wick",
-  "confidence": 0.4,
-  "description": "Trimming the wicks on the pillars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 37,
   "start": 297.09,
   "end": 305.12,
-  "label": "transition",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Lj 7 ah UME oY eS sw See os WI ail ae os'."
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 38,
   "start": 305.12,
   "end": 313.15,
-  "label": "decorate_finish",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 39,
   "start": 313.15,
   "end": 321.18,
-  "label": "trim_wick",
-  "confidence": 0.4,
-  "description": "Trimming the wicks on the pillars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 40,
   "start": 321.18,
   "end": 329.21,
-  "label": "decorate_finish",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 41,
@@ -333,95 +333,95 @@
   "end": 337.24,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 42,
   "start": 337.24,
   "end": 345.26,
-  "label": "trim_wick",
-  "confidence": 0.4,
-  "description": "Trimming the wicks on the pillars."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 43,
   "start": 345.26,
   "end": 353.29,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 44,
   "start": 353.29,
   "end": 361.32,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 45,
   "start": 361.32,
   "end": 369.35,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 46,
   "start": 369.35,
   "end": 377.38,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 47,
   "start": 377.38,
   "end": 385.41,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of pillar candles setting."
  },
  {
   "window": 48,
   "start": 385.41,
   "end": 393.44,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 49,
   "start": 393.44,
   "end": 401.47,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 50,
   "start": 401.47,
   "end": 409.5,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 51,
   "start": 409.5,
   "end": 417.53,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 52,
   "start": 417.53,
   "end": 425.56,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 53,
@@ -429,39 +429,39 @@
   "end": 433.59,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 54,
   "start": 433.59,
   "end": 441.62,
-  "label": "trim_wick",
-  "confidence": 0.4,
-  "description": "Trimming the wicks on the pillars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 55,
   "start": 441.62,
   "end": 449.65,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'If sa ie ae So Se ee aS Xs oS. ye Poe ee Soe StS lige ae ee ol ae Fe 2 See ee 5 wes Be pon So Se na ts PS ee rs Lge 2. SF ae mig ato. Se SS'."
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 56,
   "start": 449.65,
   "end": 457.68,
-  "label": "transition",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 7 Sa Hy 7 4 3 2 Ph ee al vo voce ee wee. Fl aa SS ae ae wa tT er ee Fae Sg Pome oc ae. 2 een oe Fen ge Se SS aS Teen'."
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 57,
   "start": 457.68,
   "end": 465.71,
-  "label": "trim_wick",
-  "confidence": 0.4,
-  "description": "Trimming the wicks on the pillars."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 58,
@@ -469,78 +469,78 @@
   "end": 473.74,
   "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Decorating the yellow pillars with pink wax flowers."
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 59,
   "start": 473.74,
   "end": 481.76,
-  "label": "outro_cta",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 ay 4 SS 2 2 Ss. et: Le. Se ae Sea oe SP he. Ss SE Pepe SO ee ee ae ee ae SR Ue es OT ie SS ee ta Sa ae oS ee CO'."
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 60,
   "start": 481.76,
   "end": 489.79,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished decorated luxury pillar candles."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Demoulding/trimming the ribbed & bubble pillar candles."
  },
  {
   "window": 61,
   "start": 489.79,
   "end": 497.82,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished decorated luxury pillar candles."
+  "confidence": 0.5,
+  "description": "Rows of finished luxury pillars shown."
  },
  {
   "window": 62,
   "start": 497.82,
   "end": 505.85,
-  "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'eww SY hey 3 yw 415 yp ex ae 8'."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Packing candles into boxes (black wrap)."
  },
  {
   "window": 63,
   "start": 505.85,
   "end": 513.88,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished decorated luxury pillar candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Packing candles into boxes (black wrap)."
  },
  {
   "window": 64,
   "start": 513.88,
   "end": 521.91,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished decorated luxury pillar candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Packing candles into boxes (black wrap)."
  },
  {
   "window": 65,
   "start": 521.91,
   "end": 529.94,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished decorated luxury pillar candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Packing candles into boxes (black wrap)."
  },
  {
   "window": 66,
   "start": 529.94,
   "end": 537.97,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished decorated luxury pillar candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Packing candles into boxes (black wrap)."
  },
  {
   "window": 67,
   "start": 537.97,
   "end": 546.0,
-  "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished decorated luxury pillar candles."
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Packing candles into boxes (black wrap)."
  }
 ]

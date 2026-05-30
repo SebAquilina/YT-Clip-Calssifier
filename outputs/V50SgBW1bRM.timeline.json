@@ -362,361 +362,404 @@
       "window": 24,
       "start": 192.71,
       "end": 200.74,
-      "label": "transition",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": true,
+      "description": "Melting yellow wax in the silver melter.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 25,
       "start": 200.74,
       "end": 208.76,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "process",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '2 vem FS Te 4 Nee 8 ak af os ar 7 oF Ut UW ie.'.",
+      "description": "Melting yellow wax in the silver melter.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->melt_wax)"
+      ]
     },
     {
       "window": 26,
       "start": 208.76,
       "end": 216.79,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'wai aX hm 4 4 Saeed Se vs 4 or LY wee Cy ty LSS ee'.",
+      "description": "Pouring wax into the pillar moulds.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 27,
       "start": 216.79,
       "end": 224.82,
-      "label": "trim_wick",
-      "original_label": "trim_wick",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Trimming the wicks on the pillars.",
+      "description": "Pouring wax into the pillar moulds.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->trim_wick)"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
       "window": 28,
       "start": 224.82,
       "end": 232.85,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "pour_wax",
+      "original_label": "melt_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
-      "smoothed": false,
-      "notes": []
+      "description": "Melting yellow wax in the silver melter.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 29,
       "start": 232.85,
       "end": 240.88,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
+      "description": "Pouring wax into the pillar moulds.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 30,
       "start": 240.88,
       "end": 248.91,
-      "label": "decorate_finish",
-      "original_label": "trim_wick",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Trimming the wicks on the pillars.",
-      "smoothed": true,
+      "description": "Pouring wax into the pillar moulds.",
+      "smoothed": false,
       "notes": [
-        "despiked to match neighbours"
+        "backward step vs canonical order (decorate_finish->pour_wax)"
       ]
     },
     {
       "window": 31,
       "start": 248.91,
       "end": 256.94,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "pour_wax",
+      "original_label": "pour_wax",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
+      "description": "Pouring wax into the pillar moulds.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
     },
     {
       "window": 32,
       "start": 256.94,
       "end": 264.97,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 33,
       "start": 264.97,
       "end": 273.0,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ay cn ay 4 my 2 ff: rar ee ee 5 az. oe GE iz oye ul yy oe. ij'.",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 34,
       "start": 273.0,
       "end": 281.03,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 35,
       "start": 281.03,
       "end": 289.06,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 36,
       "start": 289.06,
       "end": 297.09,
-      "label": "trim_wick",
-      "original_label": "trim_wick",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Trimming the wicks on the pillars.",
-      "smoothed": false,
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
+      "smoothed": true,
       "notes": [
-        "backward step vs canonical order (decorate_finish->trim_wick)"
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 37,
       "start": 297.09,
       "end": 305.12,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Lj 7 ah UME oY eS sw See os WI ail ae os'.",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 38,
       "start": 305.12,
       "end": 313.15,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 39,
       "start": 313.15,
       "end": 321.18,
-      "label": "decorate_finish",
-      "original_label": "trim_wick",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Trimming the wicks on the pillars.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": true,
       "notes": [
-        "despiked to match neighbours"
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 40,
       "start": 321.18,
       "end": 329.21,
-      "label": "decorate_finish",
-      "original_label": "decorate_finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 41,
       "start": 329.21,
       "end": 337.24,
-      "label": "decorate_finish",
+      "label": "cure_cool",
       "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "finish",
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
-      "smoothed": false,
-      "notes": []
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 42,
       "start": 337.24,
       "end": 345.26,
-      "label": "trim_wick",
-      "original_label": "trim_wick",
-      "confidence": 0.4,
-      "phase": "finish",
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
       "is_step": true,
       "evidence": "",
-      "description": "Trimming the wicks on the pillars.",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->trim_wick)"
+        "backward step vs canonical order (decorate_finish->cure_cool)"
       ]
     },
     {
       "window": 43,
       "start": 345.26,
       "end": 353.29,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 44,
       "start": 353.29,
       "end": 361.32,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 45,
       "start": 361.32,
       "end": 369.35,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 46,
       "start": 369.35,
       "end": 377.38,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 47,
       "start": 377.38,
       "end": 385.41,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Rows of pillar candles setting.",
       "smoothed": false,
-      "notes": []
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
     },
     {
       "window": 48,
       "start": 385.41,
       "end": 393.44,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -724,13 +767,13 @@
       "window": 49,
       "start": 393.44,
       "end": 401.47,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -738,13 +781,13 @@
       "window": 50,
       "start": 401.47,
       "end": 409.5,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -752,13 +795,13 @@
       "window": 51,
       "start": 409.5,
       "end": 417.53,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -766,13 +809,13 @@
       "window": 52,
       "start": 417.53,
       "end": 425.56,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -786,7 +829,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -794,29 +837,27 @@
       "window": 54,
       "start": 433.59,
       "end": 441.62,
-      "label": "trim_wick",
-      "original_label": "trim_wick",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Trimming the wicks on the pillars.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->trim_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 55,
       "start": 441.62,
       "end": 449.65,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'If sa ie ae So Se ee aS Xs oS. ye Poe ee Soe StS lige ae ee ol ae Fe 2 See ee 5 wes Be pon So Se na ts PS ee rs Lge 2. SF ae mig ato. Se SS'.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -824,13 +865,13 @@
       "window": 56,
       "start": 449.65,
       "end": 457.68,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 7 Sa Hy 7 4 3 2 Ph ee al vo voce ee wee. Fl aa SS ae ae wa tT er ee Fae Sg Pome oc ae. 2 een oe Fen ge Se SS aS Teen'.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -838,17 +879,15 @@
       "window": 57,
       "start": 457.68,
       "end": 465.71,
-      "label": "trim_wick",
-      "original_label": "trim_wick",
-      "confidence": 0.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Trimming the wicks on the pillars.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->trim_wick)"
-      ]
+      "notes": []
     },
     {
       "window": 58,
@@ -860,7 +899,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Decorating the yellow pillars with pink wax flowers.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -868,13 +907,13 @@
       "window": 59,
       "start": 473.74,
       "end": 481.76,
-      "label": "outro_cta",
-      "original_label": "outro_cta",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 ay 4 SS 2 2 Ss. et: Le. Se ae Sea oe SP he. Ss SE Pepe SO ee ee ae ee ae SR Ue es OT ie SS ee ta Sa ae oS ee CO'.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -882,13 +921,13 @@
       "window": 60,
       "start": 481.76,
       "end": 489.79,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished decorated luxury pillar candles.",
+      "description": "Demoulding/trimming the ribbed & bubble pillar candles.",
       "smoothed": false,
       "notes": []
     },
@@ -898,11 +937,11 @@
       "end": 497.82,
       "label": "reveal_result",
       "original_label": "reveal_result",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Finished decorated luxury pillar candles.",
+      "description": "Rows of finished luxury pillars shown.",
       "smoothed": false,
       "notes": []
     },
@@ -910,29 +949,27 @@
       "window": 62,
       "start": 497.82,
       "end": 505.85,
-      "label": "reveal_result",
-      "original_label": "outro_cta",
-      "confidence": 0.5,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'eww SY hey 3 yw 415 yp ex ae 8'.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Packing candles into boxes (black wrap).",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 63,
       "start": 505.85,
       "end": 513.88,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished decorated luxury pillar candles.",
+      "description": "Packing candles into boxes (black wrap).",
       "smoothed": false,
       "notes": []
     },
@@ -940,13 +977,13 @@
       "window": 64,
       "start": 513.88,
       "end": 521.91,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished decorated luxury pillar candles.",
+      "description": "Packing candles into boxes (black wrap).",
       "smoothed": false,
       "notes": []
     },
@@ -954,13 +991,13 @@
       "window": 65,
       "start": 521.91,
       "end": 529.94,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished decorated luxury pillar candles.",
+      "description": "Packing candles into boxes (black wrap).",
       "smoothed": false,
       "notes": []
     },
@@ -968,13 +1005,13 @@
       "window": 66,
       "start": 529.94,
       "end": 537.97,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished decorated luxury pillar candles.",
+      "description": "Packing candles into boxes (black wrap).",
       "smoothed": false,
       "notes": []
     },
@@ -982,13 +1019,13 @@
       "window": 67,
       "start": 537.97,
       "end": 546.0,
-      "label": "reveal_result",
-      "original_label": "reveal_result",
-      "confidence": 0.45,
-      "phase": "finish",
-      "is_step": true,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
       "evidence": "",
-      "description": "Finished decorated luxury pillar candles.",
+      "description": "Packing candles into boxes (black wrap).",
       "smoothed": false,
       "notes": []
     }
@@ -1142,208 +1179,108 @@
       "phase": "aux",
       "is_step": false,
       "start": 184.68,
-      "end": 216.79,
-      "confidence": 0.55,
+      "end": 192.71,
+      "confidence": 0.5,
       "windows": [
-        23,
+        23
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 192.71,
+      "end": 208.76,
+      "confidence": 0.5,
+      "windows": [
         24,
-        25,
-        26
+        25
       ]
     },
     {
-      "label": "trim_wick",
-      "phase": "finish",
+      "label": "pour_wax",
+      "phase": "assemble",
       "is_step": true,
-      "start": 216.79,
-      "end": 224.82,
-      "confidence": 0.4,
+      "start": 208.76,
+      "end": 256.94,
+      "confidence": 0.5,
       "windows": [
-        27
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 224.82,
-      "end": 264.97,
-      "confidence": 0.48,
-      "windows": [
+        26,
+        27,
         28,
         29,
         30,
-        31,
-        32
+        31
       ]
     },
     {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 264.97,
-      "end": 273.0,
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 256.94,
+      "end": 385.41,
       "confidence": 0.5,
       "windows": [
-        33
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 273.0,
-      "end": 289.06,
-      "confidence": 0.7,
-      "windows": [
+        32,
+        33,
         34,
-        35
-      ]
-    },
-    {
-      "label": "trim_wick",
-      "phase": "finish",
-      "is_step": true,
-      "start": 289.06,
-      "end": 297.09,
-      "confidence": 0.4,
-      "windows": [
-        36
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 297.09,
-      "end": 305.12,
-      "confidence": 0.5,
-      "windows": [
-        37
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 305.12,
-      "end": 337.24,
-      "confidence": 0.48,
-      "windows": [
+        35,
+        36,
+        37,
         38,
         39,
         40,
-        41
-      ]
-    },
-    {
-      "label": "trim_wick",
-      "phase": "finish",
-      "is_step": true,
-      "start": 337.24,
-      "end": 345.26,
-      "confidence": 0.4,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 345.26,
-      "end": 425.56,
-      "confidence": 0.87,
-      "windows": [
+        41,
+        42,
         43,
         44,
         45,
         46,
-        47,
+        47
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 385.41,
+      "end": 489.79,
+      "confidence": 0.5,
+      "windows": [
         48,
         49,
         50,
         51,
-        52
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 425.56,
-      "end": 433.59,
-      "confidence": 0.5,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "trim_wick",
-      "phase": "finish",
-      "is_step": true,
-      "start": 433.59,
-      "end": 441.62,
-      "confidence": 0.4,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 441.62,
-      "end": 457.68,
-      "confidence": 0.5,
-      "windows": [
+        52,
+        53,
+        54,
         55,
-        56
-      ]
-    },
-    {
-      "label": "trim_wick",
-      "phase": "finish",
-      "is_step": true,
-      "start": 457.68,
-      "end": 465.71,
-      "confidence": 0.4,
-      "windows": [
-        57
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 465.71,
-      "end": 473.74,
-      "confidence": 0.5,
-      "windows": [
-        58
-      ]
-    },
-    {
-      "label": "outro_cta",
-      "phase": "aux",
-      "is_step": false,
-      "start": 473.74,
-      "end": 481.76,
-      "confidence": 0.5,
-      "windows": [
-        59
+        56,
+        57,
+        58,
+        59,
+        60
       ]
     },
     {
       "label": "reveal_result",
       "phase": "finish",
       "is_step": true,
-      "start": 481.76,
-      "end": 546.0,
-      "confidence": 0.46,
+      "start": 489.79,
+      "end": 497.82,
+      "confidence": 0.5,
       "windows": [
-        60,
-        61,
+        61
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 497.82,
+      "end": 546.0,
+      "confidence": 0.6,
+      "windows": [
         62,
         63,
         64,

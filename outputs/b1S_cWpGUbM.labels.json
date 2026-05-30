@@ -195,41 +195,41 @@
   "window": 24,
   "start": 193.03,
   "end": 201.07,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the jars."
  },
  {
   "window": 25,
   "start": 201.07,
   "end": 209.11,
-  "label": "melt_wax",
+  "label": "prepare_container",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Prepping the jars."
  },
  {
   "window": 26,
   "start": 209.11,
   "end": 217.16,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the jars."
  },
  {
   "window": 27,
   "start": 217.16,
   "end": 225.2,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Prepping the jars."
  },
  {
   "window": 28,
   "start": 225.2,
   "end": 233.24,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal pitcher on the stove."
  },
  {
   "window": 29,
@@ -237,326 +237,326 @@
   "end": 241.29,
   "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Melting wax in the metal pitcher on the stove."
  },
  {
   "window": 30,
   "start": 241.29,
   "end": 249.33,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal pitcher on the stove."
  },
  {
   "window": 31,
   "start": 249.33,
   "end": 257.37,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into a metal tin/jar."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal pitcher on the stove."
  },
  {
   "window": 32,
   "start": 257.37,
   "end": 265.41,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal pitcher on the stove."
  },
  {
   "window": 33,
   "start": 265.41,
   "end": 273.46,
-  "label": "melt_wax",
+  "label": "add_fragrance",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Adding fragrance/essential oil."
  },
  {
   "window": 34,
   "start": 273.46,
   "end": 281.5,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 35,
   "start": 281.5,
   "end": 289.54,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into a metal tin/jar."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal pitcher on the stove."
  },
  {
   "window": 36,
   "start": 289.54,
   "end": 297.59,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 37,
   "start": 297.59,
   "end": 305.63,
-  "label": "melt_wax",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 38,
   "start": 305.63,
   "end": 313.67,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 39,
   "start": 313.67,
   "end": 321.71,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into a metal tin/jar."
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 40,
   "start": 321.71,
   "end": 329.76,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 41,
   "start": 329.76,
   "end": 337.8,
-  "label": "melt_wax",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 42,
   "start": 337.8,
   "end": 345.84,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 43,
   "start": 345.84,
   "end": 353.89,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into a metal tin/jar."
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 44,
   "start": 353.89,
   "end": 361.93,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 45,
   "start": 361.93,
   "end": 369.97,
-  "label": "melt_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Rows of natural candles setting."
  },
  {
   "window": 46,
   "start": 369.97,
   "end": 378.01,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jars."
  },
  {
   "window": 47,
   "start": 378.01,
   "end": 386.06,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into a metal tin/jar."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the metal pitcher on the stove."
  },
  {
   "window": 48,
   "start": 386.06,
   "end": 394.1,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished/lit natural candles shown."
  },
  {
   "window": 49,
   "start": 394.1,
   "end": 402.14,
-  "label": "melt_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Rows of natural candles setting."
  },
  {
   "window": 50,
   "start": 402.14,
   "end": 410.19,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of natural candles setting."
  },
  {
   "window": 51,
   "start": 410.19,
   "end": 418.23,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Lidding/labelling & cleaning the jars."
  },
  {
   "window": 52,
   "start": 418.23,
   "end": 426.27,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Lidding/labelling & cleaning the jars."
  },
  {
   "window": 53,
   "start": 426.27,
   "end": 434.31,
-  "label": "melt_wax",
+  "label": "decorate_finish",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Lidding/labelling & cleaning the jars."
  },
  {
   "window": 54,
   "start": 434.31,
   "end": 442.36,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Lidding/labelling & cleaning the jars."
  },
  {
   "window": 55,
   "start": 442.36,
   "end": 450.4,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into a metal tin/jar."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Lidding/labelling & cleaning the jars."
  },
  {
   "window": 56,
   "start": 450.4,
   "end": 458.44,
-  "label": "measure_wax",
-  "confidence": 0.45,
-  "description": "Cutting/weighing beeswax for the natural candle."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Lidding/labelling & cleaning the jars."
  },
  {
   "window": 57,
   "start": 458.44,
   "end": 466.49,
-  "label": "melt_wax",
+  "label": "prepare_container",
   "confidence": 0.5,
-  "description": "Melting wax in a metal pitcher on the stove."
+  "description": "Prepping the jars."
  },
  {
   "window": 58,
   "start": 466.49,
   "end": 474.53,
-  "label": "add_fragrance",
-  "confidence": 0.4,
-  "description": "Adding fragrance/essential oils."
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Lidding/labelling & cleaning the jars."
  },
  {
   "window": 59,
   "start": 474.53,
   "end": 482.57,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into a metal tin/jar."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished/lit natural candles shown."
  },
  {
   "window": 60,
   "start": 482.57,
   "end": 490.61,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished all-natural candles shown."
+  "confidence": 0.5,
+  "description": "Finished/lit natural candles shown."
  },
  {
   "window": 61,
   "start": 490.61,
   "end": 498.66,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished all-natural candles shown."
+  "confidence": 0.5,
+  "description": "Finished/lit natural candles shown."
  },
  {
   "window": 62,
   "start": 498.66,
   "end": 506.7,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished all-natural candles shown."
+  "confidence": 0.5,
+  "description": "Finished/lit natural candles shown."
  },
  {
   "window": 63,
   "start": 506.7,
   "end": 514.74,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "Social-handle end card."
  },
  {
   "window": 64,
   "start": 514.74,
   "end": 522.79,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 65,
   "start": 522.79,
   "end": 530.83,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 66,
   "start": 530.83,
   "end": 538.87,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 67,
   "start": 538.87,
   "end": 546.91,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 68,
   "start": 546.91,
   "end": 554.96,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 69,
   "start": 554.96,
   "end": 563.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]

@@ -344,55 +344,11 @@
       "window": 23,
       "start": 184.34,
       "end": 192.35,
-      "label": "pour_wax",
+      "label": "decorate_finish",
       "original_label": "pour_wax",
       "confidence": 0.45,
-      "phase": "assemble",
+      "phase": "finish",
       "is_step": true,
-      "evidence": "",
-      "description": "Pouring the base wax into the glass.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 24,
-      "start": 192.35,
-      "end": 200.37,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 25,
-      "start": 200.37,
-      "end": 208.38,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
-    },
-    {
-      "window": 26,
-      "start": 208.38,
-      "end": 216.4,
-      "label": "talking_head",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "aux",
-      "is_step": false,
       "evidence": "",
       "description": "Pouring the base wax into the glass.",
       "smoothed": true,
@@ -401,16 +357,58 @@
       ]
     },
     {
+      "window": 24,
+      "start": 192.35,
+      "end": 200.37,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 200.37,
+      "end": 208.38,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 208.38,
+      "end": 216.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
       "window": 27,
       "start": 216.4,
       "end": 224.41,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -418,13 +416,13 @@
       "window": 28,
       "start": 224.41,
       "end": 232.43,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -432,45 +430,41 @@
       "window": 29,
       "start": 232.43,
       "end": 240.44,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
-      "is_step": true,
-      "evidence": "",
-      "description": "Pouring the base wax into the glass.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
-    },
-    {
-      "window": 30,
-      "start": 240.44,
-      "end": 248.46,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
-      "is_step": true,
-      "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
-      "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
-    },
-    {
-      "window": 31,
-      "start": 248.46,
-      "end": 256.47,
       "label": "decorate_finish",
       "original_label": "decorate_finish",
       "confidence": 0.5,
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Whipping wax and piping it like frosting onto the candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 240.44,
+      "end": 248.46,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 248.46,
+      "end": 256.47,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -480,11 +474,11 @@
       "end": 264.49,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.7,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -494,11 +488,11 @@
       "end": 272.5,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -508,11 +502,11 @@
       "end": 280.51,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -520,33 +514,29 @@
       "window": 35,
       "start": 280.51,
       "end": 288.53,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring the base wax into the glass.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 36,
       "start": 288.53,
       "end": 296.54,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 37,
@@ -558,7 +548,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Whipping wax and piping it like frosting onto the candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -566,91 +556,87 @@
       "window": 38,
       "start": 304.56,
       "end": 312.57,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring the base wax into the glass.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 39,
       "start": 312.57,
       "end": 320.59,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 320.59,
+      "end": 328.6,
       "label": "melt_wax",
       "original_label": "melt_wax",
-      "confidence": 0.45,
+      "confidence": 0.5,
       "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
+      "description": "Whipping wax with the mixer.",
       "smoothed": false,
       "notes": [
         "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
-      "window": 40,
-      "start": 320.59,
-      "end": 328.6,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
-      "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
-    },
-    {
       "window": 41,
       "start": 328.6,
       "end": 336.62,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring the base wax into the glass.",
+      "description": "Whipping wax with the mixer.",
       "smoothed": false,
       "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
+        "backward step vs canonical order (decorate_finish->melt_wax)"
       ]
     },
     {
       "window": 42,
       "start": 336.62,
       "end": 344.63,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 43,
       "start": 344.63,
       "end": 352.65,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -658,13 +644,13 @@
       "window": 44,
       "start": 352.65,
       "end": 360.66,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -672,17 +658,15 @@
       "window": 45,
       "start": 360.66,
       "end": 368.68,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 46,
@@ -694,7 +678,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Whipping wax and piping it like frosting onto the candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -702,29 +686,27 @@
       "window": 47,
       "start": 376.69,
       "end": 384.71,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring the base wax into the glass.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 48,
       "start": 384.71,
       "end": 392.72,
-      "label": "transition",
-      "original_label": "transition",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
       "confidence": 0.5,
-      "phase": "aux",
-      "is_step": false,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'CS tt es. PRAISE eee SSS la FE ci att 4 7 eel TS ES ai 7 oe ct BX ati tes'.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -732,27 +714,29 @@
       "window": 49,
       "start": 392.72,
       "end": 400.74,
-      "label": "talking_head",
+      "label": "decorate_finish",
       "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
-      "smoothed": false,
-      "notes": []
+      "description": "Host talks to camera.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
     },
     {
       "window": 50,
       "start": 400.74,
       "end": 408.75,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -760,29 +744,27 @@
       "window": 51,
       "start": 408.75,
       "end": 416.76,
-      "label": "talking_head",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
-      "smoothed": true,
-      "notes": [
-        "despiked to match neighbours"
-      ]
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
+      "smoothed": false,
+      "notes": []
     },
     {
       "window": 52,
       "start": 416.76,
       "end": 424.78,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.7,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -790,33 +772,29 @@
       "window": 53,
       "start": 424.78,
       "end": 432.79,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring the base wax into the glass.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 54,
       "start": 432.79,
       "end": 440.81,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 55,
@@ -828,7 +806,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Whipping wax and piping it like frosting onto the candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -836,33 +814,29 @@
       "window": 56,
       "start": 448.82,
       "end": 456.84,
-      "label": "pour_wax",
-      "original_label": "pour_wax",
-      "confidence": 0.45,
-      "phase": "assemble",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Pouring the base wax into the glass.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->pour_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 57,
       "start": 456.84,
       "end": 464.85,
-      "label": "melt_wax",
-      "original_label": "melt_wax",
-      "confidence": 0.45,
-      "phase": "process",
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Melting/colouring wax for the whipped candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
-      "notes": [
-        "backward step vs canonical order (decorate_finish->melt_wax)"
-      ]
+      "notes": []
     },
     {
       "window": 58,
@@ -874,7 +848,7 @@
       "phase": "finish",
       "is_step": true,
       "evidence": "",
-      "description": "Whipping wax and piping it like frosting onto the candle.",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -882,13 +856,13 @@
       "window": 59,
       "start": 472.87,
       "end": 480.88,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -896,13 +870,13 @@
       "window": 60,
       "start": 480.88,
       "end": 488.9,
-      "label": "talking_head",
-      "original_label": "talking_head",
-      "confidence": 0.9,
-      "phase": "aux",
-      "is_step": false,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Piping whipped wax & adding strawberry decor to the candle.",
       "smoothed": false,
       "notes": []
     },
@@ -912,11 +886,11 @@
       "end": 496.91,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -926,11 +900,11 @@
       "end": 504.93,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -940,11 +914,11 @@
       "end": 512.94,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -954,11 +928,11 @@
       "end": 520.96,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -968,11 +942,11 @@
       "end": 528.97,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -982,11 +956,11 @@
       "end": 536.99,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     },
@@ -996,11 +970,11 @@
       "end": 545.0,
       "label": "talking_head",
       "original_label": "talking_head",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "phase": "aux",
       "is_step": false,
       "evidence": "",
-      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "description": "Host talks to camera.",
       "smoothed": false,
       "notes": []
     }
@@ -1153,318 +1127,98 @@
       "phase": "finish",
       "is_step": true,
       "start": 176.32,
-      "end": 184.34,
-      "confidence": 0.5,
+      "end": 248.46,
+      "confidence": 0.48,
       "windows": [
-        22
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 184.34,
-      "end": 192.35,
-      "confidence": 0.45,
-      "windows": [
-        23
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 192.35,
-      "end": 232.43,
-      "confidence": 0.65,
-      "windows": [
+        22,
+        23,
         24,
         25,
         26,
         27,
-        28
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 232.43,
-      "end": 240.44,
-      "confidence": 0.45,
-      "windows": [
-        29
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 240.44,
-      "end": 248.46,
-      "confidence": 0.45,
-      "windows": [
+        28,
+        29,
         30
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 248.46,
-      "end": 256.47,
-      "confidence": 0.5,
-      "windows": [
-        31
       ]
     },
     {
       "label": "talking_head",
       "phase": "aux",
       "is_step": false,
-      "start": 256.47,
+      "start": 248.46,
       "end": 280.51,
-      "confidence": 0.83,
+      "confidence": 0.6,
       "windows": [
+        31,
         32,
         33,
         34
       ]
     },
     {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 280.51,
-      "end": 288.53,
-      "confidence": 0.45,
-      "windows": [
-        35
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 288.53,
-      "end": 296.54,
-      "confidence": 0.45,
-      "windows": [
-        36
-      ]
-    },
-    {
       "label": "decorate_finish",
       "phase": "finish",
       "is_step": true,
-      "start": 296.54,
-      "end": 304.56,
+      "start": 280.51,
+      "end": 320.59,
       "confidence": 0.5,
       "windows": [
-        37
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 304.56,
-      "end": 312.57,
-      "confidence": 0.45,
-      "windows": [
-        38
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 312.57,
-      "end": 320.59,
-      "confidence": 0.45,
-      "windows": [
+        35,
+        36,
+        37,
+        38,
         39
       ]
     },
     {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 320.59,
-      "end": 328.6,
-      "confidence": 0.7,
-      "windows": [
-        40
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
+      "label": "melt_wax",
+      "phase": "process",
       "is_step": true,
-      "start": 328.6,
+      "start": 320.59,
       "end": 336.62,
-      "confidence": 0.45,
+      "confidence": 0.5,
       "windows": [
+        40,
         41
       ]
     },
     {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 336.62,
-      "end": 344.63,
-      "confidence": 0.45,
-      "windows": [
-        42
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 344.63,
-      "end": 360.66,
-      "confidence": 0.8,
-      "windows": [
-        43,
-        44
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 360.66,
-      "end": 368.68,
-      "confidence": 0.45,
-      "windows": [
-        45
-      ]
-    },
-    {
       "label": "decorate_finish",
       "phase": "finish",
       "is_step": true,
-      "start": 368.68,
-      "end": 376.69,
-      "confidence": 0.5,
+      "start": 336.62,
+      "end": 488.9,
+      "confidence": 0.51,
       "windows": [
-        46
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 376.69,
-      "end": 384.71,
-      "confidence": 0.45,
-      "windows": [
-        47
-      ]
-    },
-    {
-      "label": "transition",
-      "phase": "aux",
-      "is_step": false,
-      "start": 384.71,
-      "end": 392.72,
-      "confidence": 0.5,
-      "windows": [
-        48
-      ]
-    },
-    {
-      "label": "talking_head",
-      "phase": "aux",
-      "is_step": false,
-      "start": 392.72,
-      "end": 424.78,
-      "confidence": 0.64,
-      "windows": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
         49,
         50,
         51,
-        52
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 424.78,
-      "end": 432.79,
-      "confidence": 0.45,
-      "windows": [
-        53
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 432.79,
-      "end": 440.81,
-      "confidence": 0.45,
-      "windows": [
-        54
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 440.81,
-      "end": 448.82,
-      "confidence": 0.5,
-      "windows": [
-        55
-      ]
-    },
-    {
-      "label": "pour_wax",
-      "phase": "assemble",
-      "is_step": true,
-      "start": 448.82,
-      "end": 456.84,
-      "confidence": 0.45,
-      "windows": [
-        56
-      ]
-    },
-    {
-      "label": "melt_wax",
-      "phase": "process",
-      "is_step": true,
-      "start": 456.84,
-      "end": 464.85,
-      "confidence": 0.45,
-      "windows": [
-        57
-      ]
-    },
-    {
-      "label": "decorate_finish",
-      "phase": "finish",
-      "is_step": true,
-      "start": 464.85,
-      "end": 472.87,
-      "confidence": 0.5,
-      "windows": [
-        58
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
       ]
     },
     {
       "label": "talking_head",
       "phase": "aux",
       "is_step": false,
-      "start": 472.87,
+      "start": 488.9,
       "end": 545.0,
-      "confidence": 0.9,
+      "confidence": 0.6,
       "windows": [
-        59,
-        60,
         61,
         62,
         63,

@@ -195,33 +195,33 @@
   "window": 24,
   "start": 192.68,
   "end": 200.7,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Filling glasses with palm-wax flakes / weighing."
  },
  {
   "window": 25,
   "start": 200.7,
   "end": 208.73,
-  "label": "melt_wax",
+  "label": "measure_wax",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Filling glasses with palm-wax flakes / weighing."
  },
  {
   "window": 26,
   "start": 208.73,
   "end": 216.76,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring molten palm wax into the glasses."
  },
  {
   "window": 27,
   "start": 216.76,
   "end": 224.79,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Filling glasses with palm-wax flakes / weighing."
  },
  {
   "window": 28,
@@ -229,39 +229,39 @@
   "end": 232.82,
   "label": "measure_wax",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Filling glasses with palm-wax flakes / weighing."
  },
  {
   "window": 29,
   "start": 232.82,
   "end": 240.85,
-  "label": "melt_wax",
+  "label": "prepare_container",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Prepping the glasses."
  },
  {
   "window": 30,
   "start": 240.85,
   "end": 248.87,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 31,
   "start": 248.87,
   "end": 256.9,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 32,
   "start": 256.9,
   "end": 264.93,
-  "label": "measure_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 33,
@@ -269,31 +269,31 @@
   "end": 272.96,
   "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 34,
   "start": 272.96,
   "end": 280.99,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 35,
   "start": 280.99,
   "end": 289.01,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 36,
   "start": 289.01,
   "end": 297.04,
-  "label": "measure_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 37,
@@ -301,31 +301,31 @@
   "end": 305.07,
   "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 38,
   "start": 305.07,
   "end": 313.1,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 39,
   "start": 313.1,
   "end": 321.13,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 40,
   "start": 321.13,
   "end": 329.15,
-  "label": "measure_wax",
+  "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 41,
@@ -333,238 +333,238 @@
   "end": 337.18,
   "label": "melt_wax",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Melting wax in the large metal melter."
  },
  {
   "window": 42,
   "start": 337.18,
   "end": 345.21,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring molten palm wax into the glasses."
  },
  {
   "window": 43,
   "start": 345.21,
   "end": 353.24,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "confidence": 0.5,
+  "description": "Pouring molten palm wax into the glasses."
  },
  {
   "window": 44,
   "start": 353.24,
   "end": 361.27,
-  "label": "measure_wax",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Pouring molten palm wax into the glasses."
  },
  {
   "window": 45,
   "start": 361.27,
   "end": 369.3,
-  "label": "melt_wax",
+  "label": "pour_wax",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Pouring molten palm wax into the glasses."
  },
  {
   "window": 46,
   "start": 369.3,
   "end": 377.32,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting wicks in the glasses."
  },
  {
   "window": 47,
   "start": 377.32,
   "end": 385.35,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting wicks in the glasses."
  },
  {
   "window": 48,
   "start": 385.35,
   "end": 393.38,
-  "label": "measure_wax",
+  "label": "set_wick",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Setting wicks in the glasses."
  },
  {
   "window": 49,
   "start": 393.38,
   "end": 401.41,
-  "label": "melt_wax",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Adding red colourant to the wax."
  },
  {
   "window": 50,
   "start": 401.41,
   "end": 409.44,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding red colourant to the wax."
  },
  {
   "window": 51,
   "start": 409.44,
   "end": 417.46,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding red colourant to the wax."
  },
  {
   "window": 52,
   "start": 417.46,
   "end": 425.49,
-  "label": "measure_wax",
+  "label": "add_dye_color",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Adding red colourant to the wax."
  },
  {
   "window": 53,
   "start": 425.49,
   "end": 433.52,
-  "label": "melt_wax",
+  "label": "set_wick",
   "confidence": 0.5,
-  "description": "Melting wax in the silver melter."
+  "description": "Setting wicks in the glasses."
  },
  {
   "window": 54,
   "start": 433.52,
   "end": 441.55,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding red colourant to the wax."
  },
  {
   "window": 55,
   "start": 441.55,
   "end": 449.58,
-  "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding red colourant to the wax."
  },
  {
   "window": 56,
   "start": 449.58,
   "end": 457.61,
-  "label": "measure_wax",
+  "label": "set_wick",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Setting wicks in the glasses."
  },
  {
   "window": 57,
   "start": 457.61,
   "end": 465.63,
-  "label": "talking_head",
-  "confidence": 0.7,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Rows of palm-wax candles setting."
  },
  {
   "window": 58,
   "start": 465.63,
   "end": 473.66,
-  "label": "add_fragrance",
-  "confidence": 0.45,
-  "description": "Adding fragrance oil (bottles on the scale)."
+  "label": "add_dye_color",
+  "confidence": 0.5,
+  "description": "Adding red colourant to the wax."
  },
  {
   "window": 59,
   "start": 473.66,
   "end": 481.69,
   "label": "pour_wax",
-  "confidence": 0.45,
-  "description": "Pouring wax into the glasses; wicks set."
+  "confidence": 0.5,
+  "description": "Pouring molten palm wax into the glasses."
  },
  {
   "window": 60,
   "start": 481.69,
   "end": 489.72,
-  "label": "measure_wax",
+  "label": "cure_cool",
   "confidence": 0.5,
-  "description": "Weighing palm wax on a scale (calc card)."
+  "description": "Rows of palm-wax candles setting."
  },
  {
   "window": 61,
   "start": 489.72,
   "end": 497.75,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished crystalline palm-wax candles shown."
+  "confidence": 0.5,
+  "description": "Finished red palm-wax candles shown."
  },
  {
   "window": 62,
   "start": 497.75,
   "end": 505.77,
-  "label": "talking_head",
-  "confidence": 0.9,
-  "description": "Presenter talking to camera (auto-detected: frontal face)."
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished red palm-wax candles shown."
  },
  {
   "window": 63,
   "start": 505.77,
   "end": 513.8,
   "label": "reveal_result",
-  "confidence": 0.45,
-  "description": "Finished crystalline palm-wax candles shown."
+  "confidence": 0.5,
+  "description": "Finished red palm-wax candles shown."
  },
  {
   "window": 64,
   "start": 513.8,
   "end": 521.83,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TRALKE Fen Larenihes HTTPS WAIMATAGECAMDL EDOM AIRY COM'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 65,
   "start": 521.83,
   "end": 529.86,
   "label": "outro_cta",
-  "confidence": 0.5,
-  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'TRALGE Pel WERE HITS AMAT ADS Tenant COMPANY Cie'."
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 66,
   "start": 529.86,
   "end": 537.89,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'Thank you for watching' card."
  },
  {
   "window": 67,
   "start": 537.89,
   "end": 545.92,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 68,
   "start": 545.92,
   "end": 553.94,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 69,
   "start": 553.94,
   "end": 561.97,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  },
  {
   "window": 70,
   "start": 561.97,
   "end": 570.0,
-  "label": "transition",
-  "confidence": 0.5,
-  "description": "Blank / near-black frame (auto-detected)."
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/black end frame."
  }
 ]
