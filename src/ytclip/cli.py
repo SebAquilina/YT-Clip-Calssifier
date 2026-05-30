@@ -58,6 +58,12 @@ def main(argv=None):
     sub.add_parser("build-db")
     sub.add_parser("enrich-db", help="add a fuller description_detailed column to the built db (grounded signals)")
     sub.add_parser("split-db", help="fan the database out into one small file per label (outputs/db/by_label/)")
+    di = sub.add_parser("db-ingest", help="add a finalized video to the concurrency-safe shared store")
+    di.add_argument("video_id")
+    di.add_argument("--niche", default="", help="tag the video with a niche for later retrieval")
+    di.add_argument("--force", action="store_true", help="re-ingest even if already present")
+    sub.add_parser("db-rebuild", help="rebuild the shared store's merged views + index.json")
+    sub.add_parser("db-stats", help="summarise the shared store")
     sub.add_parser("prompt")
 
     a = ap.parse_args(argv)
@@ -113,6 +119,25 @@ def main(argv=None):
               f"into {res['n_labels']} per-label files -> {res['dir']}")
         for label, n in sorted(res["labels"].items(), key=lambda kv: -kv[1]):
             print(f"  {n:6d}  {label}")
+    elif a.cmd == "db-ingest":
+        from . import shared_db
+        res = shared_db.ingest_video(a.video_id, force=a.force,
+                                     meta={"niche": a.niche} if a.niche else None)
+        if res.get("skipped"):
+            print(f"{a.video_id}: skipped ({res['reason']}) - use --force to re-ingest")
+        else:
+            print(f"{a.video_id}: ingested {res['n_windows']} windows "
+                  f"({res['n_usable']} usable, {res['n_flagged']} flagged) -> shared store")
+    elif a.cmd == "db-rebuild":
+        from . import shared_db
+        m = shared_db.rebuild_views()
+        print(f"shared store: {m['videos']} videos, {m['windows']} windows "
+              f"({m['usable']} usable, {m['flagged']} flagged); niches={m['niches'] or '-'}")
+    elif a.cmd == "db-stats":
+        from . import shared_db
+        s = shared_db.stats()
+        print(f"shared store: {s['videos']} videos, {s['windows']} windows, "
+              f"{s['usable']} usable, {s['flagged']} flagged; niches={s['niches'] or '-'}")
     elif a.cmd == "prompt":
         print(CLASSIFY_PROMPT + prompt_label_reference(load_taxonomy()))
 

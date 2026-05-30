@@ -1,0 +1,102 @@
+"""Tests for the concurrency-safe, label-sharded shared clip store.
+
+The point of the store is that many chats can ingest at once without clobbering
+each other, that the same video is never double-counted, and that talking-head /
+on-screen-text windows are flagged out of the usable-footage set.
+
+Run with:  PYTHONPATH=src python -m pytest tests/ -q
+"""
+import json
+import os
+import sys
+from concurrent.futures import ThreadPoolExecutor
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+
+from ytclip import shared_db
+
+
+def _row(vid, w, label, is_step=1, keep=1, filter_reason=""):
+    return {"video_id": vid, "window_index": w, "start_s": w * 8.0,
+            "end_s": w * 8.0 + 8, "action_label": label, "is_step": is_step,
+            "keep": keep, "filter_reason": filter_reason,
+            "video_title": f"title {vid}", "video_url": f"u/{vid}",
+            "video_duration_s": 100.0, "source": "storyboard"}
+
+
+def _video(vid, niche="candles"):
+    # 2 action windows + 1 talking head + 1 text-overlay window
+    rows = [_row(vid, 0, "pour_wax"), _row(vid, 1, "melt_wax"),
+            _row(vid, 2, "talking_head", is_step=0, keep=0, filter_reason="talking_head"),
+            _row(vid, 3, "decorate_finish", keep=0, filter_reason="text_overlay")]
+    return rows, {"niche": niche}
+
+
+def test_ingest_shards_flags_and_index(tmp_path):
+    root = str(tmp_path)
+    rows, meta = _video("vidA")
+    res = shared_db.ingest_rows("vidA", rows, meta=meta, root=root)
+    assert res["n_windows"] == 4 and res["n_usable"] == 2 and res["n_flagged"] == 2
+
+    # per-(label, video) shard files exist
+    assert os.path.exists(os.path.join(root, "by_label", "pour_wax", "vidA.jsonl"))
+    assert os.path.exists(os.path.join(root, "by_label", "talking_head", "vidA.jsonl"))
+    # talking-head and text-overlay windows are flagged
+    flagged = {f["window_index"]: f["reason"] for f in shared_db.flagged_windows("vidA", root)}
+    assert flagged == {2: "talking_head", 3: "text_overlay"}
+    assert shared_db.is_flagged("vidA", 2, root) and not shared_db.is_flagged("vidA", 0, root)
+    assert shared_db.is_ingested("vidA", root)
+
+
+def test_usable_clips_excludes_flagged(tmp_path):
+    root = str(tmp_path)
+    rows, meta = _video("vidA")
+    shared_db.ingest_rows("vidA", rows, meta=meta, root=root)
+    clips = shared_db.usable_clips(root=root)
+    labels = sorted(c["action_label"] for c in clips)
+    assert labels == ["melt_wax", "pour_wax"]      # no talking_head, no text-overlay window
+    # niche filter
+    assert shared_db.usable_clips(niche="candles", root=root)
+    assert shared_db.usable_clips(niche="soap", root=root) == []
+
+
+def test_ingest_is_idempotent(tmp_path):
+    root = str(tmp_path)
+    rows, meta = _video("vidA")
+    shared_db.ingest_rows("vidA", rows, meta=meta, root=root)
+    again = shared_db.ingest_rows("vidA", rows, meta=meta, root=root)
+    assert again["skipped"] is True
+    # forced re-ingest is allowed
+    forced = shared_db.ingest_rows("vidA", rows, meta=meta, root=root, force=True)
+    assert forced["skipped"] is False
+
+
+def test_concurrent_ingest_of_distinct_videos_is_lossless(tmp_path):
+    root = str(tmp_path)
+    ids = [f"vid{i:03d}" for i in range(40)]
+
+    def work(vid):
+        rows, meta = _video(vid)
+        return shared_db.ingest_rows(vid, rows, meta=meta, root=root)
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        list(ex.map(work, ids))
+
+    m = shared_db.rebuild_views(root)
+    assert m["videos"] == 40
+    assert m["windows"] == 40 * 4
+    assert m["usable"] == 40 * 2 and m["flagged"] == 40 * 2
+    # merged view for an action label has exactly one entry per video
+    pour = [json.loads(l) for l in open(os.path.join(root, "by_label", "pour_wax.jsonl"))]
+    assert len(pour) == 40 and len({r["video_id"] for r in pour}) == 40
+
+
+def test_rebuild_views_manifest(tmp_path):
+    root = str(tmp_path)
+    for vid in ("a", "b"):
+        rows, meta = _video(vid)
+        shared_db.ingest_rows(vid, rows, meta=meta, root=root)
+    m = shared_db.rebuild_views(root)
+    assert m["videos"] == 2 and m["niches"] == ["candles"]
+    assert m["labels"]["pour_wax"]["videos"] == 2
+    assert json.load(open(os.path.join(root, "index.json")))["video_ids"] == ["a", "b"]

@@ -52,49 +52,67 @@ def _timelines():
             yield json.load(f)
 
 
+def _row_for_window(d, wdw, feats, glosses):
+    from .enrich import enrich_description
+    vid = d["video_id"]
+    i = wdw["window"]
+    ft = feats.get(i, {})
+    start = int(round(wdw["start"]))
+    keep, reason = (filter_window(ft) if ft else (True, ""))
+    flags = validate_window(wdw["label"], wdw.get("description", ""), ft) if ft else []
+    row = {
+        "video_id": vid,
+        "video_url": d["url"],
+        "video_title": d["title"],
+        "video_duration_s": d["duration"],
+        "source": d.get("source", "storyboard"),
+        "window_index": i,
+        "start_s": wdw["start"],
+        "end_s": wdw["end"],
+        "duration_s": round(wdw["end"] - wdw["start"], 2),
+        "window_url": f"https://youtu.be/{vid}?t={start}s",
+        "action_label": wdw["label"],
+        "phase": wdw.get("phase", ""),
+        "is_step": int(bool(wdw.get("is_step"))),
+        "confidence": wdw.get("confidence", 0.0),
+        "description": wdw.get("description") or wdw.get("evidence", ""),
+        "description_detailed": "",
+        "ocr_text": ft.get("ocr_text", ""),
+        "has_caption": int(has_caption(ft)) if ft else 0,
+        "face_score": ft.get("face_score", ""),
+        "text_score": ft.get("text_score", ""),
+        "motion": ft.get("motion", ""),
+        "brightness": ft.get("brightness", ""),
+        "colorfulness": ft.get("colorfulness", ""),
+        "dominant_colors": ",".join(ft.get("dominant_colors", [])),
+        "keep": int(keep),
+        "filter_reason": reason,
+        "validation_flags": "; ".join(flags),
+    }
+    row["description_detailed"] = enrich_description(row, glosses)
+    return row
+
+
+def rows_for_video(video_id: str) -> list:
+    """Build the db rows for a single finalized video (used by the shared store)."""
+    from .enrich import _load_glosses
+    p = os.path.join(OUT, f"{video_id}.timeline.json")
+    if not os.path.exists(p):
+        raise FileNotFoundError(f"no timeline for {video_id}: run `ytclip finalize {video_id}` first")
+    with open(p) as f:
+        d = json.load(f)
+    feats = _features(video_id)
+    glosses = _load_glosses()
+    return [_row_for_window(d, wdw, feats, glosses) for wdw in d["windows"]]
+
+
 def _rows():
-    from .enrich import enrich_description, _load_glosses
+    from .enrich import _load_glosses
     glosses = _load_glosses()
     for d in _timelines():
-        vid, url = d["video_id"], d["url"]
-        feats = _features(vid)
+        feats = _features(d["video_id"])
         for wdw in d["windows"]:
-            i = wdw["window"]
-            ft = feats.get(i, {})
-            start = int(round(wdw["start"]))
-            keep, reason = (filter_window(ft) if ft else (True, ""))
-            flags = validate_window(wdw["label"], wdw.get("description", ""), ft) if ft else []
-            row = {
-                "video_id": vid,
-                "video_url": url,
-                "video_title": d["title"],
-                "video_duration_s": d["duration"],
-                "source": d.get("source", "storyboard"),
-                "window_index": i,
-                "start_s": wdw["start"],
-                "end_s": wdw["end"],
-                "duration_s": round(wdw["end"] - wdw["start"], 2),
-                "window_url": f"https://youtu.be/{vid}?t={start}s",
-                "action_label": wdw["label"],
-                "phase": wdw.get("phase", ""),
-                "is_step": int(bool(wdw.get("is_step"))),
-                "confidence": wdw.get("confidence", 0.0),
-                "description": wdw.get("description") or wdw.get("evidence", ""),
-                "description_detailed": "",
-                "ocr_text": ft.get("ocr_text", ""),
-                "has_caption": int(has_caption(ft)) if ft else 0,
-                "face_score": ft.get("face_score", ""),
-                "text_score": ft.get("text_score", ""),
-                "motion": ft.get("motion", ""),
-                "brightness": ft.get("brightness", ""),
-                "colorfulness": ft.get("colorfulness", ""),
-                "dominant_colors": ",".join(ft.get("dominant_colors", [])),
-                "keep": int(keep),
-                "filter_reason": reason,
-                "validation_flags": "; ".join(flags),
-            }
-            row["description_detailed"] = enrich_description(row, glosses)
-            yield row
+            yield _row_for_window(d, wdw, feats, glosses)
 
 
 def _is_action(r: dict) -> bool:
