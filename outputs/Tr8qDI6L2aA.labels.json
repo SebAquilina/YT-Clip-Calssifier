@@ -1,682 +1,682 @@
 [
-  {
-    "window": 0,
-    "start": 0.0,
-    "end": 7.99,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 1,
-    "start": 7.99,
-    "end": 15.98,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 2,
-    "start": 15.98,
-    "end": 23.96,
-    "label": "intro_titlecard",
-    "confidence": 0.5,
-    "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sy nee ia oe Vs mt Fe sow eees. 4 4 ain'."
-  },
-  {
-    "window": 3,
-    "start": 23.96,
-    "end": 31.95,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 4,
-    "start": 31.95,
-    "end": 39.94,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 5,
-    "start": 39.94,
-    "end": 47.93,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 6,
-    "start": 47.93,
-    "end": 55.92,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 7,
-    "start": 55.92,
-    "end": 63.91,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 8,
-    "start": 63.91,
-    "end": 71.89,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 9,
-    "start": 71.89,
-    "end": 79.88,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 10,
-    "start": 79.88,
-    "end": 87.87,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 11,
-    "start": 87.87,
-    "end": 95.86,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 12,
-    "start": 95.86,
-    "end": 103.85,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 13,
-    "start": 103.85,
-    "end": 111.84,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 14,
-    "start": 111.84,
-    "end": 119.82,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 15,
-    "start": 119.82,
-    "end": 127.81,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 16,
-    "start": 127.81,
-    "end": 135.8,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 17,
-    "start": 135.8,
-    "end": 143.79,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 18,
-    "start": 143.79,
-    "end": 151.78,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 19,
-    "start": 151.78,
-    "end": 159.76,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 20,
-    "start": 159.76,
-    "end": 167.75,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 21,
-    "start": 167.75,
-    "end": 175.74,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 22,
-    "start": 175.74,
-    "end": 183.73,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 23,
-    "start": 183.73,
-    "end": 191.72,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 24,
-    "start": 191.72,
-    "end": 199.71,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 25,
-    "start": 199.71,
-    "end": 207.69,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 26,
-    "start": 207.69,
-    "end": 215.68,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 27,
-    "start": 215.68,
-    "end": 223.67,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 28,
-    "start": 223.67,
-    "end": 231.66,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 29,
-    "start": 231.66,
-    "end": 239.65,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 30,
-    "start": 239.65,
-    "end": 247.64,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 31,
-    "start": 247.64,
-    "end": 255.62,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 32,
-    "start": 255.62,
-    "end": 263.61,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 33,
-    "start": 263.61,
-    "end": 271.6,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 34,
-    "start": 271.6,
-    "end": 279.59,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 35,
-    "start": 279.59,
-    "end": 287.58,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 36,
-    "start": 287.58,
-    "end": 295.56,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 37,
-    "start": 295.56,
-    "end": 303.55,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 38,
-    "start": 303.55,
-    "end": 311.54,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 39,
-    "start": 311.54,
-    "end": 319.53,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 40,
-    "start": 319.53,
-    "end": 327.52,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 41,
-    "start": 327.52,
-    "end": 335.51,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 42,
-    "start": 335.51,
-    "end": 343.49,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 43,
-    "start": 343.49,
-    "end": 351.48,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 44,
-    "start": 351.48,
-    "end": 359.47,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 45,
-    "start": 359.47,
-    "end": 367.46,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 46,
-    "start": 367.46,
-    "end": 375.45,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 47,
-    "start": 375.45,
-    "end": 383.44,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 48,
-    "start": 383.44,
-    "end": 391.42,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 49,
-    "start": 391.42,
-    "end": 399.41,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 50,
-    "start": 399.41,
-    "end": 407.4,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 51,
-    "start": 407.4,
-    "end": 415.39,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 52,
-    "start": 415.39,
-    "end": 423.38,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 53,
-    "start": 423.38,
-    "end": 431.36,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 54,
-    "start": 431.36,
-    "end": 439.35,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 55,
-    "start": 439.35,
-    "end": 447.34,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 56,
-    "start": 447.34,
-    "end": 455.33,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 57,
-    "start": 455.33,
-    "end": 463.32,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 58,
-    "start": 463.32,
-    "end": 471.31,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 59,
-    "start": 471.31,
-    "end": 479.29,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 60,
-    "start": 479.29,
-    "end": 487.28,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 61,
-    "start": 487.28,
-    "end": 495.27,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 62,
-    "start": 495.27,
-    "end": 503.26,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 63,
-    "start": 503.26,
-    "end": 511.25,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 64,
-    "start": 511.25,
-    "end": 519.24,
-    "label": "talking_head",
-    "confidence": 0.7,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 65,
-    "start": 519.24,
-    "end": 527.22,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 66,
-    "start": 527.22,
-    "end": 535.21,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 67,
-    "start": 535.21,
-    "end": 543.2,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 68,
-    "start": 543.2,
-    "end": 551.19,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 69,
-    "start": 551.19,
-    "end": 559.18,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 70,
-    "start": 559.18,
-    "end": 567.16,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 71,
-    "start": 567.16,
-    "end": 575.15,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 72,
-    "start": 575.15,
-    "end": 583.14,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 73,
-    "start": 583.14,
-    "end": 591.13,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 74,
-    "start": 591.13,
-    "end": 599.12,
-    "label": "talking_head",
-    "confidence": 0.9,
-    "description": "Presenter talking to camera (auto-detected: frontal face)."
-  },
-  {
-    "window": 75,
-    "start": 599.12,
-    "end": 607.11,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 76,
-    "start": 607.11,
-    "end": 615.09,
-    "label": "",
-    "confidence": 0.0,
-    "description": ""
-  },
-  {
-    "window": 77,
-    "start": 615.09,
-    "end": 623.08,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 78,
-    "start": 623.08,
-    "end": 631.07,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 79,
-    "start": 631.07,
-    "end": 639.06,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 80,
-    "start": 639.06,
-    "end": 647.05,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 81,
-    "start": 647.05,
-    "end": 655.04,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 82,
-    "start": 655.04,
-    "end": 663.02,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 83,
-    "start": 663.02,
-    "end": 671.01,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  },
-  {
-    "window": 84,
-    "start": 671.01,
-    "end": 679.0,
-    "label": "transition",
-    "confidence": 0.5,
-    "description": "Blank / near-black frame (auto-detected)."
-  }
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.99,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 1,
+  "start": 7.99,
+  "end": 15.98,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 15.98,
+  "end": 23.96,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sy nee ia oe Vs mt Fe sow eees. 4 4 ain'."
+ },
+ {
+  "window": 3,
+  "start": 23.96,
+  "end": 31.95,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 4,
+  "start": 31.95,
+  "end": 39.94,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 5,
+  "start": 39.94,
+  "end": 47.93,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 6,
+  "start": 47.93,
+  "end": 55.92,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 7,
+  "start": 55.92,
+  "end": 63.91,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 8,
+  "start": 63.91,
+  "end": 71.89,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 9,
+  "start": 71.89,
+  "end": 79.88,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 10,
+  "start": 79.88,
+  "end": 87.87,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 11,
+  "start": 87.87,
+  "end": 95.86,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 12,
+  "start": 95.86,
+  "end": 103.85,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Blue-gloved hands add colour to the palm wax."
+ },
+ {
+  "window": 13,
+  "start": 103.85,
+  "end": 111.84,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 111.84,
+  "end": 119.82,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Blue-gloved hands add colour to the palm wax."
+ },
+ {
+  "window": 15,
+  "start": 119.82,
+  "end": 127.81,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 16,
+  "start": 127.81,
+  "end": 135.8,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring palm wax into the glasses."
+ },
+ {
+  "window": 17,
+  "start": 135.8,
+  "end": 143.79,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring palm wax into the glasses."
+ },
+ {
+  "window": 18,
+  "start": 143.79,
+  "end": 151.78,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring palm wax into the glasses."
+ },
+ {
+  "window": 19,
+  "start": 151.78,
+  "end": 159.76,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 20,
+  "start": 159.76,
+  "end": 167.75,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 21,
+  "start": 167.75,
+  "end": 175.74,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 22,
+  "start": 175.74,
+  "end": 183.73,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 23,
+  "start": 183.73,
+  "end": 191.72,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 24,
+  "start": 191.72,
+  "end": 199.71,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 25,
+  "start": 199.71,
+  "end": 207.69,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 26,
+  "start": 207.69,
+  "end": 215.68,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 27,
+  "start": 215.68,
+  "end": 223.67,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 28,
+  "start": 223.67,
+  "end": 231.66,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 29,
+  "start": 231.66,
+  "end": 239.65,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 30,
+  "start": 239.65,
+  "end": 247.64,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 31,
+  "start": 247.64,
+  "end": 255.62,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 32,
+  "start": 255.62,
+  "end": 263.61,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 33,
+  "start": 263.61,
+  "end": 271.6,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 34,
+  "start": 271.6,
+  "end": 279.59,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 35,
+  "start": 279.59,
+  "end": 287.58,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 36,
+  "start": 287.58,
+  "end": 295.56,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 37,
+  "start": 295.56,
+  "end": 303.55,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 38,
+  "start": 303.55,
+  "end": 311.54,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 39,
+  "start": 311.54,
+  "end": 319.53,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 40,
+  "start": 319.53,
+  "end": 327.52,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 41,
+  "start": 327.52,
+  "end": 335.51,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 42,
+  "start": 335.51,
+  "end": 343.49,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 43,
+  "start": 343.49,
+  "end": 351.48,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 44,
+  "start": 351.48,
+  "end": 359.47,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 45,
+  "start": 359.47,
+  "end": 367.46,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 46,
+  "start": 367.46,
+  "end": 375.45,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 47,
+  "start": 375.45,
+  "end": 383.44,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 48,
+  "start": 383.44,
+  "end": 391.42,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 49,
+  "start": 391.42,
+  "end": 399.41,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 50,
+  "start": 399.41,
+  "end": 407.4,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 51,
+  "start": 407.4,
+  "end": 415.39,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 52,
+  "start": 415.39,
+  "end": 423.38,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 53,
+  "start": 423.38,
+  "end": 431.36,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 54,
+  "start": 431.36,
+  "end": 439.35,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 55,
+  "start": 439.35,
+  "end": 447.34,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 56,
+  "start": 447.34,
+  "end": 455.33,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 57,
+  "start": 455.33,
+  "end": 463.32,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 58,
+  "start": 463.32,
+  "end": 471.31,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 59,
+  "start": 471.31,
+  "end": 479.29,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 60,
+  "start": 479.29,
+  "end": 487.28,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 61,
+  "start": 487.28,
+  "end": 495.27,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 62,
+  "start": 495.27,
+  "end": 503.26,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 63,
+  "start": 503.26,
+  "end": 511.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 64,
+  "start": 511.25,
+  "end": 519.24,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 65,
+  "start": 519.24,
+  "end": 527.22,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 66,
+  "start": 527.22,
+  "end": 535.21,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 67,
+  "start": 535.21,
+  "end": 543.2,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 68,
+  "start": 543.2,
+  "end": 551.19,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 69,
+  "start": 551.19,
+  "end": 559.18,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 70,
+  "start": 559.18,
+  "end": 567.16,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 71,
+  "start": 567.16,
+  "end": 575.15,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 72,
+  "start": 575.15,
+  "end": 583.14,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 73,
+  "start": 583.14,
+  "end": 591.13,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 74,
+  "start": 591.13,
+  "end": 599.12,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 75,
+  "start": 599.12,
+  "end": 607.11,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 76,
+  "start": 607.11,
+  "end": 615.09,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host talks to camera (palm wax candles)."
+ },
+ {
+  "window": 77,
+  "start": 615.09,
+  "end": 623.08,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 78,
+  "start": 623.08,
+  "end": 631.07,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 79,
+  "start": 631.07,
+  "end": 639.06,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 80,
+  "start": 639.06,
+  "end": 647.05,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 81,
+  "start": 647.05,
+  "end": 655.04,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 82,
+  "start": 655.04,
+  "end": 663.02,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 83,
+  "start": 663.02,
+  "end": 671.01,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 84,
+  "start": 671.01,
+  "end": 679.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
 ]
