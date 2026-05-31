@@ -1,0 +1,124 @@
+{
+ "video_id": "40mkiCY8uMM",
+ "flagged": [
+  {
+   "window_index": 15,
+   "start_s": 119.79,
+   "end_s": 127.78,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 16,
+   "start_s": 127.78,
+   "end_s": 135.77,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 17,
+   "start_s": 135.77,
+   "end_s": 143.75,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 18,
+   "start_s": 143.75,
+   "end_s": 151.74,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 19,
+   "start_s": 151.74,
+   "end_s": 159.73,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 20,
+   "start_s": 159.73,
+   "end_s": 167.71,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 21,
+   "start_s": 167.71,
+   "end_s": 175.7,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 22,
+   "start_s": 175.7,
+   "end_s": 183.68,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 23,
+   "start_s": 183.68,
+   "end_s": 191.67,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 65,
+   "start_s": 519.11,
+   "end_s": 527.1,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 66,
+   "start_s": 527.1,
+   "end_s": 535.08,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 67,
+   "start_s": 535.08,
+   "end_s": 543.07,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 68,
+   "start_s": 543.07,
+   "end_s": 551.05,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 69,
+   "start_s": 551.05,
+   "end_s": 559.04,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 70,
+   "start_s": 559.04,
+   "end_s": 567.03,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 71,
+   "start_s": 567.03,
+   "end_s": 575.01,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 72,
+   "start_s": 575.01,
+   "end_s": 583.0,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  }
+ ]
+}

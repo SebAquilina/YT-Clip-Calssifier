@@ -1,0 +1,33 @@
+{
+ "video_id": "8oA1uybG_TE",
+ "flagged": [
+  {
+   "window_index": 30,
+   "start_s": 243.16,
+   "end_s": 251.26,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 35,
+   "start_s": 283.68,
+   "end_s": 291.79,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 36,
+   "start_s": 291.79,
+   "end_s": 299.89,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 37,
+   "start_s": 299.89,
+   "end_s": 308.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  }
+ ]
+}

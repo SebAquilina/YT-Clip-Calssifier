@@ -82,10 +82,14 @@ def load_record(video_id: str, root: str | None = None) -> dict | None:
 def all_records(root: str | None = None) -> list:
     out = []
     for p in sorted(glob.glob(os.path.join(_root(root), "records", "*.json"))):
+        if os.path.basename(p) == "manifest.json":   # checksum file, not a record
+            continue
         try:
-            out.append(json.load(open(p)))
+            rec = json.load(open(p))
         except (ValueError, OSError):
             continue
+        if isinstance(rec, dict) and rec.get("video_id"):
+            out.append(rec)
     return out
 
 

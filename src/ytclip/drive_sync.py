@@ -39,7 +39,8 @@ DEFAULT_STORE = os.path.join(ROOT, "outputs", "shared_db")
 
 def _records(store):
     import glob
-    return sorted(glob.glob(os.path.join(store, "records", "*.json")))
+    return sorted(p for p in glob.glob(os.path.join(store, "records", "*.json"))
+                  if os.path.basename(p) != "manifest.json")
 
 
 def _gz_bytes(path):

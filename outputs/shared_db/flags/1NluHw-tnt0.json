@@ -1,0 +1,103 @@
+{
+ "video_id": "1NluHw-tnt0",
+ "flagged": [
+  {
+   "window_index": 5,
+   "start_s": 40.15,
+   "end_s": 48.18,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 10,
+   "start_s": 80.3,
+   "end_s": 88.33,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 13,
+   "start_s": 104.39,
+   "end_s": 112.42,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 30,
+   "start_s": 240.9,
+   "end_s": 248.93,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 31,
+   "start_s": 248.93,
+   "end_s": 256.96,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 48,
+   "start_s": 385.43,
+   "end_s": 393.46,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 49,
+   "start_s": 393.46,
+   "end_s": 401.49,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 58,
+   "start_s": 465.73,
+   "end_s": 473.76,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 59,
+   "start_s": 473.76,
+   "end_s": 481.79,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 62,
+   "start_s": 497.85,
+   "end_s": 505.88,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 63,
+   "start_s": 505.88,
+   "end_s": 513.91,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 64,
+   "start_s": 513.91,
+   "end_s": 521.94,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 65,
+   "start_s": 521.94,
+   "end_s": 529.97,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 66,
+   "start_s": 529.97,
+   "end_s": 538.0,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  }
+ ]
+}

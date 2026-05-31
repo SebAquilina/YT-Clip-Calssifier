@@ -1,0 +1,26 @@
+{
+ "video_id": "1-44rrfu7kc",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.1,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 18,
+   "start_s": 145.8,
+   "end_s": 153.9,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 19,
+   "start_s": 153.9,
+   "end_s": 162.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  }
+ ]
+}
