@@ -1,0 +1,29 @@
+{
+ "count": 4,
+ "records": {
+  "BbGnbTIz7_s": {
+   "bytes": 54929,
+   "gz_bytes": 4311,
+   "gz_sha256": "b4f35e9d1077bdcf9304e4348e8b4b33547af7de7abc7888ac50659ea65142a0",
+   "sha256": "74fa2b9fc735d114b80ce13f43dff2732f83643ce33801c9b5cc0b835b36cd27"
+  },
+  "HPD1k0lhDCU": {
+   "bytes": 71334,
+   "gz_bytes": 3826,
+   "gz_sha256": "fa22242be145f24a1e863fe12811853b7b3766be81dce4fc6a32460989105524",
+   "sha256": "764d95445b4ba16b93e4c579c05a4fe92530ed9798fcd115c210e645cf7215ff"
+  },
+  "lTMszYRbm84": {
+   "bytes": 18970,
+   "gz_bytes": 2135,
+   "gz_sha256": "564f456cf74cb48643dd8ca18622c4dec3d431146fb196757a5c7841bb64dcf3",
+   "sha256": "91a81021042f67487877cb4e71e1950093452be3b127b9df77e604593fd74e8d"
+  },
+  "manifest": {
+   "bytes": 716,
+   "gz_bytes": 407,
+   "gz_sha256": "6edb2f3087e0a1cba6399488a59b5d935defd4213a49e76c44880df0d37bf822",
+   "sha256": "ff7cd1b3c48673fa2da701b2e940e7920d657e11e726b544545f18f1613e626f"
+  }
+ }
+}
