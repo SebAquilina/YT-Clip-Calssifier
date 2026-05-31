@@ -30,6 +30,40 @@ import yaml
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DB_DIR = os.path.join(ROOT, "outputs", "db")
 TAXONOMY = os.path.join(ROOT, "config", "taxonomy.yaml")
+VOCAB = os.path.join(ROOT, "config", "vocab.yaml")
+
+
+def _load_vocab(niche: str = "candle_making", path: str = VOCAB) -> list:
+    """[(canonical, [aka...], [cue_words...])] for a niche; empty if no vocab file."""
+    if not os.path.exists(path):
+        return []
+    try:
+        data = yaml.safe_load(open(path)) or {}
+    except Exception:
+        return []
+    out = []
+    for canonical, d in (data.get(niche) or {}).items():
+        aka = [str(a) for a in (d.get("aka") or [])]
+        cues = [p.strip() for p in re.split(r"[;,]", d.get("visual", "")) if len(p.strip()) >= 8]
+        out.append((canonical, aka, cues))
+    return out
+
+
+def _terms_in(text: str, vocab: list) -> list:
+    """Canonical jargon terms present in text, by surface form OR visual-cue overlap."""
+    if not text or not vocab:
+        return []
+    tl = " " + text.lower() + " "
+    found = []
+    for canonical, aka, cues in vocab:
+        forms = {canonical.replace("_", " ")} | {a.lower() for a in aka}
+        if any(re.search(r"\b" + re.escape(f) + r"\b", tl) for f in forms):
+            found.append(canonical); continue
+        for cue in cues:
+            pw = [w for w in re.findall(r"[a-z]+", cue.lower()) if len(w) >= 4]
+            if pw and sum(1 for w in pw if w in tl) >= max(2, int(0.6 * len(pw))):
+                found.append(canonical); break
+    return found
 
 # Basic colour anchors for naming dominant_colors hex values (nearest in RGB).
 _BASIC_COLORS = {
@@ -178,7 +212,21 @@ def enrich_description(row: dict, glosses: dict | None = None) -> str:
     out = ". ".join(c for c in clauses if c).strip()
     if out and not out.endswith("."):
         out += "."
+
+    # name the niche terminology the footage shows (tunneling, sinkhole, ...) so the
+    # description is searchable by and reads with the correct terms.
+    vocab = enrich_description._vocab
+    if vocab is None:
+        vocab = enrich_description._vocab = _load_vocab()
+    if vocab and out:
+        terms = [t.replace("_", " ") for t in _terms_in(out, vocab)
+                 if t.replace("_", " ") not in out.lower()]
+        if terms:
+            out = out.rstrip(". ") + ". Terminology: " + ", ".join(terms) + "."
     return out
+
+
+enrich_description._vocab = None
 
 
 # ---------------------------------------------------------------------------

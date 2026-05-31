@@ -1,0 +1,39 @@
+# Niche-specific terminology so written descriptions name the right term when the
+# footage shows it. Each term: aka (synonyms) + visual (plain-language look, whose
+# salient words act as detection cues). `enrich.py` appends any detected canonical
+# term to description_detailed ("...up the sides. Terminology: tunneling.").
+# Keep in sync with the yta-video-maker skill's niche_vocab.json.
+candle_making:
+  tunneling:
+    aka: [tunnel, tunneled, memory ring, coring]
+    visual: the wax burns straight down the middle around the wick leaving a ring of hard unmelted wax up the sides of the jar; a deep hole or core down the centre
+  borehole:
+    aka: [bore hole, burrowing, deep well, drilled hole]
+    visual: a narrow deep hole bored straight down into the wax around the wick
+  sinkhole:
+    aka: [sink hole, pitting, cavity, air pocket]
+    visual: a dip, pit or cavity that forms in the top of the candle as the wax cools and contracts, often around the wick
+  wet_spots:
+    aka: [wet spot, delamination, jar separation]
+    visual: patches where the wax has pulled away from the glass jar, looking like wet translucent marks against the side of the container
+  frosting:
+    aka: [frost, polymorphism, white crystals]
+    visual: a white crystalline frosty bloom on the surface or sides of soy wax
+  mushrooming:
+    aka: [mushroom, carbon ball, wick mushroom]
+    visual: a bulbous carbon ball building up on the tip of the burning wick like a mushroom head
+  seizing:
+    aka: [seized wax, clumping]
+    visual: the wax suddenly thickening or clumping into a paste when fragrance or dye is stirred in too cold
+  double_boiler:
+    aka: [bain marie, water bath, melting pitcher, pouring pitcher]
+    visual: wax melting in a metal pouring pitcher set inside a pot of simmering water
+  flashpoint:
+    aka: [flash point, pour temperature, pour temp]
+    visual: a thermometer reading the wax temperature before adding fragrance or pouring
+  wick_bar:
+    aka: [wick holder, wick centering tool, wick stick, clothespin]
+    visual: a bar, stick or clothespin laid across the jar rim holding the wick centred while the wax sets
+  curing:
+    aka: [cure, cure time, resting]
+    visual: finished candles left untouched to harden and let the fragrance bind over hours or days
