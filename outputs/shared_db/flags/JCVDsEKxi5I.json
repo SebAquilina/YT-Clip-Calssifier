@@ -210,6 +210,20 @@
    "end_s": 427.0,
    "action_label": "blank",
    "reason": "non_action:blank"
+  },
+  {
+   "window_index": 31,
+   "start_s": 249.75,
+   "end_s": 257.81,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 41,
+   "start_s": 330.32,
+   "end_s": 338.38,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

@@ -56,6 +56,13 @@
    "end_s": 423.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 1,
+   "start_s": 7.98,
+   "end_s": 15.96,
+   "action_label": "gather_materials",
+   "reason": "desc_text_card"
   }
  ]
 }

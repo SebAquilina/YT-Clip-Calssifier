@@ -98,6 +98,13 @@
    "end_s": 230.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 26,
+   "start_s": 206.21,
+   "end_s": 214.14,
+   "action_label": "reveal_result",
+   "reason": "desc_talking_head"
   }
  ]
 }

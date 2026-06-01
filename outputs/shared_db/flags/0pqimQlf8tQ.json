@@ -140,6 +140,13 @@
    "end_s": 303.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 17,
+   "start_s": 135.55,
+   "end_s": 143.53,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

@@ -91,6 +91,27 @@
    "end_s": 243.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 13,
+   "start_s": 105.3,
+   "end_s": 113.4,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 17,
+   "start_s": 137.7,
+   "end_s": 145.8,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 24,
+   "start_s": 194.4,
+   "end_s": 202.5,
+   "action_label": "reveal_result",
+   "reason": "desc_talking_head"
   }
  ]
 }

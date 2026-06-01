@@ -98,6 +98,13 @@
    "end_s": 166.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 7,
+   "start_s": 55.33,
+   "end_s": 63.24,
+   "action_label": "melt_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

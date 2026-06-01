@@ -273,6 +273,13 @@
    "end_s": 391.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 35,
+   "start_s": 279.29,
+   "end_s": 287.27,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

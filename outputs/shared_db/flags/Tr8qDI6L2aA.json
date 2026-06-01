@@ -399,6 +399,27 @@
    "end_s": 679.0,
    "action_label": "blank",
    "reason": "non_action:blank"
+  },
+  {
+   "window_index": 28,
+   "start_s": 223.67,
+   "end_s": 231.66,
+   "action_label": "decorate_finish",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 32,
+   "start_s": 255.62,
+   "end_s": 263.61,
+   "action_label": "decorate_finish",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 40,
+   "start_s": 319.53,
+   "end_s": 327.52,
+   "action_label": "decorate_finish",
+   "reason": "desc_talking_head"
   }
  ]
 }

@@ -133,6 +133,27 @@
    "end_s": 420.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 34,
+   "start_s": 274.62,
+   "end_s": 282.69,
+   "action_label": "melt_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 45,
+   "start_s": 363.46,
+   "end_s": 371.54,
+   "action_label": "reveal_result",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 48,
+   "start_s": 387.69,
+   "end_s": 395.77,
+   "action_label": "reveal_result",
+   "reason": "desc_text_card"
   }
  ]
 }

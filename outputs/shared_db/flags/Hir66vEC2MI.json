@@ -98,6 +98,20 @@
    "end_s": 323.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 9,
+   "start_s": 72.68,
+   "end_s": 80.75,
+   "action_label": "gather_materials",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 29,
+   "start_s": 234.17,
+   "end_s": 242.25,
+   "action_label": "set_wick",
+   "reason": "desc_talking_head"
   }
  ]
 }

@@ -21,6 +21,13 @@
    "end_s": 102.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 4,
+   "start_s": 31.38,
+   "end_s": 39.23,
+   "action_label": "pour_wax",
+   "reason": "desc_text_card"
   }
  ]
 }

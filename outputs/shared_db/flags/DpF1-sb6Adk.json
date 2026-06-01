@@ -238,6 +238,13 @@
    "end_s": 349.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 19,
+   "start_s": 150.7,
+   "end_s": 158.64,
+   "action_label": "add_dye_color",
+   "reason": "desc_talking_head"
   }
  ]
 }

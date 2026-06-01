@@ -77,6 +77,13 @@
    "end_s": 185.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 7,
+   "start_s": 56.3,
+   "end_s": 64.35,
+   "action_label": "melt_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

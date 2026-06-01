@@ -56,6 +56,27 @@
    "end_s": 481.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 15,
+   "start_s": 120.25,
+   "end_s": 128.27,
+   "action_label": "prepare_container",
+   "reason": "desc_text_card"
+  },
+  {
+   "window_index": 18,
+   "start_s": 144.3,
+   "end_s": 152.32,
+   "action_label": "pour_wax",
+   "reason": "desc_text_card"
+  },
+  {
+   "window_index": 21,
+   "start_s": 168.35,
+   "end_s": 176.37,
+   "action_label": "pour_wax",
+   "reason": "desc_text_card"
   }
  ]
 }

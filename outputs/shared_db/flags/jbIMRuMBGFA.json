@@ -21,6 +21,13 @@
    "end_s": 39.56,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 24,
+   "start_s": 189.88,
+   "end_s": 197.79,
+   "action_label": "cure_cool",
+   "reason": "desc_talking_head"
   }
  ]
 }

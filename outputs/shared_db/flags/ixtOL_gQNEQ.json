@@ -70,6 +70,27 @@
    "end_s": 854.0,
    "action_label": "blank",
    "reason": "non_action:blank"
+  },
+  {
+   "window_index": 7,
+   "start_s": 55.87,
+   "end_s": 63.85,
+   "action_label": "reveal_result",
+   "reason": "desc_text_card"
+  },
+  {
+   "window_index": 11,
+   "start_s": 87.79,
+   "end_s": 95.78,
+   "action_label": "reveal_result",
+   "reason": "desc_text_card"
+  },
+  {
+   "window_index": 21,
+   "start_s": 167.61,
+   "end_s": 175.59,
+   "action_label": "reveal_result",
+   "reason": "desc_talking_head"
   }
  ]
 }

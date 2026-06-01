@@ -476,6 +476,20 @@
    "end_s": 693.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 17,
+   "start_s": 135.41,
+   "end_s": 143.38,
+   "action_label": "gather_materials",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 39,
+   "start_s": 310.66,
+   "end_s": 318.62,
+   "action_label": "melt_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

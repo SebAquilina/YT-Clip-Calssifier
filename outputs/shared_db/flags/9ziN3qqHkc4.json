@@ -287,6 +287,20 @@
    "end_s": 472.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 8,
+   "start_s": 64.0,
+   "end_s": 72.0,
+   "action_label": "prepare_container",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 22,
+   "start_s": 176.0,
+   "end_s": 184.0,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

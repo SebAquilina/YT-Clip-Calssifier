@@ -84,6 +84,13 @@
    "end_s": 509.0,
    "action_label": "blank",
    "reason": "non_action:blank"
+  },
+  {
+   "window_index": 4,
+   "start_s": 31.81,
+   "end_s": 39.77,
+   "action_label": "gather_materials",
+   "reason": "desc_text_card"
   }
  ]
 }

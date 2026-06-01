@@ -301,6 +301,13 @@
    "end_s": 569.0,
    "action_label": "blank",
    "reason": "non_action:blank"
+  },
+  {
+   "window_index": 20,
+   "start_s": 160.28,
+   "end_s": 168.3,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }

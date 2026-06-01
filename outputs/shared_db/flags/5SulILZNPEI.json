@@ -238,6 +238,13 @@
    "end_s": 453.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 35,
+   "start_s": 278.16,
+   "end_s": 286.11,
+   "action_label": "set_wick",
+   "reason": "desc_talking_head"
   }
  ]
 }

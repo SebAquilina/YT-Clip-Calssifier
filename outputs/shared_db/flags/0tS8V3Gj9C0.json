@@ -588,6 +588,13 @@
    "end_s": 845.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 76,
+   "start_s": 605.85,
+   "end_s": 613.82,
+   "action_label": "cure_cool",
+   "reason": "desc_talking_head"
   }
  ]
 }

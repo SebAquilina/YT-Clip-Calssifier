@@ -175,6 +175,13 @@
    "end_s": 235.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 13,
+   "start_s": 105.34,
+   "end_s": 113.45,
+   "action_label": "gather_materials",
+   "reason": "desc_talking_head"
   }
  ]
 }

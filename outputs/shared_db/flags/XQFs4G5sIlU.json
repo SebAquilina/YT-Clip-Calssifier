@@ -28,6 +28,13 @@
    "end_s": 191.53,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 14,
+   "start_s": 111.73,
+   "end_s": 119.71,
+   "action_label": "decorate_finish",
+   "reason": "desc_text_card"
   }
  ]
 }

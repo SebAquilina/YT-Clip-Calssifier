@@ -28,6 +28,13 @@
    "end_s": 271.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 17,
+   "start_s": 135.5,
+   "end_s": 143.47,
+   "action_label": "set_wick",
+   "reason": "desc_talking_head"
   }
  ]
 }

@@ -252,6 +252,13 @@
    "end_s": 533.0,
    "action_label": "blank",
    "reason": "non_action:blank"
+  },
+  {
+   "window_index": 1,
+   "start_s": 7.96,
+   "end_s": 15.91,
+   "action_label": "pour_wax",
+   "reason": "desc_text_card"
   }
  ]
 }

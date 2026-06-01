@@ -63,6 +63,20 @@
    "end_s": 665.0,
    "action_label": "talking_head",
    "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 2,
+   "start_s": 16.02,
+   "end_s": 24.04,
+   "action_label": "decorate_finish",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 6,
+   "start_s": 48.07,
+   "end_s": 56.08,
+   "action_label": "decorate_finish",
+   "reason": "desc_text_card"
   }
  ]
 }

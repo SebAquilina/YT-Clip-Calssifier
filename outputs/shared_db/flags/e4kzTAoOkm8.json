@@ -56,6 +56,13 @@
    "end_s": 275.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 21,
+   "start_s": 169.85,
+   "end_s": 177.94,
+   "action_label": "pour_wax",
+   "reason": "desc_text_card"
   }
  ]
 }

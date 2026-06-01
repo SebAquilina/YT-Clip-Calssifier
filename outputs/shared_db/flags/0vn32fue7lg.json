@@ -182,6 +182,13 @@
    "end_s": 330.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 30,
+   "start_s": 241.46,
+   "end_s": 249.51,
+   "action_label": "reveal_result",
+   "reason": "desc_talking_head"
   }
  ]
 }

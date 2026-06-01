@@ -91,6 +91,27 @@
    "end_s": 508.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 3,
+   "start_s": 23.81,
+   "end_s": 31.75,
+   "action_label": "gather_materials",
+   "reason": "desc_text_card"
+  },
+  {
+   "window_index": 33,
+   "start_s": 261.94,
+   "end_s": 269.88,
+   "action_label": "prepare_container",
+   "reason": "desc_text_card"
+  },
+  {
+   "window_index": 52,
+   "start_s": 412.75,
+   "end_s": 420.69,
+   "action_label": "trim_wick",
+   "reason": "desc_text_card"
   }
  ]
 }

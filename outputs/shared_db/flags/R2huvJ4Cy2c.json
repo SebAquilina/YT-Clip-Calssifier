@@ -56,6 +56,13 @@
    "end_s": 302.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 23,
+   "start_s": 182.79,
+   "end_s": 190.74,
+   "action_label": "decorate_finish",
+   "reason": "desc_talking_head"
   }
  ]
 }

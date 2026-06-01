@@ -14,6 +14,20 @@
    "end_s": 214.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 21,
+   "start_s": 166.44,
+   "end_s": 174.37,
+   "action_label": "reveal_result",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 22,
+   "start_s": 174.37,
+   "end_s": 182.3,
+   "action_label": "reveal_result",
+   "reason": "desc_text_card"
   }
  ]
 }

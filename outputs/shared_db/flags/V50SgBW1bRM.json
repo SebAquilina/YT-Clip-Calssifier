@@ -98,6 +98,20 @@
    "end_s": 546.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 5,
+   "start_s": 40.15,
+   "end_s": 48.18,
+   "action_label": "cure_cool",
+   "reason": "desc_text_card"
+  },
+  {
+   "window_index": 9,
+   "start_s": 72.26,
+   "end_s": 80.29,
+   "action_label": "decorate_finish",
+   "reason": "desc_talking_head"
   }
  ]
 }

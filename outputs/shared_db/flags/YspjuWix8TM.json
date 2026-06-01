@@ -175,6 +175,13 @@
    "end_s": 483.0,
    "action_label": "blank",
    "reason": "non_action:blank"
+  },
+  {
+   "window_index": 22,
+   "start_s": 177.1,
+   "end_s": 185.15,
+   "action_label": "set_wick",
+   "reason": "desc_talking_head"
   }
  ]
 }

@@ -35,6 +35,13 @@
    "end_s": 130.0,
    "action_label": "outro_cta",
    "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 12,
+   "start_s": 97.5,
+   "end_s": 105.62,
+   "action_label": "decorate_finish",
+   "reason": "desc_talking_head"
   }
  ]
 }

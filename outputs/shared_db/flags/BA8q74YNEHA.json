@@ -21,6 +21,13 @@
    "end_s": 198.28,
    "action_label": "talking_head",
    "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 17,
+   "start_s": 134.83,
+   "end_s": 142.76,
+   "action_label": "prepare_container",
+   "reason": "desc_talking_head"
   }
  ]
 }

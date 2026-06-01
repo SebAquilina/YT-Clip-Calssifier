@@ -91,6 +91,41 @@
    "end_s": 857.0,
    "action_label": "transition",
    "reason": "non_action:transition"
+  },
+  {
+   "window_index": 76,
+   "start_s": 608.71,
+   "end_s": 616.72,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 80,
+   "start_s": 640.75,
+   "end_s": 648.76,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 84,
+   "start_s": 672.79,
+   "end_s": 680.79,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 88,
+   "start_s": 704.82,
+   "end_s": 712.83,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 92,
+   "start_s": 736.86,
+   "end_s": 744.87,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
   }
  ]
 }
