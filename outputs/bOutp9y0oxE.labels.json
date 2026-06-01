@@ -1,0 +1,12 @@
+[
+  {"window": 0, "label": "gather_materials", "confidence": 0.5, "description": "A metal tin holds white wax/old-candle pieces on a table; hands begin to handle them (SUBSCRIBE overlay present)."},
+  {"window": 1, "label": "measure_wax", "confidence": 0.5, "description": "White wax chunks in the tin are arranged with a tool, prepping the wax to melt."},
+  {"window": 2, "label": "melt_wax", "confidence": 0.55, "description": "The wax has melted to a pink liquid in the tin (colourant already added); caption 'Use to Paper Cup'."},
+  {"window": 3, "label": "add_dye_color", "confidence": 0.45, "description": "Pink molten wax with a dropper; a paper cup mould is readied beside it."},
+  {"window": 4, "label": "pour_wax", "confidence": 0.65, "description": "The pink molten wax is poured from the tin into a small paper cup mould."},
+  {"window": 5, "label": "set_wick", "confidence": 0.55, "description": "A white wick is inserted into the centre of the pink-filled cup; scissors nearby."},
+  {"window": 6, "label": "decorate_finish", "confidence": 0.5, "description": "Hands hold the set candle and begin peeling the paper cup away from the moulded pink wax."},
+  {"window": 7, "label": "decorate_finish", "confidence": 0.55, "description": "The paper cup is peeled off and trimmed with scissors, unmoulding the pink candle."},
+  {"window": 8, "label": "reveal_result", "confidence": 0.6, "description": "A hand holds up the demoulded pink moulded candle."},
+  {"window": 9, "label": "reveal_result", "confidence": 0.65, "description": "Final shot of the finished pink tealight-style candle held to camera."}
+]

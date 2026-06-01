@@ -1,0 +1,242 @@
+{
+  "video_id": "bOutp9y0oxE",
+  "title": "Tealight Candle Making At Home \ud83d\ude31/ Tea Light Candles Holder / diwali decoration Idea 2025/DIY Candle\ud83e\udd70",
+  "url": "https://www.youtube.com/watch?v=bOutp9y0oxE",
+  "duration": 83.0,
+  "source": "storyboard",
+  "n_windows": 10,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.3,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A metal tin holds white wax/old-candle pieces on a table; hands begin to handle them (SUBSCRIBE overlay present).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.3,
+      "end": 16.6,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax chunks in the tin are arranged with a tool, prepping the wax to melt.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.6,
+      "end": 24.9,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wax has melted to a pink liquid in the tin (colourant already added); caption 'Use to Paper Cup'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.9,
+      "end": 33.2,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink molten wax with a dropper; a paper cup mould is readied beside it.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 33.2,
+      "end": 41.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The pink molten wax is poured from the tin into a small paper cup mould.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 41.5,
+      "end": 49.8,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A white wick is inserted into the centre of the pink-filled cup; scissors nearby.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 49.8,
+      "end": 58.1,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands hold the set candle and begin peeling the paper cup away from the moulded pink wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 58.1,
+      "end": 66.4,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The paper cup is peeled off and trimmed with scissors, unmoulding the pink candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 66.4,
+      "end": 74.7,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A hand holds up the demoulded pink moulded candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 74.7,
+      "end": 83.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.65,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Final shot of the finished pink tealight-style candle held to camera.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 8.3,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.3,
+      "end": 16.6,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 16.6,
+      "end": 24.9,
+      "confidence": 0.55,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 24.9,
+      "end": 33.2,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 33.2,
+      "end": 41.5,
+      "confidence": 0.65,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 41.5,
+      "end": 49.8,
+      "confidence": 0.55,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 49.8,
+      "end": 66.4,
+      "confidence": 0.53,
+      "windows": [
+        6,
+        7
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 66.4,
+      "end": 83.0,
+      "confidence": 0.62,
+      "windows": [
+        8,
+        9
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.07,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (home candle business)."
+ },
+ {
+  "window": 1,
+  "start": 8.07,
+  "end": 16.14,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Pi vicison jeeen Rebranding Preparifi ory Shopif'y store latiiich bee dream'."
+ },
+ {
+  "window": 2,
+  "start": 16.14,
+  "end": 24.21,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (home candle business)."
+ },
+ {
+  "window": 3,
+  "start": 24.21,
+  "end": 32.28,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (home candle business)."
+ },
+ {
+  "window": 4,
+  "start": 32.28,
+  "end": 40.35,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (home candle business)."
+ },
+ {
+  "window": 5,
+  "start": 40.35,
+  "end": 48.42,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (home candle business)."
+ },
+ {
+  "window": 6,
+  "start": 48.42,
+  "end": 56.49,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "'EARTHGLOW' card."
+ },
+ {
+  "window": 7,
+  "start": 56.49,
+  "end": 64.56,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing the gold mixing bowl of wax on a scale."
+ },
+ {
+  "window": 8,
+  "start": 64.56,
+  "end": 72.63,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing the gold mixing bowl of wax on a scale."
+ },
+ {
+  "window": 9,
+  "start": 72.63,
+  "end": 80.7,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing the gold mixing bowl of wax on a scale."
+ },
+ {
+  "window": 10,
+  "start": 80.7,
+  "end": 88.77,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Weighing the gold mixing bowl of wax on a scale."
+ },
+ {
+  "window": 11,
+  "start": 88.77,
+  "end": 96.84,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 96.84,
+  "end": 104.91,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 13,
+  "start": 104.91,
+  "end": 112.98,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 14,
+  "start": 112.98,
+  "end": 121.05,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 15,
+  "start": 121.05,
+  "end": 129.12,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 16,
+  "start": 129.12,
+  "end": 137.19,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'DIGIBOIL 4.12 poy gy gg Selledy gerade inser'."
+ },
+ {
+  "window": 17,
+  "start": 137.19,
+  "end": 145.26,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 18,
+  "start": 145.26,
+  "end": 153.33,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 19,
+  "start": 153.33,
+  "end": 161.4,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ae am 7 my SS 5 ae ie eet eee Lf 2 Zs ae ot aia'."
+ },
+ {
+  "window": 20,
+  "start": 161.4,
+  "end": 169.47,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 21,
+  "start": 169.47,
+  "end": 177.53,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 22,
+  "start": 177.53,
+  "end": 185.6,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wax-calculation worksheet / calculator."
+ },
+ {
+  "window": 23,
+  "start": 185.6,
+  "end": 193.67,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'iiae iy. 7 aa jj 4 3 Psiy SIF ey ey of AE ST asf 2 Ss is Ss 5 hey 2 aS ty 2 3'."
+ },
+ {
+  "window": 24,
+  "start": 193.67,
+  "end": 201.74,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Working the wax in the gold bowl (melt/pour)."
+ },
+ {
+  "window": 25,
+  "start": 201.74,
+  "end": 209.81,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 26,
+  "start": 209.81,
+  "end": 217.88,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'js Sy Pam Ill test these in these in couple zs wz'."
+ },
+ {
+  "window": 27,
+  "start": 217.88,
+  "end": 225.95,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Worksheet/calculator."
+ },
+ {
+  "window": 28,
+  "start": 225.95,
+  "end": 234.02,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Working the wax in the gold bowl (melt/pour)."
+ },
+ {
+  "window": 29,
+  "start": 234.02,
+  "end": 242.09,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'fl ie tee Rs 3 Bering 4 seeseny 3 4 am apie 7 6 pe awa! oe 2 ee oN ms 4 NS en 7 Ye 4 NV packaging and wih. slow pels. yr'."
+ },
+ {
+  "window": 30,
+  "start": 242.09,
+  "end": 250.16,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Working the wax in the gold bowl (melt/pour)."
+ },
+ {
+  "window": 31,
+  "start": 250.16,
+  "end": 258.23,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 32,
+  "start": 258.23,
+  "end": 266.3,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'oF, he Tihs pe bey Eh Ff of ad Ri Od ag Ct iS Seer ia Seo bee Pee Qi SP NES OPS Se Oe Sb Av Mane VW'."
+ },
+ {
+  "window": 33,
+  "start": 266.3,
+  "end": 274.37,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Worksheet/calculator."
+ },
+ {
+  "window": 34,
+  "start": 274.37,
+  "end": 282.44,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Working the wax in the gold bowl (melt/pour)."
+ },
+ {
+  "window": 35,
+  "start": 282.44,
+  "end": 290.51,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Worksheet/calculator."
+ },
+ {
+  "window": 36,
+  "start": 290.51,
+  "end": 298.58,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Working the wax in the gold bowl (melt/pour)."
+ },
+ {
+  "window": 37,
+  "start": 298.58,
+  "end": 306.65,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Worksheet/calculator."
+ },
+ {
+  "window": 38,
+  "start": 306.65,
+  "end": 314.72,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Working the wax in the gold bowl (melt/pour)."
+ },
+ {
+  "window": 39,
+  "start": 314.72,
+  "end": 322.79,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle / closing."
+ },
+ {
+  "window": 40,
+  "start": 322.79,
+  "end": 330.86,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candle / closing."
+ },
+ {
+  "window": 41,
+  "start": 330.86,
+  "end": 338.93,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Thank you for watching! Py werw dreaiabnadioca com jpolieshome.com 3'."
+ },
+ {
+  "window": 42,
+  "start": 338.93,
+  "end": 347.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

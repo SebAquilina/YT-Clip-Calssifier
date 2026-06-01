@@ -1,0 +1,15 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.55, "description": "Host (long braid, white outfit) stands in a bright studio with candle shelves, introducing a wooden-wick setup tutorial."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.55, "description": "Close-up on white marble of wooden-wick clips and a green dish; caption 'WOODEN WICK CLIPS'."},
+  {"window": 2, "label": "prepare_container", "confidence": 0.55, "description": "A wooden wick height is measured against a vessel with a ruler before trimming."},
+  {"window": 3, "label": "prepare_container", "confidence": 0.6, "description": "Hands handle a wick sticker and the glass vessel; captions 'WICK STICKERS' and 'CANDLE VESSEL'."},
+  {"window": 4, "label": "prepare_container", "confidence": 0.6, "description": "A wooden wick is seated into its metal clip; captions 'CANDLE VESSEL' / 'WOODEN WICKS'."},
+  {"window": 5, "label": "prepare_container", "confidence": 0.6, "description": "Hands assemble the wooden wick into the metal base clip on the marble surface."},
+  {"window": 6, "label": "prepare_container", "confidence": 0.6, "description": "The wick-and-clip assembly is positioned and pressed toward the glass vessel."},
+  {"window": 7, "label": "prepare_container", "confidence": 0.6, "description": "Hands press the wick sticker/clip onto the inside base of the empty glass vessel."},
+  {"window": 8, "label": "prepare_container", "confidence": 0.6, "description": "The wooden wick is fixed to the bottom of the glass; a green dish of supplies nearby."},
+  {"window": 9, "label": "set_wick", "confidence": 0.55, "description": "Hands centre and adjust the wooden wick upright in the empty glass vessel."},
+  {"window": 10, "label": "talking_head", "confidence": 0.6, "description": "Host returns to camera in the studio to explain the setup."},
+  {"window": 11, "label": "talking_head", "confidence": 0.6, "description": "Host continues talking to camera about wooden wicks."},
+  {"window": 12, "label": "outro_cta", "confidence": 0.5, "description": "Host wraps up the tutorial to camera."}
+]

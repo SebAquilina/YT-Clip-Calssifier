@@ -1,0 +1,2088 @@
+{
+  "video_id": "DpgV20P8bVc",
+  "title": "Small candle business from home | holiday launch studio vlog New paint can candles | Amazon handmade",
+  "url": "https://www.youtube.com/watch?v=DpgV20P8bVc",
+  "duration": 820.0,
+  "source": "storyboard",
+  "n_windows": 102,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.04,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of white candle jars setting.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.04,
+      "end": 16.08,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.08,
+      "end": 24.12,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.12,
+      "end": 32.16,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Driving / b-roll.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.16,
+      "end": 40.2,
+      "label": "transition",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'te oe te ee Pe to ay Ae Me 3 ae iad 6 iS Milionil I's about minute dri onid'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.2,
+      "end": 48.24,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Driving / b-roll.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.24,
+      "end": 56.27,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Driving / b-roll.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.27,
+      "end": 64.31,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Driving / b-roll.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.31,
+      "end": 72.35,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle jars shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.35,
+      "end": 80.39,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of white candle jars setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 80.39,
+      "end": 88.43,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 4 ff ai Wy QP jr fs ag sy Ongs Lot Ra. Jo learn yer around aga ity akconor os 0 thgery ey fore ae'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.43,
+      "end": 96.47,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle jars shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.47,
+      "end": 104.51,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of white candle jars setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.51,
+      "end": 112.55,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Labelling/packing the candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 112.55,
+      "end": 120.59,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle jars shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 120.59,
+      "end": 128.63,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of white candle jars setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 128.63,
+      "end": 136.67,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 136.67,
+      "end": 144.71,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle jars shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.71,
+      "end": 152.75,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of white candle jars setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 152.75,
+      "end": 160.78,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Labelling/packing the candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 160.78,
+      "end": 168.82,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle jars shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 168.82,
+      "end": 176.86,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of white candle jars setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 176.86,
+      "end": 184.9,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Labelling/packing the candles.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 184.9,
+      "end": 192.94,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'pee Ok te ees ee fe ED ae See Pa Se 4 See ay we JES if 4 7 eo al Pk: OF Se gy 4 Ip he in 4 7 ay Cee 3 Vee ee. ON ee 4 ae wee ae IS Age aI ak ono Sa aad Te is'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 192.94,
+      "end": 200.98,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 200.98,
+      "end": 209.02,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 209.02,
+      "end": 217.06,
+      "label": "cure_cool",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the rows of tins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 217.06,
+      "end": 225.1,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 225.1,
+      "end": 233.14,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 233.14,
+      "end": 241.18,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/centring wicks across the tins.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 241.18,
+      "end": 249.22,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the rows of tins.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 249.22,
+      "end": 257.25,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 257.25,
+      "end": 265.29,
+      "label": "cure_cool",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/centring wicks across the tins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 265.29,
+      "end": 273.33,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 273.33,
+      "end": 281.37,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 281.37,
+      "end": 289.41,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the rows of tins.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 289.41,
+      "end": 297.45,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/centring wicks across the tins.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 37,
+      "start": 297.45,
+      "end": 305.49,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 305.49,
+      "end": 313.53,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 39,
+      "start": 313.53,
+      "end": 321.57,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the rows of tins.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 321.57,
+      "end": 329.61,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/centring wicks across the tins.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->set_wick)"
+      ]
+    },
+    {
+      "window": 41,
+      "start": 329.61,
+      "end": 337.65,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 42,
+      "start": 337.65,
+      "end": 345.69,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 43,
+      "start": 345.69,
+      "end": 353.73,
+      "label": "cure_cool",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the rows of tins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 44,
+      "start": 353.73,
+      "end": 361.76,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 45,
+      "start": 361.76,
+      "end": 369.8,
+      "label": "cure_cool",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/centring wicks across the tins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 46,
+      "start": 369.8,
+      "end": 377.84,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 47,
+      "start": 377.84,
+      "end": 385.88,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 48,
+      "start": 385.88,
+      "end": 393.92,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 49,
+      "start": 393.92,
+      "end": 401.96,
+      "label": "decorate_finish",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the rows of tins.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 50,
+      "start": 401.96,
+      "end": 410.0,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 51,
+      "start": 410.0,
+      "end": 418.04,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 418.04,
+      "end": 426.08,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the rows of tins.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 53,
+      "start": 426.08,
+      "end": 434.12,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 434.12,
+      "end": 442.16,
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 55,
+      "start": 442.16,
+      "end": 450.2,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 450.2,
+      "end": 458.24,
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 57,
+      "start": 458.24,
+      "end": 466.27,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 58,
+      "start": 466.27,
+      "end": 474.31,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 474.31,
+      "end": 482.35,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 60,
+      "start": 482.35,
+      "end": 490.39,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 61,
+      "start": 490.39,
+      "end": 498.43,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 62,
+      "start": 498.43,
+      "end": 506.47,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 63,
+      "start": 506.47,
+      "end": 514.51,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 64,
+      "start": 514.51,
+      "end": 522.55,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 65,
+      "start": 522.55,
+      "end": 530.59,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 66,
+      "start": 530.59,
+      "end": 538.63,
+      "label": "decorate_finish",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 67,
+      "start": 538.63,
+      "end": 546.67,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 68,
+      "start": 546.67,
+      "end": 554.71,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 69,
+      "start": 554.71,
+      "end": 562.75,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 70,
+      "start": 562.75,
+      "end": 570.78,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead rows of candle tins setting (large batch).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 71,
+      "start": 570.78,
+      "end": 578.82,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 72,
+      "start": 578.82,
+      "end": 586.86,
+      "label": "decorate_finish",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 73,
+      "start": 586.86,
+      "end": 594.9,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 74,
+      "start": 594.9,
+      "end": 602.94,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 75,
+      "start": 602.94,
+      "end": 610.98,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 76,
+      "start": 610.98,
+      "end": 619.02,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 77,
+      "start": 619.02,
+      "end": 627.06,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 78,
+      "start": 627.06,
+      "end": 635.1,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 79,
+      "start": 635.1,
+      "end": 643.14,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 80,
+      "start": 643.14,
+      "end": 651.18,
+      "label": "reveal_result",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Torch/heat-gun smoothing the tin tops; labelling.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 81,
+      "start": 651.18,
+      "end": 659.22,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 82,
+      "start": 659.22,
+      "end": 667.25,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 83,
+      "start": 667.25,
+      "end": 675.29,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 84,
+      "start": 675.29,
+      "end": 683.33,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 85,
+      "start": 683.33,
+      "end": 691.37,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 86,
+      "start": 691.37,
+      "end": 699.41,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 87,
+      "start": 699.41,
+      "end": 707.45,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 88,
+      "start": 707.45,
+      "end": 715.49,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Inventory room b-roll.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 89,
+      "start": 715.49,
+      "end": 723.53,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Inventory room b-roll.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 90,
+      "start": 723.53,
+      "end": 731.57,
+      "label": "transition",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 91,
+      "start": 731.57,
+      "end": 739.61,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Inventory room b-roll.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 92,
+      "start": 739.61,
+      "end": 747.65,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 93,
+      "start": 747.65,
+      "end": 755.69,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 94,
+      "start": 755.69,
+      "end": 763.73,
+      "label": "reveal_result",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Inventory room b-roll.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 95,
+      "start": 763.73,
+      "end": 771.76,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 96,
+      "start": 771.76,
+      "end": 779.8,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 97,
+      "start": 779.8,
+      "end": 787.84,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rows of finished labelled candles on the shelves.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 98,
+      "start": 787.84,
+      "end": 795.88,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' (dream/joolieshome) end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 99,
+      "start": 795.88,
+      "end": 803.92,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' (dream/joolieshome) end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 100,
+      "start": 803.92,
+      "end": 811.96,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' (dream/joolieshome) end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 101,
+      "start": 811.96,
+      "end": 820.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank you for watching' (dream/joolieshome) end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 0.0,
+      "end": 8.04,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.04,
+      "end": 24.12,
+      "confidence": 0.9,
+      "windows": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 24.12,
+      "end": 64.31,
+      "confidence": 0.42,
+      "windows": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 64.31,
+      "end": 72.35,
+      "confidence": 0.4,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 72.35,
+      "end": 80.39,
+      "confidence": 0.4,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 80.39,
+      "end": 88.43,
+      "confidence": 0.5,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 88.43,
+      "end": 96.47,
+      "confidence": 0.4,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 96.47,
+      "end": 104.51,
+      "confidence": 0.4,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 104.51,
+      "end": 112.55,
+      "confidence": 0.4,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 112.55,
+      "end": 120.59,
+      "confidence": 0.4,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 120.59,
+      "end": 128.63,
+      "confidence": 0.4,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 128.63,
+      "end": 136.67,
+      "confidence": 0.9,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 136.67,
+      "end": 144.71,
+      "confidence": 0.4,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 144.71,
+      "end": 152.75,
+      "confidence": 0.4,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 152.75,
+      "end": 160.78,
+      "confidence": 0.4,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 160.78,
+      "end": 168.82,
+      "confidence": 0.4,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 168.82,
+      "end": 176.86,
+      "confidence": 0.4,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 176.86,
+      "end": 184.9,
+      "confidence": 0.4,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 184.9,
+      "end": 192.94,
+      "confidence": 0.5,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 192.94,
+      "end": 233.14,
+      "confidence": 0.5,
+      "windows": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 233.14,
+      "end": 241.18,
+      "confidence": 0.5,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 241.18,
+      "end": 249.22,
+      "confidence": 0.5,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 249.22,
+      "end": 281.37,
+      "confidence": 0.5,
+      "windows": [
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 281.37,
+      "end": 289.41,
+      "confidence": 0.5,
+      "windows": [
+        35
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 289.41,
+      "end": 297.45,
+      "confidence": 0.5,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 297.45,
+      "end": 313.53,
+      "confidence": 0.5,
+      "windows": [
+        37,
+        38
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 313.53,
+      "end": 321.57,
+      "confidence": 0.5,
+      "windows": [
+        39
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 321.57,
+      "end": 329.61,
+      "confidence": 0.5,
+      "windows": [
+        40
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 329.61,
+      "end": 385.88,
+      "confidence": 0.5,
+      "windows": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 385.88,
+      "end": 410.0,
+      "confidence": 0.5,
+      "windows": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 410.0,
+      "end": 418.04,
+      "confidence": 0.5,
+      "windows": [
+        51
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 418.04,
+      "end": 426.08,
+      "confidence": 0.5,
+      "windows": [
+        52
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 426.08,
+      "end": 466.27,
+      "confidence": 0.5,
+      "windows": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 466.27,
+      "end": 506.47,
+      "confidence": 0.5,
+      "windows": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 506.47,
+      "end": 554.71,
+      "confidence": 0.5,
+      "windows": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 554.71,
+      "end": 570.78,
+      "confidence": 0.5,
+      "windows": [
+        69,
+        70
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 570.78,
+      "end": 594.9,
+      "confidence": 0.5,
+      "windows": [
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 594.9,
+      "end": 707.45,
+      "confidence": 0.5,
+      "windows": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 707.45,
+      "end": 739.61,
+      "confidence": 0.58,
+      "windows": [
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 739.61,
+      "end": 787.84,
+      "confidence": 0.52,
+      "windows": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 787.84,
+      "end": 820.0,
+      "confidence": 0.6,
+      "windows": [
+        98,
+        99,
+        100,
+        101
+      ]
+    }
+  ]
+}

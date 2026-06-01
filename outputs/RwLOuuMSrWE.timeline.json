@@ -1,0 +1,1000 @@
+{
+  "video_id": "RwLOuuMSrWE",
+  "title": "CANDLE MAKING FOR BEGINNERS | How To Make Woodwick Candles",
+  "url": "https://www.youtube.com/watch?v=RwLOuuMSrWE",
+  "duration": 423.0,
+  "source": "storyboard",
+  "n_windows": 53,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.98,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead supplies \u2014 fragrance bottle, scale and a candle \u2014 laid out for a wooden-wick build.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.98,
+      "end": 15.96,
+      "label": "gather_materials",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle teaser / intro card.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 15.96,
+      "end": 23.94,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead jars and supplies.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.94,
+      "end": 31.92,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Supplies arranged on the white table.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.92,
+      "end": 39.91,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands prep the glass vessel and jars.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.91,
+      "end": 47.89,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax flakes poured into a metal pitcher on a scale.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.89,
+      "end": 55.87,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Weighing the pitcher of flakes.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.87,
+      "end": 63.85,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax bag and scale.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.85,
+      "end": 71.83,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Amber wax melting (close-up).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.83,
+      "end": 79.81,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the melted wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.81,
+      "end": 87.79,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax; hands.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.79,
+      "end": 95.77,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink/red dye near the pitcher.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.77,
+      "end": 103.75,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pitcher on the scale.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 103.75,
+      "end": 111.74,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Amber wax; hands.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 111.74,
+      "end": 119.72,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A fragrance bottle held over the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.72,
+      "end": 127.7,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Fragrance poured into the melted wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.7,
+      "end": 135.68,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring fragrance into the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 135.68,
+      "end": 143.66,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands prep at the table.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 143.66,
+      "end": 151.64,
+      "label": "prepare_container",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink/red dye dropper.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 151.64,
+      "end": 159.62,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands at the white table.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 159.62,
+      "end": 167.6,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A spray bottle used to prep the vessel.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 167.6,
+      "end": 175.58,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wiping/prepping the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 175.58,
+      "end": 183.57,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Handling the wick and spray bottle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 183.57,
+      "end": 191.55,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Prepping the glass with the spray bottle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 191.55,
+      "end": 199.53,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wick placed into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 199.53,
+      "end": 207.51,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wooden wick pieces and the metal clip.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 207.51,
+      "end": 215.49,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wooden wick fitted into its clip.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 215.49,
+      "end": 223.47,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Placing the wooden wick into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 223.47,
+      "end": 231.45,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass with the centred wooden wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 231.45,
+      "end": 239.43,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax poured into the glass around the wooden wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 239.43,
+      "end": 247.42,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass filling with yellow wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 247.42,
+      "end": 255.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass of yellow wax with the wooden wick; bowl alongside.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 255.4,
+      "end": 263.38,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow wax in the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 263.38,
+      "end": 271.36,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring more wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 271.36,
+      "end": 279.34,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wooden wick steadied with a clip across the rim.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 279.34,
+      "end": 287.32,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wick bar holds the wooden wick centred.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 287.32,
+      "end": 295.3,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adjusting the wick as the wax sets.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 295.3,
+      "end": 303.28,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The candle sets and turns opaque white.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 303.28,
+      "end": 311.26,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Set white candle with the wooden wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 311.26,
+      "end": 319.25,
+      "label": "cure_cool",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A heat gun smooths the candle top.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 319.25,
+      "end": 327.23,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished white candle with wooden wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 327.23,
+      "end": 335.21,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wooden wick is trimmed with scissors.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 335.21,
+      "end": 343.19,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished white candle styled with pampas grass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 343.19,
+      "end": 351.17,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle; caption 'I hope you enjoyed this video'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 351.17,
+      "end": 359.15,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candle with decor; 'goodluck making your candles'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 359.15,
+      "end": 367.13,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'THANKS' end card with logo.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 367.13,
+      "end": 375.11,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 375.11,
+      "end": 383.09,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 383.09,
+      "end": 391.08,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 391.08,
+      "end": 399.06,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 399.06,
+      "end": 407.04,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 407.04,
+      "end": 415.02,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 52,
+      "start": 415.02,
+      "end": 423.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 31.92,
+      "confidence": 0.47,
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 31.92,
+      "end": 39.91,
+      "confidence": 0.45,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 39.91,
+      "end": 63.85,
+      "confidence": 0.53,
+      "windows": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 63.85,
+      "end": 87.79,
+      "confidence": 0.53,
+      "windows": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 87.79,
+      "end": 95.77,
+      "confidence": 0.45,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 95.77,
+      "end": 103.75,
+      "confidence": 0.45,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 103.75,
+      "end": 111.74,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 111.74,
+      "end": 135.68,
+      "confidence": 0.53,
+      "windows": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 135.68,
+      "end": 231.45,
+      "confidence": 0.46,
+      "windows": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 231.45,
+      "end": 271.36,
+      "confidence": 0.56,
+      "windows": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 271.36,
+      "end": 295.3,
+      "confidence": 0.48,
+      "windows": [
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 295.3,
+      "end": 327.23,
+      "confidence": 0.47,
+      "windows": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 327.23,
+      "end": 335.21,
+      "confidence": 0.5,
+      "windows": [
+        41
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 335.21,
+      "end": 359.15,
+      "confidence": 0.55,
+      "windows": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 359.15,
+      "end": 367.13,
+      "confidence": 0.55,
+      "windows": [
+        45
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 367.13,
+      "end": 423.0,
+      "confidence": 0.4,
+      "windows": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    }
+  ]
+}

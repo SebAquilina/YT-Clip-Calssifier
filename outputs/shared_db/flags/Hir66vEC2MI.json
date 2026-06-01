@@ -1,0 +1,117 @@
+{
+ "video_id": "Hir66vEC2MI",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.07,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 1,
+   "start_s": 8.07,
+   "end_s": 16.15,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 4,
+   "start_s": 32.3,
+   "end_s": 40.38,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 13,
+   "start_s": 104.98,
+   "end_s": 113.05,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 18,
+   "start_s": 145.35,
+   "end_s": 153.42,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 31,
+   "start_s": 250.32,
+   "end_s": 258.4,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 32,
+   "start_s": 258.4,
+   "end_s": 266.47,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 33,
+   "start_s": 266.47,
+   "end_s": 274.55,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 34,
+   "start_s": 274.55,
+   "end_s": 282.62,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 35,
+   "start_s": 282.62,
+   "end_s": 290.7,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 36,
+   "start_s": 290.7,
+   "end_s": 298.77,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 37,
+   "start_s": 298.77,
+   "end_s": 306.85,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 38,
+   "start_s": 306.85,
+   "end_s": 314.92,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 39,
+   "start_s": 314.92,
+   "end_s": 323.0,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 9,
+   "start_s": 72.68,
+   "end_s": 80.75,
+   "action_label": "gather_materials",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 29,
+   "start_s": 234.17,
+   "end_s": 242.25,
+   "action_label": "set_wick",
+   "reason": "desc_talking_head"
+  }
+ ]
+}

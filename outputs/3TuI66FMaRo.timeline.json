@@ -1,0 +1,473 @@
+{
+  "video_id": "3TuI66FMaRo",
+  "title": "How to make a candle using our NEW ProSoy Container Wax",
+  "url": "https://www.youtube.com/watch?v=3TuI66FMaRo",
+  "duration": 183.0,
+  "source": "storyboard",
+  "n_windows": 23,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.96,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (polka-dot top) opens in a kitchen.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.96,
+      "end": 15.91,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.91,
+      "end": 23.87,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "'Making a Candle' title; a glass of water for the pour calc.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.87,
+      "end": 31.83,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a bag on a scale.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.83,
+      "end": 39.78,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass of water; measuring.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.78,
+      "end": 47.74,
+      "label": "measure_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Black double-boiler pot melting wax.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.74,
+      "end": 55.7,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass of water; hand.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.7,
+      "end": 63.65,
+      "label": "measure_wax",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with a wick/stick.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.65,
+      "end": 71.61,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Measuring; glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.61,
+      "end": 79.57,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax melting in the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.57,
+      "end": 87.52,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pot of melted wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.52,
+      "end": 95.48,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring melted wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.48,
+      "end": 103.43,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.43,
+      "end": 111.39,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 111.39,
+      "end": 119.35,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Double-boiler pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.35,
+      "end": 127.3,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass with white wax; pouring.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.3,
+      "end": 135.26,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 135.26,
+      "end": 143.22,
+      "label": "pour_wax",
+      "original_label": "set_wick",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass of wax; wick.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 143.22,
+      "end": 151.17,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finishing the pour.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 151.17,
+      "end": 159.13,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass candle with set wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 159.13,
+      "end": 167.09,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 167.09,
+      "end": 175.04,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 175.04,
+      "end": 183.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.96,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 7.96,
+      "end": 15.91,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.91,
+      "end": 71.61,
+      "confidence": 0.46,
+      "windows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 71.61,
+      "end": 87.52,
+      "confidence": 0.5,
+      "windows": [
+        9,
+        10
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 87.52,
+      "end": 103.43,
+      "confidence": 0.47,
+      "windows": [
+        11,
+        12
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 103.43,
+      "end": 111.39,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 111.39,
+      "end": 119.35,
+      "confidence": 0.45,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 119.35,
+      "end": 151.17,
+      "confidence": 0.46,
+      "windows": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 151.17,
+      "end": 159.13,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 159.13,
+      "end": 167.09,
+      "confidence": 0.5,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 167.09,
+      "end": 183.0,
+      "confidence": 0.5,
+      "windows": [
+        21,
+        22
+      ]
+    }
+  ]
+}

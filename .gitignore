@@ -1,0 +1,16 @@
+# Working data (videos, frames, storyboards, contact sheets) — regenerable
+data/
+*.mp4
+*.m4a
+*.webm
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# keep the outputs directory but not stray temp
+*.tmp

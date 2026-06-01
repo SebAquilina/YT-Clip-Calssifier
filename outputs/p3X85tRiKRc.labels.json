@@ -1,0 +1,398 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Cosy Owl logo opens the beginners soy candle tutorial."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 5,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 7,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 8,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax bag/sheet."
+ },
+ {
+  "window": 9,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "White wax melting in a metal pitcher."
+ },
+ {
+  "window": 10,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Wax melting in the pitcher."
+ },
+ {
+  "window": 11,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting the wax."
+ },
+ {
+  "window": 12,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 13,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "White wax poured into grey ceramic cups."
+ },
+ {
+  "window": 14,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Grey cups filled with wax; hands."
+ },
+ {
+  "window": 15,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead grey cups; centring wicks."
+ },
+ {
+  "window": 16,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Grey cups with wooden wicks set."
+ },
+ {
+  "window": 17,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Adjusting wicks in the grey cups."
+ },
+ {
+  "window": 18,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Grey cups with wax."
+ },
+ {
+  "window": 19,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Grey cups of wax setting."
+ },
+ {
+  "window": 20,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Grey cups with white wax."
+ },
+ {
+  "window": 21,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Adjusting wicks in the cups."
+ },
+ {
+  "window": 22,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Grey cups setting."
+ },
+ {
+  "window": 23,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Grey cups of white wax setting."
+ },
+ {
+  "window": 24,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Amber wax melting in a pot on the stove."
+ },
+ {
+  "window": 25,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 26,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 27,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 28,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 29,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 30,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 31,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 32,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 33,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 34,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 35,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 36,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 37,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 38,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 39,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 40,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 41,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 42,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 43,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring/melting amber scented wax in the pot."
+ },
+ {
+  "window": 44,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the grey cups."
+ },
+ {
+  "window": 45,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Grey cups being filled with wax."
+ },
+ {
+  "window": 46,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Grey cups with wax; wicks."
+ },
+ {
+  "window": 47,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Filling the grey cups."
+ },
+ {
+  "window": 48,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring wax into grey cups with wooden wicks."
+ },
+ {
+  "window": 49,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring into the grey cups."
+ },
+ {
+  "window": 50,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "White candles in grey cups; centring the wooden wicks."
+ },
+ {
+  "window": 51,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting wicks in the white candles."
+ },
+ {
+  "window": 52,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Grey cups of white wax; wicks adjusted."
+ },
+ {
+  "window": 53,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "White candles in cups; wick set."
+ },
+ {
+  "window": 54,
+  "label": "trim_wick",
+  "confidence": 0.5,
+  "description": "Trimming the wooden wick on a finished candle."
+ },
+ {
+  "window": 55,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Adjusting wicks on the grey-cup candles."
+ },
+ {
+  "window": 56,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "Cosy Owl logo card."
+ },
+ {
+  "window": 57,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 58,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 59,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 60,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 61,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 62,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 63,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 64,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 65,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

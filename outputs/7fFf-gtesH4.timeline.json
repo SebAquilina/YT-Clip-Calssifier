@@ -1,0 +1,2242 @@
+{
+  "video_id": "7fFf-gtesH4",
+  "title": "5 Homemade Candles For Emergencies",
+  "url": "https://www.youtube.com/watch?v=7fFf-gtesH4",
+  "duration": 879.0,
+  "source": "storyboard",
+  "n_windows": 110,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.99,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host opens the emergency-candles demo.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.99,
+      "end": 15.98,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host opens the emergency-candles demo.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.98,
+      "end": 23.97,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host opens the emergency-candles demo.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.97,
+      "end": 31.96,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host opens the emergency-candles demo.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.96,
+      "end": 39.95,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.95,
+      "end": 47.95,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Emergency-candle supplies (butter, cheese, cans) on the table.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.95,
+      "end": 55.94,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Emergency-candle supplies (butter, cheese, cans) on the table.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.94,
+      "end": 63.93,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Emergency-candle supplies (butter, cheese, cans) on the table.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.93,
+      "end": 71.92,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lighting the improvised emergency candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.92,
+      "end": 79.91,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.91,
+      "end": 87.9,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.9,
+      "end": 95.89,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Lighting the improvised emergency candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 95.89,
+      "end": 103.88,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.88,
+      "end": 111.87,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Inserting a wick into a butter/cheese block candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 111.87,
+      "end": 119.86,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lighting the improvised emergency candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.86,
+      "end": 127.85,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.85,
+      "end": 135.85,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Inserting a wick into a butter/cheese block candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 135.85,
+      "end": 143.84,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lighting the improvised emergency candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 143.84,
+      "end": 151.83,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 151.83,
+      "end": 159.82,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Inserting a wick into a butter/cheese block candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 159.82,
+      "end": 167.81,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lighting the improvised emergency candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 167.81,
+      "end": 175.8,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 175.8,
+      "end": 183.79,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Inserting a wick into a butter/cheese block candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 183.79,
+      "end": 191.78,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lighting the improvised emergency candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 191.78,
+      "end": 199.77,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 199.77,
+      "end": 207.76,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 207.76,
+      "end": 215.75,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Showing emergency-candle supplies/packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 215.75,
+      "end": 223.75,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 223.75,
+      "end": 231.74,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Improvised candle set on the plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 231.74,
+      "end": 239.73,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 239.73,
+      "end": 247.72,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Showing emergency-candle supplies/packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 247.72,
+      "end": 255.71,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 255.71,
+      "end": 263.7,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 263.7,
+      "end": 271.69,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Working the candle by hand (rolling a wax sheet / shaping).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 271.69,
+      "end": 279.68,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Showing emergency-candle supplies/packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 279.68,
+      "end": 287.67,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Showing emergency-candle supplies/packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 287.67,
+      "end": 295.66,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 37,
+      "start": 295.66,
+      "end": 303.65,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 38,
+      "start": 303.65,
+      "end": 311.65,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 311.65,
+      "end": 319.64,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 40,
+      "start": 319.64,
+      "end": 327.63,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 327.63,
+      "end": 335.62,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 42,
+      "start": 335.62,
+      "end": 343.61,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Showing emergency-candle supplies/packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 43,
+      "start": 343.61,
+      "end": 351.6,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 351.6,
+      "end": 359.59,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 359.59,
+      "end": 367.58,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Showing emergency-candle supplies/packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 46,
+      "start": 367.58,
+      "end": 375.57,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Showing emergency-candle supplies/packaging.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 47,
+      "start": 375.57,
+      "end": 383.56,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 383.56,
+      "end": 391.55,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 49,
+      "start": 391.55,
+      "end": 399.55,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 399.55,
+      "end": 407.54,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 407.54,
+      "end": 415.53,
+      "label": "talking_head",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 415.53,
+      "end": 423.52,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 53,
+      "start": 423.52,
+      "end": 431.51,
+      "label": "talking_head",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 431.51,
+      "end": 439.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 55,
+      "start": 439.5,
+      "end": 447.49,
+      "label": "talking_head",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 447.49,
+      "end": 455.48,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 57,
+      "start": 455.48,
+      "end": 463.47,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 58,
+      "start": 463.47,
+      "end": 471.46,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Improvised candle set on the plate.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->cure_cool)"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 471.46,
+      "end": 479.45,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 60,
+      "start": 479.45,
+      "end": 487.45,
+      "label": "reveal_result",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 61,
+      "start": 487.45,
+      "end": 495.44,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 62,
+      "start": 495.44,
+      "end": 503.43,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 63,
+      "start": 503.43,
+      "end": 511.42,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 64,
+      "start": 511.42,
+      "end": 519.41,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 65,
+      "start": 519.41,
+      "end": 527.4,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 66,
+      "start": 527.4,
+      "end": 535.39,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 67,
+      "start": 535.39,
+      "end": 543.38,
+      "label": "talking_head",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Working the candle by hand (rolling a wax sheet / shaping).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 68,
+      "start": 543.38,
+      "end": 551.37,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 69,
+      "start": 551.37,
+      "end": 559.36,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 70,
+      "start": 559.36,
+      "end": 567.35,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Working the candle by hand (rolling a wax sheet / shaping).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 71,
+      "start": 567.35,
+      "end": 575.35,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Working the candle by hand (rolling a wax sheet / shaping).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 72,
+      "start": 575.35,
+      "end": 583.34,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 73,
+      "start": 583.34,
+      "end": 591.33,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 74,
+      "start": 591.33,
+      "end": 599.32,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 75,
+      "start": 599.32,
+      "end": 607.31,
+      "label": "reveal_result",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax/fat melting in a pot.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 76,
+      "start": 607.31,
+      "end": 615.3,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 77,
+      "start": 615.3,
+      "end": 623.29,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 78,
+      "start": 623.29,
+      "end": 631.28,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 79,
+      "start": 631.28,
+      "end": 639.27,
+      "label": "talking_head",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 80,
+      "start": 639.27,
+      "end": 647.26,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 81,
+      "start": 647.26,
+      "end": 655.25,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 82,
+      "start": 655.25,
+      "end": 663.25,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 83,
+      "start": 663.25,
+      "end": 671.24,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 84,
+      "start": 671.24,
+      "end": 679.23,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 85,
+      "start": 679.23,
+      "end": 687.22,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 86,
+      "start": 687.22,
+      "end": 695.21,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 87,
+      "start": 695.21,
+      "end": 703.2,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 88,
+      "start": 703.2,
+      "end": 711.19,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Preparing an emergency candle base (Crisco tub / can / jar with wick).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->prepare_container)"
+      ]
+    },
+    {
+      "window": 89,
+      "start": 711.19,
+      "end": 719.18,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 90,
+      "start": 719.18,
+      "end": 727.17,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 91,
+      "start": 727.17,
+      "end": 735.16,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 92,
+      "start": 735.16,
+      "end": 743.15,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 93,
+      "start": 743.15,
+      "end": 751.15,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (gloves) explains the emergency candle to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 94,
+      "start": 751.15,
+      "end": 759.14,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished/lit emergency candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 95,
+      "start": 759.14,
+      "end": 767.13,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 96,
+      "start": 767.13,
+      "end": 775.12,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 97,
+      "start": 775.12,
+      "end": 783.11,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 98,
+      "start": 783.11,
+      "end": 791.1,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 99,
+      "start": 791.1,
+      "end": 799.09,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 100,
+      "start": 799.09,
+      "end": 807.08,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 101,
+      "start": 807.08,
+      "end": 815.07,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 102,
+      "start": 815.07,
+      "end": 823.06,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 103,
+      "start": 823.06,
+      "end": 831.05,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 104,
+      "start": 831.05,
+      "end": 839.05,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 105,
+      "start": 839.05,
+      "end": 847.04,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 106,
+      "start": 847.04,
+      "end": 855.03,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 107,
+      "start": 855.03,
+      "end": 863.02,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 108,
+      "start": 863.02,
+      "end": 871.01,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 109,
+      "start": 871.01,
+      "end": 879.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Static end card (Random Nation outro graphic).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 31.96,
+      "confidence": 0.4,
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 31.96,
+      "end": 39.95,
+      "confidence": 0.7,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 39.95,
+      "end": 63.93,
+      "confidence": 0.45,
+      "windows": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 63.93,
+      "end": 71.92,
+      "confidence": 0.45,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 71.92,
+      "end": 103.88,
+      "confidence": 0.54,
+      "windows": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 103.88,
+      "end": 111.87,
+      "confidence": 0.45,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 111.87,
+      "end": 119.86,
+      "confidence": 0.45,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 119.86,
+      "end": 127.85,
+      "confidence": 0.5,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 127.85,
+      "end": 135.85,
+      "confidence": 0.45,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 135.85,
+      "end": 143.84,
+      "confidence": 0.45,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 143.84,
+      "end": 151.83,
+      "confidence": 0.5,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 151.83,
+      "end": 159.82,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 159.82,
+      "end": 167.81,
+      "confidence": 0.45,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 167.81,
+      "end": 175.8,
+      "confidence": 0.5,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 175.8,
+      "end": 183.79,
+      "confidence": 0.45,
+      "windows": [
+        22
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 183.79,
+      "end": 191.78,
+      "confidence": 0.45,
+      "windows": [
+        23
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 191.78,
+      "end": 207.76,
+      "confidence": 0.6,
+      "windows": [
+        24,
+        25
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 207.76,
+      "end": 215.75,
+      "confidence": 0.5,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 215.75,
+      "end": 223.75,
+      "confidence": 0.5,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 223.75,
+      "end": 231.74,
+      "confidence": 0.5,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 231.74,
+      "end": 239.73,
+      "confidence": 0.6,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 239.73,
+      "end": 247.72,
+      "confidence": 0.5,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 247.72,
+      "end": 255.71,
+      "confidence": 0.5,
+      "windows": [
+        31
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 255.71,
+      "end": 263.7,
+      "confidence": 0.6,
+      "windows": [
+        32
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 263.7,
+      "end": 271.69,
+      "confidence": 0.5,
+      "windows": [
+        33
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 271.69,
+      "end": 287.67,
+      "confidence": 0.5,
+      "windows": [
+        34,
+        35
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 287.67,
+      "end": 303.65,
+      "confidence": 0.5,
+      "windows": [
+        36,
+        37
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 303.65,
+      "end": 327.63,
+      "confidence": 0.57,
+      "windows": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 327.63,
+      "end": 335.62,
+      "confidence": 0.5,
+      "windows": [
+        41
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 335.62,
+      "end": 343.61,
+      "confidence": 0.5,
+      "windows": [
+        42
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 343.61,
+      "end": 351.6,
+      "confidence": 0.6,
+      "windows": [
+        43
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 351.6,
+      "end": 359.59,
+      "confidence": 0.5,
+      "windows": [
+        44
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 359.59,
+      "end": 375.57,
+      "confidence": 0.5,
+      "windows": [
+        45,
+        46
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 375.57,
+      "end": 383.56,
+      "confidence": 0.5,
+      "windows": [
+        47
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 383.56,
+      "end": 391.55,
+      "confidence": 0.5,
+      "windows": [
+        48
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 391.55,
+      "end": 463.47,
+      "confidence": 0.57,
+      "windows": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 463.47,
+      "end": 471.46,
+      "confidence": 0.5,
+      "windows": [
+        58
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 471.46,
+      "end": 503.43,
+      "confidence": 0.5,
+      "windows": [
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 503.43,
+      "end": 559.36,
+      "confidence": 0.57,
+      "windows": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 559.36,
+      "end": 575.35,
+      "confidence": 0.5,
+      "windows": [
+        70,
+        71
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 575.35,
+      "end": 591.33,
+      "confidence": 0.6,
+      "windows": [
+        72,
+        73
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 591.33,
+      "end": 615.3,
+      "confidence": 0.5,
+      "windows": [
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 615.3,
+      "end": 655.25,
+      "confidence": 0.58,
+      "windows": [
+        77,
+        78,
+        79,
+        80,
+        81
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 655.25,
+      "end": 671.24,
+      "confidence": 0.5,
+      "windows": [
+        82,
+        83
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 671.24,
+      "end": 679.23,
+      "confidence": 0.5,
+      "windows": [
+        84
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 679.23,
+      "end": 695.21,
+      "confidence": 0.6,
+      "windows": [
+        85,
+        86
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 695.21,
+      "end": 703.2,
+      "confidence": 0.5,
+      "windows": [
+        87
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 703.2,
+      "end": 711.19,
+      "confidence": 0.5,
+      "windows": [
+        88
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 711.19,
+      "end": 751.15,
+      "confidence": 0.58,
+      "windows": [
+        89,
+        90,
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 751.15,
+      "end": 759.14,
+      "confidence": 0.5,
+      "windows": [
+        94
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 759.14,
+      "end": 879.0,
+      "confidence": 0.6,
+      "windows": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ]
+    }
+  ]
+}

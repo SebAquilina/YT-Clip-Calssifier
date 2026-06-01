@@ -1,0 +1,662 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Clayton Candle Co host (white apron) opens a full step-by-step tutorial in a kitchen."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 3,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring wax on a scale."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 5,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 6,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring wax on a scale."
+ },
+ {
+  "window": 7,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 8,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 9,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring wax on a scale."
+ },
+ {
+  "window": 10,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 11,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 12,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring wax on a scale."
+ },
+ {
+  "window": 13,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 15,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring wax on a scale."
+ },
+ {
+  "window": 16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 17,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 18,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring wax on a scale."
+ },
+ {
+  "window": 19,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 20,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 21,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing/measuring wax on a scale."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 23,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Showing wax bag, jars and supplies."
+ },
+ {
+  "window": 24,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring wax into a metal bowl."
+ },
+ {
+  "window": 25,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal bowl / double boiler."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the melted wax."
+ },
+ {
+  "window": 28,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring wax into a metal bowl."
+ },
+ {
+  "window": 29,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal bowl / double boiler."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the melted wax."
+ },
+ {
+  "window": 32,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring wax into a metal bowl."
+ },
+ {
+  "window": 33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal bowl / double boiler."
+ },
+ {
+  "window": 34,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 35,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the melted wax."
+ },
+ {
+  "window": 36,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring wax into a metal bowl."
+ },
+ {
+  "window": 37,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal bowl / double boiler."
+ },
+ {
+  "window": 38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 39,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the melted wax."
+ },
+ {
+  "window": 40,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring wax into a metal bowl."
+ },
+ {
+  "window": 41,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal bowl / double boiler."
+ },
+ {
+  "window": 42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 43,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the melted wax."
+ },
+ {
+  "window": 44,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring wax into a metal bowl."
+ },
+ {
+  "window": 45,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in a metal bowl / double boiler."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 47,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Adding fragrance to the melted wax."
+ },
+ {
+  "window": 48,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 49,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 50,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 51,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 52,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 53,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 54,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 55,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 56,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 57,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 58,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 59,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 60,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 61,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 62,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 63,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 64,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 65,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 66,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 67,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 68,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 69,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the melting wax in the bowl."
+ },
+ {
+  "window": 70,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar/plate."
+ },
+ {
+  "window": 71,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 72,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 73,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 74,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 75,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 76,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 77,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 78,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 79,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 80,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 81,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 82,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 83,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 84,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 85,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 86,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 87,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 88,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 89,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 90,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 91,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 92,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 93,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jars."
+ },
+ {
+  "window": 94,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring the wick."
+ },
+ {
+  "window": 95,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 96,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 97,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 98,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 99,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 100,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 101,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 102,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 103,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Host holds the finished jar candle."
+ },
+ {
+  "window": 104,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks with the finished candle."
+ },
+ {
+  "window": 105,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks with the finished candle."
+ },
+ {
+  "window": 106,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks with the finished candle."
+ },
+ {
+  "window": 107,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks with the finished candle."
+ },
+ {
+  "window": 108,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Clayton Candle Co' end card."
+ },
+ {
+  "window": 109,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

@@ -1,0 +1,441 @@
+{
+  "video_id": "i64JEKLWiz0",
+  "title": "How to Make Flexible Wax Sheets for Stunning Handmade Candles (Easy & Quick Tutorial)",
+  "url": "https://www.youtube.com/watch?v=i64JEKLWiz0",
+  "duration": 167.0,
+  "source": "storyboard",
+  "n_windows": 21,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.95,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Teaser: hands shaping finished pink wax-flower petals amid white decor.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.95,
+      "end": 15.9,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hands shaping pink wax; channel/YouTube branding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.9,
+      "end": 23.86,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands shape a pink wax rose petal.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 23.86,
+      "end": 31.81,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rolling/forming pink wax petals.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 31.81,
+      "end": 39.76,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting in a black pan on a pink induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.76,
+      "end": 47.71,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the bowl on the hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.71,
+      "end": 55.67,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax poured onto a tray to form a flexible sheet.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.67,
+      "end": 63.62,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Spreading the wax into a thin flexible sheet.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->pour_wax)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.62,
+      "end": 71.57,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Black pan with melting wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.57,
+      "end": 79.52,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands tend the melting wax in the pan.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->melt_wax)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.52,
+      "end": 87.48,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands handle a formed yellow wax sheet/disc.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 87.48,
+      "end": 95.43,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Cutting the wax sheet into petal shapes.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 95.43,
+      "end": 103.38,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Shaping the cut wax into petals.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 103.38,
+      "end": 111.33,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Forming petals into a flower.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 111.33,
+      "end": 119.29,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands work pink wax petals.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 119.29,
+      "end": 127.24,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Shaping the pink wax flower.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 127.24,
+      "end": 135.19,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Assembling petals into the rose.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 135.19,
+      "end": 143.14,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands form white wax discs/petals.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 143.14,
+      "end": 151.1,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Shaping the finished pink rose.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 151.1,
+      "end": 159.05,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished pink wax roses beside the melting pan.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 159.05,
+      "end": 167.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the handmade wax flowers.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.95,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 7.95,
+      "end": 15.9,
+      "confidence": 0.45,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 15.9,
+      "end": 31.81,
+      "confidence": 0.45,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 31.81,
+      "end": 47.71,
+      "confidence": 0.53,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 47.71,
+      "end": 63.62,
+      "confidence": 0.43,
+      "windows": [
+        6,
+        7
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 63.62,
+      "end": 79.52,
+      "confidence": 0.45,
+      "windows": [
+        8,
+        9
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 79.52,
+      "end": 151.1,
+      "confidence": 0.48,
+      "windows": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 151.1,
+      "end": 167.0,
+      "confidence": 0.53,
+      "windows": [
+        19,
+        20
+      ]
+    }
+  ]
+}

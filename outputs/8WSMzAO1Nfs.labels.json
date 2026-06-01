@@ -1,0 +1,234 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.93,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 1,
+  "start": 7.93,
+  "end": 15.86,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 2,
+  "start": 15.86,
+  "end": 23.79,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 3,
+  "start": 23.79,
+  "end": 31.72,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 4,
+  "start": 31.72,
+  "end": 39.66,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 5,
+  "start": 39.66,
+  "end": 47.59,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 6,
+  "start": 47.59,
+  "end": 55.52,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 7,
+  "start": 55.52,
+  "end": 63.45,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Red melter pot of gel wax."
+ },
+ {
+  "window": 8,
+  "start": 63.45,
+  "end": 71.38,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 9,
+  "start": 71.38,
+  "end": 79.31,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 10,
+  "start": 79.31,
+  "end": 87.24,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 11,
+  "start": 87.24,
+  "end": 95.17,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 12,
+  "start": 95.17,
+  "end": 103.1,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 13,
+  "start": 103.1,
+  "end": 111.03,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 14,
+  "start": 111.03,
+  "end": 118.97,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Blue dye/gel in containers."
+ },
+ {
+  "window": 15,
+  "start": 118.97,
+  "end": 126.9,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 16,
+  "start": 126.9,
+  "end": 134.83,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Red melter; melting gel wax."
+ },
+ {
+  "window": 17,
+  "start": 134.83,
+  "end": 142.76,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 18,
+  "start": 142.76,
+  "end": 150.69,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 19,
+  "start": 150.69,
+  "end": 158.62,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring gel wax from the melter."
+ },
+ {
+  "window": 20,
+  "start": 158.62,
+  "end": 166.55,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 21,
+  "start": 166.55,
+  "end": 174.48,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 22,
+  "start": 174.48,
+  "end": 182.41,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring blue gel into a vessel."
+ },
+ {
+  "window": 23,
+  "start": 182.41,
+  "end": 190.34,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 24,
+  "start": 190.34,
+  "end": 198.28,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 25,
+  "start": 198.28,
+  "end": 206.21,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 26,
+  "start": 206.21,
+  "end": 214.14,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "AFI host (lab coat) talks to camera about gel wax."
+ },
+ {
+  "window": 27,
+  "start": 214.14,
+  "end": 222.07,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 28,
+  "start": 222.07,
+  "end": 230.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

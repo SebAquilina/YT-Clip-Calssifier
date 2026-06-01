@@ -1,0 +1,17 @@
+[
+  {"window": 0, "label": "prepare_container", "confidence": 0.4, "description": "A clear glass with red rose pieces is prepared (blurry footage)."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.4, "description": "Red rose/petal pieces and a metal melting pot are gathered."},
+  {"window": 2, "label": "melt_wax", "confidence": 0.4, "description": "A silicone mould with red shapes and a melting pot on heat."},
+  {"window": 3, "label": "pour_wax", "confidence": 0.4, "description": "Caption 'Hot water'; clear liquid poured into the rose-filled glass."},
+  {"window": 4, "label": "pour_wax", "confidence": 0.4, "description": "The glass fills with clear wax around embedded red roses."},
+  {"window": 5, "label": "set_wick", "confidence": 0.35, "description": "A stick/wick is positioned in the clear rose candle."},
+  {"window": 6, "label": "pour_wax", "confidence": 0.4, "description": "More clear wax in the glass with suspended roses."},
+  {"window": 7, "label": "other_unclear", "confidence": 0.35, "description": "Caption 'Hot water'; a hot-water technique step (blurry)."},
+  {"window": 8, "label": "pour_wax", "confidence": 0.4, "description": "Clear wax poured around the roses in the glass."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.4, "description": "Glass of clear wax with roses; a blue element appears."},
+  {"window": 10, "label": "add_dye_color", "confidence": 0.35, "description": "A blue swirl forms — a blue transparent variant being made."},
+  {"window": 11, "label": "pour_wax", "confidence": 0.4, "description": "A blue ice-like mass sits in the glass."},
+  {"window": 12, "label": "reveal_result", "confidence": 0.4, "description": "The blue transparent candle in the glass is shown."},
+  {"window": 13, "label": "reveal_result", "confidence": 0.45, "description": "Finished blue and rose transparent candles, one shown lit."},
+  {"window": 14, "label": "reveal_result", "confidence": 0.45, "description": "Beauty shot of the finished transparent candles with embedded roses."}
+]

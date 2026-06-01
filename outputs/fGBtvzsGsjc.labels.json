@@ -1,0 +1,74 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.89,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host (white shirt) stands in a kitchen with shelves of candles, talking to camera."
+ },
+ {
+  "window": 1,
+  "start": 7.89,
+  "end": 15.78,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "start": 15.78,
+  "end": 23.67,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "start": 23.67,
+  "end": 31.56,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "start": 31.56,
+  "end": 39.44,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Close-up insert: red-nailed hands hold a finished white candle in a black tin."
+ },
+ {
+  "window": 5,
+  "start": 39.44,
+  "end": 47.33,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "start": 47.33,
+  "end": 55.22,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 2 oo 7 2 OS tes ae 7 ae'."
+ },
+ {
+  "window": 7,
+  "start": 55.22,
+  "end": 63.11,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 8,
+  "start": 63.11,
+  "end": 71.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

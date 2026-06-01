@@ -1,0 +1,47 @@
+{
+ "video_id": "gUmo_4_EhuI",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.02,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 4,
+   "start_s": 32.06,
+   "end_s": 40.08,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 6,
+   "start_s": 48.09,
+   "end_s": 56.11,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 26,
+   "start_s": 208.39,
+   "end_s": 216.41,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 64,
+   "start_s": 512.97,
+   "end_s": 520.98,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 65,
+   "start_s": 520.98,
+   "end_s": 529.0,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  }
+ ]
+}

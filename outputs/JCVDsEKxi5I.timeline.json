@@ -1,0 +1,1119 @@
+{
+  "video_id": "JCVDsEKxi5I",
+  "title": "Make Your First Candle with Our London Luxury Candle Making Starter Kit!",
+  "url": "https://www.youtube.com/watch?v=JCVDsEKxi5I",
+  "duration": 427.0,
+  "source": "storyboard",
+  "n_windows": 53,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.06,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.06,
+      "end": 16.11,
+      "label": "talking_head",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sa oa based We SS iY cm ki 8 ut 4'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 16.11,
+      "end": 24.17,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.17,
+      "end": 32.23,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.23,
+      "end": 40.28,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead: measuring wax on the white counter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.28,
+      "end": 48.34,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead: measuring wax on the white counter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.34,
+      "end": 56.4,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.4,
+      "end": 64.45,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ac wa ie 4 aye nie 4 Cee ae Sy ad cae Brgenin.'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.45,
+      "end": 72.51,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'de ie he owl es aod fe WS Ss Bes 5 Se'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.51,
+      "end": 80.57,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.57,
+      "end": 88.62,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.62,
+      "end": 96.68,
+      "label": "talking_head",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'sd ae ie. ex4 shbood ff ieee ot rm 2 es ca'.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 96.68,
+      "end": 104.74,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.74,
+      "end": 112.79,
+      "label": "talking_head",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Melting wax (overhead insert).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 112.79,
+      "end": 120.85,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 120.85,
+      "end": 128.91,
+      "label": "talking_head",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Melting wax (overhead insert).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 128.91,
+      "end": 136.96,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 136.96,
+      "end": 145.02,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 145.02,
+      "end": 153.08,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 AN et cars are ee ry Tes 1.'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 153.08,
+      "end": 161.13,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 161.13,
+      "end": 169.19,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 169.19,
+      "end": 177.25,
+      "label": "talking_head",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Pouring wax into a glass.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 177.25,
+      "end": 185.3,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 185.3,
+      "end": 193.36,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit tutorial).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 193.36,
+      "end": 201.42,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Measuring wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 201.42,
+      "end": 209.47,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 209.47,
+      "end": 217.53,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 27,
+      "start": 217.53,
+      "end": 225.58,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 225.58,
+      "end": 233.64,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Measuring wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (pour_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 233.64,
+      "end": 241.7,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 241.7,
+      "end": 249.75,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 249.75,
+      "end": 257.81,
+      "label": "pour_wax",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 257.81,
+      "end": 265.87,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 265.87,
+      "end": 273.92,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting the wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 273.92,
+      "end": 281.98,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (set_wick->melt_wax)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 281.98,
+      "end": 290.04,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 290.04,
+      "end": 298.09,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 298.09,
+      "end": 306.15,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 306.15,
+      "end": 314.21,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 314.21,
+      "end": 322.26,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting the wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 322.26,
+      "end": 330.32,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 330.32,
+      "end": 338.38,
+      "label": "pour_wax",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 42,
+      "start": 338.38,
+      "end": 346.43,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 346.43,
+      "end": 354.49,
+      "label": "pour_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax in the melter.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 44,
+      "start": 354.49,
+      "end": 362.55,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 362.55,
+      "end": 370.6,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 370.6,
+      "end": 378.66,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting the wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 378.66,
+      "end": 386.72,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 386.72,
+      "end": 394.77,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera (first-candle kit).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 394.77,
+      "end": 402.83,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "London Luxury / like / subscribe card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 402.83,
+      "end": 410.89,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "London Luxury / like / subscribe card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 410.89,
+      "end": 418.94,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "London Luxury / like / subscribe card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 52,
+      "start": 418.94,
+      "end": 427.0,
+      "label": "blank",
+      "original_label": "blank",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty end frame.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 0.0,
+      "end": 32.23,
+      "confidence": 0.5,
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 32.23,
+      "end": 48.34,
+      "confidence": 0.45,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 48.34,
+      "end": 56.4,
+      "confidence": 0.5,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 56.4,
+      "end": 64.45,
+      "confidence": 0.5,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 64.45,
+      "end": 72.51,
+      "confidence": 0.5,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 72.51,
+      "end": 136.96,
+      "confidence": 0.48,
+      "windows": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 136.96,
+      "end": 145.02,
+      "confidence": 0.45,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 145.02,
+      "end": 153.08,
+      "confidence": 0.5,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 153.08,
+      "end": 193.36,
+      "confidence": 0.53,
+      "windows": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 193.36,
+      "end": 201.42,
+      "confidence": 0.5,
+      "windows": [
+        24
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 201.42,
+      "end": 209.47,
+      "confidence": 0.5,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 209.47,
+      "end": 217.53,
+      "confidence": 0.5,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 217.53,
+      "end": 225.58,
+      "confidence": 0.6,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 225.58,
+      "end": 233.64,
+      "confidence": 0.5,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 233.64,
+      "end": 241.7,
+      "confidence": 0.5,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 241.7,
+      "end": 265.87,
+      "confidence": 0.53,
+      "windows": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 265.87,
+      "end": 273.92,
+      "confidence": 0.5,
+      "windows": [
+        33
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 273.92,
+      "end": 281.98,
+      "confidence": 0.5,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 281.98,
+      "end": 290.04,
+      "confidence": 0.6,
+      "windows": [
+        35
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 290.04,
+      "end": 306.15,
+      "confidence": 0.5,
+      "windows": [
+        36,
+        37
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 306.15,
+      "end": 314.21,
+      "confidence": 0.6,
+      "windows": [
+        38
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 314.21,
+      "end": 322.26,
+      "confidence": 0.5,
+      "windows": [
+        39
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 322.26,
+      "end": 362.55,
+      "confidence": 0.52,
+      "windows": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 362.55,
+      "end": 370.6,
+      "confidence": 0.6,
+      "windows": [
+        45
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 370.6,
+      "end": 378.66,
+      "confidence": 0.5,
+      "windows": [
+        46
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 378.66,
+      "end": 386.72,
+      "confidence": 0.5,
+      "windows": [
+        47
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 386.72,
+      "end": 394.77,
+      "confidence": 0.6,
+      "windows": [
+        48
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 394.77,
+      "end": 418.94,
+      "confidence": 0.6,
+      "windows": [
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "label": "blank",
+      "phase": "aux",
+      "is_step": false,
+      "start": 418.94,
+      "end": 427.0,
+      "confidence": 0.6,
+      "windows": [
+        52
+      ]
+    }
+  ]
+}

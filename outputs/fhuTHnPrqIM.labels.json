@@ -1,0 +1,23 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Teaser of a glass of yellow oil with a lit floating wick — an 'eternal' oil candle."},
+  {"window": 1, "label": "gather_materials", "confidence": 0.5, "description": "Hands lay out materials (cork, foil, wick, oil) on a wooden table."},
+  {"window": 2, "label": "prepare_container", "confidence": 0.5, "description": "Hands cut and assemble the cork/foil float for the wick."},
+  {"window": 3, "label": "prepare_container", "confidence": 0.5, "description": "Building the floating-wick disc."},
+  {"window": 4, "label": "prepare_container", "confidence": 0.5, "description": "Fitting the wick into the float."},
+  {"window": 5, "label": "prepare_container", "confidence": 0.5, "description": "Assembling the float beside the glass of oil."},
+  {"window": 6, "label": "prepare_container", "confidence": 0.5, "description": "Threading the wick through the cork/foil float."},
+  {"window": 7, "label": "set_wick", "confidence": 0.45, "description": "Hands work at the oil-filled glass with the wick."},
+  {"window": 8, "label": "set_wick", "confidence": 0.5, "description": "The float wick is placed on the surface of the oil."},
+  {"window": 9, "label": "set_wick", "confidence": 0.45, "description": "Adjusting the floating wick in the oil glass."},
+  {"window": 10, "label": "prepare_container", "confidence": 0.45, "description": "More float assembly on a white cloth."},
+  {"window": 11, "label": "prepare_container", "confidence": 0.45, "description": "Hands finish the float wick."},
+  {"window": 12, "label": "set_wick", "confidence": 0.45, "description": "The float wick floats on the yellow oil."},
+  {"window": 13, "label": "reveal_result", "confidence": 0.5, "description": "Hands light the floating wick."},
+  {"window": 14, "label": "reveal_result", "confidence": 0.55, "description": "The float wick ignites on the oil."},
+  {"window": 15, "label": "reveal_result", "confidence": 0.6, "description": "The oil candle burns steadily in the glass."},
+  {"window": 16, "label": "reveal_result", "confidence": 0.6, "description": "Lit oil candle glass."},
+  {"window": 17, "label": "reveal_result", "confidence": 0.6, "description": "The eternal oil candle burning."},
+  {"window": 18, "label": "outro_cta", "confidence": 0.5, "description": "Lit candle with caption 'if you liked it don't forget to like'."},
+  {"window": 19, "label": "outro_cta", "confidence": 0.5, "description": "Lit candle with outro caption."},
+  {"window": 20, "label": "reveal_result", "confidence": 0.45, "description": "Final shot of the burning oil candle."}
+]

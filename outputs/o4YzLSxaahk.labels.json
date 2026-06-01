@@ -1,0 +1,344 @@
+[
+ {
+  "window": 0,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Gloved hands measure amber coconut-apricot wax."
+ },
+ {
+  "window": 1,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Supplies gathered in the workspace."
+ },
+ {
+  "window": 2,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Amber wax in cups from a lidded pot."
+ },
+ {
+  "window": 3,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Amber molten wax."
+ },
+ {
+  "window": 4,
+  "label": "measure_wax",
+  "confidence": 0.4,
+  "description": "Phone timer; amber cups."
+ },
+ {
+  "window": 5,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Rows of cups filled with amber wax."
+ },
+ {
+  "window": 6,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of poured cups on the table cooling."
+ },
+ {
+  "window": 7,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blue/white workspace b-roll."
+ },
+ {
+  "window": 8,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax/powder in a tub measured."
+ },
+ {
+  "window": 9,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Hand with supplies."
+ },
+ {
+  "window": 10,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "SUBSCRIBE card."
+ },
+ {
+  "window": 11,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax tub and supplies."
+ },
+ {
+  "window": 12,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Gloved hands tend the melting pot."
+ },
+ {
+  "window": 13,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Gloved hand stirs the black melting pot."
+ },
+ {
+  "window": 14,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Working the wax pot in gloves."
+ },
+ {
+  "window": 15,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Wrist watch; amber wax \u2014 fragrance stage."
+ },
+ {
+  "window": 16,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Gloved hand stirs the amber wax."
+ },
+ {
+  "window": 17,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Amber wax in the container."
+ },
+ {
+  "window": 18,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Blue scale and fragrance bottles."
+ },
+ {
+  "window": 19,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Amber wax with a fragrance bottle."
+ },
+ {
+  "window": 20,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Pot of amber wax."
+ },
+ {
+  "window": 21,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Amber wax pot (close-up)."
+ },
+ {
+  "window": 22,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Molten amber wax in the pot."
+ },
+ {
+  "window": 23,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Amber wax ready to pour."
+ },
+ {
+  "window": 24,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Orange-gloved hand sets wicks in rows of dark cups."
+ },
+ {
+  "window": 25,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring amber wax into rows of cups."
+ },
+ {
+  "window": 26,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Rows of amber cups being filled."
+ },
+ {
+  "window": 27,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Centring wicks across the rows of cups."
+ },
+ {
+  "window": 28,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of poured cups cooling."
+ },
+ {
+  "window": 29,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Adjusting wicks in the cup rows."
+ },
+ {
+  "window": 30,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of cups setting."
+ },
+ {
+  "window": 31,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into more cups."
+ },
+ {
+  "window": 32,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Rows of filled cups."
+ },
+ {
+  "window": 33,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of cups cooling."
+ },
+ {
+  "window": 34,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Hand adjusts wicks in the cups."
+ },
+ {
+  "window": 35,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of cups setting."
+ },
+ {
+  "window": 36,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of cups cooling."
+ },
+ {
+  "window": 37,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of dark candles setting."
+ },
+ {
+  "window": 38,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Rows of finished candles."
+ },
+ {
+  "window": 39,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Rows of candles in dim light."
+ },
+ {
+  "window": 40,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Pastel colour swatches/labels for the candles."
+ },
+ {
+  "window": 41,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Labelling the candle (green-screen label)."
+ },
+ {
+  "window": 42,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing boxes for shipping."
+ },
+ {
+  "window": 43,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Rows of colourful finished cups."
+ },
+ {
+  "window": 44,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Trays of candles; phone."
+ },
+ {
+  "window": 45,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packed shipping boxes."
+ },
+ {
+  "window": 46,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Rows of finished candles."
+ },
+ {
+  "window": 47,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Shipping boxes / fulfilment."
+ },
+ {
+  "window": 48,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "Motivational text overlay over shipping boxes ('don't give up on your dream')."
+ },
+ {
+  "window": 49,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Shipping boxes; maker vlog selfie."
+ },
+ {
+  "window": 50,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "Motivational text overlay."
+ },
+ {
+  "window": 51,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Maker (cap) talks in the room."
+ },
+ {
+  "window": 52,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Follow me on instagram @earthglowofficial' outro."
+ },
+ {
+  "window": 53,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 54,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 55,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 56,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

@@ -1,0 +1,641 @@
+{
+  "video_id": "K7UxM5B0FdM",
+  "title": "Making Scented Candles using Coconut Soy Wax | DIY Candle-making | Direct Candle Supply",
+  "url": "https://www.youtube.com/watch?v=K7UxM5B0FdM",
+  "duration": 264.0,
+  "source": "storyboard",
+  "n_windows": 33,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.0,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (black tee) opens in a modern kitchen for a coconut-soy candle build.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.0,
+      "end": 16.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.0,
+      "end": 24.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.0,
+      "end": 32.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.0,
+      "end": 40.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.0,
+      "end": 48.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "On-screen title/graphic.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.0,
+      "end": 56.0,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host sets up the double-boiler on the induction hob.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.0,
+      "end": 64.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks at the bench.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.0,
+      "end": 72.0,
+      "label": "talking_head",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "White wax in a bowl; host portions it.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.0,
+      "end": 80.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.0,
+      "end": 88.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.0,
+      "end": 96.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; supplies on the bench.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.0,
+      "end": 104.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; 'SPARKLE' caption.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.0,
+      "end": 112.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.0,
+      "end": 120.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting pot on the hob; host intercut.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 120.0,
+      "end": 128.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting in the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 128.0,
+      "end": 136.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 136.0,
+      "end": 144.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.0,
+      "end": 152.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 152.0,
+      "end": 160.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 160.0,
+      "end": 168.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 168.0,
+      "end": 176.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pot of wax on the induction hob.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 176.0,
+      "end": 184.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal pot melting the coconut-soy wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 184.0,
+      "end": 192.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax poured from the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 192.0,
+      "end": 200.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host with pots; hands at the bench with cups.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 200.0,
+      "end": 208.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax poured into a cup on the board.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 208.0,
+      "end": 216.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks; melting pot in frame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 27,
+      "start": 216.0,
+      "end": 224.0,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands work the candle on the board; DirectCandleSupply.com card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 224.0,
+      "end": 232.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'find us on' social end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 232.0,
+      "end": 240.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'DIRECT CANDLE SUPPLY' logo card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 240.0,
+      "end": 248.0,
+      "label": "outro_cta",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 248.0,
+      "end": 256.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'DIRECT CANDLE SUPPLY' logo card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 256.0,
+      "end": 264.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.0,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.0,
+      "end": 40.0,
+      "confidence": 0.6,
+      "windows": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 40.0,
+      "end": 48.0,
+      "confidence": 0.4,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 48.0,
+      "end": 56.0,
+      "confidence": 0.45,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 56.0,
+      "end": 112.0,
+      "confidence": 0.57,
+      "windows": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 112.0,
+      "end": 128.0,
+      "confidence": 0.55,
+      "windows": [
+        14,
+        15
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 128.0,
+      "end": 168.0,
+      "confidence": 0.6,
+      "windows": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 168.0,
+      "end": 184.0,
+      "confidence": 0.55,
+      "windows": [
+        21,
+        22
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 184.0,
+      "end": 208.0,
+      "confidence": 0.54,
+      "windows": [
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 208.0,
+      "end": 216.0,
+      "confidence": 0.5,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 216.0,
+      "end": 224.0,
+      "confidence": 0.45,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 224.0,
+      "end": 256.0,
+      "confidence": 0.52,
+      "windows": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 256.0,
+      "end": 264.0,
+      "confidence": 0.4,
+      "windows": [
+        32
+      ]
+    }
+  ]
+}

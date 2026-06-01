@@ -1,0 +1,61 @@
+{
+ "video_id": "JrRekRMu7bQ",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 1,
+   "start_s": 8.0,
+   "end_s": 16.0,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 2,
+   "start_s": 16.0,
+   "end_s": 24.0,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 41,
+   "start_s": 328.0,
+   "end_s": 336.0,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 42,
+   "start_s": 336.0,
+   "end_s": 344.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 43,
+   "start_s": 344.0,
+   "end_s": 352.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 44,
+   "start_s": 352.0,
+   "end_s": 360.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 45,
+   "start_s": 360.0,
+   "end_s": 368.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  }
+ ]
+}

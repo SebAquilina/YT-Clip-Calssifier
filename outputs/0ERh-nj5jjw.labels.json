@@ -1,0 +1,122 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.8,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Host opens in a bright studio with candle shelves."
+ },
+ {
+  "window": 1,
+  "start": 7.8,
+  "end": 15.6,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "start": 15.6,
+  "end": 23.4,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Overhead black candle tins/jars."
+ },
+ {
+  "window": 3,
+  "start": 23.4,
+  "end": 31.2,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Jar spec product-page screenshot."
+ },
+ {
+  "window": 4,
+  "start": 31.2,
+  "end": 39.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Product spec screenshot."
+ },
+ {
+  "window": 5,
+  "start": 39.0,
+  "end": 46.8,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "start": 46.8,
+  "end": 54.6,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 7,
+  "start": 54.6,
+  "end": 62.4,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Overhead tray of black candle tins."
+ },
+ {
+  "window": 8,
+  "start": 62.4,
+  "end": 70.2,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Wax flakes portioned into the black tins."
+ },
+ {
+  "window": 9,
+  "start": 70.2,
+  "end": 78.0,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring wax; a white wax slab."
+ },
+ {
+  "window": 10,
+  "start": 78.0,
+  "end": 85.8,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Cutting/weighing a white wax slab on a scale."
+ },
+ {
+  "window": 11,
+  "start": 85.8,
+  "end": 93.6,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 12,
+  "start": 93.6,
+  "end": 101.4,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 13,
+  "start": 101.4,
+  "end": 109.2,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "start": 109.2,
+  "end": 117.0,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Black tin with measured wax/powder."
+ }
+]

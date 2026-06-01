@@ -1,0 +1,666 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.01,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vat swirling in the factory."
+ },
+ {
+  "window": 1,
+  "start": 8.01,
+  "end": 16.02,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 16.02,
+  "end": 24.04,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / warehouse / forklift b-roll."
+ },
+ {
+  "window": 3,
+  "start": 24.04,
+  "end": 32.05,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / warehouse / forklift b-roll."
+ },
+ {
+  "window": 4,
+  "start": 32.05,
+  "end": 40.06,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the candle moulds on the line."
+ },
+ {
+  "window": 5,
+  "start": 40.06,
+  "end": 48.07,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candles on the production line."
+ },
+ {
+  "window": 6,
+  "start": 48.07,
+  "end": 56.08,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vat swirling in the factory."
+ },
+ {
+  "window": 7,
+  "start": 56.08,
+  "end": 64.1,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 8,
+  "start": 64.1,
+  "end": 72.11,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/interview segment in the factory."
+ },
+ {
+  "window": 9,
+  "start": 72.11,
+  "end": 80.12,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vat swirling in the factory."
+ },
+ {
+  "window": 10,
+  "start": 80.12,
+  "end": 88.13,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 88.13,
+  "end": 96.14,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 96.14,
+  "end": 104.16,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vat swirling in the factory."
+ },
+ {
+  "window": 13,
+  "start": 104.16,
+  "end": 112.17,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the candle moulds on the line."
+ },
+ {
+  "window": 14,
+  "start": 112.17,
+  "end": 120.18,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 15,
+  "start": 120.18,
+  "end": 128.19,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vat swirling in the factory."
+ },
+ {
+  "window": 16,
+  "start": 128.19,
+  "end": 136.2,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the candle moulds on the line."
+ },
+ {
+  "window": 17,
+  "start": 136.2,
+  "end": 144.22,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 18,
+  "start": 144.22,
+  "end": 152.23,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 19,
+  "start": 152.23,
+  "end": 160.24,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / warehouse / forklift b-roll."
+ },
+ {
+  "window": 20,
+  "start": 160.24,
+  "end": 168.25,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 168.25,
+  "end": 176.27,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vat swirling in the factory."
+ },
+ {
+  "window": 22,
+  "start": 176.27,
+  "end": 184.28,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the candle moulds on the line."
+ },
+ {
+  "window": 23,
+  "start": 184.28,
+  "end": 192.29,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Factory floor / warehouse / forklift b-roll."
+ },
+ {
+  "window": 24,
+  "start": 192.29,
+  "end": 200.3,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Title card 'The Satisfying Process of Candle Making'."
+ },
+ {
+  "window": 25,
+  "start": 200.3,
+  "end": 208.31,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in the warehouse/cooling."
+ },
+ {
+  "window": 26,
+  "start": 208.31,
+  "end": 216.33,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Handling/cutting a wax block."
+ },
+ {
+  "window": 27,
+  "start": 216.33,
+  "end": 224.34,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vats/channels."
+ },
+ {
+  "window": 28,
+  "start": 224.34,
+  "end": 232.35,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in the warehouse/cooling."
+ },
+ {
+  "window": 29,
+  "start": 232.35,
+  "end": 240.36,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 30,
+  "start": 240.36,
+  "end": 248.37,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 31,
+  "start": 248.37,
+  "end": 256.39,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 32,
+  "start": 256.39,
+  "end": 264.4,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vats/channels."
+ },
+ {
+  "window": 33,
+  "start": 264.4,
+  "end": 272.41,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 34,
+  "start": 272.41,
+  "end": 280.42,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Decorating/assembling/finishing a candle or box."
+ },
+ {
+  "window": 35,
+  "start": 280.42,
+  "end": 288.43,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/interview segment."
+ },
+ {
+  "window": 36,
+  "start": 288.43,
+  "end": 296.45,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 37,
+  "start": 296.45,
+  "end": 304.46,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Decorating/assembling/finishing a candle or box."
+ },
+ {
+  "window": 38,
+  "start": 304.46,
+  "end": 312.47,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Handling/cutting a wax block."
+ },
+ {
+  "window": 39,
+  "start": 312.47,
+  "end": 320.48,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 40,
+  "start": 320.48,
+  "end": 328.49,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 41,
+  "start": 328.49,
+  "end": 336.51,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 42,
+  "start": 336.51,
+  "end": 344.52,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vats/channels."
+ },
+ {
+  "window": 43,
+  "start": 344.52,
+  "end": 352.53,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vats/channels."
+ },
+ {
+  "window": 44,
+  "start": 352.53,
+  "end": 360.54,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 45,
+  "start": 360.54,
+  "end": 368.55,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 46,
+  "start": 368.55,
+  "end": 376.57,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/interview segment."
+ },
+ {
+  "window": 47,
+  "start": 376.57,
+  "end": 384.58,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/interview segment."
+ },
+ {
+  "window": 48,
+  "start": 384.58,
+  "end": 392.59,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 49,
+  "start": 392.59,
+  "end": 400.6,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Decorating/assembling/finishing a candle or box."
+ },
+ {
+  "window": 50,
+  "start": 400.6,
+  "end": 408.61,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 51,
+  "start": 408.61,
+  "end": 416.63,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/interview segment."
+ },
+ {
+  "window": 52,
+  "start": 416.63,
+  "end": 424.64,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 53,
+  "start": 424.64,
+  "end": 432.65,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 54,
+  "start": 432.65,
+  "end": 440.66,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 55,
+  "start": 440.66,
+  "end": 448.67,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/interview segment."
+ },
+ {
+  "window": 56,
+  "start": 448.67,
+  "end": 456.69,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 57,
+  "start": 456.69,
+  "end": 464.7,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "Rows of candles in the warehouse/cooling."
+ },
+ {
+  "window": 58,
+  "start": 464.7,
+  "end": 472.71,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax vats/channels."
+ },
+ {
+  "window": 59,
+  "start": 472.71,
+  "end": 480.72,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 60,
+  "start": 480.72,
+  "end": 488.73,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wicks in the candles."
+ },
+ {
+  "window": 61,
+  "start": 488.73,
+  "end": 496.75,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting wicks in the candles."
+ },
+ {
+  "window": 62,
+  "start": 496.75,
+  "end": 504.76,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 63,
+  "start": 504.76,
+  "end": 512.77,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 64,
+  "start": 512.77,
+  "end": 520.78,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 65,
+  "start": 520.78,
+  "end": 528.8,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Handling/cutting a wax block."
+ },
+ {
+  "window": 66,
+  "start": 528.8,
+  "end": 536.81,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 67,
+  "start": 536.81,
+  "end": 544.82,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 68,
+  "start": 544.82,
+  "end": 552.83,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 69,
+  "start": 552.83,
+  "end": 560.84,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 70,
+  "start": 560.84,
+  "end": 568.86,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 71,
+  "start": 568.86,
+  "end": 576.87,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 72,
+  "start": 576.87,
+  "end": 584.88,
+  "label": "talking_head",
+  "confidence": 0.45,
+  "description": "Worker/interview segment."
+ },
+ {
+  "window": 73,
+  "start": 584.88,
+  "end": 592.89,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into moulds on the line."
+ },
+ {
+  "window": 74,
+  "start": 592.89,
+  "end": 600.9,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Decorating/assembling/finishing a candle or box."
+ },
+ {
+  "window": 75,
+  "start": 600.9,
+  "end": 608.92,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 76,
+  "start": 608.92,
+  "end": 616.93,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 77,
+  "start": 616.93,
+  "end": 624.94,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 78,
+  "start": 624.94,
+  "end": 632.95,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Decorating/assembling/finishing a candle or box."
+ },
+ {
+  "window": 79,
+  "start": 632.95,
+  "end": 640.96,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 80,
+  "start": 640.96,
+  "end": 648.98,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "Factory/warehouse/logistics b-roll."
+ },
+ {
+  "window": 81,
+  "start": 648.98,
+  "end": 656.99,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ },
+ {
+  "window": 82,
+  "start": 656.99,
+  "end": 665.0,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles shown (beauty/aerial)."
+ }
+]

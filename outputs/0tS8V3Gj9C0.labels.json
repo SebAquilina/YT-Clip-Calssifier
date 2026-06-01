@@ -1,0 +1,850 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.97,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "Vlog intro card."
+ },
+ {
+  "window": 1,
+  "start": 7.97,
+  "end": 15.94,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 15.94,
+  "end": 23.92,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 23.92,
+  "end": 31.89,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 4,
+  "start": 31.89,
+  "end": 39.86,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 39.86,
+  "end": 47.83,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 47.83,
+  "end": 55.8,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 55.8,
+  "end": 63.77,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 8,
+  "start": 63.77,
+  "end": 71.75,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Shelves of finished candles shown."
+ },
+ {
+  "window": 9,
+  "start": 71.75,
+  "end": 79.72,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Shelves of finished candles shown."
+ },
+ {
+  "window": 10,
+  "start": 79.72,
+  "end": 87.69,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 87.69,
+  "end": 95.66,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera (making 1000 candles, batch vlog)."
+ },
+ {
+  "window": 12,
+  "start": 95.66,
+  "end": 103.63,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 103.63,
+  "end": 111.6,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 111.6,
+  "end": 119.58,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 119.58,
+  "end": 127.55,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 127.55,
+  "end": 135.52,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Pad? co eha tia nite ail nl pF'."
+ },
+ {
+  "window": 17,
+  "start": 135.52,
+  "end": 143.49,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 143.49,
+  "end": 151.46,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera (making 1000 candles, batch vlog)."
+ },
+ {
+  "window": 19,
+  "start": 151.46,
+  "end": 159.43,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera (making 1000 candles, batch vlog)."
+ },
+ {
+  "window": 20,
+  "start": 159.43,
+  "end": 167.41,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 167.41,
+  "end": 175.38,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera (making 1000 candles, batch vlog)."
+ },
+ {
+  "window": 22,
+  "start": 175.38,
+  "end": 183.35,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 23,
+  "start": 183.35,
+  "end": 191.32,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks to camera (making 1000 candles, batch vlog)."
+ },
+ {
+  "window": 24,
+  "start": 191.32,
+  "end": 199.29,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 25,
+  "start": 199.29,
+  "end": 207.26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 26,
+  "start": 207.26,
+  "end": 215.24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 27,
+  "start": 215.24,
+  "end": 223.21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 28,
+  "start": 223.21,
+  "end": 231.18,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 29,
+  "start": 231.18,
+  "end": 239.15,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 30,
+  "start": 239.15,
+  "end": 247.12,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Shelves of finished candles shown."
+ },
+ {
+  "window": 31,
+  "start": 247.12,
+  "end": 255.09,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Shelves of finished candles shown."
+ },
+ {
+  "window": 32,
+  "start": 255.09,
+  "end": 263.07,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 33,
+  "start": 263.07,
+  "end": 271.04,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working the rows of candles (filling/labelling)."
+ },
+ {
+  "window": 34,
+  "start": 271.04,
+  "end": 279.01,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working the rows of candles (filling/labelling)."
+ },
+ {
+  "window": 35,
+  "start": 279.01,
+  "end": 286.98,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 36,
+  "start": 286.98,
+  "end": 294.95,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 37,
+  "start": 294.95,
+  "end": 302.92,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 38,
+  "start": 302.92,
+  "end": 310.9,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 39,
+  "start": 310.9,
+  "end": 318.87,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 40,
+  "start": 318.87,
+  "end": 326.84,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working the rows of candles (filling/labelling)."
+ },
+ {
+  "window": 41,
+  "start": 326.84,
+  "end": 334.81,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 42,
+  "start": 334.81,
+  "end": 342.78,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 43,
+  "start": 342.78,
+  "end": 350.75,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 44,
+  "start": 350.75,
+  "end": 358.73,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 45,
+  "start": 358.73,
+  "end": 366.7,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 46,
+  "start": 366.7,
+  "end": 374.67,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 47,
+  "start": 374.67,
+  "end": 382.64,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 48,
+  "start": 382.64,
+  "end": 390.61,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 49,
+  "start": 390.61,
+  "end": 398.58,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 50,
+  "start": 398.58,
+  "end": 406.56,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 51,
+  "start": 406.56,
+  "end": 414.53,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 52,
+  "start": 414.53,
+  "end": 422.5,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 53,
+  "start": 422.5,
+  "end": 430.47,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 54,
+  "start": 430.47,
+  "end": 438.44,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 55,
+  "start": 438.44,
+  "end": 446.42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 56,
+  "start": 446.42,
+  "end": 454.39,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 57,
+  "start": 454.39,
+  "end": 462.36,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 58,
+  "start": 462.36,
+  "end": 470.33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 59,
+  "start": 470.33,
+  "end": 478.3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 60,
+  "start": 478.3,
+  "end": 486.27,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 61,
+  "start": 486.27,
+  "end": 494.25,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 62,
+  "start": 494.25,
+  "end": 502.22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 63,
+  "start": 502.22,
+  "end": 510.19,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 64,
+  "start": 510.19,
+  "end": 518.16,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 65,
+  "start": 518.16,
+  "end": 526.13,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 66,
+  "start": 526.13,
+  "end": 534.1,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 67,
+  "start": 534.1,
+  "end": 542.08,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 68,
+  "start": 542.08,
+  "end": 550.05,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 69,
+  "start": 550.05,
+  "end": 558.02,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 70,
+  "start": 558.02,
+  "end": 565.99,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 71,
+  "start": 565.99,
+  "end": 573.96,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 72,
+  "start": 573.96,
+  "end": 581.93,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 73,
+  "start": 581.93,
+  "end": 589.91,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 74,
+  "start": 589.91,
+  "end": 597.88,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 75,
+  "start": 597.88,
+  "end": 605.85,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 76,
+  "start": 605.85,
+  "end": 613.82,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 77,
+  "start": 613.82,
+  "end": 621.79,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 78,
+  "start": 621.79,
+  "end": 629.76,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 79,
+  "start": 629.76,
+  "end": 637.74,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 80,
+  "start": 637.74,
+  "end": 645.71,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working the rows of candles (filling/labelling)."
+ },
+ {
+  "window": 81,
+  "start": 645.71,
+  "end": 653.68,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 82,
+  "start": 653.68,
+  "end": 661.65,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 83,
+  "start": 661.65,
+  "end": 669.62,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 84,
+  "start": 669.62,
+  "end": 677.59,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working the rows of candles (filling/labelling)."
+ },
+ {
+  "window": 85,
+  "start": 677.59,
+  "end": 685.57,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 86,
+  "start": 685.57,
+  "end": 693.54,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 87,
+  "start": 693.54,
+  "end": 701.51,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 88,
+  "start": 701.51,
+  "end": 709.48,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working the rows of candles (filling/labelling)."
+ },
+ {
+  "window": 89,
+  "start": 709.48,
+  "end": 717.45,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 90,
+  "start": 717.45,
+  "end": 725.42,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 91,
+  "start": 725.42,
+  "end": 733.4,
+  "label": "cure_cool",
+  "confidence": 0.5,
+  "description": "Overhead rows of candle jars setting on the shelves."
+ },
+ {
+  "window": 92,
+  "start": 733.4,
+  "end": 741.37,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Working the rows of candles (filling/labelling)."
+ },
+ {
+  "window": 93,
+  "start": 741.37,
+  "end": 749.34,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (batch-of-1000 vlog)."
+ },
+ {
+  "window": 94,
+  "start": 749.34,
+  "end": 757.31,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 95,
+  "start": 757.31,
+  "end": 765.28,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 96,
+  "start": 765.28,
+  "end": 773.25,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 97,
+  "start": 773.25,
+  "end": 781.23,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 98,
+  "start": 781.23,
+  "end": 789.2,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 99,
+  "start": 789.2,
+  "end": 797.17,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 100,
+  "start": 797.17,
+  "end": 805.14,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 101,
+  "start": 805.14,
+  "end": 813.11,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "City / outdoor market / thrift b-roll."
+ },
+ {
+  "window": 102,
+  "start": 813.11,
+  "end": 821.08,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla \u2014 like, comment & subscribe' end card."
+ },
+ {
+  "window": 103,
+  "start": 821.08,
+  "end": 829.06,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla \u2014 like, comment & subscribe' end card."
+ },
+ {
+  "window": 104,
+  "start": 829.06,
+  "end": 837.03,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla \u2014 like, comment & subscribe' end card."
+ },
+ {
+  "window": 105,
+  "start": 837.03,
+  "end": 845.0,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "'From Kayla \u2014 like, comment & subscribe' end card."
+ }
+]

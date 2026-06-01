@@ -1,0 +1,482 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.05,
+  "label": "intro_titlecard",
+  "confidence": 0.4,
+  "description": "'Boss Vision' weekly business vlog intro."
+ },
+ {
+  "window": 1,
+  "start": 8.05,
+  "end": 16.1,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Pa SUBSCRIBE ted ne ats BOSS VISION 9 2 PVERY TINY, YOUNEDD TOK NOW AnCIT ae MAKING CANDLES fh seontnohinion cacy condic masihnos Gf'."
+ },
+ {
+  "window": 2,
+  "start": 16.1,
+  "end": 24.15,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 3,
+  "start": 24.15,
+  "end": 32.2,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 4,
+  "start": 32.2,
+  "end": 40.25,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 5,
+  "start": 40.25,
+  "end": 48.3,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 6,
+  "start": 48.3,
+  "end": 56.35,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 7,
+  "start": 56.35,
+  "end": 64.4,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 8,
+  "start": 64.4,
+  "end": 72.45,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 9,
+  "start": 72.45,
+  "end": 80.5,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Clear glass vessels prepped with wicks (multi-wick)."
+ },
+ {
+  "window": 10,
+  "start": 80.5,
+  "end": 88.55,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter; melting wax."
+ },
+ {
+  "window": 11,
+  "start": 88.55,
+  "end": 96.6,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring amber wax into the glasses (orange wick bars)."
+ },
+ {
+  "window": 12,
+  "start": 96.6,
+  "end": 104.65,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring amber wax into the glasses (orange wick bars)."
+ },
+ {
+  "window": 13,
+  "start": 104.65,
+  "end": 112.7,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring amber wax into the glasses (orange wick bars)."
+ },
+ {
+  "window": 14,
+  "start": 112.7,
+  "end": 120.75,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring amber wax into the glasses (orange wick bars)."
+ },
+ {
+  "window": 15,
+  "start": 120.75,
+  "end": 128.8,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring amber wax into the glasses (orange wick bars)."
+ },
+ {
+  "window": 16,
+  "start": 128.8,
+  "end": 136.85,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring amber wax into the glasses (orange wick bars)."
+ },
+ {
+  "window": 17,
+  "start": 136.85,
+  "end": 144.9,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop label-design screen ('Whipped Santal Musk')."
+ },
+ {
+  "window": 18,
+  "start": 144.9,
+  "end": 152.95,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ie Ser EET 2 WHIPPED Bo SANTAL MUSK oo re Ee 2 ee'."
+ },
+ {
+  "window": 19,
+  "start": 152.95,
+  "end": 161.0,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop label-design screen ('Whipped Santal Musk')."
+ },
+ {
+  "window": 20,
+  "start": 161.0,
+  "end": 169.05,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop label-design screen ('Whipped Santal Musk')."
+ },
+ {
+  "window": 21,
+  "start": 169.05,
+  "end": 177.1,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring wicks with the orange wick bars."
+ },
+ {
+  "window": 22,
+  "start": 177.1,
+  "end": 185.15,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 23,
+  "start": 185.15,
+  "end": 193.2,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Setting/centring wicks with the orange wick bars."
+ },
+ {
+  "window": 24,
+  "start": 193.2,
+  "end": 201.25,
+  "label": "trim_wick",
+  "confidence": 0.5,
+  "description": "Trimming the multi-wicks on the candle."
+ },
+ {
+  "window": 25,
+  "start": 201.25,
+  "end": 209.3,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 26,
+  "start": 209.3,
+  "end": 217.35,
+  "label": "trim_wick",
+  "confidence": 0.5,
+  "description": "Trimming the multi-wicks on the candle."
+ },
+ {
+  "window": 27,
+  "start": 217.35,
+  "end": 225.4,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 28,
+  "start": 225.4,
+  "end": 233.45,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 29,
+  "start": 233.45,
+  "end": 241.5,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
+ },
+ {
+  "window": 30,
+  "start": 241.5,
+  "end": 249.55,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
+ },
+ {
+  "window": 31,
+  "start": 249.55,
+  "end": 257.6,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
+ },
+ {
+  "window": 32,
+  "start": 257.6,
+  "end": 265.65,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 33,
+  "start": 265.65,
+  "end": 273.7,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 34,
+  "start": 273.7,
+  "end": 281.75,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 35,
+  "start": 281.75,
+  "end": 289.8,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 36,
+  "start": 289.8,
+  "end": 297.85,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 37,
+  "start": 297.85,
+  "end": 305.9,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 38,
+  "start": 305.9,
+  "end": 313.95,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 39,
+  "start": 313.95,
+  "end": 322.0,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 40,
+  "start": 322.0,
+  "end": 330.05,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 41,
+  "start": 330.05,
+  "end": 338.1,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 42,
+  "start": 338.1,
+  "end": 346.15,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 43,
+  "start": 346.15,
+  "end": 354.2,
+  "label": "transition",
+  "confidence": 0.6,
+  "description": "Laptop label-design / brand screens."
+ },
+ {
+  "window": 44,
+  "start": 354.2,
+  "end": 362.25,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 45,
+  "start": 362.25,
+  "end": 370.3,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 46,
+  "start": 370.3,
+  "end": 378.35,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 47,
+  "start": 378.35,
+  "end": 386.4,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 48,
+  "start": 386.4,
+  "end": 394.45,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Torch-finishing & labelling the candle."
+ },
+ {
+  "window": 49,
+  "start": 394.45,
+  "end": 402.5,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
+ },
+ {
+  "window": 50,
+  "start": 402.5,
+  "end": 410.55,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
+ },
+ {
+  "window": 51,
+  "start": 410.55,
+  "end": 418.6,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
+ },
+ {
+  "window": 52,
+  "start": 418.6,
+  "end": 426.65,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished 'Whipped Santal Musk' candle (with roses) shown."
+ },
+ {
+  "window": 53,
+  "start": 426.65,
+  "end": 434.7,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "Boss Vision subscribe card."
+ },
+ {
+  "window": 54,
+  "start": 434.7,
+  "end": 442.75,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
+ },
+ {
+  "window": 55,
+  "start": 442.75,
+  "end": 450.8,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
+ },
+ {
+  "window": 56,
+  "start": 450.8,
+  "end": 458.85,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
+ },
+ {
+  "window": 57,
+  "start": 458.85,
+  "end": 466.9,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
+ },
+ {
+  "window": 58,
+  "start": 466.9,
+  "end": 474.95,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
+ },
+ {
+  "window": 59,
+  "start": 474.95,
+  "end": 483.0,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty/blank end frame."
+ }
+]

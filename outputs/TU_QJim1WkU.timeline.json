@@ -1,0 +1,254 @@
+{
+  "video_id": "TU_QJim1WkU",
+  "title": "How to make artisan candle | Full tutorial | geometry | feather palm wax | DIY Craft | handmade",
+  "url": "https://www.youtube.com/watch?v=TU_QJim1WkU",
+  "duration": 97.0,
+  "source": "storyboard",
+  "n_windows": 12,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.08,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'How to Make Artisan Candle' title; a clear faceted diamond mould.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.08,
+      "end": 16.17,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "The clear faceted mould is prepared; a wick stick set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.17,
+      "end": 24.25,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "'candle making tutorial' caption; wax melting in a double boiler.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.25,
+      "end": 32.33,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with chopsticks and trays of coloured sand/wax beside the mould.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.33,
+      "end": 40.42,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Layering coloured sand into the diamond mould with chopsticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.42,
+      "end": 48.5,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding more coloured sand layers into the mould.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.5,
+      "end": 56.58,
+      "label": "decorate_finish",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear gel wax poured into the faceted mould.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.58,
+      "end": 64.67,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Demoulding: peeling the clear mould off the candle; a ladle nearby.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.67,
+      "end": 72.75,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Handling the clear faceted pyramid candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.75,
+      "end": 80.83,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The grey/clear pyramid candle on a board.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.83,
+      "end": 88.92,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The faceted diamond candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.92,
+      "end": 97.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished faceted pyramid candle on a holder; 'Earthy Craft'.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.08,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.08,
+      "end": 16.17,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 16.17,
+      "end": 24.25,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 24.25,
+      "end": 32.33,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 32.33,
+      "end": 72.75,
+      "confidence": 0.52,
+      "windows": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 72.75,
+      "end": 97.0,
+      "confidence": 0.52,
+      "windows": [
+        9,
+        10,
+        11
+      ]
+    }
+  ]
+}

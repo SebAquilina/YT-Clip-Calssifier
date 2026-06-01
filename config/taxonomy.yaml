@@ -1,0 +1,168 @@
+# =============================================================================
+# Candle DIY action taxonomy
+# -----------------------------------------------------------------------------
+# This file is the "classification scheme" the system decides on. Each label is
+# a procedure step (or auxiliary category) that can occur in a 5-10s window of a
+# candle-making video.
+#
+# The schema is deliberately split into PHASES so it generalises to other DIY
+# domains (soap, resin, baking): the middle "process" phase swaps out per domain
+# while gather / assemble / cure / reveal stay the same. See `generalization` in
+# rules.yaml.
+#
+# Fields per label:
+#   phase            coarse grouping (intro|prep|process|assemble|finish|aux)
+#   description      human-readable definition
+#   visual_cues      concrete things visible on screen -> fed to the vision model
+#   typical_position where in the video this usually appears, 0.0=start 1.0=end
+#   typical_duration seconds this step usually lasts on screen (priors only)
+#   is_step          true for real procedure steps, false for auxiliary content
+# =============================================================================
+
+version: 1
+domain: candle_diy
+
+labels:
+  intro_titlecard:
+    phase: intro
+    description: Opening title card, channel branding, or host introducing the project to camera before any hands-on work.
+    visual_cues: [title text on screen, host talking to camera, channel logo, overview of the finished candle as a teaser]
+    typical_position: 0.03
+    typical_duration: 7
+    is_step: false
+
+  gather_materials:
+    phase: prep
+    description: Showing or laying out the supplies and tools that will be used.
+    visual_cues: [bags of wax flakes, wicks, glass jars/tins lined up, fragrance oil bottles, dye chips, thermometer, scale, pouring pitcher arranged on a table]
+    typical_position: 0.10
+    typical_duration: 8
+    is_step: true
+
+  prepare_container:
+    phase: prep
+    description: Preparing the vessel - cleaning the jar and fixing the wick to the base with a glue dot / wick sticker, then centering it.
+    visual_cues: [hand pressing a wick into the bottom of a glass/tin, wick sticker or hot glue, empty jar, centering the wick]
+    typical_position: 0.18
+    typical_duration: 8
+    is_step: true
+
+  measure_wax:
+    phase: prep
+    description: Weighing or measuring wax flakes into a pouring pot or pitcher.
+    visual_cues: [wax flakes poured into a metal pitcher, kitchen scale with a jug on it, measuring cup of white/cream flakes]
+    typical_position: 0.28
+    typical_duration: 8
+    is_step: true
+
+  melt_wax:
+    phase: process
+    description: Heating the wax - double boiler or melting pot on a stove, wax going from flakes to clear liquid, stirring as it melts.
+    visual_cues: [metal pitcher inside a pot of water, wax flakes melting on heat, stirring a pot of cloudy/clear liquid, stovetop or hot plate]
+    typical_position: 0.38
+    typical_duration: 9
+    is_step: true
+
+  monitor_temperature:
+    phase: process
+    description: Checking the wax temperature with a thermometer before adding fragrance or pouring.
+    visual_cues: [thermometer probe in liquid wax, close-up of a temperature reading, digital/dial thermometer]
+    typical_position: 0.48
+    typical_duration: 6
+    is_step: true
+
+  add_fragrance:
+    phase: process
+    description: Adding fragrance or essential oil to the melted wax and stirring it in.
+    visual_cues: [pouring oil from a small bottle into liquid wax, measuring oil, stirring fragrance into the pot]
+    typical_position: 0.55
+    typical_duration: 8
+    is_step: true
+
+  add_dye_color:
+    phase: process
+    description: Adding colour (dye chips, liquid dye, crayon) to the melted wax and stirring until uniform.
+    visual_cues: [dropping dye chips into liquid wax, colour swirling into white wax, stirring in pigment]
+    typical_position: 0.58
+    typical_duration: 7
+    is_step: true
+
+  pour_wax:
+    phase: assemble
+    description: Pouring the melted wax from the pitcher into the prepared container.
+    visual_cues: [stream of liquid wax falling into a glass jar, tilting a pitcher over a vessel, jar filling with cream/coloured liquid]
+    typical_position: 0.70
+    typical_duration: 7
+    is_step: true
+
+  set_wick:
+    phase: assemble
+    description: Centering and securing the wick after the pour so it stays upright while setting.
+    visual_cues: [wick held by a clothespin / pencil / wick bar laid across the jar rim, adjusting wick to center of poured wax]
+    typical_position: 0.76
+    typical_duration: 7
+    is_step: true
+
+  cure_cool:
+    phase: assemble
+    description: Letting the candle cool and solidify - often a time-lapse or a caption saying to wait/cure.
+    visual_cues: [candle sitting untouched, wax turning from translucent to opaque, let-it-cure or wait-24-hours caption, time-lapse of solidifying]
+    typical_position: 0.84
+    typical_duration: 9
+    is_step: true
+
+  trim_wick:
+    phase: finish
+    description: Trimming the wick to the correct length on the set candle.
+    visual_cues: [scissors or wick trimmer cutting the wick down, fingers holding the wick over a finished candle]
+    typical_position: 0.90
+    typical_duration: 6
+    is_step: true
+
+  decorate_finish:
+    phase: finish
+    description: Final touches - labels, lids, ribbon, cleaning the glass.
+    visual_cues: [sticking a label on a jar, putting a lid on, tying ribbon, wiping the outside of the glass]
+    typical_position: 0.92
+    typical_duration: 7
+    is_step: true
+
+  reveal_result:
+    phase: finish
+    description: Presenting the finished candle - beauty shot, the candle lit, showing the result.
+    visual_cues: [finished candle held to camera, candle flame lit, glamour shot of the product, before/after]
+    typical_position: 0.95
+    typical_duration: 7
+    is_step: true
+
+  outro_cta:
+    phase: aux
+    description: Outro - subscribe call to action, end card, thanks for watching.
+    visual_cues: [subscribe text or animation, end-screen video thumbnails, host waving goodbye]
+    typical_position: 0.98
+    typical_duration: 7
+    is_step: false
+
+  talking_head:
+    phase: aux
+    description: Host talking to camera with no hands-on action visible (explaining, tips).
+    visual_cues: [person facing camera, no materials being handled, mid-shot of a presenter]
+    typical_position: 0.50
+    typical_duration: 7
+    is_step: false
+
+  transition:
+    phase: aux
+    description: A cut, b-roll, or text-only card that carries no procedure action.
+    visual_cues: [text-only slide, abstract b-roll, brand bumper, blank/black frame]
+    typical_position: 0.50
+    typical_duration: 5
+    is_step: false
+
+  other_unclear:
+    phase: aux
+    description: Content that cannot be confidently classified or is unrelated to candle making.
+    visual_cues: [unclear / blurry frame, off-topic footage, ambiguous hands]
+    typical_position: 0.50
+    typical_duration: 6
+    is_step: false

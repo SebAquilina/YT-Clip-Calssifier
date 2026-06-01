@@ -1,0 +1,304 @@
+{
+  "video_id": "oMSta9suaQ8",
+  "title": "How to make marble candles // Marble candle tutorial // DIY marbled candles",
+  "url": "https://www.youtube.com/watch?v=oMSta9suaQ8",
+  "duration": 115.0,
+  "source": "storyboard",
+  "n_windows": 14,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.21,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Opens from black to a host at a pegboard studio with a blue marbled candle teased alongside.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.21,
+      "end": 16.43,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera; close-up of the blue-swirl marble candle as a preview.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.43,
+      "end": 24.64,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host talks, then overhead view of small glass dishes and supplies on the bench.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.64,
+      "end": 32.86,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead: wax poured from a metal pitcher into dishes with blue dye to make the marble colour.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.86,
+      "end": 41.07,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blue tinted wax in a dish, mixed by hand.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 41.07,
+      "end": 49.29,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands tilt and rotate a glass, swirling blue wax around the inside to create the marble pattern.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 49.29,
+      "end": 57.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Continued swirling/tilting of the glass to marble the blue wax up the walls.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 57.5,
+      "end": 65.71,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host reacts, then overhead pouring from the metal pitcher; a timer is shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.71,
+      "end": 73.93,
+      "label": "pour_wax",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The marbled glass rests with a timer to let the pattern set before the fill.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 73.93,
+      "end": 82.14,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear/white wax poured into the marbled glass over a centring stick to fill it.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 82.14,
+      "end": 90.36,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The fill wax rises in the marbled glass; host reacts to the result.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 90.36,
+      "end": 98.57,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.65,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Two finished blue-marble candles shown lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 98.57,
+      "end": 106.79,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host wraps up at the pegboard.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 106.79,
+      "end": 115.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'THANKS FOR WATCHING / SUBSCRIBE' end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.21,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.21,
+      "end": 16.43,
+      "confidence": 0.55,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 16.43,
+      "end": 24.64,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 24.64,
+      "end": 41.07,
+      "confidence": 0.5,
+      "windows": [
+        3,
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 41.07,
+      "end": 90.36,
+      "confidence": 0.54,
+      "windows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 90.36,
+      "end": 98.57,
+      "confidence": 0.65,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 98.57,
+      "end": 106.79,
+      "confidence": 0.55,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 106.79,
+      "end": 115.0,
+      "confidence": 0.6,
+      "windows": [
+        13
+      ]
+    }
+  ]
+}

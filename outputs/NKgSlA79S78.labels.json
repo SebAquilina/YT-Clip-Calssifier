@@ -1,0 +1,326 @@
+[
+ {
+  "window": 0,
+  "label": "gather_materials",
+  "confidence": 0.5,
+  "description": "A honeycomb beeswax sheet laid out on the table."
+ },
+ {
+  "window": 1,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Trimming the beeswax sheet and placing the wick along the edge."
+ },
+ {
+  "window": 2,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "Wick set along the edge of the beeswax sheet."
+ },
+ {
+  "window": 3,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 4,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 5,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 6,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 7,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 8,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 9,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 10,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 11,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 12,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 13,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 14,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 15,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 16,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 17,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 18,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 19,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling the warm beeswax sheet around the wick to form the candle."
+ },
+ {
+  "window": 20,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "A finished rolled beeswax candle on the board."
+ },
+ {
+  "window": 21,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Rolled beeswax candle shown."
+ },
+ {
+  "window": 22,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Another beeswax sheet readied."
+ },
+ {
+  "window": 23,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Wick placed on the next beeswax sheet."
+ },
+ {
+  "window": 24,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 25,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 26,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 27,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 28,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 29,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 30,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 31,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 32,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 33,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 34,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 35,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 36,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 37,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 38,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 39,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 40,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 41,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 42,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 43,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Rolling a beeswax sheet into a candle."
+ },
+ {
+  "window": 44,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Maker talks to camera about the rolled candles."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Maker talks to camera about the rolled candles."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Maker talks to camera about the rolled candles."
+ },
+ {
+  "window": 47,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Maker talks to camera about the rolled candles."
+ },
+ {
+  "window": 48,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 49,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 50,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 51,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 52,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 53,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

@@ -1,0 +1,346 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.93,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.93,
+  "end": 15.86,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 2,
+  "start": 15.86,
+  "end": 23.79,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 3,
+  "start": 23.79,
+  "end": 31.72,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 4,
+  "start": 31.72,
+  "end": 39.65,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 5,
+  "start": 39.65,
+  "end": 47.58,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 6,
+  "start": 47.58,
+  "end": 55.51,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 7,
+  "start": 55.51,
+  "end": 63.44,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 8,
+  "start": 63.44,
+  "end": 71.37,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 9,
+  "start": 71.37,
+  "end": 79.3,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 10,
+  "start": 79.3,
+  "end": 87.23,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 11,
+  "start": 87.23,
+  "end": 95.16,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 12,
+  "start": 95.16,
+  "end": 103.09,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 13,
+  "start": 103.09,
+  "end": 111.02,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 14,
+  "start": 111.02,
+  "end": 118.95,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 15,
+  "start": 118.95,
+  "end": 126.88,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Making a Jesmonite vessel (mixing, pouring into moulds, demoulding)."
+ },
+ {
+  "window": 16,
+  "start": 126.88,
+  "end": 134.81,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 17,
+  "start": 134.81,
+  "end": 142.74,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 18,
+  "start": 142.74,
+  "end": 150.67,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 19,
+  "start": 150.67,
+  "end": 158.6,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 20,
+  "start": 158.6,
+  "end": 166.53,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 21,
+  "start": 166.53,
+  "end": 174.47,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 22,
+  "start": 174.47,
+  "end": 182.4,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 23,
+  "start": 182.4,
+  "end": 190.33,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 24,
+  "start": 190.33,
+  "end": 198.26,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 25,
+  "start": 198.26,
+  "end": 206.19,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 26,
+  "start": 206.19,
+  "end": 214.12,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 27,
+  "start": 214.12,
+  "end": 222.05,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 28,
+  "start": 222.05,
+  "end": 229.98,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 29,
+  "start": 229.98,
+  "end": 237.91,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the DIGOR melter and pouring into the jesmonite vessels."
+ },
+ {
+  "window": 30,
+  "start": 237.91,
+  "end": 245.84,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 31,
+  "start": 245.84,
+  "end": 253.77,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 32,
+  "start": 253.77,
+  "end": 261.7,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 33,
+  "start": 261.7,
+  "end": 269.63,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 34,
+  "start": 269.63,
+  "end": 277.56,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 35,
+  "start": 277.56,
+  "end": 285.49,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 36,
+  "start": 285.49,
+  "end": 293.42,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 37,
+  "start": 293.42,
+  "end": 301.35,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 38,
+  "start": 301.35,
+  "end": 309.28,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished scented jesmonite candles."
+ },
+ {
+  "window": 39,
+  "start": 309.28,
+  "end": 317.21,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 40,
+  "start": 317.21,
+  "end": 325.14,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 41,
+  "start": 325.14,
+  "end": 333.07,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ },
+ {
+  "window": 42,
+  "start": 333.07,
+  "end": 341.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

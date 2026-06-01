@@ -1,0 +1,11 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "White screen transitions to a blonde host standing in a kitchen, opening a candle-care segment (not a build)."},
+  {"window": 1, "label": "talking_head", "confidence": 0.6, "description": "Host talks to camera explaining how to care for a RibbonWick candle."},
+  {"window": 2, "label": "other_unclear", "confidence": 0.45, "description": "Close-up of a lit rectangular RibbonWick candle in a dish; caption 'Extinguish if flame is over 1 inch high' — candle-use guidance, off the making taxonomy."},
+  {"window": 3, "label": "other_unclear", "confidence": 0.45, "description": "A card/paper is slid under the wick area; caption 'After wax has cooled, gently run index finger over wick' — wick maintenance."},
+  {"window": 4, "label": "other_unclear", "confidence": 0.45, "description": "Hands work over the cooled candle; caption 'Gently use index finger to remove loose wick material'."},
+  {"window": 5, "label": "other_unclear", "confidence": 0.45, "description": "Hands remove loose wick debris from the ribbon wick before relighting."},
+  {"window": 6, "label": "other_unclear", "confidence": 0.45, "description": "Close-up of the ribbon wick; caption 'Allow wax to melt fully to the edge of container' — burn guidance."},
+  {"window": 7, "label": "talking_head", "confidence": 0.55, "description": "Host returns to camera to wrap up the care tips."},
+  {"window": 8, "label": "outro_cta", "confidence": 0.65, "description": "End card 'For More Information Visit www.ribbonwick.com'."}
+]

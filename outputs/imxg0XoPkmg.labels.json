@@ -1,0 +1,11 @@
+[
+  {"window": 0, "label": "gather_materials", "confidence": 0.5, "description": "An empty glass mixing bowl sits ready on the counter at the start of the recipe."},
+  {"window": 1, "label": "melt_wax", "confidence": 0.6, "description": "Yellow beeswax pellets in the glass bowl; caption 'Melt 2 cups of beeswax as directed' as a hand begins melting them."},
+  {"window": 2, "label": "melt_wax", "confidence": 0.5, "description": "Amber molten oil is whisked; caption 'Mix 1 cup of coconut oil' — coconut oil blended into the melted beeswax base."},
+  {"window": 3, "label": "add_fragrance", "confidence": 0.65, "description": "Caption 'Add in essential oils and mix'; the amber liquid is whisked to blend in the fragrance."},
+  {"window": 4, "label": "prepare_container", "confidence": 0.6, "description": "Caption 'Tie a piece of string onto chopsticks'; hands tie a wick string to a chopstick to suspend it across the jar."},
+  {"window": 5, "label": "pour_wax", "confidence": 0.65, "description": "An empty mason jar, then the amber wax is poured in; caption 'Pour into jar and let it cool'."},
+  {"window": 6, "label": "cure_cool", "confidence": 0.6, "description": "Filled jar with the wick chopstick laid across the rim; caption 'let it cool' as the wax begins turning opaque."},
+  {"window": 7, "label": "cure_cool", "confidence": 0.55, "description": "The wax solidifies to an opaque pale-green; caption transitions toward 'Light your candle'."},
+  {"window": 8, "label": "reveal_result", "confidence": 0.6, "description": "Finished opaque beeswax-coconut candle in the jar; caption 'Light your candle'."}
+]

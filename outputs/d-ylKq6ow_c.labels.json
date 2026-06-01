@@ -1,0 +1,690 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.02,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 8.02,
+  "end": 16.05,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 2,
+  "start": 16.05,
+  "end": 24.07,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 3,
+  "start": 24.07,
+  "end": 32.09,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 4,
+  "start": 32.09,
+  "end": 40.12,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 5,
+  "start": 40.12,
+  "end": 48.14,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 6,
+  "start": 48.14,
+  "end": 56.16,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 7,
+  "start": 56.16,
+  "end": 64.19,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 8,
+  "start": 64.19,
+  "end": 72.21,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 9,
+  "start": 72.21,
+  "end": 80.23,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 10,
+  "start": 80.23,
+  "end": 88.26,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 11,
+  "start": 88.26,
+  "end": 96.28,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 96.28,
+  "end": 104.3,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 104.3,
+  "end": 112.33,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 112.33,
+  "end": 120.35,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 120.35,
+  "end": 128.37,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 16,
+  "start": 128.37,
+  "end": 136.4,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 136.4,
+  "end": 144.42,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 144.42,
+  "end": 152.44,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 19,
+  "start": 152.44,
+  "end": 160.47,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 20,
+  "start": 160.47,
+  "end": 168.49,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 168.49,
+  "end": 176.51,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 22,
+  "start": 176.51,
+  "end": 184.53,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 23,
+  "start": 184.53,
+  "end": 192.56,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 24,
+  "start": 192.56,
+  "end": 200.58,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 25,
+  "start": 200.58,
+  "end": 208.6,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 26,
+  "start": 208.6,
+  "end": 216.63,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 27,
+  "start": 216.63,
+  "end": 224.65,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 28,
+  "start": 224.65,
+  "end": 232.67,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 29,
+  "start": 232.67,
+  "end": 240.7,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 30,
+  "start": 240.7,
+  "end": 248.72,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 31,
+  "start": 248.72,
+  "end": 256.74,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 32,
+  "start": 256.74,
+  "end": 264.77,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 33,
+  "start": 264.77,
+  "end": 272.79,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 34,
+  "start": 272.79,
+  "end": 280.81,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 35,
+  "start": 280.81,
+  "end": 288.84,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 36,
+  "start": 288.84,
+  "end": 296.86,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 37,
+  "start": 296.86,
+  "end": 304.88,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 38,
+  "start": 304.88,
+  "end": 312.91,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 39,
+  "start": 312.91,
+  "end": 320.93,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 40,
+  "start": 320.93,
+  "end": 328.95,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 41,
+  "start": 328.95,
+  "end": 336.98,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 42,
+  "start": 336.98,
+  "end": 345.0,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 43,
+  "start": 345.0,
+  "end": 353.02,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 44,
+  "start": 353.02,
+  "end": 361.05,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 45,
+  "start": 361.05,
+  "end": 369.07,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 46,
+  "start": 369.07,
+  "end": 377.09,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 47,
+  "start": 377.09,
+  "end": 385.12,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 48,
+  "start": 385.12,
+  "end": 393.14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 49,
+  "start": 393.14,
+  "end": 401.16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 50,
+  "start": 401.16,
+  "end": 409.19,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 51,
+  "start": 409.19,
+  "end": 417.21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 52,
+  "start": 417.21,
+  "end": 425.23,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 53,
+  "start": 425.23,
+  "end": 433.26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 54,
+  "start": 433.26,
+  "end": 441.28,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 55,
+  "start": 441.28,
+  "end": 449.3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 56,
+  "start": 449.3,
+  "end": 457.33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 57,
+  "start": 457.33,
+  "end": 465.35,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 58,
+  "start": 465.35,
+  "end": 473.37,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 59,
+  "start": 473.37,
+  "end": 481.4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 60,
+  "start": 481.4,
+  "end": 489.42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 61,
+  "start": 489.42,
+  "end": 497.44,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 62,
+  "start": 497.44,
+  "end": 505.47,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 63,
+  "start": 505.47,
+  "end": 513.49,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 64,
+  "start": 513.49,
+  "end": 521.51,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 65,
+  "start": 521.51,
+  "end": 529.53,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 66,
+  "start": 529.53,
+  "end": 537.56,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 67,
+  "start": 537.56,
+  "end": 545.58,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 68,
+  "start": 545.58,
+  "end": 553.6,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 69,
+  "start": 553.6,
+  "end": 561.63,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 70,
+  "start": 561.63,
+  "end": 569.65,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 71,
+  "start": 569.65,
+  "end": 577.67,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 72,
+  "start": 577.67,
+  "end": 585.7,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 73,
+  "start": 585.7,
+  "end": 593.72,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 74,
+  "start": 593.72,
+  "end": 601.74,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 75,
+  "start": 601.74,
+  "end": 609.77,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 76,
+  "start": 609.77,
+  "end": 617.79,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 77,
+  "start": 617.79,
+  "end": 625.81,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 78,
+  "start": 625.81,
+  "end": 633.84,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 79,
+  "start": 633.84,
+  "end": 641.86,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 80,
+  "start": 641.86,
+  "end": 649.88,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 81,
+  "start": 649.88,
+  "end": 657.91,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 82,
+  "start": 657.91,
+  "end": 665.93,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 83,
+  "start": 665.93,
+  "end": 673.95,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 84,
+  "start": 673.95,
+  "end": 681.98,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ },
+ {
+  "window": 85,
+  "start": 681.98,
+  "end": 690.0,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera throughout."
+ }
+]

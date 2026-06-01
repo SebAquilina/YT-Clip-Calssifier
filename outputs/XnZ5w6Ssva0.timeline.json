@@ -1,0 +1,344 @@
+{
+  "video_id": "XnZ5w6Ssva0",
+  "title": "How to Add Multiple Wicks to a Candle // Multi-Wick Candles  // Candle Making 101",
+  "url": "https://www.youtube.com/watch?v=XnZ5w6Ssva0",
+  "duration": 126.0,
+  "source": "storyboard",
+  "n_windows": 16,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.88,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Black opening into the CandleScience host; example multi-wick candles shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.88,
+      "end": 15.75,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.77,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.75,
+      "end": 23.62,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.77,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.62,
+      "end": 31.5,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Diagram: a circle marked with two wick positions.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.5,
+      "end": 39.38,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Diagram of wick spacing in a circular vessel.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.38,
+      "end": 47.25,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands hold a glass over white paper, marking wick positions.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.25,
+      "end": 55.12,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Marking/measuring multiple wick positions on paper under a glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.12,
+      "end": 63.0,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.77,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.0,
+      "end": 70.88,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Empty circle diagram.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 70.88,
+      "end": 78.75,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Candle-size guide table; '4 \u00f7 2 = 2' wick-spacing diagram.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 78.75,
+      "end": 86.62,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host works at the bench planning the wick layout.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 86.62,
+      "end": 94.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.77,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.5,
+      "end": 102.38,
+      "label": "talking_head",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hands place multiple metal wick pins/wicks on the workbench with a tool.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 102.38,
+      "end": 110.25,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 110.25,
+      "end": 118.12,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 118.12,
+      "end": 126.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.88,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 7.88,
+      "end": 23.62,
+      "confidence": 0.77,
+      "windows": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 23.62,
+      "end": 39.38,
+      "confidence": 0.4,
+      "windows": [
+        3,
+        4
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 39.38,
+      "end": 55.12,
+      "confidence": 0.45,
+      "windows": [
+        5,
+        6
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 55.12,
+      "end": 63.0,
+      "confidence": 0.77,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 63.0,
+      "end": 78.75,
+      "confidence": 0.4,
+      "windows": [
+        8,
+        9
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 78.75,
+      "end": 86.62,
+      "confidence": 0.4,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 86.62,
+      "end": 110.25,
+      "confidence": 0.56,
+      "windows": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 110.25,
+      "end": 126.0,
+      "confidence": 0.5,
+      "windows": [
+        14,
+        15
+      ]
+    }
+  ]
+}

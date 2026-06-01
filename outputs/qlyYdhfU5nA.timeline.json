@@ -1,0 +1,540 @@
+{
+  "video_id": "qlyYdhfU5nA",
+  "title": "\ud83c\udfa5 Beginner\u2019s Guide to Candle Making | Step-by-Step Tutorial \ud83d\udd6f\ufe0f",
+  "url": "https://www.youtube.com/watch?v=qlyYdhfU5nA",
+  "duration": 204.0,
+  "source": "storyboard",
+  "n_windows": 26,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.85,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "black/opening frame into host",
+      "description": "black/opening frame into host",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.85,
+      "end": 15.69,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.69,
+      "end": 23.54,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.54,
+      "end": 31.38,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.38,
+      "end": 39.23,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.23,
+      "end": 47.08,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.08,
+      "end": 54.92,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 54.92,
+      "end": 62.77,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "supplies/product showcase grid",
+      "description": "supplies/product showcase grid",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 62.77,
+      "end": 70.62,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "host holding supply box, product shots",
+      "description": "host holding supply box, product shots",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 70.62,
+      "end": 78.46,
+      "label": "gather_materials",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 78.46,
+      "end": 86.31,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "wax bag close-up",
+      "description": "wax bag close-up",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 86.31,
+      "end": 94.15,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "product grid screenshot insert",
+      "description": "product grid screenshot insert",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.15,
+      "end": 102.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "white container close-up",
+      "description": "white container close-up",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 102.0,
+      "end": 109.85,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 109.85,
+      "end": 117.69,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "document/product screenshots insert",
+      "description": "document/product screenshots insert",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 117.69,
+      "end": 125.54,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "white pitcher/bowl close-up",
+      "description": "white pitcher/bowl close-up",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 125.54,
+      "end": 133.38,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 133.38,
+      "end": 141.23,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 141.23,
+      "end": 149.08,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking at desk",
+      "description": "host talking at desk",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 149.08,
+      "end": 156.92,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "hands working pink/red wax",
+      "description": "hands working pink/red wax",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 156.92,
+      "end": 164.77,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "crockpot melter close-up",
+      "description": "crockpot melter close-up",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 164.77,
+      "end": 172.62,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "crockpot melter close-up",
+      "description": "crockpot melter close-up",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 172.62,
+      "end": 180.46,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "crockpot melter close-up",
+      "description": "crockpot melter close-up",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 180.46,
+      "end": 188.31,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "'Supplies & Candles' brand card",
+      "description": "'Supplies & Candles' brand card",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 188.31,
+      "end": 196.15,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.65,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "'Supplies & Candles' brand card",
+      "description": "'Supplies & Candles' brand card",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 196.15,
+      "end": 204.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "blank/black padding",
+      "description": "blank/black padding",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.85,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 7.85,
+      "end": 54.92,
+      "confidence": 0.65,
+      "windows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 54.92,
+      "end": 86.31,
+      "confidence": 0.51,
+      "windows": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 86.31,
+      "end": 94.15,
+      "confidence": 0.5,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 94.15,
+      "end": 102.0,
+      "confidence": 0.4,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 102.0,
+      "end": 109.85,
+      "confidence": 0.6,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 109.85,
+      "end": 117.69,
+      "confidence": 0.5,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 117.69,
+      "end": 125.54,
+      "confidence": 0.45,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 125.54,
+      "end": 149.08,
+      "confidence": 0.6,
+      "windows": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 149.08,
+      "end": 156.92,
+      "confidence": 0.4,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 156.92,
+      "end": 180.46,
+      "confidence": 0.58,
+      "windows": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 180.46,
+      "end": 196.15,
+      "confidence": 0.62,
+      "windows": [
+        23,
+        24
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 196.15,
+      "end": 204.0,
+      "confidence": 0.4,
+      "windows": [
+        25
+      ]
+    }
+  ]
+}

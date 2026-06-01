@@ -1,0 +1,572 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "'DIY Candle Ideas' title with pink dessert-style candles."
+ },
+ {
+  "window": 1,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Pink silicone shape moulds shown."
+ },
+ {
+  "window": 2,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "A pink dessert/cone candle being made (teaser)."
+ },
+ {
+  "window": 3,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Pink whipped-parfait candle teaser."
+ },
+ {
+  "window": 4,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Unboxing fragrance and supplies."
+ },
+ {
+  "window": 5,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Unpacking the scented-candle kit."
+ },
+ {
+  "window": 6,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Kit supplies and a measuring cup."
+ },
+ {
+  "window": 7,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Glasses and a 'Village' wax bag."
+ },
+ {
+  "window": 8,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "A small fragrance bottle."
+ },
+ {
+  "window": 9,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Glasses and candy decor prepared."
+ },
+ {
+  "window": 10,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a glass from the melter."
+ },
+ {
+  "window": 11,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Heat gun used on a glass."
+ },
+ {
+  "window": 12,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Glass with white wax; hand."
+ },
+ {
+  "window": 13,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "'Freedom Coconut Wax' bag; crockpot melter."
+ },
+ {
+  "window": 14,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Pink crockpot melter heating wax."
+ },
+ {
+  "window": 15,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melter; 'heat to 180F, stir fragrance, pour' directions."
+ },
+ {
+  "window": 16,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "White wax melting in a metal bowl."
+ },
+ {
+  "window": 17,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "'Freedom Coconut Wax'; glasses."
+ },
+ {
+  "window": 18,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Stirring melted wax; glasses."
+ },
+ {
+  "window": 19,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Glasses; coconut wax."
+ },
+ {
+  "window": 20,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring clear wax into a glass."
+ },
+ {
+  "window": 21,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Glasses being filled; hands."
+ },
+ {
+  "window": 22,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Weighing on a scale."
+ },
+ {
+  "window": 23,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Yellow scented wax in a bowl on the scale."
+ },
+ {
+  "window": 24,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax / chocolate-bar wax in moulds."
+ },
+ {
+  "window": 25,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Pink/brown colour mixed into the dessert wax."
+ },
+ {
+  "window": 26,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into glasses for the dessert candle."
+ },
+ {
+  "window": 27,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping dessert components (chocolate bars, toppings)."
+ },
+ {
+  "window": 28,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax / chocolate-bar wax in moulds."
+ },
+ {
+  "window": 29,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Pink/brown colour mixed into the dessert wax."
+ },
+ {
+  "window": 30,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into glasses for the dessert candle."
+ },
+ {
+  "window": 31,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping dessert components (chocolate bars, toppings)."
+ },
+ {
+  "window": 32,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax / chocolate-bar wax in moulds."
+ },
+ {
+  "window": 33,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Pink/brown colour mixed into the dessert wax."
+ },
+ {
+  "window": 34,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into glasses for the dessert candle."
+ },
+ {
+  "window": 35,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping dessert components (chocolate bars, toppings)."
+ },
+ {
+  "window": 36,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax / chocolate-bar wax in moulds."
+ },
+ {
+  "window": 37,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Pink/brown colour mixed into the dessert wax."
+ },
+ {
+  "window": 38,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into glasses for the dessert candle."
+ },
+ {
+  "window": 39,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping dessert components (chocolate bars, toppings)."
+ },
+ {
+  "window": 40,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax / chocolate-bar wax in moulds."
+ },
+ {
+  "window": 41,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Pink/brown colour mixed into the dessert wax."
+ },
+ {
+  "window": 42,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into glasses for the dessert candle."
+ },
+ {
+  "window": 43,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping dessert components (chocolate bars, toppings)."
+ },
+ {
+  "window": 44,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax / chocolate-bar wax in moulds."
+ },
+ {
+  "window": 45,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Pink/brown colour mixed into the dessert wax."
+ },
+ {
+  "window": 46,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into glasses for the dessert candle."
+ },
+ {
+  "window": 47,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Shaping dessert components (chocolate bars, toppings)."
+ },
+ {
+  "window": 48,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 49,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 50,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 51,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 52,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 53,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 54,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 55,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 56,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 57,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 58,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 59,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 60,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 61,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 62,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 63,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 64,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 65,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 66,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 67,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 68,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 69,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 70,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 71,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax 'cream' and decorating the parfait candles with sprinkles."
+ },
+ {
+  "window": 72,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 73,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 74,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 75,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 76,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 77,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 78,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 79,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 80,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 81,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 82,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 83,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 84,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 85,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 86,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 87,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 88,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 89,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 90,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 91,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Assembling the dessert candles - cones, whipped topping, sprinkles, chocolate sticks."
+ },
+ {
+  "window": 92,
+  "label": "reveal_result",
+  "confidence": 0.5,
+  "description": "Finished dessert candle styled with greenery."
+ },
+ {
+  "window": 93,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Finished dessert candles shown lit."
+ },
+ {
+  "window": 94,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thank you for watching' end card."
+ }
+]

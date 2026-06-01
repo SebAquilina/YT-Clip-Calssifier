@@ -1,0 +1,546 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.01,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the whipped candle."
+ },
+ {
+  "window": 1,
+  "start": 8.01,
+  "end": 16.03,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Whipping wax and piping it like frosting onto the candle."
+ },
+ {
+  "window": 2,
+  "start": 16.03,
+  "end": 24.04,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the base wax into the glass."
+ },
+ {
+  "window": 3,
+  "start": 24.04,
+  "end": 32.06,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the whipped candle."
+ },
+ {
+  "window": 4,
+  "start": 32.06,
+  "end": 40.07,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Whipping wax and piping it like frosting onto the candle."
+ },
+ {
+  "window": 5,
+  "start": 40.07,
+  "end": 48.09,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the base wax into the glass."
+ },
+ {
+  "window": 6,
+  "start": 48.09,
+  "end": 56.1,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the whipped candle."
+ },
+ {
+  "window": 7,
+  "start": 56.1,
+  "end": 64.12,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Whipping wax and piping it like frosting onto the candle."
+ },
+ {
+  "window": 8,
+  "start": 64.12,
+  "end": 72.13,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the base wax into the glass."
+ },
+ {
+  "window": 9,
+  "start": 72.13,
+  "end": 80.15,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting/colouring wax for the whipped candle."
+ },
+ {
+  "window": 10,
+  "start": 80.15,
+  "end": 88.16,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Whipping wax and piping it like frosting onto the candle."
+ },
+ {
+  "window": 11,
+  "start": 88.16,
+  "end": 96.18,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 12,
+  "start": 96.18,
+  "end": 104.19,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 13,
+  "start": 104.19,
+  "end": 112.21,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 14,
+  "start": 112.21,
+  "end": 120.22,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 15,
+  "start": 120.22,
+  "end": 128.24,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 16,
+  "start": 128.24,
+  "end": 136.25,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 17,
+  "start": 136.25,
+  "end": 144.26,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 18,
+  "start": 144.26,
+  "end": 152.28,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 19,
+  "start": 152.28,
+  "end": 160.29,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 20,
+  "start": 160.29,
+  "end": 168.31,
+  "label": "talking_head",
+  "confidence": 0.9,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 21,
+  "start": 168.31,
+  "end": 176.32,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 22,
+  "start": 176.32,
+  "end": 184.34,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Whipping wax and piping it like frosting onto the candle."
+ },
+ {
+  "window": 23,
+  "start": 184.34,
+  "end": 192.35,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring the base wax into the glass."
+ },
+ {
+  "window": 24,
+  "start": 192.35,
+  "end": 200.37,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 25,
+  "start": 200.37,
+  "end": 208.38,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 26,
+  "start": 208.38,
+  "end": 216.4,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 27,
+  "start": 216.4,
+  "end": 224.41,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 28,
+  "start": 224.41,
+  "end": 232.43,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 29,
+  "start": 232.43,
+  "end": 240.44,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 30,
+  "start": 240.44,
+  "end": 248.46,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 31,
+  "start": 248.46,
+  "end": 256.47,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 32,
+  "start": 256.47,
+  "end": 264.49,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 33,
+  "start": 264.49,
+  "end": 272.5,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 34,
+  "start": 272.5,
+  "end": 280.51,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 35,
+  "start": 280.51,
+  "end": 288.53,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 36,
+  "start": 288.53,
+  "end": 296.54,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 37,
+  "start": 296.54,
+  "end": 304.56,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 38,
+  "start": 304.56,
+  "end": 312.57,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 39,
+  "start": 312.57,
+  "end": 320.59,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 40,
+  "start": 320.59,
+  "end": 328.6,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Whipping wax with the mixer."
+ },
+ {
+  "window": 41,
+  "start": 328.6,
+  "end": 336.62,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Whipping wax with the mixer."
+ },
+ {
+  "window": 42,
+  "start": 336.62,
+  "end": 344.63,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 43,
+  "start": 344.63,
+  "end": 352.65,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 44,
+  "start": 352.65,
+  "end": 360.66,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 45,
+  "start": 360.66,
+  "end": 368.68,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 46,
+  "start": 368.68,
+  "end": 376.69,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 47,
+  "start": 376.69,
+  "end": 384.71,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 48,
+  "start": 384.71,
+  "end": 392.72,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 49,
+  "start": 392.72,
+  "end": 400.74,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 50,
+  "start": 400.74,
+  "end": 408.75,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 51,
+  "start": 408.75,
+  "end": 416.76,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 52,
+  "start": 416.76,
+  "end": 424.78,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 53,
+  "start": 424.78,
+  "end": 432.79,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 54,
+  "start": 432.79,
+  "end": 440.81,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 55,
+  "start": 440.81,
+  "end": 448.82,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 56,
+  "start": 448.82,
+  "end": 456.84,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 57,
+  "start": 456.84,
+  "end": 464.85,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 58,
+  "start": 464.85,
+  "end": 472.87,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 59,
+  "start": 472.87,
+  "end": 480.88,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 60,
+  "start": 480.88,
+  "end": 488.9,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Piping whipped wax & adding strawberry decor to the candle."
+ },
+ {
+  "window": 61,
+  "start": 488.9,
+  "end": 496.91,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 62,
+  "start": 496.91,
+  "end": 504.93,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 63,
+  "start": 504.93,
+  "end": 512.94,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 64,
+  "start": 512.94,
+  "end": 520.96,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 65,
+  "start": 520.96,
+  "end": 528.97,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 66,
+  "start": 528.97,
+  "end": 536.99,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 67,
+  "start": 536.99,
+  "end": 545.0,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ }
+]

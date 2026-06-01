@@ -1,0 +1,219 @@
+{
+  "video_id": "imxg0XoPkmg",
+  "title": "DIY Coconut and Beezwax Candle",
+  "url": "https://www.youtube.com/watch?v=imxg0XoPkmg",
+  "duration": 74.0,
+  "source": "storyboard",
+  "n_windows": 9,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.22,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "An empty glass mixing bowl sits ready on the counter at the start of the recipe.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.22,
+      "end": 16.44,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow beeswax pellets in the glass bowl; caption 'Melt 2 cups of beeswax as directed' as a hand begins melting them.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.44,
+      "end": 24.67,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Amber molten oil is whisked; caption 'Mix 1 cup of coconut oil' \u2014 coconut oil blended into the melted beeswax base.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.67,
+      "end": 32.89,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.65,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Add in essential oils and mix'; the amber liquid is whisked to blend in the fragrance.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.89,
+      "end": 41.11,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Caption 'Tie a piece of string onto chopsticks'; hands tie a wick string to a chopstick to suspend it across the jar.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->prepare_container)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 41.11,
+      "end": 49.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "An empty mason jar, then the amber wax is poured in; caption 'Pour into jar and let it cool'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 49.33,
+      "end": 57.56,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filled jar with the wick chopstick laid across the rim; caption 'let it cool' as the wax begins turning opaque.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 57.56,
+      "end": 65.78,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wax solidifies to an opaque pale-green; caption transitions toward 'Light your candle'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.78,
+      "end": 74.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished opaque beeswax-coconut candle in the jar; caption 'Light your candle'.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 8.22,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 8.22,
+      "end": 24.67,
+      "confidence": 0.55,
+      "windows": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 24.67,
+      "end": 32.89,
+      "confidence": 0.65,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 32.89,
+      "end": 41.11,
+      "confidence": 0.6,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 41.11,
+      "end": 49.33,
+      "confidence": 0.65,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 49.33,
+      "end": 65.78,
+      "confidence": 0.57,
+      "windows": [
+        6,
+        7
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 65.78,
+      "end": 74.0,
+      "confidence": 0.6,
+      "windows": [
+        8
+      ]
+    }
+  ]
+}

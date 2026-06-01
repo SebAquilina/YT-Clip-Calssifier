@@ -1,0 +1,33 @@
+{
+ "video_id": "BkYBsDHjXaw",
+ "flagged": [
+  {
+   "window_index": 21,
+   "start_s": 171.5,
+   "end_s": 179.67,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 22,
+   "start_s": 179.67,
+   "end_s": 187.83,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 23,
+   "start_s": 187.83,
+   "end_s": 196.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 6,
+   "start_s": 49.0,
+   "end_s": 57.17,
+   "action_label": "pour_wax",
+   "reason": "desc_talking_head"
+  }
+ ]
+}

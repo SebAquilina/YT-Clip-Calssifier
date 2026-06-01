@@ -1,0 +1,402 @@
+{
+  "video_id": "6HKMsobiG74",
+  "title": "Most Satisfying Ocean Jelly Candle | Water Candle DIY ASMR",
+  "url": "https://www.youtube.com/watch?v=6HKMsobiG74",
+  "duration": 158.0,
+  "source": "storyboard",
+  "n_windows": 20,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.9,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blurry footage: a clear glass jar is readied for an 'ocean jelly' water candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.9,
+      "end": 15.8,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorative shells/beads and supplies gathered (low-detail).",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (prepare_container->gather_materials)"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 15.8,
+      "end": 23.7,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Decorations are placed into the bottom of the glass.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.7,
+      "end": 31.6,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear jelly wax poured into the decorated glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 31.6,
+      "end": 39.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The glass fills with transparent jelly wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 39.5,
+      "end": 47.4,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "More decorative elements added into the jelly.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 47.4,
+      "end": 55.3,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Additional clear jelly poured to build layers.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.3,
+      "end": 63.2,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Embedding shells/figures in the jelly layer.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.2,
+      "end": 71.1,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Clear jelly poured over the embedded decor.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.1,
+      "end": 79.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Jelly fills the glass further.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.0,
+      "end": 86.9,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.35,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A blue tint is introduced for the ocean-water effect.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 86.9,
+      "end": 94.8,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blue-tinted jelly poured into the glass.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 94.8,
+      "end": 102.7,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Final decorations arranged in the blue jelly.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 102.7,
+      "end": 110.6,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Top jelly layer poured.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 110.6,
+      "end": 118.5,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.35,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wick/centre element set in the jelly candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 118.5,
+      "end": 126.4,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The finished ocean-jelly candle shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 126.4,
+      "end": 134.3,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the transparent ocean candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 134.3,
+      "end": 142.2,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished jelly candle displayed.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.2,
+      "end": 150.1,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Final result, possibly lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 150.1,
+      "end": 158.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Closing shot of the ocean-jelly candle.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 7.9,
+      "confidence": 0.4,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.9,
+      "end": 15.8,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 15.8,
+      "end": 23.7,
+      "confidence": 0.4,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 23.7,
+      "end": 110.6,
+      "confidence": 0.39,
+      "windows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 110.6,
+      "end": 118.5,
+      "confidence": 0.35,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 118.5,
+      "end": 158.0,
+      "confidence": 0.43,
+      "windows": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ]
+}

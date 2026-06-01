@@ -1,0 +1,258 @@
+{
+  "video_id": "bEhlvggbwk8",
+  "title": "Wick Candle Maker by We R Memory Keepers",
+  "url": "https://www.youtube.com/watch?v=bEhlvggbwk8",
+  "duration": 82.0,
+  "source": "storyboard",
+  "n_windows": 10,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.2,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White We R Memory Keepers 'Wick' candle machine with a teal wax ball and blue dye.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.2,
+      "end": 16.4,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead white dish; blue dye drops are stirred in.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.4,
+      "end": 24.6,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands work the machine arm; a metal tool stirs wax in a cup.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 24.6,
+      "end": 32.8,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wick is threaded through a holder; scissors and small jars nearby.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 32.8,
+      "end": 41.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A glass jar is readied with a wick; blue dye packets alongside.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 41.0,
+      "end": 49.2,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The 'Wick' machine dispenses teal wax into a jar beneath it.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 49.2,
+      "end": 57.4,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands at the machine; a teal layered candle in a cup; scissors.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 57.4,
+      "end": 65.6,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A teal candle cup is held and the wooden/cotton wick trimmed with scissors.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.6,
+      "end": 73.8,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Animated 'WICK / We R' brand logo over the finished teal candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 73.8,
+      "end": 82.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 0.0,
+      "end": 8.2,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 8.2,
+      "end": 16.4,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 16.4,
+      "end": 24.6,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 24.6,
+      "end": 41.0,
+      "confidence": 0.53,
+      "windows": [
+        3,
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 41.0,
+      "end": 49.2,
+      "confidence": 0.55,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 49.2,
+      "end": 57.4,
+      "confidence": 0.5,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 57.4,
+      "end": 65.6,
+      "confidence": 0.5,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 65.6,
+      "end": 73.8,
+      "confidence": 0.5,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 73.8,
+      "end": 82.0,
+      "confidence": 0.5,
+      "windows": [
+        9
+      ]
+    }
+  ]
+}

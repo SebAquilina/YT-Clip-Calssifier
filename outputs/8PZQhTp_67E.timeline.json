@@ -1,0 +1,272 @@
+{
+  "video_id": "8PZQhTp_67E",
+  "title": "WoodWick\u00ae Candle Care - Tips for burning candles with Pluswick\u00ae Innovation",
+  "url": "https://www.youtube.com/watch?v=8PZQhTp_67E",
+  "duration": 109.0,
+  "source": "storyboard",
+  "n_windows": 14,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.79,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Opens from black to a host standing by a counter with a lit green WoodWick candle \u2014 a candle-care/usage segment.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.79,
+      "end": 15.57,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera; close-up of the crackling wooden-wick flame.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.57,
+      "end": 23.36,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera; hands rest on the green candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.36,
+      "end": 31.14,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hands gently break off burnt wick on the cooled candle; care caption about the wick (not a making step).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.14,
+      "end": 38.93,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Caption 'Remove and discard wick trimmings before relighting'; hands clear debris from the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 38.93,
+      "end": 46.71,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Burn guidance: 'Burn until wax is melted to all edges'; hands beside the candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 46.71,
+      "end": 54.5,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.45,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Safety guidance about not moving a lit candle / using a heat-resistant surface.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 54.5,
+      "end": 62.29,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host to camera; caption 'Trim the wick'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 62.29,
+      "end": 70.07,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host to camera presenting safety notes panel.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 70.07,
+      "end": 77.86,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host continues talking to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 77.86,
+      "end": 85.64,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host continues talking to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 85.64,
+      "end": 93.43,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank You' end card with contact phone number over a lit candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 93.43,
+      "end": 101.21,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank You' end card with contact details.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 101.21,
+      "end": 109.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Thank You' end card fading out.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.79,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 7.79,
+      "end": 23.36,
+      "confidence": 0.55,
+      "windows": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 23.36,
+      "end": 54.5,
+      "confidence": 0.45,
+      "windows": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 54.5,
+      "end": 85.64,
+      "confidence": 0.55,
+      "windows": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 85.64,
+      "end": 109.0,
+      "confidence": 0.6,
+      "windows": [
+        11,
+        12,
+        13
+      ]
+    }
+  ]
+}

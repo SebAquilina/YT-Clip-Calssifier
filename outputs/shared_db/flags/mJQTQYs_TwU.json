@@ -1,0 +1,117 @@
+{
+ "video_id": "mJQTQYs_TwU",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 7.92,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 7,
+   "start_s": 55.47,
+   "end_s": 63.4,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 12,
+   "start_s": 95.1,
+   "end_s": 103.02,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 17,
+   "start_s": 134.72,
+   "end_s": 142.65,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 22,
+   "start_s": 174.35,
+   "end_s": 182.28,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 27,
+   "start_s": 213.98,
+   "end_s": 221.9,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 29,
+   "start_s": 229.83,
+   "end_s": 237.75,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 30,
+   "start_s": 237.75,
+   "end_s": 245.68,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 31,
+   "start_s": 245.68,
+   "end_s": 253.6,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 32,
+   "start_s": 253.6,
+   "end_s": 261.53,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 33,
+   "start_s": 261.53,
+   "end_s": 269.45,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 35,
+   "start_s": 277.38,
+   "end_s": 285.3,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 36,
+   "start_s": 285.3,
+   "end_s": 293.23,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 37,
+   "start_s": 293.23,
+   "end_s": 301.15,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 38,
+   "start_s": 301.15,
+   "end_s": 309.08,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 39,
+   "start_s": 309.08,
+   "end_s": 317.0,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  }
+ ]
+}

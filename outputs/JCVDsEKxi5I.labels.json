@@ -1,0 +1,426 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 8.06,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 1,
+  "start": 8.06,
+  "end": 16.11,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'Sa oa based We SS iY cm ki 8 ut 4'."
+ },
+ {
+  "window": 2,
+  "start": 16.11,
+  "end": 24.17,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 3,
+  "start": 24.17,
+  "end": 32.23,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 4,
+  "start": 32.23,
+  "end": 40.28,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Overhead: measuring wax on the white counter."
+ },
+ {
+  "window": 5,
+  "start": 40.28,
+  "end": 48.34,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Overhead: measuring wax on the white counter."
+ },
+ {
+  "window": 6,
+  "start": 48.34,
+  "end": 56.4,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 7,
+  "start": 56.4,
+  "end": 64.45,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'ac wa ie 4 aye nie 4 Cee ae Sy ad cae Brgenin.'."
+ },
+ {
+  "window": 8,
+  "start": 64.45,
+  "end": 72.51,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'de ie he owl es aod fe WS Ss Bes 5 Se'."
+ },
+ {
+  "window": 9,
+  "start": 72.51,
+  "end": 80.57,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 10,
+  "start": 80.57,
+  "end": 88.62,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 11,
+  "start": 88.62,
+  "end": 96.68,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: 'sd ae ie. ex4 shbood ff ieee ot rm 2 es ca'."
+ },
+ {
+  "window": 12,
+  "start": 96.68,
+  "end": 104.74,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 13,
+  "start": 104.74,
+  "end": 112.79,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax (overhead insert)."
+ },
+ {
+  "window": 14,
+  "start": 112.79,
+  "end": 120.85,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 15,
+  "start": 120.85,
+  "end": 128.91,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax (overhead insert)."
+ },
+ {
+  "window": 16,
+  "start": 128.91,
+  "end": 136.96,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 17,
+  "start": 136.96,
+  "end": 145.02,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a glass."
+ },
+ {
+  "window": 18,
+  "start": 145.02,
+  "end": 153.08,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "On-screen text card (auto-detected: static frame, OCR text). Text reads: '4 AN et cars are ee ry Tes 1.'."
+ },
+ {
+  "window": 19,
+  "start": 153.08,
+  "end": 161.13,
+  "label": "talking_head",
+  "confidence": 0.7,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 20,
+  "start": 161.13,
+  "end": 169.19,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 21,
+  "start": 169.19,
+  "end": 177.25,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into a glass."
+ },
+ {
+  "window": 22,
+  "start": 177.25,
+  "end": 185.3,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 23,
+  "start": 185.3,
+  "end": 193.36,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera (first-candle kit tutorial)."
+ },
+ {
+  "window": 24,
+  "start": 193.36,
+  "end": 201.42,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Measuring wax."
+ },
+ {
+  "window": 25,
+  "start": 201.42,
+  "end": 209.47,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the melter."
+ },
+ {
+  "window": 26,
+  "start": 209.47,
+  "end": 217.53,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 27,
+  "start": 217.53,
+  "end": 225.58,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (first-candle kit)."
+ },
+ {
+  "window": 28,
+  "start": 225.58,
+  "end": 233.64,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "Measuring wax."
+ },
+ {
+  "window": 29,
+  "start": 233.64,
+  "end": 241.7,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the melter."
+ },
+ {
+  "window": 30,
+  "start": 241.7,
+  "end": 249.75,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 31,
+  "start": 249.75,
+  "end": 257.81,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (first-candle kit)."
+ },
+ {
+  "window": 32,
+  "start": 257.81,
+  "end": 265.87,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 33,
+  "start": 265.87,
+  "end": 273.92,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick."
+ },
+ {
+  "window": 34,
+  "start": 273.92,
+  "end": 281.98,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the melter."
+ },
+ {
+  "window": 35,
+  "start": 281.98,
+  "end": 290.04,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (first-candle kit)."
+ },
+ {
+  "window": 36,
+  "start": 290.04,
+  "end": 298.09,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 37,
+  "start": 298.09,
+  "end": 306.15,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 38,
+  "start": 306.15,
+  "end": 314.21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (first-candle kit)."
+ },
+ {
+  "window": 39,
+  "start": 314.21,
+  "end": 322.26,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick."
+ },
+ {
+  "window": 40,
+  "start": 322.26,
+  "end": 330.32,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 41,
+  "start": 330.32,
+  "end": 338.38,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (first-candle kit)."
+ },
+ {
+  "window": 42,
+  "start": 338.38,
+  "end": 346.43,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 43,
+  "start": 346.43,
+  "end": 354.49,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Melting wax in the melter."
+ },
+ {
+  "window": 44,
+  "start": 354.49,
+  "end": 362.55,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 45,
+  "start": 362.55,
+  "end": 370.6,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (first-candle kit)."
+ },
+ {
+  "window": 46,
+  "start": 370.6,
+  "end": 378.66,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Setting the wick."
+ },
+ {
+  "window": 47,
+  "start": 378.66,
+  "end": 386.72,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the glass."
+ },
+ {
+  "window": 48,
+  "start": 386.72,
+  "end": 394.77,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera (first-candle kit)."
+ },
+ {
+  "window": 49,
+  "start": 394.77,
+  "end": 402.83,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "London Luxury / like / subscribe card."
+ },
+ {
+  "window": 50,
+  "start": 402.83,
+  "end": 410.89,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "London Luxury / like / subscribe card."
+ },
+ {
+  "window": 51,
+  "start": 410.89,
+  "end": 418.94,
+  "label": "outro_cta",
+  "confidence": 0.6,
+  "description": "London Luxury / like / subscribe card."
+ },
+ {
+  "window": 52,
+  "start": 418.94,
+  "end": 427.0,
+  "label": "blank",
+  "confidence": 0.6,
+  "description": "Empty end frame."
+ }
+]

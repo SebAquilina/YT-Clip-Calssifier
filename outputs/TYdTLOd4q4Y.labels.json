@@ -1,0 +1,416 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Business-promo montage opens (start a candle business)."
+ },
+ {
+  "window": 1,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Bubble candle b-roll."
+ },
+ {
+  "window": 2,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Melting/whisking wax in a bowl (b-roll)."
+ },
+ {
+  "window": 3,
+  "label": "add_dye_color",
+  "confidence": 0.4,
+  "description": "Purple dye stirred into wax."
+ },
+ {
+  "window": 4,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Supplies/mould b-roll."
+ },
+ {
+  "window": 5,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Hand applying a wick sticker / hot glue."
+ },
+ {
+  "window": 6,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Rows of poured candles (b-roll)."
+ },
+ {
+  "window": 7,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into a vessel."
+ },
+ {
+  "window": 8,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Embedding berries/flowers in a candle top."
+ },
+ {
+  "window": 9,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Flower candle being shaped."
+ },
+ {
+  "window": 10,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "'Candle Design and Presentation' caption."
+ },
+ {
+  "window": 11,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Coloured wax / dye palette b-roll."
+ },
+ {
+  "window": 12,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Colourful pastel candles montage."
+ },
+ {
+  "window": 13,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Melting wax in a pan (b-roll)."
+ },
+ {
+  "window": 14,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Flower-shaped candle close-up."
+ },
+ {
+  "window": 15,
+  "label": "add_fragrance",
+  "confidence": 0.4,
+  "description": "Green oil added to melted wax."
+ },
+ {
+  "window": 16,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Bubble-cube candles b-roll."
+ },
+ {
+  "window": 17,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Demoulding a moulded candle."
+ },
+ {
+  "window": 18,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Twisted taper candle b-roll."
+ },
+ {
+  "window": 19,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring into a vessel (b-roll)."
+ },
+ {
+  "window": 20,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candles with dried flowers."
+ },
+ {
+  "window": 21,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Pillar candle in a glass; wick."
+ },
+ {
+  "window": 22,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Pressed-flower candle b-roll."
+ },
+ {
+  "window": 23,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished decorated candles."
+ },
+ {
+  "window": 24,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Photo frame / flower candle b-roll."
+ },
+ {
+  "window": 25,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Twisted taper candles on a table."
+ },
+ {
+  "window": 26,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Twisted candles b-roll."
+ },
+ {
+  "window": 27,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Pink dipped/twisted candles displayed."
+ },
+ {
+  "window": 28,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring pink wax (b-roll)."
+ },
+ {
+  "window": 29,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring into a vessel."
+ },
+ {
+  "window": 30,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Bubble candles on a stand."
+ },
+ {
+  "window": 31,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Pink flower candles b-roll."
+ },
+ {
+  "window": 32,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Twisted pink tapers being shaped."
+ },
+ {
+  "window": 33,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Rolling/shaping candles on a board."
+ },
+ {
+  "window": 34,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Twisted taper candles."
+ },
+ {
+  "window": 35,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Colourful twisted candles b-roll."
+ },
+ {
+  "window": 36,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Bubble cube candle with red dots."
+ },
+ {
+  "window": 37,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Pink bubble candles display."
+ },
+ {
+  "window": 38,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Flower/heart candle b-roll."
+ },
+ {
+  "window": 39,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Bubble candle close-up."
+ },
+ {
+  "window": 40,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Cutting/working a candle."
+ },
+ {
+  "window": 41,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Text caption over pink background."
+ },
+ {
+  "window": 42,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Piping whipped wax (the hot tip)."
+ },
+ {
+  "window": 43,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Finishing a candle."
+ },
+ {
+  "window": 44,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Gloved hands finishing a candle."
+ },
+ {
+  "window": 45,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Twisted candles displayed."
+ },
+ {
+  "window": 46,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Website/Etsy listing screenshot."
+ },
+ {
+  "window": 47,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Online shop listings screenshot."
+ },
+ {
+  "window": 48,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "'Candle care' listing screenshots."
+ },
+ {
+  "window": 49,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'Packing and Shipping' caption."
+ },
+ {
+  "window": 50,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Pink moulded candle / packaging."
+ },
+ {
+  "window": 51,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Labelled candle b-roll."
+ },
+ {
+  "window": 52,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Lit candle (tealight) b-roll."
+ },
+ {
+  "window": 53,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing boxes/tissue."
+ },
+ {
+  "window": 54,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Boxing the candle for shipping."
+ },
+ {
+  "window": 55,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Packing the candle in a box."
+ },
+ {
+  "window": 56,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Wrapping/boxing the candle."
+ },
+ {
+  "window": 57,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Pouring/melting wax (b-roll)."
+ },
+ {
+  "window": 58,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Finishing a concrete/grey candle."
+ },
+ {
+  "window": 59,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Labelling/finishing a candle."
+ },
+ {
+  "window": 60,
+  "label": "pour_wax",
+  "confidence": 0.4,
+  "description": "Pouring wax into a vessel."
+ },
+ {
+  "window": 61,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Final touches on a candle."
+ },
+ {
+  "window": 62,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "'subscribed' animation outro."
+ },
+ {
+  "window": 63,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "'Thanks!' end card."
+ },
+ {
+  "window": 64,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "'Thanks!' end card."
+ },
+ {
+  "window": 65,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "'Thanks!' end card."
+ },
+ {
+  "window": 66,
+  "label": "outro_cta",
+  "confidence": 0.45,
+  "description": "'Thanks!' end card."
+ },
+ {
+  "window": 67,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 68,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

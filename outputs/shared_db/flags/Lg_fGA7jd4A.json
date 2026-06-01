@@ -1,0 +1,40 @@
+{
+ "video_id": "Lg_fGA7jd4A",
+ "flagged": [
+  {
+   "window_index": 1,
+   "start_s": 7.96,
+   "end_s": 15.92,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 21,
+   "start_s": 167.16,
+   "end_s": 175.12,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 22,
+   "start_s": 175.12,
+   "end_s": 183.08,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 23,
+   "start_s": 183.08,
+   "end_s": 191.04,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 24,
+   "start_s": 191.04,
+   "end_s": 199.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  }
+ ]
+}

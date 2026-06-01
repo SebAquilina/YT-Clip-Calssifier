@@ -1,0 +1,417 @@
+{
+  "video_id": "2rhZ7lzaU4Y",
+  "title": "4 Easy Candle Making for Beginners | DIY Candles",
+  "url": "https://www.youtube.com/watch?v=2rhZ7lzaU4Y",
+  "duration": 187.0,
+  "source": "storyboard",
+  "n_windows": 23,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.13,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'ART' title card, then colourful round candle moulds previewed (orange backdrop).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.13,
+      "end": 16.26,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands hold colourful round moulds (blue/pink/green).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.26,
+      "end": 24.39,
+      "label": "gather_materials",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wick is placed into a glass jar; YouTube branding.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 3,
+      "start": 24.39,
+      "end": 32.52,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with coloured wax spheres.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.52,
+      "end": 40.65,
+      "label": "gather_materials",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands arrange colourful wax spheres.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 5,
+      "start": 40.65,
+      "end": 48.78,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Colourful moulds on the orange background.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.78,
+      "end": 56.91,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Coloured wax poured into a glass jar around a wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.91,
+      "end": 65.04,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "A coloured layer poured into the jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 65.04,
+      "end": 73.17,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blue layer in the jar; hand at work.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 73.17,
+      "end": 81.3,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Layered colours building in the glass jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 81.3,
+      "end": 89.43,
+      "label": "pour_wax",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with coloured wax spheres beside the jar.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 89.43,
+      "end": 97.57,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Multicolour layers in the jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 97.57,
+      "end": 105.7,
+      "label": "pour_wax",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands set/centre the wick with a white disc; jar.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 105.7,
+      "end": 113.83,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "More coloured wax poured into the jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 113.83,
+      "end": 121.96,
+      "label": "pour_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red wax added to the layered jar.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 121.96,
+      "end": 130.09,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Rainbow-layered jar taking shape.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 130.09,
+      "end": 138.22,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands pour another colour into the rainbow jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 138.22,
+      "end": 146.35,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow layer poured into the jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 146.35,
+      "end": 154.48,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red layer poured; rainbow candle nearly done.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 154.48,
+      "end": 162.61,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands present the finished rainbow-layered jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 162.61,
+      "end": 170.74,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished colourful candles displayed with fairy lights.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 170.74,
+      "end": 178.87,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'ART' end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 178.87,
+      "end": 187.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Closing end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.13,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 8.13,
+      "end": 48.78,
+      "confidence": 0.45,
+      "windows": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 48.78,
+      "end": 154.48,
+      "confidence": 0.49,
+      "windows": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 154.48,
+      "end": 170.74,
+      "confidence": 0.53,
+      "windows": [
+        19,
+        20
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 170.74,
+      "end": 187.0,
+      "confidence": 0.53,
+      "windows": [
+        21,
+        22
+      ]
+    }
+  ]
+}

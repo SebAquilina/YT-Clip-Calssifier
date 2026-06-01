@@ -1,0 +1,389 @@
+{
+  "video_id": "_eyf0tCZzBY",
+  "title": "Non-toxic DIY Candles with Beeswax & Coconut Oil | Great for Meditation and Manifesting Practices",
+  "url": "https://www.youtube.com/watch?v=_eyf0tCZzBY",
+  "duration": 150.0,
+  "source": "storyboard",
+  "n_windows": 19,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.89,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Dark elegant overhead flat-lay with lit tins, palm leaf and flowers; opening title.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.89,
+      "end": 15.79,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead: beeswax block, a jar of coconut oil and metal tins laid out.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.79,
+      "end": 23.68,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tins and ingredients arranged on the dark surface.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.68,
+      "end": 31.58,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead double-boiler pot with beeswax beginning to melt.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.58,
+      "end": 39.47,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Coconut oil measured/added into the melting pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.47,
+      "end": 47.37,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wax-and-oil blend melts in the pot, stirred.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.37,
+      "end": 55.26,
+      "label": "melt_wax",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Essential oil (green bottle) stirred into the melted base.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.26,
+      "end": 63.16,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "More blending of the molten wax/oil in the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.16,
+      "end": 71.05,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the pot to fully combine.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.05,
+      "end": 78.95,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Molten wax poured into the metal tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 78.95,
+      "end": 86.84,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tins filled with wax around their wicks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 86.84,
+      "end": 94.74,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wicks centred in the freshly poured tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.74,
+      "end": 102.63,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands adjust the wicks as the tins set.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 102.63,
+      "end": 110.53,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filled tins left to set amid the floral decor.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 110.53,
+      "end": 118.42,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished tins shown lit in the styled flat-lay.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 118.42,
+      "end": 126.32,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the lit beeswax-coconut candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 126.32,
+      "end": 134.21,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "'THANKS FOR WATCHING' end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 134.21,
+      "end": 142.11,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Thanks card over lit candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.11,
+      "end": 150.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Final lit-candle shot.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.89,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.89,
+      "end": 23.68,
+      "confidence": 0.53,
+      "windows": [
+        1,
+        2
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 23.68,
+      "end": 71.05,
+      "confidence": 0.55,
+      "windows": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 71.05,
+      "end": 86.84,
+      "confidence": 0.6,
+      "windows": [
+        9,
+        10
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 86.84,
+      "end": 102.63,
+      "confidence": 0.5,
+      "windows": [
+        11,
+        12
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 102.63,
+      "end": 110.53,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 110.53,
+      "end": 126.32,
+      "confidence": 0.6,
+      "windows": [
+        14,
+        15
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 126.32,
+      "end": 142.11,
+      "confidence": 0.55,
+      "windows": [
+        16,
+        17
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 142.11,
+      "end": 150.0,
+      "confidence": 0.45,
+      "windows": [
+        18
+      ]
+    }
+  ]
+}

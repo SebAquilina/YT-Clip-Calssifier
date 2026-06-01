@@ -1,0 +1,33 @@
+{
+ "video_id": "m8gO36sLIfo",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 7.93,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 26,
+   "start_s": 206.07,
+   "end_s": 214.0,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 21,
+   "start_s": 166.44,
+   "end_s": 174.37,
+   "action_label": "reveal_result",
+   "reason": "desc_talking_head"
+  },
+  {
+   "window_index": 22,
+   "start_s": 174.37,
+   "end_s": 182.3,
+   "action_label": "reveal_result",
+   "reason": "desc_text_card"
+  }
+ ]
+}

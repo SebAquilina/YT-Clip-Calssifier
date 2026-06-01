@@ -1,0 +1,66 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.75,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Mauve background; hands lift a white moulded rose/peony candle out of its silicone mould (phone-edited, 'InShot')."
+ },
+ {
+  "window": 1,
+  "start": 7.75,
+  "end": 15.5,
+  "label": "pour_wax",
+  "confidence": 0.6,
+  "description": "White melted wax is poured into a silicone rose mould."
+ },
+ {
+  "window": 2,
+  "start": 15.5,
+  "end": 23.25,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "The filled white silicone mould is handled; a tool sets/adjusts the wick."
+ },
+ {
+  "window": 3,
+  "start": 23.25,
+  "end": 31.0,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "Peeling a white silicone mould off a textured honeycomb candle; rose candles around."
+ },
+ {
+  "window": 4,
+  "start": 31.0,
+  "end": 38.75,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "A demoulded bubble candle and a pink rose candle; the wick is handled."
+ },
+ {
+  "window": 5,
+  "start": 38.75,
+  "end": 46.5,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished pink rose, white peony and bubble candles displayed."
+ },
+ {
+  "window": 6,
+  "start": 46.5,
+  "end": 54.25,
+  "label": "decorate_finish",
+  "confidence": 0.55,
+  "description": "A teal rose candle is demoulded from a white silicone mould on a plate."
+ },
+ {
+  "window": 7,
+  "start": 54.25,
+  "end": 62.0,
+  "label": "reveal_result",
+  "confidence": 0.6,
+  "description": "Finished colourful moulded rose candles shown."
+ }
+]

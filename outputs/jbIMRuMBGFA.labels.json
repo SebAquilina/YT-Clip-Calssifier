@@ -1,0 +1,274 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.91,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "A finished candle jar (frosting/sinkhole demo)."
+ },
+ {
+  "window": 1,
+  "start": 7.91,
+  "end": 15.82,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Handling a jar."
+ },
+ {
+  "window": 2,
+  "start": 15.82,
+  "end": 23.74,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "'Soy Wax Frosting' caption with examples."
+ },
+ {
+  "window": 3,
+  "start": 23.74,
+  "end": 31.65,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Frosting comparison."
+ },
+ {
+  "window": 4,
+  "start": 31.65,
+  "end": 39.56,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "'Soy Wax Frosting' caption."
+ },
+ {
+  "window": 5,
+  "start": 39.56,
+  "end": 47.47,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Metal pot with a wax block."
+ },
+ {
+  "window": 6,
+  "start": 47.47,
+  "end": 55.38,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Wax melting in a double boiler."
+ },
+ {
+  "window": 7,
+  "start": 55.38,
+  "end": 63.29,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "White wax block; pot."
+ },
+ {
+  "window": 8,
+  "start": 63.29,
+  "end": 71.21,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "'1. Clean your jar/mould'; cleaning the mason jar."
+ },
+ {
+  "window": 9,
+  "start": 71.21,
+  "end": 79.12,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Cleaning the jar."
+ },
+ {
+  "window": 10,
+  "start": 79.12,
+  "end": 87.03,
+  "label": "prepare_container",
+  "confidence": 0.5,
+  "description": "'2. Preheat your jar/mould'; the jar."
+ },
+ {
+  "window": 11,
+  "start": 87.03,
+  "end": 94.94,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Jar and pot."
+ },
+ {
+  "window": 12,
+  "start": 94.94,
+  "end": 102.85,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Jar in the double boiler, preheating."
+ },
+ {
+  "window": 13,
+  "start": 102.85,
+  "end": 110.76,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the jar."
+ },
+ {
+  "window": 14,
+  "start": 110.76,
+  "end": 118.68,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "'3. Measuring the wax'; scale."
+ },
+ {
+  "window": 15,
+  "start": 118.68,
+  "end": 126.59,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Measuring the wax."
+ },
+ {
+  "window": 16,
+  "start": 126.59,
+  "end": 134.5,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Jar; pouring."
+ },
+ {
+  "window": 17,
+  "start": 134.5,
+  "end": 142.41,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into the jar."
+ },
+ {
+  "window": 18,
+  "start": 142.41,
+  "end": 150.32,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Jar filled with wax."
+ },
+ {
+  "window": 19,
+  "start": 150.32,
+  "end": 158.24,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "'4. Wax pouring issues'; pouring."
+ },
+ {
+  "window": 20,
+  "start": 158.24,
+  "end": 166.15,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 21,
+  "start": 166.15,
+  "end": 174.06,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 22,
+  "start": 174.06,
+  "end": 181.97,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 23,
+  "start": 181.97,
+  "end": 189.88,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 24,
+  "start": 189.88,
+  "end": 197.79,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 25,
+  "start": 197.79,
+  "end": 205.71,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 26,
+  "start": 205.71,
+  "end": 213.62,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 27,
+  "start": 213.62,
+  "end": 221.53,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 28,
+  "start": 221.53,
+  "end": 229.44,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 29,
+  "start": 229.44,
+  "end": 237.35,
+  "label": "cure_cool",
+  "confidence": 0.45,
+  "description": "The poured candle setting (watching for frosting/sinkholes)."
+ },
+ {
+  "window": 30,
+  "start": 237.35,
+  "end": 245.26,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candle shown."
+ },
+ {
+  "window": 31,
+  "start": 245.26,
+  "end": 253.18,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candle shown."
+ },
+ {
+  "window": 32,
+  "start": 253.18,
+  "end": 261.09,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candle shown."
+ },
+ {
+  "window": 33,
+  "start": 261.09,
+  "end": 269.0,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candle shown."
+ }
+]

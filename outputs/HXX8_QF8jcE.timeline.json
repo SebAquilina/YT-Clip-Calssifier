@@ -1,0 +1,380 @@
+{
+  "video_id": "HXX8_QF8jcE",
+  "title": "Gradient candle making full tutorial ( soy wax & beeswax ) DIY at home | handmade | craft | layer",
+  "url": "https://www.youtube.com/watch?v=HXX8_QF8jcE",
+  "duration": 160.0,
+  "source": "storyboard",
+  "n_windows": 20,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal pot of wax; a white container and tan wax tablet.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.0,
+      "end": 16.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting in the metal pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.0,
+      "end": 24.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pot of wax; pouring.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.0,
+      "end": 32.0,
+      "label": "melt_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax from a bottle; a timer runs.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 32.0,
+      "end": 40.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal pot; white container.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.0,
+      "end": 48.0,
+      "label": "melt_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 48.0,
+      "end": 56.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the wax pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.0,
+      "end": 64.0,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.4,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pot of wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.0,
+      "end": 72.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into a glass; '1 colour in centre'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.0,
+      "end": 80.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring the next layer; '2 colours in centre'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.0,
+      "end": 88.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass with gradient layers; pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.0,
+      "end": 96.0,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tan wax tablets/melts shaped by hand.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.0,
+      "end": 104.0,
+      "label": "decorate_finish",
+      "original_label": "melt_wax",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal pot; tan wax pieces.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.0,
+      "end": 112.0,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tan wax tablets on a plate.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.0,
+      "end": 120.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring/finishing the gradient candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 120.0,
+      "end": 128.0,
+      "label": "other_unclear",
+      "original_label": "other_unclear",
+      "confidence": 0.35,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Black moulds; tan wax pieces.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 128.0,
+      "end": 136.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 136.0,
+      "end": 144.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.0,
+      "end": 152.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 152.0,
+      "end": 160.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 0.0,
+      "end": 64.0,
+      "confidence": 0.45,
+      "windows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 64.0,
+      "end": 88.0,
+      "confidence": 0.48,
+      "windows": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 88.0,
+      "end": 112.0,
+      "confidence": 0.4,
+      "windows": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 112.0,
+      "end": 120.0,
+      "confidence": 0.4,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "other_unclear",
+      "phase": "aux",
+      "is_step": false,
+      "start": 120.0,
+      "end": 128.0,
+      "confidence": 0.35,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 128.0,
+      "end": 160.0,
+      "confidence": 0.5,
+      "windows": [
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ]
+}

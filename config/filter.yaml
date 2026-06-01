@@ -1,0 +1,53 @@
+# =============================================================================
+# Filtering + anti-hallucination thresholds (objective, code-computed signals)
+# -----------------------------------------------------------------------------
+# Policy (per user choice): filter out windows that are PRIMARILY a talking head
+# or a text/title/promo card. KEEP hands-on action even when it carries a step
+# caption (those are distinguished from text slides by having MOTION).
+#
+# All thresholds operate on features from src/ytclip/features.py. Tune freely;
+# every raw score is stored per window so filter decisions stay auditable.
+# =============================================================================
+
+version: 1
+
+filter:
+  # near-black / empty padding frames
+  blank:
+    brightness_below: 0.10
+    # OR effectively empty: flat + no text + static
+    flat_colorfulness_below: 0.025
+    flat_ocr_charcount_below: 3
+    flat_motion_below: 0.02
+
+  # presenter talking to camera (objective: a sizeable frontal face)
+  talking_head:
+    face_score_at_or_above: 0.40
+
+  # a window that is PRIMARILY text: title card, end card, promo/text slide.
+  # Conservative on purpose: a text card is essentially STATIC (motion ~0) with
+  # substantial readable OCR and no face. Captioned ACTION always has more motion
+  # than this, so it is kept (matching the "keep captioned action" choice).
+  text_overlay:
+    ocr_charcount_at_or_above: 25
+    motion_below: 0.02
+    face_score_below: 0.30
+
+# A caption is considered "really present" (grounded) at/above this OCR length.
+# Used to (a) surface verbatim captions and (b) validate description claims.
+caption_min_chars: 8
+
+# Anti-hallucination validator: flag a window for review when the model's
+# label/description is contradicted by the objective features.
+validate:
+  # an action step labelled while a strong face fills the frame
+  action_with_strong_face_at_or_above: 0.60
+  action_step_labels: [gather_materials, prepare_container, measure_wax, melt_wax,
+                       monitor_temperature, add_fragrance, add_dye_color, pour_wax,
+                       set_wick, cure_cool, trim_wick, decorate_finish]
+  # an "active" label on a near-black frame
+  active_on_black_brightness_below: 0.10
+  active_labels: [pour_wax, melt_wax, add_fragrance, add_dye_color, set_wick,
+                  reveal_result, decorate_finish, trim_wick]
+  # description quotes/claims on-screen text but OCR found (almost) none
+  caption_claim_keywords: ["caption", "'", "text on screen", "subscribe", "thanks for watching"]

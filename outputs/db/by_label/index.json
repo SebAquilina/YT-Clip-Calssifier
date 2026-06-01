@@ -1,0 +1,141 @@
+{
+  "source": "outputs/db/classifications.jsonl",
+  "total_rows": 11782,
+  "total_clean_rows": 5402,
+  "n_labels": 19,
+  "labels": {
+    "add_dye_color": {
+      "rows": 133,
+      "clean_rows": 123,
+      "jsonl": "by_label/add_dye_color.jsonl",
+      "csv": "by_label/add_dye_color.csv",
+      "bytes": 126242
+    },
+    "add_fragrance": {
+      "rows": 122,
+      "clean_rows": 113,
+      "jsonl": "by_label/add_fragrance.jsonl",
+      "csv": "by_label/add_fragrance.csv",
+      "bytes": 114429
+    },
+    "blank": {
+      "rows": 151,
+      "clean_rows": 0,
+      "jsonl": "by_label/blank.jsonl",
+      "csv": "by_label/blank.csv",
+      "bytes": 128700
+    },
+    "cure_cool": {
+      "rows": 416,
+      "clean_rows": 342,
+      "jsonl": "by_label/cure_cool.jsonl",
+      "csv": "by_label/cure_cool.csv",
+      "bytes": 405679
+    },
+    "decorate_finish": {
+      "rows": 1371,
+      "clean_rows": 1212,
+      "jsonl": "by_label/decorate_finish.jsonl",
+      "csv": "by_label/decorate_finish.csv",
+      "bytes": 1338231
+    },
+    "gather_materials": {
+      "rows": 297,
+      "clean_rows": 196,
+      "jsonl": "by_label/gather_materials.jsonl",
+      "csv": "by_label/gather_materials.csv",
+      "bytes": 285240
+    },
+    "intro_titlecard": {
+      "rows": 191,
+      "clean_rows": 0,
+      "jsonl": "by_label/intro_titlecard.jsonl",
+      "csv": "by_label/intro_titlecard.csv",
+      "bytes": 195125
+    },
+    "measure_wax": {
+      "rows": 237,
+      "clean_rows": 197,
+      "jsonl": "by_label/measure_wax.jsonl",
+      "csv": "by_label/measure_wax.csv",
+      "bytes": 223444
+    },
+    "melt_wax": {
+      "rows": 704,
+      "clean_rows": 642,
+      "jsonl": "by_label/melt_wax.jsonl",
+      "csv": "by_label/melt_wax.csv",
+      "bytes": 671539
+    },
+    "monitor_temperature": {
+      "rows": 18,
+      "clean_rows": 18,
+      "jsonl": "by_label/monitor_temperature.jsonl",
+      "csv": "by_label/monitor_temperature.csv",
+      "bytes": 17119
+    },
+    "other_unclear": {
+      "rows": 79,
+      "clean_rows": 0,
+      "jsonl": "by_label/other_unclear.jsonl",
+      "csv": "by_label/other_unclear.csv",
+      "bytes": 75828
+    },
+    "outro_cta": {
+      "rows": 304,
+      "clean_rows": 0,
+      "jsonl": "by_label/outro_cta.jsonl",
+      "csv": "by_label/outro_cta.csv",
+      "bytes": 289539
+    },
+    "pour_wax": {
+      "rows": 1249,
+      "clean_rows": 1134,
+      "jsonl": "by_label/pour_wax.jsonl",
+      "csv": "by_label/pour_wax.csv",
+      "bytes": 1190372
+    },
+    "prepare_container": {
+      "rows": 443,
+      "clean_rows": 408,
+      "jsonl": "by_label/prepare_container.jsonl",
+      "csv": "by_label/prepare_container.csv",
+      "bytes": 430461
+    },
+    "reveal_result": {
+      "rows": 801,
+      "clean_rows": 691,
+      "jsonl": "by_label/reveal_result.jsonl",
+      "csv": "by_label/reveal_result.csv",
+      "bytes": 763088
+    },
+    "set_wick": {
+      "rows": 317,
+      "clean_rows": 294,
+      "jsonl": "by_label/set_wick.jsonl",
+      "csv": "by_label/set_wick.csv",
+      "bytes": 299033
+    },
+    "talking_head": {
+      "rows": 3911,
+      "clean_rows": 0,
+      "jsonl": "by_label/talking_head.jsonl",
+      "csv": "by_label/talking_head.csv",
+      "bytes": 3955140
+    },
+    "transition": {
+      "rows": 1004,
+      "clean_rows": 0,
+      "jsonl": "by_label/transition.jsonl",
+      "csv": "by_label/transition.csv",
+      "bytes": 993381
+    },
+    "trim_wick": {
+      "rows": 34,
+      "clean_rows": 32,
+      "jsonl": "by_label/trim_wick.jsonl",
+      "csv": "by_label/trim_wick.csv",
+      "bytes": 31726
+    }
+  }
+}

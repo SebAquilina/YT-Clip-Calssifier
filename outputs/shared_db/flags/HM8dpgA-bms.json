@@ -1,0 +1,40 @@
+{
+ "video_id": "HM8dpgA-bms",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 7.88,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 2,
+   "start_s": 15.75,
+   "end_s": 23.62,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 5,
+   "start_s": 39.38,
+   "end_s": 47.25,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 14,
+   "start_s": 110.25,
+   "end_s": 118.12,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 15,
+   "start_s": 118.12,
+   "end_s": 126.0,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  }
+ ]
+}

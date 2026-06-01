@@ -1,0 +1,82 @@
+{
+ "video_id": "mHXvtRqE-u0",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.03,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 21,
+   "start_s": 168.59,
+   "end_s": 176.62,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 22,
+   "start_s": 176.62,
+   "end_s": 184.65,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 23,
+   "start_s": 184.65,
+   "end_s": 192.68,
+   "action_label": "talking_head",
+   "reason": "non_action:talking_head"
+  },
+  {
+   "window_index": 64,
+   "start_s": 513.8,
+   "end_s": 521.83,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 65,
+   "start_s": 521.83,
+   "end_s": 529.86,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 66,
+   "start_s": 529.86,
+   "end_s": 537.89,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 67,
+   "start_s": 537.89,
+   "end_s": 545.92,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 68,
+   "start_s": 545.92,
+   "end_s": 553.94,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 69,
+   "start_s": 553.94,
+   "end_s": 561.97,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  },
+  {
+   "window_index": 70,
+   "start_s": 561.97,
+   "end_s": 570.0,
+   "action_label": "blank",
+   "reason": "non_action:blank"
+  }
+ ]
+}

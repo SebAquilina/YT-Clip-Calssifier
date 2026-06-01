@@ -1,0 +1,1102 @@
+{
+  "video_id": "Jap03OmOhXU",
+  "title": "15 BRILLIANT Dollar Tree Candle HACKS \ud83d\udd6f\ufe0f (gift ideas galore!)",
+  "url": "https://www.youtube.com/watch?v=Jap03OmOhXU",
+  "duration": 388.0,
+  "source": "storyboard",
+  "n_windows": 48,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.08,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.08,
+      "end": 16.17,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.4,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'WOW Hacks' intro.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.17,
+      "end": 24.25,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dollar Tree candles/supplies shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.25,
+      "end": 32.33,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.33,
+      "end": 40.42,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.42,
+      "end": 48.5,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.5,
+      "end": 56.58,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dollar Tree candles/supplies shown.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.58,
+      "end": 64.67,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.67,
+      "end": 72.75,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A Dollar Tree candle hack: decorating/gluing on a candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.75,
+      "end": 80.83,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished/lit hacked candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.83,
+      "end": 88.92,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.92,
+      "end": 97.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 97.0,
+      "end": 105.08,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A Dollar Tree candle hack: decorating/gluing on a candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 105.08,
+      "end": 113.17,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished/lit hacked candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 113.17,
+      "end": 121.25,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dollar Tree candles/supplies shown.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 121.25,
+      "end": 129.33,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 129.33,
+      "end": 137.42,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A Dollar Tree candle hack: decorating/gluing on a candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 137.42,
+      "end": 145.5,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished/lit hacked candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 145.5,
+      "end": 153.58,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.9,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 153.58,
+      "end": 161.67,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 161.67,
+      "end": 169.75,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A Dollar Tree candle hack: decorating/gluing on a candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 169.75,
+      "end": 177.83,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished/lit hacked candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 177.83,
+      "end": 185.92,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 185.92,
+      "end": 194.0,
+      "label": "talking_head",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 194.0,
+      "end": 202.08,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 202.08,
+      "end": 210.17,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished/lit hacked candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 210.17,
+      "end": 218.25,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dollar Tree candles/supplies shown.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 218.25,
+      "end": 226.33,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 226.33,
+      "end": 234.42,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A Dollar Tree candle hack: decorating/gluing on a candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 234.42,
+      "end": 242.5,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished/lit hacked candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 242.5,
+      "end": 250.58,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dollar Tree candles/supplies shown.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 250.58,
+      "end": 258.67,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 258.67,
+      "end": 266.75,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A Dollar Tree candle hack: decorating/gluing on a candle.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->decorate_finish)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 266.75,
+      "end": 274.83,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 274.83,
+      "end": 282.92,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Dollar Tree candles/supplies shown.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (reveal_result->gather_materials)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 282.92,
+      "end": 291.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Hack b-roll / store footage.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 291.0,
+      "end": 299.08,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 299.08,
+      "end": 307.17,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished/lit hacked candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 307.17,
+      "end": 315.25,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 315.25,
+      "end": 323.33,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 323.33,
+      "end": 331.42,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 331.42,
+      "end": 339.5,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 339.5,
+      "end": 347.58,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 347.58,
+      "end": 355.67,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 355.67,
+      "end": 363.75,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 363.75,
+      "end": 371.83,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 371.83,
+      "end": 379.92,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 379.92,
+      "end": 388.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.08,
+      "confidence": 0.7,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 8.08,
+      "end": 16.17,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 16.17,
+      "end": 24.25,
+      "confidence": 0.4,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 24.25,
+      "end": 32.33,
+      "confidence": 0.4,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 32.33,
+      "end": 48.5,
+      "confidence": 0.7,
+      "windows": [
+        4,
+        5
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 48.5,
+      "end": 56.58,
+      "confidence": 0.4,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 56.58,
+      "end": 64.67,
+      "confidence": 0.4,
+      "windows": [
+        7
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 64.67,
+      "end": 72.75,
+      "confidence": 0.4,
+      "windows": [
+        8
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 72.75,
+      "end": 80.83,
+      "confidence": 0.4,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 80.83,
+      "end": 88.92,
+      "confidence": 0.7,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 88.92,
+      "end": 97.0,
+      "confidence": 0.4,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 97.0,
+      "end": 105.08,
+      "confidence": 0.4,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 105.08,
+      "end": 113.17,
+      "confidence": 0.4,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 113.17,
+      "end": 121.25,
+      "confidence": 0.4,
+      "windows": [
+        14
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 121.25,
+      "end": 129.33,
+      "confidence": 0.4,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 129.33,
+      "end": 137.42,
+      "confidence": 0.4,
+      "windows": [
+        16
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 137.42,
+      "end": 145.5,
+      "confidence": 0.4,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 145.5,
+      "end": 161.67,
+      "confidence": 0.8,
+      "windows": [
+        18,
+        19
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 161.67,
+      "end": 169.75,
+      "confidence": 0.4,
+      "windows": [
+        20
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 169.75,
+      "end": 177.83,
+      "confidence": 0.4,
+      "windows": [
+        21
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 177.83,
+      "end": 202.08,
+      "confidence": 0.6,
+      "windows": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 202.08,
+      "end": 210.17,
+      "confidence": 0.4,
+      "windows": [
+        25
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 210.17,
+      "end": 218.25,
+      "confidence": 0.4,
+      "windows": [
+        26
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 218.25,
+      "end": 226.33,
+      "confidence": 0.4,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 226.33,
+      "end": 234.42,
+      "confidence": 0.4,
+      "windows": [
+        28
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 234.42,
+      "end": 242.5,
+      "confidence": 0.4,
+      "windows": [
+        29
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 242.5,
+      "end": 250.58,
+      "confidence": 0.4,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 250.58,
+      "end": 258.67,
+      "confidence": 0.4,
+      "windows": [
+        31
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 258.67,
+      "end": 266.75,
+      "confidence": 0.4,
+      "windows": [
+        32
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 266.75,
+      "end": 274.83,
+      "confidence": 0.7,
+      "windows": [
+        33
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 274.83,
+      "end": 282.92,
+      "confidence": 0.4,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 282.92,
+      "end": 291.0,
+      "confidence": 0.4,
+      "windows": [
+        35
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 291.0,
+      "end": 299.08,
+      "confidence": 0.7,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 299.08,
+      "end": 307.17,
+      "confidence": 0.4,
+      "windows": [
+        37
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 307.17,
+      "end": 388.0,
+      "confidence": 0.5,
+      "windows": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    }
+  ]
+}

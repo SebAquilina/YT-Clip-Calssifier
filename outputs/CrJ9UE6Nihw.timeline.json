@@ -1,0 +1,1493 @@
+{
+  "video_id": "CrJ9UE6Nihw",
+  "title": "FULL & easy beginners guide to Candle Making",
+  "url": "https://www.youtube.com/watch?v=CrJ9UE6Nihw",
+  "duration": 601.0,
+  "source": "storyboard",
+  "n_windows": 75,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.01,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host (white tee) opens a full beginners candle guide in a kitchen.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.01,
+      "end": 16.03,
+      "label": "intro_titlecard",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talks to camera.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 2,
+      "start": 16.03,
+      "end": 24.04,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Easy Guide - Candle Making' title card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.04,
+      "end": 32.05,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Title card; host.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.05,
+      "end": 40.07,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Overhead creamy white wax mixture in a bowl.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.07,
+      "end": 48.08,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Star-pattern bowl and a wax bag.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 6,
+      "start": 48.08,
+      "end": 56.09,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with a clear bag of wax flakes.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 56.09,
+      "end": 64.11,
+      "label": "measure_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with red dye/wax pieces.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (melt_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 64.11,
+      "end": 72.12,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red pieces measured into a container.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 72.12,
+      "end": 80.13,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Handling red dye chunks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.13,
+      "end": 88.15,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Star-pattern bowl prepared.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 11,
+      "start": 88.15,
+      "end": 96.16,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands at the star bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 96.16,
+      "end": 104.17,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Prepping the decorative bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->prepare_container)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 104.17,
+      "end": 112.19,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal bowl (double boiler) for melting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 14,
+      "start": 112.19,
+      "end": 120.2,
+      "label": "melt_wax",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal bowl with red dye bags.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 15,
+      "start": 120.2,
+      "end": 128.21,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Heat gun over the bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 128.21,
+      "end": 136.23,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal melting bowl and star bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 17,
+      "start": 136.23,
+      "end": 144.24,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax added to the metal bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 18,
+      "start": 144.24,
+      "end": 152.25,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring white wax flakes.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 19,
+      "start": 152.25,
+      "end": 160.27,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax in the bowls.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 160.27,
+      "end": 168.28,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Measuring white wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 168.28,
+      "end": 176.29,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring white wax flakes.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->measure_wax)"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 176.29,
+      "end": 184.31,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands at the white wax bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 184.31,
+      "end": 192.32,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax in the bowl; metal bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 192.32,
+      "end": 200.33,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Metal pot of wax melting on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 200.33,
+      "end": 208.35,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 208.35,
+      "end": 216.36,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 216.36,
+      "end": 224.37,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 28,
+      "start": 224.37,
+      "end": 232.39,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 29,
+      "start": 232.39,
+      "end": 240.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 30,
+      "start": 240.4,
+      "end": 248.41,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 248.41,
+      "end": 256.43,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 32,
+      "start": 256.43,
+      "end": 264.44,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 33,
+      "start": 264.44,
+      "end": 272.45,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 34,
+      "start": 272.45,
+      "end": 280.47,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Yellow/green wax melting and stirred on the induction hob.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 35,
+      "start": 280.47,
+      "end": 288.48,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Star bowl with wax; wick strings positioned.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 288.48,
+      "end": 296.49,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 296.49,
+      "end": 304.51,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 304.51,
+      "end": 312.52,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 312.52,
+      "end": 320.53,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 320.53,
+      "end": 328.55,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 41,
+      "start": 328.55,
+      "end": 336.56,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 336.56,
+      "end": 344.57,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 344.57,
+      "end": 352.59,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 352.59,
+      "end": 360.6,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 360.6,
+      "end": 368.61,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 368.61,
+      "end": 376.63,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 376.63,
+      "end": 384.64,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Setting/securing wicks in the star bowl with glue and sticks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 384.64,
+      "end": 392.65,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Star bowl with white wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 392.65,
+      "end": 400.67,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Bowl rim; decorative dots.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 400.67,
+      "end": 408.68,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring green/olive wax into the star bowl.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 51,
+      "start": 408.68,
+      "end": 416.69,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring green wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 52,
+      "start": 416.69,
+      "end": 424.71,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green wax in the star bowl; wicks.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 53,
+      "start": 424.71,
+      "end": 432.72,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green-wax bowl; wicks held upright.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 54,
+      "start": 432.72,
+      "end": 440.73,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Testing the green colour; pour.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->add_dye_color)"
+      ]
+    },
+    {
+      "window": 55,
+      "start": 440.73,
+      "end": 448.75,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring more green wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 56,
+      "start": 448.75,
+      "end": 456.76,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green-wax bowl; wick.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 57,
+      "start": 456.76,
+      "end": 464.77,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adjusting the wicks in the green wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 58,
+      "start": 464.77,
+      "end": 472.79,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green-wax bowl setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 59,
+      "start": 472.79,
+      "end": 480.8,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring white wax as a top layer.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 60,
+      "start": 480.8,
+      "end": 488.81,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax with embedded bits poured over the green.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 61,
+      "start": 488.81,
+      "end": 496.83,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "White-wax top layer in the bowl; wicks.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->pour_wax)"
+      ]
+    },
+    {
+      "window": 62,
+      "start": 496.83,
+      "end": 504.84,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring wicks in the white top layer.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 63,
+      "start": 504.84,
+      "end": 512.85,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "White-wax bowl with wicks.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->set_wick)"
+      ]
+    },
+    {
+      "window": 64,
+      "start": 512.85,
+      "end": 520.87,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "White-wax bowl with wicks setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 65,
+      "start": 520.87,
+      "end": 528.88,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "White-wax bowl setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 66,
+      "start": 528.88,
+      "end": 536.89,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Marbled/blue top finished on the bowl candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 67,
+      "start": 536.89,
+      "end": 544.91,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 68,
+      "start": 544.91,
+      "end": 552.92,
+      "label": "talking_head",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host holds up the finished bowl candle.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 69,
+      "start": 552.92,
+      "end": 560.93,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 70,
+      "start": 560.93,
+      "end": 568.95,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 71,
+      "start": 568.95,
+      "end": 576.96,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished bowl candle presented.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 72,
+      "start": 576.96,
+      "end": 584.97,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 73,
+      "start": 584.97,
+      "end": 592.99,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 74,
+      "start": 592.99,
+      "end": 601.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 24.04,
+      "confidence": 0.5,
+      "windows": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 24.04,
+      "end": 32.05,
+      "confidence": 0.4,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 32.05,
+      "end": 40.07,
+      "confidence": 0.45,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 40.07,
+      "end": 48.08,
+      "confidence": 0.45,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 48.08,
+      "end": 72.12,
+      "confidence": 0.46,
+      "windows": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 72.12,
+      "end": 80.13,
+      "confidence": 0.45,
+      "windows": [
+        9
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 80.13,
+      "end": 104.17,
+      "confidence": 0.45,
+      "windows": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 104.17,
+      "end": 136.23,
+      "confidence": 0.46,
+      "windows": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 136.23,
+      "end": 176.29,
+      "confidence": 0.45,
+      "windows": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 176.29,
+      "end": 280.47,
+      "confidence": 0.52,
+      "windows": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 280.47,
+      "end": 384.64,
+      "confidence": 0.45,
+      "windows": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 384.64,
+      "end": 392.65,
+      "confidence": 0.4,
+      "windows": [
+        48
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 392.65,
+      "end": 400.67,
+      "confidence": 0.4,
+      "windows": [
+        49
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 400.67,
+      "end": 424.71,
+      "confidence": 0.5,
+      "windows": [
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 424.71,
+      "end": 432.72,
+      "confidence": 0.45,
+      "windows": [
+        53
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 432.72,
+      "end": 440.73,
+      "confidence": 0.45,
+      "windows": [
+        54
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 440.73,
+      "end": 448.75,
+      "confidence": 0.5,
+      "windows": [
+        55
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 448.75,
+      "end": 464.77,
+      "confidence": 0.45,
+      "windows": [
+        56,
+        57
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 464.77,
+      "end": 472.79,
+      "confidence": 0.4,
+      "windows": [
+        58
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 472.79,
+      "end": 496.83,
+      "confidence": 0.5,
+      "windows": [
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 496.83,
+      "end": 512.85,
+      "confidence": 0.45,
+      "windows": [
+        62,
+        63
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 512.85,
+      "end": 528.88,
+      "confidence": 0.4,
+      "windows": [
+        64,
+        65
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 528.88,
+      "end": 536.89,
+      "confidence": 0.4,
+      "windows": [
+        66
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 536.89,
+      "end": 568.95,
+      "confidence": 0.54,
+      "windows": [
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 568.95,
+      "end": 576.96,
+      "confidence": 0.5,
+      "windows": [
+        71
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 576.96,
+      "end": 601.0,
+      "confidence": 0.4,
+      "windows": [
+        72,
+        73,
+        74
+      ]
+    }
+  ]
+}

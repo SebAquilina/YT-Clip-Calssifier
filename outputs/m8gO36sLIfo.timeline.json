@@ -1,0 +1,513 @@
+{
+  "video_id": "m8gO36sLIfo",
+  "title": "Easy Candle Making for Kids | Fun DIY Candle Tutorial at Home",
+  "url": "https://www.youtube.com/watch?v=m8gO36sLIfo",
+  "duration": 214.0,
+  "source": "storyboard",
+  "n_windows": 27,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.93,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "'Candle Making' title.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.93,
+      "end": 15.85,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hand with wax/supplies.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.85,
+      "end": 23.78,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Glass mixing bowl of melted yellow/green wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.78,
+      "end": 31.7,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Coloured wax in the bowl.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.7,
+      "end": 39.63,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink/green wax mixed.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.63,
+      "end": 47.56,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring green wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.56,
+      "end": 55.48,
+      "label": "pour_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Bowl of yellow melted wax.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.48,
+      "end": 63.41,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.41,
+      "end": 71.33,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring green wax into the moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.33,
+      "end": 79.26,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling the moulds with coloured wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.26,
+      "end": 87.19,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pink wax in square moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.19,
+      "end": 95.11,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red/pink wax moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.11,
+      "end": 103.04,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Bowl; red moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.04,
+      "end": 110.96,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red wax in the square moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 110.96,
+      "end": 118.89,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring into the moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 118.89,
+      "end": 126.81,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blue/green star moulds filled.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 126.81,
+      "end": 134.74,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blue wax poured.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 134.74,
+      "end": 142.67,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "White/blue moulds.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.67,
+      "end": 150.59,
+      "label": "decorate_finish",
+      "original_label": "decorate_finish",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A blue star candle handled.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 150.59,
+      "end": 158.52,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filled moulds setting.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (decorate_finish->cure_cool)"
+      ]
+    },
+    {
+      "window": 20,
+      "start": 158.52,
+      "end": 166.44,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished colourful flower/daisy candles (overhead).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 166.44,
+      "end": 174.37,
+      "label": "reveal_result",
+      "original_label": "talking_head",
+      "confidence": 0.77,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 22,
+      "start": 174.37,
+      "end": 182.3,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Colourful candles; 'subscribe my channel'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 182.3,
+      "end": 190.22,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 24,
+      "start": 190.22,
+      "end": 198.15,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 198.15,
+      "end": 206.07,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.4,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished candles.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 206.07,
+      "end": 214.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Closing frame.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.93,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.93,
+      "end": 15.85,
+      "confidence": 0.4,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 15.85,
+      "end": 23.78,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 23.78,
+      "end": 39.63,
+      "confidence": 0.45,
+      "windows": [
+        3,
+        4
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 39.63,
+      "end": 142.67,
+      "confidence": 0.48,
+      "windows": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "label": "decorate_finish",
+      "phase": "finish",
+      "is_step": true,
+      "start": 142.67,
+      "end": 150.59,
+      "confidence": 0.45,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 150.59,
+      "end": 158.52,
+      "confidence": 0.4,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 158.52,
+      "end": 206.07,
+      "confidence": 0.52,
+      "windows": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 206.07,
+      "end": 214.0,
+      "confidence": 0.4,
+      "windows": [
+        26
+      ]
+    }
+  ]
+}

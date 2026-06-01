@@ -1,0 +1,524 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Host (white sweater) opens an essential-oil candle tutorial in a kitchen."
+ },
+ {
+  "window": 1,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Title card 'How I make essential oil candles'."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 5,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 7,
+  "label": "transition",
+  "confidence": 0.45,
+  "description": "'Essential Oil Steam Distillation' diagram."
+ },
+ {
+  "window": 8,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 9,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Lavender field b-roll."
+ },
+ {
+  "window": 10,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 11,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 12,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 13,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 15,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Host shows the thermometer."
+ },
+ {
+  "window": 16,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Host shows the wax; 'WAX' caption."
+ },
+ {
+  "window": 17,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 18,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "'Karen clear 20cl' jar shown."
+ },
+ {
+  "window": 19,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Host shows the wick."
+ },
+ {
+  "window": 20,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Host shows the wax."
+ },
+ {
+  "window": 21,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "'Clean out your jar'; wiping the jar (heat gun shown)."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 23,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Host shows the essential oils."
+ },
+ {
+  "window": 24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 25,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 28,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Pink pot melting wax on the gas stove."
+ },
+ {
+  "window": 29,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax on the stove."
+ },
+ {
+  "window": 30,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 31,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 32,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 33,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 34,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 35,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 36,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "At the stove melting wax."
+ },
+ {
+  "window": 37,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Melting wax in the pot."
+ },
+ {
+  "window": 38,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Tending the melting wax."
+ },
+ {
+  "window": 39,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 40,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "At the stove with the wax pot."
+ },
+ {
+  "window": 41,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 42,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 43,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 44,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 45,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 46,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 47,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 48,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 49,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 50,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Blue crockpot melter on the counter melting wax."
+ },
+ {
+  "window": 51,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 52,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 53,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 54,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Blue crockpot melter on the counter melting wax."
+ },
+ {
+  "window": 55,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 56,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 57,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 58,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Blue crockpot melter on the counter melting wax."
+ },
+ {
+  "window": 59,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 60,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Adding essential oils to the melted wax."
+ },
+ {
+  "window": 61,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Pouring wax into the clear jar."
+ },
+ {
+  "window": 62,
+  "label": "monitor_temperature",
+  "confidence": 0.45,
+  "description": "Checking the wax temperature with a thermometer."
+ },
+ {
+  "window": 63,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 64,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 65,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 66,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 67,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 68,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 69,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 70,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 71,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 72,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 73,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 74,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 75,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 76,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Hands hold the finished white jar candle."
+ },
+ {
+  "window": 77,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Showing the finished essential-oil candle."
+ },
+ {
+  "window": 78,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host wraps up to camera."
+ },
+ {
+  "window": 79,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ },
+ {
+  "window": 80,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ },
+ {
+  "window": 81,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ },
+ {
+  "window": 82,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ },
+ {
+  "window": 83,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ },
+ {
+  "window": 84,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ },
+ {
+  "window": 85,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ },
+ {
+  "window": 86,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Thanks for Watching!' end card."
+ }
+]

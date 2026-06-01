@@ -1,0 +1,68 @@
+{
+ "video_id": "RwLOuuMSrWE",
+ "flagged": [
+  {
+   "window_index": 45,
+   "start_s": 359.15,
+   "end_s": 367.13,
+   "action_label": "outro_cta",
+   "reason": "non_action:outro_cta"
+  },
+  {
+   "window_index": 46,
+   "start_s": 367.13,
+   "end_s": 375.11,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 47,
+   "start_s": 375.11,
+   "end_s": 383.09,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 48,
+   "start_s": 383.09,
+   "end_s": 391.08,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 49,
+   "start_s": 391.08,
+   "end_s": 399.06,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 50,
+   "start_s": 399.06,
+   "end_s": 407.04,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 51,
+   "start_s": 407.04,
+   "end_s": 415.02,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 52,
+   "start_s": 415.02,
+   "end_s": 423.0,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 1,
+   "start_s": 7.98,
+   "end_s": 15.96,
+   "action_label": "gather_materials",
+   "reason": "desc_text_card"
+  }
+ ]
+}

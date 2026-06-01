@@ -1,0 +1,367 @@
+{
+  "video_id": "2KbmlOnPJnU",
+  "title": "How To Make an INFINITE CANDLE Wick \u2013 Burns Forever!",
+  "url": "https://www.youtube.com/watch?v=2KbmlOnPJnU",
+  "duration": 151.0,
+  "source": "storyboard",
+  "n_windows": 19,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.95,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Dark moody intro; close-up of a small oil/dish setup for an 'infinite wick' build.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.95,
+      "end": 15.89,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Black-gloved hands lay out the small components for the floating oil wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.89,
+      "end": 23.84,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Gloved hands assemble a cork/metal float for the wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.84,
+      "end": 31.79,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Gloved hands work a metal disc/cork piece of the wick float.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.79,
+      "end": 39.74,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Gloved hands cut and fit the float-wick parts.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.74,
+      "end": 47.68,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Gloved hands continue assembling the floating wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.68,
+      "end": 55.63,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Gloved hands handle the small wick components.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.63,
+      "end": 63.58,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Gloved hands thread the wick through the float.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.58,
+      "end": 71.53,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Gloved hands work near a small spirit burner.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 71.53,
+      "end": 79.47,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "The float wick is set into a small metal cup/burner.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 79.47,
+      "end": 87.42,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands position the float wick in the oil cup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 87.42,
+      "end": 95.37,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.4,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Oil is added to the metal cup to fuel the float wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 95.37,
+      "end": 103.32,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.45,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Close-up of a tealight/float candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 103.32,
+      "end": 111.26,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The float wick is lit and burns in the cup.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 111.26,
+      "end": 119.21,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tealights/float wicks lit in a row.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 119.21,
+      "end": 127.16,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Candles burning.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 16,
+      "start": 127.16,
+      "end": 135.11,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lit candles beauty shot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 135.11,
+      "end": 143.05,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Lit candle with 'THANKS FOR WATCHING'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 143.05,
+      "end": 151.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Thanks-for-watching end card.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.95,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.95,
+      "end": 15.89,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.89,
+      "end": 71.53,
+      "confidence": 0.49,
+      "windows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 71.53,
+      "end": 87.42,
+      "confidence": 0.45,
+      "windows": [
+        9,
+        10
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 87.42,
+      "end": 95.37,
+      "confidence": 0.4,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 95.37,
+      "end": 135.11,
+      "confidence": 0.52,
+      "windows": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 135.11,
+      "end": 151.0,
+      "confidence": 0.53,
+      "windows": [
+        17,
+        18
+      ]
+    }
+  ]
+}

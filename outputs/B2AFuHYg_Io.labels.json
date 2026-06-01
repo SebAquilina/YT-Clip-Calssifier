@@ -1,0 +1,380 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "'Boss Vision' opens; a pot of wax and the channel page."
+ },
+ {
+  "window": 1,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Channel/laptop page."
+ },
+ {
+  "window": 2,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Purple 'Ultimate Survival Guide' promo on the laptop."
+ },
+ {
+  "window": 3,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop label/website screen."
+ },
+ {
+  "window": 4,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop form screens."
+ },
+ {
+  "window": 5,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screens."
+ },
+ {
+  "window": 6,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop (Makesy supplies)."
+ },
+ {
+  "window": 7,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "White wax discs; pink glove."
+ },
+ {
+  "window": 8,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Pink-gloved hand with a fragrance bottle."
+ },
+ {
+  "window": 9,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Cutting/handling supplies."
+ },
+ {
+  "window": 10,
+  "label": "gather_materials",
+  "confidence": 0.45,
+  "description": "Two amber fragrance bottles held."
+ },
+ {
+  "window": 11,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Glass dish with white wax discs."
+ },
+ {
+  "window": 12,
+  "label": "prepare_container",
+  "confidence": 0.4,
+  "description": "Pink-gloved hands prep at the bench."
+ },
+ {
+  "window": 13,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Fragrance bottles by the black melting pot."
+ },
+ {
+  "window": 14,
+  "label": "measure_wax",
+  "confidence": 0.5,
+  "description": "White wax weighed on a scale."
+ },
+ {
+  "window": 15,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Wax in the black melting pot."
+ },
+ {
+  "window": 16,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "White wax melting in the black pot."
+ },
+ {
+  "window": 17,
+  "label": "melt_wax",
+  "confidence": 0.55,
+  "description": "Wax melting in the pot."
+ },
+ {
+  "window": 18,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Black pot of melting wax."
+ },
+ {
+  "window": 19,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Molten wax in the black pot."
+ },
+ {
+  "window": 20,
+  "label": "monitor_temperature",
+  "confidence": 0.5,
+  "description": "Phone thermometer; pink glove stirs the pot."
+ },
+ {
+  "window": 21,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Stirring fragrance into the wax; phone."
+ },
+ {
+  "window": 22,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Yellow wax poured into a black glass jar."
+ },
+ {
+  "window": 23,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Black jar with yellow wax; wick stick."
+ },
+ {
+  "window": 24,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Yellow wax in the glass with a wick bar."
+ },
+ {
+  "window": 25,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Heat gun smooths the candle top."
+ },
+ {
+  "window": 26,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "White container and supplies."
+ },
+ {
+  "window": 27,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Shelves of supplies."
+ },
+ {
+  "window": 28,
+  "label": "decorate_finish",
+  "confidence": 0.4,
+  "description": "Shipping/square label prepared."
+ },
+ {
+  "window": 29,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 30,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 31,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 32,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 33,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 34,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 35,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 36,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 37,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 38,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 39,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 40,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 41,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 42,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 43,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 44,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen designing the 'Mahogany Vanilla' label/website."
+ },
+ {
+  "window": 45,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop screen."
+ },
+ {
+  "window": 46,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop print dialog."
+ },
+ {
+  "window": 47,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop print dialog."
+ },
+ {
+  "window": 48,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop print dialog."
+ },
+ {
+  "window": 49,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop print dialog."
+ },
+ {
+  "window": 50,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Laptop print dialog."
+ },
+ {
+  "window": 51,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Printer with the 'Mahogany Vanilla' labels."
+ },
+ {
+  "window": 52,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Applying the label to the black jar candle."
+ },
+ {
+  "window": 53,
+  "label": "decorate_finish",
+  "confidence": 0.5,
+  "description": "Labelled black jar; hands."
+ },
+ {
+  "window": 54,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Lit black 'Mahogany Vanilla' jar candle."
+ },
+ {
+  "window": 55,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Lit double-wick black jar candle."
+ },
+ {
+  "window": 56,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Lit candle close-up."
+ },
+ {
+  "window": 57,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Holding an iridescent jar candle."
+ },
+ {
+  "window": 58,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Holding the labelled candle."
+ },
+ {
+  "window": 59,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Holding the iridescent candles."
+ },
+ {
+  "window": 60,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 61,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 62,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

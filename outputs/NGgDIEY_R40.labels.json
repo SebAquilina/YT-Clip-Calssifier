@@ -1,0 +1,16 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "Intro flashes (white/green) to a finished Pure Integrity candle as a teaser."},
+  {"window": 1, "label": "talking_head", "confidence": 0.6, "description": "Bald host in a candle store talks to camera; a finished candle on the counter."},
+  {"window": 2, "label": "talking_head", "confidence": 0.55, "description": "Host talks; a large metal melting pot sits on a scale beside him."},
+  {"window": 3, "label": "melt_wax", "confidence": 0.5, "description": "Hands hold a wooden stir stick over the large metal melting pot of wax."},
+  {"window": 4, "label": "melt_wax", "confidence": 0.5, "description": "The big metal pot with a wick clip on the rim and a wooden stir stick; wax inside."},
+  {"window": 5, "label": "monitor_temperature", "confidence": 0.45, "description": "Hands measure depth/level in the pot with a stick and point things out."},
+  {"window": 6, "label": "melt_wax", "confidence": 0.45, "description": "Host points at the pot rim and wick as the wax stands ready."},
+  {"window": 7, "label": "add_fragrance", "confidence": 0.5, "description": "A stick/probe is inserted into the pot to stir in scent (the video's topic is adding fragrance)."},
+  {"window": 8, "label": "add_fragrance", "confidence": 0.5, "description": "Hands stir the pot to blend fragrance into the wax."},
+  {"window": 9, "label": "pour_wax", "confidence": 0.5, "description": "Work at a glass jar with a wick — wax being poured/handled."},
+  {"window": 10, "label": "set_wick", "confidence": 0.5, "description": "The glass jar holds wax with a centred wick; hands adjust it."},
+  {"window": 11, "label": "reveal_result", "confidence": 0.55, "description": "Finished Pure Integrity candle in the glass with its wick shown."},
+  {"window": 12, "label": "outro_cta", "confidence": 0.6, "description": "End card over the finished candle; 'filmed by Bad Ferret Films'."},
+  {"window": 13, "label": "outro_cta", "confidence": 0.6, "description": "'filmed by Bad Ferret Films / Pure Integrity Candles' credits card."}
+]

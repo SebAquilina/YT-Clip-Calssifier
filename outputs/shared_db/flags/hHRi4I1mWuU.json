@@ -1,0 +1,19 @@
+{
+ "video_id": "hHRi4I1mWuU",
+ "flagged": [
+  {
+   "window_index": 18,
+   "start_s": 144.49,
+   "end_s": 152.52,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 24,
+   "start_s": 192.65,
+   "end_s": 200.68,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  }
+ ]
+}

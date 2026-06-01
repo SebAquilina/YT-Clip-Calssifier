@@ -1,0 +1,386 @@
+[
+ {
+  "window": 0,
+  "label": "intro_titlecard",
+  "confidence": 0.5,
+  "description": "Love & Co host (black apron) opens in a candle studio."
+ },
+ {
+  "window": 1,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 2,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 3,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 4,
+  "label": "talking_head",
+  "confidence": 0.55,
+  "description": "Host talks; metal pitcher in frame."
+ },
+ {
+  "window": 5,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Overhead dark vessels prepared."
+ },
+ {
+  "window": 7,
+  "label": "prepare_container",
+  "confidence": 0.45,
+  "description": "Overhead vessel prep."
+ },
+ {
+  "window": 8,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 9,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 10,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 11,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 12,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 13,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Host with a white bag of wax."
+ },
+ {
+  "window": 14,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 15,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 16,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 17,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 18,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 19,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 20,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 21,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 22,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 23,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 24,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 25,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 26,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 27,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 28,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 29,
+  "label": "talking_head",
+  "confidence": 0.6,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 30,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Metal pitcher of wax melting."
+ },
+ {
+  "window": 31,
+  "label": "measure_wax",
+  "confidence": 0.45,
+  "description": "Wax poured into the pitcher."
+ },
+ {
+  "window": 32,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Stirring the wax in the pitcher."
+ },
+ {
+  "window": 33,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Amber wax in the pitcher."
+ },
+ {
+  "window": 34,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "An amber fragrance bottle."
+ },
+ {
+  "window": 35,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "'Orange Espresso' fragrance added to the pitcher."
+ },
+ {
+  "window": 36,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Pitcher of amber wax."
+ },
+ {
+  "window": 37,
+  "label": "add_fragrance",
+  "confidence": 0.5,
+  "description": "Stirring fragrance into the amber wax."
+ },
+ {
+  "window": 38,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Amber wax in the pitcher."
+ },
+ {
+  "window": 39,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Blending the scented wax."
+ },
+ {
+  "window": 40,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Pitcher of wax."
+ },
+ {
+  "window": 41,
+  "label": "add_fragrance",
+  "confidence": 0.45,
+  "description": "Stirring the wax."
+ },
+ {
+  "window": 42,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Amber wax ready."
+ },
+ {
+  "window": 43,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Pitcher of molten wax."
+ },
+ {
+  "window": 44,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Wax in the pitcher."
+ },
+ {
+  "window": 45,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Molten wax."
+ },
+ {
+  "window": 46,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Pitcher of wax."
+ },
+ {
+  "window": 47,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Wax ready to pour."
+ },
+ {
+  "window": 48,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Wax poured from the pitcher into a brown/kraft vessel."
+ },
+ {
+  "window": 49,
+  "label": "pour_wax",
+  "confidence": 0.55,
+  "description": "Pouring wax into the vessel."
+ },
+ {
+  "window": 50,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Kraft vessel filled with wax; wick stick."
+ },
+ {
+  "window": 51,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Brown vessel with wax; centring the wick."
+ },
+ {
+  "window": 52,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Steadying the wick in the vessel."
+ },
+ {
+  "window": 53,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Centring the wick in the candle."
+ },
+ {
+  "window": 54,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Holding the finished candle; wick."
+ },
+ {
+  "window": 55,
+  "label": "trim_wick",
+  "confidence": 0.5,
+  "description": "Trimming the wick on the set candle."
+ },
+ {
+  "window": 56,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Wick clip on the vessel."
+ },
+ {
+  "window": 57,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "Placing a lid on the brown vessel candle."
+ },
+ {
+  "window": 58,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Two hosts at the table."
+ },
+ {
+  "window": 59,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "Two hosts; 'GIVEAWAY!' caption."
+ },
+ {
+  "window": 60,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Two hosts wrap up."
+ },
+ {
+  "window": 61,
+  "label": "outro_cta",
+  "confidence": 0.5,
+  "description": "'Love & Co' giveaway end card."
+ },
+ {
+  "window": 62,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ },
+ {
+  "window": 63,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Blank/black padding."
+ }
+]

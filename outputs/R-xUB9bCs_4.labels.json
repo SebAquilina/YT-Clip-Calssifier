@@ -1,0 +1,194 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.88,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 1,
+  "start": 7.88,
+  "end": 15.75,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Overhead amber-wax tin shown (wick-changing demo)."
+ },
+ {
+  "window": 2,
+  "start": 15.75,
+  "end": 23.62,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Overhead amber-wax tin shown (wick-changing demo)."
+ },
+ {
+  "window": 3,
+  "start": 23.62,
+  "end": 31.5,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Overhead amber-wax tin shown (wick-changing demo)."
+ },
+ {
+  "window": 4,
+  "start": 31.5,
+  "end": 39.38,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Overhead amber-wax tin shown (wick-changing demo)."
+ },
+ {
+  "window": 5,
+  "start": 39.38,
+  "end": 47.25,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Overhead amber-wax tin shown (wick-changing demo)."
+ },
+ {
+  "window": 6,
+  "start": 47.25,
+  "end": 55.12,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Overhead amber-wax tin shown (wick-changing demo)."
+ },
+ {
+  "window": 7,
+  "start": 55.12,
+  "end": 63.0,
+  "label": "other_unclear",
+  "confidence": 0.4,
+  "description": "Overhead amber-wax tin shown (wick-changing demo)."
+ },
+ {
+  "window": 8,
+  "start": 63.0,
+  "end": 70.88,
+  "label": "transition",
+  "confidence": 0.4,
+  "description": "Caption: if the wax solidifies too long the wick is hard to remove."
+ },
+ {
+  "window": 9,
+  "start": 70.88,
+  "end": 78.75,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Blue-gloved hand removes the old wick from the tin with tweezers."
+ },
+ {
+  "window": 10,
+  "start": 78.75,
+  "end": 86.62,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Re-melting the surface wax in the tin."
+ },
+ {
+  "window": 11,
+  "start": 86.62,
+  "end": 94.5,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Working the wick out of the tin."
+ },
+ {
+  "window": 12,
+  "start": 94.5,
+  "end": 102.38,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Inserting a new wick into the tin."
+ },
+ {
+  "window": 13,
+  "start": 102.38,
+  "end": 110.25,
+  "label": "set_wick",
+  "confidence": 0.5,
+  "description": "Seating the new wick in the wax."
+ },
+ {
+  "window": 14,
+  "start": 110.25,
+  "end": 118.12,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Centring the new wick."
+ },
+ {
+  "window": 15,
+  "start": 118.12,
+  "end": 126.0,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Securing the wick with a pin."
+ },
+ {
+  "window": 16,
+  "start": 126.0,
+  "end": 133.88,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Adjusting the new wick with a stick."
+ },
+ {
+  "window": 17,
+  "start": 133.88,
+  "end": 141.75,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Wick stick across the tin."
+ },
+ {
+  "window": 18,
+  "start": 141.75,
+  "end": 149.62,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Tin with the new wick set."
+ },
+ {
+  "window": 19,
+  "start": 149.62,
+  "end": 157.5,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Finishing the wick change."
+ },
+ {
+  "window": 20,
+  "start": 157.5,
+  "end": 165.38,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Tin with new wick."
+ },
+ {
+  "window": 21,
+  "start": 165.38,
+  "end": 173.25,
+  "label": "melt_wax",
+  "confidence": 0.4,
+  "description": "Black pan; reheating."
+ },
+ {
+  "window": 22,
+  "start": 173.25,
+  "end": 181.12,
+  "label": "set_wick",
+  "confidence": 0.4,
+  "description": "Tin with the new wick."
+ },
+ {
+  "window": 23,
+  "start": 181.12,
+  "end": 189.0,
+  "label": "transition",
+  "confidence": 0.5,
+  "description": "Blank / near-black frame (auto-detected)."
+ }
+]

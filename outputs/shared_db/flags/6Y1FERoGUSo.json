@@ -1,0 +1,40 @@
+{
+ "video_id": "6Y1FERoGUSo",
+ "flagged": [
+  {
+   "window_index": 0,
+   "start_s": 0.0,
+   "end_s": 8.0,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 1,
+   "start_s": 8.0,
+   "end_s": 16.0,
+   "action_label": "intro_titlecard",
+   "reason": "non_action:intro_titlecard"
+  },
+  {
+   "window_index": 94,
+   "start_s": 752.0,
+   "end_s": 760.0,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 95,
+   "start_s": 760.0,
+   "end_s": 768.0,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  },
+  {
+   "window_index": 96,
+   "start_s": 768.0,
+   "end_s": 776.0,
+   "action_label": "transition",
+   "reason": "non_action:transition"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+[
+  {"window": 0, "label": "intro_titlecard", "confidence": 0.5, "description": "A finished diagonally-layered colour-block candle is teased, then a hand sets out white supplies on a table."},
+  {"window": 1, "label": "prepare_container", "confidence": 0.6, "description": "A hot-glue gun fixes a wick to the base of a clear glass; hands centre the wick."},
+  {"window": 2, "label": "add_dye_color", "confidence": 0.5, "description": "Four small dishes of crayon pieces (caption 'CRAYONS') are set up as colourant for the wax."},
+  {"window": 3, "label": "melt_wax", "confidence": 0.55, "description": "Captions 'HEAT 10 MINS' and 'ESSENTIAL OIL OPTIONAL'; the coloured crayon-wax dishes melt."},
+  {"window": 4, "label": "pour_wax", "confidence": 0.6, "description": "First coloured layer poured into the glass held at a tilt (caption 'ESSENTIAL OIL OPTIONAL'); a chopstick supports the angle."},
+  {"window": 5, "label": "pour_wax", "confidence": 0.7, "description": "Blue layer set; teal molten wax is poured into the tilted glass to build a diagonal stripe."},
+  {"window": 6, "label": "pour_wax", "confidence": 0.7, "description": "Successive teal/green layers poured into the tilted glass, forming angled colour blocks."},
+  {"window": 7, "label": "pour_wax", "confidence": 0.65, "description": "Green layer poured; the glass now shows diagonal blue/teal/green bands."},
+  {"window": 8, "label": "reveal_result", "confidence": 0.55, "description": "Hands level the glass, then a finished multicolour layered candle is shown lit."},
+  {"window": 9, "label": "reveal_result", "confidence": 0.6, "description": "Beauty shot of the finished colour-block candle burning; 'DIY PROJECTS' logo."}
+]

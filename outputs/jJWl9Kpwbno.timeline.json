@@ -1,0 +1,1039 @@
+{
+  "video_id": "jJWl9Kpwbno",
+  "title": "How to Make Candles in 5 Minutes (Crash Course) | DIY Candle Making for Beginners",
+  "url": "https://www.youtube.com/watch?v=jJWl9Kpwbno",
+  "duration": 442.0,
+  "source": "storyboard",
+  "n_windows": 55,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 8.04,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.55,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "host opening to camera",
+      "description": "host opening to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 8.04,
+      "end": 16.07,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 16.07,
+      "end": 24.11,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 24.11,
+      "end": 32.15,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 32.15,
+      "end": 40.18,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 40.18,
+      "end": 48.22,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking, subscribe button overlay",
+      "description": "host talking, subscribe button overlay",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 48.22,
+      "end": 56.25,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking, on-screen card",
+      "description": "host talking, on-screen card",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 56.25,
+      "end": 64.29,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 64.29,
+      "end": 72.33,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking, overlay",
+      "description": "host talking, overlay",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 72.33,
+      "end": 80.36,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 80.36,
+      "end": 88.4,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 88.4,
+      "end": 96.44,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 96.44,
+      "end": 104.47,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 104.47,
+      "end": 112.51,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.55,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "'About Wicks' educational graphic insert",
+      "description": "'About Wicks' educational graphic insert",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 112.51,
+      "end": 120.55,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "animated graphic insert",
+      "description": "animated graphic insert",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 120.55,
+      "end": 128.58,
+      "label": "transition",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "pile of wax flakes b-roll",
+      "description": "pile of wax flakes b-roll",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 128.58,
+      "end": 136.62,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "'NEW CANDLE MAKER WATCH THIS FIRST' card",
+      "description": "'NEW CANDLE MAKER WATCH THIS FIRST' card",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 136.62,
+      "end": 144.65,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "host at workbench with materials",
+      "description": "host at workbench with materials",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 144.65,
+      "end": 152.69,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "pouring pitcher with flakes",
+      "description": "pouring pitcher with flakes",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 152.69,
+      "end": 160.73,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "liquid wax b-roll",
+      "description": "liquid wax b-roll",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 160.73,
+      "end": 168.76,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 21,
+      "start": 168.76,
+      "end": 176.8,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 176.8,
+      "end": 184.84,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "bowls of dye / materials",
+      "description": "bowls of dye / materials",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 23,
+      "start": 184.84,
+      "end": 192.87,
+      "label": "gather_materials",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "'Fragrance Oils' card with bottles",
+      "description": "'Fragrance Oils' card with bottles",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (melt_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 192.87,
+      "end": 200.91,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "row of jars b-roll",
+      "description": "row of jars b-roll",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 25,
+      "start": 200.91,
+      "end": 208.95,
+      "label": "gather_materials",
+      "original_label": "melt_wax",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "metal pot b-roll",
+      "description": "metal pot b-roll",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours",
+        "backward step vs canonical order (melt_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 26,
+      "start": 208.95,
+      "end": 216.98,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "containers b-roll",
+      "description": "containers b-roll",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 27,
+      "start": 216.98,
+      "end": 225.02,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 225.02,
+      "end": 233.05,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "fragrance-ratio text caption",
+      "description": "fragrance-ratio text caption",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 233.05,
+      "end": 241.09,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "fragrance-ratio text caption",
+      "description": "fragrance-ratio text caption",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 241.09,
+      "end": 249.13,
+      "label": "transition",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "shelf of jars b-roll",
+      "description": "shelf of jars b-roll",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 31,
+      "start": 249.13,
+      "end": 257.16,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "blank/black frame",
+      "description": "blank/black frame",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 257.16,
+      "end": 265.2,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 265.2,
+      "end": 273.24,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 273.24,
+      "end": 281.27,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.6,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "'Keep Wicks Centered' diagram insert",
+      "description": "'Keep Wicks Centered' diagram insert",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 281.27,
+      "end": 289.31,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.4,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "coloured wax pile b-roll",
+      "description": "coloured wax pile b-roll",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->gather_materials)"
+      ]
+    },
+    {
+      "window": 36,
+      "start": 289.31,
+      "end": 297.35,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 297.35,
+      "end": 305.38,
+      "label": "cure_cool",
+      "original_label": "cure_cool",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "'Let candles cool/cure' caption",
+      "description": "'Let candles cool/cure' caption",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 305.38,
+      "end": 313.42,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "honeycomb wax pile b-roll",
+      "description": "honeycomb wax pile b-roll",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (cure_cool->gather_materials)"
+      ]
+    },
+    {
+      "window": 39,
+      "start": 313.42,
+      "end": 321.45,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 40,
+      "start": 321.45,
+      "end": 329.49,
+      "label": "talking_head",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "graphic insert",
+      "description": "graphic insert",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 41,
+      "start": 329.49,
+      "end": 337.53,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 42,
+      "start": 337.53,
+      "end": 345.56,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 43,
+      "start": 345.56,
+      "end": 353.6,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 44,
+      "start": 353.6,
+      "end": 361.64,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 45,
+      "start": 361.64,
+      "end": 369.67,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 46,
+      "start": 369.67,
+      "end": 377.71,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 47,
+      "start": 377.71,
+      "end": 385.75,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 48,
+      "start": 385.75,
+      "end": 393.78,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 49,
+      "start": 393.78,
+      "end": 401.82,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 50,
+      "start": 401.82,
+      "end": 409.85,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 51,
+      "start": 409.85,
+      "end": 417.89,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 52,
+      "start": 417.89,
+      "end": 425.93,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 53,
+      "start": 425.93,
+      "end": 433.96,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.7,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "host talking to camera",
+      "description": "host talking to camera",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 54,
+      "start": 433.96,
+      "end": 442.0,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "closing remarks to camera",
+      "description": "closing remarks to camera",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 8.04,
+      "confidence": 0.55,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 8.04,
+      "end": 104.47,
+      "confidence": 0.66,
+      "windows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 104.47,
+      "end": 136.62,
+      "confidence": 0.54,
+      "windows": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 136.62,
+      "end": 144.65,
+      "confidence": 0.45,
+      "windows": [
+        17
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 144.65,
+      "end": 152.69,
+      "confidence": 0.55,
+      "windows": [
+        18
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 152.69,
+      "end": 160.73,
+      "confidence": 0.45,
+      "windows": [
+        19
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 160.73,
+      "end": 176.8,
+      "confidence": 0.7,
+      "windows": [
+        20,
+        21
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 176.8,
+      "end": 216.98,
+      "confidence": 0.45,
+      "windows": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 216.98,
+      "end": 225.02,
+      "confidence": 0.7,
+      "windows": [
+        27
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 225.02,
+      "end": 257.16,
+      "confidence": 0.52,
+      "windows": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 257.16,
+      "end": 273.24,
+      "confidence": 0.65,
+      "windows": [
+        32,
+        33
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 273.24,
+      "end": 281.27,
+      "confidence": 0.6,
+      "windows": [
+        34
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 281.27,
+      "end": 289.31,
+      "confidence": 0.4,
+      "windows": [
+        35
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 289.31,
+      "end": 297.35,
+      "confidence": 0.7,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "cure_cool",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 297.35,
+      "end": 305.38,
+      "confidence": 0.5,
+      "windows": [
+        37
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 305.38,
+      "end": 313.42,
+      "confidence": 0.45,
+      "windows": [
+        38
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 313.42,
+      "end": 433.96,
+      "confidence": 0.67,
+      "windows": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 433.96,
+      "end": 442.0,
+      "confidence": 0.5,
+      "windows": [
+        54
+      ]
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "video_id": "HM8dpgA-bms",
+  "title": "Natural Ways to Color Candles : Basic Candle Making",
+  "url": "https://www.youtube.com/watch?v=HM8dpgA-bms",
+  "duration": 126.0,
+  "source": "storyboard",
+  "n_windows": 16,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.88,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.45,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Intro into the Pure Integrity coloured candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.88,
+      "end": 15.75,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Red wax in a pot/double boiler.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.75,
+      "end": 23.62,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Bald host in the store talks to camera.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.62,
+      "end": 31.5,
+      "label": "measure_wax",
+      "original_label": "measure_wax",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with a measuring cup of red wax on paper.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->measure_wax)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 31.5,
+      "end": 39.38,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring red wax; a sachet of natural colourant.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.38,
+      "end": 47.25,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.77,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Presenter talking to camera (auto-detected: frontal face).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.25,
+      "end": 55.12,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tending the melter.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 7,
+      "start": 55.12,
+      "end": 63.0,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring colourant into the melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 63.0,
+      "end": 70.88,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.45,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adding colourant to the melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 70.88,
+      "end": 78.75,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Readying to pour from the metal melter.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 10,
+      "start": 78.75,
+      "end": 86.62,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring tan/amber wax into a jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 86.62,
+      "end": 94.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Tan wax filling the jar; wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 12,
+      "start": 94.5,
+      "end": 102.38,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Centring the wick in the poured jar.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 13,
+      "start": 102.38,
+      "end": 110.25,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished lit tan candle (eHow).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 110.25,
+      "end": 118.12,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 118.12,
+      "end": 126.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank / near-black frame (auto-detected).",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.88,
+      "confidence": 0.45,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 7.88,
+      "end": 15.75,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 15.75,
+      "end": 23.62,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "measure_wax",
+      "phase": "prep",
+      "is_step": true,
+      "start": 23.62,
+      "end": 31.5,
+      "confidence": 0.45,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 31.5,
+      "end": 39.38,
+      "confidence": 0.5,
+      "windows": [
+        4
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 39.38,
+      "end": 47.25,
+      "confidence": 0.77,
+      "windows": [
+        5
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 47.25,
+      "end": 55.12,
+      "confidence": 0.5,
+      "windows": [
+        6
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 55.12,
+      "end": 70.88,
+      "confidence": 0.45,
+      "windows": [
+        7,
+        8
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 70.88,
+      "end": 94.5,
+      "confidence": 0.46,
+      "windows": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 94.5,
+      "end": 102.38,
+      "confidence": 0.45,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 102.38,
+      "end": 110.25,
+      "confidence": 0.5,
+      "windows": [
+        13
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 110.25,
+      "end": 126.0,
+      "confidence": 0.5,
+      "windows": [
+        14,
+        15
+      ]
+    }
+  ]
+}

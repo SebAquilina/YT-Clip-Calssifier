@@ -1,0 +1,218 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.93,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "'Candle Making' title."
+ },
+ {
+  "window": 1,
+  "start": 7.93,
+  "end": 15.85,
+  "label": "gather_materials",
+  "confidence": 0.4,
+  "description": "Hand with wax/supplies."
+ },
+ {
+  "window": 2,
+  "start": 15.85,
+  "end": 23.78,
+  "label": "melt_wax",
+  "confidence": 0.5,
+  "description": "Glass mixing bowl of melted yellow/green wax."
+ },
+ {
+  "window": 3,
+  "start": 23.78,
+  "end": 31.7,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Coloured wax in the bowl."
+ },
+ {
+  "window": 4,
+  "start": 31.7,
+  "end": 39.63,
+  "label": "add_dye_color",
+  "confidence": 0.45,
+  "description": "Pink/green wax mixed."
+ },
+ {
+  "window": 5,
+  "start": 39.63,
+  "end": 47.56,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring green wax."
+ },
+ {
+  "window": 6,
+  "start": 47.56,
+  "end": 55.48,
+  "label": "melt_wax",
+  "confidence": 0.45,
+  "description": "Bowl of yellow melted wax."
+ },
+ {
+  "window": 7,
+  "start": 55.48,
+  "end": 63.41,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring wax into moulds."
+ },
+ {
+  "window": 8,
+  "start": 63.41,
+  "end": 71.33,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring green wax into the moulds."
+ },
+ {
+  "window": 9,
+  "start": 71.33,
+  "end": 79.26,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Filling the moulds with coloured wax."
+ },
+ {
+  "window": 10,
+  "start": 79.26,
+  "end": 87.19,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pink wax in square moulds."
+ },
+ {
+  "window": 11,
+  "start": 87.19,
+  "end": 95.11,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Red/pink wax moulds."
+ },
+ {
+  "window": 12,
+  "start": 95.11,
+  "end": 103.04,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Bowl; red moulds."
+ },
+ {
+  "window": 13,
+  "start": 103.04,
+  "end": 110.96,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Red wax in the square moulds."
+ },
+ {
+  "window": 14,
+  "start": 110.96,
+  "end": 118.89,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Pouring into the moulds."
+ },
+ {
+  "window": 15,
+  "start": 118.89,
+  "end": 126.81,
+  "label": "pour_wax",
+  "confidence": 0.5,
+  "description": "Blue/green star moulds filled."
+ },
+ {
+  "window": 16,
+  "start": 126.81,
+  "end": 134.74,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "Blue wax poured."
+ },
+ {
+  "window": 17,
+  "start": 134.74,
+  "end": 142.67,
+  "label": "pour_wax",
+  "confidence": 0.45,
+  "description": "White/blue moulds."
+ },
+ {
+  "window": 18,
+  "start": 142.67,
+  "end": 150.59,
+  "label": "decorate_finish",
+  "confidence": 0.45,
+  "description": "A blue star candle handled."
+ },
+ {
+  "window": 19,
+  "start": 150.59,
+  "end": 158.52,
+  "label": "cure_cool",
+  "confidence": 0.4,
+  "description": "Filled moulds setting."
+ },
+ {
+  "window": 20,
+  "start": 158.52,
+  "end": 166.44,
+  "label": "reveal_result",
+  "confidence": 0.55,
+  "description": "Finished colourful flower/daisy candles (overhead)."
+ },
+ {
+  "window": 21,
+  "start": 166.44,
+  "end": 174.37,
+  "label": "talking_head",
+  "confidence": 0.77,
+  "description": "Presenter talking to camera (auto-detected: frontal face)."
+ },
+ {
+  "window": 22,
+  "start": 174.37,
+  "end": 182.3,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Colourful candles; 'subscribe my channel'."
+ },
+ {
+  "window": 23,
+  "start": 182.3,
+  "end": 190.22,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles."
+ },
+ {
+  "window": 24,
+  "start": 190.22,
+  "end": 198.15,
+  "label": "reveal_result",
+  "confidence": 0.45,
+  "description": "Finished candles."
+ },
+ {
+  "window": 25,
+  "start": 198.15,
+  "end": 206.07,
+  "label": "reveal_result",
+  "confidence": 0.4,
+  "description": "Finished candles."
+ },
+ {
+  "window": 26,
+  "start": 206.07,
+  "end": 214.0,
+  "label": "outro_cta",
+  "confidence": 0.4,
+  "description": "Closing frame."
+ }
+]

@@ -1,0 +1,224 @@
+{
+  "video_id": "dFPnxVWvd6A",
+  "title": "DIY Color Block Candles",
+  "url": "https://www.youtube.com/watch?v=dFPnxVWvd6A",
+  "duration": 76.0,
+  "source": "storyboard",
+  "n_windows": 10,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.6,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "A finished diagonally-layered colour-block candle is teased, then a hand sets out white supplies on a table.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.6,
+      "end": 15.2,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A hot-glue gun fixes a wick to the base of a clear glass; hands centre the wick.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.2,
+      "end": 22.8,
+      "label": "add_dye_color",
+      "original_label": "add_dye_color",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Four small dishes of crayon pieces (caption 'CRAYONS') are set up as colourant for the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 22.8,
+      "end": 30.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Captions 'HEAT 10 MINS' and 'ESSENTIAL OIL OPTIONAL'; the coloured crayon-wax dishes melt.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_dye_color->melt_wax)"
+      ]
+    },
+    {
+      "window": 4,
+      "start": 30.4,
+      "end": 38.0,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "First coloured layer poured into the glass held at a tilt (caption 'ESSENTIAL OIL OPTIONAL'); a chopstick supports the angle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 38.0,
+      "end": 45.6,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.7,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Blue layer set; teal molten wax is poured into the tilted glass to build a diagonal stripe.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 45.6,
+      "end": 53.2,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.7,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Successive teal/green layers poured into the tilted glass, forming angled colour blocks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 53.2,
+      "end": 60.8,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.65,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Green layer poured; the glass now shows diagonal blue/teal/green bands.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 8,
+      "start": 60.8,
+      "end": 68.4,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands level the glass, then a finished multicolour layered candle is shown lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 9,
+      "start": 68.4,
+      "end": 76.0,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Beauty shot of the finished colour-block candle burning; 'DIY PROJECTS' logo.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.6,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 7.6,
+      "end": 15.2,
+      "confidence": 0.6,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "add_dye_color",
+      "phase": "process",
+      "is_step": true,
+      "start": 15.2,
+      "end": 22.8,
+      "confidence": 0.5,
+      "windows": [
+        2
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 22.8,
+      "end": 30.4,
+      "confidence": 0.55,
+      "windows": [
+        3
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 30.4,
+      "end": 60.8,
+      "confidence": 0.67,
+      "windows": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 60.8,
+      "end": 76.0,
+      "confidence": 0.57,
+      "windows": [
+        8,
+        9
+      ]
+    }
+  ]
+}

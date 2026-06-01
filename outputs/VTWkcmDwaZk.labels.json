@@ -1,0 +1,98 @@
+[
+ {
+  "window": 0,
+  "start": 0.0,
+  "end": 7.75,
+  "label": "intro_titlecard",
+  "confidence": 0.45,
+  "description": "Finished candles on the bench (intro)."
+ },
+ {
+  "window": 1,
+  "start": 7.75,
+  "end": 15.5,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "CandleScience host talks; 'hack #1 centering wicks'."
+ },
+ {
+  "window": 2,
+  "start": 15.5,
+  "end": 23.25,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Overhead: a red level/tool used to centre a wick (hack)."
+ },
+ {
+  "window": 3,
+  "start": 23.25,
+  "end": 31.0,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "A cardboard disc wick-centering guide placed on a jar."
+ },
+ {
+  "window": 4,
+  "start": 31.0,
+  "end": 38.75,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "A paper/cardboard wick guide held over the jar."
+ },
+ {
+  "window": 5,
+  "start": 38.75,
+  "end": 46.5,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 6,
+  "start": 46.5,
+  "end": 54.25,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ },
+ {
+  "window": 7,
+  "start": 54.25,
+  "end": 62.0,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "A cardboard wick bar laid across the jar; brush."
+ },
+ {
+  "window": 8,
+  "start": 62.0,
+  "end": 69.75,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Cardboard disc with the wick threaded through; chopstick."
+ },
+ {
+  "window": 9,
+  "start": 69.75,
+  "end": 77.5,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Host shows 'hack #3 alternative wick bars' (chopsticks/pencils)."
+ },
+ {
+  "window": 10,
+  "start": 77.5,
+  "end": 85.25,
+  "label": "set_wick",
+  "confidence": 0.45,
+  "description": "Chopsticks/pencils used as wick bars across a jar."
+ },
+ {
+  "window": 11,
+  "start": 85.25,
+  "end": 93.0,
+  "label": "talking_head",
+  "confidence": 0.5,
+  "description": "Host talks to camera."
+ }
+]

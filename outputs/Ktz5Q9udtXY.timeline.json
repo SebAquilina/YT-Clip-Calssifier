@@ -1,0 +1,808 @@
+{
+  "video_id": "Ktz5Q9udtXY",
+  "title": "How to Make Essential Oil Candles | DIY Candle Making Tutorial",
+  "url": "https://www.youtube.com/watch?v=Ktz5Q9udtXY",
+  "duration": 316.0,
+  "source": "storyboard",
+  "n_windows": 40,
+  "windows": [
+    {
+      "window": 0,
+      "start": 0.0,
+      "end": 7.9,
+      "label": "intro_titlecard",
+      "original_label": "intro_titlecard",
+      "confidence": 0.5,
+      "phase": "intro",
+      "is_step": false,
+      "evidence": "",
+      "description": "Cosy Owl logo opens this essential-oil candle build (green theme, copper tins).",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 1,
+      "start": 7.9,
+      "end": 15.8,
+      "label": "talking_head",
+      "original_label": "talking_head",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Host introduces the project with supplies.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 2,
+      "start": 15.8,
+      "end": 23.7,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A copper tin and lid handled.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 3,
+      "start": 23.7,
+      "end": 31.6,
+      "label": "gather_materials",
+      "original_label": "gather_materials",
+      "confidence": 0.5,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Copper tins and a dark fragrance bottle laid out.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 4,
+      "start": 31.6,
+      "end": 39.5,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "White wax melting in a metal pot on the induction hob.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 5,
+      "start": 39.5,
+      "end": 47.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.6,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wax melting in the pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 6,
+      "start": 47.4,
+      "end": 55.3,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Melting wax; copper tins with wooden wicks alongside.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 7,
+      "start": 55.3,
+      "end": 63.2,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Copper tins fitted with wooden wicks.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 8,
+      "start": 63.2,
+      "end": 71.1,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.6,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "A wooden wick placed into a copper tin.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 9,
+      "start": 71.1,
+      "end": 79.0,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.55,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Copper tins with centred wooden wicks.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (melt_wax->prepare_container)"
+      ]
+    },
+    {
+      "window": 10,
+      "start": 79.0,
+      "end": 86.9,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "A dark essential-oil bottle held over the wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 11,
+      "start": 86.9,
+      "end": 94.8,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pot of amber (scented) wax.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 12,
+      "start": 94.8,
+      "end": 102.7,
+      "label": "prepare_container",
+      "original_label": "prepare_container",
+      "confidence": 0.45,
+      "phase": "prep",
+      "is_step": true,
+      "evidence": "",
+      "description": "Hands with a copper tin.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->prepare_container)"
+      ]
+    },
+    {
+      "window": 13,
+      "start": 102.7,
+      "end": 110.6,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Essential oil poured into the wax pot.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 14,
+      "start": 110.6,
+      "end": 118.5,
+      "label": "add_fragrance",
+      "original_label": "add_fragrance",
+      "confidence": 0.55,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Stirring the fragrance into the amber wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 15,
+      "start": 118.5,
+      "end": 126.4,
+      "label": "melt_wax",
+      "original_label": "melt_wax",
+      "confidence": 0.5,
+      "phase": "process",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pot of amber wax ready to pour.",
+      "smoothed": false,
+      "notes": [
+        "backward step vs canonical order (add_fragrance->melt_wax)"
+      ]
+    },
+    {
+      "window": 16,
+      "start": 126.4,
+      "end": 134.3,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Amber wax poured into a copper tin.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 17,
+      "start": 134.3,
+      "end": 142.2,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.6,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring wax into the copper tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 18,
+      "start": 142.2,
+      "end": 150.1,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Copper tins filled with amber wax around the wooden wicks.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 19,
+      "start": 150.1,
+      "end": 158.0,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Wooden wicks centred in the filled tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 20,
+      "start": 158.0,
+      "end": 165.9,
+      "label": "set_wick",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Copper tins of wax beginning to set.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 21,
+      "start": 165.9,
+      "end": 173.8,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Adjusting the wicks in the tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 22,
+      "start": 173.8,
+      "end": 181.7,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Topping up the copper tins with wax.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 23,
+      "start": 181.7,
+      "end": 189.6,
+      "label": "pour_wax",
+      "original_label": "cure_cool",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Copper tins of amber wax setting.",
+      "smoothed": true,
+      "notes": [
+        "despiked to match neighbours"
+      ]
+    },
+    {
+      "window": 24,
+      "start": 189.6,
+      "end": 197.5,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Copper tins on a tray; pouring continues.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 25,
+      "start": 197.5,
+      "end": 205.4,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.55,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Amber wax poured into the copper tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 26,
+      "start": 205.4,
+      "end": 213.3,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filling the tins; caption 'STEP 6'.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 27,
+      "start": 213.3,
+      "end": 221.2,
+      "label": "pour_wax",
+      "original_label": "pour_wax",
+      "confidence": 0.5,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Pouring into the copper tins.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 28,
+      "start": 221.2,
+      "end": 229.1,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Filled tins with a wick bar; lid nearby.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 29,
+      "start": 229.1,
+      "end": 237.0,
+      "label": "set_wick",
+      "original_label": "set_wick",
+      "confidence": 0.45,
+      "phase": "assemble",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host adjusts the tins on the table with greenery.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 30,
+      "start": 237.0,
+      "end": 244.9,
+      "label": "trim_wick",
+      "original_label": "trim_wick",
+      "confidence": 0.5,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "The wooden wick is trimmed with scissors on a set candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 31,
+      "start": 244.9,
+      "end": 252.8,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Host holds and examines a finished copper-tin candle.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 32,
+      "start": 252.8,
+      "end": 260.7,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Finished copper tins with lids.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 33,
+      "start": 260.7,
+      "end": 268.6,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.6,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "A finished copper candle shown lit.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 34,
+      "start": 268.6,
+      "end": 276.5,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lit copper candle; host.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 35,
+      "start": 276.5,
+      "end": 284.4,
+      "label": "reveal_result",
+      "original_label": "reveal_result",
+      "confidence": 0.55,
+      "phase": "finish",
+      "is_step": true,
+      "evidence": "",
+      "description": "Lit copper candles with lid.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 36,
+      "start": 284.4,
+      "end": 292.3,
+      "label": "outro_cta",
+      "original_label": "outro_cta",
+      "confidence": 0.5,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Cosy Owl end card.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 37,
+      "start": 292.3,
+      "end": 300.2,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 38,
+      "start": 300.2,
+      "end": 308.1,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    },
+    {
+      "window": 39,
+      "start": 308.1,
+      "end": 316.0,
+      "label": "transition",
+      "original_label": "transition",
+      "confidence": 0.4,
+      "phase": "aux",
+      "is_step": false,
+      "evidence": "",
+      "description": "Blank/black padding.",
+      "smoothed": false,
+      "notes": []
+    }
+  ],
+  "segments": [
+    {
+      "label": "intro_titlecard",
+      "phase": "intro",
+      "is_step": false,
+      "start": 0.0,
+      "end": 7.9,
+      "confidence": 0.5,
+      "windows": [
+        0
+      ]
+    },
+    {
+      "label": "talking_head",
+      "phase": "aux",
+      "is_step": false,
+      "start": 7.9,
+      "end": 15.8,
+      "confidence": 0.5,
+      "windows": [
+        1
+      ]
+    },
+    {
+      "label": "gather_materials",
+      "phase": "prep",
+      "is_step": true,
+      "start": 15.8,
+      "end": 31.6,
+      "confidence": 0.5,
+      "windows": [
+        2,
+        3
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 31.6,
+      "end": 55.3,
+      "confidence": 0.58,
+      "windows": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 55.3,
+      "end": 79.0,
+      "confidence": 0.56,
+      "windows": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 79.0,
+      "end": 86.9,
+      "confidence": 0.55,
+      "windows": [
+        10
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 86.9,
+      "end": 94.8,
+      "confidence": 0.5,
+      "windows": [
+        11
+      ]
+    },
+    {
+      "label": "prepare_container",
+      "phase": "prep",
+      "is_step": true,
+      "start": 94.8,
+      "end": 102.7,
+      "confidence": 0.45,
+      "windows": [
+        12
+      ]
+    },
+    {
+      "label": "add_fragrance",
+      "phase": "process",
+      "is_step": true,
+      "start": 102.7,
+      "end": 118.5,
+      "confidence": 0.55,
+      "windows": [
+        13,
+        14
+      ]
+    },
+    {
+      "label": "melt_wax",
+      "phase": "process",
+      "is_step": true,
+      "start": 118.5,
+      "end": 126.4,
+      "confidence": 0.5,
+      "windows": [
+        15
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 126.4,
+      "end": 150.1,
+      "confidence": 0.58,
+      "windows": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 150.1,
+      "end": 173.8,
+      "confidence": 0.46,
+      "windows": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "label": "pour_wax",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 173.8,
+      "end": 221.2,
+      "confidence": 0.51,
+      "windows": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "label": "set_wick",
+      "phase": "assemble",
+      "is_step": true,
+      "start": 221.2,
+      "end": 237.0,
+      "confidence": 0.45,
+      "windows": [
+        28,
+        29
+      ]
+    },
+    {
+      "label": "trim_wick",
+      "phase": "finish",
+      "is_step": true,
+      "start": 237.0,
+      "end": 244.9,
+      "confidence": 0.5,
+      "windows": [
+        30
+      ]
+    },
+    {
+      "label": "reveal_result",
+      "phase": "finish",
+      "is_step": true,
+      "start": 244.9,
+      "end": 284.4,
+      "confidence": 0.56,
+      "windows": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "label": "outro_cta",
+      "phase": "aux",
+      "is_step": false,
+      "start": 284.4,
+      "end": 292.3,
+      "confidence": 0.5,
+      "windows": [
+        36
+      ]
+    },
+    {
+      "label": "transition",
+      "phase": "aux",
+      "is_step": false,
+      "start": 292.3,
+      "end": 316.0,
+      "confidence": 0.4,
+      "windows": [
+        37,
+        38,
+        39
+      ]
+    }
+  ]
+}
