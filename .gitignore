@@ -26,3 +26,12 @@ video_build/assets/thumb_base.png
 video_build/*.mp4
 video_build/Project files/generate_long.log
 video_build/Project files/*.log
+
+# v2 build heavy media
+video_build_v2/Source clips/
+video_build_v2/Project files/audio/
+video_build_v2/Project files/segments/
+video_build_v2/Project files/state.json
+video_build_v2/Project files/*.log
+video_build_v2/*.mp4
+video_build_v2/assets/*.png
