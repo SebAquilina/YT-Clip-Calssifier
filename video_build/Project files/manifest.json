@@ -1,0 +1,105 @@
+{
+  "title": "The 10 Candle Hacks That Saved Me $100s",
+  "channel": "Candice's Candle Corner",
+  "narrator_voice": {
+    "provider": "elevenlabs",
+    "voiceId": "XH7KR8MDn5xIMYpbfUTx",
+    "modelId": "eleven_multilingual_v2"
+  },
+  "aspect": "16:9",
+  "video_model": "veo-video",
+  "reference_photo_url": "https://litter.catbox.moe/9qpfjy.jpg",
+  "continuity_bible": "A cozy home candle workshop in a converted farmhouse room: a large rustic reclaimed-wood worktable, tall wooden shelves behind it lined with amber glass bottles of fragrance oil, stacked blocks of pale soy wax, balls of natural twine, and rows of finished cream and amber candles in glass jars; a big bright window on the right letting in soft natural daylight; a stainless steel pouring pitcher, a small kitchen scale, scissors, wicks and dried botanicals on the table. Warm, homey, slightly rustic. The maker is a friendly woman in her fifties with curly grey hair, glasses, and a blue knit sweater. Color palette: warm creams, honey amber, soft wood browns, muted sage. Bright natural daytime light, no artificial color grade.",
+  "beats": [
+    {
+      "id": "b01-hook",
+      "type": "character",
+      "sentence": "Hi, I'm Candice, and after fifteen years of making candles at this table, these ten little hacks have saved me hundreds of dollars.",
+      "prompt": "Starting from the reference image, keep the woman, her blue knit sweater, glasses, curly grey hair and the candle workshop exactly as shown. She looks at the camera with a warm friendly smile and gestures over the finished candles on the wooden table in front of her. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural window light, slight handheld micro-shake, true-to-life color, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b02-intro",
+      "type": "broll",
+      "sentence": "You do not need fancy equipment to make beautiful candles. You just need to stop wasting money on the things nobody tells you about.",
+      "prompt": "Slow close-up pan across a rustic wooden workshop table covered with candle-making supplies: amber bottles of fragrance oil, blocks of pale soy wax, cotton wicks, a stainless steel pouring pitcher and rows of finished cream candles in glass jars, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b03-hack1",
+      "type": "broll",
+      "sentence": "Hack one. Buy your soy wax in ten pound bags, not little one pound boxes. The same wax costs less than half the price.",
+      "prompt": "Close-up of two hands lifting a large brown ten pound bag of pale soy wax flakes onto a rustic wooden table next to a tiny retail box of wax, comparison shot, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b04-hack2",
+      "type": "broll",
+      "sentence": "Hack two. Save and reuse your glass jars. A quick soak in hot soapy water and last week's candle jar becomes this week's free container.",
+      "prompt": "Close-up of hands washing an empty glass candle jar in a sink of warm soapy water, then setting the clean clear jar upside down on a wooden drying rack among other reused jars, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b05-hack3",
+      "type": "broll",
+      "sentence": "Hack three. A cheap kitchen scale beats measuring cups every time. Weighing your wax and oil means no wasted batches.",
+      "prompt": "Close-up of a small digital kitchen scale on a rustic wooden table with a glass measuring jug of pale soy wax flakes on it, a hand adding a few more flakes, the display showing a weight, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b06-hack4",
+      "type": "broll",
+      "sentence": "Hack four. Wooden clothespins hold your wicks perfectly straight while the wax sets, and a bag of them costs about a dollar.",
+      "prompt": "Close-up of a wooden clothespin resting across the rim of a glass jar, holding a single cotton wick centered and straight in cooling cream-colored wax, on a rustic wooden table, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b07-hack5",
+      "type": "broll",
+      "sentence": "Hack five. Do not throw away your wax scraps. Melt every leftover bit together into a free layered candle.",
+      "prompt": "Close-up of small leftover scraps of cream and amber candle wax being dropped into a stainless steel pouring pitcher, then warm melted wax poured into a clear glass jar forming soft layers, on a rustic wooden table, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b08-th1",
+      "type": "character",
+      "sentence": "I used to throw all of that away. Now my scrap candles are the ones my customers ask for by name.",
+      "prompt": "Starting from the reference image, keep the woman, her blue knit sweater, glasses, curly grey hair and the candle workshop exactly as shown. She holds up a finished layered candle in a glass jar toward the camera and smiles warmly as she talks. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural window light, slight handheld micro-shake, true-to-life color, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b09-hack6",
+      "type": "broll",
+      "sentence": "Hack six. Buy fragrance oil in four ounce bottles instead of tiny samples. The price per ounce drops like a stone.",
+      "prompt": "Close-up of a hand placing a larger four ounce amber glass bottle of fragrance oil next to several tiny sample vials on a rustic wooden table, rows of amber bottles on shelves behind, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b10-hack7",
+      "type": "broll",
+      "sentence": "Hack seven. Warm your jars in the oven before pouring. It stops ugly wet spots and saves you from redoing the whole candle.",
+      "prompt": "Close-up of hands in oven mitts taking a tray of warm empty glass candle jars out of a home oven and setting them on a rustic wooden table ready for pouring, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b11-hack8",
+      "type": "broll",
+      "sentence": "Hack eight. Cure your candles for two full weeks before burning. A cured candle throws twice the scent, so you use far less oil.",
+      "prompt": "Close-up slow pan across a wooden shelf lined with rows of finished cream and amber candles in glass jars curing, soft dust-free natural window light, dried botanicals beside them. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b12-hack9",
+      "type": "broll",
+      "sentence": "Hack nine. Always trim your wick to a quarter inch before each burn. It makes the candle last hours longer and saves you buying new ones.",
+      "prompt": "Extreme close-up of a small pair of scissors trimming a blackened cotton wick down short on a cream-colored candle in a glass jar, on a rustic wooden table, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b13-hack10",
+      "type": "broll",
+      "sentence": "And hack ten. Make your own labels at home with plain kraft paper and a stamp. It looks boutique for pennies.",
+      "prompt": "Close-up of hands pressing a rubber stamp onto a small brown kraft paper label, then smoothing the finished label onto a cream candle jar on a rustic wooden table, twine and scissors nearby, soft natural window light. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b14-cta",
+      "type": "character",
+      "sentence": "If even one of these saves you money, tell me in the comments which candle you are making next. I read every single one.",
+      "prompt": "Starting from the reference image, keep the woman, her blue knit sweater, glasses, curly grey hair and the candle workshop exactly as shown. She leans in slightly toward the camera, smiling warmly with both hands resting on the wooden table beside the finished candles. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural window light, slight handheld micro-shake, true-to-life color, no bokeh, no film grain, no on-screen text."
+    },
+    {
+      "id": "b15-outro",
+      "type": "broll",
+      "sentence": "Happy candle making, and I will see you at the table.",
+      "prompt": "Warm close-up of a single finished cream candle burning with a gentle flame in a glass jar on a rustic wooden workshop table, soft natural window light, shelves of supplies softly visible behind. Shot on a modern smartphone, deep focus everything sharp, wide lens, natural available light, slight handheld micro-shake, true-to-life color, crisp detail, no bokeh, no film grain, no on-screen text."
+    }
+  ]
+}

@@ -14,3 +14,13 @@ venv/
 
 # keep the outputs directory but not stray temp
 *.tmp
+
+# Candle-hacks video build: keep pipeline + small deliverables, exclude heavy media
+video_build/Source clips/
+video_build/Project files/audio/
+video_build/Project files/segments/
+video_build/Project files/state.json
+video_build/Project files/generate.log
+video_build/Project files/final_list.txt
+video_build/assets/thumb_base.png
+video_build/*.mp4
