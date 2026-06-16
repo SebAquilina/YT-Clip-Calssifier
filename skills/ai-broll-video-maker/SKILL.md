@@ -367,3 +367,30 @@ drift and later talking-head voices lead the lips. Fix (in
 video length (`aresample=async=1`, `apad`, `atrim=0:D`); character beats keep
 their native Veo speech locked to their own video length; final concat re-encodes
 with `+genpts`/CFR. Verify: assembled video and audio stream durations match.
+
+---
+
+# Delivery SOP — per-video deliverable package (zip)
+
+Every finished video ships as ONE zip named for the video, containing exactly:
+
+```
+<Title>_deliverable.zip
+├── <Title>.mp4          # the final assembled video (full quality)
+├── description.txt      # YouTube description with chapter timestamps
+├── thumbnail.png        # 1280x720 thumbnail (see thumbnail SOP below)
+└── Source clips/        # every generated clip (hook, talking heads, all B-roll)
+```
+
+Build it with `scripts/build_deliverable.py <video_folder>`; deliver the zip (host
+it and give the link — large zips exceed chat/GitHub limits).
+
+## Thumbnail SOP — generate with GPT Image 2
+Generate the thumbnail with the **`gpt-image-2`** image model on 69labs, using the
+**"Thumbnail Prompt"** column from the channel content sheet for that video row
+(the sheet's prompt is authored in the SUBJECT / FOCAL OBJECT / TEXT OVERLAY /
+COLOUR / ANNOTATIONS / BACKGROUND / COMPOSITION / LIGHTING / DO NOT INCLUDE /
+aspect / style format). Pass the channel reference photo as `imageUrls` for
+character likeness, `aspectRatio: "16:9"`. If gpt-image-2 is unavailable, retry,
+then fall back to a clip frame + text overlay. Always include a thumbnail in the
+deliverable package, even when the user says it isn't needed this once.

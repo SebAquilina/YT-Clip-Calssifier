@@ -22,3 +22,7 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - Direct download links — open in a browser or right-click → Save.
 - Google Drive upload isn't possible through the connected integration (it only accepts
   inline base64 content, impractical for video; and writes here returned "requires approval").
+
+## Deliverable packages (zip: final video + source clips + description + thumbnail)
+
+- **100 Defective Candles** — full deliverable (~280 MB): https://litter.catbox.moe/rfomen.zip
