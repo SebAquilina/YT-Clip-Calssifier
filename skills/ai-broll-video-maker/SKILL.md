@@ -394,3 +394,29 @@ aspect / style format). Pass the channel reference photo as `imageUrls` for
 character likeness, `aspectRatio: "16:9"`. If gpt-image-2 is unavailable, retry,
 then fall back to a clip frame + text overlay. Always include a thumbnail in the
 deliverable package, even when the user says it isn't needed this once.
+
+---
+
+# Long-run progress loop & keep-alive (SOP)
+
+Big videos generate for an hour or more across quota windows. Keep the session
+awake and the user informed on a fixed cadence:
+
+- **Preferred (if available): a scheduled task / wakeup** every 10 min that checks
+  progress and posts a one-line update (`/loop 10m <check>` where cron/ScheduleWakeup
+  exist).
+- **Fallback (no cron): a persistent `Monitor`** running a `while true; … ; sleep 600`
+  loop that **emits one status line every 10 minutes** — each line is a chat event
+  that both updates the user and keeps the session from going idle. The loop must:
+  1. count downloaded clips vs total (from `state.json`/`manifest.json`),
+  2. echo `progress: <done>/<total> … <last finish.log line>`,
+  3. detect the terminal marker (e.g. `VIDEO4 ASSEMBLED`) and emit a final line +
+     `break` so the watch ends,
+  4. cover stalls — it reports every 10 min regardless, so a frozen count is visible.
+- Pair it with a **finish/auto-resume chain** (`while pgrep generate; do sleep; done`
+  → if clips remain, wait for the hourly credit reset, resume `generate.py`, repeat →
+  then `assemble.py` → emit the terminal marker). This rides through the 100/hr cap
+  unattended.
+- On the terminal marker: verify the final mp4 (video & audio stream durations
+  match), build the deliverable zip (`scripts/build_deliverable.py`), host it, post
+  the link, and stop the monitor (`TaskStop`).
