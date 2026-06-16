@@ -420,3 +420,66 @@ awake and the user informed on a fixed cadence:
 - On the terminal marker: verify the final mp4 (video & audio stream durations
   match), build the deliverable zip (`scripts/build_deliverable.py`), host it, post
   the link, and stop the monitor (`TaskStop`).
+
+---
+
+# FORMAT: talking-head ↔ literal phone-cam B-roll (informational, not tutorial)
+
+The channel's default format. ONE continuous channel-voice narration runs the whole
+video; the VISUAL track alternates between TALKING_HEAD (the presenter anchor, on
+camera) and B_ROLL (footage that LITERALLY depicts the concrete noun the narration
+is saying at that instant, shot to look like casual phone-cam footage). The cut
+follows the NOUN: "you walk down the aisle" → POV down a grocery aisle; "you pick up
+the baking soda" → phone shot of a hand grabbing a baking-soda box. Abstract/claim
+lines are delivered ON camera (talking head); concrete noun+verb lines are SHOWN.
+The character appears ONLY in talking heads — never in B-roll. Less tutorial, more
+informational.
+
+## Beat schema (segment the script into these)
+`{ text, t_start, t_end, visual_subject, visual_action, shot_type(POV|hands|wide|reaction|hero), abstract }`
+Split at sentence/clause boundaries; a new concrete subject = a new beat (so "aisle"
+and "baking soda" are two beats → two cuts). B_ROLL beats are SHORT (2–5s), cut on
+the noun.
+
+## Visual-type scheduler (config knobs at top of build)
+`talking_head_ratio=0.40  max_th_run_s=10  max_broll_run_s=25  th_mode=sync|pool
+ pool_size=8  broll_beat_target_s=3  hook_archetype=auto|price-wall|crisis|sensory-siege|inventory|reframe|unbelievable`
+- abstract→TALKING_HEAD; concrete→B_ROLL depicting it. Hold TH near 0.40 of runtime.
+- No TALKING_HEAD run >10s (force a B_ROLL of the nearest concrete noun); no B_ROLL
+  run >25s (insert a short TH anchor).
+- HOOK: beat 1 = TH cold-open (presenter, ~3–6s) → hook-scenario beats = B_ROLL
+  literally depicting the scenario → one TH pivot beat. OUTRO/CTA = TH.
+- Never narrate a demo to camera — demos are SHOWN.
+- Keep assembly constraints: no clip >2×, never back-to-back identical, never frozen.
+
+## 7-act spine + hook archetypes (script writer)
+(1) cold-open scenario → (2) pivot + honest disarmer → (3) promise + first proof →
+(4) core demo/test → (5) why-it-works → (6) application stacking (long middle) →
+(7) recap + soft CTA. Open with one of: price-wall · crisis-imagination ·
+sensory-siege+villain · inventory-of-loss · unsettling-reframe · unbelievable-claim.
+Hook = 2nd-person scenario with hyper-specific numbers/items → stakes → pivot to the
+character's heritage authority → honest disarmer → cheap promise.
+
+## B_ROLL generation = phone-cam Veo block (no corpus here → generate every beat)
+Insert visual_subject+visual_action into:
+```
+[SUBJECT performing ACTION], filmed as casual amateur smartphone footage. Handheld
+iPhone video with slight natural shake and minor reframing, eye-level or POV, natural
+available light (no studio lights), an ordinary real-world setting, no color grading,
+slightly flat/auto-exposed, deep focus (NO cinematic shallow depth of field), candid
+vlog feel. No on-screen text, captions, watermark, logos or title cards.
+```
+Plus the GLOBAL physics + hyper-specific choreography rules above. No character in B_ROLL.
+
+## TALKING_HEAD generation
+Mode-A presenter (reference photo, lip-synced to that beat's exact text), same
+character/costume/framing every video. th_mode=sync → fresh lip-synced clip per TH
+(its own audio plays, VO ducks). pool mode (long/cheap) → reuse ~8 presenter clips as
+visuals under the continuous VO, reserving exact lip-sync for hook + outro.
+
+## QC additions (extend the gate)
+TH ratio in [ratio−0.07, ratio+0.07]; no TH run >max_th_run_s; no B_ROLL run >
+max_broll_run_s; literal-match audit (each B_ROLL depicts its visual_subject);
+phone-cam audit (reject cinematic/drone/aerial/studio); plus existing black/freeze/
+AV-skew/on-screen-text/wrong-face checks. ALWAYS output the beat-schedule table
+(`beat# | t_start–t_end | type | visual_subject | source`) for review BEFORE rendering.
