@@ -10,7 +10,7 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 | 1 | The 10 Candle Hacks That Saved Me $100s (short) | 2:51 | https://litter.catbox.moe/91jwjs.mp4 |
 | 2 | I Fixed 100 DEFECTIVE Candles In A Row (FAST cut, American talking heads) | 7:06 | https://litter.catbox.moe/mzbh4b.mp4 |
 | 2t | ↳ Thumbnail | — | https://litter.catbox.moe/o6y62a.png |
-| 3a | Candle Defects WITHOUT Repouring — **Veo** version | ~5 min | _generating — added when ready_ |
+| 3a | Candle Defects WITHOUT Repouring — **Veo** version | 2:29 | https://litter.catbox.moe/67es6q.mp4 (zip https://litter.catbox.moe/tcvn14.zip) |
 | 3b | Candle Defects WITHOUT Repouring — **Grok** version | ~5 min | _queued — added when ready_ |
 
 ## Source clips (zipped)
