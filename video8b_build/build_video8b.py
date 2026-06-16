@@ -108,6 +108,29 @@ br("A jar that looks perfectly melted on top can still be way too hot underneath
 th("So if you are just starting out, here is the whole thing in one breath.")
 th("Melt low and slow in a water bath. Keep a thermometer in the wax. Let it cool to pour temp before the fragrance goes in.")
 th("Do that, and you will outperform every microwave shortcut on the internet, every single time.")
+# ---- the money cost ----
+th("Let me put a real number on this, because that is what finally changed my mind.")
+th("A ruined jar of wax with fragrance in it can easily cost you five or six dollars, gone in one bad minute.")
+th("Do that twice a week while you are learning, and the microwave hack quietly costs you hundreds a year.")
+br("That is a whole shelf of candles you could have sold, sitting in the bin instead.","a bin with several cracked jars and scorched wax beside an empty candle display shelf","generic")
+th("Compared to that, ten extra minutes at the stove is the cheapest insurance in the whole craft.")
+# ---- why the myth spreads ----
+th("So why does this hack spread everywhere if it is so bad?")
+th("Because it half works on something else entirely. Melting a tiny bit of leftover wax for wax melts.")
+th("A spoonful of wax in a microwave-safe dish, in short bursts, with no jar and no fragrance, is mostly fine.")
+br("Like this, a little dish of plain wax for a warmer, melted in a few short bursts.","a small microwave-safe dish of a little plain wax melting gently in short bursts","generic")
+th("People do that once, it works, and then they wrongly assume it scales up to a full fragranced jar candle. It does not.")
+# ---- judging temperature / thermometer ----
+th("Now you might be wondering, can I just eyeball the temperature instead of buying a thermometer?")
+th("Honestly, no. Wax gives you almost no visual warning before it is way too hot.")
+th("A four dollar kitchen thermometer is the single best tool you can buy, and it pays for itself in one saved batch.")
+# ---- storing / reusing wax ----
+th("And do not toss your leftover melted wax either. Let it set in the pitcher and re-melt it next time, gently.")
+th("Wax does not really go off. What kills it is overheating, the exact thing the microwave guarantees.")
+# ---- two more myths ----
+th("Two last myths before the verdict.")
+th("Myth. Stirring while you microwave fixes the hot spots. It helps a little, but you are still flying blind on temperature.")
+th("Myth. A microwave-safe jar is microwave-safe with wax in it. The wax is the problem, not the glass rating.")
 th("So here is my honest verdict on the microwave hack.")
 th("It saves you maybe ninety seconds, and in exchange it can cost you the jar, the wax, and the scent.")
 br("A cracked, scorched mess on one side, and a clean, glossy, great-smelling candle on the other.","a cracked scorched jar beside a flawless glossy finished candle on a counter","generic")
