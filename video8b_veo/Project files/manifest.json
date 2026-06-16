@@ -1,0 +1,585 @@
+{
+  "title": "I Tested The Microwave Your Wax Hack - And It Ruined Everything",
+  "channel": "Candice's Country Candles",
+  "narrator_voice": {
+    "provider": "elevenlabs",
+    "voiceId": "5u41aNhyCU6hXOcjPPv0",
+    "modelId": "eleven_multilingual_v2",
+    "speed": 1.06
+  },
+  "aspect": "16:9",
+  "video_model": "veo-video",
+  "clip_len": 8.0,
+  "reference_photo_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_build/assets/candice_ref_16x9.jpg",
+  "continuity_bible": "an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight.",
+  "config": {
+    "talking_head_ratio": 0.7,
+    "max_th_run_s": 999,
+    "max_broll_run_s": 20,
+    "clip_len": 8.0
+  },
+  "format": "th-dominant-gap-tts",
+  "beats": [
+    {
+      "id": "b00_th",
+      "type": "character",
+      "sentence": "Everyone online keeps telling you to just microwave your candle wax to save a few minutes.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Everyone online keeps telling you to just microwave your candle wax to save a few minutes.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.33
+    },
+    {
+      "id": "b01_th",
+      "type": "character",
+      "sentence": "I am going to show you exactly why that is one of the worst shortcuts in candle making.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"I am going to show you exactly why that is one of the worst shortcuts in candle making.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.07
+    },
+    {
+      "id": "b02_th",
+      "type": "character",
+      "sentence": "I have poured candles for fifteen years, and I tested this hack twelve different ways so you do not have to.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"I have poured candles for fifteen years, and I tested this hack twelve different ways so you do not have to.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.18
+    },
+    {
+      "id": "b03_g1",
+      "type": "broll",
+      "sentence": "And almost every single attempt ended in a small disaster.",
+      "visual_subject": "soy wax smoking inside a running microwave seen through the glass door",
+      "broll_mode": "generic",
+      "gap_id": 1,
+      "prompt": "soy wax smoking inside a running microwave seen through the glass door. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 4.1
+    },
+    {
+      "id": "b04_g1",
+      "type": "broll",
+      "sentence": "Cracked jars, scorched brown wax, and a kitchen that smelled like burning chemicals.",
+      "visual_subject": "a cracked glass jar of dark scorched wax sitting on a kitchen counter",
+      "broll_mode": "generic",
+      "gap_id": 1,
+      "prompt": "a cracked glass jar of dark scorched wax sitting on a kitchen counter. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 5.21
+    },
+    {
+      "id": "b05_th",
+      "type": "character",
+      "sentence": "So let me walk you through what is actually happening, because once you see it, you will never do this again.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"So let me walk you through what is actually happening, because once you see it, you will never do this again.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.18
+    },
+    {
+      "id": "b06_th",
+      "type": "character",
+      "sentence": "The entire problem comes down to a single word. Control.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"The entire problem comes down to a single word. Control.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 4.1
+    },
+    {
+      "id": "b07_th",
+      "type": "character",
+      "sentence": "On a stove, you melt wax in a double boiler, which is just a pot of water with your wax pitcher sitting in it.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"On a stove, you melt wax in a double boiler, which is just a pot of water with your wax pitcher sitting in it.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 9.29
+    },
+    {
+      "id": "b08_th",
+      "type": "character",
+      "sentence": "And water has a hard ceiling. It physically cannot get much past a hundred degrees.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"And water has a hard ceiling. It physically cannot get much past a hundred degrees.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b09_g2",
+      "type": "broll",
+      "sentence": "So the wax just sits there, holding a calm, steady, safe temperature the whole time.",
+      "visual_subject": "a kitchen thermometer in a pitcher of wax in a simmering water bath, holding one steady reading",
+      "broll_mode": "generic",
+      "gap_id": 2,
+      "prompt": "a kitchen thermometer in a pitcher of wax in a simmering water bath, holding one steady reading. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 5.96
+    },
+    {
+      "id": "b10_th",
+      "type": "character",
+      "sentence": "A microwave has none of that safety. It dumps energy straight into the wax with nothing holding it back.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"A microwave has none of that safety. It dumps energy straight into the wax with nothing holding it back.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.44
+    },
+    {
+      "id": "b11_g3",
+      "type": "broll",
+      "sentence": "So the temperature does not gently climb. It rockets, straight past the point where wax can catch fire.",
+      "visual_subject": "a thermometer in microwaving wax, the needle shooting past a marked pour line",
+      "broll_mode": "generic",
+      "gap_id": 3,
+      "prompt": "a thermometer in microwaving wax, the needle shooting past a marked pour line. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 7.07
+    },
+    {
+      "id": "b12_th",
+      "type": "character",
+      "sentence": "Because wax has a flash point. That is the temperature where it can actually ignite, right there in your kitchen.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Because wax has a flash point. That is the temperature where it can actually ignite, right there in your kitchen.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b13_g4",
+      "type": "broll",
+      "sentence": "And you can watch the smoke start lifting off the surface as it breaks down.",
+      "visual_subject": "thin wisps of smoke rising off a jar of overheated wax",
+      "broll_mode": "generic",
+      "gap_id": 4,
+      "prompt": "thin wisps of smoke rising off a jar of overheated wax. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 5.96
+    },
+    {
+      "id": "b14_th",
+      "type": "character",
+      "sentence": "That smoke is your wax and your fragrance literally cooking apart. It is a real fire risk, not a dramatic one.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"That smoke is your wax and your fragrance literally cooking apart. It is a real fire risk, not a dramatic one.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.18
+    },
+    {
+      "id": "b15_th",
+      "type": "character",
+      "sentence": "And here is the science of why, in plain English.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"And here is the science of why, in plain English.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 4.1
+    },
+    {
+      "id": "b16_th",
+      "type": "character",
+      "sentence": "A microwave does not heat evenly. It hammers tiny pockets of the wax while the wax right next to them stays solid.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"A microwave does not heat evenly. It hammers tiny pockets of the wax while the wax right next to them stays solid.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.55
+    },
+    {
+      "id": "b17_g5",
+      "type": "broll",
+      "sentence": "So one pocket is boiling and smoking while the rest is barely soft. There is no even, gentle melt.",
+      "visual_subject": "a cutaway jar of wax with one violently bubbling hot pocket beside still-solid wax",
+      "broll_mode": "generic",
+      "gap_id": 5,
+      "prompt": "a cutaway jar of wax with one violently bubbling hot pocket beside still-solid wax. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 7.44
+    },
+    {
+      "id": "b18_th",
+      "type": "character",
+      "sentence": "A water bath does the exact opposite. It shares heat slowly and evenly through the whole batch.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"A water bath does the exact opposite. It shares heat slowly and evenly through the whole batch.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.7
+    },
+    {
+      "id": "b19_th",
+      "type": "character",
+      "sentence": "And do not think it was just my wax. I tried three different kinds, and they all failed.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"And do not think it was just my wax. I tried three different kinds, and they all failed.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.07
+    },
+    {
+      "id": "b20_th",
+      "type": "character",
+      "sentence": "Soy is soft and low-melt, so it scorched and yellowed the fastest of the three.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Soy is soft and low-melt, so it scorched and yellowed the fastest of the three.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b21_th",
+      "type": "character",
+      "sentence": "Paraffin overheated so quickly it was smoking almost immediately, and those fumes are genuinely nasty.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Paraffin overheated so quickly it was smoking almost immediately, and those fumes are genuinely nasty.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b22_th",
+      "type": "character",
+      "sentence": "Beeswax was the most stubborn, but it still darkened and picked up a burnt smell.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Beeswax was the most stubborn, but it still darkened and picked up a burnt smell.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b23_th",
+      "type": "character",
+      "sentence": "Three waxes, one microwave, the same sad result every time.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Three waxes, one microwave, the same sad result every time.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 4.1
+    },
+    {
+      "id": "b24_th",
+      "type": "character",
+      "sentence": "Then there is the jar itself, and this one surprises people.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Then there is the jar itself, and this one surprises people.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 4.47
+    },
+    {
+      "id": "b25_th",
+      "type": "character",
+      "sentence": "Glass does not heat evenly in a microwave. One side gets blistering hot while the other stays cool.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Glass does not heat evenly in a microwave. One side gets blistering hot while the other stays cool.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.07
+    },
+    {
+      "id": "b26_g6",
+      "type": "broll",
+      "sentence": "That uneven stress builds until a crack spreads right across the glass, and it splits.",
+      "visual_subject": "a clear glass candle jar developing a crack across the side and splitting",
+      "broll_mode": "generic",
+      "gap_id": 6,
+      "prompt": "a clear glass candle jar developing a crack across the side and splitting. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 5.96
+    },
+    {
+      "id": "b27_th",
+      "type": "character",
+      "sentence": "I had jars crack while they were still spinning inside. Now picture reaching in to grab that.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"I had jars crack while they were still spinning inside. Now picture reaching in to grab that.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.7
+    },
+    {
+      "id": "b28_th",
+      "type": "character",
+      "sentence": "And here is the part that really stings, even if you get lucky and nothing breaks.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"And here is the part that really stings, even if you get lucky and nothing breaks.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.33
+    },
+    {
+      "id": "b29_th",
+      "type": "character",
+      "sentence": "Fragrance oil has its own heat ceiling. Push the wax past pour temperature and the scent just cooks off.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Fragrance oil has its own heat ceiling. Push the wax past pour temperature and the scent just cooks off.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.44
+    },
+    {
+      "id": "b30_g7",
+      "type": "broll",
+      "sentence": "You add your oil, it hisses against the overheated wax, and half of it is gone before it even mixes in.",
+      "visual_subject": "fragrance oil being poured into a jar of very hot wax, hissing and steaming",
+      "broll_mode": "generic",
+      "gap_id": 7,
+      "prompt": "fragrance oil being poured into a jar of very hot wax, hissing and steaming. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 8.18
+    },
+    {
+      "id": "b31_th",
+      "type": "character",
+      "sentence": "So you end up with a candle that looks perfectly fine, and then barely smells like anything when you light it.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"So you end up with a candle that looks perfectly fine, and then barely smells like anything when you light it.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.18
+    },
+    {
+      "id": "b32_th",
+      "type": "character",
+      "sentence": "Now, I am not telling you to suffer with a slow stove if your time is tight. You have real options.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Now, I am not telling you to suffer with a slow stove if your time is tight. You have real options.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.18
+    },
+    {
+      "id": "b33_th",
+      "type": "character",
+      "sentence": "Option one. Flake your wax down small. Smaller pieces melt in about half the time, with full control.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Option one. Flake your wax down small. Smaller pieces melt in about half the time, with full control.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.07
+    },
+    {
+      "id": "b34_th",
+      "type": "character",
+      "sentence": "Option two. A cheap electric wax melter with a temperature dial. You set your number, and it simply holds it.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Option two. A cheap electric wax melter with a temperature dial. You set your number, and it simply holds it.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b35_th",
+      "type": "character",
+      "sentence": "Option three. Melt most of the batch gently, then finish the last stubborn lumps with a heat gun.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Option three. Melt most of the batch gently, then finish the last stubborn lumps with a heat gun.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.07
+    },
+    {
+      "id": "b36_g8",
+      "type": "broll",
+      "sentence": "Any of those gets you real speed without the smoke, the cracking, or the dead fragrance.",
+      "visual_subject": "a hand pouring smooth clean melted wax from a pitcher into an open glass jar",
+      "broll_mode": "generic",
+      "gap_id": 8,
+      "prompt": "a hand pouring smooth clean melted wax from a pitcher into an open glass jar. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 6.33
+    },
+    {
+      "id": "b37_th",
+      "type": "character",
+      "sentence": "And while we are here, let me give you the temperature numbers that actually matter.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"And while we are here, let me give you the temperature numbers that actually matter.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b38_th",
+      "type": "character",
+      "sentence": "Soy wax pours best around a hundred and thirty-five degrees. Paraffin a touch hotter, beeswax hotter still.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Soy wax pours best around a hundred and thirty-five degrees. Paraffin a touch hotter, beeswax hotter still.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.7
+    },
+    {
+      "id": "b39_th",
+      "type": "character",
+      "sentence": "But the rule is the same for all of them. Melt it fully, then let it cool down to your pour temperature.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"But the rule is the same for all of them. Melt it fully, then let it cool down to your pour temperature.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.55
+    },
+    {
+      "id": "b40_g9",
+      "type": "broll",
+      "sentence": "That cooling window, watching the thermometer drift down to your number, is exactly the control a microwave erases.",
+      "visual_subject": "a hand holding a thermometer in cooling wax, the reading slowly dropping toward a marked line",
+      "broll_mode": "generic",
+      "gap_id": 9,
+      "prompt": "a hand holding a thermometer in cooling wax, the reading slowly dropping toward a marked line. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 7.07
+    },
+    {
+      "id": "b41_th",
+      "type": "character",
+      "sentence": "It is what every candlemaker who sells their work actually does. Low, slow, and a thermometer in the wax the whole time.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"It is what every candlemaker who sells their work actually does. Low, slow, and a thermometer in the wax the whole time.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.55
+    },
+    {
+      "id": "b42_th",
+      "type": "character",
+      "sentence": "Now I promised you I tested this twelve different ways, so let me tell you what I actually tried.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Now I promised you I tested this twelve different ways, so let me tell you what I actually tried.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.44
+    },
+    {
+      "id": "b43_th",
+      "type": "character",
+      "sentence": "I tried short bursts. Thirty seconds, stir, thirty more. People swear this is the safe way to do it.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"I tried short bursts. Thirty seconds, stir, thirty more. People swear this is the safe way to do it.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.44
+    },
+    {
+      "id": "b44_th",
+      "type": "character",
+      "sentence": "It is better than one long blast, but the wax still overheated in patches, and it took longer than the stove.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"It is better than one long blast, but the wax still overheated in patches, and it took longer than the stove.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.18
+    },
+    {
+      "id": "b45_th",
+      "type": "character",
+      "sentence": "I tried low power settings. Half power, then a third power, thinking I could baby it along.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"I tried low power settings. Half power, then a third power, thinking I could baby it along.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.7
+    },
+    {
+      "id": "b46_th",
+      "type": "character",
+      "sentence": "The wax just heated slower and more unevenly. I still got hot spots, I just waited longer to get them.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"The wax just heated slower and more unevenly. I still got hot spots, I just waited longer to get them.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b47_th",
+      "type": "character",
+      "sentence": "I tried covering the jar, uncovering the jar, different jar shapes, thick glass, thin glass.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"I tried covering the jar, uncovering the jar, different jar shapes, thick glass, thin glass.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b48_g10",
+      "type": "broll",
+      "sentence": "Every single thick-versus-thin glass test ended the same way, with a crack somewhere in the jar.",
+      "visual_subject": "two glass jars side by side, one thick one thin, each with a crack across it",
+      "broll_mode": "generic",
+      "gap_id": 10,
+      "prompt": "two glass jars side by side, one thick one thin, each with a crack across it. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 6.33
+    },
+    {
+      "id": "b49_th",
+      "type": "character",
+      "sentence": "I even tried tiny amounts, just a few ounces at a time, to keep it controllable.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"I even tried tiny amounts, just a few ounces at a time, to keep it controllable.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.33
+    },
+    {
+      "id": "b50_th",
+      "type": "character",
+      "sentence": "And honestly, that was the only version that did not actively fail, but at that point you are microwaving wax all afternoon.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"And honestly, that was the only version that did not actively fail, but at that point you are microwaving wax all afternoon.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.55
+    },
+    {
+      "id": "b51_th",
+      "type": "character",
+      "sentence": "Out of twelve attempts, I got exactly zero candles I would ever sell or even gift.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Out of twelve attempts, I got exactly zero candles I would ever sell or even gift.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.33
+    },
+    {
+      "id": "b52_th",
+      "type": "character",
+      "sentence": "Twelve tries, and the boring double boiler beat every one of them on the very first go.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Twelve tries, and the boring double boiler beat every one of them on the very first go.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.7
+    },
+    {
+      "id": "b53_th",
+      "type": "character",
+      "sentence": "Now I do not want you to think the stove makes you bulletproof, because you can still mess this up.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Now I do not want you to think the stove makes you bulletproof, because you can still mess this up.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b54_th",
+      "type": "character",
+      "sentence": "The single biggest mistake people make, even on the stove, is pouring while the wax is still too hot.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"The single biggest mistake people make, even on the stove, is pouring while the wax is still too hot.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.44
+    },
+    {
+      "id": "b55_g11",
+      "type": "broll",
+      "sentence": "Pour too hot and the candle sinks in the middle as it cools, leaving an ugly crater around the wick.",
+      "visual_subject": "a cooled candle with a deep sinkhole crater around the central wick",
+      "broll_mode": "generic",
+      "gap_id": 11,
+      "prompt": "a cooled candle with a deep sinkhole crater around the central wick. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 7.81
+    },
+    {
+      "id": "b56_th",
+      "type": "character",
+      "sentence": "Pour too hot and you also get those cloudy wet spots where the wax shrinks away from the glass.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Pour too hot and you also get those cloudy wet spots where the wax shrinks away from the glass.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.44
+    },
+    {
+      "id": "b57_th",
+      "type": "character",
+      "sentence": "So the lesson is the same either way. It was never really about the microwave. It is about temperature control.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"So the lesson is the same either way. It was never really about the microwave. It is about temperature control.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b58_th",
+      "type": "character",
+      "sentence": "While we are at it, let me knock down a few related myths I hear constantly.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"While we are at it, let me knock down a few related myths I hear constantly.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.33
+    },
+    {
+      "id": "b59_th",
+      "type": "character",
+      "sentence": "Myth one. Hotter wax means a stronger scent. It is the opposite. Too hot, and you burn the fragrance off.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Myth one. Hotter wax means a stronger scent. It is the opposite. Too hot, and you burn the fragrance off.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b60_th",
+      "type": "character",
+      "sentence": "Myth two. You can speed up cooling in the freezer. Do that and you will crack the jar and frost the top.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Myth two. You can speed up cooling in the freezer. Do that and you will crack the jar and frost the top.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 8.55
+    },
+    {
+      "id": "b61_th",
+      "type": "character",
+      "sentence": "Myth three. If it looks melted, it is ready to pour. Looks mean nothing. Only the thermometer tells the truth.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Myth three. If it looks melted, it is ready to pour. Looks mean nothing. Only the thermometer tells the truth.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b62_g12",
+      "type": "broll",
+      "sentence": "A jar that looks perfectly melted on top can still be way too hot underneath, like this one.",
+      "visual_subject": "a thermometer dipped into smooth-looking melted wax reading alarmingly high",
+      "broll_mode": "generic",
+      "gap_id": 12,
+      "prompt": "a thermometer dipped into smooth-looking melted wax reading alarmingly high. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 7.07
+    },
+    {
+      "id": "b63_th",
+      "type": "character",
+      "sentence": "So if you are just starting out, here is the whole thing in one breath.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"So if you are just starting out, here is the whole thing in one breath.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b64_th",
+      "type": "character",
+      "sentence": "Melt low and slow in a water bath. Keep a thermometer in the wax. Let it cool to pour temp before the fragrance goes in.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Melt low and slow in a water bath. Keep a thermometer in the wax. Let it cool to pour temp before the fragrance goes in.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 9.66
+    },
+    {
+      "id": "b65_th",
+      "type": "character",
+      "sentence": "Do that, and you will outperform every microwave shortcut on the internet, every single time.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"Do that, and you will outperform every microwave shortcut on the internet, every single time.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 5.96
+    },
+    {
+      "id": "b66_th",
+      "type": "character",
+      "sentence": "So here is my honest verdict on the microwave hack.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"So here is my honest verdict on the microwave hack.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 4.1
+    },
+    {
+      "id": "b67_th",
+      "type": "character",
+      "sentence": "It saves you maybe ninety seconds, and in exchange it can cost you the jar, the wax, and the scent.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"It saves you maybe ninety seconds, and in exchange it can cost you the jar, the wax, and the scent.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b68_g13",
+      "type": "broll",
+      "sentence": "A cracked, scorched mess on one side, and a clean, glossy, great-smelling candle on the other.",
+      "visual_subject": "a cracked scorched jar beside a flawless glossy finished candle on a counter",
+      "broll_mode": "generic",
+      "gap_id": 13,
+      "prompt": "a cracked scorched jar beside a flawless glossy finished candle on a counter. filmed as casual amateur smartphone footage: handheld, slight natural shake, eye-level or POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have five fingers; liquids pour from a real container into a real open container. Setting: an ordinary real-world kitchen. No channel character needed.",
+      "dur": 6.33
+    },
+    {
+      "id": "b69_th",
+      "type": "character",
+      "sentence": "The double boiler has been around forever for a reason. Slow and steady genuinely wins this one.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"The double boiler has been around forever for a reason. Slow and steady genuinely wins this one.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.7
+    },
+    {
+      "id": "b70_th",
+      "type": "character",
+      "sentence": "If this saved you from ruining a batch, subscribe, because I put one of these hacks on trial every week.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"If this saved you from ruining a batch, subscribe, because I put one of these hacks on trial every week.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 7.81
+    },
+    {
+      "id": "b71_th",
+      "type": "character",
+      "sentence": "And tell me down in the comments which candle hack you want me to test next.",
+      "prompt": "Medium close handheld vlog shot of the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron. in her kitchen, looking straight at the camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: \"And tell me down in the comments which candle hack you want me to test next.\". Exactly ONE person, a single solid subject \u2014 no second transparent copy, no double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and lip-sync; steady framing; only natural window light, no studio lighting, no glow. Casual smartphone look. Setting: an ordinary lived-in home kitchen with a candle-making corner: a microwave on the counter, a stovetop with a steel pot, glass candle jars, bags of soy wax, a kitchen thermometer, fragrance oil bottles, an electric wax melter and a heat gun, natural daylight. No on-screen text.",
+      "dur": 6.33
+    }
+  ],
+  "gaps": {
+    "1": "And almost every single attempt ended in a small disaster. Cracked jars, scorched brown wax, and a kitchen that smelled like burning chemicals.",
+    "2": "So the wax just sits there, holding a calm, steady, safe temperature the whole time.",
+    "3": "So the temperature does not gently climb. It rockets, straight past the point where wax can catch fire.",
+    "4": "And you can watch the smoke start lifting off the surface as it breaks down.",
+    "5": "So one pocket is boiling and smoking while the rest is barely soft. There is no even, gentle melt.",
+    "6": "That uneven stress builds until a crack spreads right across the glass, and it splits.",
+    "7": "You add your oil, it hisses against the overheated wax, and half of it is gone before it even mixes in.",
+    "8": "Any of those gets you real speed without the smoke, the cracking, or the dead fragrance.",
+    "9": "That cooling window, watching the thermometer drift down to your number, is exactly the control a microwave erases.",
+    "10": "Every single thick-versus-thin glass test ended the same way, with a crack somewhere in the jar.",
+    "11": "Pour too hot and the candle sinks in the middle as it cools, leaving an ugly crater around the wick.",
+    "12": "A jar that looks perfectly melted on top can still be way too hot underneath, like this one.",
+    "13": "A cracked, scorched mess on one side, and a clean, glossy, great-smelling candle on the other."
+  }
+}

@@ -483,3 +483,37 @@ max_broll_run_s; literal-match audit (each B_ROLL depicts its visual_subject);
 phone-cam audit (reject cinematic/drone/aerial/studio); plus existing black/freeze/
 AV-skew/on-screen-text/wrong-face checks. ALWAYS output the beat-schedule table
 (`beat# | t_start–t_end | type | visual_subject | source`) for review BEFORE rendering.
+
+---
+
+# FORMAT v2 — talking-head-dominant (~70%), gap-consolidated TTS
+
+Refinement of the talking-head↔B-roll format toward MORE presenter, FEWER generated
+B-roll clips (fewer clips = fewer AI errors). Informational, not tutorial.
+
+## Ratios
+- `talking_head_ratio ≈ 0.70`. The presenter (own lip-synced audio) carries most of
+  the video. Generate a B-roll clip ONLY when it is genuinely critical to SHOW what
+  is happening or what happened (the proof shot) — otherwise just say it on camera.
+- B-roll is either **generic** (a plain AI clip of the thing being described, e.g.
+  "someone walking down a grocery aisle" — text-to-video, no channel character) or
+  **the character doing the thing** (keyframe from the reference). Keep B-roll rare.
+
+## TTS rule (IMPORTANT — do not over-generate TTS)
+Talking-head clips generate their OWN audio; never TTS them. TTS is ONLY for the
+B-roll **gaps between talking heads**, and exactly **ONE TTS per contiguous gap**,
+covering all of that gap's narration as a single continuous clip — NEVER one TTS per
+beat. A run of three 4-second B-roll beats = ONE gap = ONE TTS, with the three video
+clips placed under it. (Symptom of the bug: many ~4s TTS clips in the 69labs log.)
+
+## Stricter talking-head generation (anti-AI-tell)
+Append to every talking-head prompt: "exactly one person; a single solid subject with
+no second transparent copy, no double exposure, no ghosting, no morphing, no extra or
+duplicated hands/arms, natural blink and lip-sync, steady framing." On assembly, trim
+the first ~1.2s of each talking-head clip (the keyframe-morph where ghosting appears).
+
+## Assembly with gaps
+- Talking-head beat → one segment (its own native audio, its own length).
+- Gap (≥1 consecutive B-roll beats) → one segment: concat the gap's B-roll video clips
+  trimmed to share the gap's single TTS duration; audio = that one gap TTS.
+- Keeps continuous narration (TH speech + gap VO) with far fewer TTS calls.
