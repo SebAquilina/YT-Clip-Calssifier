@@ -136,3 +136,49 @@ scene description, not keyword piles**, and a tight motion focus:
 - 69labs note: `grok-imagine-video` costs **3 credits/clip** (vs 1 for veo-video),
   `maxImageUrls` = 1, modes normal|spicy|fun (use normal). Wave-schedule to the
   100/hr cap (~33 Grok clips/hour).
+
+## Hyper-specific choreography (Veo) — leave no room for hallucination
+
+Default to Veo (`veo-video`). One-line shot descriptions cause AI nonsense; write
+every beat as an ordered MICRO-CHOREOGRAPHY:
+
+1. **Inventory the frame first.** Name every object present, with COUNT, SIZE
+   (relative to the jar/hand), MATERIAL and COLOR. Example: "one clear straight-
+   sided glass jar (about as tall as a coffee mug); a single natural wood wick
+   (a flat 8 mm-wide wooden strip) standing upright and centred in set cream wax."
+2. **Enumerate all text.** If several labelled jars are in shot, list each label
+   left-to-right verbatim and short, e.g. "five jars, labels left to right:
+   'LAVENDER & SAGE', 'VANILLA BEAN', 'COZY HEARTH', 'AMBER & SPRUCE', 'SUNDAY
+   MORNING' — each a small kraft label, two short words, clean serif, no other
+   text anywhere." Pinning the exact words kills gibberish.
+3. **Action as an ordered sequence with resolution.** Describe first → then →
+   result, including HOW it moves and HOW it settles. Cut example: "the open
+   scissor blades close on the wick about 6 mm above the wax; the blackened 1 cm
+   wick tip is severed and drops straight down onto the table to the right of the
+   jar; the remaining wick stays upright and rooted in the wax." Placement
+   example: "the fingers lower the wood wick straight down into the centre of the
+   empty jar until its base touches the bottom, then release; it stands on its
+   own." Always state what the tool contacts and what the result looks like.
+4. **One action per clip.** Don't chain multiple manipulations in 8 s.
+5. Then append the GLOBAL block, the matching SCENE block, and the NEGATIVE list.
+
+This choreography requirement is GENERAL — apply it to pours, cuts, placements,
+heat-gun passes, pressing toppings, peeling labels, washing, weighing, everything.
+
+## Character visibility & talking-head rule (strict)
+
+- The character is ON CAMERA **only** in a true talking-head beat, and during it
+  the narrator VO is **silenced** so her own in-clip speech is heard (never dub,
+  never time-stretch).
+- During ALL voiceover narration the shot shows **only hands, the candles, or the
+  process** — NEVER the character appearing to talk while the VO speaks (that
+  mouth-vs-audio mismatch is the tell). B-roll prompts must frame to hands/objects
+  and may include her body/arms but not her face mouthing words.
+- Add talking heads wherever they help, but each one stops the VO.
+
+## Hook = the thumbnail character coming to life (speaking)
+The opening hook is the thumbnail's character coming to life and SPEAKING the hook
+line. Use the thumbnail (or, if unavailable, the channel reference photo cropped to
+the character) as the first-frame keyframe in `keyframes` mode, and prompt her to
+speak the line in the channel's accent with natural lip-sync; VO stays silent under
+the hook. Do not animate thumbnail TEXT/graphics — crop to just the person.
