@@ -32,3 +32,8 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 ## Video 4 — Candle Defects WITHOUT Repouring (FULL, 100% Veo, hyper-specific, label-free)
 - Video (6:20): https://litter.catbox.moe/6x0bt6.mp4
 - Source clips zip (~118MB): https://litter.catbox.moe/0fsv0b.zip
+
+## Video 8 — Microwave Your Wax Hack (NEW format: talking-head <-> literal phone-cam B-roll, 100% Veo)
+- Video (8:29): https://litter.catbox.moe/ojf7mw.mp4
+- Source clips zip (~159MB): https://litter.catbox.moe/2wfgdu.zip
+- Thumbnail: https://litter.catbox.moe/55i5u9.png
