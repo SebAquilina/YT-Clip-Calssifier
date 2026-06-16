@@ -28,3 +28,7 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - **100 Defective Candles** — full deliverable (~280 MB): https://litter.catbox.moe/rfomen.zip
 - **Video 3 — Veo** deliverable: https://litter.catbox.moe/tcvn14.zip
 - **Video 3 — Grok** deliverable: https://litter.catbox.moe/4ibx9d.zip
+
+## Video 4 — Candle Defects WITHOUT Repouring (FULL, 100% Veo, hyper-specific, label-free)
+- Video (6:20): https://litter.catbox.moe/6x0bt6.mp4
+- Source clips zip (~118MB): https://litter.catbox.moe/0fsv0b.zip
