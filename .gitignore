@@ -36,3 +36,12 @@ video_build_v2/Project files/*.log
 video_build_v2/*.mp4
 video_build_v2/assets/*.png
 video_build_v2/Project files/final_list.txt
+
+# video2 dual build heavy media
+video2_veo/Source clips/
+video2_grok/Source clips/
+video2_*/Project files/audio/
+video2_*/Project files/segments/
+video2_*/Project files/state.json
+video2_*/Project files/*.log
+video2_*/*.mp4

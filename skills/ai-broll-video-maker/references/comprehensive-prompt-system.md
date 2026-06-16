@@ -79,3 +79,60 @@ American narrator → prompt the talking head to "speak in a warm, natural Ameri
 accent"), so the two voices feel like one person rather than a presenter plus a
 separate voiceover. To change a talking head's voice you must regenerate that
 clip — its speech is baked into the video; never dub it.
+
+## Reinforced physics & continuity rules (scene-dependent)
+
+AI clips break on small physical impossibilities. Enforce a GLOBAL block on every
+prompt, plus a SCENE block chosen by the beat's action type.
+
+### GLOBAL (every clip, both Veo and Grok)
+- **Object permanence:** everything visible in the first frame stays present and
+  consistent the whole clip; nothing pops into existence and nothing vanishes;
+  items on the shelves stay put.
+- **Wardrobe is already on:** the person is fully dressed (sweater + apron) from
+  frame one; clothing never appears, snaps on, or changes mid-shot.
+- **Hands:** five fingers, natural grip; a tool is held correctly and actually
+  touches what it acts on; no teleporting objects into the hand.
+- **Text:** avoid readable text. Prefer unlabeled jars or plain kraft labels with
+  NO legible words; if a label must read, one short real word in clean print only
+  — never sentences (AI garbles them). Negative: no gibberish/warped letters.
+
+### SCENE blocks (inject the one matching the action)
+- **POUR:** the destination jar is OPEN and lidless; a continuous stream leaves
+  the spout and lands INSIDE the open jar; the level rises. Negative: no lid/cap
+  on the jar, no liquid passing through a closed top, no pouring into empty air.
+- **WICK TRIM / CUT:** a single wick is clearly present and upright; the blades
+  close ON the wick and cut at the wick tip; the cut piece falls; the wick stays
+  rooted. Negative: no cutting empty air or the wax, no missing wick.
+- **CENTER WICK (peg / clothespin / wick bar):** an actual wick is present; the
+  peg straddles and pinches THAT wick across the jar rim, the wick visible between
+  its jaws, held centered. Negative: no peg clamping nothing, no absent wick.
+- **HEAT GUN / SMOOTH FINISH / FIX SINKHOLE:** the heat gun points at the wax
+  surface from a few inches; the top visibly melts smooth and level; tool is real
+  and present the whole time. Negative: no floating heat gun, no instant change.
+- **SECURE TOPPINGS / BOTANICALS:** dried botanicals rest on the wax and are
+  gently pressed/melted in; they stay embedded. Negative: nothing floats or
+  vanishes; toppings don't multiply.
+- **PLACE / SET / WASH:** the hand moves the object into place continuously; it is
+  never teleported; water/soap behaves normally.
+
+To change a talking head's voice you regenerate the clip; physics issues are
+fixed by adding the matching SCENE block, not by re-rolling blindly.
+
+## Grok video prompting (xAI Grok Imagine) — how it differs from Veo
+Research-backed (xAI/Replicate/community guides). Grok prefers **natural-language
+scene description, not keyword piles**, and a tight motion focus:
+- Structure: **Subject + Action + Setting + Camera movement + Motion detail +
+  Lighting/Mood**, written as 2–4 plain sentences.
+- **Name the camera move** explicitly ("slow push-in", "static close", "handheld
+  follow") — these map directly to the animation.
+- **1–2 clear actions** per clip; keep it short for motion stability (don't pack
+  five beats into one clip).
+- **Image-to-video:** focus on the added MOTION + camera, not on re-describing the
+  scene (the input image already gives context).
+- State physics as plain descriptive clauses ("the jar stays open with no lid; the
+  hand has five fingers") rather than a separate NEGATIVE list — Grok follows
+  natural language better than tag-style negatives.
+- 69labs note: `grok-imagine-video` costs **3 credits/clip** (vs 1 for veo-video),
+  `maxImageUrls` = 1, modes normal|spicy|fun (use normal). Wave-schedule to the
+  100/hr cap (~33 Grok clips/hour).
