@@ -11,7 +11,7 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 | 2 | I Fixed 100 DEFECTIVE Candles In A Row (FAST cut, American talking heads) | 7:06 | https://litter.catbox.moe/mzbh4b.mp4 |
 | 2t | ↳ Thumbnail | — | https://litter.catbox.moe/o6y62a.png |
 | 3a | Candle Defects WITHOUT Repouring — **Veo** version | 2:29 | https://litter.catbox.moe/67es6q.mp4 (zip https://litter.catbox.moe/tcvn14.zip) |
-| 3b | Candle Defects WITHOUT Repouring — **Grok** version | ~5 min | _queued — added when ready_ |
+| 3b | Candle Defects WITHOUT Repouring — **Grok** version | 2:29 | https://litter.catbox.moe/bjgiv2.mp4 (zip https://litter.catbox.moe/4ibx9d.zip) |
 
 ## Source clips (zipped)
 
@@ -26,3 +26,5 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 ## Deliverable packages (zip: final video + source clips + description + thumbnail)
 
 - **100 Defective Candles** — full deliverable (~280 MB): https://litter.catbox.moe/rfomen.zip
+- **Video 3 — Veo** deliverable: https://litter.catbox.moe/tcvn14.zip
+- **Video 3 — Grok** deliverable: https://litter.catbox.moe/4ibx9d.zip
