@@ -1,5 +1,10 @@
 # 69labs video workflow — detailed reference (field-tested)
 
+> ⚠️ SUPERSEDED for automated runs. Prefer the documented **public API** in
+> `69labs-PUBLIC-API.md` with the working clients in `scripts/` — it needs only
+> an API key (no browser, no extension). Keep this browser recipe as a manual
+> fallback only.
+
 The exact browser workflow for generating Veo clips on 69labs.vip, updated
 from a live production run. Follow the numbered recipes literally — every
 snippet here is copy-paste ready and was verified working. Element refs
