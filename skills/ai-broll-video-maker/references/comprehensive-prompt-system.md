@@ -182,3 +182,13 @@ line. Use the thumbnail (or, if unavailable, the channel reference photo cropped
 the character) as the first-frame keyframe in `keyframes` mode, and prompt her to
 speak the line in the channel's accent with natural lip-sync; VO stays silent under
 the hook. Do not animate thumbnail TEXT/graphics — crop to just the person.
+
+## Text reality (Veo): go label-free
+Even when every label is enumerated verbatim, Veo garbles multi-word label text
+("LAVENDER & SAGE" → "LAVENDER & SARTH"). Do NOT depend on readable labels in
+generated clips. Default to **plain unlabeled jars** (clean cream candles in clear
+glass) and refer to scents only in the narration. If a label is unavoidable, use a
+single short real word and keep it small/out of focus. Real printed labels are a
+post step, not a generation step. (Talking-head hooks: crop to the person, never
+animate thumbnail text or graphics, and use only natural window light — no glow,
+rim-light, or fake studio lighting.)
