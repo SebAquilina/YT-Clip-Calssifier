@@ -64,3 +64,18 @@ a flickering flame). Put the negative block to work: *no glowing outline or
 rim-light around the person, no floating objects, no text/arrows/checkmarks/
 graphics.* Never animate the finished thumbnail (its title text and sticker
 graphics animate into floating garbage).
+
+## Talking heads speak for themselves (do NOT voice them over)
+
+A talking-head/character clip must use **its own in-clip Veo speech**. At that
+moment the narrator voiceover **goes silent** — you do not lay the narration over
+a talking head, and you never time-stretch the clip to a narration track (that is
+exactly what throws the lips out of sync). Assembly rule (see
+`scripts/assemble_segmented_v2.py`): character beats are muxed with their own
+native audio at their own rate; only B-roll beats carry the narrator VO.
+
+Match the talking head's spoken accent to the channel's narrator voice (e.g. an
+American narrator → prompt the talking head to "speak in a warm, natural American
+accent"), so the two voices feel like one person rather than a presenter plus a
+separate voiceover. To change a talking head's voice you must regenerate that
+clip — its speech is baked into the video; never dub it.
