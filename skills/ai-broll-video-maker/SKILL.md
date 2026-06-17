@@ -385,6 +385,37 @@ Every finished video ships as ONE zip named for the video, containing exactly:
 Build it with `scripts/build_deliverable.py <video_folder>`; deliver the zip (host
 it and give the link — large zips exceed chat/GitHub limits).
 
+### Hosting / upload — ALWAYS sanitize the filename first (hard-won lesson)
+File hosts (litterbox/catbox/gofile/0x0/bashupload) are uploaded via
+`curl -F fileToUpload=@<path>`. **curl's `-F` field chokes on paths containing
+spaces, commas or other special characters** — it fails with `curl (26) Failed to
+open/read local data` and returns an EMPTY body. Because our deliverables are named
+for the video title (e.g. `POOR SCENT THROW - ... , This Is The REAL Issue.zip`),
+uploading that path directly **fails silently** and looks exactly like a
+size/network limit — leading you to wrongly "discover" a ~80MB upload cap and waste
+time splitting files. There is NO such cap: with a clean filename, full 100–300MB
+files upload in seconds.
+
+THE FIX (already baked in): **copy to a sanitized temp name before uploading.**
+- Use `scripts/host_upload.py <file> [<file> ...]` — it sanitizes the name, uploads,
+  retries, and verifies the hosted `content-length` matches the local size.
+- Or just run `scripts/build_deliverable.py <video_folder> --host`, which builds the
+  zip and then hosts the **zip + final mp4 + thumbnail**, printing one link each.
+
+So the standard end-of-generation delivery is a single command:
+```
+python3 scripts/build_deliverable.py <video_folder> --host
+```
+which prints, e.g.:
+```
+DELIVERABLE: .../<Title>_deliverable.zip (252 MB)
+LINK: <Title>_deliverable.zip -> https://litter.catbox.moe/xxxx.zip  [verified]
+LINK: <Title>.mp4            -> https://litter.catbox.moe/yyyy.mp4  [verified]
+LINK: thumbnail.png          -> https://litter.catbox.moe/zzzz.png  [verified]
+```
+Give the user the **single-file zip link** as the primary deliverable. Never hand
+back split parts unless a host genuinely rejects a verified-clean filename.
+
 ## Thumbnail SOP — generate with GPT Image 2
 Generate the thumbnail with the **`gpt-image-2`** image model on 69labs, using the
 **"Thumbnail Prompt"** column from the channel content sheet for that video row

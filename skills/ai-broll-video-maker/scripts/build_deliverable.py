@@ -50,4 +50,14 @@ def main():
     shutil.rmtree(staging, ignore_errors=True)
     print("DELIVERABLE:", out, f"({os.path.getsize(out)//(1024*1024)} MB)")
 
+    # --host: upload the zip (and the final mp4 + thumbnail) and print links.
+    # Uses host_upload.py, which SANITIZES the filename first — uploading the
+    # title-named file directly fails silently (curl -F chokes on spaces/commas).
+    if "--host" in sys.argv:
+        import subprocess
+        hu=os.path.join(os.path.dirname(os.path.abspath(__file__)),"host_upload.py")
+        targets=[out, mp4] + ([thumb] if thumb else [])
+        print("== hosting deliverable (sanitized filenames) ==")
+        subprocess.run(["python3",hu,*targets])
+
 if __name__=="__main__": main()
