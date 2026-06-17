@@ -87,7 +87,7 @@ def host_frame(clip):
         time.sleep(5)
     os.path.exists(jpg) and os.remove(jpg); return None
 def submit(prompt,muted,mode,kf):
-    body={"prompt":prompt,"model":M["video_model"],"aspectRatio":M["aspect"]}
+    body={"prompt":prompt,"model":M["video_model"],"aspectRatio":M["aspect"],"skipWatermarkRemoval":False}
     if muted: body["mute"]=True
     if mode!="text": body["imageUrls"]=[kf]; body["videoInputMode"]=mode
     st,j=req("POST","/videos/generate",body)

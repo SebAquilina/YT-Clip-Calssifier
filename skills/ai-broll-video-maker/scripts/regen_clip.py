@@ -35,7 +35,7 @@ def req(method,path,body=None,t=60):
     return {"error":"retries"}
 prompt=OVERRIDE or beat["prompt"]
 if STRONGER: prompt=prompt+REALISM
-body={"prompt":prompt,"model":M["video_model"],"aspectRatio":M["aspect"]}
+body={"prompt":prompt,"model":M["video_model"],"aspectRatio":M["aspect"],"skipWatermarkRemoval":False}
 mode = "keyframes" if (beat["type"]=="character" or beat.get("broll_mode")=="character") else "text"
 muted = beat["type"]!="character"
 if muted: body["mute"]=True

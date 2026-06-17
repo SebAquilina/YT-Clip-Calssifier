@@ -670,10 +670,13 @@ assemble.py / lipsync_gate.py / gen_anchors.py:
    grades each clip independently. FIX: measure each clip's mean Y/U/V, shift (static
    `lutyuv`) toward the global median so same-scene clips match. (Color is a SECONDARY
    cause; the seam-trim above is the primary one.)
-3. **Veo watermark** (bottom-right, ~x1175,y655): remove with a CENTERED crop-zoom applied
-   ONCE to the final concatenated video (NOT per-clip from the top-left — that shifts the
-   subject off-centre). `crop=1050:590:115:65,scale=1280:720` keeps the subject centered
-   (matching the reference/anchor composition) and excludes the mark. (delogo left a smudge.)
+3. **Veo watermark** — REMOVE IT NATIVELY VIA THE API, do NOT crop. The video generate
+   endpoint takes `skipWatermarkRemoval` (default false = FastGen watermark cleanup ENABLED
+   for eligible Veo/Gemini outputs). Always send `skipWatermarkRemoval: false` on every
+   `/videos/generate` (and regen) call so all clips come out watermark-free at full frame —
+   no crop, no zoom, no off-centre offset. (Cropping was the old workaround and caused
+   off-centre framing; only fall back to a CENTERED final crop if native cleanup is ever
+   unavailable.)
 4. **B-roll VO too quiet vs talking heads.** mean-volume leveling was perceptually off.
    FIX: static gain to a common INTEGRATED-LUFS target (`loudnorm` analysis only → static
    `volume`), timing-safe; final polish still by master_audio.

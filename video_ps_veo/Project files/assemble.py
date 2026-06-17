@@ -15,10 +15,8 @@ ROOT=os.path.dirname(os.path.abspath(__file__)); VID=os.path.dirname(ROOT)
 AUD=os.path.join(ROOT,"audio"); SEG=os.path.join(ROOT,"segments"); os.makedirs(SEG,exist_ok=True)
 FF="/usr/local/bin/ffmpeg"; FP="/usr/local/bin/ffprobe"
 M=json.load(open(os.path.join(ROOT,"manifest.json"))); state=json.load(open(os.path.join(ROOT,"state.json")))
-# Watermark removal is a SINGLE CENTERED crop-zoom applied ONCE to the final concat
-# (not per-clip) so every clip is treated identically and the subject stays centered
-# (matches the reference/anchor composition). Box excludes the bottom-right "Veo" mark.
-FINALCROP="crop=1050:590:115:65,scale=1280:720"
+# Watermark is removed natively by the API (skipWatermarkRemoval:false = default cleanup
+# enabled). NO cropping — full-frame 1280x720, so every clip stays centered with no offset.
 TARGET_LUFS=-20.0                                 # per-segment loudness target (master_audio finishes at -16)
 def run(c):
     r=subprocess.run(c,capture_output=True,text=True)
@@ -150,8 +148,8 @@ while i<len(beats):
 lf=os.path.join(ROOT,"final_list.txt")
 open(lf,"w").write("".join(f"file '{s}'\n" for s in segments))
 out=os.path.join(VID,f"{M['title']}.mp4")
-run([FF,"-y","-f","concat","-safe","0","-i",lf,"-fflags","+genpts","-vf",f"{FINALCROP},fps=24,format=yuv420p",
-    "-r","24","-vsync","cfr","-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p","-c:a","aac","-b:a","160k",
+run([FF,"-y","-f","concat","-safe","0","-i",lf,"-fflags","+genpts","-r","24","-vsync","cfr",
+    "-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p","-c:a","aac","-b:a","160k",
     "-ar","48000","-ac","2","-movflags","+faststart",out])
 va=subprocess.run([FP,"-v","error","-select_streams","a:0","-show_entries","stream=duration","-of","default=nk=1:nw=1",out],capture_output=True,text=True).stdout.strip()
 print("FINAL:",out,f"v={dur(out):.1f}s a={va}s")
