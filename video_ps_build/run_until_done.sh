@@ -10,7 +10,8 @@ while true; do
   n=$(done_count)
   if [ "$n" = "80" ]; then echo "SUPERVISOR: all 80 done"; break; fi
   # wait for any existing generator to finish before relaunching
-  while pgrep -f generate_chained.py >/dev/null; do sleep 20; done
+  # (precise pattern so we don't match monitor/command lines that merely contain the string)
+  while pgrep -f "python3 .*generate_chained.py" >/dev/null; do sleep 20; done
   n=$(done_count)
   if [ "$n" = "80" ]; then echo "SUPERVISOR: all 80 done"; break; fi
   echo "SUPERVISOR: relaunch at $n/80 $(date -u +%H:%M:%S)"
