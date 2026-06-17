@@ -47,7 +47,12 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
 - Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
 
-## Video 9.3 — POOR SCENT THROW (FORMAT v5.2: native watermark removal, identity-locked, seam-fixed, color-locked, 10:18) ⭐ LATEST
+## Video 9.4 — POOR SCENT THROW (+ tailored e-book CTA, 10:35) ⭐ LATEST
+- Same identity-locked / seam-fixed / color-locked / native-watermark-removed cut as 9.3, with a **tailored book CTA** spliced in at 0:38 (within first 2 min): book-cover Ken Burns + cloned-candice VO themed to scent throw ("...candles that actually fill a whole room...cure times, fragrance loads, pour temperatures...The Three Dollar Luxury Candle...link in the description"). Re-mastered to -16.0 LUFS.
+- Book link goes in the description: **[BOOK LINK]**
+- **FULL VIDEO (129MB): https://litter.catbox.moe/wbeazk.mp4**
+
+## Video 9.3 — POOR SCENT THROW (FORMAT v5.2: native watermark removal, identity-locked, seam-fixed, color-locked, 10:18)
 - Full review pass applied: every TH clip seeds from a Candice reference (no wrong avatars); clean labeled 5-scene anchors (bench/kitchen/shelf/packing/window); seam-position fix (matched frames not trimmed); color-lock; B-roll VO loudness matched (LUFS); **native API watermark removal (`skipWatermarkRemoval`), full-frame, no crop/offset**.
 - Gates: lip-sync 0 fails (3x consensus) · realism 11/11 B-roll (0 freezes). Mastered -16.01 LUFS.
 - **FULL VIDEO, single file (130MB): https://litter.catbox.moe/hf3z7r.mp4**
