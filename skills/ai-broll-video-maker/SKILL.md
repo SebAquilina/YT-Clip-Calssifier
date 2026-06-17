@@ -560,3 +560,24 @@ Scripts: `scripts/qc.py`, `scripts/regen_clip.py`. The judge is the Agent tool (
 standalone vision API here); swap in a vision LLM call for a fully hands-off loop.
 Note: inherently static "result" hero shots will always trip freezedetect — give
 them camera drift in the prompt rather than treating stillness as a failure.
+
+---
+
+# FORMAT v4 — frame-chaining + lip-sync gate + audio master (the consistency stack)
+
+Run all four on every new video:
+1. **Talking-head frame-chaining** (`scripts/generate_chained.py`): consecutive TH
+   beats form a RUN; clip 1 starts from `th_keyframe_url`, each next clip's keyframe
+   is the previous clip's LAST FRAME (extracted + hosted). The run becomes one
+   continuous take — verified seamless. Runs generate concurrently; within a run
+   sequential. B-roll parallel; one TTS per gap.
+2. **Lip-sync / script gate** (`scripts/lipsync_gate.py <proj> --fix`): transcribe
+   each TH, fuzzy-match to its scripted line, regenerate mismatches (<=2).
+3. **Realism gate** (`scripts/qc.py` + vision subagent judge + `scripts/regen_clip.py`):
+   per B-roll clip extract a contact sheet + freeze verdict, a vision subagent rules
+   realistic?/reason, failures regenerate with the escalated realism+motion clause (<=2).
+4. **Audio master** (`scripts/master_audio.py <in> <out>`): two-pass loudnorm to
+   -16 LUFS, high-pass + light denoise, faint room-tone bed; run on the final cut.
+
+Order: generate_chained -> lipsync_gate --fix -> realism gate (regen) -> assemble
+(gap-aware, silence-trim seams) -> master_audio -> deliverable zip.
