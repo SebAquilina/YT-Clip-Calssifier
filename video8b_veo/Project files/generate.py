@@ -13,7 +13,7 @@ state=json.load(open(SP)) if os.path.exists(SP) else {"beats":{},"gaps":{}}
 state.setdefault("gaps",{})
 def save(): json.dump(state,open(SP,"w"),indent=2)
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-REF=M["reference_photo_url"]; V=M["narrator_voice"]
+REF=M["reference_photo_url"]; THKF=M.get("th_keyframe_url",REF); V=M["narrator_voice"]
 def req(method,path,body=None,t=60):
     url=path if path.startswith("http") else BASE+path
     data=json.dumps(body).encode() if body is not None else None
@@ -45,10 +45,10 @@ def tts(text,dest):
     r=urllib.request.Request(f"{BASE}/tts/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
     with urllib.request.urlopen(r,timeout=120) as resp,open(dest,"wb") as f: f.write(resp.read())
     return os.path.getsize(dest)>2000
-def submit(prompt,muted,mode):
+def submit(prompt,muted,mode,kf):
     body={"prompt":prompt,"model":M["video_model"],"aspectRatio":M["aspect"]}
     if muted: body["mute"]=True
-    if mode!="text": body["imageUrls"]=[REF]; body["videoInputMode"]=mode
+    if mode!="text": body["imageUrls"]=[kf]; body["videoInputMode"]=mode
     st,j=req("POST","/videos/generate",body)
     return (j.get("id"),None) if j.get("id") else (None,j.get("error",j))
 def dl(jid,dest):
@@ -79,10 +79,10 @@ inflight={}; qi=0; deadline=time.time()+60*55
 while (qi<len(tasks) or inflight) and time.time()<deadline:
     while len(inflight)<MAX and qi<len(tasks):
         b=tasks[qi]
-        if b["type"]=="character": muted=False; mode="keyframes"
-        elif b.get("broll_mode")=="character": muted=True; mode="keyframes"
-        else: muted=True; mode="text"
-        jid,err=submit(b["prompt"],muted,mode)
+        if b["type"]=="character": muted=False; mode="keyframes"; kf=THKF
+        elif b.get("broll_mode")=="character": muted=True; mode="keyframes"; kf=REF
+        else: muted=True; mode="text"; kf=REF
+        jid,err=submit(b["prompt"],muted,mode,kf)
         if jid:
             state["beats"][b["id"]]["job"].update(status="submitted",job_id=jid); inflight[jid]=b; qi+=1
             print(f"  submit {b['id']} {jid[:8]} ({len(inflight)})",flush=True); save(); time.sleep(13)

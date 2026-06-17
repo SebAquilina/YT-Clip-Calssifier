@@ -517,3 +517,46 @@ the first ~1.2s of each talking-head clip (the keyframe-morph where ghosting app
 - Gap (≥1 consecutive B-roll beats) → one segment: concat the gap's B-roll video clips
   trimmed to share the gap's single TTS duration; audio = that one gap TTS.
 - Keeps continuous narration (TH speech + gap VO) with far fewer TTS calls.
+
+---
+
+# FORMAT v3 fixes — clean talking heads + automated B-roll realism gate
+
+## 1. Talking-head ghosting (face fades into another face)
+Cause: Veo morphs the reference headshot into the scene over the first ~1s.
+Fix (PREVENTION): generate ONE canonical "start frame" image of the presenter in
+the real set, facing camera, mouth just parted, ready to speak; commit it and use
+its URL as the `th_keyframe_url` keyframe for EVERY talking-head clip. Every TH then
+starts from the identical, in-scene frame, so there is no morph/cross-fade. Prompt:
+"the very first frame is already this exact woman, sharp and in focus; NO fade-in,
+dissolve, cross-fade or morph from another face." Optionally detect residual ghost
+with `qc.py firstsec` (vision-review the first-1.2s contact sheet).
+
+## 2. Bad talking-head→talking-head transitions / double breath
+Cause: each clip ends with an inhale and the next begins with another inhale, and
+framing jumps. Fix: (a) same canonical start frame → consistent pose/framing so
+clips line up; (b) prompt "she is already mid-conversation: begins the first word
+immediately with NO inhale or pause at the start, speaks continuously, no big inhale
+at the end"; (c) assembler trims leading/trailing SILENCE per TH clip
+(`speech_bounds()` via silencedetect) so seams flow — never trims speech.
+
+## 3. Freeze-frame under voiceover
+Cause: a near-static clip held under VO. Fix: `qc.py freeze` (ffmpeg freezedetect)
+flags any frozen span ≥0.6s; prompt every clip for "continuous subtle handheld
+camera motion and real movement; the frame is NEVER static or frozen"; regenerate
+flagged clips. Talking heads must always be in motion.
+
+## 4. Automated B-roll realism gate (frame-by-frame, retry ≤2)
+Pipeline per B-roll clip:
+  1. `qc.py contactsheet <clip> sheet.jpg 6` → 6 evenly-spaced frames tiled.
+  2. `qc.py freeze <clip>` → freeze verdict.
+  3. JUDGE: a vision-capable subagent (the Agent tool) reviews the contact sheet and
+     returns realistic? + reason (looks for AI tells: warping, melting edges, extra
+     fingers, impossible physics, plastic/uncanny look, gibberish, wrong objects).
+  4. If FREEZE or NOT-realistic → `regen_clip.py <proj> <beat_id> --stronger`
+     (re-generates with an escalated realism+continuous-motion clause), then re-judge.
+     Retry up to 2 times; after that keep the best take and flag it.
+Scripts: `scripts/qc.py`, `scripts/regen_clip.py`. The judge is the Agent tool (no
+standalone vision API here); swap in a vision LLM call for a fully hands-off loop.
+Note: inherently static "result" hero shots will always trip freezedetect — give
+them camera drift in the prompt rather than treating stillness as a failure.

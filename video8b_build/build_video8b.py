@@ -17,16 +17,23 @@ PHONE=("filmed as casual amateur smartphone footage: handheld, slight natural sh
 "POV, natural available light, no studio lights, no color grading, slightly flat auto-exposed, "
 "deep focus (no cinematic shallow depth of field), candid vlog feel. No on-screen text, captions, "
 "watermark or logos. Photo-real and physically correct; nothing spawns in or vanishes; hands have "
-"five fingers; liquids pour from a real container into a real open container.")
+"five fingers; liquids pour from a real container into a real open container. There is continuous subtle handheld camera drift and real motion throughout; the frame is never static or frozen.")
 PERSON=("the exact same woman as the reference image: mid-fifties, tortoiseshell glasses, curly grey "
 "hair, blue knit sweater, tan apron.")
-TH_STRICT=("Exactly ONE person, a single solid subject — no second transparent copy, no double "
-"exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink and "
-"lip-sync; steady framing; only natural window light, no studio lighting, no glow.")
+TH_STRICT=("Exactly ONE person, a single solid subject — no second face, no transparent copy, no "
+"double exposure, no ghosting, no morphing, no extra or duplicated hands or arms; natural blink "
+"and lip-sync; steady framing; only natural window light, no studio lighting, no glow. "
+"The VERY FIRST FRAME is already this exact woman, fully formed, sharp and in focus — there is NO "
+"fade-in, dissolve, cross-fade or morph from another face at the start. She matches the reference "
+"start image exactly: same pose, same seat, same framing and background, so clips line up. She is "
+"already mid-conversation: she begins the first word IMMEDIATELY with NO inhale, breath or pause at "
+"the start, speaks continuously without ever freezing, and does not take a big inhale at the end.")
+TH_KEYFRAME=open("/tmp/th_startframe_url.txt").read().strip()
 def th_prompt(line):
-    return (f"Medium close handheld vlog shot of {PERSON} in her kitchen, looking straight at the "
-    f"camera and speaking naturally in a warm American accent, lips fully in sync, saying exactly: "
-    f"\"{line}\". {TH_STRICT} Casual smartphone look. Setting: {KITCHEN} No on-screen text.")
+    return (f"Continue from the reference start image: the same woman in the same kitchen, same pose "
+    f"and framing, looking straight at the camera and speaking naturally in a warm American accent, "
+    f"lips fully in sync, saying exactly: \"{line}\". {TH_STRICT} Casual handheld smartphone vlog "
+    f"look. Setting: {KITCHEN} No on-screen text.")
 def br_prompt(subj, mode):
     if mode=="character":
         return (f"Starting from the reference image, {PERSON} {subj}. {PHONE} She is doing the action, "
@@ -160,7 +167,7 @@ print(f"TTS calls = {len(gaps)} (one per gap)  vs old per-beat = {nbr}")
 # write manifest
 folder=os.path.join(ROOT,"..","video8b_veo"); os.makedirs(os.path.join(folder,"Project files"),exist_ok=True); os.makedirs(os.path.join(folder,"Source clips"),exist_ok=True)
 M={"title":"I Tested The Microwave Your Wax Hack - And It Ruined Everything","channel":"Candice's Country Candles",
-   "narrator_voice":VOICE,"aspect":"16:9","video_model":"veo-video","clip_len":8.0,"reference_photo_url":REF,
+   "narrator_voice":VOICE,"aspect":"16:9","video_model":"veo-video","clip_len":8.0,"reference_photo_url":REF,"th_keyframe_url":TH_KEYFRAME,
    "continuity_bible":KITCHEN,"config":CFG,"format":"th-dominant-gap-tts","beats":beats,
    "gaps":{str(g):" ".join(b["sentence"] for b in beats if b.get("gap_id")==g) for g in gaps}}
 json.dump(M,open(os.path.join(folder,"Project files","manifest.json"),"w"),indent=2)

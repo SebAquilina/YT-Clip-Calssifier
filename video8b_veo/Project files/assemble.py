@@ -29,6 +29,28 @@ def finalize(vsrc,asrc,D,out):
 def clipfile(bid):
     f=state["beats"].get(bid,{}).get("job",{}).get("file")
     return f if f and os.path.exists(f) else None
+def speech_bounds(clip):
+    """Return (start,end) trimming leading+trailing SILENCE (inhales/pauses) but
+    never cutting speech, so consecutive talking heads flow without a double breath."""
+    d=dur(clip)
+    r=subprocess.run([FF,"-i",clip,"-af","silencedetect=n=-30dB:d=0.18","-f","null","-"],capture_output=True,text=True)
+    starts=[]; ends=[]
+    for ln in r.stderr.splitlines():
+        if "silence_start:" in ln:
+            try: starts.append(float(ln.split("silence_start:")[1].strip()))
+            except: pass
+        if "silence_end:" in ln:
+            try: ends.append(float(ln.split("silence_end:")[1].split("|")[0].strip()))
+            except: pass
+    s0=0.0
+    for st,en in zip(starts,ends):
+        if st<=0.12: s0=max(s0,en)        # leading silence -> skip to its end
+    e0=d
+    if len(starts)>len(ends): e0=min(e0,starts[-1])           # unterminated trailing silence
+    elif starts and starts[-1]>d-1.6 and (not ends or ends[-1]<=starts[-1]): e0=min(e0,starts[-1])
+    s0=max(0.0,s0-0.04); e0=min(d,e0+0.12)
+    if e0-s0<1.0: return 0.0,d
+    return s0,e0
 
 segments=[]; beats=M["beats"]; i=0
 while i<len(beats):
@@ -36,12 +58,12 @@ while i<len(beats):
     if b["type"]=="character":
         cf=clipfile(b["id"])
         if cf:
-            seg=os.path.join(SEG,f"{b['id']}.mp4"); cd=dur(cf); D=max(1.0,cd-TH_TRIM)
-            # trim first TH_TRIM secs of both streams, normalize audio
-            ok=run([FF,"-y","-ss",f"{TH_TRIM}","-i",cf,"-vf",VF,"-r","24","-af",ANORM,
+            seg=os.path.join(SEG,f"{b['id']}.mp4")
+            s0,e0=speech_bounds(cf)              # trim leading/trailing silence (breaths/pauses)
+            ok=run([FF,"-y","-ss",f"{s0:.2f}","-to",f"{e0:.2f}","-i",cf,"-vf",VF,"-r","24","-af",ANORM,
                 "-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p",
                 "-c:a","aac","-b:a","160k","-ar","48000","-ac","2",seg])
-            if ok: segments.append(seg); print(f"  TH {b['id']} {dur(seg):.1f}s")
+            if ok: segments.append(seg); print(f"  TH {b['id']} {s0:.2f}-{e0:.2f} -> {dur(seg):.1f}s")
         i+=1
     else:
         gid=str(b.get("gap_id")); grp=[]
