@@ -670,8 +670,10 @@ assemble.py / lipsync_gate.py / gen_anchors.py:
    grades each clip independently. FIX: measure each clip's mean Y/U/V, shift (static
    `lutyuv`) toward the global median so same-scene clips match. (Color is a SECONDARY
    cause; the seam-trim above is the primary one.)
-3. **Veo watermark** (bottom-right, ~x1175,y655): remove with a crop-zoom
-   `crop=1170:650:0:0,scale=1280:720` on every clip (delogo left a smudge; crop is clean).
+3. **Veo watermark** (bottom-right, ~x1175,y655): remove with a CENTERED crop-zoom applied
+   ONCE to the final concatenated video (NOT per-clip from the top-left — that shifts the
+   subject off-centre). `crop=1050:590:115:65,scale=1280:720` keeps the subject centered
+   (matching the reference/anchor composition) and excludes the mark. (delogo left a smudge.)
 4. **B-roll VO too quiet vs talking heads.** mean-volume leveling was perceptually off.
    FIX: static gain to a common INTEGRATED-LUFS target (`loudnorm` analysis only → static
    `volume`), timing-safe; final polish still by master_audio.
