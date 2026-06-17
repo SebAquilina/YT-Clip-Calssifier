@@ -52,8 +52,10 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - Quality gates this run: lip-sync 69/69 pass · realism 11/11 B-roll pass (6 freeze-flagged, all confirmed real motion on vision review) · A/V exact-sync.
 - Thumbnail (gpt-image-2, exact prompt): https://litter.catbox.moe/d9z8h8.png
 - Thumbnail (gpt-image-2, exact prompt): https://litter.catbox.moe/d9z8h8.png
-- NOTE: large single-file uploads are blocked by this environment's network policy, so the
-  video and zip are hosted as **70MB split parts** (lossless — reassemble with `cat`).
+- **FULL VIDEO, single file (117MB, full quality): https://litter.catbox.moe/i5gbln.mp4**
+- NOTE: earlier large uploads failed only because the filename had spaces/commas (broke
+  curl's `-F @file`). With a clean filename the whole file uploads fine. Split parts below
+  kept as a backup / for the zip.
 
 **Final video (10:02, 117MB)** — download both parts, then reassemble:
 - part00: https://litter.catbox.moe/zjqxkz.part00
