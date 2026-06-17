@@ -42,3 +42,7 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - Video (fixed, full sentences): https://litter.catbox.moe/q6529j.mp4
 - Source clips zip (~190MB): https://litter.catbox.moe/n4dree.zip
 - Thumbnail: https://litter.catbox.moe/rs37nj.png
+
+## Video 8 — Microwave Wax Hack — DELIVERABLE PACKAGE (talking-head format, 11:35)
+- **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
+- Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
