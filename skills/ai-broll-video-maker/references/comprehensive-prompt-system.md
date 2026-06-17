@@ -192,3 +192,11 @@ single short real word and keep it small/out of focus. Real printed labels are a
 post step, not a generation step. (Talking-head hooks: crop to the person, never
 animate thumbnail text or graphics, and use only natural window light — no glow,
 rim-light, or fake studio lighting.)
+
+## Assembler caution — never blanket-trim talking-head fronts
+A talking-head Veo clip speaks its full sentence starting almost immediately (~0.2s).
+Do NOT trim a fixed amount (e.g. 1.2s) off the FRONT of every TH clip — it chops the
+first words and the video sounds like clips cutting each other off with no full
+sentences. Only trim a SPECIFIC clip that actually shows a keyframe-morph ghost, and
+trim just that one. Verify finished videos by transcribing (faster-whisper) and
+diffing against the script: the spoken audio must match the scripted sentences.

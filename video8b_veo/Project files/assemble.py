@@ -12,7 +12,7 @@ FF="/usr/local/bin/ffmpeg"; FP="/usr/local/bin/ffprobe"
 M=json.load(open(os.path.join(ROOT,"manifest.json"))); state=json.load(open(os.path.join(ROOT,"state.json")))
 VF="scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,fps=24,format=yuv420p"
 ANORM="loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000"
-TH_TRIM=1.2
+TH_TRIM=0.0
 def run(c):
     r=subprocess.run(c,capture_output=True,text=True)
     if r.returncode!=0: print("FFERR",r.stderr[-300:])
