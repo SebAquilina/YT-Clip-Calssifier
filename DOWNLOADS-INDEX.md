@@ -47,7 +47,14 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
 - Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
 
-## Video 9.2 — POOR SCENT THROW (FORMAT v5: chains≤3 + scene rotation, hands B-roll, CLONED candice voice, audio-drift fixed, 10:18) ⭐ LATEST
+## Video 9.3 — POOR SCENT THROW (FORMAT v5.2: native watermark removal, identity-locked, seam-fixed, color-locked, 10:18) ⭐ LATEST
+- Full review pass applied: every TH clip seeds from a Candice reference (no wrong avatars); clean labeled 5-scene anchors (bench/kitchen/shelf/packing/window); seam-position fix (matched frames not trimmed); color-lock; B-roll VO loudness matched (LUFS); **native API watermark removal (`skipWatermarkRemoval`), full-frame, no crop/offset**.
+- Gates: lip-sync 0 fails (3x consensus) · realism 11/11 B-roll (0 freezes). Mastered -16.01 LUFS.
+- **FULL VIDEO, single file (130MB): https://litter.catbox.moe/hf3z7r.mp4**
+- **FULL DELIVERABLE ZIP (276MB): https://litter.catbox.moe/l23fx0.zip**
+- Thumbnail: https://litter.catbox.moe/moktas.png
+
+## Video 9.2 — POOR SCENT THROW (FORMAT v5: cloned voice, scene rotation) — superseded by 9.3
 - Chains of ≤3 TH clips, exact-last-frame chaining; scene rotation (bench→kitchen→shelf) on direct TH→TH jump-cuts only.
 - B-roll = Candice's own hands in her workspace (hands_ref). Labels on talking-head shots. Thumbnail = Candice (character reference).
 - Gap narration = MiniMax cloned voice **candice** (speech-2.8-hd, speed 1.05). Audio drift fixed (static gain + locked A/V). Mastered -16.04 LUFS.
