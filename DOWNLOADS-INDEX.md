@@ -46,3 +46,9 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 ## Video 8 — Microwave Wax Hack — DELIVERABLE PACKAGE (talking-head format, 11:35)
 - **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
 - Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
+
+## Video 9 — POOR SCENT THROW: Stop Adding More Fragrance (FORMAT v4: frame-chaining + lip-sync gate + realism gate + audio master, 10:02)
+- Talking-head ratio 89%, voice `uTof433lKWylEy1elPTY`, mastered to -16.04 LUFS.
+- Quality gates this run: lip-sync 69/69 pass · realism 11/11 B-roll pass (6 freeze-flagged, all confirmed real motion on vision review) · A/V exact-sync.
+- Thumbnail (gpt-image-2, exact prompt): https://litter.catbox.moe/d9z8h8.png
+- Final video + full deliverable zip (252MB: video + 80 source clips + description + thumbnail): delivered directly via chat; litterbox mirror links pending (host failing on large files this run — will refresh).
