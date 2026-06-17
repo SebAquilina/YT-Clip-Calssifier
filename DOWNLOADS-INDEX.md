@@ -47,9 +47,13 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
 - Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
 
-## Video 9.4 — POOR SCENT THROW (+ tailored e-book CTA, 10:35) ⭐ LATEST
-- Same identity-locked / seam-fixed / color-locked / native-watermark-removed cut as 9.3, with a **tailored book CTA** spliced in at 0:38 (within first 2 min): book-cover Ken Burns + cloned-candice VO themed to scent throw ("...candles that actually fill a whole room...cure times, fragrance loads, pour temperatures...The Three Dollar Luxury Candle...link in the description"). Re-mastered to -16.0 LUFS.
+## Video 9.5 — POOR SCENT THROW (+ talking-head book CTA, 10:34) ⭐ LATEST
+- Same identity-locked / seam-fixed / color-locked / native-watermark-removed cut as 9.3, now with a **real talking-head book CTA** spliced in at 0:38 (within first 2 min): Candice on camera holding her actual book cover ("THE $3 LUXURY CANDLE", matching art, "By Candice"), generated via veo `ingredients` mode (book cover fed directly as a reference + her identity ref → face locked, book reproduced). Scent-throw-themed line, veo TH voice. Both CTA clips face-checked. Re-mastered to -16.0 LUFS.
 - Book link goes in the description: **[BOOK LINK]**
+- **FULL VIDEO (talking-head CTA): https://litter.catbox.moe/as9snj.mp4**
+
+## Video 9.4 — POOR SCENT THROW (+ static Ken Burns CTA, 10:35) — superseded by 9.5
+- Earlier tailored CTA used a static book-cover Ken Burns card + cloned-candice VO. Replaced by the talking-head CTA above.
 - **FULL VIDEO (129MB): https://litter.catbox.moe/wbeazk.mp4**
 
 ## Video 9.3 — POOR SCENT THROW (FORMAT v5.2: native watermark removal, identity-locked, seam-fixed, color-locked, 10:18)
