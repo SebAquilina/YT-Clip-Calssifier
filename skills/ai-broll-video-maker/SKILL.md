@@ -694,3 +694,34 @@ assemble.py / lipsync_gate.py / gen_anchors.py:
 7. **Lip-sync gate is noisy → 3x consensus.** whisper(base.en) gives disjoint failure sets
    run-to-run. A clip only FAILS if it fails a majority of up to 3 transcriptions; never
    regenerate on a single low score (wastes credits on good clips).
+
+# FORMAT v5.3 — face gate, hard no-text, crossfade transitions (a wrong face can NEVER ship)
+
+1. **STRICT per-section FACE GATE (mandatory before assembly).** Veo 3.1 Fast drifts
+   identity across chains — a continuation clip can become a DIFFERENT person (e.g. the
+   packing chain once drifted to a different woman). So every TH and B-roll section is
+   verified to be the channel character BEFORE assembly:
+   - `scripts/face_gate.py <proj> --list` extracts 2 frames per section and prints JSON.
+   - The parent hands each batch + the reference photo to a **panel of vision sub-agents**
+     (Agent tool) that returns MATCH / MISMATCH per section (strict: MATCH only if clearly
+     the same woman; B-roll hands-only clips pass if no WRONG person appears). Run several
+     agents in parallel for speed.
+   - `scripts/face_gate.py <proj> --regen id1,id2` regenerates mismatches (regen_clip seeds
+     TH from the section's clean scene anchor, B-roll from its hands ref).
+   - LOOP list→judge→regen until **every** section is MATCH. Only then assemble. A wrong
+     face must never reach the output. (No face-recognition lib is installed here; the
+     vision-agent panel is the accuracy/efficiency sweet spot. If `face_recognition`/
+     `insightface` is ever available, use embedding distance as a fast pre-filter.)
+   ROOT CAUSE of drift: chaining continuation clips off a previous (already-drifting) frame.
+   Mitigations baked in: ≤3-clip chains, clean-anchor chain starts, strong IDENTITY prompt
+   ("EXACT SAME woman ... do NOT change her face/age/ethnicity"), regen always re-seeds from
+   a clean Candice anchor.
+2. **HARD no-text ban.** Veo rendered spoken lines as on-screen captions. Every prompt now
+   carries a NOTEXT block forbidding ALL on-screen text: subtitles, captions, transcription
+   of speech, words, letters, lower-thirds, REC dot, battery/UI, timecode, watermark, logos.
+   (Physical printed jar labels are explicitly distinguished as allowed, not "on-screen text".)
+3. **Crossfade transitions.** Assembler supports `XFADE=<sec>` env (e.g. 0.15) → chains
+   `xfade` (video) + `acrossfade` (audio) across all segments for smooth transitions instead
+   of hard cuts. Total shortens by (N-1)*XFADE, so keep XFADE small (0.12–0.18) and pad the
+   script length accordingly. Falls back to hard concat if the xfade graph errors.
+4. **Watermark:** native API `skipWatermarkRemoval:false` on every video submit (no crop).
