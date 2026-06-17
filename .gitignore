@@ -85,3 +85,30 @@ video_ps_veo/Project files/audio/
 video_ps_veo/Project files/segments/
 video_ps_veo/Project files/final_list.txt
 *_deliverable.zip
+
+# generation artifacts for fail + 3 new videos (volatile state / heavy media)
+video_fail_veo/Source clips/
+video_fail_veo/clips/
+video_fail_veo/Project files/state.json
+video_fail_veo/Project files/audio/
+video_fail_veo/Project files/segments/
+video_fail_veo/Project files/*.log
+video_fail_veo/*.mp4
+video_wicks_veo/Source clips/
+video_wicks_veo/clips/
+video_wicks_veo/Project files/state.json
+video_wicks_veo/Project files/audio/
+video_wicks_veo/Project files/segments/
+video_wicks_veo/*.mp4
+video_2v20_veo/Source clips/
+video_2v20_veo/clips/
+video_2v20_veo/Project files/state.json
+video_2v20_veo/Project files/audio/
+video_2v20_veo/Project files/segments/
+video_2v20_veo/*.mp4
+video_firstkit_veo/Source clips/
+video_firstkit_veo/clips/
+video_firstkit_veo/Project files/state.json
+video_firstkit_veo/Project files/audio/
+video_firstkit_veo/Project files/segments/
+video_firstkit_veo/*.mp4
