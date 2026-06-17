@@ -53,6 +53,7 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - Thumbnail (gpt-image-2, exact prompt): https://litter.catbox.moe/d9z8h8.png
 - Thumbnail (gpt-image-2, exact prompt): https://litter.catbox.moe/d9z8h8.png
 - **FULL VIDEO, single file (117MB, full quality): https://litter.catbox.moe/i5gbln.mp4**
+- **FULL DELIVERABLE ZIP, single file (252MB: video + 80 source clips + description + thumbnail): https://litter.catbox.moe/4br9n9.zip**
 - NOTE: earlier large uploads failed only because the filename had spaces/commas (broke
   curl's `-F @file`). With a clean filename the whole file uploads fine. Split parts below
   kept as a backup / for the zip.
