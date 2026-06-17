@@ -612,3 +612,44 @@ Run all four on every new video:
 
 Order: generate_chained -> lipsync_gate --fix -> realism gate (regen) -> assemble
 (gap-aware, silence-trim seams) -> master_audio -> deliverable zip.
+
+# FORMAT v5 — short chains + scene rotation + cloned voice (consistency, refined)
+
+Builds on v4. The build script now emits `manifest["chains"]` (the generator consumes
+them directly instead of computing runs):
+
+1. **Max 3 TH clips per chain.** Longer TH stretches split into chains of <=3, so
+   identity/quality drift can only compound twice. Lets us use the EXACT last frame.
+2. **Exact-last-frame chaining** (`host_frame`): grab the literal final frame (-sseof
+   -0.04) for perfect seam continuity, with a near-black fallback (step back if the
+   final frame is a fade). No more 0.33s pose-rewind from the old -0.35 grab.
+3. **Scene rotation ONLY on direct TH->TH jump-cuts.** Default scene = workbench. When
+   a contiguous TH run is split (no B-roll between), the new chain seeds from a
+   different SCENE ANCHOR (bench -> kitchen/stove -> curing shelf, rotating) and its
+   first clip gets a "moved to <scene>, settling, mild movement" beat, so the cut reads
+   as an intentional location change. After B-roll she returns to the bench. Scene
+   anchors are committed reference PNGs (`video_*/assets/*.png`) used as keyframes.
+4. **B-roll = the character's own hands in her workspace.** B-roll seeds from a
+   committed `hands_ref` image (her hands, her sleeves/apron, her bench) via
+   `videoInputMode:keyframes`; never generic text-to-video. Consistent skin/space.
+5. **Labels allowed on talking-head (static) shots, off motion B-roll.** Veo renders
+   short printed jar labels fine on near-static TH backgrounds but garbles text in
+   motion — so TH prompts allow simple labels, B-roll/motion prompts forbid text.
+6. **Cloned-voice TTS via the Voice Clones API.** Cloned voices are NOT usable through
+   `/tts/generate` (that validates against the MiniMax *catalog* and rejects clones).
+   Use `POST /api/v1/voice-clones/generate` with `voiceCloneId` (UUID from
+   `GET /voice-clones`), `model` (e.g. speech-2.8-hd), and `speed` (0.5-2.0 multiplier,
+   1.0=normal). Poll/download via the standard `/tts/status|download` endpoints.
+   NOTE: talking heads still speak in Veo's own generated voice (needed for lip-sync);
+   the cloned voice drives only the B-roll gap narration.
+
+## Audio drift fix (assembler)
+Per-clip lip drift came from per-segment dynamic `loudnorm` (uncompensated lookahead
+latency) + missing `async`. Fix: level each segment with a **static gain**
+(volumedetect -> `volume=NdB`, zero latency), lock audio length to video length
+(`aresample=async=1:first_pts=0` + `apad,atrim=0:D`), and leave the single global
+loudness pass to `master_audio.py`. Never per-segment dynamic loudnorm.
+
+## Thumbnail
+Always pass the channel character reference photo as `imageUrls` to gpt-image-2, or it
+invents a generic stranger (it did once — a man — when run prompt-only).

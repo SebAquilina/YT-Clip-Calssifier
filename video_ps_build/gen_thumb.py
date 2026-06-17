@@ -36,15 +36,21 @@ def req(method,path,body=None,t=60):
             return e.code,{"error":b}
         except Exception as ex: time.sleep(4)
     return 0,{"error":"x"}
-st,j=req("POST","/images/generate",{"prompt":PROMPT,"model":"gpt-image-2","aspectRatio":"16:9","imageUrls":[CHAR_REF]})
-jid=j.get("id"); print("submit",st,jid,j if not jid else "")
-assert jid,j
-for _ in range(80):
-    time.sleep(4); st,s=req("GET",f"/images/status/{jid}")
-    status=s.get("status");
-    if status=="COMPLETED": break
-    if status in ("FAILED","CENSORED"): raise SystemExit(f"image failed: {s}")
-print("status",status)
-r=urllib.request.Request(f"{BASE}/images/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
-with urllib.request.urlopen(r,timeout=120) as resp,open(OUT,"wb") as f: f.write(resp.read())
-print("saved",OUT,os.path.getsize(OUT),"bytes")
+def make(model):
+    for attempt in range(2):
+        st,j=req("POST","/images/generate",{"prompt":PROMPT,"model":model,"aspectRatio":"16:9","imageUrls":[CHAR_REF]})
+        jid=j.get("id"); print(f"[{model}] submit",st,jid,j if not jid else "")
+        if not jid: continue
+        status=None
+        for _ in range(80):
+            time.sleep(4); st,s=req("GET",f"/images/status/{jid}"); status=s.get("status")
+            if status in ("COMPLETED","FAILED","CENSORED"): break
+        print(f"[{model}] status",status)
+        if status=="COMPLETED":
+            r=urllib.request.Request(f"{BASE}/images/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
+            with urllib.request.urlopen(r,timeout=120) as resp,open(OUT,"wb") as f: f.write(resp.read())
+            print("saved",OUT,os.path.getsize(OUT),"bytes"); return True
+    return False
+# gpt-image-2 renders bold text overlays best; nano-banana-2 is the reliable image-input fallback
+if not (make("gpt-image-2") or make("nano-banana-2")):
+    raise SystemExit("thumbnail generation failed on both models")
