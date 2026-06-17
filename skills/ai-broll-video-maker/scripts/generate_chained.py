@@ -177,7 +177,7 @@ while not all_done() and time.time()<deadline:
             bid=bq[0]
             if done(bid): bq.pop(0); continue
             b=prompt_of[bid]
-            jid,err=submit(b["prompt"],True,"keyframes",HANDS)   # B-roll = her hands in her workspace
+            jid,err=submit(b["prompt"],True,"keyframes",b.get("broll_ref",HANDS))   # B-roll = her hands in her workspace (alternating overhead refs)
             if jid:
                 state["beats"][bid]["job"].update(status="submitted",job_id=jid); inflight[jid]=("br",bid); bq.pop(0)
                 print(f"  submit BR {bid} {jid[:8]} ({len(inflight)})",flush=True); save(); time.sleep(13); progressed=True

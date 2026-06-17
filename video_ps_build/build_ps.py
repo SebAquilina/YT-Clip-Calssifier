@@ -18,13 +18,18 @@ frame of the previous clip."""
 import json, os
 ROOT=os.path.dirname(os.path.abspath(__file__))
 REF=open("/tmp/raw_ref.txt").read().strip()
-BENCH=open("/tmp/th_startframe_url.txt").read().strip()
 RAW="https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets"
-KITCHEN=f"{RAW}/kitchen_anchor.png"; SHELF=f"{RAW}/shelf_anchor.png"; HANDS=f"{RAW}/hands_ref.png"
-SCENES={"bench":{"anchor":BENCH,"setting":"at her rustic wooden candle-workshop workbench"},
-        "kitchen":{"anchor":KITCHEN,"setting":"at her kitchen stove station, a pot of melting wax beside her"},
-        "shelf":{"anchor":SHELF,"setting":"beside her curing shelf of finished candles"}}
-JUMP_SCENES=["kitchen","shelf"]   # rotated on direct TH->TH jump-cuts
+BENCH=f"{RAW}/bench_anchor.png"   # v5.1 clean, labeled-jar, ready-to-speak bench
+KITCHEN=f"{RAW}/kitchen_anchor.png"; SHELF=f"{RAW}/shelf_anchor.png"
+PACKING=f"{RAW}/packing_anchor.png"; WINDOW=f"{RAW}/window_anchor.png"
+HANDS=f"{RAW}/hands_ref.png"; OVERHEAD=f"{RAW}/overhead_action.png"
+BROLL_REFS=[HANDS,OVERHEAD]        # alternate B-roll seed for variety (both = her hands, her workspace)
+SCENES={"bench":{"anchor":BENCH,"setting":"seated at her rustic wooden candle-workshop workbench"},
+        "kitchen":{"anchor":KITCHEN,"setting":"standing at her kitchen stove station, a pot of melting wax beside her"},
+        "shelf":{"anchor":SHELF,"setting":"standing beside her curing shelf of finished candles"},
+        "packing":{"anchor":PACKING,"setting":"standing at her packing and labeling table with kraft boxes and finished candles"},
+        "window":{"anchor":WINDOW,"setting":"seated by a bright window at a small side table with a notebook"}}
+JUMP_SCENES=["kitchen","shelf","packing","window"]   # rotated on direct TH->TH jump-cuts
 MAX_RUN=3
 VOICE={"provider":"minimax-clone","voiceCloneId":"6f906e1c-3bcd-404f-9f35-e16c76a98be1",
        "model":"speech-2.8-hd","speed":1.05,"language_boost":"en"}
@@ -36,6 +41,10 @@ PHONE=("filmed as casual amateur smartphone footage: handheld, slight natural sh
 "light, slightly flat auto-exposure, deep focus, candid vlog feel. No on-screen camera UI, REC dot, "
 "battery icon, captions, watermark or logos. Photo-real and physically correct; nothing spawns in or "
 "vanishes; hands have exactly five fingers; continuous subtle motion, never a frozen frame.")
+# identity is the #1 priority: this is the EXACT same woman shown in the seed/keyframe image
+IDENTITY=("This is the EXACT SAME woman shown in the reference keyframe image — identical face, identical "
+"tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. Do NOT change her face "
+"or identity into a different person. ")
 TH_STRICT=("Exactly ONE person, a single solid subject — no second face, no double exposure, no ghosting, "
 "no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first "
 "frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: "
@@ -45,14 +54,14 @@ LABELS=("Background candle jars may show small, simple, tidy printed labels with
 "\"Lavender\", \"Soy Wax\" or \"Vanilla\"; keep any text clean and legible, not garbled.")
 
 def th_continue(line):
-    return (f"The exact same woman in the same candle workshop continues speaking directly to the camera in a "
-    f"warm American accent, lips fully in sync, saying exactly: \"{line}\". {TH_STRICT} {LABELS} Casual "
+    return (f"{IDENTITY}The exact same woman in the same candle workshop continues speaking directly to the camera "
+    f"in a warm American accent, lips fully in sync, saying exactly: \"{line}\". {TH_STRICT} {LABELS} Casual "
     f"handheld smartphone vlog look. Setting: {WS}")
 def th_scene(line,scene,moved):
     s=SCENES[scene]["setting"]
     move=(f"She has just moved to a new spot and is now {s}, settling naturally into frame with gentle "
           f"continuous movement as she keeps talking. " if moved else f"She is {s}, looking straight at camera. ")
-    return (f"The exact same woman as the reference, {move}speaking directly to the camera in a warm American "
+    return (f"{IDENTITY}{move}She speaks directly to the camera in a warm American "
     f"accent, lips fully in sync, saying exactly: \"{line}\". {TH_STRICT} {LABELS} Casual handheld smartphone "
     f"vlog look. Setting: {WS}")
 def hands_prompt(subj):
@@ -157,12 +166,14 @@ th("And tell me down in the comments. What has your biggest scent-throw struggle
 
 # ---- build beats + gaps ----
 def est(t): return max(1.5, round(len(t.split())/WPS+0.4,2))
-beats=[]; gap=0; prev=None
+beats=[]; gap=0; prev=None; br_n=0
 for i,(typ,text,subj) in enumerate(B):
     if typ=="broll":
         if prev!="broll": gap+=1
         beats.append({"id":f"b{i:02d}_g{gap}","type":"broll","sentence":text,"visual_subject":subj,
-                      "gap_id":gap,"prompt":hands_prompt(subj),"dur":est(text)})
+                      "gap_id":gap,"prompt":hands_prompt(subj),"broll_ref":BROLL_REFS[br_n%len(BROLL_REFS)],
+                      "dur":est(text)})
+        br_n+=1
     else:
         beats.append({"id":f"b{i:02d}_th","type":"character","sentence":text,"dur":est(text)})  # prompt set below
     prev=typ
@@ -203,8 +214,8 @@ folder=os.path.join(ROOT,"..","video_ps_veo")
 os.makedirs(os.path.join(folder,"Project files"),exist_ok=True); os.makedirs(os.path.join(folder,"Source clips"),exist_ok=True)
 M={"title":"POOR SCENT THROW - Stop Adding More Fragrance, This Is The REAL Issue","channel":"Candice's Country Candles",
    "narrator_voice":VOICE,"aspect":"16:9","video_model":"veo-video","clip_len":8.0,"reference_photo_url":REF,
-   "scenes":{k:v["anchor"] for k,v in SCENES.items()},"hands_ref_url":HANDS,"max_run":MAX_RUN,
-   "continuity_bible":WS,"format":"th-dominant-chained-v5","chains":chains,"beats":beats,
+   "scenes":{k:v["anchor"] for k,v in SCENES.items()},"hands_ref_url":HANDS,"broll_refs":BROLL_REFS,"max_run":MAX_RUN,
+   "continuity_bible":WS,"format":"th-dominant-chained-v5.2","chains":chains,"beats":beats,
    "gaps":{str(g):" ".join(b["sentence"] for b in beats if b.get("gap_id")==g) for g in gaps}}
 json.dump(M,open(os.path.join(folder,"Project files","manifest.json"),"w"),indent=2)
 print("wrote manifest.json")

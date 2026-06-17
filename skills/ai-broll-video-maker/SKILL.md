@@ -651,5 +651,41 @@ latency) + missing `async`. Fix: level each segment with a **static gain**
 loudness pass to `master_audio.py`. Never per-segment dynamic loudnorm.
 
 ## Thumbnail
-Always pass the channel character reference photo as `imageUrls` to gpt-image-2, or it
-invents a generic stranger (it did once — a man — when run prompt-only).
+Always pass the channel character reference photo as `imageUrls` to a model that
+supports image input. NOTE: gpt-image-2 FAILS with `imageUrls` here — use
+`nano-banana-2` for character-referenced thumbnails (gpt-image-2 only when prompt-only,
+and prompt-only invents a generic stranger — it did once, a man).
+
+# FORMAT v5.2 — review-driven polish (identity, seams, color, watermark, audio, scenes)
+
+From a detailed user review of a v5 cut. All baked into build_ps.py / generate_chained.py /
+assemble.py / lipsync_gate.py / gen_anchors.py:
+
+1. **Seam = position, not just color.** Verified: chained clips' seed frames DO match
+   (clip N last frame ≈ clip N+1 first frame). The visible position pop came from the
+   assembler trimming silence at EVERY seam, cutting the matched frames. FIX: trim only
+   the chain's FIRST-clip leading silence and LAST-clip trailing silence; inter-clip
+   seams play full so the matched frames butt together. (`chain_start`/`chain_end` sets.)
+2. **Color-lock.** Even matched seams drift ~5% in brightness/white-balance because Veo
+   grades each clip independently. FIX: measure each clip's mean Y/U/V, shift (static
+   `lutyuv`) toward the global median so same-scene clips match. (Color is a SECONDARY
+   cause; the seam-trim above is the primary one.)
+3. **Veo watermark** (bottom-right, ~x1175,y655): remove with a crop-zoom
+   `crop=1170:650:0:0,scale=1280:720` on every clip (delogo left a smudge; crop is clean).
+4. **B-roll VO too quiet vs talking heads.** mean-volume leveling was perceptually off.
+   FIX: static gain to a common INTEGRATED-LUFS target (`loudnorm` analysis only → static
+   `volume`), timing-safe; final polish still by master_audio.
+5. **Wrong avatar on TH clips = identity drift.** ALWAYS seed every TH clip from a Candice
+   reference image (chain-start = clean scene anchor; continuation = previous Candice
+   last-frame) and lead the prompt with an explicit "EXACT SAME woman as the reference,
+   do not change her face" clause. regen_clip.py also seeds TH from the chain's scene
+   anchor (never text-to-video) so fixes can't introduce a stranger.
+6. **Clean, labeled, ready-to-speak anchors + 5-scene rotation.** Scene anchors must have
+   NO signs/REC/UI/viewfinder outline (those propagate into clips), jars LABELLED, and the
+   subject framed ready to speak. Scenes: bench(default)→kitchen→shelf→packing→window,
+   rotated on direct TH→TH jump-cuts only. B-roll seeds alternate hands_ref / overhead_action.
+   Generate the whole anchor set in PARALLEL (submit all, then poll) — the image backend can
+   be slow. Deliver the anchor set as a zip for the user to keep.
+7. **Lip-sync gate is noisy → 3x consensus.** whisper(base.en) gives disjoint failure sets
+   run-to-run. A clip only FAILS if it fails a majority of up to 3 transcriptions; never
+   regenerate on a single low score (wastes credits on good clips).

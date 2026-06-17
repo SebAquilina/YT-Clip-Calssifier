@@ -28,19 +28,24 @@ def transcribe(clip):
 def clipfile(bid):
     f=S["beats"].get(bid,{}).get("job",{}).get("file")
     return f if f and os.path.exists(f) else None
+def ratio(want,clip): return difflib.SequenceMatcher(None,norm(want),norm(transcribe(clip))).ratio()
 fails=[]
 for b in M["beats"]:
     if b["type"]!="character": continue
     cf=clipfile(b["id"])
     if not cf: print(f"  {b['id']}: NO CLIP"); continue
-    said=transcribe(cf); want=b["sentence"]
-    r=difflib.SequenceMatcher(None,norm(want),norm(said)).ratio()
-    status="OK" if r>=0.72 else "FAIL"
+    want=b["sentence"]
+    # 3x CONSENSUS: whisper(base.en) is noisy and false-fails good clips, so a single
+    # low score is not trusted — re-transcribe and require a majority to FAIL.
+    rs=[ratio(want,cf)]
+    if rs[0]<0.72: rs+=[ratio(want,cf),ratio(want,cf)]
+    passes=sum(1 for r in rs if r>=0.72)
+    status="OK" if passes>=(len(rs)+1)//2 else "FAIL"
     if status=="FAIL": fails.append(b["id"])
-    print(f"  {b['id']}: {status} ({r:.2f})")
+    print(f"  {b['id']}: {status} (ratios {[round(x,2) for x in rs]})")
     if status=="FAIL":
         print(f"     WANT: {want}")
-        print(f"     SAID: {said.strip()}")
+        print(f"     SAID: {transcribe(cf).strip()}")
 print(f"== lip-sync: {len(fails)} fail(s): {fails} ==")
 WANT={b["id"]:b["sentence"] for b in M["beats"]}
 if FIX and fails:

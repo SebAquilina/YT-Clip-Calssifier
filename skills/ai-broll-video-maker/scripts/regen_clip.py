@@ -39,7 +39,15 @@ body={"prompt":prompt,"model":M["video_model"],"aspectRatio":M["aspect"]}
 mode = "keyframes" if (beat["type"]=="character" or beat.get("broll_mode")=="character") else "text"
 muted = beat["type"]!="character"
 if muted: body["mute"]=True
-if mode!="text": body["imageUrls"]=[REF]; body["videoInputMode"]=mode
+# identity-safe keyframe: TH -> its chain's scene anchor (a clean Candice image), else canonical ref;
+# B-roll -> its hands/overhead ref. Always seed from a Candice reference so the avatar can't drift.
+seed=REF
+if beat["type"]=="character":
+    for c in M.get("chains",[]):
+        if BID in c.get("beat_ids",[]): seed=c.get("seed_keyframe_url",REF); break
+else:
+    seed=beat.get("broll_ref", M.get("hands_ref_url",REF))
+if mode!="text": body["imageUrls"]=[seed]; body["videoInputMode"]=mode
 j=req("POST","/videos/generate",body); jid=j.get("id")
 if not jid: print("submit fail",j); sys.exit(1)
 print("job",jid)
