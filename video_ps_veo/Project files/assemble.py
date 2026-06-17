@@ -11,8 +11,8 @@ AUD=os.path.join(ROOT,"audio"); SEG=os.path.join(ROOT,"segments"); os.makedirs(S
 FF="/usr/local/bin/ffmpeg"; FP="/usr/local/bin/ffprobe"
 M=json.load(open(os.path.join(ROOT,"manifest.json"))); state=json.load(open(os.path.join(ROOT,"state.json")))
 VF="scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,fps=24,format=yuv420p"
-ANORM="loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000"
 TH_TRIM=0.0
+TARGET_MEAN=-18.0   # dB; static per-segment leveling target (final -16 LUFS done by master_audio)
 def run(c):
     r=subprocess.run(c,capture_output=True,text=True)
     if r.returncode!=0: print("FFERR",r.stderr[-300:])
@@ -21,9 +21,24 @@ def dur(p):
     o=subprocess.run([FP,"-v","error","-show_entries","format=duration","-of","default=nk=1:nw=1",p],capture_output=True,text=True).stdout.strip()
     try:return float(o)
     except:return 0.0
+def gain_db(src,s0=None,e0=None):
+    """Static gain (dB) to bring mean volume to TARGET_MEAN. STATIC gain = zero
+    latency, so it levels TH vs gap audio WITHOUT shifting timing (the loudnorm
+    lookahead delay was the source of the per-clip lip drift)."""
+    c=[FF]
+    if s0 is not None: c+=["-ss",f"{s0:.2f}","-to",f"{e0:.2f}"]
+    c+=["-i",src,"-af","volumedetect","-f","null","-"]
+    r=subprocess.run(c,capture_output=True,text=True)
+    for ln in r.stderr.splitlines():
+        if "mean_volume:" in ln:
+            try: return max(-12.0,min(20.0,TARGET_MEAN-float(ln.split("mean_volume:")[1].split("dB")[0])))
+            except: pass
+    return 0.0
 def finalize(vsrc,asrc,D,out):
+    g=gain_db(asrc)
     return run([FF,"-y","-i",vsrc,"-i",asrc,"-filter_complex",
-        f"[0:v]{VF},trim=0:{D:.3f},setpts=PTS-STARTPTS[v];[1:a]aresample=async=1:first_pts=0,apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
+        f"[0:v]{VF},trim=0:{D:.3f},setpts=PTS-STARTPTS[v];"
+        f"[1:a]volume={g:.1f}dB,aresample=async=1:first_pts=0:osr=48000,apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
         "-map","[v]","-map","[a]","-r","24","-vsync","cfr","-c:v","libx264","-preset","medium","-crf","20",
         "-pix_fmt","yuv420p","-c:a","aac","-b:a","160k","-ar","48000","-ac","2",out])
 def clipfile(bid):
@@ -60,9 +75,12 @@ while i<len(beats):
         if cf:
             seg=os.path.join(SEG,f"{b['id']}.mp4")
             s0,e0=speech_bounds(cf)              # trim leading/trailing silence (breaths/pauses)
-            ok=run([FF,"-y","-ss",f"{s0:.2f}","-to",f"{e0:.2f}","-i",cf,"-vf",VF,"-r","24","-af",ANORM,
-                "-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p",
-                "-c:a","aac","-b:a","160k","-ar","48000","-ac","2",seg])
+            D=e0-s0; g=gain_db(cf,s0,e0)         # static gain (timing-safe) + lock audio length == video length
+            ok=run([FF,"-y","-ss",f"{s0:.2f}","-to",f"{e0:.2f}","-i",cf,"-filter_complex",
+                f"[0:v]{VF},trim=0:{D:.3f},setpts=PTS-STARTPTS[v];"
+                f"[0:a]volume={g:.1f}dB,aresample=async=1:first_pts=0:osr=48000,apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
+                "-map","[v]","-map","[a]","-r","24","-vsync","cfr","-c:v","libx264","-preset","medium","-crf","20",
+                "-pix_fmt","yuv420p","-c:a","aac","-b:a","160k","-ar","48000","-ac","2",seg])
             if ok: segments.append(seg); print(f"  TH {b['id']} {s0:.2f}-{e0:.2f} -> {dur(seg):.1f}s")
         i+=1
     else:

@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Generate the POOR SCENT THROW thumbnail via gpt-image-2 (user's exact prompt)."""
+"""Generate the POOR SCENT THROW thumbnail via gpt-image-2 (user's exact prompt).
+Feeds Candice's reference photo as imageUrls so the thumbnail person IS the channel
+character (without it, gpt-image-2 invents a generic person)."""
 import os, time, json, urllib.request, urllib.error
 BASE="https://69labs.vip/api/v1"; KEY=os.environ["LABS69_API_KEY"]
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 OUT="/home/user/YT-Clip-Calssifier/video_ps_veo/thumbnail.png"
+CHAR_REF=open("/tmp/raw_ref.txt").read().strip()   # channel character reference photo
 PROMPT='''A YouTube thumbnail in the style of a veteran candlemaker channel.
 
-SUBJECT: A middle-aged candlemaker in a workshop apron, hand stopping a fragrance bottle from pouring, looking directly at camera.
+SUBJECT: The SAME woman from the reference image (mid-fifties, tortoiseshell glasses, curly grey hair, blue knit sweater, tan apron) as the candlemaker, hand stopping a fragrance bottle from pouring, looking directly at camera.
 FOCAL OBJECT: fragrance oil being held back from wax.
 TEXT OVERLAY: "STOP POURING!" in bold block sans-serif, bright red, upper-right third.
 COLOUR PALETTE: Amber + red + cream.
@@ -33,7 +36,7 @@ def req(method,path,body=None,t=60):
             return e.code,{"error":b}
         except Exception as ex: time.sleep(4)
     return 0,{"error":"x"}
-st,j=req("POST","/images/generate",{"prompt":PROMPT,"model":"gpt-image-2","aspectRatio":"16:9"})
+st,j=req("POST","/images/generate",{"prompt":PROMPT,"model":"gpt-image-2","aspectRatio":"16:9","imageUrls":[CHAR_REF]})
 jid=j.get("id"); print("submit",st,jid,j if not jid else "")
 assert jid,j
 for _ in range(80):

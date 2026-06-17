@@ -20,6 +20,7 @@ for k in ("beats","gaps","frames"): state.setdefault(k,{})
 def save(): json.dump(state,open(SP,"w"),indent=2)
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 REF=M["reference_photo_url"]; THKF=M.get("th_keyframe_url",REF); V=M["narrator_voice"]
+HANDS=M.get("hands_ref_url",REF)
 def req(method,path,body=None,t=60):
     url=path if path.startswith("http") else BASE+path
     data=json.dumps(body).encode() if body is not None else None
@@ -40,9 +41,16 @@ def dur(p):
     try:return float(o)
     except:return 0.0
 def tts(text,dest):
-    body={"text":text,"voiceProvider":V["provider"],"voiceId":V["voiceId"],"modelId":V["modelId"]}
-    if V.get("speed"): body["voiceSettings"]={"speed":float(V["speed"])}
-    st,j=req("POST","/tts/generate",body); jid=j.get("id")
+    if V["provider"]=="minimax-clone":                       # 69labs Voice Clones endpoint
+        body={"voiceCloneId":V["voiceCloneId"],"text":text,"model":V.get("model","speech-02-hd")}
+        if V.get("speed"): body["speed"]=float(V["speed"])
+        if V.get("language_boost"): body["language_boost"]=V["language_boost"]
+        st,j=req("POST","/voice-clones/generate",body)
+    else:
+        body={"text":text,"voiceProvider":V["provider"],"voiceId":V["voiceId"],"modelId":V["modelId"]}
+        if V.get("speed"): body["voiceSettings"]={"speed":float(V["speed"])}
+        st,j=req("POST","/tts/generate",body)
+    jid=j.get("id")
     if not jid: print("  TTS fail",j); return False
     for _ in range(60):
         time.sleep(3); st,s=req("GET",f"/tts/status/{jid}")
@@ -51,11 +59,26 @@ def tts(text,dest):
     r=urllib.request.Request(f"{BASE}/tts/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
     with urllib.request.urlopen(r,timeout=120) as resp,open(dest,"wb") as f: f.write(resp.read())
     return os.path.getsize(dest)>2000
+def _luma(path):
+    r=subprocess.run([FF,"-i",path,"-vf","signalstats,metadata=print:key=lavfi.signalstats.YAVG","-f","null","-"],capture_output=True,text=True)
+    for ln in r.stderr.splitlines():
+        if "YAVG" in ln:
+            try: return float(ln.split("=")[-1])
+            except: pass
+    return 128.0
 def host_frame(clip):
-    """extract last clean frame of clip, upload to litterbox, return public URL."""
+    """Extract the EXACT last frame of the clip for seamless chaining, with a
+    black-guard fallback: if the final frame is near-black (a fade), step back a
+    little so we never seed the next clip from a degraded frame."""
     jpg=f"/tmp/_chainframe_{os.getpid()}_{int(time.time()*1000)%100000}.jpg"
-    subprocess.run([FF,"-y","-sseof","-0.35","-i",clip,"-frames:v","1","-vf","scale=1280:720",jpg],capture_output=True)
-    if not os.path.exists(jpg): return None
+    chosen=None
+    for off in (0.04,0.18,0.34):                  # exact last frame first, then step back
+        subprocess.run([FF,"-y","-sseof",f"-{off}","-i",clip,"-frames:v","1","-vf","scale=1280:720",jpg],capture_output=True)
+        if not os.path.exists(jpg): continue
+        chosen=jpg
+        if _luma(jpg)>=18:                        # not a near-black fade -> keep this (closest to end)
+            break
+    if not chosen or not os.path.exists(jpg): return None
     for _ in range(4):
         r=subprocess.run(["curl","-s","-m","90","-F","reqtype=fileupload","-F","time=72h",
             "-F",f"fileToUpload=@{jpg}","https://litterbox.catbox.moe/resources/internals/api.php"],capture_output=True,text=True)
@@ -83,14 +106,19 @@ for gid,text in M["gaps"].items():
     if tts(text,d): g.update(done=True,file=d,dur=dur(d)); save()
 save()
 
-# ---- build TH runs + broll list ----
-beats=M["beats"]; runs=[]; cur=[]
-for b in beats:
-    if b["type"]=="character": cur.append(b["id"])
-    else:
-        if cur: runs.append(cur); cur=[]
+# ---- build TH runs + broll list (chains come from the manifest in v5) ----
+beats=M["beats"]
+if M.get("chains"):
+    runs=[c["beat_ids"] for c in M["chains"]]
+    chain_seed={ri:c["seed_keyframe_url"] for ri,c in enumerate(M["chains"])}
+else:
+    runs=[]; cur=[]
+    for b in beats:
+        if b["type"]=="character": cur.append(b["id"])
+        elif cur: runs.append(cur); cur=[]
+    if cur: runs.append(cur)
+    chain_seed={ri:THKF for ri in range(len(runs))}
 broll=[b for b in beats if b["type"]=="broll"]
-if cur: runs.append(cur)
 def done(bid):
     j=state["beats"].get(bid,{}).get("job",{}); return j.get("status")=="downloaded" and j.get("file") and os.path.exists(j["file"])
 for b in beats: state["beats"].setdefault(b["id"],{}).setdefault("job",{"status":"pending","job_id":None,"file":None})
@@ -105,7 +133,7 @@ for ri,run in enumerate(runs):
     runpos[ri]=i
 def run_next_kf(ri):
     i=runpos[ri]
-    if i==0: return THKF
+    if i==0: return chain_seed[ri]
     prev=runs[ri][i-1]
     if state["frames"].get(prev): return state["frames"][prev]
     # need to host prev's last frame
@@ -149,8 +177,7 @@ while not all_done() and time.time()<deadline:
             bid=bq[0]
             if done(bid): bq.pop(0); continue
             b=prompt_of[bid]
-            mode = "keyframes" if b.get("broll_mode")=="character" else "text"
-            jid,err=submit(b["prompt"],True,mode,REF)
+            jid,err=submit(b["prompt"],True,"keyframes",HANDS)   # B-roll = her hands in her workspace
             if jid:
                 state["beats"][bid]["job"].update(status="submitted",job_id=jid); inflight[jid]=("br",bid); bq.pop(0)
                 print(f"  submit BR {bid} {jid[:8]} ({len(inflight)})",flush=True); save(); time.sleep(13); progressed=True
