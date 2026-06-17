@@ -47,7 +47,16 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
 - Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
 
-## Video 9 — POOR SCENT THROW: Stop Adding More Fragrance (FORMAT v4: frame-chaining + lip-sync gate + realism gate + audio master, 10:02)
+## Video 9.2 — POOR SCENT THROW (FORMAT v5: chains≤3 + scene rotation, hands B-roll, CLONED candice voice, audio-drift fixed, 10:18) ⭐ LATEST
+- Chains of ≤3 TH clips, exact-last-frame chaining; scene rotation (bench→kitchen→shelf) on direct TH→TH jump-cuts only.
+- B-roll = Candice's own hands in her workspace (hands_ref). Labels on talking-head shots. Thumbnail = Candice (character reference).
+- Gap narration = MiniMax cloned voice **candice** (speech-2.8-hd, speed 1.05). Audio drift fixed (static gain + locked A/V). Mastered -16.04 LUFS.
+- Gates: lip-sync all pass (3x-consensus verified, b69 regenerated) · realism 11/11 hands B-roll pass (0 freezes).
+- **FULL VIDEO, single file (148MB): https://litter.catbox.moe/wikowy.mp4**
+- **FULL DELIVERABLE ZIP, single file (315MB): https://litter.catbox.moe/crng3y.zip**
+- Thumbnail (Candice): https://litter.catbox.moe/san8t1.png
+
+## Video 9 — POOR SCENT THROW (FORMAT v4, 10:02) — superseded by 9.2
 - Talking-head ratio 89%, voice `uTof433lKWylEy1elPTY`, mastered to -16.04 LUFS.
 - Quality gates this run: lip-sync 69/69 pass · realism 11/11 B-roll pass (6 freeze-flagged, all confirmed real motion on vision review) · A/V exact-sync.
 - Thumbnail (gpt-image-2, exact prompt): https://litter.catbox.moe/d9z8h8.png
