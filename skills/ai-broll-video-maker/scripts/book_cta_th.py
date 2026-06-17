@@ -78,15 +78,19 @@ def wait_dl(jid,dest):
 parts=[]
 for i,line in enumerate(LINES):
     print(f"== CTA clip {i+1}/{len(LINES)} (ingredients: identity + book) ==",flush=True)
-    jid=None
-    for attempt in range(40):                 # persistent: backend has only 5 concurrent slots (fail-gen uses them)
-        jid,err=submit(th_prompt(line))
-        if jid: break
-        wait=min(20+attempt*5,60)
-        print(f"  submit busy (attempt {attempt+1}), wait {wait}s: {str(err)[:120]}",flush=True); time.sleep(wait)
-    assert jid, f"clip {i+1} submit failed after retries"
     raw=f"/tmp/cta_clip_{i+1}.mp4"
-    assert wait_dl(jid,raw), f"clip {i+1} download failed"
+    ok=False
+    for gen_try in range(4):                   # regenerate on transient veo FAILED
+        jid=None
+        for attempt in range(40):              # persistent: backend has only 5 concurrent slots
+            jid,err=submit(th_prompt(line))
+            if jid: break
+            wait=min(12+attempt*4,45)
+            print(f"  submit busy (attempt {attempt+1}), wait {wait}s: {str(err)[:90]}",flush=True); time.sleep(wait)
+        assert jid, f"clip {i+1} submit failed after retries"
+        if wait_dl(jid,raw): ok=True; break
+        print(f"  clip {i+1} veo FAILED, regenerating (try {gen_try+2})",flush=True); time.sleep(5)
+    assert ok, f"clip {i+1} failed after regeneration attempts"
     norm=f"/tmp/cta_norm_{i+1}.mp4"
     subprocess.run([FF,"-y","-i",raw,"-vf","scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,fps=24",
         "-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p","-c:a","aac","-b:a","160k",
