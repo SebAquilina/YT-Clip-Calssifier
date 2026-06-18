@@ -4,6 +4,9 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from buildkit import th, br, build
 
+# ===== ACT 0 MrBeast-style hook =====
+th("In the next few minutes I am going to burn two-dollar wicks and twenty-dollar wicks side by side, in completely identical candles, and show you exactly what your money is really buying.")
+th("And make sure you stay to the very end, because there is a third option I am going to reveal that gives you premium results for almost bargain-bin prices. It is the one I actually use myself every single day.")
 # ===== ACT 1 hook =====
 th("So I bought the cheapest wicks I could find and the most expensive wicks I could find, and I burned them side by side to settle this once and for all.")
 th("Two dollars versus twenty dollars. A ten times price difference for what is, honestly, a piece of braided cotton string. I had to know if it was worth it.")

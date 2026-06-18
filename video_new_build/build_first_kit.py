@@ -4,6 +4,9 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from buildkit import th, br, build
 
+# ===== ACT 0 MrBeast-style hook =====
+th("By the end of this video you will know exactly what is worth buying for your very first candle, what is a complete waste of money, and the one cheap little tool that decides whether your first candle even works.")
+th("And stay with me right to the very end, because I am going to give you a dead-simple first recipe that comes out beautifully on your very first try. No experience needed at all, I promise.")
 # ===== ACT 1 hook =====
 th("So you want to make your first candle, and you are about to buy a starter kit. Before you spend a penny, give me five minutes, because I can save you a lot of frustration.")
 th("I have watched so many people buy a beginner candle kit, get one disappointing candle out of it, and quietly give up, thinking candle making just is not for them.")

@@ -4,6 +4,9 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from buildkit import th, br, build
 
+# ===== ACT 0 MrBeast-style hook =====
+th("Okay, in the next few minutes I am going to show you exactly why the wicks you are buying are quietly ruining your candles, the three things almost every cheap listing gets wrong, and precisely what to buy instead.")
+th("And stick around to the very end, because I am going to give you the simple three-number formula that picks the perfect wick for any candle you ever make. That one trick alone is worth the whole video.")
 # ===== ACT 1 hook =====
 th("If you are buying your candle wicks off Amazon, I want you to stop, just for a minute, and let me explain what is actually going on.")
 th("Because I did it for years. I bought the big assorted multi-packs, the ones with five hundred wicks for nine dollars, and I could not figure out why my candles kept failing.")

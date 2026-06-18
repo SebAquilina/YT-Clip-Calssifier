@@ -40,12 +40,11 @@
     },
     {
       "id": 1,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "kitchen",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/kitchen_anchor.png",
       "beat_ids": [
-        "b04_th",
-        "b05_th",
-        "b06_th"
+        "b03_th",
+        "b04_th"
       ]
     },
     {
@@ -53,215 +52,215 @@
       "scene": "bench",
       "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
-        "b08_th",
-        "b09_th",
-        "b10_th"
+        "b06_th",
+        "b07_th",
+        "b08_th"
       ]
     },
     {
       "id": 3,
-      "scene": "kitchen",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/kitchen_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b10_th",
         "b11_th",
-        "b12_th",
-        "b13_th"
+        "b12_th"
       ]
     },
     {
       "id": 4,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "shelf",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/shelf_anchor.png",
       "beat_ids": [
-        "b15_th",
-        "b16_th",
-        "b17_th"
+        "b13_th",
+        "b14_th",
+        "b15_th"
       ]
     },
     {
       "id": 5,
-      "scene": "shelf",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/shelf_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b17_th",
         "b18_th",
-        "b19_th",
-        "b20_th"
+        "b19_th"
       ]
     },
     {
       "id": 6,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "packing",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/packing_anchor.png",
       "beat_ids": [
-        "b22_th",
-        "b23_th",
-        "b24_th"
+        "b20_th",
+        "b21_th",
+        "b22_th"
       ]
     },
     {
       "id": 7,
-      "scene": "packing",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/packing_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b24_th",
         "b25_th",
         "b26_th"
       ]
     },
     {
       "id": 8,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "window",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/window_anchor.png",
       "beat_ids": [
-        "b28_th",
-        "b29_th",
-        "b30_th"
+        "b27_th",
+        "b28_th"
       ]
     },
     {
       "id": 9,
-      "scene": "window",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/window_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b30_th",
         "b31_th",
         "b32_th"
       ]
     },
     {
       "id": 10,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "kitchen",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/kitchen_anchor.png",
       "beat_ids": [
-        "b34_th",
-        "b35_th",
-        "b36_th"
+        "b33_th",
+        "b34_th"
       ]
     },
     {
       "id": 11,
-      "scene": "kitchen",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/kitchen_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b36_th",
         "b37_th",
         "b38_th"
       ]
     },
     {
       "id": 12,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "shelf",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/shelf_anchor.png",
       "beat_ids": [
-        "b40_th",
-        "b41_th",
-        "b42_th"
+        "b39_th",
+        "b40_th"
       ]
     },
     {
       "id": 13,
-      "scene": "shelf",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/shelf_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b42_th",
         "b43_th",
         "b44_th"
       ]
     },
     {
       "id": 14,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "packing",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/packing_anchor.png",
       "beat_ids": [
-        "b46_th",
-        "b47_th",
-        "b48_th"
+        "b45_th",
+        "b46_th"
       ]
     },
     {
       "id": 15,
-      "scene": "packing",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/packing_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b48_th",
         "b49_th",
-        "b50_th",
-        "b51_th"
+        "b50_th"
       ]
     },
     {
       "id": 16,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "window",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/window_anchor.png",
       "beat_ids": [
-        "b53_th",
-        "b54_th",
-        "b55_th"
+        "b51_th",
+        "b52_th",
+        "b53_th"
       ]
     },
     {
       "id": 17,
-      "scene": "window",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/window_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b55_th",
         "b56_th",
-        "b57_th",
-        "b58_th"
+        "b57_th"
       ]
     },
     {
       "id": 18,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "kitchen",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/kitchen_anchor.png",
       "beat_ids": [
-        "b60_th",
-        "b61_th",
-        "b62_th"
+        "b58_th",
+        "b59_th",
+        "b60_th"
       ]
     },
     {
       "id": 19,
-      "scene": "kitchen",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/kitchen_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b62_th",
         "b63_th",
-        "b64_th",
-        "b65_th"
+        "b64_th"
       ]
     },
     {
       "id": 20,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "shelf",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/shelf_anchor.png",
       "beat_ids": [
-        "b67_th",
-        "b68_th",
-        "b69_th"
+        "b65_th",
+        "b66_th",
+        "b67_th"
       ]
     },
     {
       "id": 21,
-      "scene": "shelf",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/shelf_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b69_th",
         "b70_th",
-        "b71_th",
-        "b72_th"
+        "b71_th"
       ]
     },
     {
       "id": 22,
-      "scene": "bench",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "scene": "packing",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/packing_anchor.png",
       "beat_ids": [
-        "b74_th",
-        "b75_th",
-        "b76_th"
+        "b72_th",
+        "b73_th",
+        "b74_th"
       ]
     },
     {
       "id": 23,
-      "scene": "packing",
-      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/packing_anchor.png",
+      "scene": "bench",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
       "beat_ids": [
+        "b76_th",
         "b77_th",
-        "b78_th",
-        "b79_th"
+        "b78_th"
       ]
     },
     {
@@ -269,8 +268,18 @@
       "scene": "window",
       "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/window_anchor.png",
       "beat_ids": [
+        "b79_th",
         "b80_th",
         "b81_th"
+      ]
+    },
+    {
+      "id": 25,
+      "scene": "kitchen",
+      "seed_keyframe_url": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/kitchen_anchor.png",
+      "beat_ids": [
+        "b82_th",
+        "b83_th"
       ]
     }
   ],
@@ -278,26 +287,40 @@
     {
       "id": "b00_th",
       "type": "character",
-      "sentence": "So you want to make your first candle, and you are about to buy a starter kit. Before you spend a penny, give me five minutes, because I can save you a lot of frustration.",
-      "dur": 11.34,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So you want to make your first candle, and you are about to buy a starter kit. Before you spend a penny, give me five minutes, because I can save you a lot of frustration.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "sentence": "By the end of this video you will know exactly what is worth buying for your very first candle, what is a complete waste of money, and the one cheap little tool that decides whether your first candle even works.",
+      "dur": 12.9,
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"By the end of this video you will know exactly what is worth buying for your very first candle, what is a complete waste of money, and the one cheap little tool that decides whether your first candle even works.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
       "id": "b01_th",
       "type": "character",
-      "sentence": "I have watched so many people buy a beginner candle kit, get one disappointing candle out of it, and quietly give up, thinking candle making just is not for them.",
-      "dur": 9.78,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"I have watched so many people buy a beginner candle kit, get one disappointing candle out of it, and quietly give up, thinking candle making just is not for them.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "sentence": "And stay with me right to the very end, because I am going to give you a dead-simple first recipe that comes out beautifully on your very first try. No experience needed at all, I promise.",
+      "dur": 11.65,
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"And stay with me right to the very end, because I am going to give you a dead-simple first recipe that comes out beautifully on your very first try. No experience needed at all, I promise.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
       "id": "b02_th",
+      "type": "character",
+      "sentence": "So you want to make your first candle, and you are about to buy a starter kit. Before you spend a penny, give me five minutes, because I can save you a lot of frustration.",
+      "dur": 11.34,
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So you want to make your first candle, and you are about to buy a starter kit. Before you spend a penny, give me five minutes, because I can save you a lot of frustration.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+    },
+    {
+      "id": "b03_th",
+      "type": "character",
+      "sentence": "I have watched so many people buy a beginner candle kit, get one disappointing candle out of it, and quietly give up, thinking candle making just is not for them.",
+      "dur": 9.78,
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her kitchen stove station, a pot of melting wax beside her, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"I have watched so many people buy a beginner candle kit, get one disappointing candle out of it, and quietly give up, thinking candle making just is not for them.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+    },
+    {
+      "id": "b04_th",
       "type": "character",
       "sentence": "And almost every time, it was not them. It was the kit. Most beginner kits are built to look complete in a photo, not to actually teach you how to make a good candle.",
       "dur": 11.03,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"And almost every time, it was not them. It was the kit. Most beginner kits are built to look complete in a photo, not to actually teach you how to make a good candle.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b03_g1",
+      "id": "b05_g1",
       "type": "broll",
       "sentence": "A typical beginner candle kit box opened up with all its little pieces laid out.",
       "visual_subject": "opens a beginner candle kit box and lays out the little pieces of wax, wicks and jars on the bench",
@@ -307,28 +330,28 @@
       "dur": 5.09
     },
     {
-      "id": "b04_th",
+      "id": "b06_th",
       "type": "character",
       "sentence": "So let me walk you through what is actually in these kits, what matters, what is filler, and how to spend your money so your very first candle actually works.",
       "dur": 9.78,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So let me walk you through what is actually in these kits, what matters, what is filler, and how to spend your money so your very first candle actually works.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b05_th",
+      "id": "b07_th",
       "type": "character",
       "sentence": "Here is the core problem with most starter kits. They give you a tiny bit of everything and not enough of anything to actually practice.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Here is the core problem with most starter kits. They give you a tiny bit of everything and not enough of anything to actually practice.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b06_th",
+      "id": "b08_th",
       "type": "character",
       "sentence": "You get enough wax for maybe two candles. So you get two attempts, total, to learn a craft that genuinely takes a few tries to click.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"You get enough wax for maybe two candles. So you get two attempts, total, to learn a craft that genuinely takes a few tries to click.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b07_g2",
+      "id": "b09_g2",
       "type": "broll",
       "sentence": "A small bag of wax from a kit next to a single finished candle.",
       "visual_subject": "holds up a small bag of kit wax beside one finished candle to show how little it really makes",
@@ -338,49 +361,49 @@
       "dur": 4.78
     },
     {
-      "id": "b08_th",
+      "id": "b10_th",
       "type": "character",
       "sentence": "And candle making is all about repetition. Your second candle is always better than your first. Your fifth is better than your second.",
       "dur": 7.59,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"And candle making is all about repetition. Your second candle is always better than your first. Your fifth is better than your second.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b09_th",
+      "id": "b11_th",
       "type": "character",
       "sentence": "A kit that only lets you fail once or twice almost guarantees you stop right before it would have started working. That is the real trap.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"A kit that only lets you fail once or twice almost guarantees you stop right before it would have started working. That is the real trap.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b10_th",
+      "id": "b12_th",
       "type": "character",
       "sentence": "The other big issue is mismatched parts. The wick in the kit often is not properly sized for the wax and the jar they gave you.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"The other big issue is mismatched parts. The wick in the kit often is not properly sized for the wax and the jar they gave you.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b11_th",
+      "id": "b13_th",
       "type": "character",
       "sentence": "So even if you follow the instructions perfectly, the candle can still tunnel or smoke, and you will blame yourself instead of the kit.",
       "dur": 7.9,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her kitchen stove station, a pot of melting wax beside her, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So even if you follow the instructions perfectly, the candle can still tunnel or smoke, and you will blame yourself instead of the kit.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing beside her curing shelf of finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So even if you follow the instructions perfectly, the candle can still tunnel or smoke, and you will blame yourself instead of the kit.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b12_th",
+      "id": "b14_th",
       "type": "character",
       "sentence": "So let me tell you what actually matters, the parts that decide whether your candle works, so you know where to focus.",
       "dur": 7.28,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So let me tell you what actually matters, the parts that decide whether your candle works, so you know where to focus.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b13_th",
+      "id": "b15_th",
       "type": "character",
       "sentence": "There are really only four things. The wax, the wick, the fragrance, and a thermometer. Everything else is just nice to have.",
       "dur": 7.28,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"There are really only four things. The wax, the wick, the fragrance, and a thermometer. Everything else is just nice to have.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b14_g3",
+      "id": "b16_g3",
       "type": "broll",
       "sentence": "The four essentials laid out in a row: wax, a wick, a fragrance bottle, and a thermometer.",
       "visual_subject": "lays out wax, a wick, an amber fragrance bottle and a thermometer in a neat row on the bench",
@@ -390,49 +413,49 @@
       "dur": 5.71
     },
     {
-      "id": "b15_th",
+      "id": "b17_th",
       "type": "character",
       "sentence": "The wax is your foundation. For a beginner I always recommend a single, forgiving soy container wax, not a fancy blend you have to fight with.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"The wax is your foundation. For a beginner I always recommend a single, forgiving soy container wax, not a fancy blend you have to fight with.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b16_th",
+      "id": "b18_th",
       "type": "character",
       "sentence": "The wick has to be matched to that wax and your jar size. This is the part cheap kits get wrong the most, so it is worth getting right.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"The wick has to be matched to that wax and your jar size. This is the part cheap kits get wrong the most, so it is worth getting right.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b17_th",
+      "id": "b19_th",
       "type": "character",
       "sentence": "The fragrance is where the joy is, but go easy. Beginners almost always overload the fragrance and it actually makes the candle worse, not better.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"The fragrance is where the joy is, but go easy. Beginners almost always overload the fragrance and it actually makes the candle worse, not better.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b18_th",
+      "id": "b20_th",
       "type": "character",
       "sentence": "And the thermometer. This is the one tool people skip, and it is the single most important thing for getting a candle that actually sets properly.",
       "dur": 8.53,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing beside her curing shelf of finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"And the thermometer. This is the one tool people skip, and it is the single most important thing for getting a candle that actually sets properly.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her packing and labeling table with kraft boxes and finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"And the thermometer. This is the one tool people skip, and it is the single most important thing for getting a candle that actually sets properly.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b19_th",
+      "id": "b21_th",
       "type": "character",
       "sentence": "Let me dwell on that thermometer for a second, because it is the cheapest thing on the list and the one that matters the most.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Let me dwell on that thermometer for a second, because it is the cheapest thing on the list and the one that matters the most.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b20_th",
+      "id": "b22_th",
       "type": "character",
       "sentence": "Wax has to be melted to a certain temperature, cooled to another to add fragrance, and cooled again to pour. Those are three different numbers.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Wax has to be melted to a certain temperature, cooled to another to add fragrance, and cooled again to pour. Those are three different numbers.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b21_g4",
+      "id": "b23_g4",
       "type": "broll",
       "sentence": "A thermometer being lowered into a pot of melted wax, the reading climbing.",
       "visual_subject": "lowers a thermometer into a pot of melted wax and watches the temperature reading slowly climb",
@@ -442,42 +465,42 @@
       "dur": 4.46
     },
     {
-      "id": "b22_th",
+      "id": "b24_th",
       "type": "character",
       "sentence": "Without a thermometer you are guessing all three, and guessing the temperature is the number one reason beginner candles come out with sinkholes, wet spots and weak scent.",
       "dur": 9.15,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Without a thermometer you are guessing all three, and guessing the temperature is the number one reason beginner candles come out with sinkholes, wet spots and weak scent.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b23_th",
+      "id": "b25_th",
       "type": "character",
       "sentence": "A basic kitchen thermometer is a few dollars and it removes almost all of the guesswork in one go. If your kit does not include one, buy one separately. Do not skip it.",
       "dur": 10.71,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"A basic kitchen thermometer is a few dollars and it removes almost all of the guesswork in one go. If your kit does not include one, buy one separately. Do not skip it.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b24_th",
+      "id": "b26_th",
       "type": "character",
       "sentence": "Honestly, if I could only give a beginner one piece of advice, it would be this. Measure your temperatures. It fixes more problems than any expensive wax ever will.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Honestly, if I could only give a beginner one piece of advice, it would be this. Measure your temperatures. It fixes more problems than any expensive wax ever will.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b25_th",
+      "id": "b27_th",
       "type": "character",
       "sentence": "So here is the question. Buy a kit, or just buy the parts separately? And my honest answer is, it depends on what you want.",
       "dur": 8.21,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her packing and labeling table with kraft boxes and finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So here is the question. Buy a kit, or just buy the parts separately? And my honest answer is, it depends on what you want.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now seated by a bright window at a small side table with a notebook, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So here is the question. Buy a kit, or just buy the parts separately? And my honest answer is, it depends on what you want.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b26_th",
+      "id": "b28_th",
       "type": "character",
       "sentence": "If you genuinely just want to try it once, as a fun afternoon, a kit is fine. Buy a kit, enjoy it, no pressure, no big investment.",
       "dur": 8.84,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"If you genuinely just want to try it once, as a fun afternoon, a kit is fine. Buy a kit, enjoy it, no pressure, no big investment.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b27_g5",
+      "id": "b29_g5",
       "type": "broll",
       "sentence": "A small pile of separately bought supplies next to a boxed kit, being compared.",
       "visual_subject": "sets a small pile of separately bought candle supplies beside a boxed kit and compares the two",
@@ -487,42 +510,42 @@
       "dur": 4.78
     },
     {
-      "id": "b28_th",
+      "id": "b30_th",
       "type": "character",
       "sentence": "But if you think you might actually love this, do not buy the tiny kit. Buy a slightly larger amount of one good wax, a few matched wicks, one fragrance you love, and a thermometer.",
       "dur": 11.34,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"But if you think you might actually love this, do not buy the tiny kit. Buy a slightly larger amount of one good wax, a few matched wicks, one fragrance you love, and a thermometer.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b29_th",
+      "id": "b31_th",
       "type": "character",
       "sentence": "It costs a little more up front, but it gives you six or eight candles worth of practice instead of two, and that is what makes it actually click.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"It costs a little more up front, but it gives you six or eight candles worth of practice instead of two, and that is what makes it actually click.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b30_th",
+      "id": "b32_th",
       "type": "character",
       "sentence": "And every part you buy on purpose, sized and matched, instead of whatever the kit happened to include, means you actually learn what each part does.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"And every part you buy on purpose, sized and matched, instead of whatever the kit happened to include, means you actually learn what each part does.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b31_th",
+      "id": "b33_th",
       "type": "character",
       "sentence": "Let me give you a dead-simple first project, so you are not starting from a blank page.",
       "dur": 5.71,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now seated by a bright window at a small side table with a notebook, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Let me give you a dead-simple first project, so you are not starting from a blank page.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her kitchen stove station, a pot of melting wax beside her, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Let me give you a dead-simple first project, so you are not starting from a blank page.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b32_th",
+      "id": "b34_th",
       "type": "character",
       "sentence": "One pound of soy container wax. One eight ounce jar. One properly sized wick for that jar. And one ounce of fragrance oil, which is a gentle, safe load to start with.",
       "dur": 10.4,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"One pound of soy container wax. One eight ounce jar. One properly sized wick for that jar. And one ounce of fragrance oil, which is a gentle, safe load to start with.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b33_g6",
+      "id": "b35_g6",
       "type": "broll",
       "sentence": "The simple first-candle setup arranged on the bench: wax, one jar, one wick, one fragrance bottle.",
       "visual_subject": "arranges a single jar, a wick, a bag of wax and one fragrance bottle together as a simple first setup",
@@ -532,42 +555,42 @@
       "dur": 5.4
     },
     {
-      "id": "b34_th",
+      "id": "b36_th",
       "type": "character",
       "sentence": "Melt the wax, check your temperatures, add the fragrance in the right window, stir gently for two full minutes, and pour into a slightly warmed jar.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Melt the wax, check your temperatures, add the fragrance in the right window, stir gently for two full minutes, and pour into a slightly warmed jar.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b35_th",
+      "id": "b37_th",
       "type": "character",
       "sentence": "Then, and this is the hard part for everyone, leave it completely alone to cool slowly. No fridge, no fan, no poking it. Just patience.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Then, and this is the hard part for everyone, leave it completely alone to cool slowly. No fridge, no fan, no poking it. Just patience.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b36_th",
+      "id": "b38_th",
       "type": "character",
       "sentence": "That one recipe, done carefully, will teach you more than any twelve-piece kit, because every step is one you did on purpose and can repeat.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"That one recipe, done carefully, will teach you more than any twelve-piece kit, because every step is one you did on purpose and can repeat.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b37_th",
+      "id": "b39_th",
       "type": "character",
       "sentence": "Before you go, let me save you from the three mistakes every single beginner makes, myself included, back in the day.",
       "dur": 6.96,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her kitchen stove station, a pot of melting wax beside her, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Before you go, let me save you from the three mistakes every single beginner makes, myself included, back in the day.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing beside her curing shelf of finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Before you go, let me save you from the three mistakes every single beginner makes, myself included, back in the day.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b38_th",
+      "id": "b40_th",
       "type": "character",
       "sentence": "One. Overloading the fragrance. More oil does not mean more scent. Past a certain point it just refuses to bind and ruins the burn. Stay in the safe range.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"One. Overloading the fragrance. More oil does not mean more scent. Past a certain point it just refuses to bind and ruins the burn. Stay in the safe range.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b39_g7",
+      "id": "b41_g7",
       "type": "broll",
       "sentence": "An amber fragrance bottle being measured carefully on a small kitchen scale.",
       "visual_subject": "sets an amber fragrance bottle on a small kitchen scale and measures the fragrance carefully",
@@ -577,42 +600,42 @@
       "dur": 4.15
     },
     {
-      "id": "b40_th",
+      "id": "b42_th",
       "type": "character",
       "sentence": "Two. Pouring too hot. Hot wax into a cold jar gives you wet spots and sinkholes. Let it cool into the proper window before it ever touches the glass.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Two. Pouring too hot. Hot wax into a cold jar gives you wet spots and sinkholes. Let it cool into the proper window before it ever touches the glass.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b41_th",
+      "id": "b43_th",
       "type": "character",
       "sentence": "Three. Rushing the cooling. Shoving a candle in the fridge to set it faster wrecks the top every time. Slow and undisturbed always wins.",
       "dur": 7.9,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Three. Rushing the cooling. Shoving a candle in the fridge to set it faster wrecks the top every time. Slow and undisturbed always wins.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b42_th",
+      "id": "b44_th",
       "type": "character",
       "sentence": "Avoid those three, measure your temperatures, and your first real candle will be better than most people's tenth. I promise you that.",
       "dur": 7.28,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Avoid those three, measure your temperatures, and your first real candle will be better than most people's tenth. I promise you that.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b43_th",
+      "id": "b45_th",
       "type": "character",
       "sentence": "Let me spend a minute on wax, because this is the choice that overwhelms beginners the most, and it really does not need to.",
       "dur": 7.9,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing beside her curing shelf of finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Let me spend a minute on wax, because this is the choice that overwhelms beginners the most, and it really does not need to.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her packing and labeling table with kraft boxes and finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Let me spend a minute on wax, because this is the choice that overwhelms beginners the most, and it really does not need to.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b44_th",
+      "id": "b46_th",
       "type": "character",
       "sentence": "You will see soy, paraffin, coconut, beeswax, and a dozen blends, and every supplier swears theirs is the best. For your first candles, ignore almost all of it.",
       "dur": 9.15,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"You will see soy, paraffin, coconut, beeswax, and a dozen blends, and every supplier swears theirs is the best. For your first candles, ignore almost all of it.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b45_g8",
+      "id": "b47_g8",
       "type": "broll",
       "sentence": "Several different bags of wax lined up on the bench, one pulled forward.",
       "visual_subject": "lines up a few different bags of wax on the bench and pulls one forward, setting it apart from the rest",
@@ -622,49 +645,49 @@
       "dur": 4.46
     },
     {
-      "id": "b46_th",
+      "id": "b48_th",
       "type": "character",
       "sentence": "Start with a single soy container wax. It is forgiving, it is widely available, it cleans up with soap and water, and it is made for exactly what you are doing.",
       "dur": 10.09,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Start with a single soy container wax. It is forgiving, it is widely available, it cleans up with soap and water, and it is made for exactly what you are doing.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b47_th",
+      "id": "b49_th",
       "type": "character",
       "sentence": "Soy is more patient with temperature mistakes than most waxes, which matters enormously when you are still learning to read your thermometer.",
       "dur": 7.28,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Soy is more patient with temperature mistakes than most waxes, which matters enormously when you are still learning to read your thermometer.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b48_th",
+      "id": "b50_th",
       "type": "character",
       "sentence": "Once you have made a dozen good soy candles, then by all means go explore coconut blends and the fancy stuff. But learn to walk on soy first.",
       "dur": 9.15,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Once you have made a dozen good soy candles, then by all means go explore coconut blends and the fancy stuff. But learn to walk on soy first.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b49_th",
+      "id": "b51_th",
       "type": "character",
       "sentence": "Picking one wax and staying with it for your first month teaches you more than hopping between five waxes ever could, because you learn how that one behaves.",
       "dur": 9.15,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her packing and labeling table with kraft boxes and finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Picking one wax and staying with it for your first month teaches you more than hopping between five waxes ever could, because you learn how that one behaves.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now seated by a bright window at a small side table with a notebook, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Picking one wax and staying with it for your first month teaches you more than hopping between five waxes ever could, because you learn how that one behaves.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b50_th",
+      "id": "b52_th",
       "type": "character",
       "sentence": "Now fragrance, because this is where beginners spend the most and waste the most. Let me save you some money and some heartache.",
       "dur": 7.59,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Now fragrance, because this is where beginners spend the most and waste the most. Let me save you some money and some heartache.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b51_th",
+      "id": "b53_th",
       "type": "character",
       "sentence": "Every fragrance oil has a maximum load, usually printed on the bottle, often around ten percent. That is the most the wax can actually hold.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Every fragrance oil has a maximum load, usually printed on the bottle, often around ten percent. That is the most the wax can actually hold.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b52_g9",
+      "id": "b54_g9",
       "type": "broll",
       "sentence": "An amber fragrance bottle being turned to show the load percentage on its label.",
       "visual_subject": "turns an amber fragrance bottle to face the camera, pointing at the load percentage on the label",
@@ -674,49 +697,49 @@
       "dur": 4.78
     },
     {
-      "id": "b53_th",
+      "id": "b55_th",
       "type": "character",
       "sentence": "Beginners assume more oil means more scent, so they pour in extra, and the wax simply cannot absorb it. It pools, it ruins the burn, and it can even be unsafe.",
       "dur": 10.09,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Beginners assume more oil means more scent, so they pour in extra, and the wax simply cannot absorb it. It pools, it ruins the burn, and it can even be unsafe.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b54_th",
+      "id": "b56_th",
       "type": "character",
       "sentence": "Start at around six to eight percent by weight, measured on a scale, not by eye. A little less fragrance that actually binds beats a lot that just sits there.",
       "dur": 9.78,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Start at around six to eight percent by weight, measured on a scale, not by eye. A little less fragrance that actually binds beats a lot that just sits there.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b55_th",
+      "id": "b57_th",
       "type": "character",
       "sentence": "And give your fragrance a curing period. A soy candle that has rested for a week or two will throw far more scent than one you burn the same day you pour it.",
       "dur": 10.71,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"And give your fragrance a curing period. A soy candle that has rested for a week or two will throw far more scent than one you burn the same day you pour it.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b56_th",
+      "id": "b58_th",
       "type": "character",
       "sentence": "So buy one fragrance you genuinely love, measure it properly, and let it cure. That single habit will make your candles smell better than most beginners ever manage.",
       "dur": 9.15,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now seated by a bright window at a small side table with a notebook, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So buy one fragrance you genuinely love, measure it properly, and let it cure. That single habit will make your candles smell better than most beginners ever manage.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her kitchen stove station, a pot of melting wax beside her, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So buy one fragrance you genuinely love, measure it properly, and let it cure. That single habit will make your candles smell better than most beginners ever manage.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b57_th",
+      "id": "b59_th",
       "type": "character",
       "sentence": "Let me cut through the gadget aisle, because kits and shops will try to sell you a drawer full of tools you do not need yet.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Let me cut through the gadget aisle, because kits and shops will try to sell you a drawer full of tools you do not need yet.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b58_th",
+      "id": "b60_th",
       "type": "character",
       "sentence": "Here is the honest list. A pouring pot, a thermometer, a cheap kitchen scale, something to stir with, and wick holders to keep the wick centered. That is it.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Here is the honest list. A pouring pot, a thermometer, a cheap kitchen scale, something to stir with, and wick holders to keep the wick centered. That is it.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b59_g10",
+      "id": "b61_g10",
       "type": "broll",
       "sentence": "The five genuinely useful tools laid out together: a pouring pot, thermometer, scale, stirrer, and wick holder.",
       "visual_subject": "lays out a pouring pot, a thermometer, a small scale, a stirrer and a wick holder together in a neat group",
@@ -726,49 +749,49 @@
       "dur": 5.71
     },
     {
-      "id": "b60_th",
+      "id": "b62_th",
       "type": "character",
       "sentence": "The scale matters more than people expect, because good candle making is done by weight, not by volume. You weigh your wax and you weigh your fragrance.",
       "dur": 8.84,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"The scale matters more than people expect, because good candle making is done by weight, not by volume. You weigh your wax and you weigh your fragrance.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b61_th",
+      "id": "b63_th",
       "type": "character",
       "sentence": "Weighing is what makes a candle repeatable. A recipe in grams can be made the exact same way a hundred times. A recipe in cups never can.",
       "dur": 8.84,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Weighing is what makes a candle repeatable. A recipe in grams can be made the exact same way a hundred times. A recipe in cups never can.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b62_th",
+      "id": "b64_th",
       "type": "character",
       "sentence": "Everything beyond that little list, the fancy melters, the heat guns, the molds, can wait until you actually know you need them. Do not let gear become the hobby.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Everything beyond that little list, the fancy melters, the heat guns, the molds, can wait until you actually know you need them. Do not let gear become the hobby.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b63_th",
+      "id": "b65_th",
       "type": "character",
       "sentence": "I made beautiful candles for a year with a pot, a thermometer, a scale and a spoon. The tools did not make the candle. The temperatures did.",
       "dur": 8.84,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her kitchen stove station, a pot of melting wax beside her, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"I made beautiful candles for a year with a pot, a thermometer, a scale and a spoon. The tools did not make the candle. The temperatures did.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing beside her curing shelf of finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"I made beautiful candles for a year with a pot, a thermometer, a scale and a spoon. The tools did not make the candle. The temperatures did.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b64_th",
+      "id": "b66_th",
       "type": "character",
       "sentence": "So let me paint you a picture of your very first candle afternoon, start to finish, so it feels completely doable, because it truly is.",
       "dur": 8.21,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So let me paint you a picture of your very first candle afternoon, start to finish, so it feels completely doable, because it truly is.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b65_th",
+      "id": "b67_th",
       "type": "character",
       "sentence": "You clear a calm space, you weigh your wax, and you melt it gently while you watch the thermometer climb. No rushing, no high heat, just patience.",
       "dur": 8.84,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"You clear a calm space, you weigh your wax, and you melt it gently while you watch the thermometer climb. No rushing, no high heat, just patience.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b66_g11",
+      "id": "b68_g11",
       "type": "broll",
       "sentence": "A calm, tidy workspace ready for a first pour, everything laid out in order.",
       "visual_subject": "smooths a hand across a tidy workspace with wax, jar, wick and thermometer all laid out in order",
@@ -778,49 +801,49 @@
       "dur": 4.78
     },
     {
-      "id": "b67_th",
+      "id": "b69_th",
       "type": "character",
       "sentence": "You let it cool to the fragrance window, you weigh in your oil, and you stir gently for two full minutes so it really binds into the wax.",
       "dur": 9.15,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"You let it cool to the fragrance window, you weigh in your oil, and you stir gently for two full minutes so it really binds into the wax.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b68_th",
+      "id": "b70_th",
       "type": "character",
       "sentence": "You let it cool a little more to the pour window, you set your wick straight, and you pour slowly and steadily into a slightly warmed jar.",
       "dur": 8.84,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"You let it cool a little more to the pour window, you set your wick straight, and you pour slowly and steadily into a slightly warmed jar.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b69_th",
+      "id": "b71_th",
       "type": "character",
       "sentence": "Then you walk away. You let it sit undisturbed, you let it cure for a week, and the first time you light it and it fills the room, you will be hooked for life.",
       "dur": 11.03,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Then you walk away. You let it sit undisturbed, you let it cure for a week, and the first time you light it and it fills the room, you will be hooked for life.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b70_th",
+      "id": "b72_th",
       "type": "character",
       "sentence": "That is the whole craft, on your very first day. Not a kit with twelve mystery pieces. Just a few good ingredients, treated with care and a little patience.",
       "dur": 9.46,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing beside her curing shelf of finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"That is the whole craft, on your very first day. Not a kit with twelve mystery pieces. Just a few good ingredients, treated with care and a little patience.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her packing and labeling table with kraft boxes and finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"That is the whole craft, on your very first day. Not a kit with twelve mystery pieces. Just a few good ingredients, treated with care and a little patience.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b71_th",
+      "id": "b73_th",
       "type": "character",
       "sentence": "Now let me reassure you about something, because it matters more than any tip. Your first candle might not be perfect, and that is completely okay.",
       "dur": 8.53,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Now let me reassure you about something, because it matters more than any tip. Your first candle might not be perfect, and that is completely okay.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b72_th",
+      "id": "b74_th",
       "type": "character",
       "sentence": "You might get a sinkhole, or a slightly rough top, or a scent that is softer than you hoped. That does not mean you failed. That means you are learning to read your wax.",
       "dur": 11.03,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"You might get a sinkhole, or a slightly rough top, or a scent that is softer than you hoped. That does not mean you failed. That means you are learning to read your wax.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b73_g12",
+      "id": "b75_g12",
       "type": "broll",
       "sentence": "A slightly imperfect first candle held gently in two hands, examined kindly.",
       "visual_subject": "cradles a slightly imperfect candle in both hands, turning it gently to look at the flawed top",
@@ -830,56 +853,56 @@
       "dur": 4.15
     },
     {
-      "id": "b74_th",
+      "id": "b76_th",
       "type": "character",
       "sentence": "A sinkhole? Pour a little slower and cool a little slower next time. A rough top? A gentle warm pass over the surface smooths it right out.",
       "dur": 8.84,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"A sinkhole? Pour a little slower and cool a little slower next time. A rough top? A gentle warm pass over the surface smooths it right out.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b75_th",
+      "id": "b77_th",
       "type": "character",
       "sentence": "Weak scent? Let it cure longer before you judge it, and check the temperature you added the oil at. Almost every first-candle problem has a calm, simple fix.",
       "dur": 9.15,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Weak scent? Let it cure longer before you judge it, and check the temperature you added the oil at. Almost every first-candle problem has a calm, simple fix.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b76_th",
+      "id": "b78_th",
       "type": "character",
       "sentence": "The makers you admire did not start perfect. They just kept going, candle after candle, learning one small thing each time. You are allowed to do the same.",
       "dur": 9.15,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"The makers you admire did not start perfect. They just kept going, candle after candle, learning one small thing each time. You are allowed to do the same.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b77_th",
+      "id": "b79_th",
       "type": "character",
       "sentence": "So make your first candle, enjoy its little flaws, write down what you would change, and pour another. That loop, repeated kindly, is the entire craft.",
       "dur": 8.53,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her packing and labeling table with kraft boxes and finished candles, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So make your first candle, enjoy its little flaws, write down what you would change, and pour another. That loop, repeated kindly, is the entire craft.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now seated by a bright window at a small side table with a notebook, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So make your first candle, enjoy its little flaws, write down what you would change, and pour another. That loop, repeated kindly, is the entire craft.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b78_th",
+      "id": "b80_th",
       "type": "character",
       "sentence": "So, before you buy that first kit, remember. The kit is not the craft. The craft is wax, a matched wick, gentle fragrance, a thermometer, and a little patience.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"So, before you buy that first kit, remember. The kit is not the craft. The craft is wax, a matched wick, gentle fragrance, a thermometer, and a little patience.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b79_th",
+      "id": "b81_th",
       "type": "character",
       "sentence": "Buy enough to actually practice, get one tool to stop the guessing, and give yourself permission to make a few imperfect candles on the way to a great one.",
       "dur": 9.46,
       "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. The exact same woman in the same candle workshop continues speaking directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"Buy enough to actually practice, get one tool to stop the guessing, and give yourself permission to make a few imperfect candles on the way to a great one.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b80_th",
+      "id": "b82_th",
       "type": "character",
       "sentence": "If this saved you from a frustrating first kit, subscribe, because I walk through real candle making like this, one honest step at a time, every single week.",
       "dur": 9.15,
-      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now seated by a bright window at a small side table with a notebook, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"If this saved you from a frustrating first kit, subscribe, because I walk through real candle making like this, one honest step at a time, every single week.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
+      "prompt": "This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, identical tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her mid-fifties. Do NOT change her face, age, or ethnicity into a different person. She has just moved and is now standing at her kitchen stove station, a pot of melting wax beside her, settling naturally into frame with gentle continuous movement as she keeps talking. She speaks directly to the camera in a warm American accent, lips fully in sync, saying exactly: \"If this saved you from a frustrating first kit, subscribe, because I walk through real candle making like this, one honest step at a time, every single week.\". Exactly ONE person, a single solid subject \u2014 no second face, no double exposure, no ghosting, no morphing, no extra hands; natural blink and lip-sync; steady framing; natural window light. The first frame is already this exact woman, sharp and in focus, no fade-in or morph. She is already mid-conversation: begins the first word immediately with no inhale, speaks continuously without freezing, no big inhale at the end. Background candle jars may carry small, tidy, real printed product labels (short words like \"Lavender\", \"Soy Wax\"); these are physical labels on the jars, NOT on-screen text. ABSOLUTELY NO on-screen text of ANY kind: no subtitles, no captions, no transcription of her speech, no words, no letters, no numbers, no title text, no lower-thirds, no REC indicator, no red dot, no battery icon, no camera viewfinder or UI, no timecode, no watermark, no logos. The video frame contains only the real photographed scene and nothing overlaid. Casual handheld smartphone vlog look. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, bags of soy wax, amber fragrance-oil bottles, a kitchen thermometer, a small scale, a stovetop pot and a curing shelf of finished candles, natural daylight."
     },
     {
-      "id": "b81_th",
+      "id": "b83_th",
       "type": "character",
       "sentence": "And tell me in the comments what made you want to start making candles in the first place. I love reading those, and I will cheer you on.",
       "dur": 9.15,

@@ -29,9 +29,14 @@ WS=("an ordinary lived-in home candle workshop: a worktable with glass candle ja
 IDENTITY=("The woman is the EXACT SAME woman shown in the first reference image — identical face, identical "
 "tortoiseshell glasses, identical curly grey hair, blue knit sweater and tan apron. She is white, in her "
 "mid-fifties. Do NOT change her face, age, or ethnicity into a different person. ")
-BOOKHOLD=("She holds up the paperback book from the second reference image toward the camera at about chest "
-"height with both hands, its front cover (a warm photo of a lit luxury candle with the title 'The $3 Luxury "
-"Candle') facing the viewer and clearly readable, and she keeps it raised and visible the entire time. ")
+# Clip 1: hold the book up clearly (sharp cover), THEN set it down on the bench near the end, so later
+# clips never depend on rendering crisp cover text (which can blur when the book is held mid-motion).
+BOOKHOLD_FIRST=("At the start she holds up the paperback book from the second reference image toward the camera at "
+"about chest height with both hands, held steady and still so its front cover (a warm photo of a lit luxury candle "
+"with the title 'The $3 Luxury Candle') faces the viewer and is crisp and clearly readable; then, near the end of "
+"the clip, she gently lowers the book and sets it down flat on the workbench in front of her. ")
+BOOKHOLD_REST=("The same paperback book now rests flat on the workbench in front of her, cover up and visible but "
+"not held; she gestures toward it naturally now and then but keeps her hands free and does not lift it. ")
 # The book's OWN printed cover is a real physical object and is allowed; nothing else is overlaid.
 NOTEXT=("ABSOLUTELY NO on-screen text overlays of any kind: no subtitles, no captions, no transcription, no "
 "title cards, no lower-thirds, no REC indicator, no red dot, no UI, no timecode, no watermark, no logos. The "
@@ -55,9 +60,10 @@ def dur(p):
     try: return float(o)
     except: return 0.0
 
-def th_prompt(line):
+def th_prompt(line,first):
+    hold=BOOKHOLD_FIRST if first else BOOKHOLD_REST
     return (f"Photoreal casual handheld smartphone vlog clip. {IDENTITY}She is seated at her candle workbench, "
-    f"looking straight at the camera. {BOOKHOLD}She speaks directly to the camera in a warm American accent, lips "
+    f"looking straight at the camera. {hold}She speaks directly to the camera in a warm American accent, lips "
     f"fully in sync, saying exactly: \"{line}\". {TH_STRICT} {NOTEXT} Setting: {WS}")
 def submit(prompt):
     body={"prompt":prompt,"model":"veo-video","aspectRatio":"16:9","skipWatermarkRemoval":False,
@@ -83,7 +89,7 @@ for i,line in enumerate(LINES):
     for gen_try in range(4):                   # regenerate on transient veo FAILED
         jid=None
         for attempt in range(40):              # persistent: backend has only 5 concurrent slots
-            jid,err=submit(th_prompt(line))
+            jid,err=submit(th_prompt(line,first=(i==0)))
             if jid: break
             wait=min(12+attempt*4,45)
             print(f"  submit busy (attempt {attempt+1}), wait {wait}s: {str(err)[:90]}",flush=True); time.sleep(wait)
