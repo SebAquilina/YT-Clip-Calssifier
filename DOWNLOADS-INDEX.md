@@ -47,6 +47,13 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
 - Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
 
+## Video 10 — I Inspected 50 FAILED Candle Batches (FORMAT v5.3, 11:36) ⭐ NEW
+- ~12 min talking-head-dominant video (93 beats, 33 chains), cloned-Candice gap narration, native watermark removal, seam-fixed, color-locked, crossfade transitions, mastered -16.0 LUFS.
+- **Strict face gate** (panel of 6 vision agents): 3 wrong-face TH clips (b80/b90/b92) reseeded to correct Candice + 1 distorted B-roll (b33_g4) replaced — all re-verified.
+- **Talking-head book CTA** at 1:19 (within first 2 min): Candice holding her real book cover ("THE $3 LUXURY CANDLE"), tailored line, caption-free (clip 2 regenerated to remove a burned-in subtitle).
+- Book link goes in the description: **[BOOK LINK]**
+- **FULL VIDEO: https://litter.catbox.moe/mjk5s5.mp4**
+
 ## Video 9.5 — POOR SCENT THROW (+ talking-head book CTA, 10:34) ⭐ LATEST
 - Same identity-locked / seam-fixed / color-locked / native-watermark-removed cut as 9.3, now with a **real talking-head book CTA** spliced in at 0:38 (within first 2 min): Candice on camera holding her actual book cover ("THE $3 LUXURY CANDLE", matching art, "By Candice"), generated via veo `ingredients` mode (book cover fed directly as a reference + her identity ref → face locked, book reproduced). Scent-throw-themed line, veo TH voice. Both CTA clips face-checked. Re-mastered to -16.0 LUFS.
 - Book link goes in the description: **[BOOK LINK]**
