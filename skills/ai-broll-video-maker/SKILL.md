@@ -725,3 +725,82 @@ assemble.py / lipsync_gate.py / gen_anchors.py:
    of hard cuts. Total shortens by (N-1)*XFADE, so keep XFADE small (0.12–0.18) and pad the
    script length accordingly. Falls back to hard concat if the xfade graph errors.
 4. **Watermark:** native API `skipWatermarkRemoval:false` on every video submit (no crop).
+
+# FORMAT v5.4 — QUANTITATIVE face gate, talking-head CTA, smooth same-scene transitions, chaptered deliverables
+
+The vision-agent panel (v5.3) was unreliable in both directions — it MISSED real imposters
+(a recurring "imposter" Candice variant: darker, tighter ringlet curls + chunky thick-rimmed
+glasses + a brighter blue cable-knit sweater) and FALSE-flagged legit wide-shot / profile /
+downward-gaze Candice. v5.4 replaces eyeballing with a measured detector and adds the polish
+items below.
+
+1. **QUANTITATIVE 2-class face detector — `scripts/face_scan.py <proj> [--json out]`.**
+   Uses **ArcFace embeddings** (`pip install insightface onnxruntime`, model `buffalo_l`,
+   CPU). It builds TWO centroids:
+   - **Candice centroid** = mean embedding of clean Candice images (the reference photo +
+     the five scene anchors).
+   - **Imposter centroid** = mean embedding of confirmed imposter frames committed at
+     `scripts/../imposter_refs/*.jpg` (extend this set whenever a new wrong face is found).
+   For each clip it samples **8 frames** (catches mid-clip drift, not just 2), detects the
+   largest face (`det_score>0.55`), and per frame computes `sim_candice` and `sim_imposter`.
+   A frame "leans imposter" when `sim_candice - sim_imposter < -0.02`. A character clip is
+   **FLAG-imposter** when ≥4 of 8 frames lean imposter; **REVIEW** when 2–3 do. B-roll flags
+   only on ≥3 imposter-leaning frames.
+   WHY 2-class: a single distance-to-Candice threshold cannot separate wide-shot Candice from
+   the imposter — both score ~0.42–0.52, so the threshold either misses imposters (b52, b44,
+   b35 all slipped a 0.44 cutoff) or false-flags wide shots. Comparing distance-to-Candice vs
+   distance-to-imposter is framing-invariant and decisive (imposter clips run sim_imposter
+   ~0.6–0.7 ≫ sim_candice; real Candice runs the opposite even when its absolute sim is low).
+   REVIEW tier: eyeball those at **full resolution** (a small montage thumbnail once hid an
+   imposter — never judge faces from tiny frames).
+2. **Regen → RE-SCAN → iterate (a regen can produce ANOTHER imposter).** Re-seeding a flagged
+   clip from the clean anchor reduces but does not guarantee a correct face — veo can drift
+   again. So the loop is: scan → regen FLAG+REVIEW → **re-scan the regenerated clips** →
+   regen anything still flagged → repeat until the scan returns 0. Never assume one regen fixed it.
+3. **Robust downloads (curl + ffprobe validation).** `regen_clip.py` and `book_cta_th.py`
+   download with `curl --retry 6 --retry-all-errors` then validate with ffprobe — urllib hit
+   `IncompleteRead` on the 69labs CDN and left **corrupt** clips (0-frame files that look
+   "downloaded"). Always re-validate. Also: a COMPLETED veo job can be unservable — if curl
+   keeps returning a short/invalid file, submit a FRESH job rather than re-fetching the old id.
+4. **Generator TTS crash-proofing (`generate_chained.py`).** The cloned voice can take >3 min;
+   the old code polled a fixed window then DOWNLOADED a still-PROCESSING job → HTTP 400 →
+   unhandled crash that stalled a whole video. Now: poll longer, only download on COMPLETED,
+   wrap the download, and retry slow/`DUPLICATE_TTS_IN_PROGRESS` gaps a few times.
+5. **Some B-roll prompts make veo FAIL repeatedly** (e.g. "deep sinkhole crater", over-specific
+   defect descriptions). The generator requeues forever and the video never completes. Fix:
+   simplify that beat's prompt to a clean hands-only action and re-submit. Keep B-roll prompts
+   plain and physical.
+6. **Talking-head book CTA — `scripts/book_cta_th.py <out> "<l1>||<l2>[||<l3>]"`.** Replaces the
+   static Ken-Burns card. Candice is generated ON CAMERA holding the actual e-book, via veo
+   `videoInputMode:"ingredients"` with imageUrls=[Candice ref, book-cover] (both STABLE raw URLs
+   — ingredients refs must not be on expiring hosts). She holds the book up crisply in clip 1
+   then **sets it on the bench** for later clips (held-book cover text blurs when she moves).
+   Max 3 clips, crossfaded. Veo's own TH voice (matches the talking sections). Per-video tailored
+   lines. CAUTION: veo sometimes burns the spoken line in as a caption — verify each CTA clip is
+   caption-free (regen the offending clip with a strengthened no-caption prompt).
+7. **Smooth same-scene transitions — `video_new_build/assemble_smooth.py <Project files dir>`.**
+   Per-boundary crossfades: a ~0.12s **micro-crossfade** within a scene (consecutive clips in the
+   SAME chain, which are frame-matched) hides the small seam jump without a visible dissolve; a
+   ~0.40s crossfade only at scene changes / gap boundaries. (Uniform crossfades dissolved between
+   near-identical same-scene frames → a visible ghost/pulse.) Env: `XFADE_IN`, `XFADE_OUT`.
+8. **MrBeast-style hook (videos moving forward).** Open with one or two beats that lay out exactly
+   what the video covers + a concrete reason to stay to the end (a formula, a reveal, a recipe).
+   Prepend as "ACT 0" so it lands in the opening bench chain.
+9. **Chaptered, CTA-first descriptions — `video_new_build/gen_description.py <proj> <build.py> <cfg.json>`.**
+   Emits the YouTube description in this exact order: (1) one-sentence book CTA tying the book to
+   the video topic + `🔗 https://candicescandles.com`; (2) main description; (3) **chapter
+   timestamps** auto-derived from the build script's `# ===== ACT … =====` boundaries, timed from
+   the assembled segment durations minus per-boundary crossfades plus the CTA splice offset;
+   (4) more description; (5) hashtags. `video_new_build/package_video.sh` bundles final video +
+   all source clips + thumbnail + description.txt into `<NAME>_DELIVERABLE.zip`.
+10. **Slot management during post-production.** The backend allows only 5 concurrent video jobs.
+    To regen / build a CTA while another video is still generating, SIGSTOP its generator (a
+    stopped process still shows in pgrep so its supervisor won't relaunch; its in-flight jobs
+    finish server-side and free slots), do the work, then SIGCONT. ALWAYS arm a separate
+    auto-resume watcher (resume on a done-marker OR a safety-cap timeout) so a reaped task can't
+    leave the generator paused. Once ALL videos are generated, slots are free and regens are fast.
+11. **Environment reality.** Background processes (generators, supervisors, monitors) get reaped
+    on container idle/restart; nothing survives a multi-hour idle. A self-healing watchdog
+    (`video_new_build/watchdog.sh`) relaunches any dead piece every ~10 min while the session is
+    active — but the reliable path to finishing long jobs is periodic user check-ins, each of
+    which wakes the session and heals everything.
