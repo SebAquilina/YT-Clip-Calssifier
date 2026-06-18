@@ -52,12 +52,18 @@ def tts(text,dest):
         st,j=req("POST","/tts/generate",body)
     jid=j.get("id")
     if not jid: print("  TTS fail",j); return False
-    for _ in range(60):
+    done=False
+    for _ in range(120):                                     # up to 6 min: the cloned voice can be slow
         time.sleep(3); st,s=req("GET",f"/tts/status/{jid}")
-        if s.get("status")=="COMPLETED": break
-        if s.get("status") in("FAILED","CENSORED"): return False
-    r=urllib.request.Request(f"{BASE}/tts/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
-    with urllib.request.urlopen(r,timeout=120) as resp,open(dest,"wb") as f: f.write(resp.read())
+        stt=s.get("status")
+        if stt=="COMPLETED": done=True; break
+        if stt in("FAILED","CENSORED"): print("  TTS",stt); return False
+    if not done: print("  TTS not completed (still",s.get("status"),") - skip download"); return False
+    try:                                                     # never crash the whole generator on a download hiccup
+        r=urllib.request.Request(f"{BASE}/tts/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
+        with urllib.request.urlopen(r,timeout=120) as resp,open(dest,"wb") as f: f.write(resp.read())
+    except Exception as e:
+        print("  TTS download err",str(e)[:120]); return False
     return os.path.getsize(dest)>2000
 def _luma(path):
     r=subprocess.run([FF,"-i",path,"-vf","signalstats,metadata=print:key=lavfi.signalstats.YAVG","-f","null","-"],capture_output=True,text=True)
@@ -103,7 +109,12 @@ for gid,text in M["gaps"].items():
     g=state["gaps"].setdefault(gid,{}); d=os.path.join(AUD,f"gap_{gid}.mp3")
     if g.get("done") and os.path.exists(d): continue
     print("  TTS gap",gid,flush=True)
-    if tts(text,d): g.update(done=True,file=d,dur=dur(d)); save()
+    ok=False
+    for attempt in range(3):                                  # retry slow / DUPLICATE_TTS_IN_PROGRESS
+        if tts(text,d): ok=True; break
+        print(f"  gap {gid} TTS retry {attempt+1} (wait 25s)",flush=True); time.sleep(25)
+    if ok: g.update(done=True,file=d,dur=dur(d)); save()
+    else: print(f"  !! gap {gid} TTS not done this pass (will retry next launch)",flush=True)
 save()
 
 # ---- build TH runs + broll list (chains come from the manifest in v5) ----
