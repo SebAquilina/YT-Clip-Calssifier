@@ -59,13 +59,19 @@ for _ in range(75):
 if st!="COMPLETED": print("timeout, last status",st); sys.exit(3)
 dest=os.path.join(SRC,f"{BID}.mp4")
 ok=False
-for attempt in range(6):
-    try:
-        r=urllib.request.Request(f"{BASE}/videos/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
-        with urllib.request.urlopen(r,timeout=180) as resp,open(dest,"wb") as f: f.write(resp.read())
-        if os.path.getsize(dest)>100*1024: ok=True; break
-    except Exception as e:
-        print("dl retry",attempt,str(e)[:60]); time.sleep(6)
+for attempt in range(8):
+    # curl is far more robust than urllib for these downloads (urllib hits IncompleteRead);
+    # --retry handles transient drops, and we re-validate with ffprobe each time.
+    subprocess.run(["curl","-sL","--retry","6","--retry-all-errors","-m","300",
+        "-H",f"Authorization: Bearer {KEY}","-H",f"User-Agent: {UA}",
+        f"{BASE}/videos/download/{jid}","-o",dest],capture_output=True)
+    if os.path.exists(dest) and os.path.getsize(dest)>100*1024:
+        probe=subprocess.run(["/usr/local/bin/ffprobe","-v","error","-show_entries","format=duration",
+            "-of","default=nk=1:nw=1",dest],capture_output=True,text=True)
+        try:
+            if float(probe.stdout.strip())>0.5: ok=True; break
+        except: pass
+    print("dl retry",attempt,"(incomplete/invalid), re-fetching"); time.sleep(6)
 if not ok: print("download failed after retries"); sys.exit(4)
 S["beats"].setdefault(BID,{})["job"]={"status":"downloaded","job_id":jid,"file":os.path.abspath(dest)}
 json.dump(S,open(os.path.join(PF,"state.json"),"w"),indent=2)
