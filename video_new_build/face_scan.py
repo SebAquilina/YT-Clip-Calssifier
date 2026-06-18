@@ -55,11 +55,14 @@ def clipfile(bid):
     f=S["beats"].get(bid,{}).get("job",{}).get("file")
     return f if f and os.path.exists(f) else None
 
-rows=[]; flagged=[]
+DRIFT_ABS=argf("--driftabs",0.40)   # a frame this low is "clearly not Candice"
+MINLOW=argf("--minlow",3)           # need this many low frames to call sustained drift (avoids transient profiles)
+# pass 1: gather per-clip frame sims
+data=[]
 for b in M["beats"]:
     cf=clipfile(b["id"])
     if not cf: continue
-    d=dur(cf); sims=[]; dets=[]
+    d=dur(cf); sims=[]
     for k in range(NFR):
         t=d*(k+0.5)/NFR
         jpg=f"/tmp/_fs_{os.getpid()}.jpg"
@@ -69,23 +72,31 @@ for b in M["beats"]:
         r=emb_of(img)
         if not r or r[0] is None: continue
         e,ds=r
-        if ds<0.55: continue                     # ignore low-confidence (profile/blur) detections
-        sims.append(cos(e)); dets.append(ds)
-    typ=b["type"]
+        if ds<0.55: continue
+        sims.append(cos(e))
+    data.append((b["id"],b["type"],sims))
+# per-video Candice baseline = median of best-sims over character clips that have a face
+bests=[max(s) for (_,t,s) in data if t=="character" and s]
+import statistics as st
+MED=st.median(bests) if bests else 0.6
+# adaptive wrong-face cutoff: clearly below the Candice cluster
+CUT=max(THRESH, MED-0.15)
+print(f"per-video Candice median best-sim={MED:.3f} -> wrongface cutoff={CUT:.3f}",flush=True)
+rows=[]; flagged=[]
+for bid,typ,sims in data:
     if not sims:
-        rows.append((b["id"],typ,None,None,len(sims),"PASS-noface")); continue
-    best=max(sims); worst=min(sims)
+        rows.append((bid,typ,None,None,0,0,"PASS-noface")); continue
+    best=max(sims); worst=min(sims); nlow=sum(1 for s in sims if s<DRIFT_ABS)
     verdict="PASS"
     if typ=="character":
-        if best<THRESH: verdict="FLAG-wrongface"
-        elif worst<LOW: verdict="FLAG-drift"
-    else:  # broll: only flag a clearly-wrong confident face
-        if worst<LOW and best<THRESH: verdict="FLAG-brollface"
-    if verdict.startswith("FLAG"): flagged.append(b["id"])
-    rows.append((b["id"],typ,round(best,3),round(worst,3),len(sims),verdict))
-
-print(f"\n{'id':12} {'type':10} {'best':>6} {'worst':>6} {'nf':>3}  verdict")
+        if best<CUT: verdict="FLAG-wrongface"          # clear imposter for the whole clip
+        elif nlow>=MINLOW: verdict="FLAG-drift"         # sustained mid-clip switch (not a single profile)
+    else:
+        if best<CUT and nlow>=2: verdict="FLAG-brollface"
+    if verdict.startswith("FLAG"): flagged.append(bid)
+    rows.append((bid,typ,round(best,3),round(worst,3),nlow,len(sims),verdict))
+print(f"\n{'id':12} {'type':10} {'best':>6} {'worst':>6} {'nlow':>4} {'nf':>3}  verdict")
 for r in sorted(rows,key=lambda x:(x[2] if x[2] is not None else 1.0)):
-    print(f"{r[0]:12} {r[1]:10} {str(r[2]):>6} {str(r[3]):>6} {r[4]:>3}  {r[5]}")
+    print(f"{r[0]:12} {r[1]:10} {str(r[2]):>6} {str(r[3]):>6} {r[4]:>4} {r[5]:>3}  {r[6]}")
 print(f"\nFLAGGED ({len(flagged)}): {','.join(flagged)}")
 if JOUT: json.dump(flagged,open(JOUT,"w"))
