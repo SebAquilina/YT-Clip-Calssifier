@@ -112,3 +112,8 @@ video_firstkit_veo/Project files/state.json
 video_firstkit_veo/Project files/audio/
 video_firstkit_veo/Project files/segments/
 video_firstkit_veo/*.mp4
+
+# large delivery artifacts (hosted/sent, not committed)
+*_DELIVERABLE.zip
+*_FINAL.mp4
+POOR_SCENT_THROW_CTA_FINAL.mp4
