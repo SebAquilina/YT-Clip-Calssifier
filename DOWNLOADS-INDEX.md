@@ -47,7 +47,15 @@ Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 - **Full deliverable zip (video + source clips + description + thumbnail, ~268MB):** https://litter.catbox.moe/h7eymu.zip
 - Full-quality video: https://litter.catbox.moe/cqdwe3.mp4
 
-## Video 10 — I Inspected 50 FAILED Candle Batches (FORMAT v5.3, 11:36) ⭐ NEW
+## Video 11 — STOP Buying Wicks From Amazon (Do This Instead) (FORMAT v5.3, 10:29) ⭐ NEW
+- 83 beats (26 chains), **MrBeast-style hook** opening (lays out the video + reason to stay: the 3-number wick formula), cloned-Candice gap narration, mastered -16.0 LUFS.
+- **Smooth same-scene transitions** (new per-boundary assembler: ~0.12s micro-crossfade within a scene, ~0.4s at scene changes).
+- **Strict face gate** (6-agent panel + my review): 1 genuine imposter clip (b29) reseeded to correct Candice; 3 panel flags were false positives (confirmed correct by eye).
+- **Talking-head book CTA** at ~1:16 (book held in clip 1, set on the bench in clip 2 to keep cover text crisp), caption-free.
+- Book link → description: **[BOOK LINK]**
+- **FULL VIDEO: https://litter.catbox.moe/863a0i.mp4**
+
+## Video 10 — I Inspected 50 FAILED Candle Batches (FORMAT v5.3, 11:36)
 - ~12 min talking-head-dominant video (93 beats, 33 chains), cloned-Candice gap narration, native watermark removal, seam-fixed, color-locked, crossfade transitions, mastered -16.0 LUFS.
 - **Strict face gate** (panel of 6 vision agents): 3 wrong-face TH clips (b80/b90/b92) reseeded to correct Candice + 1 distorted B-roll (b33_g4) replaced — all re-verified.
 - **Talking-head book CTA** at 1:19 (within first 2 min): Candice holding her real book cover ("THE $3 LUXURY CANDLE"), tailored line, caption-free (clip 2 regenerated to remove a burned-in subtitle).
