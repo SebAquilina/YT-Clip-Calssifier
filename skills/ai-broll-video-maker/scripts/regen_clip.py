@@ -48,8 +48,15 @@ if beat["type"]=="character":
 else:
     seed=beat.get("broll_ref", M.get("hands_ref_url",REF))
 if mode!="text": body["imageUrls"]=[seed]; body["videoInputMode"]=mode
-j=req("POST","/videos/generate",body); jid=j.get("id")
-if not jid: print("submit fail",j); sys.exit(1)
+jid=None
+for _att in range(40):                       # retry the concurrency limit so parallel regens are safe
+    j=req("POST","/videos/generate",body); jid=j.get("id")
+    if jid: break
+    err=str(j.get("error",""));
+    if "Concurrent" in err or "FORBIDDEN" in err or "limit" in err:
+        time.sleep(12); continue
+    print("submit fail",j); sys.exit(1)
+if not jid: print("submit fail (slots busy)",j); sys.exit(1)
 print("job",jid)
 st=None
 for _ in range(75):
