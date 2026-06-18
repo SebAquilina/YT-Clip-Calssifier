@@ -21,7 +21,7 @@ from insightface.app import FaceAnalysis
 PROJ=sys.argv[1]
 def argf(flag,default):
     return type(default)(sys.argv[sys.argv.index(flag)+1]) if flag in sys.argv else default
-THRESH=argf("--thresh",0.45); LOW=argf("--low",0.35); NFR=argf("--frames",8)
+THRESH=argf("--thresh",0.44); LOW=argf("--low",0.35); NFR=argf("--frames",8)
 JOUT=sys.argv[sys.argv.index("--json")+1] if "--json" in sys.argv else None
 PF=os.path.join(PROJ,"Project files")
 M=json.load(open(os.path.join(PF,"manifest.json"))); S=json.load(open(os.path.join(PF,"state.json")))
@@ -79,9 +79,10 @@ for b in M["beats"]:
 bests=[max(s) for (_,t,s) in data if t=="character" and s]
 import statistics as st
 MED=st.median(bests) if bests else 0.6
-# adaptive wrong-face cutoff: clearly below the Candice cluster
-CUT=max(THRESH, MED-0.15)
-print(f"per-video Candice median best-sim={MED:.3f} -> wrongface cutoff={CUT:.3f}",flush=True)
+# ABSOLUTE cutoff: imposters score ~0.37-0.40; real Candice (even wide-shot / downward gaze) >=0.46.
+# A median-relative cutoff over-flagged legit wide shots, so use a fixed floor.
+CUT=THRESH
+print(f"per-video Candice median best-sim={MED:.3f} | wrongface cutoff={CUT:.3f}",flush=True)
 rows=[]; flagged=[]
 for bid,typ,sims in data:
     if not sims:
@@ -99,4 +100,5 @@ print(f"\n{'id':12} {'type':10} {'best':>6} {'worst':>6} {'nlow':>4} {'nf':>3}  
 for r in sorted(rows,key=lambda x:(x[2] if x[2] is not None else 1.0)):
     print(f"{r[0]:12} {r[1]:10} {str(r[2]):>6} {str(r[3]):>6} {r[4]:>4} {r[5]:>3}  {r[6]}")
 print(f"\nFLAGGED ({len(flagged)}): {','.join(flagged)}")
-if JOUT: json.dump(flagged,open(JOUT,"w"))
+if JOUT: json.dump({"flagged":flagged,"cutoff":CUT,"median":MED,
+    "rows":[{"id":r[0],"type":r[1],"best":r[2],"worst":r[3],"nlow":r[4],"verdict":r[6]} for r in rows]},open(JOUT,"w"))
