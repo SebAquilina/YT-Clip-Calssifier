@@ -1,5 +1,15 @@
 # Candice Candle Videos — Downloads Index
 
+## ⭐ FINAL 5 DELIVERABLES (face-gate clean, talking-head book CTA, chapters) — zips
+Each zip = final video + all source clips + thumbnail + `description.txt` (🔗 book CTA + link → description → YouTube chapters → hashtags). Every clip verified Candice by the quantitative 2-class ArcFace face gate (0 imposters). Book link in every description: https://candicescandles.com
+| # | Video | Zip |
+|---|---|---|
+| 1 | POOR SCENT THROW | https://litter.catbox.moe/cz6yzd.zip |
+| 2 | I Inspected 50 FAILED Candle Batches | https://litter.catbox.moe/8rtasc.zip |
+| 3 | STOP Buying Wicks From Amazon | https://litter.catbox.moe/ay6z61.zip |
+| 4 | $2 Wicks vs $20 Wicks | https://litter.catbox.moe/581ver.zip |
+| 5 | Buying Your FIRST Candle Kit | https://litter.catbox.moe/1qlshh.zip |
+
 Direct download links (host files for ~72h — ask Claude to refresh any that expire).
 Everything is also on branch `claude/10-candle-hacks-video-xijwmv` / PR #3.
 
