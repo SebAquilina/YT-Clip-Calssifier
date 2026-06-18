@@ -71,15 +71,23 @@ def submit(prompt):
     st,j=req("POST","/videos/generate",body)
     return j.get("id"),(None if j.get("id") else j)
 def wait_dl(jid,dest):
-    for _ in range(160):
+    for _ in range(50):                                    # ~5 min: abandon a stalled job fast and let the caller retry
         time.sleep(6); _,s=req("GET",f"/videos/status/{jid}")
         stt=s.get("status")
         if stt=="COMPLETED":
-            r=urllib.request.Request(f"{BASE}/videos/download/{jid}",headers={"Authorization":f"Bearer {KEY}","User-Agent":UA})
-            with urllib.request.urlopen(r,timeout=180) as resp,open(dest,"wb") as f: f.write(resp.read())
-            return os.path.getsize(dest)>20000
+            for _ in range(8):                            # robust curl download + ffprobe validation (urllib hits IncompleteRead)
+                subprocess.run(["curl","-sL","--retry","6","--retry-all-errors","-m","300",
+                    "-H",f"Authorization: Bearer {KEY}","-H",f"User-Agent: {UA}",
+                    f"{BASE}/videos/download/{jid}","-o",dest],capture_output=True)
+                if os.path.exists(dest) and os.path.getsize(dest)>20000:
+                    pr=subprocess.run([FP,"-v","error","-show_entries","format=duration","-of","default=nk=1:nw=1",dest],capture_output=True,text=True)
+                    try:
+                        if float(pr.stdout.strip())>0.5: return True
+                    except: pass
+                time.sleep(5)
+            return False
         if stt in("FAILED","CENSORED"): print("clip",stt,flush=True); return False
-    return False
+    print("clip stalled in",s.get("status"),"- abandoning for retry",flush=True); return False
 
 parts=[]
 for i,line in enumerate(LINES):
