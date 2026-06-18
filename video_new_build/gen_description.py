@@ -61,12 +61,16 @@ def final_time(idx):
     t=beat_start.get(idx,0.0)
     return t if t<CUT else t+CTA
 
-# --- parse build script ACTs -> (title, start_beat_idx) ---
+# --- parse build script ACTs -> (title, original-beat-index) ---
 acts=[]; cnt=0
 for ln in open(BUILD):
     m=re.match(r"\s*#\s*=+\s*ACT\s+([0-9]+[a-z]?)\s+(.*?)\s*=+\s*$", ln)
     if m: acts.append([m.group(2).strip(), cnt])
     elif re.match(r"\s*(th|br)\(", ln): cnt+=1
+# manifests may contain inserted split beats (id like 'b00s_th') not present in the build script;
+# map each build-script (original) beat index to its position in the current manifest beats list.
+orig_pos=[i for i,b in enumerate(beats) if not b["id"].endswith("s_th")]
+def act_manifest_idx(oi): return orig_pos[oi] if oi < len(orig_pos) else (orig_pos[-1] if orig_pos else 0)
 def clean(title):
     t=re.sub(r"\s*\([^)]*\)","",title).strip()   # drop dev parentheticals
     t=t.strip(" -—:;")
@@ -78,7 +82,7 @@ def clean(title):
 # build chapter list (dedupe consecutive same titles, ensure ascending + >=10s apart)
 chap=[]
 for title,idx in acts:
-    ts=final_time(idx); ct=clean(title)
+    ts=final_time(act_manifest_idx(idx)); ct=clean(title)
     chap.append((ts,ct))
 chap.sort(key=lambda x:x[0])
 # force first chapter to 0:00, drop ones <10s after previous, drop dup titles
