@@ -46,8 +46,18 @@ for r in refs:
     if e and e[0] is not None: ref_embs.append(e[0])
 assert ref_embs, "no reference faces!"
 CENT=np.mean(ref_embs,axis=0); CENT=CENT/np.linalg.norm(CENT)
-print(f"reference centroid from {len(ref_embs)} clean Candice images",flush=True)
+# imposter centroid: the recurring wrong face (confirmed imposter frames committed in the repo).
+# A single distance-to-Candice threshold cannot separate wide-shot Candice from the imposter
+# (they overlap ~0.42-0.52); comparing distance-to-Candice vs distance-to-imposter does.
+IMPDIR=os.path.join(os.path.dirname(os.path.abspath(__file__)),"imposter_refs")
+imp_embs=[]
+for p in sorted(glob.glob(os.path.join(IMPDIR,"*.jpg"))):
+    e=emb_of(cv2.imread(p))
+    if e and e[0] is not None and e[1]>=0.5: imp_embs.append(e[0])
+IMP=np.mean(imp_embs,axis=0); IMP=IMP/np.linalg.norm(IMP) if imp_embs else None
+print(f"candice centroid from {len(ref_embs)} clean images | imposter centroid from {len(imp_embs)} frames",flush=True)
 def cos(e): return float(np.dot(e,CENT))
+def cosi(e): return float(np.dot(e,IMP)) if IMP is not None else -1.0
 def dur(p):
     try: return float(subprocess.run([FP,"-v","error","-show_entries","format=duration","-of","default=nk=1:nw=1",p],capture_output=True,text=True).stdout.strip())
     except: return 8.0
@@ -73,32 +83,32 @@ for b in M["beats"]:
         if not r or r[0] is None: continue
         e,ds=r
         if ds<0.55: continue
-        sims.append(cos(e))
+        sims.append((cos(e),cosi(e)))               # (sim_candice, sim_imposter)
     data.append((b["id"],b["type"],sims))
-# per-video Candice baseline = median of best-sims over character clips that have a face
-bests=[max(s) for (_,t,s) in data if t=="character" and s]
-import statistics as st
-MED=st.median(bests) if bests else 0.6
-# ABSOLUTE cutoff: imposters score ~0.37-0.40; real Candice (even wide-shot / downward gaze) >=0.46.
-# A median-relative cutoff over-flagged legit wide shots, so use a fixed floor.
-CUT=THRESH
-print(f"per-video Candice median best-sim={MED:.3f} | wrongface cutoff={CUT:.3f}",flush=True)
-rows=[]; flagged=[]
+# 2-class verdict: a frame "leans imposter" when sim_imposter > sim_candice (delta<0).
+NEG=argf("--neg",-0.02)        # delta below this = clearly imposter-leaning frame
+IMPN=int(argf("--impn",4))     # this many imposter-leaning frames => the clip is the imposter
+rows=[]; flagged=[]; review=[]
 for bid,typ,sims in data:
     if not sims:
         rows.append((bid,typ,None,None,0,0,"PASS-noface")); continue
-    best=max(sims); worst=min(sims); nlow=sum(1 for s in sims if s<DRIFT_ABS)
+    bestc=max(s[0] for s in sims)
+    deltas=[s[0]-s[1] for s in sims]
+    nimp=sum(1 for dl in deltas if dl<NEG)
+    md=round(sum(deltas)/len(deltas),3)
     verdict="PASS"
     if typ=="character":
-        if best<CUT: verdict="FLAG-wrongface"          # clear imposter for the whole clip
-        elif nlow>=MINLOW: verdict="FLAG-drift"         # sustained mid-clip switch (not a single profile)
+        if nimp>=IMPN: verdict="FLAG-imposter"        # majority of frames are the imposter face
+        elif nimp>=2: verdict="REVIEW"                # ambiguous -> eyeball at full res
     else:
-        if best<CUT and nlow>=2: verdict="FLAG-brollface"
-    if verdict.startswith("FLAG"): flagged.append(bid)
-    rows.append((bid,typ,round(best,3),round(worst,3),nlow,len(sims),verdict))
-print(f"\n{'id':12} {'type':10} {'best':>6} {'worst':>6} {'nlow':>4} {'nf':>3}  verdict")
-for r in sorted(rows,key=lambda x:(x[2] if x[2] is not None else 1.0)):
+        if nimp>=3: verdict="FLAG-brollface"
+    if verdict=="FLAG-imposter" or verdict=="FLAG-brollface": flagged.append(bid)
+    if verdict=="REVIEW": review.append(bid)
+    rows.append((bid,typ,round(bestc,3),md,nimp,len(sims),verdict))
+print(f"\n{'id':12} {'type':10} {'bestC':>6} {'mΔ':>6} {'nimp':>4} {'nf':>3}  verdict")
+for r in sorted(rows,key=lambda x:(x[4] if x[4] is not None else -1),reverse=True):
     print(f"{r[0]:12} {r[1]:10} {str(r[2]):>6} {str(r[3]):>6} {r[4]:>4} {r[5]:>3}  {r[6]}")
 print(f"\nFLAGGED ({len(flagged)}): {','.join(flagged)}")
-if JOUT: json.dump({"flagged":flagged,"cutoff":CUT,"median":MED,
-    "rows":[{"id":r[0],"type":r[1],"best":r[2],"worst":r[3],"nlow":r[4],"verdict":r[6]} for r in rows]},open(JOUT,"w"))
+print(f"REVIEW ({len(review)}): {','.join(review)}")
+if JOUT: json.dump({"flagged":flagged,"review":review,
+    "rows":[{"id":r[0],"type":r[1],"bestC":r[2],"meanDelta":r[3],"nimp":r[4],"verdict":r[6]} for r in rows]},open(JOUT,"w"))
