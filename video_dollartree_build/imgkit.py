@@ -12,7 +12,7 @@ CANDICE_REF=open("/tmp/raw_ref.txt").read().strip() if os.path.exists("/tmp/raw_
 SCENES={"bench":f"{RAW}/bench_anchor.png","kitchen":f"{RAW}/kitchen_anchor.png","shelf":f"{RAW}/shelf_anchor.png",
         "packing":f"{RAW}/packing_anchor.png","window":f"{RAW}/window_anchor.png"}
 HANDS=f"{RAW}/hands_ref.png"; OVERHEAD=f"{RAW}/overhead_action.png"
-VOICE={"voiceCloneId":"6f906e1c-3bcd-404f-9f35-e16c76a98be1","model":"speech-2.8-hd","speed":1.05,"language_boost":"en"}
+VOICE={"voiceCloneId":"2e2ea1c5-13fb-4747-91c8-b7f3fc0b9482","model":"speech-2.8-hd","speed":1.05,"language_boost":"en"}
 
 # ---- prompt blocks ----
 IDENTITY=("This is the EXACT SAME woman shown in the reference keyframe image — identical face, tortoiseshell "
