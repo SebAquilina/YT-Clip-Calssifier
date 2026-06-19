@@ -895,3 +895,32 @@ These are STANDING requirements for every future video (the four issues found in
    which are frame-matched) to hide the tiny seam without a dissolve, and ~0.40s only at scene
    changes / gap boundaries. Always assemble videos with this (not the uniform assembler) so
    same-scene talking-head transitions are smooth every time.
+
+# FORMAT v5.7 — IMAGE VISUALS track (reduces talking head significantly)
+
+Adds a third visual track: **images that literally depict what's being said**, a few seconds
+each, in THREE modes. This is the biggest pacing/retention lever and cuts the talking-head
+share to ~30-40%. FULL GUIDELINE: `references/image-visuals.md` (modes, decision rules,
+prompt templates, assembly ffmpeg recipes, audio routing, gates, build hooks). Summary:
+
+- **Three modes:** (A) **full-frame** still with Ken-Burns zoom, narrated by the cloned voice;
+  (B) **split-screen** — talking head cropped to one pane (default left ~46%) + image on the
+  other with Ken Burns, using the TH clip's own audio; (C) **come-to-life** — an input/generated
+  still used as the veo first frame and subtly animated (img2video), narrated by the cloned voice.
+- **New mix:** TH ~30-40% · full-frame img ~20-30% · split ~15-25% · come-to-life ~5-15% ·
+  hands B-roll ~10-15%. Change what's on screen every 3-6s; never >2 of the same mode in a row.
+- **Scheduler (which mode per sentence):** hook/reveal/beauty → come-to-life; "look at this one
+  thing", face not needed → full-frame; explain-while-showing, keep her present → split; physical
+  action → hands B-roll; personality/claim/transition/CTA/abstract → talking head.
+- **Prompts:** image must be LITERALLY the sentence's subject, warm amateur-workshop aesthetic
+  (not stock/cinematic), HARD no-text always; don't pass Candice's ref unless she's meant to be in
+  the image; render comparison LABELS as a post overlay, not via the model.
+- **Beat schema:** `type:"image"`, `visual_mode`, `image_prompt`, `image_ref_url`, `kenburns`,
+  `split`, `motion`, `narration_source`. Image beats are standalone visual beats (chain/scene
+  logic skips them); split beats also need a normal TH clip for the cropped pane.
+- **Gates extend to images:** literal-match (vision), no-text (vision, not raw tesseract),
+  face gate only if Candice is in the image, delogo come-to-life clips, no 8s-truncation risk
+  on TTS-narrated image beats.
+- **Build hooks:** `buildkit` img_full/img_split/img_live helpers; a `gen_images.py` (mirrors
+  `gen_thumb_generic.py`) to render+host stills; reuse `book_cta_th.py` keyframes path for
+  come-to-life; `assemble_smooth.py` gains per-visual_mode segment builders (see §6 of the guideline).
