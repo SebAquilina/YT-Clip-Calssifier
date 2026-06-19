@@ -5,7 +5,7 @@ Truncation fixed (over-long sentences split so every clip says its full line; ve
 | # | Video | Zip |
 |---|---|---|
 | 1 | POOR SCENT THROW | https://litter.catbox.moe/cz6yzd.zip |
-| 2 | I Inspected 50 FAILED Candle Batches | https://litter.catbox.moe/8rtasc.zip |
+| 2 | I Inspected 50 FAILED Candle Batches | https://litter.catbox.moe/mp3x40.zip |
 | 3 | STOP Buying Wicks From Amazon | https://litter.catbox.moe/3zr45v.zip |
 | 4 | $2 Wicks vs $20 Wicks | https://litter.catbox.moe/9zdkuh.zip |
 | 5 | Buying Your FIRST Candle Kit | https://litter.catbox.moe/r6lrfu.zip |
