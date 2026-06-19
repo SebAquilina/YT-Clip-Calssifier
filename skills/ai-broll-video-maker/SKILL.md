@@ -804,3 +804,43 @@ items below.
     (`video_new_build/watchdog.sh`) relaunches any dead piece every ~10 min while the session is
     active — but the reliable path to finishing long jobs is periodic user check-ins, each of
     which wakes the session and heals everything.
+
+# FORMAT v5.5 — the 8-SECOND TRUNCATION gate (clips must say their WHOLE line)
+
+veo TH clips are hard-capped at 8s. A sentence too long to say in 8s is TRUNCATED
+MID-SENTENCE by veo at generation (the clip ends while she's still talking) — the
+assembler faithfully keeps the whole clip, so the missing words were simply never
+generated. This is invisible unless you transcribe. Hard rules now:
+
+1. **Segment to fit 8s.** Keep each TH beat's sentence to ~18 words max (≈ what fits
+   in ~7s of speech). Longer multi-clause sentences and MrBeast hooks (35-40 words)
+   WILL be cut. Split them into separate beats at build time.
+2. **TRUNCATION GATE (mandatory, like the face gate).** After generating TH clips,
+   transcribe each SOURCE clip (faster-whisper base.en) and compare to the intended
+   line; flag any clip missing its ending. Number/spelling artifacts ("fifty"->"50",
+   "one"->"1") are false positives — verify by eye. `video_new_build/cutdetect`-style
+   logic. Re-segment + regenerate every truncated beat before assembly.
+3. **Splitting an over-long beat after the fact:** `video_new_build/split_fix.py` does
+   manifest surgery — splits beat `bNN_th` into `bNN_th`(part1) + `bNNs_th`(part2) with
+   a derived id so NO other beat ids shift (no cascade/regeneration of clean clips),
+   and adds part2 to the same chain (same-scene micro-crossfade). Longer videos are
+   fine; preserve content rather than truncating wording.
+4. **OVERRUN at the split seam.** If part1 (S1) is much shorter than 8s, veo FILLS the
+   remaining seconds by continuing into part2's words -> the seam STUTTERS/duplicates.
+   Fix: append a hard-stop to part1's prompt — "After she says that exact sentence she
+   immediately stops talking, closes her mouth, and pauses silently for the remaining
+   seconds; she does NOT continue or add words." Re-gen part1. Detect overruns by
+   checking whether part1's transcript contains part2's opening words.
+5. **PARALLEL REGEN STATE RACE (critical).** Do NOT run multiple `regen_clip.py` for the
+   SAME project concurrently — each reads+writes that project's `state.json`, so
+   concurrent writes LOSE updates (a clip is generated but its state entry is
+   overwritten -> the assembler then silently drops it). Either regen one-project-at-a-
+   time, or repair afterwards: any `Source clips/<id>.mp4` that exists but is missing
+   from state -> rewrite its state entry (status=downloaded, file=abspath). ALWAYS
+   re-verify (truncation + face) the repaired beats — they were skipped by gates that
+   key off state. Parallelism across DIFFERENT projects is safe.
+6. **Chapters after splitting:** `gen_description.py` maps acts to ORIGINAL (non-`s_th`)
+   beats so timestamps stay correct even though the manifest has extra split beats.
+7. **End-to-end verification before delivery:** transcribe the FINAL assembled video's
+   hook/transitions and confirm sentences play complete with no stutter — the source
+   gate plus this final pass together guarantee nothing was cut or duplicated.
