@@ -844,3 +844,54 @@ generated. This is invisible unless you transcribe. Hard rules now:
 7. **End-to-end verification before delivery:** transcribe the FINAL assembled video's
    hook/transitions and confirm sentences play complete with no stutter — the source
    gate plus this final pass together guarantee nothing was cut or duplicated.
+
+# FORMAT v5.6 — watermark delogo, book-quality remedy, robust caption detection (skill standards)
+
+These are STANDING requirements for every future video (the four issues found in review).
+
+1. **veo WATERMARK is not reliably removed by the API — delogo it yourself.**
+   `skipWatermarkRemoval:false` asks 69labs to delogo the "Veo" mark bottom-right, but it is
+   applied INCONSISTENTLY (some clips keep the watermark). Guarantee removal with ffmpeg
+   `delogo` over the mark. On 1280x720 the mark sits ~x1225-1268,y692-708; a safe box is
+   `delogo=x=1198:y=676:w=78:h=40`. Apply it either per-clip in the assembler's vfilter or as
+   one final-pass over the finished video (`video_new_build/polish.py`). It interpolates the
+   tiny corner from surrounding pixels — invisible on clean clips, removes the mark on dirty
+   ones. ALWAYS verify by cropping the bottom-right corner of a few frames.
+
+2. **The book in the CTA is LOW QUALITY because veo RE-RENDERS it, not pastes it.** In
+   `ingredients` mode the book cover is only a *reference* — veo redraws the book in its own
+   hand-held render, so fine cover text/art is reconstructed at low fidelity and never matches
+   the real file (especially small in-frame). It CANNOT be made crisp by prompting. Remedy:
+   composite the REAL high-res cover into the CTA — `polish.py` overlays `assets/book_cover.jpg`
+   as a clean bordered inset (bottom-left, ~300px) during the CTA window so viewers see the
+   actual crisp title. (Alternatives: a brief full-screen Ken-Burns cutaway of the real cover,
+   or a corner PiP.) Keep her holding the rendered book for the talking-head feel; the inset
+   carries the legibility.
+
+3. **CAPTION/subtitle burn-in: NOTEXT is not enough, and tesseract MISSES these captions.**
+   veo sometimes renders the spoken line as a semi-transparent garbled subtitle even with the
+   NOTEXT block (e.g. fail b21). Two standing rules:
+   - PROMPT: append a forceful recency clause to every TH prompt — "CRITICAL ABSOLUTE RULE:
+     ZERO text rendered over the video; no subtitles, captions, transcription, semi-transparent
+     words or caption bar anywhere; pure photographic footage; do not add subtitles."
+   - DETECT: plain `tesseract` FAILS on low-contrast semi-transparent captions (it returned
+     nothing on a clip that visibly had one). Detect captions with a VISION agent (or
+     contrast-boosted / thresholded OCR), not raw tesseract — sample mid-and-late frames
+     (captions often appear only in the back half of the clip). Regenerate any flagged clip.
+
+4. **IMPOSTER PREVENTION = the COMBINATION of systems, run as a mandatory gate every time:**
+   (a) generate identity-locked (seed every TH from a clean Candice anchor + strong IDENTITY
+   prompt); (b) `face_scan.py` 2-class ArcFace gate (Candice centroid vs imposter centroid,
+   8 frames/clip) over ALL clips — flags + REVIEW tier; (c) eyeball REVIEW + any flag at FULL
+   resolution (small thumbnails once hid an imposter); (d) regenerate flagged → **RE-SCAN** →
+   iterate until the scan returns 0 (a regen can itself drift). Keep extending
+   `imposter_refs/` whenever a new wrong face is seen. This combination is what got the final
+   takes to zero imposters; it is not optional.
+
+5. **TRANSITIONS — what went wrong and the standing fix.** A single uniform crossfade over
+   EVERY join dissolved between near-identical SAME-SCENE frames -> a visible ghost/pulse;
+   hard cuts showed a small pose jump. Standing fix = `assemble_smooth.py` PER-BOUNDARY
+   crossfades: ~0.12s micro-crossfade within a scene (consecutive clips in the same chain,
+   which are frame-matched) to hide the tiny seam without a dissolve, and ~0.40s only at scene
+   changes / gap boundaries. Always assemble videos with this (not the uniform assembler) so
+   same-scene talking-head transitions are smooth every time.
