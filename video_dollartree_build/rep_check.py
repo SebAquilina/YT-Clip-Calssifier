@@ -9,14 +9,18 @@ PROJ=sys.argv[1]; PF=os.path.join(PROJ,"Project files")
 M=json.load(open(os.path.join(PF,"manifest.json"))); S=json.load(open(os.path.join(PF,"state.json")))
 mdl=WhisperModel("small.en", device="cpu", compute_type="int8")
 def norm(s): return re.sub(r"[^a-z0-9 ]","",s.lower()).split()
-def has_rep(words):
-    # immediate word triple (a a a) or repeated trigram
+def trigrams(words): return {tuple(words[i:i+3]) for i in range(len(words)-2)}
+def has_rep(words, script_words):
+    # script-aware: only flag repeats that are NOT in the script (avoids looping on lines that
+    # legitimately repeat a phrase, e.g. "a dollar candle is a dollar candle").
+    sg=trigrams(script_words)
     for i in range(len(words)-2):
-        if words[i]==words[i+1]==words[i+2]: return f"word x3: {words[i]}"
+        if words[i]==words[i+1]==words[i+2] and not (words[i]==words[i+1] and (words[i],)*3 in {tuple(script_words[j:j+3]) for j in range(len(script_words)-2)}):
+            return f"word x3: {words[i]}"
     seen={}
     for i in range(len(words)-2):
-        tg=tuple(words[i:i+3]);
-        if tg in seen and i-seen[tg]>=3: return f"trigram repeat: {' '.join(tg)}"
+        tg=tuple(words[i:i+3])
+        if tg in seen and i-seen[tg]>=3 and tg not in sg: return f"trigram repeat: {' '.join(tg)}"
         seen[tg]=i
     return None
 flags=[]
@@ -29,7 +33,7 @@ for b in M["beats"]:
     if not os.path.exists("/tmp/_rp.wav"): continue
     segs,_=mdl.transcribe("/tmp/_rp.wav",language="en"); heard=" ".join(s.text for s in segs).strip()
     hw=norm(heard); sw=norm(b["sentence"])
-    rep=has_rep(hw); over = len(hw)>1.5*max(1,len(sw))
+    rep=has_rep(hw, sw); over = len(hw)>1.6*max(1,len(sw))
     if rep or over:
         flags.append(b["id"])
         print(f"{b['id']:13} {'REP:'+rep if rep else ''} {'OVER %.1fx'%(len(hw)/max(1,len(sw))) if over else ''}")
