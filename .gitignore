@@ -125,3 +125,14 @@ DT_SYSTEM_TEST*.mp4
 video_dollartree_veo/Project files/state.json
 video_dollartree_veo/Project files/audio/
 video_dollartree_veo/Project files/segments/
+
+# 20-minute build + validation scratch (heavy media; manifests/scripts stay tracked)
+video_dt20_veo/Source clips/
+video_dt20_veo/images/
+video_dt20_veo/*.mp4
+video_dt20_veo/Project files/state*.json
+video_dt20_veo/Project files/audio/
+video_dt20_veo/Project files/segments/
+video_dt20_veo/Project files/*.log
+video_dt20test_veo/
+reference_build/*.png
