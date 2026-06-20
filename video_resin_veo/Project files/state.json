@@ -1,35 +1,143 @@
 {
   "beats": {
-    "b000_th": {},
+    "b000_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b000_th.mp4"
+    },
     "b001_full": {
-      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b001_full.png"
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b001_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b001_full.mp3",
+      "adur": 6.516
     },
     "b002_live": {
-      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b002_live.png"
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b002_live.png",
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b002_live.mp4",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b002_live.mp3",
+      "adur": 4.608
     },
     "b003_th": {},
     "b004_full": {
-      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b004_full.png"
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b004_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b004_full.mp3",
+      "adur": 5.508
     },
-    "b005_th": {},
-    "b006_full": {},
-    "b007_th": {},
-    "b008_th": {},
-    "b009_th": {},
+    "b005_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b005_th.mp4"
+    },
+    "b006_full": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b006_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b006_full.mp3",
+      "adur": 5.22
+    },
+    "b007_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b007_th.mp4"
+    },
+    "b008_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b008_th.mp4"
+    },
+    "b009_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b009_th.mp4"
+    },
     "b010_split": {},
     "b011_full": {
-      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b011_full.png"
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b011_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b011_full.mp3",
+      "adur": 5.22
     },
-    "b012_th": {},
+    "b012_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b012_th.mp4"
+    },
     "b013_full": {
-      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b013_full.png"
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b013_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b013_full.mp3",
+      "adur": 7.56
     },
-    "b014_split": {},
-    "b015_full": {},
-    "b016_th": {},
-    "b017_full": {},
-    "b018_th": {},
-    "b019_full": {},
-    "b020_split": {}
+    "b014_split": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b014_split.mp4"
+    },
+    "b015_full": {
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b015_full.mp3",
+      "adur": 8.028
+    },
+    "b016_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b016_th.mp4"
+    },
+    "b017_full": {
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b017_full.mp3",
+      "adur": 6.66
+    },
+    "b018_th": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b018_th.mp4"
+    },
+    "b019_full": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b019_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b019_full.mp3",
+      "adur": 5.652
+    },
+    "b020_split": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b020_split.png",
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b020_split.mp4"
+    },
+    "b021_br": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b021_br.mp4",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b021_br.mp3",
+      "adur": 5.472
+    },
+    "b022_full": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b022_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b022_full.mp3",
+      "adur": 6.336
+    },
+    "b023_th": {},
+    "b024_split": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b024_split.png"
+    },
+    "b025_full": {
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b025_full.mp3",
+      "adur": 5.256
+    },
+    "b026_live": {
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b026_live.mp3",
+      "adur": 5.976
+    },
+    "b027_br": {
+      "clip": "/home/user/YT-Clip-Calssifier/video_resin_veo/Source clips/b027_br.mp4"
+    },
+    "b028_full": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b028_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b028_full.mp3",
+      "adur": 6.156
+    },
+    "b029_split": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b029_split.png"
+    },
+    "b030_th": {},
+    "b031_full": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b031_full.png",
+      "audio": "/home/user/YT-Clip-Calssifier/video_resin_veo/Project files/audio/b031_full.mp3",
+      "adur": 6.084
+    },
+    "b032_live": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b032_live.png"
+    },
+    "b033_split": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b033_split.png"
+    },
+    "b034_full": {},
+    "b035_th": {},
+    "b036_th": {},
+    "b037_full": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b037_full.png"
+    },
+    "b038_split": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b038_split.png"
+    },
+    "b039_live": {
+      "image": "/home/user/YT-Clip-Calssifier/video_resin_veo/images/b039_live.png"
+    },
+    "b040_full": {},
+    "b041_th": {},
+    "b042_br": {},
+    "b043_split": {},
+    "b044_full": {}
   }
 }
