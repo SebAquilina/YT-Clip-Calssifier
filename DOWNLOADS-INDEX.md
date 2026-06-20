@@ -119,3 +119,8 @@ Truncation fixed (over-long sentences split so every clip says its full line; ve
 - part03: https://litter.catbox.moe/zbx8q7.part03
 - reassemble: `cat ft8irw.part00 l80dpx.part01 4tbbmt.part02 zbx8q7.part03 > "POOR SCENT THROW deliverable.zip"`
 - verify: md5 = `0d19949b81f3ce6656f745caf3e416a3`
+
+## I Tried Every Dollar-Tree Candle — Here's What I Found (image-visuals format) ⭐ NEW
+- 41 beats: 20 talking-head + 11 full-frame images + 4 come-to-life + 3 split-screen + 3 hands B-roll. Gates: 0 imposters (2-class ArcFace), 0 Veo watermarks, no truncation. Frame-by-frame Elias-Yoder said↔shown audit (v1 3.68/5 → v2 ~4.6/5). See `video_dollartree_veo/AUDIT-v1-vs-elias-yoder.md`.
+- **v2 (recommended, 5:03):** https://litter.catbox.moe/p5ewma.mp4
+- v1 (original, 5:03): https://litter.catbox.moe/o8xg4a.mp4
