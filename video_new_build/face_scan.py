@@ -62,7 +62,8 @@ def dur(p):
     try: return float(subprocess.run([FP,"-v","error","-show_entries","format=duration","-of","default=nk=1:nw=1",p],capture_output=True,text=True).stdout.strip())
     except: return 8.0
 def clipfile(bid):
-    f=S["beats"].get(bid,{}).get("job",{}).get("file")
+    e=S["beats"].get(bid,{})
+    f=e.get("job",{}).get("file") or e.get("clip")
     return f if f and os.path.exists(f) else None
 
 DRIFT_ABS=argf("--driftabs",0.40)   # a frame this low is "clearly not Candice"
