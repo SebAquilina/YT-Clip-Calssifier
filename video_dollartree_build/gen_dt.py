@@ -13,7 +13,13 @@ PROJ=sys.argv[1]; PF=os.path.join(PROJ,"Project files")
 SRC=os.path.join(PROJ,"Source clips"); IMG=os.path.join(PROJ,"images"); AUD=os.path.join(PF,"audio")
 for d in (SRC,IMG,AUD): os.makedirs(d,exist_ok=True)
 M=json.load(open(os.path.join(PF,"manifest.json")))
-SP=os.path.join(PF,"state.json")
+# optional sharding: --shard I/N -> this worker handles only beats where index%N==I, with its OWN
+# state file (state_sI.json). Disjoint shards never write the same file => no state race. Run up to
+# ~5 shards in parallel (matches veo's 5-concurrent limit), then merge_state.py combines them.
+SHARD=None; NSH=1
+if "--shard" in sys.argv:
+    SHARD,NSH=map(int,sys.argv[sys.argv.index("--shard")+1].split("/"))
+SP=os.path.join(PF,f"state_s{SHARD}.json") if SHARD is not None else os.path.join(PF,"state.json")
 S=json.load(open(SP)) if os.path.exists(SP) else {"beats":{}}
 def save(): json.dump(S,open(SP,"w"),indent=2)
 def st(bid): return S["beats"].setdefault(bid,{})
@@ -21,7 +27,8 @@ def have(p): return p and os.path.exists(p) and os.path.getsize(p)>2000
 def vid_ok(p):
     return have(p) and K.dur(p)>0.4
 
-for b in M["beats"]:
+for idx,b in enumerate(M["beats"]):
+    if SHARD is not None and idx%NSH!=SHARD: continue
     bid=b["id"]; vm=b.get("visual_mode",b.get("type")); e=st(bid)
     # --- TH clip (talking_head + image_split need a veo TH clip) ---
     if vm in ("talking_head","image_split"):
@@ -69,11 +76,12 @@ for b in M["beats"]:
             for _ in range(3):
                 if K.tts(b["narration"], mp3): e["audio"]=os.path.abspath(mp3); e["adur"]=K.dur(mp3); save(); break
     save()
-# report
-done=sum(1 for b in M["beats"] if (lambda vm,e: (
+# report (this shard's beats only)
+mine=[b for i,b in enumerate(M["beats"]) if SHARD is None or i%NSH==SHARD]
+done=sum(1 for b in mine if (lambda vm,e: (
     (vm in("talking_head","image_split") and vid_ok(e.get("clip"))) or
     (vm=="image_full" and have(e.get("image")) and have(e.get("audio"))) or
     (vm=="image_live" and vid_ok(e.get("clip")) and have(e.get("audio"))) or
     (vm=="broll" and vid_ok(e.get("clip")) and have(e.get("audio")))
 ))(b.get("visual_mode",b.get("type")), st(b["id"])))
-print(f"GEN DONE: {done}/{len(M['beats'])} beats complete",flush=True)
+print(f"GEN DONE{'' if SHARD is None else ' shard '+str(SHARD)}: {done}/{len(mine)} beats complete",flush=True)
