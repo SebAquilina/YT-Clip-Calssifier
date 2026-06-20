@@ -139,3 +139,8 @@ Truncation fixed (over-long sentences split so every clip says its full line; ve
 ## Dollar-Tree 20-min v3 — imposter/vanilla/VO-cutoff fixes
 - Fixed 4 imposter clips at ~min 3/7/10 (b021/b043b/b058/b062 — had been re-rolled AFTER the prior face scan; now face-checked post-regen), de-glossed the fake-looking vanilla hero image (b133), and regenerated b014's truncated voiceover.
 - **Video (21.8 min, -16 LUFS):** https://litter.catbox.moe/mn5wbs.mp4
+
+## VIDEO 1/3 — Melting EVERY Bath & Body Works Candle Into ONE Giant Candle (11.3 min) ⭐
+- 101 beats, 30% TH, MrBeast hook + book CTA + 6 topics + outro. All gates passed (0 imposters, 0 text/watermark, no cutoffs/repeats).
+- Zip (video + 62 source clips + thumbnail + description): https://litter.catbox.moe/otax5o.zip
+- Video: https://litter.catbox.moe/fyocw7.mp4
