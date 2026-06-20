@@ -130,3 +130,8 @@ Truncation fixed (over-long sentences split so every clip says its full line; ve
 - ALL gates passed: imposter face scan **0 flagged**, truncation/cutoff **all fixed** (small.en gate), no-text/caption + watermark vision scan across all 178 beats (**0 watermarks**, 4 caption beats re-rolled), muted-clip check.
 - Mix: 50% talking-head (truncation-split artifact — next builds target 30% per v5.9), 17% split, 22% full-frame VO, 7% come-to-life, 5% hands B-roll.
 - **Video (22.7 min):** https://litter.catbox.moe/eftt5c.mp4
+
+## Dollar-Tree 20-min v2 — lip-sync/TTS/silence/split/CTA fixes ⭐ NEW
+- 177 beats, 21.8 min, -16 LUFS. Fixes: lip-sync (sample-aligned volume gain vs dynamic loudnorm), TTS cutoffs (tail headroom), awkward TH silence cropped, split-screen face-centered, book CTA (real cover inset) after intro, repetition/padding clips re-rolled. No-music + B-roll no-spawn added for future builds.
+- **Zip (video + IMPROVEMENTS.md):** https://litter.catbox.moe/rbh6vf.zip
+- **Video (21.8 min):** https://litter.catbox.moe/x4t5th.mp4
