@@ -19,7 +19,7 @@ for d in (SRC,IMG,AUD): os.makedirs(d,exist_ok=True)
 M=json.load(open(os.path.join(PF,"manifest.json")))
 SP=os.path.join(PF,"state.json")
 S=json.load(open(SP)) if os.path.exists(SP) else {"beats":{}}
-VID=argf("--vid",5); IMGN=argf("--img",7); TTSN=argf("--tts",5)
+VID=argf("--vid",5); IMGN=argf("--img",7); TTSN=argf("--tts",2)  # TTS limit is 2 concurrent
 vid_sem=threading.Semaphore(VID); img_sem=threading.Semaphore(IMGN); tts_sem=threading.Semaphore(TTSN)
 lock=threading.Lock()
 def save():
