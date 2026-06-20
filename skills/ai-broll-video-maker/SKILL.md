@@ -941,3 +941,13 @@ Five fixes from the Dollar-Tree 20-min build (full detail: `references/image-vis
 Bugs to never reintroduce: `br(action, narration)` arg order (swap => TTS reads the stage direction
 aloud — keep the guard assert); ultra-short veo lines (<~6 words) return muted (pad to ~9-12 words).
 Long videos: `gen_dt.py --shard I/N` (N≈5) + `merge_state.py` for safe parallel generation (~5x faster).
+
+### FORMAT v5.9 — talking-head capped at ~30%, full-frame VO absorbs the slack
+- **Talking head ≤ ~30%** of beats/runtime. Default any concrete/descriptive line to a
+  **full-frame image + voiceover** beat (the dominant non-TH carrier); only use TH for personality,
+  key claims and transitions.
+- **Intro, outro and ALL CTAs are ALWAYS talking head** (open on her face, close on her face, every
+  subscribe/comment ask on her face) — never voice-over those moments.
+- **Author the script in short ≤18-word lines from the start.** Long lines both truncate at veo's 8s
+  cap AND inflate TH (post-hoc splitting turns one long TH line into two TH beats). Short lines fix
+  both. Target ~12-16 words/line.

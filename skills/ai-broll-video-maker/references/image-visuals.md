@@ -18,11 +18,20 @@ Old mix was ~70-90% talking head. New target mix per finished minute:
 
 | Track | Old | NEW target | Role |
 |---|---|---|---|
-| Talking head (full) | 70-90% | **30-40%** | hook, key claims, personality, transitions, CTA |
-| Image — full-frame | 0 | **20-30%** | "look at exactly this", reveals, comparisons |
+| Talking head (full) | 70-90% | **~30% (cap)** | intro, outro, CTAs (ALWAYS), key claims, personality, transitions |
+| Image — full-frame + VO | 0 | **~35% (absorbs the slack)** | the default carrier — "look at exactly this", reveals, comparisons, any concrete line |
 | Image — split (TH + image) | 0 | **15-25%** | explaining WHILE showing; keeps her present |
 | Image — come-to-life | 0 | **5-15%** | hero/beauty beats, dramatic reveals, the hook |
 | Hands B-roll | 10-20% | **10-15%** | her doing the physical action |
+
+**Hard rules (v5.9):**
+- **Talking head is capped at ~30%.** When in doubt, a line is a full-frame-image-with-voiceover
+  beat, NOT a talking head. Full-frame VO is the default and picks up all the slack.
+- **Intro, outro and every CTA are ALWAYS talking head** (her face for the open, the close, and any
+  subscribe/comment ask) — never voice-over those.
+- **Write the script in short ≤18-word lines from the start.** This avoids veo's 8s truncation AND
+  keeps TH low — splitting long lines after the fact silently inflates the TH share (each long TH
+  line becomes two TH beats). Short lines up front is the single fix for both problems.
 
 Pacing rule: **change what's on screen every 3-6 seconds.** Never hold one mode for more
 than ~12s except a deliberate talking-head moment. Vary the modes — don't run three
