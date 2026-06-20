@@ -35,8 +35,10 @@ for b in M["beats"]:
         img=os.path.join(IMG,f"{bid}.png")
         if not have(e.get("image")):
             print(f"[{bid}] image still",flush=True)
-            refs=[b["image_ref_url"]] if b.get("image_ref_url") else None
-            if K.gen_image(b["image_prompt"], img, image_urls=refs): e["image"]=os.path.abspath(img); save()
+            # reference = explicit per-beat ref, else the canonical bench (keeps wood+light consistent)
+            refs=[b["image_ref_url"]] if b.get("image_ref_url") else ([K.BENCH_REF] if K.BENCH_REF else None)
+            ar=b.get("ar","16:9")   # split panes are near-square -> 1:1 so they are not squeezed
+            if K.gen_image(b["image_prompt"], img, image_urls=refs, aspect=ar): e["image"]=os.path.abspath(img); save()
     # --- come-to-life: animate the still ---
     if vm=="image_live":
         clip=os.path.join(SRC,f"{bid}.mp4")

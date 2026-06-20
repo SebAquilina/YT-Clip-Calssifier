@@ -12,6 +12,14 @@ CANDICE_REF=open("/tmp/raw_ref.txt").read().strip() if os.path.exists("/tmp/raw_
 SCENES={"bench":f"{RAW}/bench_anchor.png","kitchen":f"{RAW}/kitchen_anchor.png","shelf":f"{RAW}/shelf_anchor.png",
         "packing":f"{RAW}/packing_anchor.png","window":f"{RAW}/window_anchor.png"}
 HANDS=f"{RAW}/hands_ref.png"; OVERHEAD=f"{RAW}/overhead_action.png"
+# canonical workbench reference (her bench) — hosted URL written here after refs_build.py; used as an
+# img2img reference so every image/scene shares the SAME wooden workbench surface & lighting.
+BENCH_REF=open("/tmp/bench_ref.txt").read().strip() if os.path.exists("/tmp/bench_ref.txt") else None
+# runtime override: refs_build.py writes high-quality, hosted scene keyframes + candice ref here.
+if os.path.exists("/tmp/scene_refs.json"):
+    _o=json.load(open("/tmp/scene_refs.json")); SCENES.update(_o.get("scenes",{}))
+    if _o.get("candice"): CANDICE_REF=_o["candice"]
+    if _o.get("bench"): BENCH_REF=_o["bench"]
 VOICE={"voiceCloneId":"2e2ea1c5-13fb-4747-91c8-b7f3fc0b9482","model":"speech-2.8-hd","speed":1.05,"language_boost":"en"}
 
 # ---- prompt blocks ----
@@ -23,10 +31,17 @@ TH_STRICT=("Exactly ONE person, natural blink and lip-sync, steady framing; she 
 NOTEXT=("CRITICAL ABSOLUTE RULE: ZERO text rendered over the video — no subtitles, captions, transcription, "
 "semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic "
 "footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.")
-WS=("an ordinary lived-in home candle workshop: a worktable with glass candle jars, soy wax, amber fragrance-oil "
-"bottles, a kitchen thermometer and a curing shelf of finished candles, natural daylight.")
-PHONE=("casual amateur smartphone footage: handheld, slight natural shake, natural light, deep focus; photo-real and "
-"physically correct, nothing spawns or vanishes, hands have five fingers, continuous subtle motion, never frozen.")
+WS=("the same lived-in home candle workshop: her rustic wooden workbench with glass candle jars, soy wax, amber "
+"fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles behind, soft natural window light.")
+# iPhone-realism clause — the single most important anti-"fake/3D-render" knob. Deep focus, NOT shallow; no studio look.
+IPHONE=("Shot on a modern smartphone (iPhone) held in the hand, casual amateur snapshot: deep focus with everything "
+"sharp front to back, wide ~26mm-equivalent lens, natural available window light only, slight handheld micro-shake, "
+"true-to-life slightly flat color, real crisp texture with faint sensor grain. Absolutely NO background blur or bokeh, "
+"NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look — it must look "
+"like a real person quickly photographed this on their phone on a real wooden workbench.")
+PHONE=("casual amateur smartphone footage: handheld, slight natural shake, deep focus everything sharp, natural window "
+"light, NO bokeh, NO cinematic grade; photo-real and physically correct, nothing spawns or vanishes, five fingers, "
+"continuous subtle motion, never frozen.")
 
 def th_prompt(sentence, scene="bench", moved=False):
     s={"bench":"seated at her rustic wooden candle-workshop workbench","kitchen":"standing at her kitchen stove station",
@@ -34,19 +49,19 @@ def th_prompt(sentence, scene="bench", moved=False):
        "window":"seated by a bright window at a small side table"}[scene]
     lead=(f"She has just moved and is now {s}, settling naturally into frame as she keeps talking. " if moved
           else f"She is {s}, looking straight at camera. ")
-    return (f"Photoreal casual handheld smartphone vlog clip. {IDENTITY}{lead}She speaks directly to camera in a warm "
-    f"American accent, lips fully in sync, saying exactly: \"{sentence}\". {TH_STRICT} {NOTEXT} Setting: {WS}")
+    return (f"Casual handheld iPhone vlog clip filmed on a real workbench. {IDENTITY}{lead}She speaks directly to camera "
+    f"in a warm American accent, lips fully in sync, saying exactly: \"{sentence}\". {TH_STRICT} {IPHONE} {NOTEXT} "
+    f"Setting: {WS}")
 
 def image_prompt(subject, shot="close-up"):
-    # LITERAL still of the thing being said; warm amateur workshop aesthetic; no text; no stray people/faces
-    return (f"Photoreal {shot} image of {subject}. Warm natural daylight, lived-in home candle workshop or rustic "
-    f"wooden bench, true real-world textures, honest shallow depth, slightly imperfect amateur look — NOT glossy "
-    f"stock, not cinematic. No people and no faces unless explicitly part of the subject; no hands unless needed. "
-    f"{NOTEXT} 16:9.")
+    # LITERAL still of the thing being said, as an iPhone snapshot on her real workbench; no text; no stray people/faces
+    return (f"A casual {shot} iPhone photo of {subject}, on a real rustic wooden candle-workshop workbench in a lived-in "
+    f"home workshop, a little honest clutter around it. {IPHONE} No people and no faces unless explicitly part of the "
+    f"subject; no hands unless needed. {NOTEXT}")
 
 def live_motion(motion):
-    return (f"The still photo comes to life with subtle real motion: {motion}, and a slow gentle camera push-in. "
-    f"Photoreal, physically correct; nothing morphs, melts or spawns; no people appear; {NOTEXT}")
+    return (f"The still phone photo comes to life with subtle real motion: {motion}, and a slow gentle handheld camera "
+    f"push-in. {IPHONE} Physically correct; nothing morphs, melts or spawns; no people appear; {NOTEXT}")
 
 # ---- 69labs API ----
 def req(method, path, body=None, t=90):
@@ -99,9 +114,10 @@ def gen_video(prompt, dest, image_urls=None, mode="keyframes", muted=False, trie
         time.sleep(6)
     return False
 
-def gen_image(prompt, dest, image_urls=None, tries=3):
+def gen_image(prompt, dest, image_urls=None, tries=3, aspect="16:9"):
+    # nano-banana-2 supports aspectRatio in {16:9, 1:1, 3:4, 4:3, 9:16}
     for _ in range(tries):
-        body={"model":"nano-banana-2","aspectRatio":"16:9","prompt":prompt}
+        body={"model":"nano-banana-2","aspectRatio":aspect,"prompt":prompt}
         if image_urls: body["imageUrls"]=image_urls
         st,j=req("POST","/images/generate",body); jid=j.get("id")
         if not jid:

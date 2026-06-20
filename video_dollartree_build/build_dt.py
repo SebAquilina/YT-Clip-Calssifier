@@ -13,16 +13,22 @@ def img_full(subject, narration, shot="close-up", kb="in"):
     B.append({"id":_id("full"),"type":"image","visual_mode":"image_full","sentence":narration,
               "image_prompt":K.image_prompt(subject,shot),"kenburns":{"dir":kb},"narration":narration})
 def img_split(sentence, subject, scene="bench", th_side="left", shot="close-up"):
+    # split image pane is near-square -> generate at 1:1 so it is not warped when placed beside the TH crop
     B.append({"id":_id("split"),"type":"image","visual_mode":"image_split","sentence":sentence,
               "seed":K.SCENES[scene],"prompt":K.th_prompt(sentence,scene),"image_prompt":K.image_prompt(subject,shot),
-              "split":{"th_side":th_side,"th_frac":0.46}})
+              "ar":"1:1","split":{"th_side":th_side,"th_frac":0.46}})
 def img_live(subject, motion, narration, shot="macro"):
     B.append({"id":_id("live"),"type":"image","visual_mode":"image_live","sentence":narration,
               "image_prompt":K.image_prompt(subject,shot),"motion":motion,"narration":narration})
-def br(narration, hands_subject):
-    pr=(f"Close-up POV of ONLY the hands and forearms of a mid-fifties woman (fair naturally-aged skin, plain wedding "
-    f"band, blue sweater cuffs, tan apron) as she {hands_subject}, on her own candle-workshop bench. Her hands ONLY — "
-    f"absolutely NO face, NO head, NO other person. {K.PHONE} {K.NOTEXT} Setting: {K.WS}")
+# NOTE: br(action, narration) — first arg is the HAND ACTION (goes into the veo prompt), second is the
+# SPOKEN narration (goes to TTS). Do NOT swap these: a swap makes the TTS read the stage direction aloud.
+NO_MAKING=(" She is NOT making candles: no pouring wax, no melting, no stirring, no pitcher, no thermometer, no wax. "
+"The candles are FINISHED store-bought jar candles.")
+def br(action, narration):
+    pr=(f"Close-up POV iPhone shot of ONLY the hands and forearms of a mid-fifties woman (fair naturally-aged skin, "
+    f"plain wedding band, blue sweater cuffs, tan apron) as she {action}.{NO_MAKING} Her hands ONLY — absolutely NO "
+    f"face, NO head, NO other person. {K.PHONE} {K.NOTEXT} Setting: {K.WS}")
+    assert len(narration.split())>=4 and not narration.endswith(("-out","label-out")), f"br narration looks like a stage direction: {narration!r}"
     B.append({"id":_id("br"),"type":"broll","visual_mode":"broll","narration":narration,"prompt":pr,"broll_ref":K.HANDS})
 
 # ===== HOOK =====
