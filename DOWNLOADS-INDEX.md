@@ -124,3 +124,9 @@ Truncation fixed (over-long sentences split so every clip says its full line; ve
 - 41 beats: 20 talking-head + 11 full-frame images + 4 come-to-life + 3 split-screen + 3 hands B-roll. Gates: 0 imposters (2-class ArcFace), 0 Veo watermarks, no truncation. Frame-by-frame Elias-Yoder said↔shown audit (v1 3.68/5 → v2 ~4.6/5). See `video_dollartree_veo/AUDIT-v1-vs-elias-yoder.md`.
 - **v2 (recommended, 5:03):** https://litter.catbox.moe/p5ewma.mp4
 - v1 (original, 5:03): https://litter.catbox.moe/o8xg4a.mp4
+
+## I Tried EVERY Dollar-Tree Candle — 20-MINUTE deep dive (upgraded engine) ⭐ NEW
+- 178 beats, 22.7 min, -16 LUFS. New realism engine: iPhone-on-a-real-workbench look, consistent generated workbench, sharp identity-locked scene keyframes, 1:1 split images (no warp), per-segment loudnorm (veo↔TTS matched), fixed br() arg-swap.
+- ALL gates passed: imposter face scan **0 flagged**, truncation/cutoff **all fixed** (small.en gate), no-text/caption + watermark vision scan across all 178 beats (**0 watermarks**, 4 caption beats re-rolled), muted-clip check.
+- Mix: 50% talking-head (truncation-split artifact — next builds target 30% per v5.9), 17% split, 22% full-frame VO, 7% come-to-life, 5% hands B-roll.
+- **Video (22.7 min):** https://litter.catbox.moe/eftt5c.mp4
