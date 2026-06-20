@@ -271,3 +271,50 @@ beats below took v2 to ~4.6/5. These are the recurring failure modes:
   false positives (e.g. "one-dollar" vs "one dollar") — confirm by reading the
   heard tail.
 - After ALL regens, re-run the said↔shown audit on the changed beats only.
+
+---
+
+## 11. Realism, audio & reference upgrades (Dollar-Tree 20-min build)
+
+Five fixes that materially raised quality; all are baked into imgkit.py / asm_dt.py / gen_dt.py /
+build_dt*.py and must be kept:
+
+1. **iPhone-on-a-real-workbench look (kills the "fake/3D-render" feel).** Every image, come-to-life
+   and talking-head prompt carries the `IPHONE` clause: *shot on a modern smartphone held in the
+   hand, deep focus everything sharp front to back, wide ~26mm lens, natural window light only,
+   slight handheld micro-shake, true-to-life slightly flat color, faint sensor grain; NO bokeh, NO
+   studio/ring lighting, NO cinematic grade, NO glossy stock-photo or 3D/CGI look.* Note: do NOT
+   say "shallow depth of field" anywhere — that was making images look like stock renders.
+2. **Consistent workbench.** Generate ONE canonical empty-workbench reference (`refs_build.py`),
+   host it, set `BENCH_REF`; pass it as the img2img `imageUrls` reference for every image beat so
+   the wood grain, clutter and light match across the whole video.
+3. **High-quality talking-head keyframes (TH was soft because the anchor was soft).** Veo uses the
+   keyframe as the clip's FIRST frame, so a ~768p soft anchor => a soft clip. `refs_build.py`
+   generates several sharp, iPhone-real, identity-locked scene candidates per scene
+   (bench/kitchen/shelf/packing/window) from the Candice face ref; pick the best of each; host them;
+   `/tmp/scene_refs.json` overrides `SCENES`. This is the single biggest TH-quality lever.
+   (Watch the filename collision: the empty-workbench slot and the "bench" SCENE must use DIFFERENT
+   names, or the scene keyframe gets skipped.)
+4. **Split images at the pane's real aspect ratio (no warp).** nano-banana-2 supports
+   {16:9, 1:1, 3:4, 4:3, 9:16} only. The split image pane is ~square, so generate split images at
+   **1:1** (`ar:"1:1"`) and in the assembler **cover-fit + center-crop** them
+   (`scale=...:force_original_aspect_ratio=increase,crop`), never `scale` to the pane size (that
+   squeezes). Full-frame images stay 16:9.
+5. **Per-segment loudness match (veo TH vs cloned TTS).** A single global master preserves the
+   level gap between Veo's talking-head audio and the TTS narration. Apply `loudnorm=I=-18:TP=-2`
+   to EACH segment's audio in the assembler BEFORE the crossfade join, then master globally to -16.
+   Measured result: all sources land within ~1.3 dB.
+
+### Two bugs to never reintroduce
+- **`br(action, narration)` arg order.** First arg is the HAND ACTION (goes in the veo prompt),
+  second is the SPOKEN narration (goes to TTS). Swapping them makes the TTS read the stage
+  direction aloud ("lines up a row of jars, label-out") — a very audible defect. Keep the guard
+  assert in the helper.
+- **Ultra-short veo lines come back muted** (no audio stream). Pad reaction/split-tail lines to
+  ~9-12 words and probe every regenerated TH clip for an audio stream before assembly.
+
+### Scaling generation (long videos)
+For 15-20 min (~130+ beats) the sequential generator is too slow (~9-12 h). Use
+`gen_dt.py --shard I/N` with N≈5 (matches veo's 5-concurrent limit): disjoint shards write separate
+`state_sI.json` files (no state race), then `merge_state.py` combines them into `state.json` for the
+assembler. Cuts wall-clock ~5x.

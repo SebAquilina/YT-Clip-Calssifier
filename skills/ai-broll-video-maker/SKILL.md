@@ -924,3 +924,20 @@ prompt templates, assembly ffmpeg recipes, audio routing, gates, build hooks). S
 - **Build hooks:** `buildkit` img_full/img_split/img_live helpers; a `gen_images.py` (mirrors
   `gen_thumb_generic.py`) to render+host stills; reuse `book_cta_th.py` keyframes path for
   come-to-life; `assemble_smooth.py` gains per-visual_mode segment builders (see §6 of the guideline).
+
+### FORMAT v5.8 — image-visuals realism, audio & reference upgrades
+Five fixes from the Dollar-Tree 20-min build (full detail: `references/image-visuals.md` §10–§11):
+1. **iPhone-on-a-real-workbench look** — every image/live/TH prompt carries the `IPHONE` clause
+   (deep focus, wide ~26mm, natural light, slight shake, faint grain; NO bokeh/studio/cinematic/CGI).
+   Never use "shallow depth of field" — it makes images look like stock renders.
+2. **Consistent bench** — one generated empty-workbench reference (`refs_build.py` → `BENCH_REF`),
+   passed as the img2img reference on every image beat.
+3. **Sharp TH keyframes** — Veo's first frame = the keyframe, so generate sharp, identity-locked
+   scene candidates (`refs_build.py`), pick the best, host, override `SCENES`. Biggest TH-quality win.
+4. **Split images at 1:1** (nano-banana supports 16:9/1:1/3:4/4:3/9:16 only) + cover-crop in the
+   assembler — never scale to pane size (warps). Full-frame stays 16:9.
+5. **Per-segment loudnorm** (I=-18:TP=-2) before the crossfade join, then global master to -16, so
+   Veo TH audio and cloned TTS match (within ~1.3 dB).
+Bugs to never reintroduce: `br(action, narration)` arg order (swap => TTS reads the stage direction
+aloud — keep the guard assert); ultra-short veo lines (<~6 words) return muted (pad to ~9-12 words).
+Long videos: `gen_dt.py --shard I/N` (N≈5) + `merge_state.py` for safe parallel generation (~5x faster).
