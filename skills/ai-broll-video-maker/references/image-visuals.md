@@ -318,3 +318,6 @@ For 15-20 min (~130+ beats) the sequential generator is too slow (~9-12 h). Use
 `gen_dt.py --shard I/N` with N≈5 (matches veo's 5-concurrent limit): disjoint shards write separate
 `state_sI.json` files (no state race), then `merge_state.py` combines them into `state.json` for the
 assembler. Cuts wall-clock ~5x.
+
+### Casual-snapshot dial (moving forward)
+Push the look further toward a normal person's camera roll: framing is casual and a little imperfect (slightly off-center/tilted, some empty space or a cut-off edge), an ordinary unstaged phone photo — not a clean product shot. Make the **B-roll a notch rougher than the stills**: slightly lower fidelity, a little soft with faint motion blur, grain and uneven exposure, so it reads as genuine handheld human footage rather than polished AI. (Implemented in imgkit `IPHONE` and `PHONE` clauses.)

@@ -34,14 +34,18 @@ NOTEXT=("CRITICAL ABSOLUTE RULE: ZERO text rendered over the video — no subtit
 WS=("the same lived-in home candle workshop: her rustic wooden workbench with glass candle jars, soy wax, amber "
 "fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles behind, soft natural window light.")
 # iPhone-realism clause — the single most important anti-"fake/3D-render" knob. Deep focus, NOT shallow; no studio look.
-IPHONE=("Shot on a modern smartphone (iPhone) held in the hand, casual amateur snapshot: deep focus with everything "
-"sharp front to back, wide ~26mm-equivalent lens, natural available window light only, slight handheld micro-shake, "
-"true-to-life slightly flat color, real crisp texture with faint sensor grain. Absolutely NO background blur or bokeh, "
-"NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look — it must look "
-"like a real person quickly photographed this on their phone on a real wooden workbench.")
-PHONE=("casual amateur smartphone footage: handheld, slight natural shake, deep focus everything sharp, natural window "
-"light, NO bokeh, NO cinematic grade; photo-real and physically correct, nothing spawns or vanishes, five fingers, "
-"continuous subtle motion, never frozen.")
+IPHONE=("A casual everyday snapshot a normal person quickly took on their phone — NOT a professional or staged photo. "
+"Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, "
+"true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect — "
+"slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a "
+"little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, "
+"NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a "
+"real person's camera roll, taken on a real wooden workbench.")
+# B-roll is intentionally a notch ROUGHER than the stills so it reads as genuine handheld human footage.
+PHONE=("rough casual handheld smartphone footage shot by a normal person — slightly lower fidelity, a little soft with a "
+"touch of natural motion blur, faint grain and slightly uneven exposure, real handheld shake, deep focus, natural window "
+"light, NO bokeh, NO cinematic grade, NOT polished or professional; photo-real and physically correct, nothing spawns or "
+"vanishes, five fingers, continuous subtle motion, never frozen.")
 
 def th_prompt(sentence, scene="bench", moved=False):
     s={"bench":"seated at her rustic wooden candle-workshop workbench","kitchen":"standing at her kitchen stove station",
