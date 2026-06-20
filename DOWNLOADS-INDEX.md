@@ -135,3 +135,7 @@ Truncation fixed (over-long sentences split so every clip says its full line; ve
 - 177 beats, 21.8 min, -16 LUFS. Fixes: lip-sync (sample-aligned volume gain vs dynamic loudnorm), TTS cutoffs (tail headroom), awkward TH silence cropped, split-screen face-centered, book CTA (real cover inset) after intro, repetition/padding clips re-rolled. No-music + B-roll no-spawn added for future builds.
 - **Zip (video + IMPROVEMENTS.md):** https://litter.catbox.moe/rbh6vf.zip
 - **Video (21.8 min):** https://litter.catbox.moe/x4t5th.mp4
+
+## Dollar-Tree 20-min v3 — imposter/vanilla/VO-cutoff fixes
+- Fixed 4 imposter clips at ~min 3/7/10 (b021/b043b/b058/b062 — had been re-rolled AFTER the prior face scan; now face-checked post-regen), de-glossed the fake-looking vanilla hero image (b133), and regenerated b014's truncated voiceover.
+- **Video (21.8 min, -16 LUFS):** https://litter.catbox.moe/mn5wbs.mp4
