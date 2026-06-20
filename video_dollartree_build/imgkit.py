@@ -28,6 +28,13 @@ IDENTITY=("This is the EXACT SAME woman shown in the reference keyframe image �
 "face, age or ethnicity. ")
 TH_STRICT=("Exactly ONE person, natural blink and lip-sync, steady framing; she begins the first word immediately "
 "with no inhale and speaks continuously, no big inhale at the end.")
+# audio rule for any veo clip that carries sound (talking head): her voice + natural room tone ONLY.
+NOMUSIC=("AUDIO: only her speaking voice and quiet natural room tone — absolutely NO background music, NO soundtrack, "
+"NO score, NO musical sting or jingle of any kind.")
+# physics rule for B-roll/come-to-life: nothing may appear or vanish.
+NOSPAWN=("Every object is physically present and real from the very first frame and stays put the entire time — "
+"NOTHING pops in, spawns, materializes, fades in, fades out, appears or disappears; no new item ever enters or "
+"leaves; hands only move things already on the bench. Continuous, physically correct real motion throughout.")
 NOTEXT=("CRITICAL ABSOLUTE RULE: ZERO text rendered over the video — no subtitles, captions, transcription, "
 "semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic "
 "footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.")
@@ -54,7 +61,7 @@ def th_prompt(sentence, scene="bench", moved=False):
     lead=(f"She has just moved and is now {s}, settling naturally into frame as she keeps talking. " if moved
           else f"She is {s}, looking straight at camera. ")
     return (f"Casual handheld iPhone vlog clip filmed on a real workbench. {IDENTITY}{lead}She speaks directly to camera "
-    f"in a warm American accent, lips fully in sync, saying exactly: \"{sentence}\". {TH_STRICT} {IPHONE} {NOTEXT} "
+    f"in a warm American accent, lips fully in sync, saying exactly: \"{sentence}\". {TH_STRICT} {NOMUSIC} {IPHONE} {NOTEXT} "
     f"Setting: {WS}")
 
 def image_prompt(subject, shot="close-up"):
@@ -65,7 +72,7 @@ def image_prompt(subject, shot="close-up"):
 
 def live_motion(motion):
     return (f"The still phone photo comes to life with subtle real motion: {motion}, and a slow gentle handheld camera "
-    f"push-in. {IPHONE} Physically correct; nothing morphs, melts or spawns; no people appear; {NOTEXT}")
+    f"push-in. {IPHONE} {NOSPAWN} No people appear. {NOTEXT}")
 
 # ---- 69labs API ----
 def req(method, path, body=None, t=90):
