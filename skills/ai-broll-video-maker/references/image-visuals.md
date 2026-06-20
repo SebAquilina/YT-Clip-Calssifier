@@ -231,3 +231,43 @@ the rest carried by images/B-roll, changing the visual every 3-6s. Every image i
 what she's saying, on the warm amateur workshop aesthetic, text-free, Ken-Burns'd so it breathes;
 come-to-life clips animate a still subtly; split keeps her cropped beside the image. Her cloned
 voice narrates the image beats; her veo voice carries split and full talking-head beats.
+
+---
+
+## 10. Field-tested correlation lessons (Dollar-Tree build, said↔shown audit)
+
+After producing a full image-visuals video, audit EVERY non-TH beat against the
+literal-match rule and re-score. The Dollar-Tree v1 averaged 3.68/5; fixing the
+beats below took v2 to ~4.6/5. These are the recurring failure modes:
+
+1. **Hands B-roll silently becomes "candle-making."** A workshop hands keyframe +
+   a workshop setting biases Veo to pour/stir/weigh wax no matter what action the
+   prompt asks for (lining up jars, holding a jar to the light, pointing at a
+   wick all came back as generic candle-pouring). FIX — add this negative to every
+   hands beat, verbatim:
+   > She is NOT making candles: no pouring wax, no melting, no stirring, no
+   > pitcher, no thermometer, no wax. The candles are FINISHED store-bought jars.
+   …and state ONE concrete action arc. This was the single biggest correlation win.
+2. **Inside-the-jar states need a top-down angle + clear glass.** "Even melt pool
+   to the edge", "clean glass / no soot" are invisible at eye level and impossible
+   in an opaque ceramic vessel. Specify *overhead / high top-down* and *clear
+   glass jar*.
+3. **Abstract lines are talking-head candidates, not image beats.** Verdicts, value
+   reactions ("for a dollar that's incredible"), CTAs and teases have no concrete
+   hero noun; forcing a still yields a generic on-topic candle (score ≤3). Route
+   them to a talking head at scheduling time.
+4. **Ultra-short veo utterances (≤~6 words) can return MUTED** (no audio stream).
+   Pad a split-half or reaction TH line to ~9–12 natural words. Probe every
+   regenerated TH/split clip for an audio stream before assembly.
+5. **8s truncation still applies** to any veo-spoken line (TH or split TH-pane):
+   split >~18-word lines into ≤18-word halves, hard-stop on part 1
+   ("Speak only this one sentence, then stop talking and hold still in silence").
+
+### Post-build gate sequence (run before assembly)
+- `face_scan.py` (2-class ArcFace) on all face clips — 0 imposters required.
+- Vision contact-sheet scan for burned-in captions/Veo watermark (tesseract is
+  unreliable on low-contrast veo captions; use a vision pass on 3 frames/clip).
+- `trunc_check.py` (whisper) on every veo-spoken clip; ignore hyphen-tokenizer
+  false positives (e.g. "one-dollar" vs "one dollar") — confirm by reading the
+  heard tail.
+- After ALL regens, re-run the said↔shown audit on the changed beats only.
