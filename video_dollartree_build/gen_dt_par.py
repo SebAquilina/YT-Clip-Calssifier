@@ -84,7 +84,8 @@ def do_beat(b):
 
 def beat_done(b):
     vm=b.get("visual_mode",b.get("type")); e=S["beats"].get(b["id"],{})
-    return ((vm in("talking_head","image_split") and vid_ok(e.get("clip"))) or
+    return ((vm=="talking_head" and vid_ok(e.get("clip"))) or
+            (vm=="image_split" and vid_ok(e.get("clip")) and have(e.get("image"))) or
             (vm=="image_full" and have(e.get("image")) and have(e.get("audio"))) or
             (vm=="image_live" and vid_ok(e.get("clip")) and have(e.get("audio"))) or
             (vm=="broll" and vid_ok(e.get("clip")) and have(e.get("audio"))))
