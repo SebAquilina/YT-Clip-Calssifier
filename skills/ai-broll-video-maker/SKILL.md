@@ -959,9 +959,9 @@ A reviewer caught 26 flaws our gates missed. Root causes + the systems now in pl
   live/broll. (One exception: hook TH -> book-CTA TH.)
 - **Author short standalone <=16-word lines** (no post-hoc splitting — splitting created the adjacent-TH
   runs and mid-clause fragments like "...and leaving").
-- **Narration rate-match** (asm_dt `NARR_ATEMPO`): cloned TTS (~3.1 wps) is pitch-preserve time-stretched
-  to a single consistent ~2.1 wps, close to veo TH (~1.8). Fixes the cross-track speed mismatch. TH is
-  never stretched (would desync lips).
+- **Narration speed** (asm_dt `NARR_ATEMPO`): ⚠️ SUPERSEDED in v6.2 — we used to time-stretch the cloned
+  TTS to ~2.1 wps; that made the voice sound draggy/unnatural. The 69labs TTS already comes out at the
+  correct speed, so `NARR_ATEMPO=1.0` (play unchanged). See v6.2. TH is never stretched (would desync lips).
 - **deep_gate.py** — coherence (full-transcript similarity, catches gibberish + veo junk words like "tat"
   + duplicate adjacent lines), adjacency runs, mid-clause fragments, speech-rate outliers.
 - **Realism vision gate** — 3 frames/clip; flags spawning/vanishing objects, flames not on a wick,
@@ -985,3 +985,29 @@ A reviewer caught 26 flaws our gates missed. Root causes + the systems now in pl
   rate) → auto-fix loop → assemble (loudnorm/atempo/silence-crop/face-centered split/book CTA) → master →
   deliver, plus a defect→gate map. Golden rule: run the whole gate suite before delivery AND after every
   re-roll.
+
+### FORMAT v6.2 — natural TTS speed + the START-of-clip gates (from a second review)
+A second review pass on all four videos surfaced four issues our gates/assembler still missed. Fixes:
+- **DON'T slow the narration. `NARR_ATEMPO=1.0`.** The single biggest complaint across every video was
+  "the TTS is way too slow, it doesn't sound real." We were pitch-stretching the cloned voice to ~0.66×
+  in the assembler. The 69labs voice already comes out at the correct, natural cadence — play it back
+  UNCHANGED. Segment durations now follow the natural narration length (`adur + tail`), so clip timing
+  adjusts on its own and videos come out ~15-20% shorter (and sound human). Never stretch TH either.
+- **MUTED-clip gate now covers re-rolls.** A re-rolled talking-head came back with NO audio stream (silent
+  Candice). Any TH/liv/broll clip MUST have an audio stream — assert `ffprobe` shows an audio track right
+  after generation, and re-roll if missing. (A muted TH is useless; a muted broll/live is fine — narration
+  is added at assembly.)
+- **LEAD-IN gibberish gate (start of clip, not just the end).** veo sometimes PREPENDS hallucinated words
+  before the real line (e.g. *"Once I'm through making Comfrey and Paracyme, okay, I did something…"*). The
+  truncation gate only checked the END/tail, so this sailed through. New check: transcribe the TH and
+  confirm the transcript STARTS on the script's opening words (first content word within the first ~2
+  tokens); if unrelated words precede the line, re-roll. The opening hook especially must be clean.
+- **Re-roll, then RE-GATE the re-roll — including realism for spawns.** A bench/desk broll spawned a candle
+  from nowhere despite NOSPAWN; re-roll until objects are present from frame 1 and stable, then re-scan.
+- **Recompute chapters from the FINAL assembled segments.** Because durations change (esp. after the speed
+  fix), description chapter timestamps must be regenerated from the delivered cut, not hand-set. Use
+  `chapters_gen.py <proj> <build_script> "<hook title>"` (parses `# ===== SECTION =====` headers, times
+  each section's first beat against the real segments, merges sub-sections <11s apart). Then swap the
+  `⏱️ Chapters` block in description.txt.
+- **Process: NEVER commit rendered media** (`.mp4/.mp3/.png/.zip`). They are git-ignored and hosted on
+  litterbox; a stray 1.5GB of committed videos made every `git push` fail with HTTP 413.

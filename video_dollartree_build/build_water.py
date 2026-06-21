@@ -8,7 +8,7 @@ start("Making Candles With WATER?! (Floating Water Candle DIY)")
 # ===== HOOK (title at END) =====
 th("I am about to make a candle that burns on top of water.","bench")
 full("a clear glass of coloured water with a small flame floating and glowing on the surface","A glass of water, a tiny flame floating right on top, glowing away. And it actually works.","close-up")
-live("a small flame floating on water in a glass, flowers suspended below in the dark","the little flame flickers gently above the flowers floating in the water","Flowers floating underneath, a real flame on top, and not a drop of wax anywhere.")
+live("a small real candle flame burning on a floating cork wick that rests on a thin oil layer in a clear glass of water, with soft flower petals suspended in the water below","the small flame flickers gently on its floating cork wick while the petals drift slightly in the water below","Flowers floating underneath, a real flame on top, and not a drop of wax anywhere.")
 th("It looks impossible, but it is one of the oldest tricks there is.")
 full("a row of glasses with different coloured water each topped with a floating flame","And you can make a whole row of them in any colour you want, in about five minutes.","wide")
 th("This is making candles with water. Floating water candles.")
@@ -129,7 +129,7 @@ full("a floating candle being topped up with a little more oil to keep burning",
 # ===== COST / VALUE =====
 th("And the cost? This might be the cheapest project on the whole channel.","window")
 split("Water, a splash of oil, and a wick. We are talking cents per glass, not dollars.","a floating candle beside a tiny pile of small coins","window","right")
-full("a whole table of floating candles beside a single small price tag","A whole glowing table for the price of one cheap store candle. Nothing beats that value.","close-up")
+full("a long dinner table lined with several clear glasses of coloured water, each one a floating water candle with a small flame glowing on top, a single tiny price tag beside them","A whole glowing table for the price of one cheap store candle. Nothing beats that value.","wide")
 
 # ===== COMMON MISTAKES =====
 th("A few quick warnings so yours work the first time.","bench")

@@ -19,9 +19,10 @@ OUT=sys.argv[2] if len(sys.argv)>2 else os.path.join(PROJ,f"{M['title']}.mp4")
 DELOGO="delogo=x=1198:y=676:w=78:h=40"
 BOOK="/home/user/YT-Clip-Calssifier/assets/book_inset.png"   # real book cover for the CTA inset
 TARGET=-19.0   # per-segment loudness target (dB LUFS) reached via fixed gain — no timing change
-# narration rate-match: cloned TTS runs ~3.1 wps vs veo TH ~1.8 wps; pitch-preserving atempo slows
-# every narration to a single consistent ~2.1 wps (close to TH), fixing the cross-track speed mismatch.
-NARR_ATEMPO=0.66
+# narration playback rate: the 69labs cloned TTS already comes out at the correct, natural speed, so we
+# play it back UNCHANGED (1.0). Do NOT slow it down — stretching it made the voice sound unnatural/draggy.
+# Segment durations follow the natural narration length (adur + tail), so clip timing adjusts on its own.
+NARR_ATEMPO=1.0
 ENC=["-r","24","-vsync","cfr","-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p","-c:a","aac","-b:a","160k","-ar","48000","-ac","2"]
 def run(c):
     r=subprocess.run(c,capture_output=True,text=True)

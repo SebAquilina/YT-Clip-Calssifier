@@ -59,8 +59,13 @@ the final cut (the assembler reads beats in manifest order), so concurrency is p
    lit from afar, fake/CGI/novelty candles, wax boiling on a table, pouring onto a table, resin-on-fire.
 4. **Coherence gate** (`deep_gate.py`) — full-transcript similarity (catches gibberish + veo junk words
    like "tat" + duplicate adjacent lines), via small.en whisper.
-5. **Truncation / muted gate** — small.en + tail-presence: every veo-spoken line says its whole sentence;
-   no muted clips; narration TTS isn't cut off.
+5. **Truncation / muted gate** — small.en transcription, checked at BOTH ends:
+   - **tail-presence**: every veo-spoken line says its whole sentence (no end cut-off);
+   - **lead-in gibberish (v6.2)**: the transcript must START on the script's opening words — veo sometimes
+     prepends hallucinated words (e.g. *"Once I'm through making Comfrey and Paracyme, okay, I did…"*).
+     If unrelated words precede the line, re-roll. The hook especially must open clean.
+   - **muted-stream (v6.2)**: `ffprobe` must show an audio track on every TH (a re-roll came back silent).
+     A muted TH is a hard fail; muted broll/live is fine (narration is added at assembly).
 6. **Adjacency + rate** (`deep_gate.py`) — runs of ≥2 talking-heads, mid-clause fragments, and speech-rate
    outliers reported.
 **THE RULE THAT WAS MISSING:** any clip re-rolled to fix a flaw must be re-scanned (face especially) —
@@ -78,8 +83,10 @@ big for one ffmpeg call). Built-in fixes:
 - **delogo** the veo watermark bottom-right.
 - **Per-segment volume gain** to a common loudness (sample-aligned — NOT dynamic loudnorm, which delayed
   audio and desynced lips).
-- **Narration rate-match**: pitch-preserving atempo slows the cloned TTS (~3.1 wps) to a consistent
-  ~2.1 wps, close to veo TH (~1.8) — fixes the cross-track speed mismatch (TH is never stretched).
+- **Narration at NATURAL speed** (`NARR_ATEMPO=1.0`): the 69labs cloned TTS already comes out at the
+  right cadence — play it UNCHANGED. (We used to slow it to ~0.66×; it sounded draggy and was the #1
+  complaint. Never stretch narration OR talking head.) Segment length follows the narration's own
+  duration, so the cut self-adjusts and runs ~15-20% shorter.
 - **Trailing-silence crop** on TH/split so clips don't sit in dead air.
 - **Face-centered split crop** — detects Candice's face and crops the TH pane around it (no half-cut).
 - **1:1 split images, cover-fit** (never squeezed/warped).
@@ -90,6 +97,13 @@ big for one ffmpeg call). Built-in fixes:
 High-pass + light denoise + two-pass EBU R128 loudnorm to **-16 LUFS / -1.5 dBTP** + faint room-tone bed.
 Deliver as a zip: final video + all source clips + thumbnail + description (book CTA link → chapters →
 hashtags). Thumbnail = nano-banana background (Candice + props, identity-locked) + bold title text via PIL.
+- **Chapters are computed from the FINAL cut, never hand-set** (v6.2): runtimes change (especially after
+  the natural-speed fix), so run `chapters_gen.py <proj> <build_script> "<hook title>"` — it parses the
+  build script's `# ===== SECTION =====` headers, times each section's first beat against the real
+  assembled segments (replaying the chunked-crossfade math), merges sub-sections <11s apart, and prints
+  `M:SS  Title`. Swap that into the `⏱️ Chapters` block. Verify the book CTA chapter lands < 1:30.
+- **NEVER commit rendered media** — `.mp4/.mp3/.png/.zip` are git-ignored and hosted (litterbox). A stray
+  1.5 GB of committed videos makes `git push` fail with HTTP 413; keep the repo to source + small files.
 
 ──────────────────────────────────────────────────────────────────────────
 ## 9. Defect → which gate catches it (quick map)
@@ -99,12 +113,16 @@ hashtags). Thumbnail = nano-banana background (Candice + props, identity-locked)
 | Burned-in caption / watermark | no-text vision (#2) |
 | Flame off wick, spawn, fake/novelty candle, wax on table, resin on fire | realism vision (#3) + ANTIFAKE prompt |
 | Gibberish / "tat" / duplicate line | coherence deep_gate (#4) |
-| Sentence cut off / muted clip | truncation gate (#5) |
+| Sentence cut off at the END | truncation gate (#5) |
+| Lead-in gibberish before the line (start) | trunc_check lead-in check (#5, v6.2) |
+| Muted talking head (no audio stream) | trunc_check ffprobe audio check (#5, v6.2) |
 | Two THs in a row / mid-clause fragment | adjacency (buildlib assert + #6) |
-| TTS faster than TH / speed drift | rate-match atempo (assembler) |
+| Narration too slow / draggy / "not real" | `NARR_ATEMPO=1.0` — never stretch TTS (assembler, v6.2) |
+| Wrong chapter timestamps after a re-cut | recompute with `chapters_gen.py` (v6.2) |
 | Background music | NOMUSIC prompt |
 | Soft talking head | sharp scene keyframes (refs_build) |
 | Warped split image | 1:1 + cover-fit (assembler) |
 | Lip-sync drift | volume-gain leveling, not dynamic loudnorm (assembler) |
+| Push fails (HTTP 413) | never commit rendered media — git-ignore .mp4/.mp3/.png/.zip (v6.2) |
 
 Golden rule: **run the whole of §5 before delivery, and re-run it after every re-roll.**
