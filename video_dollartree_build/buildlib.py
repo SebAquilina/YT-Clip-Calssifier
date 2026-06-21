@@ -19,8 +19,11 @@ def th(s, scene="bench", moved=False, book_cta=False):
     if book_cta: b["book_cta"]=True
     _B.append(b)
 def book(s, scene="bench"):
-    """talking-head ebook CTA beat — real book cover gets composited by the assembler."""
-    th(s, scene=scene, book_cta=True)
+    """talking-head ebook CTA beat — real book cover gets composited by the assembler.
+    Tagged c_th so the one allowed hook->CTA adjacency passes the no-adjacent-TH rule."""
+    _short(s)
+    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":s,
+               "seed":K.SCENES[scene],"prompt":K.th_prompt(s,scene),"book_cta":True})
 def full(subject, narration, shot="close-up", kb="in"):
     _short(narration, 20)
     _B.append({"id":_id("full"),"type":"image","visual_mode":"image_full","sentence":narration,
@@ -42,6 +45,17 @@ def br(action, narration):
         f"NO face, NO head, NO other person. {K.PHONE} {K.NOTEXT} Setting: {K.WS}")
     _B.append({"id":_id("br"),"type":"broll","visual_mode":"broll","narration":narration,"prompt":pr,"broll_ref":K.HANDS})
 def finalize(folder):
+    # HARD RULE (v6): never two talking-heads back-to-back — they read as a jarring cut and the
+    # speeds rarely match. Alternate TH with image/split/live/broll. (book CTA may follow a TH once.)
+    runs=[]; run=[]
+    for b in _B+[{"visual_mode":"_end","id":"_"}]:
+        if b["visual_mode"]=="talking_head": run.append(b["id"])
+        else:
+            if len(run)>=2: runs.append(run[:])
+            run=[]
+    # allow exactly one exception: an intro TH immediately followed by the book-CTA TH
+    runs=[r for r in runs if not (len(r)==2 and any(x.endswith("c_th") for x in r))]
+    assert not runs, f"ADJACENT TALKING-HEADS (forbidden) — alternate these with image/broll/VO: {runs}"
     M={"title":_meta["title"],"channel":_meta["channel"],"beats":_B}
     os.makedirs(os.path.join(folder,"Project files"),exist_ok=True)
     json.dump(M,open(os.path.join(folder,"Project files","manifest.json"),"w"),indent=2)

@@ -1,0 +1,58 @@
+== Stage A: gap TTS (one per gap) ==
+  TTS gap 1
+  TTS gap 2
+  TTS gap 3
+  TTS gap 4
+  TTS gap 5
+  TTS gap 6
+  TTS gap 7
+  TTS gap 8
+  TTS gap 9
+  TTS gap 10
+  TTS gap 11
+  TTS gap 12
+  TTS gap 13
+  TTS gap 14
+  TTS gap 15
+== 20 video clips to generate ==
+  submit b68_th 71ea7a33 (1)
+  submit b69_g13 546078e7 (2)
+  submit b72_th 8f6c4ee1 (3)
+  submit b73_th f77a99e0 (4)
+  submit b74_g14 1c20a427 (5)
+  DONE b68_th
+  DONE b69_g13
+  submit b75_th f01098ac (4)
+  submit b76_th 6f7b6ee6 (5)
+  DONE b72_th
+  submit b77_th 23abf1d4 (5)
+  DONE b73_th
+  submit b78_th 3936506c (5)
+  DONE b74_g14
+  submit b79_th c5ef4cb1 (5)
+  DONE b75_th
+  submit b80_th 855b6b69 (5)
+  DONE b76_th
+  DONE b77_th
+  submit b81_th fe92c868 (4)
+  submit b82_th 90cca016 (5)
+  DONE b78_th
+  submit b83_th 3d794abc (5)
+  DONE b79_th
+  submit b84_th 2b8b6c70 (5)
+  DONE b80_th
+  DONE b81_th
+  submit b85_th b5c9c570 (4)
+  submit b86_g15 03d0866c (5)
+  DONE b82_th
+  submit b87_th 591dfa39 (5)
+  DONE b83_th
+  submit b88_th 1927fa7d (5)
+  DONE b84_th
+  DONE b85_th
+  submit b89_th be6563fc (4)
+  DONE b86_g15
+  DONE b87_th
+  DONE b88_th
+  DONE b89_th
+== DONE 90/90 ==

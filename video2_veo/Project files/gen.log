@@ -1,0 +1,93 @@
+== Stage A: TTS ==
+  TTS hook
+  TTS prev1
+  TTS prev2
+  TTS f1a
+  TTS f1b
+  TTS f1c
+  TTS f2a
+  TTS f2b
+  TTS f2c
+  TTS f3a
+  TTS f3b
+  TTS f4a
+  TTS f4b
+  TTS f4c
+  TTS f5a
+  TTS f5b
+  TTS f6a
+  TTS f6b
+  TTS f6c
+  TTS f7a
+  TTS f7b
+  TTS f8a
+  TTS f8b
+  TTS out1
+  TTS out2
+== 28 clips to generate ==
+  submit hook[0] 0cbb2d16 (1)
+== Stage A: TTS ==
+== 28 clips to generate ==
+  submit hook[0] 9fc9f129 (1)
+  submit hook[1] f372dbfc (2)
+  submit prev1[0] fec1bf9c (3)
+  submit prev1[1] 879bd85c (4)
+  submit prev2[0] b220c36c (5)
+  DONE hook[0] 2058039b
+  submit f1a[0] 1083e29b (5)
+  FAILED hook[1] requeue
+  submit f1b[0] 8f6bb9fe (5)
+  DONE prev2[0] 2256875b
+  submit f1c[0] 5273460a (5)
+  FAILED prev1[0] requeue
+  DONE prev1[1] 1426448b
+  submit f2a[0] 1521dbe0 (4)
+  submit f2b[0] b5925c7b (5)
+  DONE f1a[0] 2137859b
+  submit f2c[0] 869f9317 (5)
+  DONE f1b[0] 2939143b
+  submit f3a[0] 6c7b511f (5)
+  DONE f2c[0] 1032217b
+  submit f3b[0] 54c050ea (5)
+  DONE f2b[0] 1200398b
+  submit f4a[0] 15b1f2bf (5)
+  DONE f2a[0] 1353853b
+  DONE f3a[0] 2751081b
+  submit f4b[0] 1e883e98 (4)
+  submit f4c[0] b9b40d8e (5)
+  DONE f1c[0] 987227b
+  DONE f3b[0] 1958185b
+  submit f5a[0] 9f609c31 (4)
+  submit f5b[0] bdeff0d9 (5)
+  DONE f4a[0] 2232305b
+  submit f5b[1] 4d209924 (5)
+  DONE f4b[0] 1303702b
+  submit f6a[0] bb0a1e8e (5)
+  DONE f5a[0] 1583515b
+  submit f6b[0] ebdf02ea (5)
+  DONE f5b[0] 1559396b
+  submit f6c[0] 6c749d0a (5)
+  DONE f4c[0] 1094598b
+  DONE f5b[1] 2176939b
+  DONE f6a[0] 817782b
+  submit f7a[0] 6f1a4ad1 (3)
+  submit f7b[0] 74322412 (4)
+  submit f8a[0] 01adedfd (5)
+  DONE f6b[0] 1468282b
+  submit f8b[0] 228c9b35 (5)
+  DONE f6c[0] 973616b
+  submit out1[0] 9f84e2b0 (5)
+  DONE f7a[0] 1726951b
+  submit out2[0] c043e512 (5)
+  DONE f7b[0] 1708673b
+  submit hook[1] ec3f2185 (5)
+  DONE f8b[0] 1788896b
+  DONE out1[0] 2246652b
+  submit prev1[0] 83779c78 (4)
+  DONE out2[0] 841058b
+  FAILED hook[1] requeue
+  submit hook[1] 39c7ea8c (3)
+  DONE prev1[0] 2834548b
+  DONE hook[1] 2919307b
+  DONE f8a[0] 2223864b
+== DONE 28/28 ==

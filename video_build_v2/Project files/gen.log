@@ -1,0 +1,232 @@
+== Stage A: TTS ==
+== 42 clips to generate ==
+  submit b_int1[0] deabffe3 (1)
+  submit b_int1b[0] eba54fcb (2)
+  submit c_int1[0] 37e963bd (3)
+  submit b_int2[0] 9f8806dd (4)
+  submit FAIL l1a[0] retries
+  submit l1a[0] 73730799 (5)
+  DONE b_int1b[0] 2273710b
+  DONE c_int1[0] 2470409b
+  submit l1b[0] 22775c2e (4)
+  submit l1c[0] 94428431 (5)
+  DONE b_int1[0] 2610530b
+  submit l2a[0] f06d453b (5)
+  DONE l1a[0] 2364004b
+  submit l2b[0] b366130f (5)
+  DONE l1b[0] 2197517b
+  submit l2d[0] 0c3a105c (5)
+  DONE b_int2[0] 2218648b
+  DONE l1c[0] 1859674b
+  DONE l2a[0] 1580513b
+  submit c_l3[0] 269c2eab (3)
+  submit l3a[0] a4d704c8 (4)
+  submit l3b[0] deca4c1b (5)
+  DONE l2d[0] 1854366b
+  submit l3c[0] 7351c927 (5)
+  DONE l2b[0] 2581419b
+  submit l4a[0] 285a8518 (5)
+  DONE c_l3[0] 2479037b
+  submit l4b[0] 1efe608e (5)
+  DONE l3b[0] 2168902b
+  DONE l3c[0] 2531901b
+  submit l4b[1] f30ab79a (4)
+  submit l4c[0] 7b585cb2 (5)
+  DONE l3a[0] 2466962b
+  FAILED l4a[0] requeue
+  submit l4d[0] 2060a11b (4)
+  submit c_l5[0] b3d21dc3 (5)
+  FAILED l4b[1] requeue
+  submit l5a[0] d316993d (5)
+  DONE l4d[0] 1779136b
+  submit l5b[0] 4d1189a7 (5)
+  DONE l4c[0] 1463998b
+  DONE c_l5[0] 2251685b
+  submit l5b[1] 1d348c4b (4)
+  submit l5c[0] 421fd132 (5)
+  FAILED l5a[0] requeue
+  submit l6a[0] 75ae7dbc (5)
+  DONE l5b[0] 1795750b
+  submit l6b[0] f9904645 (5)
+  DONE l5b[1] 1901498b
+  submit l6c[0] b4225061 (5)
+  DONE l5c[0] 2155520b
+  submit l7a[0] a79f2981 (5)
+  DONE l6a[0] 2607581b
+  submit l7b[0] 0900ff4a (5)
+  DONE l6b[0] 2569124b
+  submit l7c[0] 7c0366a8 (5)
+  DONE l6c[0] 2342162b
+  submit l8a[0] 93ff7828 (5)
+  DONE l7a[0] 2073198b
+  submit l8b[0] 2338c668 (5)
+  DONE l7b[0] 976010b
+  DONE l8a[0] 2277895b
+  submit l9a[0] 6d2ffd0a (4)
+  submit l9b[0] 71bc24ab (5)
+  DONE l7c[0] 2485481b
+  submit l9c[0] 370b8002 (5)
+  DONE l9a[0] 2784108b
+  submit l10a[0] 45ab6a7a (5)
+  DONE l9c[0] 2739136b
+  submit l10b[0] 8067e4c7 (5)
+  DONE l9b[0] 3729626b
+  DONE l10a[0] 2121585b
+  submit l10c[0] c93534be (4)
+  submit c_recap[0] d3db699d (5)
+  DONE l8b[0] 3360517b
+  submit b_recap[0] bfc2b1bf (5)
+  FAILED l4b[0] requeue
+  submit c_cta[0] 1653d603 (5)
+  DONE c_recap[0] 1994539b
+  DONE b_recap[0] 3099003b
+  submit b_outro[0] 36a258c6 (4)
+  submit l4a[0] e2a2850e (5)
+  DONE l10c[0] 1803854b
+  submit l4b[1] 9e0d08af (5)
+  DONE c_cta[0] 2045391b
+  submit l5a[0] 18a8b775 (5)
+  FAILED l10b[0] requeue
+  submit l4b[0] 7db74ea0 (5)
+  DONE b_outro[0] 2272970b
+  submit l10b[0] 45122ed2 (5)
+  DONE l4a[0] 1176651b
+  DONE l5a[0] 2002818b
+  DONE l4b[0] 3219763b
+  DONE l4b[1] 2770121b
+  DONE l10b[0] 2314325b
+== DONE 44/44 ==
+[chain] primary done -> enrichment build
+enriched 37 narration sentences; cleared their tts_done
+[chain] enrichment generate (re-TTS long + k1 angles)
+== Stage A: TTS ==
+  TTS h00-hook
+  TTS b_int1
+  TTS b_int1b
+  TTS b_int2
+  TTS l1a
+  TTS l1b
+  TTS l1c
+  TTS l2a
+  TTS l2b
+  TTS l2c
+  TTS l2d
+  TTS l3a
+  TTS l3b
+  TTS l3c
+  TTS l4a
+  TTS l4b
+  TTS l4c
+  TTS l4d
+  TTS l5a
+  TTS l5b
+  TTS l5c
+  TTS l6a
+  TTS l6b
+  TTS l6c
+  TTS l7a
+  TTS l7b
+  TTS l7c
+  TTS l8a
+  TTS l8b
+  TTS l9a
+  TTS l9b
+  TTS l9c
+  TTS l10a
+  TTS l10b
+  TTS l10c
+  TTS b_recap
+  TTS b_outro
+== 34 clips to generate ==
+  submit b_int1[1] c1ba6a57 (1)
+  submit b_int1b[1] 6b7feefc (2)
+  submit b_int2[1] 8567d670 (3)
+  submit l1a[1] 454bcfcd (4)
+  submit l1b[1] cdaf85f2 (5)
+  DONE b_int1[1] 1682042b
+  submit l1c[1] c160a6fb (5)
+  DONE b_int1b[1] 2583674b
+  submit l2a[1] bdd2f578 (5)
+  DONE l1a[1] 1950347b
+  submit l2b[1] 1cc90966 (5)
+  DONE l1c[1] 3363223b
+  submit l2c[1] 8e91367d (5)
+  DONE b_int2[1] 2870396b
+  submit l2c[2] efbc0c0a (5)
+  DONE l1b[1] 4279392b
+  submit l2d[1] f514b0d3 (5)
+  DONE l2a[1] 1536782b
+  submit l3a[1] be4abbab (5)
+  DONE l2b[1] 1949298b
+  DONE l2c[1] 1586770b
+  DONE l2c[2] 2786547b
+  DONE l2d[1] 1547556b
+  submit l3b[1] 1fa38103 (2)
+  submit l3c[1] cff8e9f7 (3)
+  submit l4a[1] 5f7d25ab (4)
+  submit l4c[1] d95448e1 (5)
+  DONE l3a[1] 1857136b
+  submit l5a[1] bef72245 (5)
+  FAILED l3b[1] requeue
+  submit l5c[1] d4bc0b7a (5)
+  DONE l4a[1] 795746b
+  submit l6a[1] dd2a10ee (5)
+  DONE l3c[1] 2339186b
+  submit l6b[1] 956ac00a (5)
+  FAILED l4c[1] requeue
+  submit l6c[1] a93ae5fe (5)
+  DONE l5a[1] 3022128b
+  DONE l5c[1] 2531109b
+  DONE l6b[1] 1532805b
+  submit l7a[1] 9abc16e0 (3)
+  submit l7b[1] 99751813 (4)
+  submit l7c[1] 3f45523f (5)
+  DONE l6a[1] 2032599b
+  submit l8a[1] 3d76cd36 (5)
+  DONE l6c[1] 3542353b
+  submit l8b[1] 6c52d561 (5)
+  DONE l7b[1] 948057b
+  DONE l8a[1] 3048285b
+  submit l9a[1] 510d66b3 (4)
+  submit l9b[1] af44e6c4 (5)
+  DONE l7c[1] 2896081b
+  DONE l8b[1] 3173416b
+  submit l9c[1] aae486b2 (4)
+  submit l10a[1] 1c0964f8 (5)
+  DONE l9a[1] 4385962b
+  submit l10b[1] 29dcdc58 (5)
+  DONE l7a[1] 1971967b
+  submit l10c[1] 8761854a (5)
+  DONE l9b[1] 3505295b
+  submit b_recap[1] af49026c (5)
+  DONE l9c[1] 2772176b
+  submit b_outro[1] 1d8b648c (5)
+  FAILED l10c[1] requeue
+  submit l3b[1] fc4a24d3 (5)
+  FAILED l10a[1] requeue
+  submit l4c[1] 465c286b (5)
+  DONE l10b[1] 2362979b
+  submit l10c[1] 55da4cb0 (5)
+  DONE b_outro[1] 1174258b
+  submit l10a[1] c0fe444d (5)
+  DONE b_recap[1] 3148738b
+  DONE l3b[1] 2351226b
+  DONE l4c[1] 2617246b
+  FAILED l10c[1] requeue
+  submit l10c[1] 9c3f8784 (2)
+  FAILED l10a[1] requeue
+  submit l10a[1] 411f413e (2)
+  FAILED l10c[1] requeue
+  submit l10c[1] e4766723 (2)
+  DONE l10a[1] 1211677b
+  FAILED l10c[1] requeue
+  submit l10c[1] 28ea13b0 (1)
+  FAILED l10c[1] requeue
+  submit l10c[1] d234880a (1)
+  FAILED l10c[1] requeue
+  submit l10c[1] a164e0f4 (1)
+  FAILED l10c[1] requeue
+  submit l10c[1] 875a1db8 (1)
+  DONE l10c[1] 2354872b
+== DONE 78/78 ==
+[chain] ENRICH COMPLETE

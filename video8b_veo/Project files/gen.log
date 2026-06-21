@@ -1,0 +1,160 @@
+== Stage A: gap TTS (one per gap) ==
+  TTS gap 1
+  TTS gap 2
+  TTS gap 3
+  TTS gap 4
+  TTS gap 5
+  TTS gap 6
+  TTS gap 7
+  TTS gap 8
+  TTS gap 9
+  TTS gap 10
+  TTS gap 11
+  TTS gap 12
+  TTS gap 13
+== 72 video clips to generate ==
+  submit b00_th ddae7fd2 (1)
+  submit b01_th c0a99c28 (2)
+  submit b02_th 2425e101 (3)
+  submit b03_g1 f0e83e1f (4)
+  submit b04_g1 aa618e86 (5)
+  DONE b00_th
+  submit b05_th 35f4345f (5)
+  DONE b03_g1
+  submit b06_th 4d50ec4c (5)
+  DONE b01_th
+  submit b07_th b47c0805 (5)
+  DONE b07_th
+  submit b08_th 04fe1d91 (5)
+  DONE b06_th
+  submit b09_g2 3a8f6d32 (5)
+  DONE b05_th
+  submit b10_th df924c29 (5)
+  DONE b02_th
+  DONE b09_g2
+  submit b11_g3 f1564b3d (4)
+  submit b12_th ddc9bade (5)
+  DONE b04_g1
+  DONE b08_th
+  submit b13_g4 ea52199a (4)
+  submit b14_th 15fdab01 (5)
+  DONE b10_th
+  submit b15_th 17cb465a (5)
+  DONE b11_g3
+  submit b16_th c1550258 (5)
+  DONE b12_th
+  DONE b13_g4
+  submit b17_g5 62659b48 (4)
+  submit b18_th e5304577 (5)
+  DONE b14_th
+  DONE b15_th
+  submit b19_th 0ca30b72 (4)
+  submit b20_th f426170a (5)
+  DONE b16_th
+  submit b21_th 8a19d601 (5)
+  DONE b17_g5
+  submit b22_th 76604ac8 (5)
+  DONE b18_th
+  submit b23_th 475823bb (5)
+  DONE b19_th
+  submit b24_th c63501cd (5)
+  DONE b20_th
+  submit b25_th 7a620491 (5)
+  DONE b22_th
+  submit b26_g6 7df8910c (5)
+  DONE b21_th
+  submit b27_th 55ab0b6e (5)
+  DONE b23_th
+  submit b28_th 471e86f6 (5)
+  DONE b24_th
+  DONE b25_th
+  DONE b26_g6
+  submit b29_th 8f3c85c2 (3)
+  submit b30_g7 19b44378 (4)
+  submit b31_th e5ba0229 (5)
+  DONE b27_th
+  DONE b28_th
+  submit b32_th 1edb0e47 (4)
+  submit b33_th 9e5b8ce2 (5)
+  DONE b29_th
+  submit b34_th 1032748a (5)
+  DONE b30_g7
+  submit b35_th ba5423ef (5)
+  DONE b31_th
+  submit b36_g8 9804fbc7 (5)
+  DONE b32_th
+  submit b37_th 3b7f8b9b (5)
+  DONE b33_th
+  submit b38_th ad5a8e45 (5)
+  DONE b34_th
+  submit b39_th 3d198be9 (5)
+  DONE b35_th
+  DONE b36_g8
+  submit b40_g9 adfa5a3a (4)
+  submit b41_th ff26936e (5)
+  DONE b37_th
+  submit b42_th ecf4cc4f (5)
+  DONE b38_th
+  submit b43_th b3a4fbb5 (5)
+  DONE b39_th
+  DONE b40_g9
+  submit b44_th e825e768 (4)
+  submit b45_th 59b8a0e1 (5)
+  DONE b41_th
+  DONE b42_th
+  submit b46_th a3c856d9 (4)
+  submit b47_th 05f275ef (5)
+  DONE b43_th
+  submit b48_g10 164d7935 (5)
+  DONE b44_th
+  submit b49_th 63c808ed (5)
+  DONE b45_th
+  DONE b46_th
+  submit b50_th c8af874e (4)
+  submit b51_th f847d849 (5)
+  DONE b47_th
+  DONE b48_g10
+  submit b52_th 83fe0d6a (4)
+  submit b53_th 932b5416 (5)
+  DONE b49_th
+  DONE b50_th
+  submit b54_th ff074e14 (4)
+  submit b55_g11 01ff5319 (5)
+  DONE b51_th
+  DONE b52_th
+  submit b56_th aeb582d9 (4)
+  submit b57_th a28bb592 (5)
+  DONE b53_th
+  DONE b54_th
+  submit b58_th 913ee1c4 (4)
+  submit b59_th 2000e37b (5)
+  DONE b55_g11
+  DONE b56_th
+  submit b60_th 13f43cef (4)
+  submit b61_th fa8dcc2e (5)
+  DONE b57_th
+  DONE b58_th
+  submit b62_g12 209e6e87 (4)
+  submit b63_th 1325f437 (5)
+  DONE b59_th
+  submit b64_th 733f0d04 (5)
+  DONE b61_th
+  submit b65_th e7dc9ad0 (5)
+  DONE b60_th
+  submit b66_th 7fd2950e (5)
+  DONE b62_g12
+  submit b67_th 49df5adb (5)
+  DONE b63_th
+  DONE b64_th
+  submit b68_g13 60881400 (4)
+  submit b69_th 6381deb6 (5)
+  DONE b65_th
+  DONE b66_th
+  submit b70_th e1c81341 (4)
+  submit b71_th ee40904b (5)
+  DONE b67_th
+  DONE b68_g13
+  DONE b69_th
+  DONE b70_th
+  DONE b71_th
+== DONE 72/72 ==

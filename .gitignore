@@ -1,138 +1,20 @@
-# Working data (videos, frames, storyboards, contact sheets) — regenerable
-data/
+# generated video media & runtime state (regenerable; not source — hosted on catbox)
+# rendered media is large and must NEVER be committed (it blows past the push size limit / HTTP 413).
 *.mp4
+*.mov
+*.mp3
+*.wav
 *.m4a
-*.webm
-
-# Python
+*.zip
+*.sqlite
+video_*_veo/Source clips/
+video_*_veo/images/
+video_*_veo/Project files/segments/
+video_*_veo/Project files/state*.json
+video_*_veo/Project files/audio/
+video_*_veo/*.png
+video_*_veo/thumbnail.png
+reference_build/*_cand*.png
+outputs/db/*.jsonl
 __pycache__/
 *.pyc
-*.egg-info/
-.venv/
-venv/
-.pytest_cache/
-
-# keep the outputs directory but not stray temp
-*.tmp
-
-# Candle-hacks video build: keep pipeline + small deliverables, exclude heavy media
-video_build/Source clips/
-video_build/Project files/audio/
-video_build/Project files/segments/
-video_build/Project files/state.json
-video_build/Project files/generate.log
-video_build/Project files/final_list.txt
-video_build/assets/thumb_base.png
-video_build/*.mp4
-video_build/Project files/generate_long.log
-video_build/Project files/*.log
-
-# v2 build heavy media
-video_build_v2/Source clips/
-video_build_v2/Project files/audio/
-video_build_v2/Project files/segments/
-video_build_v2/Project files/state.json
-video_build_v2/Project files/*.log
-video_build_v2/*.mp4
-video_build_v2/assets/*.png
-video_build_v2/Project files/final_list.txt
-
-# video2 dual build heavy media
-video2_veo/Source clips/
-video2_grok/Source clips/
-video2_*/Project files/audio/
-video2_*/Project files/segments/
-video2_*/Project files/state.json
-video2_*/Project files/*.log
-video2_*/*.mp4
-video_build_v2/Project files/audio_orig/
-video2_*/*_deliverable.zip
-video2_*/Project files/final_list.txt
-
-# video4 heavy media
-video4_veo/Source clips/
-video4_veo/Project files/audio/
-video4_veo/Project files/segments/
-video4_veo/Project files/state.json
-video4_veo/Project files/*.log
-video4_veo/*.mp4
-video4_veo/*_deliverable.zip
-video4_veo/Project files/final_list.txt
-
-# video8 heavy media
-video8_veo/Source clips/
-video8_veo/Project files/audio/
-video8_veo/Project files/segments/
-video8_veo/Project files/state.json
-video8_veo/Project files/*.log
-video8_veo/*.mp4
-video8_veo/*_deliverable.zip
-video8_veo/Project files/final_list.txt
-
-# video8b heavy media
-video8b_veo/Source clips/
-video8b_veo/Project files/audio/
-video8b_veo/Project files/segments/
-video8b_veo/Project files/state.json
-video8b_veo/Project files/*.log
-video8b_veo/*.mp4
-video8b_veo/*_deliverable.zip
-video8b_veo/Project files/final_list.txt
-
-video_ps_veo/Source clips/
-video_ps_veo/Project files/state.json
-video_ps_veo/Project files/audio/
-video_ps_veo/Project files/segments/
-video_ps_veo/Project files/final_list.txt
-*_deliverable.zip
-
-# generation artifacts for fail + 3 new videos (volatile state / heavy media)
-video_fail_veo/Source clips/
-video_fail_veo/clips/
-video_fail_veo/Project files/state.json
-video_fail_veo/Project files/audio/
-video_fail_veo/Project files/segments/
-video_fail_veo/Project files/*.log
-video_fail_veo/*.mp4
-video_wicks_veo/Source clips/
-video_wicks_veo/clips/
-video_wicks_veo/Project files/state.json
-video_wicks_veo/Project files/audio/
-video_wicks_veo/Project files/segments/
-video_wicks_veo/*.mp4
-video_2v20_veo/Source clips/
-video_2v20_veo/clips/
-video_2v20_veo/Project files/state.json
-video_2v20_veo/Project files/audio/
-video_2v20_veo/Project files/segments/
-video_2v20_veo/*.mp4
-video_firstkit_veo/Source clips/
-video_firstkit_veo/clips/
-video_firstkit_veo/Project files/state.json
-video_firstkit_veo/Project files/audio/
-video_firstkit_veo/Project files/segments/
-video_firstkit_veo/*.mp4
-
-# large delivery artifacts (hosted/sent, not committed)
-*_DELIVERABLE.zip
-*_FINAL.mp4
-POOR_SCENT_THROW_CTA_FINAL.mp4
-video_dollartree_veo/*.mp4
-video_dollartree_veo/Source clips/
-video_dollartree_veo/images/
-video_dttest_veo/
-DT_SYSTEM_TEST*.mp4
-video_dollartree_veo/Project files/state.json
-video_dollartree_veo/Project files/audio/
-video_dollartree_veo/Project files/segments/
-
-# 20-minute build + validation scratch (heavy media; manifests/scripts stay tracked)
-video_dt20_veo/Source clips/
-video_dt20_veo/images/
-video_dt20_veo/*.mp4
-video_dt20_veo/Project files/state*.json
-video_dt20_veo/Project files/audio/
-video_dt20_veo/Project files/segments/
-video_dt20_veo/Project files/*.log
-video_dt20test_veo/
-reference_build/*.png

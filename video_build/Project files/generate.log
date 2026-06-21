@@ -1,0 +1,75 @@
+== Stage A: TTS ==
+== 26 clips to generate, 5-concurrent ==
+  submit b01-hook[0] 0624e122 (1 inflight)
+  submit b02-intro[0] 04625ee7 (2 inflight)
+  submit b02-intro[1] 8e771e30 (3 inflight)
+  submit b03-hack1[0] 0564b4c3 (4 inflight)
+  submit b03-hack1[1] 1d682cdb (5 inflight)
+  FAILED b01-hook[0] -> requeue
+  submit b04-hack2[0] 5586d53f (5 inflight)
+  DONE b02-intro[0] 2012180b
+  submit b04-hack2[1] 30012400 (5 inflight)
+  DONE b02-intro[1] 1903191b
+  submit b05-hack3[0] 99c26fbd (5 inflight)
+  DONE b03-hack1[0] 2503444b
+  submit b05-hack3[1] 3bfd7f3f (5 inflight)
+  DONE b03-hack1[1] 3185385b
+  DONE b04-hack2[0] 3678293b
+  DONE b04-hack2[1] 2522416b
+  submit b06-hack4[0] aae133ae (3 inflight)
+  submit b06-hack4[1] 1c58858d (4 inflight)
+  submit b07-hack5[0] af7a72d1 (5 inflight)
+  DONE b05-hack3[0] 1967320b
+  submit b07-hack5[1] 75e8a440 (5 inflight)
+  DONE b05-hack3[1] 1852355b
+  submit b08-th1[0] f5b3b9b7 (5 inflight)
+  DONE b06-hack4[0] 4232069b
+  DONE b06-hack4[1] 1404524b
+  submit b09-hack6[0] 9275625a (4 inflight)
+  submit b09-hack6[1] 27e4f9aa (5 inflight)
+  DONE b07-hack5[0] 2175913b
+  DONE b07-hack5[1] 2789649b
+  submit b10-hack7[0] 23bb6b35 (4 inflight)
+  submit b10-hack7[1] 7dfa9f7d (5 inflight)
+  DONE b08-th1[0] 2114691b
+  DONE b09-hack6[0] 1417842b
+  submit b11-hack8[0] 353d97d2 (4 inflight)
+  submit b11-hack8[1] 58f214c8 (5 inflight)
+  DONE b09-hack6[1] 2592754b
+  DONE b10-hack7[0] 1844789b
+  submit b12-hack9[0] 99532cb9 (4 inflight)
+  submit b12-hack9[1] ebc76bdf (5 inflight)
+  DONE b10-hack7[1] 2959514b
+  submit b13-hack10[0] a5507682 (5 inflight)
+  DONE b11-hack8[0] 2210385b
+  DONE b11-hack8[1] 1451554b
+  submit b13-hack10[1] 3f2c9304 (4 inflight)
+  submit FAIL b14-cta[0] {"error":"The URL you provided is not valid or no longer exists. Please upload the media again or provide a direct image
+  DONE b12-hack9[0] 1531067b
+  DONE b12-hack9[1] 932982b
+  DONE b13-hack10[0] 2790795b
+  submit FAIL b14-cta[0] {"error":"The URL you provided is not valid or no longer exists. Please upload the media again or provide a direct image
+  submit b14-cta[0] 5ae1d28c (2 inflight)
+  submit b15-outro[0] ad7304c0 (3 inflight)
+  submit b01-hook[0] ef13ebd3 (4 inflight)
+  DONE b13-hack10[1] 2810441b
+  DONE b14-cta[0] 1973475b
+  DONE b15-outro[0] 1296496b
+  FAILED b01-hook[0] -> requeue
+  submit b01-hook[0] b2a0cbb3 (1 inflight)
+  FAILED b01-hook[0] -> requeue
+  submit FAIL b01-hook[0] {"error":"The URL you provided is not valid or no longer exists. Please upload the media again or provide a direct image
+  submit FAIL b01-hook[0] {"error":"The URL you provided is not valid or no longer exists. Please upload the media again or provide a direct image
+  submit b01-hook[0] 0406f2e5 (1 inflight)
+  FAILED b01-hook[0] -> requeue
+  submit b01-hook[0] a32869d6 (1 inflight)
+  FAILED b01-hook[0] -> requeue
+  submit b01-hook[0] 07004492 (1 inflight)
+  FAILED b01-hook[0] -> requeue
+  submit FAIL b01-hook[0] {"error":"The URL you provided is not valid or no longer exists. Please upload the media again or provide a direct image
+  submit b01-hook[0] fc019e7e (1 inflight)
+  FAILED b01-hook[0] -> requeue
+  submit b01-hook[0] 7b954435 (1 inflight)
+  FAILED b01-hook[0] -> requeue
+  submit FAIL b01-hook[0] {"error":"The URL you provided is not valid or no longer exists. Please upload the media again or provide a direct image
+  submit b01-hook[0] 9989795b (1 inflight)

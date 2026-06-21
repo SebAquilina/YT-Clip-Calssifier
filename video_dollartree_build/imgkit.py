@@ -20,7 +20,7 @@ if os.path.exists("/tmp/scene_refs.json"):
     _o=json.load(open("/tmp/scene_refs.json")); SCENES.update(_o.get("scenes",{}))
     if _o.get("candice"): CANDICE_REF=_o["candice"]
     if _o.get("bench"): BENCH_REF=_o["bench"]
-VOICE={"voiceCloneId":"2e2ea1c5-13fb-4747-91c8-b7f3fc0b9482","model":"speech-2.8-hd","speed":1.05,"language_boost":"en"}
+VOICE={"voiceCloneId":"2e2ea1c5-13fb-4747-91c8-b7f3fc0b9482","model":"speech-2.8-hd","speed":1.0,"language_boost":"en"}
 
 # ---- prompt blocks ----
 IDENTITY=("This is the EXACT SAME woman shown in the reference keyframe image — identical face, tortoiseshell "
@@ -38,6 +38,13 @@ NOSPAWN=("Every object is physically present and real from the very first frame 
 NOTEXT=("CRITICAL ABSOLUTE RULE: ZERO text rendered over the video — no subtitles, captions, transcription, "
 "semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic "
 "footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.")
+# prevention clause for every image/still — stops the recurring AI-fakery the realism gate kept catching.
+ANTIFAKE=("PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick — never floating, "
+"detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right "
+"to the wick. Real ordinary candles only — NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label "
+"is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating "
+"icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, "
+"never onto the table. Everything physically possible and consistent — nothing morphs, melts wrong or appears.")
 WS=("the same lived-in home candle workshop: her rustic wooden workbench with glass candle jars, soy wax, amber "
 "fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles behind, soft natural window light.")
 # iPhone-realism clause — the single most important anti-"fake/3D-render" knob. Deep focus, NOT shallow; no studio look.
@@ -68,11 +75,11 @@ def image_prompt(subject, shot="close-up"):
     # LITERAL still of the thing being said, as an iPhone snapshot on her real workbench; no text; no stray people/faces
     return (f"A casual {shot} iPhone photo of {subject}, on a real rustic wooden candle-workshop workbench in a lived-in "
     f"home workshop, a little honest clutter around it. {IPHONE} No people and no faces unless explicitly part of the "
-    f"subject; no hands unless needed. {NOTEXT}")
+    f"subject; no hands unless needed. {ANTIFAKE} {NOTEXT}")
 
 def live_motion(motion):
     return (f"The still phone photo comes to life with subtle real motion: {motion}, and a slow gentle handheld camera "
-    f"push-in. {IPHONE} {NOSPAWN} No people appear. {NOTEXT}")
+    f"push-in. {IPHONE} {NOSPAWN} {ANTIFAKE} No people appear. {NOTEXT}")
 
 # ---- 69labs API ----
 def req(method, path, body=None, t=90):

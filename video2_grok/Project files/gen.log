@@ -1,0 +1,50 @@
+== Stage A: TTS ==
+== 34 clips to generate ==
+  submit hook[0] ed13c690 (1)
+  submit hook[1] 3cf98b02 (2)
+  submit prev1[0] ae36a8e9 (3)
+  submit prev1[1] 1c2213ee (4)
+  submit prev2[0] d944af70 (5)
+  DONE hook[1] 5009801b
+  submit prev2[1] f6b72615 (5)
+  DONE hook[0] 4730695b
+  submit f1a[0] 53fba966 (5)
+  DONE prev1[1] 4193221b
+  DONE f1a[0] 1988068b
+  submit f1b[0] 680a783a (4)
+  submit f1b[1] 4ec5eb60 (5)
+  DONE prev1[0] 4761888b
+  DONE prev2[0] 4088717b
+  DONE prev2[1] 3560413b
+  submit f1c[0] 521a5aaf (3)
+  submit f2a[0] 8ff4edf6 (4)
+  submit f2b[0] b8b0c75e (5)
+  DONE f1b[0] 4159499b
+  submit f2b[1] 66e99d0d (5)
+  DONE f1b[1] 4493078b
+  submit f2c[0] b6ab1870 (5)
+  DONE f1c[0] 3564462b
+  DONE f2a[0] 4456992b
+  submit f3a[0] 44743c16 (4)
+  submit f3b[0] 9ec65251 (5)
+  DONE f2b[0] 5116965b
+  submit f4a[0] 56c07130 (5)
+  DONE f2b[1] 4241816b
+  DONE f2c[0] 2974265b
+  submit f4a[1] a9347cc9 (4)
+  submit f4b[0] 93784968 (5)
+  DONE f3b[0] 5554437b
+  submit f4c[0] 473b34a3 (5)
+  DONE f3a[0] 2561662b
+  DONE f4a[0] 3732404b
+  DONE f4a[1] 2537795b
+  submit f5a[0] 9610bc35 (3)
+  submit f5b[0] 394dab3c (4)
+  DONE f4b[0] 4748054b
+  submit FAIL f5b[1] retries
+  submit FAIL f5b[1] retries
+  DONE f5a[0] 3489153b
+  DONE f5b[0] 4990921b
+  submit FAIL f5b[1] retries
+  DONE f4c[0] 4073633b
+  submit FAIL f5b[1] retries

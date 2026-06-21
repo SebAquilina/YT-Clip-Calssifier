@@ -951,3 +951,37 @@ Long videos: `gen_dt.py --shard I/N` (N≈5) + `merge_state.py` for safe paralle
 - **Author the script in short ≤18-word lines from the start.** Long lines both truncate at veo's 8s
   cap AND inflate TH (post-hoc splitting turns one long TH line into two TH beats). Short lines fix
   both. Target ~12-16 words/line.
+
+### FORMAT v6 — full QA gate suite + structural rules (from Dollar-Tree review)
+A reviewer caught 26 flaws our gates missed. Root causes + the systems now in place:
+- **NO two talking-heads back-to-back** (buildlib.finalize asserts). Adjacent THs were THE source of
+  "bad merges / awkward gaps / speeds don't match between them." Alternate every TH with image/split/
+  live/broll. (One exception: hook TH -> book-CTA TH.)
+- **Author short standalone <=16-word lines** (no post-hoc splitting — splitting created the adjacent-TH
+  runs and mid-clause fragments like "...and leaving").
+- **Narration rate-match** (asm_dt `NARR_ATEMPO`): cloned TTS (~3.1 wps) is pitch-preserve time-stretched
+  to a single consistent ~2.1 wps, close to veo TH (~1.8). Fixes the cross-track speed mismatch. TH is
+  never stretched (would desync lips).
+- **deep_gate.py** — coherence (full-transcript similarity, catches gibberish + veo junk words like "tat"
+  + duplicate adjacent lines), adjacency runs, mid-clause fragments, speech-rate outliers.
+- **Realism vision gate** — 3 frames/clip; flags spawning/vanishing objects, flames not on a wick,
+  candles lit while the flame source is far from the wick, fake/CGI candles, novelty/joke labels
+  (nano invents "Unicorn Fuel"/"Emotional Dumpster Fire"), floating diagram arrows. (Never use the word
+  "diagram"/"cross-section" in an image prompt — it makes nano add annotation text.)
+- **NOMUSIC** clause on every veo TH prompt (veo was adding background music).
+- **Re-run ALL gates after EVERY regen, before final assembly.** The biggest process failure: text/
+  imposter/realism slipped through because clips re-rolled AFTER the scan were never re-scanned.
+- Realistic action prompts: "brings the lit match down until it touches the wick" (never "lights it"),
+  and NOSPAWN on all broll/live.
+
+### FORMAT v6.1 — prevention prompts + full pipeline doc
+- **ANTIFAKE clause** now on every image/come-to-life prompt: flame only on a wick (never floating/off a
+  hand/whole-object-on-fire), candles lit only by a match to the wick, real ordinary candles only (no
+  novelty/joke/neon labels), no diagrams/arrows, wax melts on a stove (not boiling on a table), liquids
+  pour into a container (not onto the table), nothing morphs/spawns. This PREVENTS the realism defects
+  the vision gate kept catching, so we avoid them up front.
+- **Full start-to-finish walkthrough: see `PIPELINE.md`** — author → prevention prompts → references →
+  concurrent generate → the 6-part gate suite (face, no-text, realism, coherence, truncation, adjacency+
+  rate) → auto-fix loop → assemble (loudnorm/atempo/silence-crop/face-centered split/book CTA) → master →
+  deliver, plus a defect→gate map. Golden rule: run the whole gate suite before delivery AND after every
+  re-roll.

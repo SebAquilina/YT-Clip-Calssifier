@@ -144,3 +144,13 @@ Truncation fixed (over-long sentences split so every clip says its full line; ve
 - 101 beats, 30% TH, MrBeast hook + book CTA + 6 topics + outro. All gates passed (0 imposters, 0 text/watermark, no cutoffs/repeats).
 - Zip (video + 62 source clips + thumbnail + description): https://litter.catbox.moe/otax5o.zip
 - Video: https://litter.catbox.moe/fyocw7.mp4
+
+## VIDEO 2/3 — A Glowing CANDLE Sealed in Clear Resin (10.1 min) ⭐
+- 89 beats, 31% TH. Gates passed (0 imposters, no cutoffs/repeats, diagram-overlay fixed).
+- Zip: https://litter.catbox.moe/lp76ad.zip | Video: https://litter.catbox.moe/rwze5e.mp4
+
+## ⭐ FINAL REBUILT SET (v6 system — all flaws fixed)
+- Dollar-Tree (12.7m): https://litter.catbox.moe/8ry8es.zip
+- Giant Candle (13.9m): https://litter.catbox.moe/fwxioa.zip
+- Resin (12.2m): https://litter.catbox.moe/gkr1x0.zip
+- Skill v6.1 (+PIPELINE.md): https://litter.catbox.moe/im9i4r.zip

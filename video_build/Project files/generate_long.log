@@ -1,0 +1,120 @@
+== Stage A: TTS ==
+  TTS n_intro_market
+  TTS b02-intro
+  TTS n_intro_promise
+  TTS n_intro_tea
+  TTS b03-hack1
+  TTS n_h1b
+  TTS n_h1c
+  TTS b04-hack2
+  TTS n_h2b
+  TTS n_h2c
+  TTS b05-hack3
+  TTS n_h3b
+  TTS n_h3c
+  TTS b06-hack4
+  TTS n_h4b
+  TTS n_h4c
+  TTS b07-hack5
+  TTS n_h5b
+  TTS n_h5c
+  TTS b09-hack6
+  TTS n_h6b
+  TTS n_h6c
+  TTS b10-hack7
+  TTS n_h7b
+  TTS n_h7c
+  TTS b11-hack8
+  TTS n_h8b
+  TTS n_h8c
+  TTS b12-hack9
+  TTS n_h9b
+  TTS n_h9c
+  TTS b13-hack10
+  TTS n_h10b
+  TTS n_h10c
+  TTS n_recap1
+  TTS n_recap2
+  TTS b15-outro
+== 40 clips to generate, 5-concurrent ==
+  submit n_intro_market[0] 504a074f (1 inflight)
+  submit n_intro_promise[0] 7a67e7fc (2 inflight)
+  submit n_intro_tea[0] 8e365fc1 (3 inflight)
+  submit n_h1b[0] 70893945 (4 inflight)
+  submit n_h1b[1] 55f301ce (5 inflight)
+  DONE n_intro_market[0] 3282649b
+  submit n_h1c[0] 24489abd (5 inflight)
+  DONE n_intro_promise[0] 2755642b
+  submit n_h1c[1] c37ad4bc (5 inflight)
+  DONE n_intro_tea[0] 2213076b
+  DONE n_h1b[0] 2225685b
+  DONE n_h1b[1] 3318994b
+  submit n_h2b[0] 9a9aced1 (3 inflight)
+  submit n_h2b[1] 8c41cdc9 (4 inflight)
+  submit n_h2c[0] fcfd747a (5 inflight)
+  DONE n_h1c[0] 1963961b
+  submit n_h2c[1] f6ca7146 (5 inflight)
+  DONE n_h1c[1] 1306473b
+  submit n_th_a[0] 935e4313 (5 inflight)
+  DONE n_h2c[0] 1454732b
+  submit n_h3b[0] f32a49e6 (5 inflight)
+  DONE n_h2b[0] 3501240b
+  DONE n_h2b[1] 3014326b
+  DONE n_h2c[1] 2687315b
+  submit n_h3c[0] 55bc2e17 (3 inflight)
+  submit n_h4b[0] 347e71e9 (4 inflight)
+  submit n_h4b[1] ad89bfae (5 inflight)
+  DONE n_th_a[0] 2066190b
+  submit n_h4c[0] a338e876 (5 inflight)
+  DONE n_h3b[0] 1562545b
+  DONE n_h3c[0] 2198622b
+  submit n_h4c[1] 1a22ed24 (4 inflight)
+  submit n_h5b[0] c954245f (5 inflight)
+  DONE n_h4b[0] 1586461b
+  DONE n_h4b[1] 1700080b
+  submit n_h5b[1] 44ce0c3b (4 inflight)
+  submit n_h5c[0] e864b620 (5 inflight)
+  DONE n_h4c[0] 2184245b
+  submit n_h6b[0] 05540ed6 (5 inflight)
+  DONE n_h4c[1] 3930814b
+  DONE n_h5b[0] 2463376b
+  submit n_h6c[0] cc2978f0 (4 inflight)
+  submit n_h7b[0] e03b679c (5 inflight)
+  DONE n_h5b[1] 1813764b
+  DONE n_h6b[0] 1728399b
+  submit n_h7b[1] fa94775e (4 inflight)
+  submit n_h7c[0] fecea8c4 (5 inflight)
+  DONE n_h5c[0] 3634999b
+  submit n_h7c[1] 6eca89e9 (5 inflight)
+  DONE n_h6c[0] 2439338b
+  submit n_th_b[0] 590fa8f2 (5 inflight)
+  DONE n_h7b[0] 1997614b
+  DONE n_h7b[1] 2029448b
+  submit n_h8b[0] cb439b3e (4 inflight)
+  submit n_h8c[0] a5cd42d8 (5 inflight)
+  DONE n_h7c[0] 1211396b
+  DONE n_h7c[1] 2476466b
+  submit n_h8c[1] bcf42259 (4 inflight)
+  submit n_h9b[0] acdb5ecb (5 inflight)
+  DONE n_th_b[0] 2844363b
+  submit n_h9c[0] ea355eb5 (5 inflight)
+  DONE n_h8c[0] 601126b
+  submit n_h10b[0] 6f9f0e61 (5 inflight)
+  DONE n_h8b[0] 1807924b
+  submit n_h10b[1] 56b523fc (5 inflight)
+  DONE n_h8c[1] 2076376b
+  DONE n_h9b[0] 2305549b
+  submit n_h10c[0] f131a5a7 (4 inflight)
+  submit n_h10c[1] 0ae45478 (5 inflight)
+  DONE n_h9c[0] 2431330b
+  submit n_recap1[0] c9a49777 (5 inflight)
+  DONE n_h10b[0] 1751920b
+  submit n_recap1[1] 74adfba5 (5 inflight)
+  DONE n_h10c[0] 3609654b
+  submit n_recap2[0] 5b6b30d7 (5 inflight)
+  DONE n_h10b[1] 3279195b
+  DONE n_h10c[1] 2935129b
+  DONE n_recap1[0] 3062778b
+  DONE n_recap2[0] 2268774b
+  DONE n_recap1[1] 2695269b
+== DONE: 66/66 clips downloaded ==

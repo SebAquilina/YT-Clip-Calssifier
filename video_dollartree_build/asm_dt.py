@@ -19,6 +19,9 @@ OUT=sys.argv[2] if len(sys.argv)>2 else os.path.join(PROJ,f"{M['title']}.mp4")
 DELOGO="delogo=x=1198:y=676:w=78:h=40"
 BOOK="/home/user/YT-Clip-Calssifier/assets/book_inset.png"   # real book cover for the CTA inset
 TARGET=-19.0   # per-segment loudness target (dB LUFS) reached via fixed gain — no timing change
+# narration rate-match: cloned TTS runs ~3.1 wps vs veo TH ~1.8 wps; pitch-preserving atempo slows
+# every narration to a single consistent ~2.1 wps (close to TH), fixing the cross-track speed mismatch.
+NARR_ATEMPO=0.66
 ENC=["-r","24","-vsync","cfr","-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p","-c:a","aac","-b:a","160k","-ar","48000","-ac","2"]
 def run(c):
     r=subprocess.run(c,capture_output=True,text=True)
@@ -95,30 +98,31 @@ for b in M["beats"]:
     elif vm=="image_full":
         img=st.get("image"); aud=st.get("audio")
         if not (img and aud): print("skip full",bid); continue
-        gain,_=audio_measure(aud); D=(st.get("adur") or 3.0)+0.6     # more tail headroom (#2)
+        gain,_=audio_measure(aud); D=(st.get("adur") or 3.0)/NARR_ATEMPO+0.4   # rate-matched + tail headroom
         kb=b.get("kenburns",{}); z="min(zoom+0.0006,1.12)" if kb.get("dir","in")=="in" else "if(lte(zoom,1.0),1.12,max(zoom-0.0006,1.0))"
         run([FF,"-y","-loop","1","-i",img,"-i",aud,"-filter_complex",
              f"[0:v]scale=2560:-1,zoompan=z='{z}':d={int(D*24)}:s=1280x720:fps=24,format=yuv420p[v];"
-             f"[1:a]aresample=48000,volume={gain:.2f}dB,apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
+             f"[1:a]aresample=48000,volume={gain:.2f}dB,atempo={NARR_ATEMPO},apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
              "-map","[v]","-map","[a]","-t",f"{D:.3f}",*ENC,seg])
     elif vm=="image_live":
         cf=st.get("clip"); aud=st.get("audio")
         if not (cf and aud): print("skip live",bid); continue
-        gain,_=audio_measure(aud); D=min((st.get("adur") or 3.0)+0.6, K.dur(cf))
+        gain,_=audio_measure(aud); D=(st.get("adur") or 3.0)/NARR_ATEMPO+0.4
+        # come-to-life clip may be shorter than the (stretched) narration -> freeze-extend the last frame
         run([FF,"-y","-i",cf,"-i",aud,"-filter_complex",
-             f"[0:v]{DELOGO},scale=1280:720,trim=0:{D:.3f},setpts=PTS-STARTPTS,fps=24[v];"
-             f"[1:a]aresample=48000,volume={gain:.2f}dB,apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
+             f"[0:v]{DELOGO},scale=1280:720,tpad=stop_mode=clone:stop_duration={D:.3f},trim=0:{D:.3f},setpts=PTS-STARTPTS,fps=24[v];"
+             f"[1:a]aresample=48000,volume={gain:.2f}dB,atempo={NARR_ATEMPO},apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
              "-map","[v]","-map","[a]","-t",f"{D:.3f}",*ENC,seg])
     elif vm=="broll":
         cf=st.get("clip"); aud=st.get("audio")
         if not (cf and aud): print("skip broll",bid); continue
-        gain,_=audio_measure(aud); D=(st.get("adur") or 3.0)+0.6
+        gain,_=audio_measure(aud); D=(st.get("adur") or 3.0)/NARR_ATEMPO+0.4
         cd=K.dur(cf); vsrc=cf
         if cd<D-0.05:
             lp=os.path.join(SEG,f"{bid}_loop.mp4"); run([FF,"-y","-stream_loop","-1","-i",cf,"-an","-t",f"{D+0.5:.2f}",*[x for x in ENC if x not in("-c:a","aac","-b:a","160k","-ar","48000","-ac","2")],lp]); vsrc=lp
         run([FF,"-y","-i",vsrc,"-i",aud,"-filter_complex",
              f"[0:v]{DELOGO},scale=1280:720,trim=0:{D:.3f},setpts=PTS-STARTPTS,fps=24[v];"
-             f"[1:a]aresample=48000,volume={gain:.2f}dB,apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
+             f"[1:a]aresample=48000,volume={gain:.2f}dB,atempo={NARR_ATEMPO},apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
              "-map","[v]","-map","[a]","-t",f"{D:.3f}",*ENC,seg])
     else:
         print("unknown mode",vm,bid); continue

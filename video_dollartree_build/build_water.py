@@ -17,12 +17,14 @@ full("an elegant dinner table glowing with several floating water candles","Stic
 # ===== EBOOK CTA (<1:30) =====
 book("And every candle idea like this lives in my book, if you want more.","shelf")
 th("It is The Three Dollar Luxury Candle, and the link is right below.")
+full("a cozy shelf of glowing floating water candles in different colours","It is packed with simple ideas exactly like this one.","close-up")
 
 # ===== HOW IT WORKS =====
 th("First, how does a flame burn on water? It is actually simple.")
 split("The flame is not burning water. It burns a thin layer of oil on top.","a clear glass showing a layer of oil sitting on top of water, a wick in the oil","bench","left")
-full("a simple cross-section showing water at the bottom and a thin oil layer floating above","Oil floats on water. The wick sits in the oil, and only the oil ever feeds the flame.","close-up")
+full("a clear glass of coloured water with a thin oil layer floating on top and a wick in the oil","Oil floats on water. The wick sits in the oil, and only the oil ever feeds the flame.","close-up")
 th("The water underneath stays cool. It is basically a tiny, gorgeous oil lamp.")
+full("a clear glass showing cool coloured water below and a small flame floating on the oil on top","Cool water below, a warm little flame on top. A tiny, gorgeous oil lamp.","close-up")
 
 # ===== TOPIC 1: WHAT YOU NEED =====
 th("Here is everything you need, and you probably have most of it.","packing")
@@ -58,6 +60,7 @@ live("oil being poured onto water, settling into a clean clear layer on top","th
 full("a floating cork wick set gently onto the oil layer in a glass","Set your floating wick onto the oil and let it settle flat. The wick soaks up the oil.","close-up")
 br("rests a floating wick onto an oil layer and nudges it to the centre","Nudge it to the middle so the flame sits centred, not leaning against the glass.")
 th("Give the wick a minute to soak up the oil before you try to light it.")
+live("a floating wick resting on an oil layer slowly soaking up the oil in a glass","the wick slowly darkens as it drinks up the oil","Give it a moment and the wick darkens as it drinks up the oil.")
 
 # ===== TOPIC 5: LIGHTING & SAFETY =====
 th("Lighting it is easy, but let us do it safely.","bench")
@@ -68,6 +71,7 @@ th("Never let it burn dry. When the oil runs low, the flame goes out on its own.
 split("Keep them on a steady surface, away from anything that can tip, just like any candle.","a floating candle sitting safely in the centre of a clear table","bench","right")
 full("a floating candle with the water level clearly above the flame's reach","The best safety feature is built in. Water is right there under the flame the whole time.","close-up")
 th("Still, never leave any open flame unattended. Same rules as a normal candle apply.")
+full("a floating water candle burning safely on a clear steady table away from anything","Give it a steady spot away from clutter, and treat it like any real candle.","close-up")
 
 # ===== TOPIC 6: WHY OIL-ON-WATER WORKS =====
 th("So why does this work so well? A little bit of simple science.")
@@ -75,6 +79,7 @@ full("a clear diagram of a wick drawing oil up to a flame above a water layer","
 split("The water just sits there, cool and heavy, holding everything up and looking gorgeous.","a glass showing cool coloured water below a warm glowing flame above","window","left")
 full("a floating flame glowing warmly above deep blue water with petals","Oil floats, water holds, the wick feeds the flame. Three simple rules, one beautiful candle.","close-up")
 th("No wax, no mould, no melting. It might be the easiest candle you will ever make.")
+full("a simple side view of a wick drawing oil up from a thin oil layer over coloured water","The wick sips the oil, the flame sits on top, and the water just holds it all up.","close-up")
 
 # ===== TOPIC 7: STYLING FOR A DINNER TABLE =====
 th("Now let us make these actually look stunning. Table styling.","shelf")
@@ -84,9 +89,11 @@ live("a dinner table at dusk glowing with several floating water candles","the f
 full("floating candles matched to a colour theme, all soft pink and gold","Match the water colour to your table theme and it looks completely intentional and styled.","close-up")
 full("a floating candle as a single elegant place setting at each seat","One little glass at each place setting feels personal and fancy, for almost no money.","close-up")
 th("A whole table of these costs a few dollars and looks like you hired a stylist.")
+live("a dinner table glowing with a row of floating water candles at dusk","the little flames flicker gently across the whole table","At dusk, with them all lit, the whole table just glows.")
 
 # ===== SEASONAL VARIATIONS =====
 th("They are endlessly easy to change for any occasion.","bench")
+full("floating water candles styled for different seasons, cranberries in one and citrus in another","A few seasonal swaps and the same little candle fits any occasion.","close-up")
 full("a festive floating candle with cranberries, pine and gold water","Cranberries and pine for the holidays. It looks like a magazine centrepiece in two minutes.","close-up")
 split("Citrus and herbs for summer, petals for spring, deep reds for a romantic dinner.","several seasonal floating candles in different colour themes","bench","left")
 full("a romantic floating candle with red rose petals in deep red water","Red petals in deep red water for date night. Simple, but it looks incredibly romantic.","close-up")
@@ -129,9 +136,9 @@ th("A few quick warnings so yours work the first time.","bench")
 split("Too little oil burns out fast. Give it at least half an inch.","a glass with a healthy half-inch oil layer on the water","bench","right")
 full("a cloudy glass from coloured oil as a what-not-to-do example","Colour the water, not the oil. Coloured oil clouds up and chokes the flame.","close-up")
 th("Keep petals and fruit under the oil, never near the flame. That is the rule.")
+full("a beautiful row of floating water candles glowing together down a dinner table","Done right, a whole row of these glowing on a table looks genuinely magical.","close-up")
 
 # ===== OUTRO =====
-th("Make a row of these for your next dinner. I promise someone will ask how.")
-th("Subscribe for more, and YouTube thinks you will love the video right here on screen.","window")
+th("Make a row for your next dinner — and the next video is on screen.","window")
 
 finalize(os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","video_water_veo"))
