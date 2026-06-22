@@ -97,8 +97,8 @@ def do_beat(b):
         if gen_video_sem(b["prompt"],clip,[b.get("broll_ref",K.HANDS)],"keyframes",True):
             setk(bid,"clip",os.path.abspath(clip)); print(tag,"broll clip ok",flush=True)
         else: print(tag,"broll clip FAIL",flush=True)
-    # 5) TTS narration (full/live/broll) — tts pool
-    if vm in ("image_full","image_live","broll") and b.get("narration") and not have(e.get("audio")):
+    # 5) TTS narration (full/live/broll) — tts pool (skippable via --notts so a dedicated TTS filler can own it)
+    if "--notts" not in sys.argv and vm in ("image_full","image_live","broll") and b.get("narration") and not have(e.get("audio")):
         mp3=os.path.join(AUD,f"{bid}.mp3")
         for _ in range(3):
             if tts_sem_call(b["narration"],mp3):
