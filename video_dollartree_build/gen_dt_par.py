@@ -48,12 +48,29 @@ def host_img(path):
             f"fileToUpload=@{path}","https://litterbox.catbox.moe/resources/internals/api.php"],capture_output=True,text=True)
         if r.stdout.strip().startswith("http"): return r.stdout.strip()
     return None
+def host_beat_image(refid):
+    # host (and cache) the rendered image of an earlier beat so a later beat can reuse it as a reference
+    with lock:
+        u=S.get("subjects_bybeat",{}).get(refid)
+        if u: return u
+        rp=S["beats"].get(refid,{}).get("image")
+    if not have(rp): return None   # ref not rendered yet -> caller should defer
+    u=host_img(rp)
+    if u:
+        with lock: S.setdefault("subjects_bybeat",{})[refid]=u; json.dump(S,open(SP,"w"),indent=2)
+    return u
 def subject_ref(b):
-    # v6.3: if this beat shares a subject_key with an already-rendered canonical image, feed that
-    # canonical (hosted) in as the FIRST img2img reference so the object stays identical across shots.
-    key=b.get("subject_key");
-    if not key: return None
-    with lock: return S.get("subjects",{}).get(key)
+    # v6.3/v6.4: feed a prior render in as the FIRST img2img reference so the subject stays consistent.
+    # (a) explicit subject_key -> the hosted canonical; (b) auto subject_ref_of -> the linked earlier beat.
+    # Returns: (url) ready, "WAIT" if the linked beat isn't rendered yet, or None if no chain.
+    key=b.get("subject_key")
+    if key:
+        with lock: u=S.get("subjects",{}).get(key)
+        return u
+    refid=b.get("subject_ref_of")
+    if refid:
+        return host_beat_image(refid) or "WAIT"
+    return None
 
 def do_beat(b):
     bid=b["id"]; vm=b.get("visual_mode",b.get("type")); e=st(bid)
@@ -62,6 +79,8 @@ def do_beat(b):
     if vm in ("image_full","image_split","image_live") and not have(e.get("image")):
         img=os.path.join(IMG,f"{bid}.png")
         sref=subject_ref(b)
+        if sref=="WAIT":   # auto-chained to an earlier beat that isn't rendered yet — defer to next pass
+            print(tag,"defer (waiting on subject ref",b.get("subject_ref_of"),")",flush=True); return
         base=[b["image_ref_url"]] if b.get("image_ref_url") else ([K.BENCH_REF] if K.BENCH_REF else [])
         refs=([sref]+base) if sref else (base or None)
         ar=b.get("ar","16:9")
@@ -118,14 +137,18 @@ CANON={}
 for b in M["beats"]:
     k=b.get("subject_key")
     if k and k not in CANON: CANON[k]=b["id"]
-# PRE-PASS: render (and host) every canonical subject FIRST, so dependent beats can chain its image.
-canon_beats=[b for b in M["beats"] if b["id"] in CANON.values() and not have(S["beats"].get(b["id"],{}).get("image"))]
-if canon_beats:
-    print(f"subject pre-pass: {len(canon_beats)} canonical subject image(s): {[b['id'] for b in canon_beats]}",flush=True)
+# v6.4: chain ROOTS = beats referenced by an auto subject_ref_of that don't themselves reference anything.
+# Pre-render heads (subject_key canonicals + chain roots) so the rest can chain off existing images.
+_refed=set(b.get("subject_ref_of") for b in M["beats"] if b.get("subject_ref_of"))
+def _is_root(b): return b["id"] in _refed and not b.get("subject_ref_of") and not b.get("subject_key")
+head_ids=set(CANON.values()) | set(b["id"] for b in M["beats"] if _is_root(b))
+head_beats=[b for b in M["beats"] if b["id"] in head_ids and not have(S["beats"].get(b["id"],{}).get("image"))]
+if head_beats:
+    print(f"subject pre-pass: {len(head_beats)} chain-head image(s): {[b['id'] for b in head_beats]}",flush=True)
     with ThreadPoolExecutor(max_workers=IMGN) as ex:
-        for f in as_completed([ex.submit(do_beat,b) for b in canon_beats]):
+        for f in as_completed([ex.submit(do_beat,b) for b in head_beats]):
             try: f.result()
-            except Exception as ex2: print("canon error:",ex2,flush=True)
+            except Exception as ex2: print("head error:",ex2,flush=True)
 
 todo=[b for b in M["beats"] if not beat_done(b)]
 print(f"concurrent gen: {len(todo)}/{len(M['beats'])} beats to do | vid={VID} img={IMGN} tts={TTSN}",flush=True)

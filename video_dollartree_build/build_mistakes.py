@@ -16,9 +16,11 @@ full("a few flawed beginner candles lined up, one frosted, one sunken, one crack
 th("Stay to the very end for the one mistake that catches almost everyone.","shelf")
 full("a beautiful finished soy candle topped with a few dried flower petals, glowing softly","Get them right, and your very first candle can honestly look like this.","close-up",subj="hero_candle")
 
-# ===== EBOOK CTA (within 1:30) =====
-book("And every fix here is in my book, The Three Dollar Luxury Candle.","shelf")
-full("the book beside a tidy beginner candle setup on the workbench","The beginner chapter walks through every mistake in this video, step by step.","close-up")
+# ===== EBOOK CTA (v6.4 SOP: 2 TH beats, different scenes, within 1:30, call it an EBOOK, once) =====
+cta_ebook("Every fix is in my cheap ebook — I hate watching people waste money on candles.",
+          "It is there if you want it, and I will not mention it again.",
+          scene1="shelf", scene2="kitchen")
+full("a calm tidy candle workbench with a starter kit and a few empty jars set out","Right — let's actually make some candles, starting with one simple kit.","wide")
 
 # ===== TOPIC 1: THE SIMPLE KIT PROMISE (a batch of five) =====
 th("First, the good news. One basic kit makes about five candles.","bench")

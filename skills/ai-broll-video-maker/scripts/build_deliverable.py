@@ -24,9 +24,11 @@ def main():
     folder=sys.argv[1].rstrip("/")
     title=None
     if "--title" in sys.argv: title=sys.argv[sys.argv.index("--title")+1]
-    mp4=find_one(folder, ["*.mp4"])
-    desc=find_one(folder, ["*.txt"])
-    thumb=find_one(folder, ["Thumbnail*.png","thumbnail*.png","*thumb*.png","*.png"])
+    mp4=find_one(folder, ["*_mastered.mp4","*.mp4"])   # prefer the mastered cut
+    desc=os.path.join(folder,"description.txt"); desc=desc if os.path.exists(desc) else find_one(folder,["description*.txt","*.txt"])
+    tags=os.path.join(folder,"tags.txt")               # v6.4: YouTube tags CSV
+    thumbdir=os.path.join(folder,"thumbnails")         # v6.4: all thumbnail variants
+    thumb=find_one(folder, ["thumbnail.png","Thumbnail*.png","thumbnail*.png","*thumb*.png","*.png"])
     clips=os.path.join(folder,"Source clips")
     if not mp4: print("[error] no final .mp4 in",folder); sys.exit(1)
     if not title: title=os.path.splitext(os.path.basename(mp4))[0]
@@ -36,8 +38,12 @@ def main():
     shutil.copy(mp4, os.path.join(pkg, title+".mp4"))
     if desc:  shutil.copy(desc, os.path.join(pkg,"description.txt"))
     else:     print("[warn] no description.txt found")
-    if thumb: shutil.copy(thumb, os.path.join(pkg,"thumbnail.png"))
-    else:     print("[warn] no thumbnail.png found")
+    if os.path.exists(tags): shutil.copy(tags, os.path.join(pkg,"tags.txt"))
+    else:     print("[warn] no tags.txt found (run gen_tags.py)")
+    if os.path.isdir(thumbdir): shutil.copytree(thumbdir, os.path.join(pkg,"thumbnails"))
+    elif thumb: shutil.copy(thumb, os.path.join(pkg,"thumbnail.png"))
+    else:     print("[warn] no thumbnails found")
+    if thumb: shutil.copy(thumb, os.path.join(pkg,"thumbnail.png"))   # also a top-level primary
     if os.path.isdir(clips): shutil.copytree(clips, os.path.join(pkg,"Source clips"))
     else: print("[warn] no 'Source clips/' found")
 

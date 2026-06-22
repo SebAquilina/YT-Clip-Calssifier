@@ -14,13 +14,20 @@ non-TH beats. Target ~30% talking head; **never two talking-heads back-to-back**
 ──────────────────────────────────────────────────────────────────────────
 ## 1. Author the script  (build_*.py + buildlib.py)
 Helpers: `th(sentence,scene)`, `full(subject,narration)`, `split(sentence,subject,scene,side)`,
-`live(subject,motion,narration)`, `br(action,narration)`, `book(sentence)` (ebook CTA).
+`live(subject,motion,narration)`, `br(action,narration)`, `cta_ebook(line_ebook,line_trust,scene1,scene2)`.
 Rules enforced at `finalize()`:
 - **Short standalone lines, ≤16–18 words.** Long lines truncate at veo's 8s cap AND, if split later,
   create back-to-back THs. Write short from the start. (assert)
 - **No two talking-heads in a row** (assert) — the #1 cause of "bad merge / awkward gap / speed jump".
-- **MrBeast hook** (say the title at the end of the hook), **ebook CTA within 1:30**, topics in order,
-  **subscribe + next-video outro**. Intro/outro/CTA are always talking head.
+- **MrBeast hook** (say the title at the end of the hook), topics in order, **subscribe + next-video outro**.
+  Intro/outro/CTA are always talking head.
+- **EBOOK CTA (v6.4 SOP, within 1:30):** `cta_ebook(...)` emits TWO talking-head beats in DIFFERENT scenes
+  — beat 1 composites the real ebook cover and ties THIS video's topic to it; beat 2 (new scene) is the
+  TRUST line ("it's there if you want it, I won't mention it again" + "I'm tired of people wasting money on
+  candles a few small cheap changes would fix"). Always say **ebook**, never "book"; mention it ONCE.
+- **Auto subject-chains (v6.4):** `finalize()` runs `auto_subject_refs()` — it reads images in order and,
+  when a later still shows the SAME evolving subject as a recent earlier one, feeds the earlier render in as
+  the img2img reference (`subject_ref_of`) so a DIY subject stays consistent as it changes. `subj=` overrides.
 - `br(action, narration)` — first arg = the hand ACTION (into the veo prompt), second = the SPOKEN line.
   Never swap (a swap makes the TTS read the stage direction aloud).
 
@@ -95,8 +102,13 @@ big for one ffmpeg call). Built-in fixes:
 
 ## 8. Master + deliver  (master_audio.py)
 High-pass + light denoise + two-pass EBU R128 loudnorm to **-16 LUFS / -1.5 dBTP** + faint room-tone bed.
-Deliver as a zip: final video + all source clips + thumbnail + description (book CTA link → chapters →
-hashtags). Thumbnail = nano-banana background (Candice + props, identity-locked) + bold title text via PIL.
+Deliver as a zip (`build_deliverable.py`): final mastered video + all source clips + `thumbnails/` (all 6:
+3 concepts × 2 variants, nano-banana-pro @ 2k) + `description.txt` + `tags.txt`.
+- **Description** (v6.4): first line is short, video-specific, says **ebook**, and prefixes the link with 🔗.
+  Order: ebook teaser+link → body → chapters → closing → hashtags. CTA chapter reads "My ebook (free first
+  chapter)".
+- **Tags** (v6.4): `gen_tags.py <proj> "specific,tags"` writes `tags.txt` (CSV) — video-specific tags +
+  broad evergreen/cross-platform pool (diy, candlemaking, tiktok, reels…), de-duped, ≤500 chars.
 - **Chapters are computed from the FINAL cut, never hand-set** (v6.2): runtimes change (especially after
   the natural-speed fix), so run `chapters_gen.py <proj> <build_script> "<hook title>"` — it parses the
   build script's `# ===== SECTION =====` headers, times each section's first beat against the real

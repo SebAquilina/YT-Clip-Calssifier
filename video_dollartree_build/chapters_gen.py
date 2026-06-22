@@ -50,7 +50,7 @@ for ln in open(BUILD):
 def clean(t):
     t=re.sub(r'\([^)]*\)','',t).strip()
     if t.upper().startswith("HOOK"): return HOOK
-    if "EBOOK CTA" in t.upper(): return "My book (free first chapter)"
+    if "EBOOK CTA" in t.upper(): return "My ebook (free first chapter)"
     if t.upper().startswith("OUTRO"): return "Watch this next"
     t=re.sub(r'^TOPIC\s+\d+:\s*','',t,flags=re.I)
     t=re.sub(r'^VARIATION:\s*','',t,flags=re.I)

@@ -22,31 +22,44 @@ def th(s, scene="bench", moved=False, book_cta=False, adj_ok=False):
     if book_cta: b["book_cta"]=True
     _B.append(b)
 def book(s, scene="shelf"):
-    """talking-head ebook CTA beat — real book cover gets composited by the assembler.
-    Tagged c_th so the one allowed hook->CTA adjacency passes the no-adjacent-TH rule."""
+    """LEGACY single-beat ebook CTA. Prefer cta_ebook() (v6.4 two-beat SOP)."""
     _short(s)
     _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":s,
                "seed":K.SCENES[scene],"prompt":K.th_prompt(s,scene),"book_cta":True,"scene":scene,"adj_ok":True})
+def cta_ebook(line_with_ebook, line_trust, scene1="shelf", scene2="bench"):
+    """v6.4 EBOOK CTA SOP — must land within the first 1:30 and is TWO talking-head beats in DIFFERENT
+    scenes (Candice's keyframe is brought to life speaking; never an image/VO beat):
+      Beat 1 (scene1): the REAL ebook cover is composited in; the line ties THIS video's exact topic to
+        the ebook as the reason to grab it.
+      Beat 2 (scene2): a TRUST line — 'it's there if you want it, I won't mention it again' + the
+        why ('I'm tired of people wasting money on candles a few small cheap changes would fix').
+    Always call it an EBOOK, never 'book'. Mention it ONCE, here, and never again."""
+    _short(line_with_ebook); _short(line_trust)
+    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":line_with_ebook,
+               "seed":K.SCENES[scene1],"prompt":K.th_prompt(line_with_ebook,scene1),"book_cta":True,"scene":scene1,"adj_ok":True})
+    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":line_trust,
+               "seed":K.SCENES[scene2],"prompt":K.th_prompt(line_trust,scene2),"scene":scene2,"adj_ok":True})
 def full(subject, narration, shot="close-up", kb="in", subj=None):
-    # subj = a subject key (e.g. "hero_candle"). The FIRST beat with a key is the canonical render;
-    # later beats with the same key get that render fed in as an img2img reference so the object stays
-    # identical across shots (different setting / lit / angle). See gen_dt_par subject-ref pass.
+    # subj = an OPTIONAL explicit subject key to force a chain. Even without it, finalize() runs
+    # auto_subject_refs(): it reads the script in order and, when a later image depicts the SAME evolving
+    # subject as an earlier one (e.g. the candle being built step by step), it feeds the earlier render in
+    # as an img2img reference so the object stays consistent (critical for DIY, where the subject evolves).
     _short(narration, 20)
     b={"id":_id("full"),"type":"image","visual_mode":"image_full","sentence":narration,
-       "image_prompt":K.image_prompt(subject,shot),"kenburns":{"dir":kb},"narration":narration}
+       "image_prompt":K.image_prompt(subject,shot),"kenburns":{"dir":kb},"narration":narration,"subject_text":subject}
     if subj: b["subject_key"]=subj
     _B.append(b)
 def split(sentence, subject, scene="bench", th_side="left", shot="close-up", subj=None):
     _short(sentence)
     b={"id":_id("split"),"type":"image","visual_mode":"image_split","sentence":sentence,
        "seed":K.SCENES[scene],"prompt":K.th_prompt(sentence,scene),"image_prompt":K.image_prompt(subject,shot),
-       "ar":"1:1","split":{"th_side":th_side,"th_frac":0.46}}
+       "ar":"1:1","split":{"th_side":th_side,"th_frac":0.46},"subject_text":subject}
     if subj: b["subject_key"]=subj
     _B.append(b)
 def live(subject, motion, narration, shot="macro", subj=None):
     _short(narration, 20)
     b={"id":_id("live"),"type":"image","visual_mode":"image_live","sentence":narration,
-       "image_prompt":K.image_prompt(subject,shot),"motion":motion,"narration":narration}
+       "image_prompt":K.image_prompt(subject,shot),"motion":motion,"narration":narration,"subject_text":subject}
     if subj: b["subject_key"]=subj
     _B.append(b)
 NO_MAKING_OVERRIDE=None  # b-roll already forbids spawning via K.PHONE/NOSPAWN
@@ -56,6 +69,37 @@ def br(action, narration):
         f"plain wedding band, blue sweater cuffs, tan apron) as she {action}. {K.NOSPAWN} Her hands ONLY — absolutely "
         f"NO face, NO head, NO other person. {K.PHONE} {K.NOTEXT} Setting: {K.WS}")
     _B.append({"id":_id("br"),"type":"broll","visual_mode":"broll","narration":narration,"prompt":pr,"broll_ref":K.HANDS})
+import re as _re
+# generic words that don't identify a subject — ignored when matching one image to another
+_STOP=set(("a an the of on in with and or to for from into onto over above under up down it its her his "
+"their this that these those one two three five few some more most very small little big real natural "
+"casual phone photo iphone closeup close macro wide shot view side angle eye level lined row beside next "
+"finished fresh same different gentle soft warm cool clear plain simple beautiful gorgeous pretty nice "
+"workbench bench workshop home table surface light window honest clutter around onto").split())
+def _subject_nouns(t):
+    # significant tokens that identify the physical subject (len>=3, not a stopword)
+    return set(w for w in _re.findall(r"[a-z]+", (t or "").lower()) if len(w)>=3 and w not in _STOP)
+def auto_subject_refs(min_overlap=2):
+    """v6.4 — read the script IMAGE BY IMAGE and group stills that depict the SAME subject; each non-first
+    member reuses the GROUP ANCHOR's render as an img2img reference (subject_ref_of), so an evolving DIY
+    subject (jar -> wax poured -> cured -> lit -> gifted) keeps ONE consistent identity as it changes.
+    We chain to the group ANCHOR (earliest match), not the immediate predecessor, so chains are depth-1
+    stars — the anchors render first (pre-pass) and every other member then renders in parallel off the
+    anchor (no deep sequential dependency). A new group is opened when an image matches no existing anchor.
+    Explicit subj= keys win. The authoring agent should check a 'what NOT to do' shot didn't get grouped
+    with the perfect hero (override with subj= or a distinct subject phrasing)."""
+    imgs=[b for b in _B if b["visual_mode"] in ("image_full","image_live","image_split")]
+    anchors=[]   # (beat, nounset) group representatives, in script order
+    chained=0
+    for b in imgs:
+        if b.get("subject_key") or b.get("subject_ref_of"): continue
+        ni=_subject_nouns(b.get("subject_text"))
+        if len(ni)<2: continue
+        match=next((ab for ab,an in anchors if len(ni & an)>=min_overlap), None)
+        if match: b["subject_ref_of"]=match["id"]; chained+=1
+        else: anchors.append((b,ni))   # this beat is a new group anchor (a chain root)
+    return chained
+
 def finalize(folder):
     # HARD RULE (v6.3): outside the hook/CTA/outro a talking head is a SINGLE 8s beat — never adjacent.
     # Adjacent THs are allowed ONLY where every beat in the run opted in (adj_ok / book CTA), AND each
@@ -75,6 +119,7 @@ def finalize(folder):
             if a.get("scene")==b.get("scene"): bad_scene.append((a["id"],b["id"]))
     assert not bad_adj, f"ADJACENT TALKING-HEADS in the body (forbidden — alternate with image/VO): {bad_adj}"
     assert not bad_scene, f"ADJACENT THs must CHANGE SCENE (v6.3): {bad_scene}"
+    nchain=auto_subject_refs()   # v6.4: auto-detect evolving subjects -> img2img reference chains
     M={"title":_meta["title"],"channel":_meta["channel"],"beats":_B}
     os.makedirs(os.path.join(folder,"Project files"),exist_ok=True)
     json.dump(M,open(os.path.join(folder,"Project files","manifest.json"),"w"),indent=2)
@@ -91,3 +136,5 @@ def finalize(folder):
           f"live+broll(clip) {pct.get('image_live',0)+pct.get('broll',0):.0f}%  split {pct.get('image_split',0):.0f}%  "
           f"| est {secs/60:.1f} min")
     if pct.get('talking_head',0)>16: print(f"  ** WARNING: TH share {pct['talking_head']:.0f}% > ~12% target **")
+    keyed=sum(1 for b in _B if b.get("subject_key"))
+    print(f"  subject chains: {nchain} auto-linked + {keyed} explicit (consistency for evolving subjects)")

@@ -1011,3 +1011,28 @@ A second review pass on all four videos surfaced four issues our gates/assembler
   `⏱️ Chapters` block in description.txt.
 - **Process: NEVER commit rendered media** (`.mp4/.mp3/.png/.zip`). They are git-ignored and hosted on
   litterbox; a stray 1.5GB of committed videos made every `git push` fail with HTTP 413.
+
+### FORMAT v6.4 — ebook CTA SOP, auto subject-chains, YouTube tags, video-specific link
+Four refinements (engrained in `buildlib.py`, `gen_dt_par.py`, `gen_tags.py`, `build_deliverable.py`):
+- **EBOOK CTA SOP** (`buildlib.cta_ebook(line_with_ebook, line_trust, scene1, scene2)`): the CTA is now
+  TWO talking-head beats in DIFFERENT scenes, within the first 1:30, and is ALWAYS talking head (Candice's
+  keyframe brought to life speaking — never an image/VO beat). Beat 1 composites the real ebook cover and
+  ties THIS video's topic to the ebook; beat 2 (new scene) is a TRUST line — "it's there if you want it,
+  I won't mention it again" + the why ("I'm tired of people wasting money on candles a few small cheap
+  changes would fix"). Call it an **EBOOK**, never "book". Mention it ONCE.
+- **Automatic subject-reference chaining** (`buildlib.auto_subject_refs()` in finalize): the build now reads
+  the script IMAGE BY IMAGE and, when a later still depicts the SAME evolving subject as a recent earlier
+  one (>=2 shared significant subject nouns within an 8-beat window), sets `subject_ref_of` so the earlier
+  render is fed in as the img2img reference. This keeps an evolving DIY subject (jar -> wax poured -> cured
+  -> lit -> gifted) the SAME object as it changes — otherwise the "build" would be visual nonsense.
+  `gen_dt_par` pre-renders chain HEADS first, then defers a beat ("WAIT") until its referenced image exists.
+  Explicit `subj=` keys still override; the authoring agent should sanity-check that a "what NOT to do"
+  shot doesn't chain to the perfect hero.
+- **YouTube tags** (`gen_tags.py <proj> "specific,tags"`): writes `tags.txt` — a CSV the user pastes into
+  YouTube's Tags box — mixing video-SPECIFIC tags with a broad evergreen/cross-platform pool (diy,
+  candlemaking, tiktok, reels, shorts...), de-duped and capped at YouTube's ~500-char limit. One per video.
+- **Description link** : the first line is now SHORT and video-specific, calls it an **ebook**, and prefixes
+  the URL with the 🔗 link emoji (e.g. "Stop ruining your first candle — my $3 ebook fixes every beginner
+  mistake: 🔗 https://candicescandles.com"). The CTA chapter reads "My ebook (free first chapter)".
+- **Deliverable** (`build_deliverable.py`) now bundles `tags.txt` and the whole `thumbnails/` folder (all
+  2 variants × N concepts) alongside the mastered video, description, and source clips.
