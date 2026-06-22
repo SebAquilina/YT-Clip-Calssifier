@@ -1080,3 +1080,25 @@ stills and hands b-roll stay on **veo-lite** (unchanged). Full framework + resea
   TH_SPEED. Live-verified: 10s clip spoke the exact line with audio and held identity off the keyframe.
 - **QC reminder:** grok's lip-sync-from-still is its weak spot — the truncation/lead-in/muted gate already
   confirms the spoken line; lip-sync stays a visual review, with re-roll on failure.
+
+### FORMAT v7.1 — Elias-Yoder retention playbook + xlsx blueprint, enforced
+The script-generation phase now must honor BOTH the per-video CONTENT blueprint (the ideation xlsx
+"Script Blueprint" cell) AND the Yoder RETENTION playbook, with a hard linter gate. Full doc:
+`references/retention-playbook.md`. Pieces:
+- `blueprint_parse.py <xlsx> "<title>"` — parses the blueprint into {target_length, intro_hook,
+  ebook_topic, must_cover[in order], retention[], outro}.
+- `buildlib`: every beat helper takes `role=` (the Yoder beats: cold_open, withheld, identity, dark_loop,
+  promise, reframe, mechanism, step, escalation, story, honesty, villain, stakes, recap, future_pace,
+  comment_bait, sequel_hook, signoff); `coin(phrase)` registers the one coined phrase; `SIGNOFF` is the
+  signature sign-off said ~verbatim every video; `finalize()` stamps `coined`/`signoff` into the manifest
+  and prints a retention checklist.
+- `script_lint.py <project> --xlsx <xlsx> --title "<t>"` — THE GATE. Fails (exit 1) unless: every
+  MUST-COVER topic appears (keyword), the hook says the title, the ebook CTA is early (≤~1:30) and says
+  "ebook", the outro asks subscribe+next; AND the retention set is present — cold_open, ≥2 open loops,
+  villain (+ "not a conspiracy" disclaimer), honesty, ≥3 escalations, ≥1 story, late stakes, recap,
+  comment-bait, sequel hook, signature sign-off, a coined phrase repeated ≥2×, and a number in the
+  first ~20s. Run it AFTER finalize, BEFORE generation.
+- SOP: `blueprint_parse` → author `build_*.py` mapping MUST-COVER (in order) onto the 15-beat skeleton with
+  `role=` tags + `coin()` + `SIGNOFF` → `script_lint` (0 FAIL) → subject agents → generate → gates →
+  assemble → master → deliver.
+- Worked example: `build_candlebiz.py` ("Don't Start a Candle Business…") passes the linter 27/0/0.

@@ -12,9 +12,16 @@ an image), come-to-life (a still animated by veo), and hands B-roll. Her cloned 
 non-TH beats. Target ~30% talking head; **never two talking-heads back-to-back**.
 
 ──────────────────────────────────────────────────────────────────────────
-## 1. Author the script  (build_*.py + buildlib.py)
-Helpers: `th(sentence,scene)`, `full(subject,narration)`, `split(sentence,subject,scene,side)`,
-`live(subject,motion,narration)`, `br(action,narration)`, `cta_ebook(line_ebook,line_trust,scene1,scene2)`.
+## 1. Author the script  (build_*.py + buildlib.py)  — honors the xlsx blueprint AND the Yoder playbook
+The script must satisfy BOTH the per-video **content blueprint** (the ideation xlsx "Script Blueprint":
+hook, ebook topic, MUST-COVER topics in order, length, outro — parse with `blueprint_parse.py`) AND the
+**Elias-Yoder retention playbook** (`references/retention-playbook.md`). Tag retention beats with `role=`
+(cold_open / withheld / dark_loop / villain / honesty / escalation / story / stakes / recap / comment_bait
+/ sequel_hook / signoff …), `coin()` one phrase and repeat it, and end on `SIGNOFF`. Then
+**`script_lint.py <project> --xlsx <xlsx> --title "<t>"` is a HARD GATE** (run after finalize, before
+generation) that fails unless every MUST-COVER topic AND every required retention element is present.
+Helpers: `th(sentence,scene,role=)`, `full(subject,narration,role=)`, `split(...,role=)`,
+`live(...,role=)`, `br(...,role=)`, `cta_ebook(line_ebook,line_trust,scene1,scene2)`, `coin(phrase)`.
 Rules enforced at `finalize()`:
 - **Short standalone lines, ≤16–18 words.** Long lines truncate at veo's 8s cap AND, if split later,
   create back-to-back THs. Write short from the start. (assert)

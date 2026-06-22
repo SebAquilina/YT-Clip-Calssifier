@@ -7,20 +7,37 @@ import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import imgkit as K
 from collections import Counter
 _B=[]; _n=[0]; _meta={}
+# v7.1 — Elias-Yoder retention roles a script can tag beats with (script_lint enforces the required set):
+RETENTION_ROLES={"cold_open","withheld","identity","dark_loop","promise","reframe","mechanism","step",
+"escalation","story","honesty","villain","stakes","recap","future_pace","comment_bait","sequel_hook","signoff"}
+# Candice's signature sign-off (series consistency, like Yoder's repeated closer) — say it ~verbatim every video.
+SIGNOFF="Because a candle you made yourself says someone took the time, and that is the point."
 def start(title, channel="Candice's Country Candles"):
-    _B.clear(); _n[0]=0; _meta["title"]=title; _meta["channel"]=channel
+    _B.clear(); _n[0]=0; _meta.clear(); _meta["title"]=title; _meta["channel"]=channel
+    _meta["coined"]=[]; _meta["loops_opened"]=0
+def coin(phrase):
+    """Register the video's ONE coined/reframe phrase (Yoder technique #6). script_lint checks it is
+    actually repeated >=2x across the narration."""
+    _meta.setdefault("coined",[]).append(phrase)
+def _role(b, role):
+    if role:
+        assert role in RETENTION_ROLES, f"unknown retention role {role!r}; use one of {sorted(RETENTION_ROLES)}"
+        b["role"]=role
+        if role in ("withheld","dark_loop","promise"): _meta["loops_opened"]=_meta.get("loops_opened",0)+1
+    return b
 def _id(tag): i=_n[0]; _n[0]+=1; return f"b{i:03d}_{tag}"
 def _short(s, limit=17):
     assert len(s.split())<=limit, f"line too long ({len(s.split())}w, keep <= {limit}): {s!r}"
-def th(s, scene="bench", moved=False, book_cta=False, adj_ok=False):
+def th(s, scene="bench", moved=False, book_cta=False, adj_ok=False, role=None):
     # adj_ok=True: this TH is allowed to sit next to another TH (ONLY in hook / outro). Even then,
     # finalize() requires the adjacent THs to be in DIFFERENT scenes (no jarring same-scene cut) and
     # the assembler crops dead silence + crossfades so there is no gap. Body THs must never be adjacent.
+    # role= tags the Yoder retention beat (cold_open / dark_loop / villain / honesty / signoff / ...).
     _short(s)
     b={"id":_id("th"),"type":"character","visual_mode":"talking_head","sentence":s,"engine":"grok",
        "seed":K.SCENES[scene],"prompt":K.grok_th_prompt(s,scene,moved),"scene":scene,"adj_ok":adj_ok}
     if book_cta: b["book_cta"]=True
-    _B.append(b)
+    _B.append(_role(b,role))
 def book(s, scene="shelf"):
     """LEGACY single-beat ebook CTA. Prefer cta_ebook() (v6.4 two-beat SOP)."""
     _short(s)
@@ -39,7 +56,7 @@ def cta_ebook(line_with_ebook, line_trust, scene1="shelf", scene2="bench"):
                "seed":K.SCENES[scene1],"prompt":K.grok_th_prompt(line_with_ebook,scene1),"book_cta":True,"scene":scene1,"adj_ok":True})
     _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":line_trust,"engine":"grok",
                "seed":K.SCENES[scene2],"prompt":K.grok_th_prompt(line_trust,scene2),"scene":scene2,"adj_ok":True})
-def full(subject, narration, shot="close-up", kb="in", subj=None):
+def full(subject, narration, shot="close-up", kb="in", subj=None, role=None):
     # subj = an OPTIONAL explicit subject key to force a chain. Even without it, finalize() runs
     # auto_subject_refs(): it reads the script in order and, when a later image depicts the SAME evolving
     # subject as an earlier one (e.g. the candle being built step by step), it feeds the earlier render in
@@ -48,27 +65,27 @@ def full(subject, narration, shot="close-up", kb="in", subj=None):
     b={"id":_id("full"),"type":"image","visual_mode":"image_full","sentence":narration,
        "image_prompt":K.image_prompt(subject,shot),"kenburns":{"dir":kb},"narration":narration,"subject_text":subject}
     if subj: b["subject_key"]=subj
-    _B.append(b)
-def split(sentence, subject, scene="bench", th_side="left", shot="close-up", subj=None):
+    _B.append(_role(b,role))
+def split(sentence, subject, scene="bench", th_side="left", shot="close-up", subj=None, role=None):
     _short(sentence)
     b={"id":_id("split"),"type":"image","visual_mode":"image_split","sentence":sentence,"engine":"grok",
        "seed":K.SCENES[scene],"prompt":K.grok_th_prompt(sentence,scene),"image_prompt":K.image_prompt(subject,shot),
        "ar":"1:1","split":{"th_side":th_side,"th_frac":0.46},"subject_text":subject}
     if subj: b["subject_key"]=subj
-    _B.append(b)
-def live(subject, motion, narration, shot="macro", subj=None):
+    _B.append(_role(b,role))
+def live(subject, motion, narration, shot="macro", subj=None, role=None):
     _short(narration, 20)
     b={"id":_id("live"),"type":"image","visual_mode":"image_live","sentence":narration,
        "image_prompt":K.image_prompt(subject,shot),"motion":motion,"narration":narration,"subject_text":subject}
     if subj: b["subject_key"]=subj
-    _B.append(b)
+    _B.append(_role(b,role))
 NO_MAKING_OVERRIDE=None  # b-roll already forbids spawning via K.PHONE/NOSPAWN
-def br(action, narration):
+def br(action, narration, role=None):
     _short(narration, 20)
     pr=(f"Close-up POV iPhone shot of ONLY the hands and forearms of a mid-fifties woman (fair naturally-aged skin, "
         f"plain wedding band, blue sweater cuffs, tan apron) as she {action}. {K.NOSPAWN} Her hands ONLY — absolutely "
         f"NO face, NO head, NO other person. {K.PHONE} {K.NOTEXT} Setting: {K.WS}")
-    _B.append({"id":_id("br"),"type":"broll","visual_mode":"broll","narration":narration,"prompt":pr,"broll_ref":K.HANDS})
+    _B.append(_role({"id":_id("br"),"type":"broll","visual_mode":"broll","narration":narration,"prompt":pr,"broll_ref":K.HANDS},role))
 import re as _re
 # generic words that don't identify a subject — ignored when matching one image to another
 _STOP=set(("a an the of on in with and or to for from into onto over above under up down it its her his "
@@ -120,9 +137,18 @@ def finalize(folder):
     assert not bad_adj, f"ADJACENT TALKING-HEADS in the body (forbidden — alternate with image/VO): {bad_adj}"
     assert not bad_scene, f"ADJACENT THs must CHANGE SCENE (v6.3): {bad_scene}"
     nchain=auto_subject_refs()   # v6.4: auto-detect evolving subjects -> img2img reference chains
-    M={"title":_meta["title"],"channel":_meta["channel"],"beats":_B}
+    M={"title":_meta["title"],"channel":_meta["channel"],"beats":_B,
+       "coined":_meta.get("coined",[]),"signoff":SIGNOFF}   # v7.1: retention metadata for script_lint
     os.makedirs(os.path.join(folder,"Project files"),exist_ok=True)
     json.dump(M,open(os.path.join(folder,"Project files","manifest.json"),"w"),indent=2)
+    # v7.1 retention checklist (soft warnings here; script_lint.py is the hard gate vs the xlsx blueprint)
+    present={b.get("role") for b in _B if b.get("role")}
+    need={"cold_open","dark_loop","villain","honesty","stakes","recap","comment_bait","sequel_hook","signoff"}
+    missing=need-present
+    print(f"  retention roles present: {sorted(present)}")
+    if missing: print(f"  ** MISSING retention roles: {sorted(missing)} (script_lint will fail) **")
+    esc=sum(1 for b in _B if b.get("role")=="escalation"); loops=_meta.get("loops_opened",0)
+    print(f"  open-loops: {loops} | escalations: {esc} | coined: {_meta.get('coined',[])}")
     c=Counter(b["visual_mode"] for b in _B); n=len(_B)
     def est(b):
         if b["visual_mode"]=="talking_head": return 7.0
