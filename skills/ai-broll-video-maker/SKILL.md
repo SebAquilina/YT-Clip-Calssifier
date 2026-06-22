@@ -1036,3 +1036,28 @@ Four refinements (engrained in `buildlib.py`, `gen_dt_par.py`, `gen_tags.py`, `b
   mistake: 🔗 https://candicescandles.com"). The CTA chapter reads "My ebook (free first chapter)".
 - **Deliverable** (`build_deliverable.py`) now bundles `tags.txt` and the whole `thumbnails/` folder (all
   2 variants × N concepts) alongside the mastered video, description, and source clips.
+
+### FORMAT v6.5 — TWO-AGENT subject-continuity framework (supersedes the v6.4 heuristic)
+The v6.4 keyword heuristic can't reason about a subject EVOLVING or tell a hero from a counter-example, so
+subject-reference selection is now a TEAM OF TWO AGENTS (`subject_agents.py`), driven by the Claude Code
+build agent (subagents) — or autonomously via the Anthropic API when `ANTHROPIC_API_KEY` is set:
+- **Agent 1 — Subject Director:** reads the whole script's image beats in order and decides WHAT the
+  subjects are — segments every still into distinct physical subjects (the hero candle, the kit, the wax,
+  flawed-example candles…), writes each beat's evolution STAGE, and flags counter-examples
+  (`is_counterexample`) so a "what-NOT-to-do" shot never inherits the hero's identity.
+- **Agent 2 — Continuity Supervisor:** for each beat decides WHICH earlier beat's render to use as the
+  img2img reference — the natural predecessor STAGE of the SAME subject — so the object evolves
+  consistently (empty jar → wax → cooling → dip → top-up → trimmed → petals → lit → gifted). Roots get
+  null; counter-examples may only chain to earlier counter-examples; refs must be earlier beats.
+- **Orchestration:** `subject_agents.py <project>` runs both agents, validates the graph (earlier-only,
+  same-subject, no good/bad crossover), writes `Project files/subject_plan.json`, and stamps
+  `subject_ref_of` onto the manifest (REPLACING the heuristic baseline). `gen_dt_par` pre-renders chain
+  roots, then renders each beat with its referenced render fed in, deferring ("WAIT") until the reference
+  exists — so deep evolution chains resolve over successive resumable passes.
+- **Backends:** (a) `ANTHROPIC_API_KEY` → both agents run against the Anthropic Messages API; (b) no key →
+  the orchestrator writes the two role prompts to `Project files/agent_io/` and consumes
+  `director_response.json` + `supervisor_response.json` that the Claude Code build agent writes (this is
+  the default in-session path); (c) if neither runs, the v6.4 heuristic in `buildlib.finalize()` stays as
+  the safety net.
+- **SOP order:** build_*.py (heuristic baseline) → `subject_agents.py` (agent plan replaces it) → generate.
+  Re-running build_*.py resets to the heuristic, so re-run the agents after any script change.

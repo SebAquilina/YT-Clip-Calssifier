@@ -25,9 +25,14 @@ Rules enforced at `finalize()`:
   — beat 1 composites the real ebook cover and ties THIS video's topic to it; beat 2 (new scene) is the
   TRUST line ("it's there if you want it, I won't mention it again" + "I'm tired of people wasting money on
   candles a few small cheap changes would fix"). Always say **ebook**, never "book"; mention it ONCE.
-- **Auto subject-chains (v6.4):** `finalize()` runs `auto_subject_refs()` — it reads images in order and,
-  when a later still shows the SAME evolving subject as a recent earlier one, feeds the earlier render in as
-  the img2img reference (`subject_ref_of`) so a DIY subject stays consistent as it changes. `subj=` overrides.
+- **Subject continuity — TWO AGENTS (v6.5):** `finalize()` writes a `auto_subject_refs()` heuristic
+  baseline, then run `subject_agents.py <project>` — a team of two agents (driven by the Claude Code build
+  subagents, or the Anthropic API): **Agent 1 (Subject Director)** segments every still into evolving
+  subjects + stages and flags counter-examples; **Agent 2 (Continuity Supervisor)** picks each beat's
+  img2img reference = the predecessor STAGE of the same subject. It writes `subject_plan.json` and stamps
+  `subject_ref_of` (replacing the heuristic) so a DIY subject evolves consistently and bad-example shots
+  never inherit the hero. `gen_dt_par` renders roots first and defers a beat until its reference exists.
+  `subj=` still hard-overrides. See SKILL.md FORMAT v6.5.
 - `br(action, narration)` — first arg = the hand ACTION (into the veo prompt), second = the SPOKEN line.
   Never swap (a swap makes the TTS read the stage direction aloud).
 

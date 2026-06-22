@@ -55,7 +55,8 @@
         "dir": "in"
       },
       "narration": "Most of these come down to about six simple things. Every one is fixable.",
-      "subject_text": "a few flawed beginner candles lined up, one frosted, one sunken, one cracked"
+      "subject_text": "a few flawed beginner candles lined up, one frosted, one sunken, one cracked",
+      "subject_ref_of": "b002_live"
     },
     {
       "id": "b005_th",
@@ -146,8 +147,7 @@
         "dir": "in"
       },
       "narration": "Five little jars. By the end of this, all five will be finished candles.",
-      "subject_text": "five empty glass candle jars lined up in a row ready to be filled",
-      "subject_ref_of": "b009_full"
+      "subject_text": "five empty glass candle jars lined up in a row ready to be filled"
     },
     {
       "id": "b013_split",
@@ -259,7 +259,7 @@
       },
       "narration": "Use the wick the kit gives you, kept centred, and most problems vanish.",
       "subject_text": "a single wick standing dead-centre in an empty jar",
-      "subject_ref_of": "b020_split"
+      "subject_ref_of": "b019_full"
     },
     {
       "id": "b022_br",
@@ -279,8 +279,7 @@
         "dir": "in"
       },
       "narration": "Centred wick, standing straight. This one step prevents so much heartbreak.",
-      "subject_text": "a wick standing perfectly straight and centred in an empty glass jar",
-      "subject_ref_of": "b020_split"
+      "subject_text": "a wick standing perfectly straight and centred in an empty glass jar"
     },
     {
       "id": "b024_live",
@@ -291,7 +290,7 @@
       "motion": "the centred wick stands still in the empty jar",
       "narration": "Get the jar prepped first, before a drop of wax is melted.",
       "subject_text": "an empty prepared jar with a centred wick waiting on the bench",
-      "subject_ref_of": "b020_split"
+      "subject_ref_of": "b023_full"
     },
     {
       "id": "b025_th",
@@ -313,8 +312,7 @@
         "dir": "in"
       },
       "narration": "Melt the wax gently in a jug sitting in hot water. Low and slow.",
-      "subject_text": "soy wax flakes melting in a metal jug sat inside a pot of water on the stove",
-      "subject_ref_of": "b018_live"
+      "subject_text": "soy wax flakes melting in a metal jug sat inside a pot of water on the stove"
     },
     {
       "id": "b027_live",
@@ -325,7 +323,7 @@
       "motion": "the white flakes slowly melt down into clear liquid wax",
       "narration": "Watch it go from flakes to clear. It is honestly really relaxing.",
       "subject_text": "soy wax flakes slowly turning into clear melted liquid in a jug over water",
-      "subject_ref_of": "b018_live"
+      "subject_ref_of": "b026_full"
     },
     {
       "id": "b028_split",
@@ -353,7 +351,7 @@
       },
       "narration": "Do not stress the exact temperature yet. Just never let it smoke.",
       "subject_text": "a kitchen thermometer resting in a jug of gently melted wax",
-      "subject_ref_of": "b018_live"
+      "subject_ref_of": "b027_live"
     },
     {
       "id": "b030_live",
@@ -363,7 +361,8 @@
       "image_prompt": "A casual macro iPhone photo of melted wax sitting calmly in a jug, just off the heat, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "a faint heat shimmer rises over the still melted wax",
       "narration": "Melt it, lift it off the heat, and let it cool for a couple of minutes.",
-      "subject_text": "melted wax sitting calmly in a jug, just off the heat"
+      "subject_text": "melted wax sitting calmly in a jug, just off the heat",
+      "subject_ref_of": "b029_full"
     },
     {
       "id": "b031_live",
@@ -396,8 +395,7 @@
         "dir": "in"
       },
       "narration": "Stir your fragrance in while the wax is melted, but not piping hot.",
-      "subject_text": "a small bottle of candle fragrance oil being measured beside a jug of melted wax",
-      "subject_ref_of": "b030_live"
+      "subject_text": "a small bottle of candle fragrance oil being measured beside a jug of melted wax"
     },
     {
       "id": "b034_live",
@@ -408,7 +406,7 @@
       "motion": "the oil swirls in and blends through the melted wax",
       "narration": "Stir gently for a full minute so the scent actually binds to the wax.",
       "subject_text": "fragrance oil being poured and stirred into melted wax in a jug",
-      "subject_ref_of": "b030_live"
+      "subject_ref_of": "b031_live"
     },
     {
       "id": "b035_split",
@@ -423,8 +421,7 @@
         "th_side": "right",
         "th_frac": 0.46
       },
-      "subject_text": "fragrance oil flooding over the top of a jug of wax",
-      "subject_ref_of": "b030_live"
+      "subject_text": "fragrance oil flooding over the top of a jug of wax"
     },
     {
       "id": "b036_full",
@@ -436,7 +433,8 @@
         "dir": "in"
       },
       "narration": "More is not stronger. Too much just sweats out and will not set properly.",
-      "subject_text": "a small measuring cup holding a modest amount of fragrance oil"
+      "subject_text": "a small measuring cup holding a modest amount of fragrance oil",
+      "subject_ref_of": "b033_full"
     },
     {
       "id": "b037_full",
@@ -448,8 +446,7 @@
         "dir": "in"
       },
       "narration": "For colour, one drop of dye is plenty. You can add more, never less.",
-      "subject_text": "a single tiny drop of liquid candle dye going into melted wax",
-      "subject_ref_of": "b020_split"
+      "subject_text": "a single tiny drop of liquid candle dye going into melted wax"
     },
     {
       "id": "b038_live",
@@ -460,7 +457,7 @@
       "motion": "the colour spreads slowly and evenly through the wax",
       "narration": "One drop, stirred well, gives you this soft even colour.",
       "subject_text": "melted wax turning a soft even pastel colour as dye blends in",
-      "subject_ref_of": "b030_live"
+      "subject_ref_of": "b034_live"
     },
     {
       "id": "b039_live",
@@ -470,8 +467,7 @@
       "image_prompt": "A casual macro iPhone photo of two jugs of melted wax in two gentle colours side by side, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "the two coloured waxes swirl gently in their jugs",
       "narration": "Keep colours soft and natural. Pastels always look more expensive than neon.",
-      "subject_text": "two jugs of melted wax in two gentle colours side by side",
-      "subject_ref_of": "b030_live"
+      "subject_text": "two jugs of melted wax in two gentle colours side by side"
     },
     {
       "id": "b040_th",
@@ -494,7 +490,7 @@
       },
       "narration": "Let the wax cool a touch, then pour slowly into your prepared jar.",
       "subject_text": "melted wax being poured slowly into a prepared jar with a centred wick",
-      "subject_ref_of": "b020_split"
+      "subject_ref_of": "b024_live"
     },
     {
       "id": "b042_live",
@@ -505,7 +501,7 @@
       "motion": "the wax level rises smoothly around the standing wick",
       "narration": "Pour in one smooth go, and keep that wick standing straight up.",
       "subject_text": "melted wax filling a glass jar steadily around a centred wick",
-      "subject_ref_of": "b020_split"
+      "subject_ref_of": "b041_full"
     },
     {
       "id": "b043_split",
@@ -531,7 +527,8 @@
       "image_prompt": "A casual macro iPhone photo of a freshly poured candle cooling quietly on the bench, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "the surface of the fresh candle slowly firms up as it cools",
       "narration": "Too hot, and you get sinkholes and cracks. A little patience fixes both.",
-      "subject_text": "a freshly poured candle cooling quietly on the bench"
+      "subject_text": "a freshly poured candle cooling quietly on the bench",
+      "subject_ref_of": "b042_live"
     },
     {
       "id": "b045_full",
@@ -544,7 +541,7 @@
       },
       "narration": "Soy almost always dips a little as it cools. That part is completely normal.",
       "subject_text": "a setting candle with a small dip forming in the surface near the wick",
-      "subject_ref_of": "b020_split"
+      "subject_ref_of": "b044_live"
     },
     {
       "id": "b046_full",
@@ -556,8 +553,7 @@
         "dir": "in"
       },
       "narration": "This is why you save a little wax back. A second thin pour fixes the dip.",
-      "subject_text": "a small jug of saved melted wax kept aside for a second pour",
-      "subject_ref_of": "b030_live"
+      "subject_text": "a small jug of saved melted wax kept aside for a second pour"
     },
     {
       "id": "b047_live",
@@ -567,7 +563,8 @@
       "image_prompt": "A casual macro iPhone photo of a thin top-up layer of wax smoothing over a slightly sunken candle top, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "the surface fills in and settles perfectly level",
       "narration": "A small top-up pour, and the surface goes flat and smooth again.",
-      "subject_text": "a thin top-up layer of wax smoothing over a slightly sunken candle top"
+      "subject_text": "a thin top-up layer of wax smoothing over a slightly sunken candle top",
+      "subject_ref_of": "b045_full"
     },
     {
       "id": "b048_br",
@@ -598,7 +595,7 @@
       },
       "narration": "Mistake six. Burning it with a long wick gives you soot and a huge flame.",
       "subject_text": "a candle burning with a long untrimmed wick and a tall smoky flame",
-      "subject_ref_of": "b020_split"
+      "subject_ref_of": "b043_split"
     },
     {
       "id": "b051_br",
@@ -621,8 +618,7 @@
         "th_side": "right",
         "th_frac": 0.46
       },
-      "subject_text": "ordinary kitchen scissors trimming a candle wick",
-      "subject_ref_of": "b020_split"
+      "subject_text": "ordinary kitchen scissors trimming a candle wick"
     },
     {
       "id": "b053_full",
@@ -671,8 +667,7 @@
         "dir": "in"
       },
       "narration": "A couple more things beginners always worry about, but really should not.",
-      "subject_text": "a soy candle on a shelf with a few natural-looking surface quirks",
-      "subject_ref_of": "b001_full"
+      "subject_text": "a soy candle on a shelf with a few natural-looking surface quirks"
     },
     {
       "id": "b057_split",
@@ -688,7 +683,7 @@
         "th_frac": 0.46
       },
       "subject_text": "a soy candle showing natural white frosting on the surface",
-      "subject_ref_of": "b001_full"
+      "subject_ref_of": "b056_full"
     },
     {
       "id": "b058_full",
@@ -701,7 +696,7 @@
       },
       "narration": "Frosting is just soy being natural. It does not change how it burns at all.",
       "subject_text": "a close look at natural frosting across a soy candle top",
-      "subject_ref_of": "b001_full"
+      "subject_ref_of": "b057_split"
     },
     {
       "id": "b059_split",
@@ -729,7 +724,7 @@
       },
       "narration": "Wet spots are just wax pulling from the glass as it cools. Totally normal.",
       "subject_text": "a jar candle with small wet spots showing against the glass",
-      "subject_ref_of": "b020_split"
+      "subject_ref_of": "b059_split"
     },
     {
       "id": "b061_full",
@@ -741,8 +736,7 @@
         "dir": "in"
       },
       "narration": "Almost any heat-safe glass or tin works. A wide jar just needs a bigger wick.",
-      "subject_text": "a few different candle jars, a tin and a glass tumbler side by side",
-      "subject_ref_of": "b009_full"
+      "subject_text": "a few different candle jars, a tin and a glass tumbler side by side"
     },
     {
       "id": "b062_live",
@@ -753,7 +747,7 @@
       "motion": "a clean jar is set down gently on the bench",
       "narration": "Reuse old candle jars too. Clean out the wax and they are good as new.",
       "subject_text": "a hand setting a clean glass jar onto the workbench",
-      "subject_ref_of": "b059_split"
+      "subject_ref_of": "b061_full"
     },
     {
       "id": "b063_split",
@@ -768,7 +762,8 @@
         "th_side": "left",
         "th_frac": 0.46
       },
-      "subject_text": "a tall narrow jar with a weak flame struggling down inside"
+      "subject_text": "a tall narrow jar with a weak flame struggling down inside",
+      "subject_ref_of": "b050_full"
     },
     {
       "id": "b064_full",
@@ -781,7 +776,7 @@
       },
       "narration": "Pick a jar that is not too deep, so the flame gets enough air.",
       "subject_text": "a wide, gently tapered jar that lets a flame breathe",
-      "subject_ref_of": "b063_split"
+      "subject_ref_of": "b062_live"
     },
     {
       "id": "b065_full",
@@ -793,8 +788,7 @@
         "dir": "in"
       },
       "narration": "Want it to actually fill the room? Start with the very first burn.",
-      "subject_text": "a candle with a wide even melt pool reaching the edge of the jar",
-      "subject_ref_of": "b020_split"
+      "subject_text": "a candle with a wide even melt pool reaching the edge of the jar"
     },
     {
       "id": "b066_live",
@@ -805,7 +799,7 @@
       "motion": "the flame flickers gently as the melt pool widens to the glass",
       "narration": "Let the first burn melt all the way to the edge. That sets the memory.",
       "subject_text": "a candle burning evenly with the wax pooling right out to the glass",
-      "subject_ref_of": "b009_full"
+      "subject_ref_of": "b065_full"
     },
     {
       "id": "b067_split",
@@ -820,7 +814,8 @@
         "th_side": "right",
         "th_frac": 0.46
       },
-      "subject_text": "a candle with a small melt pool tunnelling early"
+      "subject_text": "a candle with a small melt pool tunnelling early",
+      "subject_ref_of": "b063_split"
     },
     {
       "id": "b068_full",
@@ -833,7 +828,7 @@
       },
       "narration": "A full melt pool on burn one means no tunnelling for the whole candle.",
       "subject_text": "a candle burning with a full melt pool right out to the glass",
-      "subject_ref_of": "b009_full"
+      "subject_ref_of": "b066_live"
     },
     {
       "id": "b069_live",
@@ -843,7 +838,8 @@
       "image_prompt": "A casual macro iPhone photo of a candle glowing on a side table filling a cozy room with soft light, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "the flame flickers gently, warm light filling the room",
       "narration": "Cure it, trim it, burn it fully, and the scent will carry beautifully.",
-      "subject_text": "a candle glowing on a side table filling a cozy room with soft light"
+      "subject_text": "a candle glowing on a side table filling a cozy room with soft light",
+      "subject_ref_of": "b068_full"
     },
     {
       "id": "b070_full",
@@ -866,7 +862,8 @@
       "image_prompt": "A casual macro iPhone photo of a gift-wrapped candle tied with twine resting on the bench, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "the little candle sits wrapped and ready to give",
       "narration": "Five candles from one kit makes five thoughtful, almost-free presents.",
-      "subject_text": "a gift-wrapped candle tied with twine resting on the bench"
+      "subject_text": "a gift-wrapped candle tied with twine resting on the bench",
+      "subject_ref_of": "b070_full"
     },
     {
       "id": "b072_live",
@@ -903,7 +900,8 @@
         "th_side": "left",
         "th_frac": 0.46
       },
-      "subject_text": "an unattended candle burning near a curtain"
+      "subject_text": "an unattended candle burning near a curtain",
+      "subject_ref_of": "b067_split"
     },
     {
       "id": "b075_full",
@@ -916,7 +914,7 @@
       },
       "narration": "Never leave a flame alone, and snuff it rather than blowing wax everywhere.",
       "subject_text": "a candle being gently snuffed out with a small lid",
-      "subject_ref_of": "b009_full"
+      "subject_ref_of": "b073_full"
     },
     {
       "id": "b076_live",
@@ -926,7 +924,8 @@
       "image_prompt": "A casual macro iPhone photo of a thin ribbon of smoke rising from a just-snuffed wick, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "a soft ribbon of smoke curls up from the wick",
       "narration": "Snuffing keeps the wick centred and stops that hot-wax splatter.",
-      "subject_text": "a thin ribbon of smoke rising from a just-snuffed wick"
+      "subject_text": "a thin ribbon of smoke rising from a just-snuffed wick",
+      "subject_ref_of": "b075_full"
     },
     {
       "id": "b077_full",
@@ -939,7 +938,7 @@
       },
       "narration": "Stop burning when about a centimetre of wax is left, so the jar never overheats.",
       "subject_text": "a candle that has burned down to about a centimetre of wax left",
-      "subject_ref_of": "b047_live"
+      "subject_ref_of": "b076_live"
     },
     {
       "id": "b078_full",
@@ -951,8 +950,7 @@
         "dir": "in"
       },
       "narration": "If your wick drifts off-centre, warm the top gently and nudge it straight.",
-      "subject_text": "a candle with a wick gone slightly off-centre after setting",
-      "subject_ref_of": "b020_split"
+      "subject_text": "a candle with a wick gone slightly off-centre after setting"
     },
     {
       "id": "b079_split",
@@ -967,7 +965,8 @@
         "th_side": "right",
         "th_frac": 0.46
       },
-      "subject_text": "a tunnelled candle being rescued"
+      "subject_text": "a tunnelled candle being rescued",
+      "subject_ref_of": "b074_split"
     },
     {
       "id": "b080_live",
@@ -977,8 +976,7 @@
       "image_prompt": "A casual macro iPhone photo of a hairdryer-warmed candle top melting smooth and level again, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
       "motion": "the uneven surface softens and melts back to level",
       "narration": "Warm the whole top until it levels out, then let it set flat again.",
-      "subject_text": "a hairdryer-warmed candle top melting smooth and level again",
-      "subject_ref_of": "b047_live"
+      "subject_text": "a hairdryer-warmed candle top melting smooth and level again"
     },
     {
       "id": "b081_full",
@@ -990,7 +988,8 @@
         "dir": "in"
       },
       "narration": "Black soot on the glass almost always means the wick was too long.",
-      "subject_text": "a candle with a sooty black mark climbing the inside of the glass"
+      "subject_text": "a candle with a sooty black mark climbing the inside of the glass",
+      "subject_ref_of": "b079_split"
     },
     {
       "id": "b082_full",
@@ -1014,8 +1013,7 @@
         "dir": "in"
       },
       "narration": "Once you are comfortable, try two soft colour layers for a simple upgrade.",
-      "subject_text": "a candle with two soft colour layers set one above the other",
-      "subject_ref_of": "b009_full"
+      "subject_text": "a candle with two soft colour layers set one above the other"
     },
     {
       "id": "b084_live",
@@ -1026,7 +1024,7 @@
       "motion": "the new colour settles in a clean band over the first",
       "narration": "Let the first layer set, then pour the next. Clean, soft bands every time.",
       "subject_text": "a second colour of wax being poured over a set first layer",
-      "subject_ref_of": "b047_live"
+      "subject_ref_of": "b083_full"
     },
     {
       "id": "b085_split",
@@ -1041,7 +1039,8 @@
         "th_side": "left",
         "th_frac": 0.46
       },
-      "subject_text": "two candle colours bleeding messily into each other"
+      "subject_text": "two candle colours bleeding messily into each other",
+      "subject_ref_of": "b081_full"
     },
     {
       "id": "b086_full",
@@ -1054,7 +1053,7 @@
       },
       "narration": "Patience between layers gives you that crisp, intentional line.",
       "subject_text": "a neat two-tone candle with a crisp line between the colours",
-      "subject_ref_of": "b085_split"
+      "subject_ref_of": "b084_live"
     },
     {
       "id": "b087_full",
@@ -1066,8 +1065,7 @@
         "dir": "in"
       },
       "narration": "A single pressed flower on the inside of the glass looks gorgeous and costs nothing.",
-      "subject_text": "a candle with a single dried flower pressed against the glass",
-      "subject_ref_of": "b081_full"
+      "subject_text": "a candle with a single dried flower pressed against the glass"
     },
     {
       "id": "b088_full",
@@ -1079,8 +1077,7 @@
         "dir": "in"
       },
       "narration": "Save every wax scrap. Beginners toss wax that could have been another candle.",
-      "subject_text": "leftover wax scraps being saved in a small jar",
-      "subject_ref_of": "b059_split"
+      "subject_text": "leftover wax scraps being saved in a small jar"
     },
     {
       "id": "b089_live",
@@ -1091,7 +1088,7 @@
       "motion": "the odd scraps melt back into one pool of wax",
       "narration": "Melt your offcuts together for a free, one-of-a-kind candle later.",
       "subject_text": "wax scraps melting back down together in a jug",
-      "subject_ref_of": "b030_live"
+      "subject_ref_of": "b088_full"
     },
     {
       "id": "b090_full",
@@ -1147,7 +1144,7 @@
       "motion": "the match touches the wick and the flame catches and steadies",
       "narration": "After a few days, that very first burn is absolutely worth the wait.",
       "subject_text": "a cured candle being lit for the first time, a match brought to the wick",
-      "subject_ref_of": "b001_full"
+      "subject_ref_of": "b055_live"
     },
     {
       "id": "b095_th",
@@ -1170,7 +1167,7 @@
       },
       "narration": "Wrong wick, overheating, too much fragrance, pouring hot, long wicks, and no patience.",
       "subject_text": "the lineup of flawed candles beside one perfect petal-topped candle",
-      "subject_ref_of": "b004_full"
+      "subject_ref_of": "b085_split"
     },
     {
       "id": "b097_full",
