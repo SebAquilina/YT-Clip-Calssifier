@@ -1061,3 +1061,22 @@ build agent (subagents) — or autonomously via the Anthropic API when `ANTHROPI
   the safety net.
 - **SOP order:** build_*.py (heuristic baseline) → `subject_agents.py` (agent plan replaces it) → generate.
   Re-running build_*.py resets to the heuristic, so re-run the agents after any script change.
+
+### FORMAT v7 — talking heads on GROK VIDEO (10s/720p), fixed voice; b-roll stays veo-lite
+Talking heads (full-frame `talking_head` AND the split TH pane `image_split`) now generate with
+**grok-imagine-video** (image-to-video off the scene keyframe) at **10s / 720p / 16:9**. Come-to-life
+stills and hands b-roll stay on **veo-lite** (unchanged). Full framework + research in
+`references/grok-video-th.md`. Implementation:
+- `imgkit.grok_th_prompt()` — grok-optimised TH prompt: keyframe supplies appearance (don't re-describe
+  the face), front-loaded ~50 words, locked static medium close-up, gentle motion, AFFIRMATIVE
+  identity-stability (no negatives), `Speech:"<line>"` for dialogue (avoids burned captions), and a
+  `Sound:` line that injects the FIXED voice sentence into EVERY TH so all talking heads sound identical
+  (grok takes its voice from the prompt — there is no clone for TH): *"Her speaking voice is a warm,
+  friendly, natural American accent … medium pitch, clear and unhurried."*
+- `imgkit.gen_grok_video()` — submits `grok-imagine-video` (duration as a STRING, 720p, one keyframe, no
+  videoInputMode) and strips grok's embedded mjpeg cover to a clean h264+aac.
+- `buildlib` marks every TH/split beat `engine:"grok"`; `gen_dt_par` routes those to grok (others to veo);
+  `asm_dt` skips delogo for grok clips (no veo watermark) and still applies the trailing-silence crop +
+  TH_SPEED. Live-verified: 10s clip spoke the exact line with audio and held identity off the keyframe.
+- **QC reminder:** grok's lip-sync-from-still is its weak spot — the truncation/lead-in/muted gate already
+  confirms the spoken line; lip-sync stays a visual review, with re-roll on failure.

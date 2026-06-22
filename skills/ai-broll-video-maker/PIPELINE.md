@@ -59,6 +59,9 @@ defaults. The bench ref is passed as the img2img reference on every image beat f
 ## 4. Generate  (gen_dt_par.py)
 One process, semaphore-capped at the real API limits: **5 concurrent veo videos, 7 images, 2 TTS**.
 Beats are independent so they run concurrently; a single state.json is written under a lock (no race).
+**Model routing (v7):** talking heads (full + split TH pane, `engine:"grok"`) → **grok-imagine-video**
+(10s/720p, image-to-video off the scene keyframe, fixed voice in the prompt); come-to-life stills + hands
+b-roll → **veo-lite**; stills → nano-banana-pro. See `references/grok-video-th.md`.
 Resumable — re-running fills only missing assets. For very long videos, generation order does not affect
 the final cut (the assembler reads beats in manifest order), so concurrency is purely speed.
 

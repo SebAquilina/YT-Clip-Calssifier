@@ -17,15 +17,15 @@ def th(s, scene="bench", moved=False, book_cta=False, adj_ok=False):
     # finalize() requires the adjacent THs to be in DIFFERENT scenes (no jarring same-scene cut) and
     # the assembler crops dead silence + crossfades so there is no gap. Body THs must never be adjacent.
     _short(s)
-    b={"id":_id("th"),"type":"character","visual_mode":"talking_head","sentence":s,
-       "seed":K.SCENES[scene],"prompt":K.th_prompt(s,scene,moved),"scene":scene,"adj_ok":adj_ok}
+    b={"id":_id("th"),"type":"character","visual_mode":"talking_head","sentence":s,"engine":"grok",
+       "seed":K.SCENES[scene],"prompt":K.grok_th_prompt(s,scene,moved),"scene":scene,"adj_ok":adj_ok}
     if book_cta: b["book_cta"]=True
     _B.append(b)
 def book(s, scene="shelf"):
     """LEGACY single-beat ebook CTA. Prefer cta_ebook() (v6.4 two-beat SOP)."""
     _short(s)
-    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":s,
-               "seed":K.SCENES[scene],"prompt":K.th_prompt(s,scene),"book_cta":True,"scene":scene,"adj_ok":True})
+    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":s,"engine":"grok",
+               "seed":K.SCENES[scene],"prompt":K.grok_th_prompt(s,scene),"book_cta":True,"scene":scene,"adj_ok":True})
 def cta_ebook(line_with_ebook, line_trust, scene1="shelf", scene2="bench"):
     """v6.4 EBOOK CTA SOP — must land within the first 1:30 and is TWO talking-head beats in DIFFERENT
     scenes (Candice's keyframe is brought to life speaking; never an image/VO beat):
@@ -35,10 +35,10 @@ def cta_ebook(line_with_ebook, line_trust, scene1="shelf", scene2="bench"):
         why ('I'm tired of people wasting money on candles a few small cheap changes would fix').
     Always call it an EBOOK, never 'book'. Mention it ONCE, here, and never again."""
     _short(line_with_ebook); _short(line_trust)
-    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":line_with_ebook,
-               "seed":K.SCENES[scene1],"prompt":K.th_prompt(line_with_ebook,scene1),"book_cta":True,"scene":scene1,"adj_ok":True})
-    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":line_trust,
-               "seed":K.SCENES[scene2],"prompt":K.th_prompt(line_trust,scene2),"scene":scene2,"adj_ok":True})
+    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":line_with_ebook,"engine":"grok",
+               "seed":K.SCENES[scene1],"prompt":K.grok_th_prompt(line_with_ebook,scene1),"book_cta":True,"scene":scene1,"adj_ok":True})
+    _B.append({"id":_id("c_th"),"type":"character","visual_mode":"talking_head","sentence":line_trust,"engine":"grok",
+               "seed":K.SCENES[scene2],"prompt":K.grok_th_prompt(line_trust,scene2),"scene":scene2,"adj_ok":True})
 def full(subject, narration, shot="close-up", kb="in", subj=None):
     # subj = an OPTIONAL explicit subject key to force a chain. Even without it, finalize() runs
     # auto_subject_refs(): it reads the script in order and, when a later image depicts the SAME evolving
@@ -51,8 +51,8 @@ def full(subject, narration, shot="close-up", kb="in", subj=None):
     _B.append(b)
 def split(sentence, subject, scene="bench", th_side="left", shot="close-up", subj=None):
     _short(sentence)
-    b={"id":_id("split"),"type":"image","visual_mode":"image_split","sentence":sentence,
-       "seed":K.SCENES[scene],"prompt":K.th_prompt(sentence,scene),"image_prompt":K.image_prompt(subject,shot),
+    b={"id":_id("split"),"type":"image","visual_mode":"image_split","sentence":sentence,"engine":"grok",
+       "seed":K.SCENES[scene],"prompt":K.grok_th_prompt(sentence,scene),"image_prompt":K.image_prompt(subject,shot),
        "ar":"1:1","split":{"th_side":th_side,"th_frac":0.46},"subject_text":subject}
     if subj: b["subject_key"]=subj
     _B.append(b)

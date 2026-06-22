@@ -76,6 +76,7 @@ segs=[]; modes=[]
 for b in M["beats"]:
     bid=b["id"]; vm=b.get("visual_mode",b.get("type")); st=e(bid); seg=os.path.join(SEG,f"{bid}.mp4")
     if vm in ("talking_head","image_split") and not st.get("clip"): print("skip(no clip)",bid); continue
+    DL=(DELOGO+",") if b.get("engine")!="grok" else ""   # v7: grok TH has no veo watermark — skip delogo
     if vm=="talking_head":
         cf=st["clip"]; gain,spend=audio_measure(cf)
         D=min(K.dur(cf), spend+0.35)                       # crop trailing silence (#3), then speed up
@@ -84,13 +85,13 @@ for b in M["beats"]:
         aspeed=(f"atrim=0:{D:.3f},asetpts=PTS-STARTPTS,volume={gain:.2f}dB,atempo={TH_SPEED}")
         if b.get("book_cta") and os.path.exists(BOOK):
             # CTA: real book cover composited bottom-left (veo renders books poorly), white border, gentle fade
-            fc=(f"[0:v]{DELOGO},scale=1280:720,{vspeed},fps=24[bg];"
+            fc=(f"[0:v]{DL}scale=1280:720,{vspeed},fps=24[bg];"
                 f"[1:v]scale=-1:300,pad=iw+8:ih+8:4:4:white,format=rgba,colorchannelmixer=aa=0.96[bk];"
                 f"[bg][bk]overlay=40:H-h-46:enable='gte(t,0.4)'[v];[0:a]{aspeed}[a]")
             run([FF,"-y","-i",cf,"-i",BOOK,"-filter_complex",fc,"-map","[v]","-map","[a]",*ENC,seg])
         else:
             run([FF,"-y","-i",cf,"-filter_complex",
-                 f"[0:v]{DELOGO},scale=1280:720,{vspeed},fps=24[v];[0:a]{aspeed}[a]",
+                 f"[0:v]{DL}scale=1280:720,{vspeed},fps=24[v];[0:a]{aspeed}[a]",
                  "-map","[v]","-map","[a]",*ENC,seg])           # volume gain + speed, lips stay synced
     elif vm=="image_split":
         cf=st["clip"]; img=st.get("image"); thside=b.get("split",{}).get("th_side","left"); thf=b.get("split",{}).get("th_frac",0.46)
@@ -98,7 +99,7 @@ for b in M["beats"]:
         wTH=int(1280*thf)//2*2; wIM=1280-wTH
         gain,spend=audio_measure(cf); D=min(K.dur(cf), spend+0.35); Dout=D/TH_SPEED   # speed TH pane (v6.3)
         cx=face_cx(cf); cropx=int(max(0,min(1280-wTH, cx-wTH/2)))//2*2   # center on face (#7)
-        thfc=(f"[0:v]{DELOGO},scale=1280:720,crop={wTH}:720:{cropx}:0,"
+        thfc=(f"[0:v]{DL}scale=1280:720,crop={wTH}:720:{cropx}:0,"
               f"trim=0:{D:.3f},setpts=(PTS-STARTPTS)/{TH_SPEED}[L]")
         imfc=(f"[1:v]scale={wIM*2}:1440:force_original_aspect_ratio=increase,crop={wIM*2}:1440,"
               f"zoompan=z='min(zoom+0.0005,1.10)':d={int(Dout*24)}:s={wIM}x720:fps=24,setsar=1,{GRAIN}[R]")

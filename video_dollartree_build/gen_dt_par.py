@@ -38,6 +38,8 @@ def gen_image_sem(prompt,dest,refs,ar):
     with img_sem: return K.gen_image(prompt,dest,image_urls=refs,aspect=ar)
 def gen_video_sem(prompt,dest,urls,mode,muted):
     with vid_sem: return K.gen_video(prompt,dest,image_urls=urls,mode=mode,muted=muted)
+def gen_grok_sem(prompt,dest,url,aspect="16:9"):
+    with vid_sem: return K.gen_grok_video(prompt,dest,url,aspect=aspect)
 def tts_sem_call(text,dest):
     with tts_sem: return K.tts(text,dest)
 
@@ -94,11 +96,14 @@ def do_beat(b):
                     with lock: S.setdefault("subjects",{})[key]=u; json.dump(S,open(SP,"w"),indent=2)
                     print(tag,f"hosted canonical subject '{key}'",flush=True)
         else: print(tag,"image FAIL",flush=True)
-    # 2) TH clip (talking_head/image_split) — video pool
+    # 2) TH clip (talking_head/image_split) — video pool. v7: GROK for TH (full + split pane); veo otherwise.
     if vm in ("talking_head","image_split") and not vid_ok(e.get("clip")):
         clip=os.path.join(SRC,f"{bid}.mp4")
-        if gen_video_sem(b["prompt"],clip,[b["seed"]],"keyframes",False):
-            setk(bid,"clip",os.path.abspath(clip)); print(tag,"TH clip ok",flush=True)
+        if b.get("engine")=="grok":
+            ok=gen_grok_sem(b["prompt"],clip,b["seed"],aspect="16:9")   # 10s/720p grok off the scene keyframe
+        else:
+            ok=gen_video_sem(b["prompt"],clip,[b["seed"]],"keyframes",False)
+        if ok: setk(bid,"clip",os.path.abspath(clip)); print(tag,f"TH clip ok ({b.get('engine','veo')})",flush=True)
         else: print(tag,"TH clip FAIL",flush=True)
     # 3) come-to-life (live): host the still then animate — video pool (after image)
     if vm=="image_live" and not vid_ok(e.get("clip")) and have(e.get("image")):

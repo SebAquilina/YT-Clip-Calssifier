@@ -24,6 +24,14 @@ VOICE={"voiceCloneId":"2e2ea1c5-13fb-4747-91c8-b7f3fc0b9482","model":"speech-2.8
 # v6.3: images come from nano-banana-PRO. Stills render at 1k (then a grain filter in the assembler
 # makes them read as a real phone photo, not glossy AI); thumbnails render at 2k.
 IMG_MODEL="nano-banana-pro"; IMG_RES="1k"; THUMB_MODEL="nano-banana-pro"; THUMB_RES="2k"
+# v7: talking heads (full-frame AND the split TH pane) are generated with GROK VIDEO (grok-imagine-video)
+# at 10s / 720p, image-to-video off the scene keyframe. B-roll + come-to-life stay on veo-lite.
+GROK_MODEL="grok-imagine-video"; GROK_DUR="10"; GROK_RES="720p"
+# Consistent voice across EVERY grok talking-head clip (user-specified). grok takes a voice from the
+# prompt (no clone), so this exact sentence is injected into every TH prompt so all THs sound the same.
+GROK_VOICE=("Her speaking voice is a warm, friendly, natural American accent, a clear standard General "
+"American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, "
+"medium pitch, clear and unhurried.")
 
 # ---- prompt blocks ----
 IDENTITY=("This is the EXACT SAME woman shown in the reference keyframe image — identical face, tortoiseshell "
@@ -76,6 +84,22 @@ def th_prompt(sentence, scene="bench", moved=False):
     return (f"Casual handheld iPhone vlog clip filmed on a real workbench. {IDENTITY}{lead}She speaks directly to camera "
     f"in a warm American accent, lips fully in sync, saying exactly: \"{sentence}\". {TH_STRICT} {NOMUSIC} {IPHONE} {NOTEXT} "
     f"Setting: {WS}")
+
+def grok_th_prompt(sentence, scene="bench", moved=False):
+    """v7 GROK talking-head prompt (image-to-video off the scene keyframe). Grok rules baked in:
+    keyframe supplies appearance (don't re-describe her face); prompt the MOTION + speech; front-loaded
+    ~50 words; locked camera + medium close-up + affirmative identity-stability (no negatives); `Speech:`
+    line (avoids burned-in captions); `Sound:` line carries the FIXED voice description for consistency."""
+    s={"bench":"at her rustic candle-workshop workbench","kitchen":"at her kitchen stove station",
+       "shelf":"by her curing shelf of finished candles","packing":"at her packing table",
+       "window":"by a bright window at a small side table"}.get(scene,"at her candle workbench")
+    move=("She has just settled into frame and " if moved else "She ")
+    return (f"{move}looks straight into the camera and talks warmly to the viewer, {s}, with small natural "
+    f"head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up "
+    f"chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the "
+    f"whole time, no morphing or warping. Clean footage, no captions or text. "
+    f'Speech: "{sentence}" '
+    f"Sound: {GROK_VOICE} Quiet natural room tone, no background music.")
 
 def image_prompt(subject, shot="close-up"):
     # LITERAL still of the thing being said, as an iPhone snapshot on her real workbench; no text; no stray people/faces
@@ -135,6 +159,34 @@ def gen_video(prompt, dest, image_urls=None, mode="keyframes", muted=False, trie
     for _ in range(tries):
         jid=submit_video(prompt,image_urls,mode,muted)
         if jid and wait_video(jid,dest): return True
+        time.sleep(6)
+    return False
+
+def submit_grok(prompt, image_url, aspect="16:9"):
+    # v7: grok-imagine-video — duration MUST be a string; one keyframe; 720p. (no videoInputMode key)
+    body={"prompt":prompt,"model":GROK_MODEL,"aspectRatio":aspect,"resolution":GROK_RES,"duration":GROK_DUR}
+    if image_url: body["imageUrls"]=[image_url]
+    for _ in range(40):
+        st,j=req("POST","/videos/generate",body); jid=j.get("id")
+        if jid: return jid
+        if any(k in str(j.get("error","")) for k in ("Concurrent","FORBIDDEN","limit","TOO_MANY")): time.sleep(12); continue
+        return None
+    return None
+
+def gen_grok_video(prompt, dest, image_url, aspect="16:9", tries=4):
+    """Generate a GROK talking-head clip and strip its embedded mjpeg cover stream so the assembler
+    sees a clean h264+aac file (grok returns video+audio+attached-thumbnail)."""
+    raw=dest+".raw.mp4"
+    for _ in range(tries):
+        jid=submit_grok(prompt,image_url,aspect)
+        if jid and wait_video(jid,raw):
+            # keep only the real video + audio (drop the attached-picture mjpeg stream)
+            r=subprocess.run([FF,"-y","-i",raw,"-map","0:v:0","-map","0:a:0?","-c","copy",dest],capture_output=True)
+            if r.returncode!=0 or not os.path.exists(dest):
+                subprocess.run([FF,"-y","-i",raw,"-map","0:v:0","-map","0:a:0?","-c:v","libx264","-c:a","aac",dest],capture_output=True)
+            try: os.remove(raw)
+            except: pass
+            if os.path.exists(dest) and dur(dest)>0.4: return True
         time.sleep(6)
     return False
 
