@@ -41,16 +41,39 @@ def gen_video_sem(prompt,dest,urls,mode,muted):
 def tts_sem_call(text,dest):
     with tts_sem: return K.tts(text,dest)
 
+def host_img(path):
+    # host a local image and return a public URL (used to chain a canonical subject into other shots)
+    for _ in range(5):
+        r=subprocess.run(["curl","-s","-m","90","-F","reqtype=fileupload","-F","time=72h","-F",
+            f"fileToUpload=@{path}","https://litterbox.catbox.moe/resources/internals/api.php"],capture_output=True,text=True)
+        if r.stdout.strip().startswith("http"): return r.stdout.strip()
+    return None
+def subject_ref(b):
+    # v6.3: if this beat shares a subject_key with an already-rendered canonical image, feed that
+    # canonical (hosted) in as the FIRST img2img reference so the object stays identical across shots.
+    key=b.get("subject_key");
+    if not key: return None
+    with lock: return S.get("subjects",{}).get(key)
+
 def do_beat(b):
     bid=b["id"]; vm=b.get("visual_mode",b.get("type")); e=st(bid)
     tag=f"[{bid}/{vm}]"
     # 1) still image (full/split/live) — image pool
     if vm in ("image_full","image_split","image_live") and not have(e.get("image")):
         img=os.path.join(IMG,f"{bid}.png")
-        refs=[b["image_ref_url"]] if b.get("image_ref_url") else ([K.BENCH_REF] if K.BENCH_REF else None)
+        sref=subject_ref(b)
+        base=[b["image_ref_url"]] if b.get("image_ref_url") else ([K.BENCH_REF] if K.BENCH_REF else [])
+        refs=([sref]+base) if sref else (base or None)
         ar=b.get("ar","16:9")
         if gen_image_sem(b["image_prompt"],img,refs,ar):
             setk(bid,"image",os.path.abspath(img)); print(tag,"image ok",flush=True)
+            # if this beat is the canonical for its subject, host it so later beats can reference it
+            key=b.get("subject_key")
+            if key and bid==CANON.get(key) and not subject_ref(b):
+                u=host_img(img)
+                if u:
+                    with lock: S.setdefault("subjects",{})[key]=u; json.dump(S,open(SP,"w"),indent=2)
+                    print(tag,f"hosted canonical subject '{key}'",flush=True)
         else: print(tag,"image FAIL",flush=True)
     # 2) TH clip (talking_head/image_split) — video pool
     if vm in ("talking_head","image_split") and not vid_ok(e.get("clip")):
@@ -89,6 +112,20 @@ def beat_done(b):
             (vm=="image_full" and have(e.get("image")) and have(e.get("audio"))) or
             (vm=="image_live" and vid_ok(e.get("clip")) and have(e.get("audio"))) or
             (vm=="broll" and vid_ok(e.get("clip")) and have(e.get("audio"))))
+
+# v6.3 subject-reference: canonical = first beat (manifest order) with each subject_key.
+CANON={}
+for b in M["beats"]:
+    k=b.get("subject_key")
+    if k and k not in CANON: CANON[k]=b["id"]
+# PRE-PASS: render (and host) every canonical subject FIRST, so dependent beats can chain its image.
+canon_beats=[b for b in M["beats"] if b["id"] in CANON.values() and not have(S["beats"].get(b["id"],{}).get("image"))]
+if canon_beats:
+    print(f"subject pre-pass: {len(canon_beats)} canonical subject image(s): {[b['id'] for b in canon_beats]}",flush=True)
+    with ThreadPoolExecutor(max_workers=IMGN) as ex:
+        for f in as_completed([ex.submit(do_beat,b) for b in canon_beats]):
+            try: f.result()
+            except Exception as ex2: print("canon error:",ex2,flush=True)
 
 todo=[b for b in M["beats"] if not beat_done(b)]
 print(f"concurrent gen: {len(todo)}/{len(M['beats'])} beats to do | vid={VID} img={IMGN} tts={TTSN}",flush=True)

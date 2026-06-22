@@ -24,6 +24,12 @@ TARGET=-19.0   # per-segment loudness target (dB LUFS) reached via fixed gain �
 # Segment durations follow the natural narration length (adur + tail), so clip timing adjusts on its own.
 NARR_ATEMPO=1.0
 ENC=["-r","24","-vsync","cfr","-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p","-c:a","aac","-b:a","160k","-ar","48000","-ac","2"]
+# v6.3: talking heads spoke too slowly. Speed up TH video+audio TOGETHER (same factor) so she talks a
+# bit faster and the lips stay perfectly in sync. (Narration VO is still played at 1.0 — never stretched.)
+TH_SPEED=1.12
+# v6.3: nano-banana-PRO stills look too clean/AI. Lay a light phone-camera grain over every AI still
+# (image_full / image_split image pane / come-to-life) so it reads as a real camera-roll photo.
+GRAIN="noise=alls=10:allf=t+u"
 def run(c):
     r=subprocess.run(c,capture_output=True,text=True)
     if r.returncode!=0: print("FFERR",r.stderr[-300:])
@@ -72,37 +78,42 @@ for b in M["beats"]:
     if vm in ("talking_head","image_split") and not st.get("clip"): print("skip(no clip)",bid); continue
     if vm=="talking_head":
         cf=st["clip"]; gain,spend=audio_measure(cf)
-        D=min(K.dur(cf), spend+0.35)                       # crop trailing silence (#3)
+        D=min(K.dur(cf), spend+0.35)                       # crop trailing silence (#3), then speed up
+        # speed TH video+audio together (TH_SPEED) — lips stay synced; trim to D first to kill dead air.
+        vspeed=(f"trim=0:{D:.3f},setpts=(PTS-STARTPTS)/{TH_SPEED}")
+        aspeed=(f"atrim=0:{D:.3f},asetpts=PTS-STARTPTS,volume={gain:.2f}dB,atempo={TH_SPEED}")
         if b.get("book_cta") and os.path.exists(BOOK):
             # CTA: real book cover composited bottom-left (veo renders books poorly), white border, gentle fade
-            fc=(f"[0:v]{DELOGO},scale=1280:720,fps=24[bg];"
+            fc=(f"[0:v]{DELOGO},scale=1280:720,{vspeed},fps=24[bg];"
                 f"[1:v]scale=-1:300,pad=iw+8:ih+8:4:4:white,format=rgba,colorchannelmixer=aa=0.96[bk];"
-                f"[bg][bk]overlay=40:H-h-46:enable='gte(t,0.5)'[v]")
-            run([FF,"-y","-i",cf,"-i",BOOK,"-t",f"{D:.3f}","-filter_complex",fc,"-map","[v]","-map","0:a",
-                 "-af",f"volume={gain:.2f}dB",*ENC,seg])
+                f"[bg][bk]overlay=40:H-h-46:enable='gte(t,0.4)'[v];[0:a]{aspeed}[a]")
+            run([FF,"-y","-i",cf,"-i",BOOK,"-filter_complex",fc,"-map","[v]","-map","[a]",*ENC,seg])
         else:
-            run([FF,"-y","-i",cf,"-t",f"{D:.3f}","-vf",f"{DELOGO},scale=1280:720,fps=24",
-                 "-af",f"volume={gain:.2f}dB",*ENC,seg])         # volume gain, no desync (#1)
+            run([FF,"-y","-i",cf,"-filter_complex",
+                 f"[0:v]{DELOGO},scale=1280:720,{vspeed},fps=24[v];[0:a]{aspeed}[a]",
+                 "-map","[v]","-map","[a]",*ENC,seg])           # volume gain + speed, lips stay synced
     elif vm=="image_split":
         cf=st["clip"]; img=st.get("image"); thside=b.get("split",{}).get("th_side","left"); thf=b.get("split",{}).get("th_frac",0.46)
         if not img: print("skip split(no image)",bid); continue
         wTH=int(1280*thf)//2*2; wIM=1280-wTH
-        gain,spend=audio_measure(cf); D=min(K.dur(cf), spend+0.35)
+        gain,spend=audio_measure(cf); D=min(K.dur(cf), spend+0.35); Dout=D/TH_SPEED   # speed TH pane (v6.3)
         cx=face_cx(cf); cropx=int(max(0,min(1280-wTH, cx-wTH/2)))//2*2   # center on face (#7)
-        thfc=f"[0:v]{DELOGO},scale=1280:720,crop={wTH}:720:{cropx}:0[L]"
+        thfc=(f"[0:v]{DELOGO},scale=1280:720,crop={wTH}:720:{cropx}:0,"
+              f"trim=0:{D:.3f},setpts=(PTS-STARTPTS)/{TH_SPEED}[L]")
         imfc=(f"[1:v]scale={wIM*2}:1440:force_original_aspect_ratio=increase,crop={wIM*2}:1440,"
-              f"zoompan=z='min(zoom+0.0005,1.10)':d={int(D*24)}:s={wIM}x720:fps=24,setsar=1[R]")
+              f"zoompan=z='min(zoom+0.0005,1.10)':d={int(Dout*24)}:s={wIM}x720:fps=24,setsar=1,{GRAIN}[R]")
         order="[L][R]" if thside=="left" else "[R][L]"
-        run([FF,"-y","-i",cf,"-loop","1","-i",img,"-t",f"{D:.3f}","-filter_complex",
-             f"{thfc};{imfc};{order}hstack=2,format=yuv420p[v]","-map","[v]","-map","0:a",
-             "-af",f"volume={gain:.2f}dB",*ENC,seg])
+        run([FF,"-y","-i",cf,"-loop","1","-i",img,"-t",f"{Dout:.3f}","-filter_complex",
+             f"{thfc};{imfc};{order}hstack=2,format=yuv420p[v];"
+             f"[0:a]atrim=0:{D:.3f},asetpts=PTS-STARTPTS,volume={gain:.2f}dB,atempo={TH_SPEED}[a]",
+             "-map","[v]","-map","[a]",*ENC,seg])
     elif vm=="image_full":
         img=st.get("image"); aud=st.get("audio")
         if not (img and aud): print("skip full",bid); continue
         gain,_=audio_measure(aud); D=(st.get("adur") or 3.0)/NARR_ATEMPO+0.4   # rate-matched + tail headroom
         kb=b.get("kenburns",{}); z="min(zoom+0.0006,1.12)" if kb.get("dir","in")=="in" else "if(lte(zoom,1.0),1.12,max(zoom-0.0006,1.0))"
         run([FF,"-y","-loop","1","-i",img,"-i",aud,"-filter_complex",
-             f"[0:v]scale=2560:-1,zoompan=z='{z}':d={int(D*24)}:s=1280x720:fps=24,format=yuv420p[v];"
+             f"[0:v]scale=2560:-1,zoompan=z='{z}':d={int(D*24)}:s=1280x720:fps=24,{GRAIN},format=yuv420p[v];"
              f"[1:a]aresample=48000,volume={gain:.2f}dB,atempo={NARR_ATEMPO},apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
              "-map","[v]","-map","[a]","-t",f"{D:.3f}",*ENC,seg])
     elif vm=="image_live":
@@ -111,7 +122,7 @@ for b in M["beats"]:
         gain,_=audio_measure(aud); D=(st.get("adur") or 3.0)/NARR_ATEMPO+0.4
         # come-to-life clip may be shorter than the (stretched) narration -> freeze-extend the last frame
         run([FF,"-y","-i",cf,"-i",aud,"-filter_complex",
-             f"[0:v]{DELOGO},scale=1280:720,tpad=stop_mode=clone:stop_duration={D:.3f},trim=0:{D:.3f},setpts=PTS-STARTPTS,fps=24[v];"
+             f"[0:v]{DELOGO},scale=1280:720,tpad=stop_mode=clone:stop_duration={D:.3f},trim=0:{D:.3f},setpts=PTS-STARTPTS,fps=24,{GRAIN}[v];"
              f"[1:a]aresample=48000,volume={gain:.2f}dB,atempo={NARR_ATEMPO},apad,atrim=0:{D:.3f},asetpts=PTS-STARTPTS[a]",
              "-map","[v]","-map","[a]","-t",f"{D:.3f}",*ENC,seg])
     elif vm=="broll":

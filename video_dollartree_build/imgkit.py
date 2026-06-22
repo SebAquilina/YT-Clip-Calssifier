@@ -21,6 +21,9 @@ if os.path.exists("/tmp/scene_refs.json"):
     if _o.get("candice"): CANDICE_REF=_o["candice"]
     if _o.get("bench"): BENCH_REF=_o["bench"]
 VOICE={"voiceCloneId":"2e2ea1c5-13fb-4747-91c8-b7f3fc0b9482","model":"speech-2.8-hd","speed":1.0,"language_boost":"en"}
+# v6.3: images come from nano-banana-PRO. Stills render at 1k (then a grain filter in the assembler
+# makes them read as a real phone photo, not glossy AI); thumbnails render at 2k.
+IMG_MODEL="nano-banana-pro"; IMG_RES="1k"; THUMB_MODEL="nano-banana-pro"; THUMB_RES="2k"
 
 # ---- prompt blocks ----
 IDENTITY=("This is the EXACT SAME woman shown in the reference keyframe image — identical face, tortoiseshell "
@@ -47,6 +50,9 @@ ANTIFAKE=("PHYSICAL REALISM: a candle flame is only ever a single small flame si
 "never onto the table. Everything physically possible and consistent — nothing morphs, melts wrong or appears.")
 WS=("the same lived-in home candle workshop: her rustic wooden workbench with glass candle jars, soy wax, amber "
 "fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles behind, soft natural window light.")
+# v6.3: kill the fake-looking flat-lay. NEVER an overhead/top-down "desk shot".
+ANTIDESK=("Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a "
+"phone — NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay.")
 # iPhone-realism clause — the single most important anti-"fake/3D-render" knob. Deep focus, NOT shallow; no studio look.
 IPHONE=("A casual everyday snapshot a normal person quickly took on their phone — NOT a professional or staged photo. "
 "Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, "
@@ -73,13 +79,13 @@ def th_prompt(sentence, scene="bench", moved=False):
 
 def image_prompt(subject, shot="close-up"):
     # LITERAL still of the thing being said, as an iPhone snapshot on her real workbench; no text; no stray people/faces
-    return (f"A casual {shot} iPhone photo of {subject}, on a real rustic wooden candle-workshop workbench in a lived-in "
-    f"home workshop, a little honest clutter around it. {IPHONE} No people and no faces unless explicitly part of the "
-    f"subject; no hands unless needed. {ANTIFAKE} {NOTEXT}")
+    return (f"A casual {shot} iPhone photo of {subject}, in a lived-in home candle workshop, a little honest clutter "
+    f"around it. {IPHONE} {ANTIDESK} No people and no faces unless explicitly part of the subject; no hands unless "
+    f"needed. {ANTIFAKE} {NOTEXT}")
 
 def live_motion(motion):
     return (f"The still phone photo comes to life with subtle real motion: {motion}, and a slow gentle handheld camera "
-    f"push-in. {IPHONE} {NOSPAWN} {ANTIFAKE} No people appear. {NOTEXT}")
+    f"push-in. {IPHONE} {ANTIDESK} {NOSPAWN} {ANTIFAKE} No people appear. {NOTEXT}")
 
 # ---- 69labs API ----
 def req(method, path, body=None, t=90):
@@ -132,16 +138,19 @@ def gen_video(prompt, dest, image_urls=None, mode="keyframes", muted=False, trie
         time.sleep(6)
     return False
 
-def gen_image(prompt, dest, image_urls=None, tries=3, aspect="16:9"):
-    # nano-banana-2 supports aspectRatio in {16:9, 1:1, 3:4, 4:3, 9:16}
+def gen_image(prompt, dest, image_urls=None, tries=3, aspect="16:9", model=None, resolution=None):
+    # v6.3: default to nano-banana-PRO @ 1k (thumbnails pass model=THUMB_MODEL, resolution=THUMB_RES for 2k).
+    model=model or IMG_MODEL; resolution=resolution or IMG_RES
     for _ in range(tries):
-        body={"model":"nano-banana-2","aspectRatio":aspect,"prompt":prompt}
-        if image_urls: body["imageUrls"]=image_urls
-        st,j=req("POST","/images/generate",body); jid=j.get("id")
+        body={"model":model,"aspectRatio":aspect,"resolution":resolution,"prompt":prompt}
+        if image_urls: body["imageUrls"]=image_urls[:10]   # pro accepts up to 10 reference images
+        st,j=req("POST","/images/generate",body,t=120); jid=j.get("id")
         if not jid:
-            if any(k in str(j.get("error","")) for k in ("Concurrent","limit","FORBIDDEN")): time.sleep(10); continue
-            return False
-        for _ in range(90):
+            # v6.3: nano-banana-PRO under load often times out / rate-limits the SUBMIT. Treat ANY
+            # no-id response as transient and retry with backoff (don't give up — that fast-failed thumbs).
+            if "CENSORED" in str(j.get("error","")).upper(): return False
+            time.sleep(12); continue
+        for _ in range(120):
             time.sleep(4); _,info=req("GET",f"/images/status/{jid}"); s=info.get("status")
             if s=="COMPLETED":
                 if curl_dl(jid,dest,"images"): return True
