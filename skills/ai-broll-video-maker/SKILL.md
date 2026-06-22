@@ -18,6 +18,25 @@ description: >-
 
 # AI B-roll Video Maker — every shot generated, iPhone-real, sentence-matched
 
+> ## ⚠️ READ FIRST — THE ONE CURRENT FORMAT (supersedes ALL "FORMAT vN" history below)
+> The FORMAT v1…v7 sections further down are a CHANGELOG, kept for context. Several quote OLD talking-head
+> targets (70%, 30%, …). **IGNORE those numbers.** The only correct target mix is:
+>
+> | category | visual_mode | target |
+> |---|---|---|
+> | Still image (full-frame) | `image_full` | **49.3%** |
+> | Video clip (full-frame) | `image_live` + `broll` | **27.7%** |
+> | **Talking head** | `talking_head` | **12.3%** |
+> | Split: presenter + still | `image_split` (still pane) | **9.7%** |
+> | Split: presenter + clip | (rare) | **1.0%** |
+>
+> So **talking head ≈ 12%** and **total presenter/face (TH + split) ≈ 23%** — the rest is image/clip VO.
+> TH is reserved for: the hook, the ebook CTA, maybe one honesty/stakes beat, and the outro. Everything
+> else is `image_full`/`image_live` with voiceover. `buildlib.finalize()` now **FAILS the build** if TH
+> > 18% or face > 32%, and `script_lint.py` enforces the same — if you are at 40% TH you have mis-tagged
+> beats as `talking_head`; convert them to `image_full`/`image_live`. TH (full + split pane) renders on
+> grok-imagine-video; b-roll/come-to-life on veo-lite; stills on nano-banana-pro.
+
 This is the **ultimate-video-maker factory with one component swapped**: the
 B-roll no longer comes from the scraped corpus (clip-corpus-builder +
 video-maker-3's matcher + picker agents). Instead, **every body shot is an AI

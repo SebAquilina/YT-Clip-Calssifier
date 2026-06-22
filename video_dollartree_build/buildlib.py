@@ -157,10 +157,27 @@ def finalize(folder):
     secs=sum(est(b) for b in _B)
     pct={k:c[k]/n*100 for k in c}
     print(f"{M['title']}\n  {n} beats | mix: {dict(c)}")
-    # v6.3 target mix: still 49.3 / video-clip(full) 27.7 / TH 12.3 / split+still 9.7 / split+clip 1.0
-    print(f"  TH {pct.get('talking_head',0):.0f}%  full(still) {pct.get('image_full',0):.0f}%  "
-          f"live+broll(clip) {pct.get('image_live',0)+pct.get('broll',0):.0f}%  split {pct.get('image_split',0):.0f}%  "
-          f"| est {secs/60:.1f} min")
-    if pct.get('talking_head',0)>16: print(f"  ** WARNING: TH share {pct['talking_head']:.0f}% > ~12% target **")
+    # ---- THE ONE AUTHORITATIVE FORMAT MIX (v7.2) — supersedes every earlier FORMAT version number ----
+    # category            visual_mode(s)            target %
+    #   still (full)       image_full                49.3
+    #   video clip (full)  image_live + broll        27.7
+    #   talking head       talking_head              12.3
+    #   split (presenter)  image_split               10.7  (presenter+still 9.7 + presenter+clip 1.0)
+    th=pct.get('talking_head',0); still=pct.get('image_full',0)
+    clip=pct.get('image_live',0)+pct.get('broll',0); sp=pct.get('image_split',0); face=th+sp
+    print(f"  MIX vs target:  still {still:.0f}/49  clip {clip:.0f}/28  TH {th:.0f}/12  split {sp:.0f}/11  "
+          f"| presenter(face)={face:.0f}/23  | est {secs/60:.1f} min")
+    # HARD ENFORCEMENT — the #1 drift is too much talking head. Fail the build (don't just warn) so an
+    # agent can't ship a 40%-TH script. Bands are generous around the 12.3% / 23% targets.
+    th_ct=c.get('talking_head',0); face_ct=th_ct+c.get('image_split',0)
+    if th>18.0:
+        conv=th_ct-int(0.13*n+0.5)
+        raise AssertionError(f"TALKING-HEAD {th:.0f}% >> 12.3% target. Convert ~{conv} talking_head beats "
+            f"to image_full/image_live VO (keep TH only for hook, ebook CTA, honesty, stakes, outro).")
+    if face>32.0:
+        raise AssertionError(f"PRESENTER share {face:.0f}% >> 23% target (TH {th:.0f}% + split {sp:.0f}%). "
+            f"Convert some talking_head/image_split beats to image_full/image_live.")
+    if th>15.0: print(f"  ** WARNING: TH {th:.0f}% above 12.3% target (ok up to ~15%) **")
+    if still<40.0: print(f"  ** WARNING: still-image share {still:.0f}% below ~49% target — add image_full VO **")
     keyed=sum(1 for b in _B if b.get("subject_key"))
     print(f"  subject chains: {nchain} auto-linked + {keyed} explicit (consistency for evolving subjects)")

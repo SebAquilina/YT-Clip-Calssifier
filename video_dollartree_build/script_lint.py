@@ -79,6 +79,18 @@ def main():
         n=narr.count(key.split()[0]) if key else 0
         chk(narr.count(c.lower())>=2 or (key and all(narr.count(w)>=2 for w in key.split()[:1])), f"coined '{c[:32]}' repeated >=2x", hard=False)
 
+    # ---------- (C) FORMAT MIX (the one authoritative target; #1 drift is too much talking head) ----------
+    n=len(beats) or 1
+    vc={}
+    for b in beats: vc[b["visual_mode"]]=vc.get(b["visual_mode"],0)+1
+    th=vc.get("talking_head",0)*100/n; sp=vc.get("image_split",0)*100/n
+    still=vc.get("image_full",0)*100/n; clip=(vc.get("image_live",0)+vc.get("broll",0))*100/n
+    face=th+sp
+    chk(th<=18, f"MIX talking-head {th:.0f}% <=18 (target 12.3)")
+    chk(face<=32, f"MIX presenter/face {face:.0f}% <=32 (target ~23: TH 12.3 + split 10.7)")
+    chk(still>=40, f"MIX still-image {still:.0f}% >=40 (target 49.3)", hard=False)
+    chk(clip>=18, f"MIX video-clip {clip:.0f}% >=18 (target 27.7)", hard=False)
+
     print("=== SCRIPT LINT ===")
     for o in oks: print("  ok  ", o)
     for w in warns: print("  warn", w)

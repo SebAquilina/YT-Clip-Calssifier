@@ -14,7 +14,7 @@ full("rows of unsold candles boxed up in a garage","Most new makers break one si
 full("a sad clearance table of marked-down homemade candles","I have watched it happen so many times. Lovely people, real money, gone in a few months.")
 th("I am Candice. I have sold candles from my kitchen for years.","shelf",role="identity")
 full("a slick online candle-business course with a big price tag","And the people selling you the dream make more money when you fail than when you win.",role="dark_loop")
-th("Stay to the end for the one mistake that costs new makers the most.","window",role="promise")
+full("a single mistake hidden behind a big question mark on the bench","Stay to the end for the one mistake that costs new makers the most.",role="promise")
 full("a single beautiful finished candle glowing on a clean shelf","Get this right, and a candle like this can quietly become a real little business.")
 
 # ===== EBOOK CTA (within 1:30, two TH beats, different scenes) =====
@@ -33,7 +33,7 @@ full("a notebook full of burn-time notes and wick observations","Those eighty-fo
 full("a shelf of numbered test candles in slightly different recipes","Each burn answers a question. Right wick? Clean melt? Honest scent throw? You learn by burning.")
 
 # ===== THE TWO SKILLS (content: two skills you need) — Yoder 8 step + Socratic why =====
-th("Before the rule, there are two skills almost every beginner skips.","bench")
+full("two labelled cards on the bench reading wicking and scent","Before the rule, there are two skills almost every beginner skips.")
 full("a hand holding wicks of different sizes against a jar","Skill one is wicking. Why? The wrong wick is why cheap candles tunnel, smoke, or drown.",role="step")
 live("a candle with a clean wide melt pool reaching the glass edge","the flame glows as the wax melts evenly to the edge","Get the wick right and you get this — a full, clean melt pool. That is the whole game.")
 full("fragrance oil measured precisely on a small kitchen scale","Skill two is scent load. Too much oil sweats out, too little is weak. Precision wins.",role="step")
@@ -68,7 +68,7 @@ full("money quietly flowing from a beginner toward a course seller","It is not a
 full("a calm independent maker ignoring the hype, just making candles","The boring truth does not sell courses. Make eighty-four candles. That is the entire secret.")
 
 # ===== STAKES ZOOM-OUT + VALUES (Yoder 12) =====
-th("Here is what this really comes down to.","shelf",role="stakes")
+full("a candle glowing in a calm family living room at dusk","Here is what this whole thing really comes down to.",role="stakes")
 full("a candle glowing warmly in a real family home at night","A candle sits in someone's home, near their family, while they sleep. That is a real responsibility.")
 full("a small trusted candle brand loved by repeat customers","Get the craft right and the business follows. Trust is the whole product you are selling.")
 
@@ -78,7 +78,7 @@ full("a wall calendar with eighty-four test burns ticked off","And do the eighty
 live("a calm maker selling a small tidy range at a local market","shoppers smile and pick up the neat little candles","Do it in that order, and your launch day feels calm and proud, not panicked.",role="future_pace")
 
 # ===== COMMENT BAIT + SEQUEL HOOK + SIGN-OFF (Yoder 14-15) =====
-th("Tell me below if you are about to start — I read every single comment.","window",role="comment_bait")
+full("a phone showing a comments section full of friendly replies","Tell me below if you are about to start. I read every single comment.",role="comment_bait")
 full("a warm shelf of finished candles glowing softly","Whatever you decide, make something you would be proud to put your own name on.")
 th("Subscribe, and the next one — your first candle to sell — is on screen now.","shelf",role="sequel_hook",adj_ok=True)
 th(SIGNOFF,"window",role="signoff",adj_ok=True)
