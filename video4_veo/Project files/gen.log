@@ -1,0 +1,212 @@
+== Stage A: TTS ==
+  TTS i1
+  TTS i2
+  TTS f1a
+  TTS f1b
+  TTS f1c
+  TTS f1d
+  TTS f2a
+  TTS f2b
+  TTS f2c
+  TTS f2d
+  TTS f3a
+  TTS f3b
+  TTS f3c
+  TTS f3d
+  TTS f4a
+  TTS f4b
+  TTS f4c
+  TTS f4d
+  TTS f5a
+  TTS f5b
+  TTS f5c
+  TTS f5d
+  TTS f6a
+  TTS f6b
+  TTS f6c
+  TTS f6d
+  TTS f7a
+  TTS f7b
+  TTS f7c
+  TTS f7d
+  TTS f8a
+  TTS f8b
+  TTS f8c
+  TTS f8d
+  TTS f9a
+  TTS f9b
+  TTS f9c
+  TTS f9d
+  TTS f10a
+  TTS f10b
+  TTS f10c
+  TTS f10d
+  TTS out1
+  TTS out2
+== 66 clips to generate ==
+  submit hook[0] 82b552d9 (1)
+  submit i1[0] 5c4e5f4c (2)
+  submit i1[1] f0606578 (3)
+  submit i2[0] be5b46c8 (4)
+  submit FAIL i2[1] retries
+  submit i2[1] 5d72e1bb (5)
+  DONE hook[0] 2215255b
+  submit th_intro[0] 66e350a9 (5)
+  DONE i2[0] 1697224b
+  submit f1a[0] d0cb55f0 (5)
+  DONE i1[1] 1869388b
+  submit f1a[1] 79646c39 (5)
+  DONE th_intro[0] 2382619b
+  submit f1b[0] 4c59257a (5)
+  DONE i2[1] 2983593b
+  submit f1b[1] 7736499b (5)
+  DONE f1a[0] 2179258b
+  DONE f1b[0] 1266411b
+  submit f1c[0] f7cc8ff7 (4)
+  submit f1d[0] c98a84d9 (5)
+  DONE f1a[1] 1256782b
+  submit f2a[0] b4d67c48 (5)
+  DONE f1b[1] 1834351b
+  submit f2b[0] b822d78b (5)
+  DONE f1c[0] 2450846b
+  submit f2b[1] 31d96561 (5)
+  DONE i1[0] 2398057b
+  submit f2c[0] f1227b7f (5)
+  FAILED f1d[0] requeue
+  submit f2d[0] f1f43ab5 (5)
+  FAILED f2a[0] requeue
+  submit f3a[0] ed2de414 (5)
+  DONE f2c[0] 1879039b
+  submit f3a[1] 872fc5fd (5)
+  DONE f2d[0] 1444576b
+  DONE f3a[0] 1859067b
+  submit f3b[0] 77e3e52f (4)
+  submit f3b[1] 1410008e (5)
+  DONE f2b[1] 2182509b
+  submit f3c[0] 08494ee3 (5)
+  DONE f3b[0] 1556704b
+  submit f3d[0] 8267a9d6 (5)
+  DONE f3a[1] 1860241b
+  submit th_a[0] 450507b3 (5)
+  DONE f2b[0] 1675612b
+  submit f4a[0] 54fbe3de (5)
+  DONE f3b[1] 1423387b
+  DONE f3d[0] 1646542b
+  submit f4b[0] 61398c6f (4)
+  submit f4b[1] 1c028da9 (5)
+  DONE f3c[0] 1750186b
+  submit f4c[0] 38e33249 (5)
+  DONE th_a[0] 1942604b
+  submit f4d[0] 7a4ea232 (5)
+  DONE f4b[0] 1165388b
+  submit f5a[0] afbb0f6c (5)
+  DONE f4c[0] 988660b
+  submit f5a[1] 856508ba (5)
+  FAILED f4a[0] requeue
+  submit f5b[0] b55ccd03 (5)
+  DONE f4b[1] 1642785b
+  submit f5c[0] 4f432e02 (5)
+  DONE f5a[0] 1335668b
+  submit f5d[0] 9876f4d7 (5)
+  DONE f5a[1] 1073909b
+  submit th_b[0] 262ba08f (5)
+  FAILED f4d[0] requeue
+  submit f6a[0] 04d1586a (5)
+  DONE f5b[0] 2186992b
+  submit f6b[0] c0e11f7f (5)
+  DONE f6b[0] 968529b
+  submit f6b[1] 0b077dc3 (5)
+  DONE th_b[0] 1864547b
+  submit f6c[0] 948d924b (5)
+  FAILED f6a[0] requeue
+  submit f6d[0] 3586243e (5)
+  DONE f6b[1] 1658665b
+  submit f7a[0] 7d59f450 (5)
+  DONE f5d[0] 2275246b
+  submit f7b[0] f4878982 (5)
+  DONE f7b[0] 1958792b
+  submit f7c[0] 3f4fd69e (5)
+  FAILED f6c[0] requeue
+  submit f7d[0] b01dcce2 (5)
+  DONE f7c[0] 1582267b
+  submit th_c[0] 5ff6efeb (5)
+  DONE f5c[0] 1988834b
+  DONE f6d[0] 1695726b
+  submit f8a[0] 5d703f01 (4)
+  submit f8a[1] b3de03c2 (5)
+  FAILED f7a[0] requeue
+  submit f8b[0] 1b37406c (5)
+  DONE f8a[0] 1660540b
+  submit f8b[1] 887b4654 (5)
+  FAILED f8a[1] requeue
+  submit f8c[0] f7bcf61b (5)
+  DONE f8b[0] 2339382b
+  submit f8d[0] 487c515d (5)
+  DONE th_c[0] 2198899b
+  submit f9a[0] 6fef7459 (5)
+  DONE f8c[0] 1056581b
+  submit f9a[1] d79b51b8 (5)
+  DONE f8b[1] 2830554b
+  DONE f9a[0] 2185421b
+  submit f9b[0] 726d5d6f (4)
+  submit f9b[1] 48ba9bf2 (5)
+  DONE f8d[0] 2228981b
+  submit f9c[0] e9b5cbcc (5)
+  DONE f9a[1] 1141524b
+  submit f9d[0] a643df7a (5)
+  DONE f7d[0] 2399946b
+  submit th_d[0] ddfcbaf8 (5)
+  DONE f9b[1] 1741306b
+  submit f10a[0] 58b621b5 (5)
+  DONE f9d[0] 1917021b
+  submit f10b[0] 6228f2bf (5)
+  DONE th_d[0] 1918785b
+  submit f10c[0] dde56559 (5)
+  DONE f9b[0] 1467693b
+  submit f10d[0] 913907f5 (5)
+  DONE f9c[0] 2579768b
+  submit th_cta[0] 0b1e7b83 (5)
+  DONE f10a[0] 1388427b
+  submit out1[0] 30bf0e77 (5)
+== DONE 51/66 ==
+== Stage A: TTS ==
+== 15 clips to generate ==
+  submit f1d[0] 73d22146 (1)
+  submit FAIL f2a[0] retries
+  submit f2a[0] bff4c638 (2)
+  submit FAIL f4a[0] retries
+  submit f4a[0] 40a6d618 (3)
+  submit FAIL f4d[0] retries
+  submit FAIL f4d[0] retries
+  submit FAIL f4d[0] retries
+  submit FAIL f4d[0] retries
+  submit f4d[0] 77ffb56f (4)
+  submit f6a[0] f5cecd5c (5)
+  DONE f1d[0] 1980077b
+  submit f6c[0] edec7347 (5)
+  DONE f2a[0] 3036109b
+  submit f7a[0] c176db42 (5)
+  DONE f6a[0] 1846221b
+  submit f8a[1] 41a6dcb3 (5)
+  DONE f6c[0] 2150418b
+  DONE f8a[1] 1558374b
+  submit f10b[0] 980bc254 (4)
+  submit f10c[0] ddfc80e1 (5)
+  DONE f7a[0] 1888289b
+  submit f10d[0] 18fc39b7 (5)
+  DONE f4d[0] 2019269b
+  submit th_cta[0] 1f6620b3 (5)
+  DONE f10b[0] 1422530b
+  submit out1[0] 909f4a3b (5)
+  DONE out1[0] 1793334b
+  submit out1[1] 26cb6851 (5)
+  FAILED f4a[0] requeue
+  submit out2[0] e19c164b (5)
+  DONE f10d[0] 1770587b
+  submit f4a[0] 27d24289 (5)
+  DONE out1[1] 2061805b
+  DONE out2[0] 2231243b
+  DONE f4a[0] 1980486b
+  DONE f10c[0] 1861080b
+  DONE th_cta[0] 2070419b
+== DONE 66/66 ==

@@ -1,0 +1,344 @@
+{
+  "beats": {
+    "hook": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/hook.mp3",
+      "narration_dur": 9.456327,
+      "n_clips": 2,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "9fc9f129-c06b-4413-9496-9fb5d7bd8808",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/hook_k0.mp4"
+        },
+        "1": {
+          "status": "downloaded",
+          "job_id": "39c7ea8c-6253-4fc7-96e5-d438d342e8b5",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/hook_k1.mp4"
+        }
+      }
+    },
+    "prev1": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/prev1.mp3",
+      "narration_dur": 11.31102,
+      "n_clips": 2,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "83779c78-ba9f-45e5-87ff-e8d3a39be4da",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/prev1_k0.mp4"
+        },
+        "1": {
+          "status": "downloaded",
+          "job_id": "879bd85c-c16e-44c8-820e-6e498f3ad5e3",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/prev1_k1.mp4"
+        }
+      }
+    },
+    "prev2": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/prev2.mp3",
+      "narration_dur": 6.217143,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "b220c36c-8b16-4193-a5af-5bacff1237ec",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/prev2_k0.mp4"
+        }
+      }
+    },
+    "f1a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f1a.mp3",
+      "narration_dur": 5.146122,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "1083e29b-880c-4e3b-9747-64ff2b70f391",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f1a_k0.mp4"
+        }
+      }
+    },
+    "f1b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f1b.mp3",
+      "narration_dur": 6.50449,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "8f6bb9fe-5eab-4774-876d-2a53c0293b15",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f1b_k0.mp4"
+        }
+      }
+    },
+    "f1c": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f1c.mp3",
+      "narration_dur": 4.780408,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "5273460a-453a-45a8-ae29-b391b7dc3d5b",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f1c_k0.mp4"
+        }
+      }
+    },
+    "f2a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f2a.mp3",
+      "narration_dur": 4.545306,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "1521dbe0-e81e-48d4-9b2a-06bbf266696b",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f2a_k0.mp4"
+        }
+      }
+    },
+    "f2b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f2b.mp3",
+      "narration_dur": 7.131429,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "b5925c7b-b737-4dd4-9306-d0e8c72147e6",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f2b_k0.mp4"
+        }
+      }
+    },
+    "f2c": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f2c.mp3",
+      "narration_dur": 4.780408,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "869f9317-de23-466c-90b4-350ba89768e5",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f2c_k0.mp4"
+        }
+      }
+    },
+    "f3a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f3a.mp3",
+      "narration_dur": 4.310204,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "6c7b511f-ff2e-4bb3-993c-8f283d577046",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f3a_k0.mp4"
+        }
+      }
+    },
+    "f3b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f3b.mp3",
+      "narration_dur": 5.982041,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "54c050ea-19b8-4809-b7ae-63a6acd648b0",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f3b_k0.mp4"
+        }
+      }
+    },
+    "f4a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f4a.mp3",
+      "narration_dur": 6.582857,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "15b1f2bf-0dd7-49bb-b345-bf28c2b957aa",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f4a_k0.mp4"
+        }
+      }
+    },
+    "f4b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f4b.mp3",
+      "narration_dur": 4.780408,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "1e883e98-bc4e-4f53-a7a5-041876d685b0",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f4b_k0.mp4"
+        }
+      }
+    },
+    "f4c": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f4c.mp3",
+      "narration_dur": 3.186939,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "b9b40d8e-7369-44e0-9506-8bea166955f5",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f4c_k0.mp4"
+        }
+      }
+    },
+    "f5a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f5a.mp3",
+      "narration_dur": 4.597551,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "9f609c31-a3a9-4c91-ba2b-f3b93251b528",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f5a_k0.mp4"
+        }
+      }
+    },
+    "f5b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f5b.mp3",
+      "narration_dur": 8.071837,
+      "n_clips": 2,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "bdeff0d9-0e38-4a0f-8d24-2fb215867f12",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f5b_k0.mp4"
+        },
+        "1": {
+          "status": "downloaded",
+          "job_id": "4d209924-c8ab-49ee-87d6-e5272f427abe",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f5b_k1.mp4"
+        }
+      }
+    },
+    "f6a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f6a.mp3",
+      "narration_dur": 5.276735,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "bb0a1e8e-cff8-48d5-b214-2c83d9019427",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f6a_k0.mp4"
+        }
+      }
+    },
+    "f6b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f6b.mp3",
+      "narration_dur": 4.728163,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "ebdf02ea-ee27-4324-a3c5-7cc698c05fc9",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f6b_k0.mp4"
+        }
+      }
+    },
+    "f6c": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f6c.mp3",
+      "narration_dur": 2.951837,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "6c749d0a-6332-47d4-92c1-1167c5257410",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f6c_k0.mp4"
+        }
+      }
+    },
+    "f7a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f7a.mp3",
+      "narration_dur": 5.511837,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "6f1a4ad1-4c6e-4354-80bb-044026f99c98",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f7a_k0.mp4"
+        }
+      }
+    },
+    "f7b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f7b.mp3",
+      "narration_dur": 6.4,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "74322412-8228-4330-bc84-dad484c3cc9b",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f7b_k0.mp4"
+        }
+      }
+    },
+    "f8a": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f8a.mp3",
+      "narration_dur": 3.369796,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "01adedfd-129b-4969-9005-137b61031813",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f8a_k0.mp4"
+        }
+      }
+    },
+    "f8b": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/f8b.mp3",
+      "narration_dur": 4.493061,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "228c9b35-6dd4-4974-bc30-74abc3d9c445",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/f8b_k0.mp4"
+        }
+      }
+    },
+    "out1": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/out1.mp3",
+      "narration_dur": 6.4,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "9f84e2b0-10ef-47e1-b077-1291698be93f",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/out1_k0.mp4"
+        }
+      }
+    },
+    "out2": {
+      "tts_done": true,
+      "narration": "/home/user/YT-Clip-Calssifier/video2_veo/Project files/audio/out2.mp3",
+      "narration_dur": 5.146122,
+      "n_clips": 1,
+      "jobs": {
+        "0": {
+          "status": "downloaded",
+          "job_id": "c043e512-752d-4ab1-80b9-3778e6895f61",
+          "file": "/home/user/YT-Clip-Calssifier/video2_veo/Source clips/out2_k0.mp4"
+        }
+      }
+    }
+  }
+}

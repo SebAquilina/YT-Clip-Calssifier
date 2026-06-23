@@ -1,0 +1,56 @@
+{
+  "title": "DT20 VALIDATION",
+  "channel": "Candice's Country Candles",
+  "beats": [
+    {
+      "id": "t0_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "Okay, I bought every single candle in the dollar store, and I am about to burn all of them.",
+      "seed": "https://litter.catbox.moe/ak9ge9.png",
+      "prompt": "Casual handheld iPhone vlog clip filmed on a real workbench. This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, tortoiseshell glasses, curly LIGHT silvery-grey hair, blue knit sweater and tan apron, white, mid-fifties. Do NOT change her face, age or ethnicity. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to camera in a warm American accent, lips fully in sync, saying exactly: \"Okay, I bought every single candle in the dollar store, and I am about to burn all of them.\". Exactly ONE person, natural blink and lip-sync, steady framing; she begins the first word immediately with no inhale and speaks continuously, no big inhale at the end. Shot on a modern smartphone (iPhone) held in the hand, casual amateur snapshot: deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, slight handheld micro-shake, true-to-life slightly flat color, real crisp texture with faint sensor grain. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look \u2014 it must look like a real person quickly photographed this on their phone on a real wooden workbench. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. Setting: the same lived-in home candle workshop: her rustic wooden workbench with glass candle jars, soy wax, amber fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles behind, soft natural window light."
+    },
+    {
+      "id": "t1_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Every jar, every votive, every little tin, all of it for about a dollar each.",
+      "image_prompt": "A casual overhead iPhone photo of an overhead flat-lay of a dozen cheap dollar-store glass jar candles and votives spread across a rustic wooden bench, on a real rustic wooden candle-workshop workbench in a lived-in home workshop, a little honest clutter around it. Shot on a modern smartphone (iPhone) held in the hand, casual amateur snapshot: deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, slight handheld micro-shake, true-to-life slightly flat color, real crisp texture with faint sensor grain. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look \u2014 it must look like a real person quickly photographed this on their phone on a real wooden workbench. No people and no faces unless explicitly part of the subject; no hands unless needed. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Every jar, every votive, every little tin, all of it for about a dollar each."
+    },
+    {
+      "id": "t2_split",
+      "type": "image",
+      "visual_mode": "image_split",
+      "sentence": "Watch the melt pool. A good candle melts evenly all the way to the edge of the glass.",
+      "seed": "https://litter.catbox.moe/bwzggw.png",
+      "prompt": "Casual handheld iPhone vlog clip filmed on a real workbench. This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, tortoiseshell glasses, curly LIGHT silvery-grey hair, blue knit sweater and tan apron, white, mid-fifties. Do NOT change her face, age or ethnicity. She is standing at her kitchen stove station, looking straight at camera. She speaks directly to camera in a warm American accent, lips fully in sync, saying exactly: \"Watch the melt pool. A good candle melts evenly all the way to the edge of the glass.\". Exactly ONE person, natural blink and lip-sync, steady framing; she begins the first word immediately with no inhale and speaks continuously, no big inhale at the end. Shot on a modern smartphone (iPhone) held in the hand, casual amateur snapshot: deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, slight handheld micro-shake, true-to-life slightly flat color, real crisp texture with faint sensor grain. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look \u2014 it must look like a real person quickly photographed this on their phone on a real wooden workbench. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. Setting: the same lived-in home candle workshop: her rustic wooden workbench with glass candle jars, soy wax, amber fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles behind, soft natural window light.",
+      "image_prompt": "A casual overhead close-up iPhone photo of a top-down view of a lit candle with a full even pool of liquid wax reaching the edge of a clear glass jar, on a real rustic wooden candle-workshop workbench in a lived-in home workshop, a little honest clutter around it. Shot on a modern smartphone (iPhone) held in the hand, casual amateur snapshot: deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, slight handheld micro-shake, true-to-life slightly flat color, real crisp texture with faint sensor grain. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look \u2014 it must look like a real person quickly photographed this on their phone on a real wooden workbench. No people and no faces unless explicitly part of the subject; no hands unless needed. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "ar": "1:1",
+      "split": {
+        "th_side": "left",
+        "th_frac": 0.46
+      }
+    },
+    {
+      "id": "t3_live",
+      "type": "image",
+      "visual_mode": "image_live",
+      "sentence": "The flame is way too tall, it is flickering, and it is already tunneling down the middle.",
+      "image_prompt": "A casual macro iPhone photo of a cheap candle burning with a tall flickering flame and a tunnel forming down the middle of the wax, on a real rustic wooden candle-workshop workbench in a lived-in home workshop, a little honest clutter around it. Shot on a modern smartphone (iPhone) held in the hand, casual amateur snapshot: deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, slight handheld micro-shake, true-to-life slightly flat color, real crisp texture with faint sensor grain. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look \u2014 it must look like a real person quickly photographed this on their phone on a real wooden workbench. No people and no faces unless explicitly part of the subject; no hands unless needed. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "motion": "the tall flame wavers and flickers and a faint trail of dark smoke lifts off the tip",
+      "narration": "The flame is way too tall, it is flickering, and it is already tunneling down the middle."
+    },
+    {
+      "id": "t4_br",
+      "type": "broll",
+      "visual_mode": "broll",
+      "narration": "Almost every time a cheap candle tunnels, the reason is the wick \u2014 too thin, or sitting off to one side.",
+      "prompt": "Close-up POV iPhone shot of ONLY the hands and forearms of a mid-fifties woman (fair naturally-aged skin, plain wedding band, blue sweater cuffs, tan apron) as she points at the thin off-center wick of a finished jar candle, then at a candle with a thicker centered wick to compare. She is NOT making candles: no pouring wax, no melting, no stirring, no pitcher, no thermometer, no wax. The candles are FINISHED store-bought jar candles. Her hands ONLY \u2014 absolutely NO face, NO head, NO other person. casual amateur smartphone footage: handheld, slight natural shake, deep focus everything sharp, natural window light, NO bokeh, NO cinematic grade; photo-real and physically correct, nothing spawns or vanishes, five fingers, continuous subtle motion, never frozen. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. Setting: the same lived-in home candle workshop: her rustic wooden workbench with glass candle jars, soy wax, amber fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles behind, soft natural window light.",
+      "broll_ref": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/hands_ref.png"
+    }
+  ]
+}

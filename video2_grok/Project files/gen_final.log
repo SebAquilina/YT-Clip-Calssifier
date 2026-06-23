@@ -1,0 +1,27 @@
+== Stage A: TTS ==
+== 12 clips to generate ==
+  submit f5b[1] 4c555d8e (1)
+  submit f6a[0] 7bc15458 (2)
+  submit f6b[0] e456f09e (3)
+  submit f6c[0] 020402bc (4)
+  submit f7a[0] 5755ec71 (5)
+  DONE f5b[1] 5098520b
+  DONE f6a[0] 2128250b
+  submit f7b[0] 5b2d8602 (4)
+  submit f7b[1] 421f92f1 (5)
+  DONE f6b[0] 2073435b
+  DONE f6c[0] 3632723b
+  submit f8a[0] c45bc9a6 (4)
+  submit f8b[0] fe798258 (5)
+  DONE f7a[0] 1766492b
+  submit out1[0] 3e71e694 (5)
+  DONE f7b[1] 5131652b
+  submit out1[1] 601e2a3b (5)
+  DONE f8a[0] 1999111b
+  submit out2[0] 9153e6d2 (5)
+  DONE f8b[0] 4260384b
+  DONE f7b[0] 4787037b
+  DONE out1[0] 4412789b
+  DONE out2[0] 4103290b
+  DONE out1[1] 4562705b
+== DONE 34/34 ==

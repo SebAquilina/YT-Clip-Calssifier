@@ -1,0 +1,594 @@
+{
+  "subjects": [
+    {
+      "subject_id": "hero_candle",
+      "label": "the candle being made (empty jar -> wax -> cured -> trimmed -> lit -> gifted)",
+      "beats": [
+        {
+          "id": "b023_full",
+          "stage": "empty jar, wick standing straight and centred",
+          "is_counterexample": false
+        },
+        {
+          "id": "b024_live",
+          "stage": "empty prepared jar with centred wick waiting",
+          "is_counterexample": false
+        },
+        {
+          "id": "b041_full",
+          "stage": "melted wax being poured slowly into prepared jar around centred wick",
+          "is_counterexample": false
+        },
+        {
+          "id": "b042_live",
+          "stage": "wax filling the jar steadily around the centred wick",
+          "is_counterexample": false
+        },
+        {
+          "id": "b044_live",
+          "stage": "freshly poured candle cooling on the bench",
+          "is_counterexample": false
+        },
+        {
+          "id": "b045_full",
+          "stage": "setting candle with a small normal dip forming near the wick",
+          "is_counterexample": false
+        },
+        {
+          "id": "b047_live",
+          "stage": "thin top-up layer smoothing the slightly sunken top flat",
+          "is_counterexample": false
+        },
+        {
+          "id": "b053_full",
+          "stage": "finished candle, wick neatly trimmed short",
+          "is_counterexample": false
+        },
+        {
+          "id": "b054_full",
+          "stage": "finished candle being topped with dried flower petals",
+          "is_counterexample": false
+        },
+        {
+          "id": "b055_live",
+          "stage": "finished petal-topped candle glowing with a small calm flame",
+          "is_counterexample": false
+        },
+        {
+          "id": "b006_full",
+          "stage": "finished petal-topped candle, glowing softly (aspirational result)",
+          "is_counterexample": false
+        },
+        {
+          "id": "b070_full",
+          "stage": "finished candle with kraft label and ribbon",
+          "is_counterexample": false
+        },
+        {
+          "id": "b071_live",
+          "stage": "gift-wrapped candle tied with twine",
+          "is_counterexample": false
+        },
+        {
+          "id": "b094_live",
+          "stage": "cured candle lit for the first time, match to the wick",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "counter_flawed_candles",
+      "label": "flawed / bad-example candles (what NOT to do)",
+      "beats": [
+        {
+          "id": "b001_full",
+          "stage": "soy candle with deep sinkhole and ugly tunnel",
+          "is_counterexample": true
+        },
+        {
+          "id": "b002_live",
+          "stage": "cheap candle burning with a deep tunnel, hard wax stuck high",
+          "is_counterexample": true
+        },
+        {
+          "id": "b004_full",
+          "stage": "flawed beginner candles lined up: frosted, sunken, cracked",
+          "is_counterexample": true
+        },
+        {
+          "id": "b043_split",
+          "stage": "cracked, sunken candle top from pouring too hot",
+          "is_counterexample": true
+        },
+        {
+          "id": "b050_full",
+          "stage": "candle burning with long untrimmed wick, tall smoky flame",
+          "is_counterexample": true
+        },
+        {
+          "id": "b063_split",
+          "stage": "tall narrow jar with a weak flame struggling down inside",
+          "is_counterexample": true
+        },
+        {
+          "id": "b067_split",
+          "stage": "candle with a small melt pool tunnelling early",
+          "is_counterexample": true
+        },
+        {
+          "id": "b074_split",
+          "stage": "unattended candle burning near a curtain",
+          "is_counterexample": true
+        },
+        {
+          "id": "b079_split",
+          "stage": "tunnelled candle being rescued",
+          "is_counterexample": true
+        },
+        {
+          "id": "b081_full",
+          "stage": "candle with sooty black mark climbing the inside of the glass",
+          "is_counterexample": true
+        },
+        {
+          "id": "b085_split",
+          "stage": "two candle colours bleeding messily into each other",
+          "is_counterexample": true
+        },
+        {
+          "id": "b096_full",
+          "stage": "lineup of flawed candles beside one perfect petal-topped candle",
+          "is_counterexample": true
+        }
+      ]
+    },
+    {
+      "subject_id": "starter_kit",
+      "label": "the candle-making starter kit",
+      "beats": [
+        {
+          "id": "b009_full",
+          "stage": "tidy workbench with starter kit and empty jars set out",
+          "is_counterexample": false
+        },
+        {
+          "id": "b011_full",
+          "stage": "starter kit box with soy wax, wicks, jars and fragrance bottle",
+          "is_counterexample": false
+        },
+        {
+          "id": "b014_full",
+          "stage": "matched soy wax bag, wick and jar taken from one kit",
+          "is_counterexample": false
+        },
+        {
+          "id": "b015_live",
+          "stage": "starter kit open on the bench in soft window light",
+          "is_counterexample": false
+        },
+        {
+          "id": "b017_full",
+          "stage": "open kit showing wax flakes, wicks, jars, fragrance bottle, stickers",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "counter_random_supplies",
+      "label": "mismatched random supplies (what NOT to do)",
+      "beats": [
+        {
+          "id": "b013_split",
+          "stage": "messy pile of mismatched candle-making bits and bottles",
+          "is_counterexample": true
+        }
+      ]
+    },
+    {
+      "subject_id": "five_jars",
+      "label": "the five empty candle jars",
+      "beats": [
+        {
+          "id": "b012_full",
+          "stage": "five empty glass jars lined up ready to be filled",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "soy_wax_flakes",
+      "label": "the bag of soy wax flakes (raw material)",
+      "beats": [
+        {
+          "id": "b018_live",
+          "stage": "bag of soft white soy wax flakes on the bench",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "wicks",
+      "label": "the pre-tabbed wicks",
+      "beats": [
+        {
+          "id": "b019_full",
+          "stage": "pre-tabbed wicks with little metal bases",
+          "is_counterexample": false
+        },
+        {
+          "id": "b021_full",
+          "stage": "single wick standing dead-centre in an empty jar",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "counter_wrong_wick",
+      "label": "wrong wick size (what NOT to do)",
+      "beats": [
+        {
+          "id": "b020_split",
+          "stage": "tiny wick lost in a too-wide jar",
+          "is_counterexample": true
+        }
+      ]
+    },
+    {
+      "subject_id": "wax_in_jug",
+      "label": "the wax in the jug (melting -> scented -> coloured -> poured)",
+      "beats": [
+        {
+          "id": "b026_full",
+          "stage": "soy flakes melting in a jug inside a pot of water",
+          "is_counterexample": false
+        },
+        {
+          "id": "b027_live",
+          "stage": "flakes turning to clear melted liquid in the jug",
+          "is_counterexample": false
+        },
+        {
+          "id": "b029_full",
+          "stage": "thermometer resting in gently melted wax in the jug",
+          "is_counterexample": false
+        },
+        {
+          "id": "b030_live",
+          "stage": "melted wax sitting calmly in the jug, just off the heat",
+          "is_counterexample": false
+        },
+        {
+          "id": "b031_live",
+          "stage": "steam rising off the jug of melted wax cooling on the bench",
+          "is_counterexample": false
+        },
+        {
+          "id": "b034_live",
+          "stage": "fragrance oil poured and stirred into the melted wax",
+          "is_counterexample": false
+        },
+        {
+          "id": "b038_live",
+          "stage": "melted wax turning a soft even pastel as dye blends in",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "counter_overheated_wax",
+      "label": "overheated wax (what NOT to do)",
+      "beats": [
+        {
+          "id": "b028_split",
+          "stage": "wax smoking in a dry pan on a bare burner",
+          "is_counterexample": true
+        }
+      ]
+    },
+    {
+      "subject_id": "fragrance_oil",
+      "label": "the fragrance oil",
+      "beats": [
+        {
+          "id": "b033_full",
+          "stage": "bottle of fragrance oil being measured beside the jug",
+          "is_counterexample": false
+        },
+        {
+          "id": "b036_full",
+          "stage": "measuring cup holding a modest amount of fragrance oil",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "counter_too_much_fragrance",
+      "label": "too much fragrance (what NOT to do)",
+      "beats": [
+        {
+          "id": "b035_split",
+          "stage": "fragrance oil flooding over the top of the jug of wax",
+          "is_counterexample": true
+        }
+      ]
+    },
+    {
+      "subject_id": "dye",
+      "label": "the candle dye",
+      "beats": [
+        {
+          "id": "b037_full",
+          "stage": "single tiny drop of liquid dye going into melted wax",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "two_colour_jugs",
+      "label": "two jugs of softly coloured wax",
+      "beats": [
+        {
+          "id": "b039_live",
+          "stage": "two jugs of melted wax in two gentle colours side by side",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "saved_wax",
+      "label": "the saved-back wax for the second pour",
+      "beats": [
+        {
+          "id": "b046_full",
+          "stage": "small jug of saved melted wax kept aside for a second pour",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "scissors_trim",
+      "label": "scissors trimming a wick",
+      "beats": [
+        {
+          "id": "b052_split",
+          "stage": "ordinary kitchen scissors trimming a candle wick",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "frosting_candle",
+      "label": "a soy candle showing natural frosting",
+      "beats": [
+        {
+          "id": "b056_full",
+          "stage": "soy candle on a shelf with natural surface quirks",
+          "is_counterexample": false
+        },
+        {
+          "id": "b057_split",
+          "stage": "natural white frosting on the candle surface",
+          "is_counterexample": false
+        },
+        {
+          "id": "b058_full",
+          "stage": "close look at natural frosting across the soy candle top",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "wet_spot_candle",
+      "label": "a jar candle showing wet spots",
+      "beats": [
+        {
+          "id": "b059_split",
+          "stage": "wet spots where wax pulled away from the jar glass",
+          "is_counterexample": false
+        },
+        {
+          "id": "b060_full",
+          "stage": "jar candle with small wet spots against the glass",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "vessel_options",
+      "label": "candle vessel options (jars, tin, tumbler)",
+      "beats": [
+        {
+          "id": "b061_full",
+          "stage": "different candle jars, a tin and a glass tumbler side by side",
+          "is_counterexample": false
+        },
+        {
+          "id": "b062_live",
+          "stage": "hand setting a clean reused glass jar onto the bench",
+          "is_counterexample": false
+        },
+        {
+          "id": "b064_full",
+          "stage": "wide gently tapered jar that lets a flame breathe",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "good_burn_candle",
+      "label": "a candle with a good full melt pool / first burn",
+      "beats": [
+        {
+          "id": "b065_full",
+          "stage": "candle with wide even melt pool reaching the jar edge",
+          "is_counterexample": false
+        },
+        {
+          "id": "b066_live",
+          "stage": "candle burning evenly, wax pooling out to the glass",
+          "is_counterexample": false
+        },
+        {
+          "id": "b068_full",
+          "stage": "candle burning with a full melt pool right out to the glass",
+          "is_counterexample": false
+        },
+        {
+          "id": "b069_live",
+          "stage": "candle glowing on a side table filling a cozy room",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "gift_set",
+      "label": "the boxed gift set of candles",
+      "beats": [
+        {
+          "id": "b072_live",
+          "stage": "three petal-topped candles boxed up as a little gift set",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "safety_candle",
+      "label": "a lit candle demonstrating safe burning",
+      "beats": [
+        {
+          "id": "b073_full",
+          "stage": "lit candle on a clear flat heatproof surface",
+          "is_counterexample": false
+        },
+        {
+          "id": "b075_full",
+          "stage": "candle being gently snuffed out with a small lid",
+          "is_counterexample": false
+        },
+        {
+          "id": "b076_live",
+          "stage": "thin ribbon of smoke rising from a just-snuffed wick",
+          "is_counterexample": false
+        },
+        {
+          "id": "b077_full",
+          "stage": "candle burned down to about a centimetre of wax left",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "off_centre_wick_candle",
+      "label": "a candle with a drifted off-centre wick being fixed",
+      "beats": [
+        {
+          "id": "b078_full",
+          "stage": "candle with wick gone slightly off-centre after setting",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "rescue_top",
+      "label": "a tunnelled candle top being warmed level again",
+      "beats": [
+        {
+          "id": "b080_live",
+          "stage": "hairdryer-warmed candle top melting smooth and level again",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "soot_comparison",
+      "label": "clean vs sooty jar wall comparison",
+      "beats": [
+        {
+          "id": "b082_full",
+          "stage": "clean jar wall beside a sooty one, side by side",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "two_tone_candle",
+      "label": "a two-tone layered candle",
+      "beats": [
+        {
+          "id": "b083_full",
+          "stage": "candle with two soft colour layers set one above the other",
+          "is_counterexample": false
+        },
+        {
+          "id": "b084_live",
+          "stage": "second colour of wax poured over a set first layer",
+          "is_counterexample": false
+        },
+        {
+          "id": "b086_full",
+          "stage": "neat two-tone candle with a crisp line between colours",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "pressed_flower_candle",
+      "label": "a candle with a pressed flower against the glass",
+      "beats": [
+        {
+          "id": "b087_full",
+          "stage": "candle with a single dried flower pressed against the glass",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "wax_scraps",
+      "label": "saved leftover wax scraps",
+      "beats": [
+        {
+          "id": "b088_full",
+          "stage": "leftover wax scraps saved in a small jar",
+          "is_counterexample": false
+        },
+        {
+          "id": "b089_live",
+          "stage": "wax scraps melting back down together in a jug",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "five_finished_candles",
+      "label": "the five finished candles (final lineup / value)",
+      "beats": [
+        {
+          "id": "b090_full",
+          "stage": "five finished candles beside a single low price tag",
+          "is_counterexample": false
+        },
+        {
+          "id": "b097_full",
+          "stage": "five finished beginner candles, petal-topped and glowing together",
+          "is_counterexample": false
+        }
+      ]
+    },
+    {
+      "subject_id": "curing_shelf",
+      "label": "the candles curing on a shelf",
+      "beats": [
+        {
+          "id": "b092_full",
+          "stage": "row of fresh candles curing with a handwritten date label",
+          "is_counterexample": false
+        },
+        {
+          "id": "b093_live",
+          "stage": "finished candles resting on a curing shelf in soft window light",
+          "is_counterexample": false
+        }
+      ]
+    }
+  ]
+}

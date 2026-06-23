@@ -1,0 +1,221 @@
+== Stage A: TTS ==
+  TTS b01_br
+  TTS b03_br
+  TTS b04_br
+  TTS b05_br
+  TTS b07_br
+  TTS b10_br
+  TTS b11_br
+  TTS b14_br
+  TTS b15_br
+  TTS b16_br
+  TTS b18_br
+  TTS b19_br
+  TTS b21_br
+  TTS b22_br
+  TTS b23_br
+  TTS b25_br
+  TTS b27_br
+  TTS b28_br
+  TTS b29_br
+  TTS b30_br
+  TTS b32_br
+  TTS b34_br
+  TTS b36_br
+  TTS b39_br
+  TTS b40_br
+  TTS b42_br
+  TTS b44_br
+  TTS b45_br
+  TTS b46_br
+  TTS b47_br
+  TTS b49_br
+  TTS b51_br
+  TTS b53_br
+  TTS b54_br
+  TTS b56_br
+  TTS b57_br
+  TTS b58_br
+  TTS b60_br
+  TTS b61_br
+  TTS b62_br
+  TTS b65_br
+  TTS b66_br
+  TTS b68_br
+  TTS b71_br
+  TTS b72_br
+  TTS b74_br
+  TTS b77_br
+  TTS b78_br
+  TTS b80_br
+  TTS b82_br
+== 84 clips to generate ==
+  submit b00_th[0] 1f28c1a0 (1)
+  submit b01_br[0] 2d553ff8 (2)
+  submit b02_th[0] de9e3ce7 (3)
+  submit b03_br[0] 69f6470c (4)
+  submit b04_br[0] 3ca6df30 (5)
+  DONE b01_br[0] 1624387b
+  submit b05_br[0] 7d9fa7ae (5)
+  DONE b00_th[0] 2602941b
+  submit b06_th[0] 1e9b87fa (5)
+  DONE b03_br[0] 2461376b
+  DONE b04_br[0] 1922501b
+  submit b07_br[0] b84c105d (4)
+  submit b08_th[0] a16d34bd (5)
+  DONE b06_th[0] 1678377b
+  DONE b07_br[0] 1745228b
+  submit b09_th[0] 64b54fc6 (4)
+  submit b10_br[0] 35dd4567 (5)
+  DONE b05_br[0] 2117792b
+  submit b11_br[0] a36ec4e0 (5)
+  DONE b08_th[0] 2602196b
+  submit b12_th[0] bde566ff (5)
+  DONE b10_br[0] 1302526b
+  submit b13_th[0] bf52961e (5)
+  DONE b09_th[0] 2458834b
+  DONE b11_br[0] 1729983b
+  submit b14_br[0] e5ea45f3 (4)
+  submit b15_br[0] 0ddcace3 (5)
+  DONE b12_th[0] 2784762b
+  submit b16_br[0] 36dd2e8a (5)
+  DONE b13_th[0] 2767224b
+  submit b17_th[0] 8c16d15d (5)
+  DONE b14_br[0] 2271728b
+  DONE b15_br[0] 2575182b
+  submit b18_br[0] 56b1a43d (4)
+  submit b19_br[0] 6d8b8c2d (5)
+  DONE b02_th[0] 1596606b
+  DONE b16_br[0] 1516853b
+  submit b20_th[0] 11fa6f06 (4)
+  submit b21_br[0] 92cfbfab (5)
+  DONE b17_th[0] 1930710b
+  submit b22_br[0] f896fe4c (5)
+  DONE b18_br[0] 1823939b
+  submit b23_br[0] 1f8d15ab (5)
+  DONE b19_br[0] 1949334b
+  submit b24_th[0] f51b43d1 (5)
+  DONE b21_br[0] 2112105b
+  submit b25_br[0] 3ef90455 (5)
+  DONE b23_br[0] 2099327b
+  submit b26_th[0] 927c81d2 (5)
+  DONE b22_br[0] 1547337b
+  submit b27_br[0] edcf6430 (5)
+  DONE b24_th[0] 2653074b
+  submit b28_br[0] fc9af1da (5)
+  DONE b25_br[0] 3635730b
+  DONE b26_th[0] 1572927b
+  submit b29_br[0] 9840638e (4)
+  submit b30_br[0] d9545cac (5)
+  DONE b27_br[0] 2495214b
+  submit b31_th[0] 582702c7 (5)
+  DONE b20_th[0] 1936303b
+  submit b32_br[0] 2621f5ff (5)
+  DONE b29_br[0] 1244930b
+  submit b33_th[0] 07559177 (5)
+  DONE b31_th[0] 1720724b
+  submit b34_br[0] 610aff2e (5)
+  DONE b33_th[0] 1906999b
+  submit b35_th[0] 924229c3 (5)
+  DONE b32_br[0] 1914686b
+  submit b36_br[0] 6adbe00d (5)
+  DONE b34_br[0] 3007157b
+  submit b37_th[0] 2b51d2fa (5)
+  DONE b35_th[0] 1585360b
+  submit b38_th[0] 9c46f776 (5)
+  DONE b30_br[0] 1667894b
+  submit b39_br[0] 877bea50 (5)
+  DONE b36_br[0] 2090387b
+  submit b40_br[0] 05bbb0a9 (5)
+  DONE b38_th[0] 2217109b
+  submit b41_th[0] 5ab21e0b (5)
+  DONE b37_th[0] 3013208b
+  submit b42_br[0] c1f29099 (5)
+  DONE b40_br[0] 3118548b
+  DONE b42_br[0] 1296516b
+  submit b43_th[0] 8ce3e20c (4)
+  submit b44_br[0] a6b55445 (5)
+  DONE b41_th[0] 1719086b
+  submit b45_br[0] be4de95b (5)
+  DONE b28_br[0] 4399778b
+  submit b46_br[0] 5b930d8e (5)
+  DONE b44_br[0] 1466860b
+  submit b47_br[0] c833ea16 (5)
+  DONE b43_th[0] 1951605b
+  submit b48_th[0] 4e5abda0 (5)
+  DONE b45_br[0] 2209239b
+  submit b49_br[0] c8d5c58a (5)
+  DONE b47_br[0] 2035290b
+  submit b50_th[0] dd3343db (5)
+  DONE b46_br[0] 2169274b
+  submit b51_br[0] 301d7576 (5)
+  DONE b39_br[0] 1626664b
+  DONE b48_th[0] 1669033b
+  submit b52_th[0] cd792650 (4)
+  submit b53_br[0] 22df1775 (5)
+  DONE b49_br[0] 2157354b
+  DONE b51_br[0] 1187939b
+  submit b54_br[0] b67e0f0e (4)
+  submit b55_th[0] 180b0e12 (5)
+  DONE b50_th[0] 1946364b
+  submit b56_br[0] ff3c24db (5)
+  DONE b53_br[0] 2600573b
+  DONE b54_br[0] 2080639b
+  DONE b55_th[0] 2392203b
+  submit b57_br[0] 9f1b5f6e (3)
+  submit b58_br[0] 313f49c3 (4)
+  submit b59_th[0] 0031d318 (5)
+  DONE b52_th[0] 2490806b
+  submit b60_br[0] 139b8972 (5)
+  DONE b56_br[0] 1098552b
+  DONE b59_th[0] 1983848b
+  submit b61_br[0] aee6b8b9 (4)
+  submit b62_br[0] 7438b3b9 (5)
+  DONE b60_br[0] 1694590b
+  submit b63_th[0] 23ee05eb (5)
+  DONE b62_br[0] 1588929b
+  submit b64_th[0] 66d1c4b3 (5)
+  DONE b61_br[0] 1663903b
+  submit b65_br[0] cd32d2e8 (5)
+  DONE b63_th[0] 1865685b
+  DONE b65_br[0] 1510112b
+  submit b66_br[0] bf8837b1 (4)
+  submit b67_th[0] 4c43633c (5)
+  DONE b57_br[0] 1077110b
+  submit b68_br[0] 31866a33 (5)
+  DONE b67_th[0] 1745348b
+  submit b69_th[0] 701cc52f (5)
+  DONE b66_br[0] 1964881b
+  submit b70_th[0] c4a36be0 (5)
+  DONE b68_br[0] 1699377b
+  submit b71_br[0] 9603988c (5)
+  DONE b58_br[0] 1278230b
+  submit b72_br[0] 974ddadd (5)
+  DONE b70_th[0] 1725759b
+  submit b73_th[0] 35c85feb (5)
+  DONE b69_th[0] 1902602b
+  submit b74_br[0] 90fb42e0 (5)
+  DONE b72_br[0] 1824668b
+  submit b75_th[0] 9f73f477 (5)
+  DONE b71_br[0] 2168034b
+  submit b76_th[0] 298d2bd9 (5)
+  DONE b73_th[0] 1898360b
+  submit b77_br[0] de829b71 (5)
+  DONE b74_br[0] 1575791b
+  DONE b75_th[0] 2508616b
+  submit b78_br[0] 2685d8f3 (4)
+  submit b79_th[0] e38299d6 (5)
+  DONE b76_th[0] 2787809b
+  submit b80_br[0] 63732157 (5)
+  DONE b77_br[0] 2412750b
+  submit b81_th[0] 8ec7272a (5)
+  DONE b64_th[0] 1719690b
+  DONE b78_br[0] 990469b
+  submit b82_br[0] 0fb1ae10 (4)
+  submit b83_th[0] 0032bf9a (5)
+  DONE b80_br[0] 1536081b
+  DONE b79_th[0] 1686062b
+  DONE b81_th[0] 1830275b
+  DONE b82_br[0] 1139138b
+  DONE b83_th[0] 1935732b
+== DONE 84/84 ==

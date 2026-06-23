@@ -1,0 +1,664 @@
+{
+  "title": "Don't Start a Candle Business Until You Watch THIS",
+  "channel": "Candice's Country Candles",
+  "beats": [
+    {
+      "id": "b000_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "Right now, someone is about to waste three hundred dollars starting a candle business.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/ak9ge9.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, at her rustic candle-workshop workbench, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"Right now, someone is about to waste three hundred dollars starting a candle business.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "scene": "bench",
+      "adj_ok": false,
+      "role": "cold_open"
+    },
+    {
+      "id": "b001_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Consider this a friendly warning: do not start a candle business yet, not until you watch this.",
+      "image_prompt": "A casual close-up iPhone photo of a hopeful beginner surrounded by candle supplies with a worried look, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Consider this a friendly warning: do not start a candle business yet, not until you watch this.",
+      "subject_text": "a hopeful beginner surrounded by candle supplies with a worried look",
+      "role": "withheld"
+    },
+    {
+      "id": "b002_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Most new makers break one simple rule, and end up with a garage full of candles nobody buys.",
+      "image_prompt": "A casual close-up iPhone photo of rows of unsold candles boxed up in a garage, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Most new makers break one simple rule, and end up with a garage full of candles nobody buys.",
+      "subject_text": "rows of unsold candles boxed up in a garage"
+    },
+    {
+      "id": "b003_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "I have watched it happen so many times. Lovely people, real money, gone in a few months.",
+      "image_prompt": "A casual close-up iPhone photo of a sad clearance table of marked-down homemade candles, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "I have watched it happen so many times. Lovely people, real money, gone in a few months.",
+      "subject_text": "a sad clearance table of marked-down homemade candles"
+    },
+    {
+      "id": "b004_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "I am Candice. I have sold candles from my kitchen for years.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/oj8sfi.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, by her curing shelf of finished candles, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"I am Candice. I have sold candles from my kitchen for years.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "scene": "shelf",
+      "adj_ok": false,
+      "role": "identity"
+    },
+    {
+      "id": "b005_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "And the people selling you the dream make more money when you fail than when you win.",
+      "image_prompt": "A casual close-up iPhone photo of a slick online candle-business course with a big price tag, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "And the people selling you the dream make more money when you fail than when you win.",
+      "subject_text": "a slick online candle-business course with a big price tag",
+      "role": "dark_loop"
+    },
+    {
+      "id": "b006_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Stay to the end for the one mistake that costs new makers the most.",
+      "image_prompt": "A casual close-up iPhone photo of a single mistake hidden behind a big question mark on the bench, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Stay to the end for the one mistake that costs new makers the most.",
+      "subject_text": "a single mistake hidden behind a big question mark on the bench",
+      "role": "promise"
+    },
+    {
+      "id": "b007_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Get this right, and a candle like this can quietly become a real little business.",
+      "image_prompt": "A casual close-up iPhone photo of a single beautiful finished candle glowing on a clean shelf, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Get this right, and a candle like this can quietly become a real little business.",
+      "subject_text": "a single beautiful finished candle glowing on a clean shelf"
+    },
+    {
+      "id": "b008_c_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "Every fix here is in my cheap ebook \u2014 I hate watching beginners lose money.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/oj8sfi.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, by her curing shelf of finished candles, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"Every fix here is in my cheap ebook \u2014 I hate watching beginners lose money.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "book_cta": true,
+      "scene": "shelf",
+      "adj_ok": true
+    },
+    {
+      "id": "b009_c_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "It is there if you want it, and I will not mention it again.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/bwzggw.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, at her kitchen stove station, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"It is there if you want it, and I will not mention it again.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "scene": "kitchen",
+      "adj_ok": true
+    },
+    {
+      "id": "b010_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Think of this as the video you watch before the start-a-business video. The craft comes first.",
+      "image_prompt": "A casual close-up iPhone photo of a tidy candle workbench set up to learn the craft first, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Think of this as the video you watch before the start-a-business video. The craft comes first.",
+      "subject_text": "a tidy candle workbench set up to learn the craft first",
+      "role": "reframe"
+    },
+    {
+      "id": "b011_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "A business only works on top of a candle that actually works. So we fix the candle first.",
+      "image_prompt": "A casual close-up iPhone photo of a single well-made candle glowing beside a messy failed one, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "A business only works on top of a candle that actually works. So we fix the candle first.",
+      "subject_text": "a single well-made candle glowing beside a messy failed one",
+      "subject_ref_of": "b007_full"
+    },
+    {
+      "id": "b012_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "One of these earns repeat customers. The other earns refund requests. The difference is skill.",
+      "image_prompt": "A casual close-up iPhone photo of a hand holding a perfect candle next to a tunnelled one, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "One of these earns repeat customers. The other earns refund requests. The difference is skill.",
+      "subject_text": "a hand holding a perfect candle next to a tunnelled one"
+    },
+    {
+      "id": "b013_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Here is the rule. Make and burn eighty-four test candles before you ever sell a single one.",
+      "image_prompt": "A casual close-up iPhone photo of a calendar showing twelve weeks, seven test candles marked each week, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Here is the rule. Make and burn eighty-four test candles before you ever sell a single one.",
+      "subject_text": "a calendar showing twelve weeks, seven test candles marked each week",
+      "role": "mechanism",
+      "subject_ref_of": "b003_full"
+    },
+    {
+      "id": "b014_live",
+      "type": "image",
+      "visual_mode": "image_live",
+      "sentence": "Seven a week for twelve weeks. Eighty-four burns. That is the eighty-four candle rule.",
+      "image_prompt": "A casual macro iPhone photo of a test candle burning steadily while notes are written beside it, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "motion": "the flame burns steadily as notes are jotted down",
+      "narration": "Seven a week for twelve weeks. Eighty-four burns. That is the eighty-four candle rule.",
+      "subject_text": "a test candle burning steadily while notes are written beside it"
+    },
+    {
+      "id": "b015_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Those eighty-four burns teach you more than any paid course ever will. And they cost almost nothing.",
+      "image_prompt": "A casual close-up iPhone photo of a notebook full of burn-time notes and wick observations, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Those eighty-four burns teach you more than any paid course ever will. And they cost almost nothing.",
+      "subject_text": "a notebook full of burn-time notes and wick observations"
+    },
+    {
+      "id": "b016_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Each burn answers a question. Right wick? Clean melt? Honest scent throw? You learn by burning.",
+      "image_prompt": "A casual close-up iPhone photo of a shelf of numbered test candles in slightly different recipes, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Each burn answers a question. Right wick? Clean melt? Honest scent throw? You learn by burning.",
+      "subject_text": "a shelf of numbered test candles in slightly different recipes"
+    },
+    {
+      "id": "b017_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Before the rule, there are two skills almost every beginner skips.",
+      "image_prompt": "A casual close-up iPhone photo of two labelled cards on the bench reading wicking and scent, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Before the rule, there are two skills almost every beginner skips.",
+      "subject_text": "two labelled cards on the bench reading wicking and scent"
+    },
+    {
+      "id": "b018_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Skill one is wicking. Why? The wrong wick is why cheap candles tunnel, smoke, or drown.",
+      "image_prompt": "A casual close-up iPhone photo of a hand holding wicks of different sizes against a jar, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Skill one is wicking. Why? The wrong wick is why cheap candles tunnel, smoke, or drown.",
+      "subject_text": "a hand holding wicks of different sizes against a jar",
+      "role": "step",
+      "subject_ref_of": "b012_full"
+    },
+    {
+      "id": "b019_live",
+      "type": "image",
+      "visual_mode": "image_live",
+      "sentence": "Get the wick right and you get this \u2014 a full, clean melt pool. That is the whole game.",
+      "image_prompt": "A casual macro iPhone photo of a candle with a clean wide melt pool reaching the glass edge, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "motion": "the flame glows as the wax melts evenly to the edge",
+      "narration": "Get the wick right and you get this \u2014 a full, clean melt pool. That is the whole game.",
+      "subject_text": "a candle with a clean wide melt pool reaching the glass edge",
+      "subject_ref_of": "b007_full"
+    },
+    {
+      "id": "b020_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Skill two is scent load. Too much oil sweats out, too little is weak. Precision wins.",
+      "image_prompt": "A casual close-up iPhone photo of fragrance oil measured precisely on a small kitchen scale, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Skill two is scent load. Too much oil sweats out, too little is weak. Precision wins.",
+      "subject_text": "fragrance oil measured precisely on a small kitchen scale",
+      "role": "step"
+    },
+    {
+      "id": "b021_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Beginners guess the fragrance. Pros weigh it to the gram. That one habit separates them.",
+      "image_prompt": "A casual close-up iPhone photo of two candles side by side, one sweating oil, one clean, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Beginners guess the fragrance. Pros weigh it to the gram. That one habit separates them.",
+      "subject_text": "two candles side by side, one sweating oil, one clean"
+    },
+    {
+      "id": "b022_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Now the five principles. Get these and the business almost runs itself. Skip them and it sinks.",
+      "image_prompt": "A casual close-up iPhone photo of a hand-lettered card reading 'the five principles', in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Now the five principles. Get these and the business almost runs itself. Skip them and it sinks.",
+      "subject_text": "a hand-lettered card reading 'the five principles'"
+    },
+    {
+      "id": "b023_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "One. Graduate the kit. Learn on a kit, then move to bulk supplies you actually control.",
+      "image_prompt": "A casual close-up iPhone photo of a beginner starter kit beside bulk professional candle supplies, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "One. Graduate the kit. Learn on a kit, then move to bulk supplies you actually control.",
+      "subject_text": "a beginner starter kit beside bulk professional candle supplies",
+      "role": "escalation",
+      "subject_ref_of": "b001_full"
+    },
+    {
+      "id": "b024_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Buying in bulk also drops your cost per candle, which is where the actual profit hides.",
+      "image_prompt": "A casual close-up iPhone photo of a calculator beside bulk wax showing a lower cost per candle, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Buying in bulk also drops your cost per candle, which is where the actual profit hides.",
+      "subject_text": "a calculator beside bulk wax showing a lower cost per candle"
+    },
+    {
+      "id": "b025_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Two. Focus the craft. One candle made perfectly beats twenty made poorly. Every single time.",
+      "image_prompt": "A casual close-up iPhone photo of one signature candle alone on a clean shelf, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Two. Focus the craft. One candle made perfectly beats twenty made poorly. Every single time.",
+      "subject_text": "one signature candle alone on a clean shelf",
+      "role": "escalation",
+      "subject_ref_of": "b007_full"
+    },
+    {
+      "id": "b026_live",
+      "type": "image",
+      "visual_mode": "image_live",
+      "sentence": "People remember one candle they loved. Nobody remembers a table of twenty average ones.",
+      "image_prompt": "A casual macro iPhone photo of a single signature candle glowing, beautifully finished, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "motion": "the flame glows warmly on the one perfect candle",
+      "narration": "People remember one candle they loved. Nobody remembers a table of twenty average ones.",
+      "subject_text": "a single signature candle glowing, beautifully finished",
+      "subject_ref_of": "b007_full"
+    },
+    {
+      "id": "b027_split",
+      "type": "image",
+      "visual_mode": "image_split",
+      "sentence": "Three. Test everything. Burn every batch yourself before a customer ever does.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/ak9ge9.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, at her rustic candle-workshop workbench, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"Three. Test everything. Burn every batch yourself before a customer ever does.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "image_prompt": "A casual close-up iPhone photo of a row of numbered test candles with burn notes, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "ar": "1:1",
+      "split": {
+        "th_side": "left",
+        "th_frac": 0.46
+      },
+      "subject_text": "a row of numbered test candles with burn notes",
+      "role": "escalation",
+      "subject_ref_of": "b014_live"
+    },
+    {
+      "id": "b028_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Track it like a little lab. The maker who measures beats the maker who hopes.",
+      "image_prompt": "A casual close-up iPhone photo of a clipboard tracking burn time, scent throw and soot per batch, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Track it like a little lab. The maker who measures beats the maker who hopes.",
+      "subject_text": "a clipboard tracking burn time, scent throw and soot per batch",
+      "subject_ref_of": "b015_full"
+    },
+    {
+      "id": "b029_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Four. Lock your supply chain. A scent that vanishes mid-launch can quietly kill a new brand.",
+      "image_prompt": "A casual close-up iPhone photo of a reliable wax and wick supplier box on the packing table, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Four. Lock your supply chain. A scent that vanishes mid-launch can quietly kill a new brand.",
+      "subject_text": "a reliable wax and wick supplier box on the packing table",
+      "role": "escalation"
+    },
+    {
+      "id": "b030_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Always keep a backup supplier. The day your wax changes, your whole range changes with it.",
+      "image_prompt": "A casual close-up iPhone photo of two near-identical candles from different wax batches, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Always keep a backup supplier. The day your wax changes, your whole range changes with it.",
+      "subject_text": "two near-identical candles from different wax batches"
+    },
+    {
+      "id": "b031_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Five. Resist variety too early. A tight range is far easier to make, to price, and to sell.",
+      "image_prompt": "A casual close-up iPhone photo of a small tidy range of three matching candles, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Five. Resist variety too early. A tight range is far easier to make, to price, and to sell.",
+      "subject_text": "a small tidy range of three matching candles",
+      "role": "escalation"
+    },
+    {
+      "id": "b032_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Forty scents is not a brand. It is forty ways to run out of the one people wanted.",
+      "image_prompt": "A casual close-up iPhone photo of a confusing shelf of forty mismatched scents, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Forty scents is not a brand. It is forty ways to run out of the one people wanted.",
+      "subject_text": "a confusing shelf of forty mismatched scents"
+    },
+    {
+      "id": "b033_live",
+      "type": "image",
+      "visual_mode": "image_live",
+      "sentence": "My very first batch tunnelled so badly a customer asked for her money back. That taught me the rule.",
+      "image_prompt": "A casual macro iPhone photo of a cozy kitchen years ago with a first wobbly homemade candle, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "motion": "the little flame flickers gently in the old kitchen",
+      "narration": "My very first batch tunnelled so badly a customer asked for her money back. That taught me the rule.",
+      "subject_text": "a cozy kitchen years ago with a first wobbly homemade candle",
+      "role": "story",
+      "subject_ref_of": "b010_full"
+    },
+    {
+      "id": "b034_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "I did not have eighty-four burns behind me. I had three. It showed, and it cost me.",
+      "image_prompt": "A casual close-up iPhone photo of an old notebook with a first shaky candle recipe, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "I did not have eighty-four burns behind me. I had three. It showed, and it cost me.",
+      "subject_text": "an old notebook with a first shaky candle recipe",
+      "subject_ref_of": "b010_full"
+    },
+    {
+      "id": "b035_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "Now let me be honest about the part nobody likes to say.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/f3olyq.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, by a bright window at a small side table, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"Now let me be honest about the part nobody likes to say.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "scene": "window",
+      "adj_ok": false,
+      "role": "honesty"
+    },
+    {
+      "id": "b036_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "A badly made candle does not just disappoint. It can burn the way the fire department expects.",
+      "image_prompt": "A casual close-up iPhone photo of a candle burning safely, beside a scorched table edge as a warning, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "A badly made candle does not just disappoint. It can burn the way the fire department expects.",
+      "subject_text": "a candle burning safely, beside a scorched table edge as a warning",
+      "subject_ref_of": "b014_live"
+    },
+    {
+      "id": "b037_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "If you would not light it in your own child's room, do not sell it. Not ever.",
+      "image_prompt": "A casual close-up iPhone photo of an over-fragranced candle smoking heavily as a what-not-to-do, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "If you would not light it in your own child's room, do not sell it. Not ever.",
+      "subject_text": "an over-fragranced candle smoking heavily as a what-not-to-do"
+    },
+    {
+      "id": "b038_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Selling candles means selling safety. Test the burn, label it honestly, and never rush a launch.",
+      "image_prompt": "A casual close-up iPhone photo of a tidy candle with a clear safety label on the base, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Selling candles means selling safety. Test the burn, label it honestly, and never rush a launch.",
+      "subject_text": "a tidy candle with a clear safety label on the base",
+      "subject_ref_of": "b010_full"
+    },
+    {
+      "id": "b039_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "So why does nobody tell beginners to slow down? There is no money in telling you to wait.",
+      "image_prompt": "A casual close-up iPhone photo of an expensive candle-business course with a ticking countdown timer, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "So why does nobody tell beginners to slow down? There is no money in telling you to wait.",
+      "subject_text": "an expensive candle-business course with a ticking countdown timer",
+      "role": "villain",
+      "subject_ref_of": "b005_full"
+    },
+    {
+      "id": "b040_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "It is not a conspiracy. It is just how the money flows toward whoever sells the shortcut.",
+      "image_prompt": "A casual close-up iPhone photo of money quietly flowing from a beginner toward a course seller, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "It is not a conspiracy. It is just how the money flows toward whoever sells the shortcut.",
+      "subject_text": "money quietly flowing from a beginner toward a course seller"
+    },
+    {
+      "id": "b041_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "The boring truth does not sell courses. Make eighty-four candles. That is the entire secret.",
+      "image_prompt": "A casual close-up iPhone photo of a calm independent maker ignoring the hype, just making candles, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "The boring truth does not sell courses. Make eighty-four candles. That is the entire secret.",
+      "subject_text": "a calm independent maker ignoring the hype, just making candles"
+    },
+    {
+      "id": "b042_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Here is what this whole thing really comes down to.",
+      "image_prompt": "A casual close-up iPhone photo of a candle glowing in a calm family living room at dusk, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Here is what this whole thing really comes down to.",
+      "subject_text": "a candle glowing in a calm family living room at dusk",
+      "role": "stakes",
+      "subject_ref_of": "b007_full"
+    },
+    {
+      "id": "b043_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "A candle sits in someone's home, near their family, while they sleep. That is a real responsibility.",
+      "image_prompt": "A casual close-up iPhone photo of a candle glowing warmly in a real family home at night, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "A candle sits in someone's home, near their family, while they sleep. That is a real responsibility.",
+      "subject_text": "a candle glowing warmly in a real family home at night",
+      "subject_ref_of": "b007_full"
+    },
+    {
+      "id": "b044_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Get the craft right and the business follows. Trust is the whole product you are selling.",
+      "image_prompt": "A casual close-up iPhone photo of a small trusted candle brand loved by repeat customers, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Get the craft right and the business follows. Trust is the whole product you are selling.",
+      "subject_text": "a small trusted candle brand loved by repeat customers"
+    },
+    {
+      "id": "b045_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "So before you start: graduate the kit, focus the craft, test everything, lock supply, resist variety.",
+      "image_prompt": "A casual close-up iPhone photo of the five principles written simply on a little card, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "So before you start: graduate the kit, focus the craft, test everything, lock supply, resist variety.",
+      "subject_text": "the five principles written simply on a little card",
+      "role": "recap",
+      "subject_ref_of": "b022_full"
+    },
+    {
+      "id": "b046_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "And do the eighty-four candle rule first. Twelve quiet weeks now saves you a wasted year later.",
+      "image_prompt": "A casual close-up iPhone photo of a wall calendar with eighty-four test burns ticked off, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "And do the eighty-four candle rule first. Twelve quiet weeks now saves you a wasted year later.",
+      "subject_text": "a wall calendar with eighty-four test burns ticked off"
+    },
+    {
+      "id": "b047_live",
+      "type": "image",
+      "visual_mode": "image_live",
+      "sentence": "Do it in that order, and your launch day feels calm and proud, not panicked.",
+      "image_prompt": "A casual macro iPhone photo of a calm maker selling a small tidy range at a local market, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "motion": "shoppers smile and pick up the neat little candles",
+      "narration": "Do it in that order, and your launch day feels calm and proud, not panicked.",
+      "subject_text": "a calm maker selling a small tidy range at a local market",
+      "role": "future_pace",
+      "subject_ref_of": "b031_full"
+    },
+    {
+      "id": "b048_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Tell me below if you are about to start. I read every single comment.",
+      "image_prompt": "A casual close-up iPhone photo of a phone showing a comments section full of friendly replies, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Tell me below if you are about to start. I read every single comment.",
+      "subject_text": "a phone showing a comments section full of friendly replies",
+      "role": "comment_bait"
+    },
+    {
+      "id": "b049_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "Whatever you decide, make something you would be proud to put your own name on.",
+      "image_prompt": "A casual close-up iPhone photo of a warm shelf of finished candles glowing softly, in a lived-in home candle workshop, a little honest clutter around it. A casual everyday snapshot a normal person quickly took on their phone \u2014 NOT a professional or staged photo. Deep focus with everything sharp front to back, wide ~26mm-equivalent lens, natural available window light only, true-to-life slightly flat color, real texture with faint sensor grain. Framing is casual and a little imperfect \u2014 slightly off-center or mildly tilted, the kind of quick unplanned shot someone takes without composing it, maybe a little too much empty space or a cut-off edge. Absolutely NO background blur or bokeh, NO studio/ring/softbox lighting, NO cinematic color grade, NO glossy stock-photo or 3D-render/CGI look. It must look like an ordinary phone photo off a real person's camera roll, taken on a real wooden workbench. Shot from a natural human eye-level or a gentle three-quarter angle, the way a person actually holds a phone \u2014 NEVER a flat top-down/overhead/bird's-eye desk or table shot, never a perfectly flat lay. No people and no faces unless explicitly part of the subject; no hands unless needed. PHYSICAL REALISM: a candle flame is only ever a single small flame sitting ON a wick \u2014 never floating, detached, coming off a hand, or the whole object on fire; a candle is only lit by bringing a match/lighter right to the wick. Real ordinary candles only \u2014 NO novelty, joke, gag, neon, rainbow or fantasy candles, and any label is a plain believable product label (never a joke name). NO diagrams, arrows, callouts, annotations or floating icons. Wax is melted in a pot on a stove/burner, never boiling on a bare table; liquids pour INTO a container, never onto the table. Everything physically possible and consistent \u2014 nothing morphs, melts wrong or appears. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "Whatever you decide, make something you would be proud to put your own name on.",
+      "subject_text": "a warm shelf of finished candles glowing softly",
+      "subject_ref_of": "b007_full"
+    },
+    {
+      "id": "b050_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "Subscribe, and the next one \u2014 your first candle to sell \u2014 is on screen now.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/oj8sfi.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, by her curing shelf of finished candles, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"Subscribe, and the next one \u2014 your first candle to sell \u2014 is on screen now.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "scene": "shelf",
+      "adj_ok": true,
+      "role": "sequel_hook"
+    },
+    {
+      "id": "b051_th",
+      "type": "character",
+      "visual_mode": "talking_head",
+      "sentence": "Because a candle you made yourself says someone took the time, and that is the point.",
+      "engine": "grok",
+      "seed": "https://litter.catbox.moe/f3olyq.png",
+      "prompt": "She looks straight into the camera and talks warmly to the viewer, by a bright window at a small side table, with small natural head movements and natural blinking, relaxed and friendly. Locked static camera, medium close-up chest up, soft natural window light. Her face stays sharp and stable with the exact same identity the whole time, no morphing or warping. Clean footage, no captions or text. Speech: \"Because a candle you made yourself says someone took the time, and that is the point.\" Sound: Her speaking voice is a warm, friendly, natural American accent, a clear standard General American accent with no foreign or regional twang. A relaxed, even, middle-aged American woman's voice, medium pitch, clear and unhurried. Quiet natural room tone, no background music.",
+      "scene": "window",
+      "adj_ok": true,
+      "role": "signoff"
+    }
+  ],
+  "coined": [
+    "the eighty-four candle rule"
+  ],
+  "signoff": "Because a candle you made yourself says someone took the time, and that is the point."
+}

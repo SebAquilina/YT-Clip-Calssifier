@@ -1,0 +1,35 @@
+== Stage A: TTS ==
+== 16 clips to generate, 5-concurrent ==
+  submit b02-intro[0] 120893e3 (1 inflight)
+  submit b02-intro[1] f13d1d13 (2 inflight)
+  submit b03-hack1[0] fcf05811 (3 inflight)
+  submit b04-hack2[0] bab58784 (4 inflight)
+  submit b05-hack3[0] 3f9382bd (5 inflight)
+  DONE b02-intro[0] 1857928b
+  submit b06-hack4[0] 85ba5a39 (5 inflight)
+  DONE b03-hack1[0] 3732525b
+  submit b07-hack5[0] 8ae2896d (5 inflight)
+  DONE b02-intro[1] 1922342b
+  submit b09-hack6[0] 163c3ef9 (5 inflight)
+  DONE b05-hack3[0] 1760829b
+  submit b09-hack6[1] 556e15d0 (5 inflight)
+  DONE b06-hack4[0] 1170526b
+  submit b10-hack7[0] 4050deb0 (5 inflight)
+  DONE b04-hack2[0] 4460886b
+  DONE b07-hack5[0] 2895624b
+  DONE b09-hack6[0] 1518935b
+  submit b11-hack8[0] 62e1669b (3 inflight)
+  submit b11-hack8[1] c9ff87bb (4 inflight)
+  submit b12-hack9[0] 7e79306a (5 inflight)
+  DONE b09-hack6[1] 1636773b
+  submit b13-hack10[0] b9ce50ae (5 inflight)
+  DONE b10-hack7[0] 3719136b
+  submit b13-hack10[1] 2c196a79 (5 inflight)
+  DONE b11-hack8[0] 1671625b
+  DONE b11-hack8[1] 1643963b
+  submit b15-outro[0] 684f9c03 (4 inflight)
+  DONE b12-hack9[0] 1296986b
+  DONE b13-hack10[0] 2598284b
+  DONE b13-hack10[1] 2229331b
+  DONE b15-outro[0] 1201959b
+== DONE: 59/59 clips downloaded ==

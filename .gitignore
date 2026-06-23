@@ -1,16 +1,21 @@
-# Working data (videos, frames, storyboards, contact sheets) — regenerable
-data/
+# generated video media & runtime state (regenerable; not source — hosted on catbox)
+# rendered media is large and must NEVER be committed (it blows past the push size limit / HTTP 413).
 *.mp4
+*.mov
+*.mp3
+*.wav
 *.m4a
-*.webm
-
-# Python
+*.zip
+*.sqlite
+video_*_veo/Source clips/
+video_*_veo/images/
+video_*_veo/Project files/segments/
+video_*_veo/Project files/state*.json
+video_*_veo/Project files/audio/
+video_*_veo/*.png
+video_*_veo/thumbnail.png
+reference_build/*_cand*.png
+outputs/db/*.jsonl
 __pycache__/
 *.pyc
-*.egg-info/
-.venv/
-venv/
-.pytest_cache/
-
-# keep the outputs directory but not stray temp
-*.tmp
+video_*_veo/thumbnails/

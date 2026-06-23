@@ -1,0 +1,54 @@
+{
+  "title": "DT_SYSTEM_TEST",
+  "beats": [
+    {
+      "id": "t0_th",
+      "type": "image",
+      "visual_mode": "talking_head",
+      "sentence": "I tried every candle at the Dollar Tree, and a few of them genuinely shocked me.",
+      "seed": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "prompt": "Photoreal casual handheld smartphone vlog clip. This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, tortoiseshell glasses, curly LIGHT silvery-grey hair, blue knit sweater and tan apron, white, mid-fifties. Do NOT change her face, age or ethnicity. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to camera in a warm American accent, lips fully in sync, saying exactly: \"I tried every candle at the Dollar Tree, and a few of them genuinely shocked me.\". Exactly ONE person, natural blink and lip-sync, steady framing; she begins the first word immediately with no inhale and speaks continuously, no big inhale at the end. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, soy wax, amber fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles, natural daylight."
+    },
+    {
+      "id": "t1_full",
+      "type": "image",
+      "visual_mode": "image_full",
+      "sentence": "haul of cheap candles",
+      "image_prompt": "Photoreal overhead image of a row of about eight cheap dollar-store glass jar candles lined up on a rustic wooden bench, plain and inexpensive looking. Warm natural daylight, lived-in home candle workshop or rustic wooden bench, true real-world textures, honest shallow depth, slightly imperfect amateur look \u2014 NOT glossy stock, not cinematic. No people and no faces unless explicitly part of the subject; no hands unless needed. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. 16:9.",
+      "kenburns": {
+        "dir": "in"
+      },
+      "narration": "This is the whole haul, every candle they had, for just a few dollars."
+    },
+    {
+      "id": "t2_split",
+      "type": "image",
+      "visual_mode": "image_split",
+      "sentence": "Look at how unevenly this cheap one burns once you actually light it.",
+      "seed": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/bench_anchor.png",
+      "split": {
+        "th_side": "left",
+        "th_frac": 0.46
+      },
+      "image_prompt": "Photoreal close-up image of a close-up of a cheap jar candle burning with a lopsided uneven melt pool and a tunnel forming down one side. Warm natural daylight, lived-in home candle workshop or rustic wooden bench, true real-world textures, honest shallow depth, slightly imperfect amateur look \u2014 NOT glossy stock, not cinematic. No people and no faces unless explicitly part of the subject; no hands unless needed. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. 16:9.",
+      "prompt": "Photoreal casual handheld smartphone vlog clip. This is the EXACT SAME woman shown in the reference keyframe image \u2014 identical face, tortoiseshell glasses, curly LIGHT silvery-grey hair, blue knit sweater and tan apron, white, mid-fifties. Do NOT change her face, age or ethnicity. She is seated at her rustic wooden candle-workshop workbench, looking straight at camera. She speaks directly to camera in a warm American accent, lips fully in sync, saying exactly: \"Look at how unevenly this cheap one burns once you actually light it.\". Exactly ONE person, natural blink and lip-sync, steady framing; she begins the first word immediately with no inhale and speaks continuously, no big inhale at the end. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, soy wax, amber fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles, natural daylight."
+    },
+    {
+      "id": "t3_live",
+      "type": "image",
+      "visual_mode": "image_live",
+      "sentence": "candle flame flicker",
+      "image_prompt": "Photoreal macro image of a single lit candle flame glowing warmly in a dim cozy room, soft bokeh background. Warm natural daylight, lived-in home candle workshop or rustic wooden bench, true real-world textures, honest shallow depth, slightly imperfect amateur look \u2014 NOT glossy stock, not cinematic. No people and no faces unless explicitly part of the subject; no hands unless needed. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. 16:9.",
+      "motion": "the candle flame flickers and dances gently, a faint wisp of smoke rises",
+      "narration": "Watch this one for a second, because that flame is already telling you something."
+    },
+    {
+      "id": "t4_broll",
+      "type": "broll",
+      "visual_mode": "broll",
+      "prompt": "Close-up POV of ONLY the hands and forearms of a mid-fifties woman (fair skin, plain wedding band, blue sweater cuffs, tan apron) as she picks up a cheap glass jar candle from a row on her workbench and turns it under the light. Her hands ONLY, no face, no other person. casual amateur smartphone footage: handheld, slight natural shake, natural light, deep focus; photo-real and physically correct, nothing spawns or vanishes, hands have five fingers, continuous subtle motion, never frozen. CRITICAL ABSOLUTE RULE: ZERO text rendered over the video \u2014 no subtitles, captions, transcription, semi-transparent words, caption bar, lower-thirds, REC dot, UI, timecode, watermark or logos. Pure photographic footage; the only printed words allowed are small real product/jar labels. Do NOT add subtitles. Setting: an ordinary lived-in home candle workshop: a worktable with glass candle jars, soy wax, amber fragrance-oil bottles, a kitchen thermometer and a curing shelf of finished candles, natural daylight.",
+      "narration": "So I lit every single one on my own bench to see what would really happen.",
+      "broll_ref": "https://raw.githubusercontent.com/SebAquilina/YT-Clip-Calssifier/claude/10-candle-hacks-video-xijwmv/video_ps_veo/assets/hands_ref.png"
+    }
+  ]
+}
