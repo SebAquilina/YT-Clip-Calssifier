@@ -13,6 +13,9 @@ ENG="$ROOT/video_dollartree_build"; SK="$ROOT/skills/ai-broll-video-maker/script
 echo "$LABS69_API_KEY" > /tmp/apikey.txt
 cd "$ROOT"; PF="$PROJ/Project files"; say(){ echo "[$(date -u +%H:%M:%S)] $*"; }
 
+say "0/10 local bootstrap (host reference images; no GitHub needed)"
+[ -f /tmp/scene_refs.json ] || LABS69_API_KEY="$LABS69_API_KEY" python3 "$ENG/bootstrap_local.py" || true
+
 say "1/10 build script -> manifest"; python3 "$BUILD" || exit 1
 say "2/10 script_lint (content blueprint + Yoder retention) — HARD GATE"
 python3 "$ENG/script_lint.py" "$PROJ" --xlsx "$IDEATE_XLSX" --title "$TITLE" || { echo "LINT FAILED — fix the script"; exit 2; }
